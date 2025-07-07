@@ -1,0 +1,34 @@
+
+
+```json
+{
+  "chunk_id": "2024-03-02",
+  "entities": [
+    {"name": "ARG", "type": "生物分子"},
+    {"name": "PLM-ARG", "type": "生物信息工具"},
+    {"name": "PLM-ARGDB", "type": "生物信息工具"},
+    {"name": "四环素", "type": "生物分子"},
+    {"name": "肽", "type": "生物分子"},
+    {"name": "阳离子抗菌肽", "type": "生物分子"},
+    {"name": "A0A010ZRL4", "type": "生物分子"},
+    {"name": "A0A023CZL5", "type": "生物分子"},
+    {"name": "UniProt", "type": "生物信息工具"},
+    {"name": "宏基因组测序", "type": "生物技术"},
+    {"name": "MAGs", "type": "生物技术"},
+    {"name": "XGBoost", "type": "深度学习概念"},
+    {"name": "XGBClassifier", "type": "深度学习概念"},
+    {"name": "MultiOutputClassifier", "type": "深度学习概念"},
+    {"name": "MultiLabelBinarizer", "type": "深度学习概念"},
+    {"name": "ESM-1b", "type": "生物信息工具"},
+    {"name": "PyTorch", "type": "生物信息工具"},
+    {"name": "FastaBatchedDataset", "type": "生物信息工具"},
+    {"name": "train.py", "type": "生物信息工具"},
+    {"name": "utility.py", "type": "生物信息工具"},
+    {"name": "抗生素耐药性", "type": "生物医学概念"},
+    {"name": "微生物菌群", "type": "生物医学概念"},
+    {"name": "宏基因组抗性基因多样性调查", "type": "项目活动"},
+    {"name": "文献调研", "type": "项目活动"},
+    {"name": "代码阅读", "type": "项目活动"}
+  ]
+}
+```

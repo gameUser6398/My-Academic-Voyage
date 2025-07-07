@@ -1,0 +1,29 @@
+
+
+```json
+{
+  "chunk_id": "2024-03-02",
+  "relations": [
+    {"head": "项目进展", "type": "包含", "tail": "样本采集"},
+    {"head": "项目进展", "type": "包含", "tail": "文献调研"},
+    {"head": "临床抗生素", "type": "属于", "tail": "抗菌药类别"},
+    {"head": "抗菌药类别", "type": "属于", "tail": "WHO的抗菌药类别"},
+    {"head": "文献调研", "type": "使用", "tail": "抗生素数据库"},
+    {"head": "文献调研", "type": "使用", "tail": "CARD"},
+    {"head": "文献调研", "type": "因果", "tail": "耐药机制"},
+    {"head": "文献调研", "type": "因果", "tail": "耐药类别"},
+    {"head": "文献调研", "type": "因果", "tail": "基因组"},
+    {"head": "文献调研", "type": "因果", "tail": "抗性蛋白"},
+    {"head": "模型构架", "type": "调控", "tail": "F1"},
+    {"head": "模型构架", "type": "调控", "tail": "MCC"},
+    {"head": "模型构架", "type": "属于", "tail": "多标签"},
+    {"head": "模型构架", "type": "使用", "tail": "GAN"},
+    {"head": "模型构架", "type": "使用", "tail": "MASK"},
+    {"head": "模型构架", "type": "使用", "tail": "上采样"},
+    {"head": "Pipline", "type": "包含", "tail": "流程图"},
+    {"head": "Pipline", "type": "展示", "tail": "物种比例图"},
+    {"head": "Pipline", "type": "展示", "tail": "ARG丰度图"},
+    {"head": "项目进展", "type": "包含", "tail": "Pipline"}
+  ]
+}
+```

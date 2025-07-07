@@ -1,0 +1,206 @@
+{
+    "timestamp": "2025-07-07T18:40:43.716124",
+    "filename": "chunk_010_20240716.md",
+    "entities": {
+        "chunk_id": "2024-07-16",
+        "entities": [
+            {
+                "name": "PLM",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "RGDB",
+                "type": "生物分子"
+            },
+            {
+                "name": "card",
+                "type": "生物分子"
+            },
+            {
+                "name": "mibgc",
+                "type": "生物分子"
+            },
+            {
+                "name": "uniprot",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "CD-hit",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "HMG",
+                "type": "生物分子"
+            },
+            {
+                "name": "BLAST",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "ARO",
+                "type": "生物分子"
+            },
+            {
+                "name": "hmd",
+                "type": "生物分子"
+            },
+            {
+                "name": "fasta",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "blastp",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "RGDB_card",
+                "type": "生物分子"
+            },
+            {
+                "name": "0-RGDB-PLM-simple.faa",
+                "type": "生物分子"
+            },
+            {
+                "name": "HSP",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "query_coverage",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "evalue",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "identity",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "coverage",
+                "type": "生物信息工具"
+            }
+        ]
+    },
+    "relations": {
+        "chunk_id": "2024-07-16",
+        "relations": [
+            {
+                "head": "PLM",
+                "type": "融合",
+                "tail": "RGDB"
+            },
+            {
+                "head": "RGDB",
+                "type": "包含",
+                "tail": "card"
+            },
+            {
+                "head": "RGDB",
+                "type": "包含",
+                "tail": "mibgc"
+            },
+            {
+                "head": "RGDB",
+                "type": "包含",
+                "tail": "uniprot"
+            },
+            {
+                "head": "融合PLM、RGDB（card、mibgc、uniprot）",
+                "type": "使用",
+                "tail": "CD-hit"
+            },
+            {
+                "head": "HMG",
+                "type": "使用",
+                "tail": "BLAST"
+            },
+            {
+                "head": "blastp",
+                "type": "使用",
+                "tail": "simple文件"
+            },
+            {
+                "head": "blastp",
+                "type": "使用",
+                "tail": "hmd_db"
+            },
+            {
+                "head": "blastp",
+                "type": "设置阈值",
+                "tail": "evalue"
+            },
+            {
+                "head": "blastp",
+                "type": "设置阈值",
+                "tail": "identity"
+            },
+            {
+                "head": "blastp",
+                "type": "设置阈值",
+                "tail": "coverage"
+            },
+            {
+                "head": "blastp",
+                "type": "输出",
+                "tail": "out文件"
+            },
+            {
+                "head": "out文件",
+                "type": "包含",
+                "tail": "lcl_index"
+            },
+            {
+                "head": "out文件",
+                "type": "包含",
+                "tail": "hmd_index"
+            },
+            {
+                "head": "hmd_index",
+                "type": "融合",
+                "tail": "hmd tsv"
+            },
+            {
+                "head": "simple_fasta",
+                "type": "包含",
+                "tail": "hmd_index"
+            },
+            {
+                "head": "0-RGDB-PL-简单.faa",
+                "type": "使用",
+                "tail": "BLAST"
+            },
+            {
+                "head": "BLAST",
+                "type": "涉及",
+                "tail": "HSP"
+            },
+            {
+                "head": "BLAST",
+                "type": "涉及",
+                "tail": "query_coverage"
+            },
+            {
+                "head": "BLAST",
+                "type": "涉及",
+                "tail": "evalue"
+            },
+            {
+                "head": "BLAST",
+                "type": "涉及",
+                "tail": "identity"
+            },
+            {
+                "head": "BLAST",
+                "type": "涉及",
+                "tail": "coverage"
+            },
+            {
+                "head": "RGDB_card",
+                "type": "提供",
+                "tail": "ARO标签"
+            }
+        ]
+    },
+    "status": "success"
+}

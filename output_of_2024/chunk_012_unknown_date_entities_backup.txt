@@ -1,0 +1,15 @@
+
+
+{
+  "chunk_id": "2024-03-02",
+  "entities": [
+    {"name": "UniProtKB", "type": "生物信息工具"},
+    {"name": "InterPro", "type": "生物信息工具"},
+    {"name": "蛋白质家族", "type": "生物分子"},
+    {"name": "序列相似性搜索工具", "type": "生物信息工具"},
+    {"name": "宏基因组测序", "type": "生物技术"},
+    {"name": "API", "type": "生物信息工具"},
+    {"name": "protein_families", "type": "生物信息工具"},
+    {"name": "P05067", "type": "生物分子"}
+  ]
+}

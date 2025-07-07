@@ -1,0 +1,45 @@
+
+
+```json
+{
+  "chunk_id": "2024-03-02",
+  "relations": [
+    {"head": "ProteinGAN", "type": "使用", "tail": "MMseq2"},
+    {"head": "MMseq2", "type": "使用", "tail": "序列"},
+    {"head": "序列", "type": "属于", "tail": "训练集"},
+    {"head": "序列", "type": "属于", "tail": "验证集"},
+    {"head": "验证集", "type": "使用", "tail": "Chroma"},
+    {"head": "Chroma", "type": "包含", "tail": "design"},
+    {"head": "Chroma", "type": "包含", "tail": "pack"},
+    {"head": "Chroma", "type": "包含", "tail": "sample"},
+    {"head": "Chroma", "type": "包含", "tail": "score"},
+    {"head": "Chroma", "type": "包含", "tail": "score_backbone"},
+    {"head": "Chroma", "type": "包含", "tail": "score_sequence"},
+    {"head": "score", "type": "属于", "tail": "Chroma"},
+    {"head": "score_backbone", "type": "属于", "tail": "Chroma"},
+    {"head": "score_sequence", "type": "属于", "tail": "Chroma"},
+    {"head": "Chroma", "type": "使用", "tail": "torch.module"},
+    {"head": "Chroma", "type": "包含", "tail": "GraphBackbone"},
+    {"head": "Protein", "type": "属于", "tail": "生物信息工具"},
+    {"head": "Protein", "type": "使用", "tail": "PDBID"},
+    {"head": "Protein", "type": "使用", "tail": "CIF"},
+    {"head": "Protein", "type": "使用", "tail": "XCS"},
+    {"head": "Protein", "type": "包含", "tail": "sequence"},
+    {"head": "Protein", "type": "包含", "tail": "length"},
+    {"head": "Protein", "type": "包含", "tail": "to_CIF"},
+    {"head": "Protein", "type": "包含", "tail": "from_PDBID"},
+    {"head": "Protein", "type": "包含", "tail": "from_sequence"},
+    {"head": "SubstructureConditioner", "type": "使用", "tail": "残基"},
+    {"head": "Chroma", "type": "包含", "tail": "SubstructureConditioner"},
+    {"head": "结构预测", "type": "属于", "tail": "RoseTTAFold"},
+    {"head": "结构预测", "type": "属于", "tail": "RFdiffusion"},
+    {"head": "结构预测", "type": "属于", "tail": "Chroma"},
+    {"head": "验证生成结构", "type": "使用", "tail": "PDB"},
+    {"head": "验证生成结构", "type": "使用", "tail": "接触顺序"},
+    {"head": "验证生成结构", "type": "使用", "tail": "回转半径"},
+    {"head": "验证生成结构", "type": "使用", "tail": "长距离接触频率"},
+    {"head": "验证生成结构", "type": "使用", "tail": "残基"},
+    {"head": "设计蛋白质", "type": "因果", "tail": "高TM分数"}
+  ]
+}
+```

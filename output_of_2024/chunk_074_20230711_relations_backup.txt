@@ -1,0 +1,20 @@
+
+
+```json
+{
+  "chunk_id": "2024-03-02",
+  "relations": [
+    {"head": "h5文件", "type": "使用", "tail": "h5py"},
+    {"head": "bio_embeddings", "type": "使用", "tail": "seqvec"},
+    {"head": "seqvec", "type": "使用", "tail": "weights_file"},
+    {"head": "Colab", "type": "使用", "tail": "bio_embeddings"},
+    {"head": "BERT模型", "type": "属于", "tail": "深度学习概念"},
+    {"head": "weights_file", "type": "属于", "tail": "生物信息工具"},
+    {"head": "h5py", "type": "属于", "tail": "生物信息工具"},
+    {"head": "h5文件", "type": "属于", "tail": "生物信息工具"},
+    {"head": "bio_embeddings", "type": "属于", "tail": "生物信息工具"},
+    {"head": "seqvec", "type": "属于", "tail": "生物信息工具"},
+    {"head": "Colab", "type": "属于", "tail": "生物信息工具"}
+  ]
+}
+```

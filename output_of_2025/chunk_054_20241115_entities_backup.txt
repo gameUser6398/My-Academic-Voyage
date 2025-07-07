@@ -1,0 +1,15 @@
+
+
+{
+  "chunk_id": "2024-03-02",
+  "entities": [
+    {"name": "ARG", "type": "生物分子"},
+    {"name": "ARG-BERT", "type": "生物信息工具"},
+    {"name": "ResFinder", "type": "生物信息工具"},
+    {"name": "SARG", "type": "生物分子"},
+    {"name": "抗生素耐药基因", "type": "生物分子"},
+    {"name": "隐马尔可夫模型", "type": "生物信息工具"},
+    {"name": "环境宏基因组", "type": "生物技术"},
+    {"name": "Attention score", "type": "深度学习概念"}
+  ]
+}

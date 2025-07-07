@@ -1,0 +1,22 @@
+
+
+```json
+{
+  "chunk_id": "2024-03-02",
+  "relations": [
+    {"head": "细菌", "type": "调控", "tail": "ARGs"},
+    {"head": "真菌", "type": "拮抗", "tail": "细菌"},
+    {"head": "抗生素抗性基因", "type": "属于", "tail": "ARGs"},
+    {"head": "抗微生物药物耐药性", "type": "因果", "tail": "抗生素抗性基因"},
+    {"head": "C/N比", "type": "调控", "tail": "细菌/真菌丰度比"},
+    {"head": "湿度", "type": "调控", "tail": "细菌/真菌丰度比"},
+    {"head": "细菌/真菌丰度比", "type": "调控", "tail": "ARGs相对丰度"},
+    {"head": "基因组", "type": "使用", "tail": "长读长"},
+    {"head": "基因组", "type": "使用", "tail": "短读长"},
+    {"head": "软件管道", "type": "使用", "tail": "CWL"},
+    {"head": "gcPathogen", "type": "属于", "tail": "文献阅读"},
+    {"head": "抗微生物药物耐药性", "type": "属于", "tail": "文献阅读"},
+    {"head": "ARGs", "type": "属于", "tail": "文献阅读"}
+  ]
+}
+```

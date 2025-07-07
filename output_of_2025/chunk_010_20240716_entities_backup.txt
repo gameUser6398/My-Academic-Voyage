@@ -1,0 +1,28 @@
+
+
+```json
+{
+  "chunk_id": "2024-07-16",
+  "entities": [
+    {"name": "PLM", "type": "生物信息工具"},
+    {"name": "RGDB", "type": "生物分子"},
+    {"name": "card", "type": "生物分子"},
+    {"name": "mibgc", "type": "生物分子"},
+    {"name": "uniprot", "type": "生物信息工具"},
+    {"name": "CD-hit", "type": "生物信息工具"},
+    {"name": "HMG", "type": "生物分子"},
+    {"name": "BLAST", "type": "生物信息工具"},
+    {"name": "ARO", "type": "生物分子"},
+    {"name": "hmd", "type": "生物分子"},
+    {"name": "fasta", "type": "生物信息工具"},
+    {"name": "blastp", "type": "生物信息工具"},
+    {"name": "RGDB_card", "type": "生物分子"},
+    {"name": "0-RGDB-PLM-simple.faa", "type": "生物分子"},
+    {"name": "HSP", "type": "生物信息工具"},
+    {"name": "query_coverage", "type": "生物信息工具"},
+    {"name": "evalue", "type": "生物信息工具"},
+    {"name": "identity", "type": "生物信息工具"},
+    {"name": "coverage", "type": "生物信息工具"}
+  ]
+}
+```

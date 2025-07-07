@@ -1,0 +1,212 @@
+{
+    "timestamp": "2025-07-07T17:32:21.086407",
+    "filename": "chunk_003_20240421.md",
+    "entities": {
+        "chunk_id": "2024-04-21_9_04",
+        "entities": [
+            {
+                "name": "WGS",
+                "type": "生物技术"
+            },
+            {
+                "name": "meropenem",
+                "type": "生物分子"
+            },
+            {
+                "name": "ciprofloxacin",
+                "type": "生物分子"
+            },
+            {
+                "name": "RUN",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "测序仪",
+                "type": "生物技术"
+            },
+            {
+                "name": "SRA",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "EBI",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "DDBJ",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "SRP",
+                "type": "项目活动"
+            },
+            {
+                "name": "ERP",
+                "type": "项目活动"
+            },
+            {
+                "name": "DRP",
+                "type": "项目活动"
+            },
+            {
+                "name": "SRS",
+                "type": "项目活动"
+            },
+            {
+                "name": "ERS",
+                "type": "项目活动"
+            },
+            {
+                "name": "DRS",
+                "type": "项目活动"
+            },
+            {
+                "name": "SRX",
+                "type": "项目活动"
+            },
+            {
+                "name": "ERX",
+                "type": "项目活动"
+            },
+            {
+                "name": "DRX",
+                "type": "项目活动"
+            },
+            {
+                "name": "SRR",
+                "type": "项目活动"
+            },
+            {
+                "name": "ERR",
+                "type": "项目活动"
+            },
+            {
+                "name": "DRR",
+                "type": "项目活动"
+            },
+            {
+                "name": "PRJNA",
+                "type": "项目活动"
+            },
+            {
+                "name": "GSE",
+                "type": "项目活动"
+            },
+            {
+                "name": "ACCESSION IDs",
+                "type": "生物信息工具"
+            }
+        ]
+    },
+    "relations": {
+        "chunk_id": "2024-04-21_9_04",
+        "relations": [
+            {
+                "head": "RUN",
+                "type": "属于",
+                "tail": "测序仪"
+            },
+            {
+                "head": "RUN",
+                "type": "属于",
+                "tail": "SRA"
+            },
+            {
+                "head": "STUDY",
+                "type": "包含",
+                "tail": "SAMPLE"
+            },
+            {
+                "head": "SAMPLE",
+                "type": "包含",
+                "tail": "EXPERIMENT"
+            },
+            {
+                "head": "EXPERIMENT",
+                "type": "包含",
+                "tail": "RUN"
+            },
+            {
+                "head": "RUN",
+                "type": "属于",
+                "tail": "ACCESSION IDs"
+            },
+            {
+                "head": "SRP",
+                "type": "属于",
+                "tail": "ACCESSION IDs"
+            },
+            {
+                "head": "ERP",
+                "type": "属于",
+                "tail": "ACCESSION IDs"
+            },
+            {
+                "head": "DRP",
+                "type": "属于",
+                "tail": "ACCESSION IDs"
+            },
+            {
+                "head": "SRS",
+                "type": "属于",
+                "tail": "ACCESSION IDs"
+            },
+            {
+                "head": "ERS",
+                "type": "属于",
+                "tail": "ACCESSION IDs"
+            },
+            {
+                "head": "DRS",
+                "type": "属于",
+                "tail": "ACCESSION IDs"
+            },
+            {
+                "head": "SRX",
+                "type": "属于",
+                "tail": "ACCESSION IDs"
+            },
+            {
+                "head": "ERX",
+                "type": "属于",
+                "tail": "ACCESSION IDs"
+            },
+            {
+                "head": "DRX",
+                "type": "属于",
+                "tail": "ACCESSION IDs"
+            },
+            {
+                "head": "SRR",
+                "type": "属于",
+                "tail": "ACCESSION IDs"
+            },
+            {
+                "head": "ERR",
+                "type": "属于",
+                "tail": "ACCESSION IDs"
+            },
+            {
+                "head": "DRR",
+                "type": "属于",
+                "tail": "ACCESSION IDs"
+            },
+            {
+                "head": "PRJNA",
+                "type": "属于",
+                "tail": "ACCESSION IDs"
+            },
+            {
+                "head": "GSE",
+                "type": "属于",
+                "tail": "ACCESSION IDs"
+            },
+            {
+                "head": "WGS",
+                "type": "使用",
+                "tail": "测序仪"
+            }
+        ]
+    },
+    "status": "success"
+}

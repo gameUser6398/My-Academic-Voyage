@@ -1,0 +1,20 @@
+
+
+```json
+{
+  "chunk_id": "2024-03-02",
+  "entities": [
+    {"name": "基因本体", "type": "生物分子"},
+    {"name": "GO", "type": "生物分子"},
+    {"name": "MSA", "type": "生物信息工具"},
+    {"name": "进化树", "type": "生物信息工具"},
+    {"name": "CLUSTAL W", "type": "生物信息工具"},
+    {"name": "Neighbor-Joining", "type": "生物信息工具"},
+    {"name": "UPGMA", "type": "生物信息工具"},
+    {"name": "DeepMSA", "type": "生物信息工具"},
+    {"name": "Neff", "type": "深度学习概念"},
+    {"name": "宏基因组序列数据", "type": "生物技术"},
+    {"name": "蛋白质结构", "type": "生物分子"}
+  ]
+}
+```

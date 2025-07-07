@@ -1,0 +1,37 @@
+
+
+{
+  "chunk_id": "2024-03-02",
+  "relations": [
+    {"head": "词袋模型", "type": "包含", "tail": "one-hot"},
+    {"head": "CountVectorizer", "type": "使用", "tail": "N-gram 模型"},
+    {"head": "N-gram 模型", "type": "基于", "tail": "马尔可夫假设"},
+    {"head": "N-gram 模型", "type": "使用", "tail": "最大似然估计"},
+    {"head": "TF-IDF", "type": "解决", "tail": "词袋模型缺点"},
+    {"head": "TfidfVectorizer", "type": "使用", "tail": "TF-IDF"},
+    {"head": "Word2Vec", "type": "包含", "tail": "CBOW"},
+    {"head": "Word2Vec", "type": "包含", "tail": "skip-gram"},
+    {"head": "Word2Vec", "type": "使用", "tail": "softmax"},
+    {"head": "Word2Vec", "type": "使用", "tail": "negative sampling"},
+    {"head": "Word2Vec", "type": "属于", "tail": "词嵌入"},
+    {"head": "GloVe", "type": "解决", "tail": "Word2vec缺点"},
+    {"head": "GloVe", "type": "使用", "tail": "共现矩阵"},
+    {"head": "GloVe", "type": "使用", "tail": "损失函数"},
+    {"head": "GloVe", "type": "使用", "tail": "梯度下降"},
+    {"head": "蛋白质", "type": "包含", "tail": "氨基酸"},
+    {"head": "FastText", "type": "使用", "tail": "词向量构建"},
+    {"head": "蛋白质结构比对", "type": "属于", "tail": "生物技术"},
+    {"head": "词嵌入", "type": "属于", "tail": "深度学习"},
+    {"head": "词嵌入", "type": "属于", "tail": "自然语言处理"},
+    {"head": "Word2Vec", "type": "属于", "tail": "深度学习"},
+    {"head": "CBOW", "type": "属于", "tail": "深度学习"},
+    {"head": "skip-gram", "type": "属于", "tail": "深度学习"},
+    {"head": "GloVe", "type": "属于", "tail": "深度学习"},
+    {"head": "词袋模型", "type": "属于", "tail": "深度学习"},
+    {"head": "one-hot", "type": "属于", "tail": "深度学习"},
+    {"head": "共现矩阵", "type": "属于", "tail": "深度学习"},
+    {"head": "TF-IDF", "type": "属于", "tail": "生物信息工具"},
+    {"head": "TfidfVectorizer", "type": "属于", "tail": "生物信息工具"},
+    {"head": "CountVectorizer", "type": "属于", "tail": "生物信息工具"}
+  ]
+}

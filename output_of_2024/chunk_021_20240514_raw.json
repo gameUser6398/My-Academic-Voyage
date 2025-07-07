@@ -1,0 +1,6 @@
+{
+    "timestamp": "2025-07-07T17:12:02.748740",
+    "filename": "chunk_021_20240514.md",
+    "raw_entities": "\n\n```json\n{\n  \"chunk_id\": \"2024-05-15\",\n  \"entities\": [\n    {\"name\": \"SMOTE\", \"type\": \"深度学习概念\"},\n    {\"name\": \"CGAN\", \"type\": \"深度学习概念\"},\n    {\"name\": \"focal loss\", \"type\": \"深度学习概念\"},\n    {\"name\": \"BCE\", \"type\": \"深度学习概念\"},\n    {\"name\": \"调试计划\", \"type\": \"项目活动\"},\n    {\"name\": \"结项撰写\", \"type\": \"项目活动\"},\n    {\"name\": \"项目进展\", \"type\": \"项目活动\"}\n  ]\n}\n```",
+    "raw_relations": "\n\n```json\n{\n  \"chunk_id\": \"2024-05-15\",\n  \"relations\": [\n    {\"head\": \"调试计划\", \"type\": \"属于\", \"tail\": \"项目进展\"},\n    {\"head\": \"结项撰写\", \"type\": \"属于\", \"tail\": \"项目进展\"},\n    {\"head\": \"SMOTE\", \"type\": \"使用\", \"tail\": \"调试计划\"},\n    {\"head\": \"CGAN\", \"type\": \"使用\", \"tail\": \"调试计划\"},\n    {\"head\": \"focal loss\", \"type\": \"使用\", \"tail\": \"调试计划\"},\n    {\"head\": \"BCE\", \"type\": \"使用\", \"tail\": \"调试计划\"},\n    {\"head\": \"CGAN\", \"type\": \"使用\", \"tail\": \"BCE\"},\n    {\"head\": \"SMOTE\", \"type\": \"使用\", \"tail\": \"focal loss\"},\n    {\"head\": \"CGAN\", \"type\": \"使用\", \"tail\": \"focal loss\"}\n  ]\n}\n```"
+}

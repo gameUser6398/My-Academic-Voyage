@@ -1,0 +1,212 @@
+{
+    "timestamp": "2025-07-07T18:36:36.879384",
+    "filename": "chunk_074_unknown_date.md",
+    "entities": {
+        "chunk_id": "2024-03-02",
+        "entities": [
+            {
+                "name": "系统发育分析",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "SNP",
+                "type": "生物分子"
+            },
+            {
+                "name": "系统发育树",
+                "type": "生物信息概念"
+            },
+            {
+                "name": "重组",
+                "type": "生物分子"
+            },
+            {
+                "name": "同源重组",
+                "type": "生物分子"
+            },
+            {
+                "name": "克隆",
+                "type": "生物分子"
+            },
+            {
+                "name": "Mega6",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "GARLI",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "RAxML",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "FastTree",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "BEAST",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "ClonalFrameML",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "碳青霉烯类RPs",
+                "type": "生物分子"
+            },
+            {
+                "name": "多位点序列类型",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "管家基因",
+                "type": "生物分子"
+            },
+            {
+                "name": "全基因组单核苷酸多态性",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "STs",
+                "type": "生物分子"
+            },
+            {
+                "name": "抗生素耐药性",
+                "type": "生物医学概念"
+            }
+        ]
+    },
+    "relations": {
+        "chunk_id": "2024-03-02",
+        "relations": [
+            {
+                "head": "系统发育分析",
+                "type": "使用",
+                "tail": "SNP矩阵"
+            },
+            {
+                "head": "系统发育分析",
+                "type": "使用",
+                "tail": "Mega6"
+            },
+            {
+                "head": "系统发育分析",
+                "type": "使用",
+                "tail": "GARLI"
+            },
+            {
+                "head": "系统发育分析",
+                "type": "使用",
+                "tail": "RAxML"
+            },
+            {
+                "head": "系统发育分析",
+                "type": "使用",
+                "tail": "FastTree"
+            },
+            {
+                "head": "系统发育分析",
+                "type": "使用",
+                "tail": "BEAST"
+            },
+            {
+                "head": "系统发育分析",
+                "type": "使用",
+                "tail": "ClonalFrameML"
+            },
+            {
+                "head": "系统发育分析",
+                "type": "包含",
+                "tail": "同源重组"
+            },
+            {
+                "head": "系统发育分析",
+                "type": "包含",
+                "tail": "重组"
+            },
+            {
+                "head": "系统发育分析",
+                "type": "属于",
+                "tail": "最大似然方法"
+            },
+            {
+                "head": "系统发育分析",
+                "type": "属于",
+                "tail": "贝叶斯方法"
+            },
+            {
+                "head": "系统发育分析",
+                "type": "属于",
+                "tail": "简约方法"
+            },
+            {
+                "head": "系统发育分析",
+                "type": "属于",
+                "tail": "距离方法"
+            },
+            {
+                "head": "多位点序列类型",
+                "type": "使用",
+                "tail": "管家基因"
+            },
+            {
+                "head": "全基因组单核苷酸多态性",
+                "type": "使用",
+                "tail": "SNP"
+            },
+            {
+                "head": "碳青霉烯类RPs",
+                "type": "因果",
+                "tail": "抗生素耐药性"
+            },
+            {
+                "head": "碳青霉烯类RPs",
+                "type": "调控",
+                "tail": "遗传谱系"
+            },
+            {
+                "head": "系统发育树",
+                "type": "调控",
+                "tail": "种群结构"
+            },
+            {
+                "head": "ClonalFrameML",
+                "type": "使用",
+                "tail": "重组检测"
+            },
+            {
+                "head": "ClonalFrameML",
+                "type": "使用",
+                "tail": "系统发育重建"
+            },
+            {
+                "head": "STs",
+                "type": "属于",
+                "tail": "多位点序列类型"
+            },
+            {
+                "head": "全基因组单核苷酸多态性",
+                "type": "属于",
+                "tail": "生物信息工具"
+            },
+            {
+                "head": "系统发育分析",
+                "type": "属于",
+                "tail": "生物信息工具"
+            },
+            {
+                "head": "克隆",
+                "type": "调控",
+                "tail": "种群结构"
+            },
+            {
+                "head": "抗生素耐药性",
+                "type": "属于",
+                "tail": "生物医学概念"
+            }
+        ]
+    },
+    "status": "success"
+}

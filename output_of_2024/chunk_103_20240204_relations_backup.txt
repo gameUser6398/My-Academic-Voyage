@@ -1,0 +1,31 @@
+
+
+{
+  "chunk_id": "2024-03-02",
+  "relations": [
+    {"head": "Chroma", "type": "属于", "tail": "生物信息工具"},
+    {"head": "Sequence Design", "type": "属于", "tail": "生物信息工具"},
+    {"head": "Backbone Sampling", "type": "属于", "tail": "生物信息工具"},
+    {"head": "SDE", "type": "属于", "tail": "深度学习概念"},
+    {"head": "Langevin", "type": "属于", "tail": "深度学习概念"},
+    {"head": "Potts", "type": "属于", "tail": "深度学习概念"},
+    {"head": "Autoregressive", "type": "属于", "tail": "深度学习概念"},
+    {"head": "MCMC", "type": "属于", "tail": "深度学习概念"},
+    {"head": "Temperature", "type": "属于", "tail": "深度学习概念"},
+    {"head": "Diffusion", "type": "属于", "tail": "深度学习概念"},
+    {"head": "Chromatin", "type": "属于", "tail": "其他"},
+    {"head": "PyTorch", "type": "属于", "tail": "生物信息工具"},
+    {"head": "Chroma", "type": "使用", "tail": "SDE"},
+    {"head": "Chroma", "type": "使用", "tail": "Langevin"},
+    {"head": "Chroma", "type": "使用", "tail": "Potts"},
+    {"head": "Chroma", "type": "使用", "tail": "Autoregressive"},
+    {"head": "Chroma", "type": "使用", "tail": "MCMC"},
+    {"head": "Chroma", "type": "使用", "tail": "Temperature"},
+    {"head": "Chroma", "type": "使用", "tail": "Diffusion"},
+    {"head": "Chroma", "type": "包含", "tail": "Backbone Sampling"},
+    {"head": "Chroma", "type": "包含", "tail": "Sequence Design"},
+    {"head": "Sequence Design", "type": "调控", "tail": "Protein"},
+    {"head": "Backbone Sampling", "type": "调控", "tail": "Protein"},
+    {"head": "Sequence Design", "type": "包含", "tail": "Sidechain"}
+  ]
+}

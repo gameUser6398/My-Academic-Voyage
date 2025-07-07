@@ -1,0 +1,22 @@
+
+
+```json
+{
+  "chunk_id": "2024-03-02",
+  "relations": [
+    {"head": "DeepARG", "type": "使用", "tail": "Levenshtein距离"},
+    {"head": "DeepARG", "type": "使用", "tail": "基因描述"},
+    {"head": "DeepARG", "type": "属于", "tail": "生物信息工具"},
+    {"head": "pandas", "type": "使用", "tail": "数据管理"},
+    {"head": "正则表达式", "type": "使用", "tail": "字符串提取"},
+    {"head": "代码复用", "type": "包含", "tail": "utility.py"},
+    {"head": "utility.py", "type": "使用", "tail": "blast-2.12.0"},
+    {"head": "blast-2.12.0", "type": "属于", "tail": "生物信息工具"},
+    {"head": "数据整理", "type": "包含", "tail": "数据去重"},
+    {"head": "Uniprot", "type": "包含", "tail": "KW_0046"},
+    {"head": "GO", "type": "使用", "tail": "共现"},
+    {"head": "WHO", "type": "使用", "tail": "类别标准化"},
+    {"head": "网页搭建", "type": "属于", "tail": "项目活动"}
+  ]
+}
+```

@@ -1,0 +1,21 @@
+
+
+```json
+{
+  "chunk_id": "2024-03-02",
+  "relations": [
+    {"head": "MSA", "type": "使用", "tail": "进化树"},
+    {"head": "CLUSTAL W", "type": "使用", "tail": "多序列比对"},
+    {"head": "Neighbor-Joining", "type": "属于", "tail": "进化树"},
+    {"head": "UPGMA", "type": "属于", "tail": "进化树"},
+    {"head": "DeepMSA", "type": "使用", "tail": "Neff"},
+    {"head": "DeepMSA", "type": "使用", "tail": "多序列比对"},
+    {"head": "Neff", "type": "调控", "tail": "接触预测结果准确性"},
+    {"head": "宏基因组序列数据", "type": "使用", "tail": "蛋白质结构"},
+    {"head": "基因本体", "type": "属于", "tail": "GO"},
+    {"head": "MSA", "type": "使用", "tail": "CLUSTAL W"},
+    {"head": "MSA", "type": "使用", "tail": "Neighbor-Joining"},
+    {"head": "MSA", "type": "使用", "tail": "UPGMA"}
+  ]
+}
+```

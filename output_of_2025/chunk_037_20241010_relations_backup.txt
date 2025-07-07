@@ -1,0 +1,33 @@
+
+
+```json
+{
+  "chunk_id": "2024-03-02",
+  "relations": [
+    {"head": "基因组簇", "type": "包含", "tail": "耐药突变"},
+    {"head": "耐药突变", "type": "属于", "tail": "生物分子"},
+    {"head": "SNP", "type": "属于", "tail": "生物分子"},
+    {"head": "基因组簇", "type": "包含", "tail": "SNP"},
+    {"head": "rpoB", "type": "属于", "tail": "生物分子"},
+    {"head": "NDM-1", "type": "属于", "tail": "生物分子"},
+    {"head": "blaNDM-1", "type": "属于", "tail": "生物分子"},
+    {"head": "宏基因组分析", "type": "属于", "tail": "生物技术"},
+    {"head": "Genome Warehouse", "type": "属于", "tail": "生物信息工具"},
+    {"head": "NGDC", "type": "属于", "tail": "生物信息工具"},
+    {"head": "抗性基因", "type": "属于", "tail": "生物分子"},
+    {"head": "临床敏感菌", "type": "属于", "tail": "生物医学概念"},
+    {"head": "抗生素耐药性", "type": "属于", "tail": "生物医学概念"},
+    {"head": "文献阅读", "type": "包含", "tail": "临床敏感菌"},
+    {"head": "文献阅读", "type": "包含", "tail": "抗生素耐药性"},
+    {"head": "文献阅读", "type": "包含", "tail": "抗性基因"},
+    {"head": "文献阅读", "type": "使用", "tail": "宏基因组分析"},
+    {"head": "文献阅读", "type": "使用", "tail": "Genome Warehouse"},
+    {"head": "文献阅读", "type": "使用", "tail": "NGDC"},
+    {"head": "blaNDM-1", "type": "调控", "tail": "NDM-1"},
+    {"head": "抗性基因", "type": "包含", "tail": "blaNDM-1"},
+    {"head": "抗生素使用", "type": "因果", "tail": "抗生素耐药性"},
+    {"head": "宏基因组分析", "type": "使用", "tail": "Genome Warehouse"},
+    {"head": "宏基因组分析", "type": "使用", "tail": "NGDC"}
+  ]
+}
+```

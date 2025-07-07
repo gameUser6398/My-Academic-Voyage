@@ -1,0 +1,16 @@
+
+
+```json
+{
+  "chunk_id": "2024-03-02",
+  "relations": [
+    {"head": "蛋白质", "type": "因果", "tail": "替代剪接"},
+    {"head": "蛋白质", "type": "因果", "tail": "翻译后修饰"},
+    {"head": "蛋白质", "type": "属于", "tail": "氨基酸序列"},
+    {"head": "图卷积网络", "type": "属于", "tail": "图嵌入"},
+    {"head": "DeepFRI", "type": "使用", "tail": "图卷积网络"},
+    {"head": "DeepFRI", "type": "属于", "tail": "生物信息工具"},
+    {"head": "DeepFRI", "type": "属于", "tail": "蛋白质功能预测"}
+  ]
+}
+```

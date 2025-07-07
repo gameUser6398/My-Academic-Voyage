@@ -1,0 +1,16 @@
+
+
+```json
+{
+  "chunk_id": "2024-03-02",
+  "entities": [
+    {"name": "h5文件", "type": "生物信息工具"},
+    {"name": "bio_embeddings", "type": "生物信息工具"},
+    {"name": "seqvec", "type": "生物信息工具"},
+    {"name": "weights_file", "type": "生物信息工具"},
+    {"name": "BERT模型", "type": "深度学习概念"},
+    {"name": "h5py", "type": "生物信息工具"},
+    {"name": "Colab", "type": "生物信息工具"}
+  ]
+}
+```

@@ -1,0 +1,27 @@
+
+
+```json
+{
+  "chunk_id": "2024-03-02",
+  "relations": [
+    {"head": "蛋白质", "type": "属于", "tail": "数据表示"},
+    {"head": "氨基酸", "type": "属于", "tail": "数据表示"},
+    {"head": "数据表示", "type": "使用", "tail": "计算机算法"},
+    {"head": "蛋白质", "type": "使用", "tail": "图神经网络"},
+    {"head": "PDB", "type": "使用", "tail": "获取蛋白质的所有pdb文件"},
+    {"head": "图神经网络", "type": "属于", "tail": "文献阅读"},
+    {"head": "ProtT5", "type": "属于", "tail": "深度学习概念"},
+    {"head": "ESM", "type": "属于", "tail": "深度学习概念"},
+    {"head": "ProtBert", "type": "属于", "tail": "深度学习概念"},
+    {"head": "阈值", "type": "属于", "tail": "深度学习概念"},
+    {"head": "损失函数", "type": "使用", "tail": "微调预训练模型"},
+    {"head": "ProtT5", "type": "协同工作", "tail": "ESM"},
+    {"head": "ESM", "type": "协同工作", "tail": "ProtBert"},
+    {"head": "蛋白质", "type": "调控", "tail": "基因表达"},
+    {"head": "基因表达", "type": "调控", "tail": "蛋白质功能"},
+    {"head": "替代剪接", "type": "调控", "tail": "蛋白质功能"},
+    {"head": "翻译后修饰", "type": "调控", "tail": "蛋白质功能"},
+    {"head": "GO Term", "type": "使用", "tail": "预测"}
+  ]
+}
+```

@@ -1,0 +1,10 @@
+
+
+{
+  "chunk_id": "2024-05-22_1616",
+  "entities": [
+    {"name": "chmod", "type": "生物信息工具"},
+    {"name": "chown", "type": "生物信息工具"},
+    {"name": "Linux", "type": "生物信息工具"}
+  ]
+}

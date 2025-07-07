@@ -1,0 +1,100 @@
+{
+    "timestamp": "2025-07-07T16:55:19.510407",
+    "filename": "chunk_001_20230522.md",
+    "entities": {
+        "chunk_id": "2024-03-02",
+        "entities": [
+            {
+                "name": "生物数据库",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "生物信息学",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "Kaggle",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "Gene Ontology",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "神经网络",
+                "type": "深度学习概念"
+            },
+            {
+                "name": "梯度下降法",
+                "type": "深度学习概念"
+            },
+            {
+                "name": "反向传播算法",
+                "type": "深度学习概念"
+            },
+            {
+                "name": "卷积",
+                "type": "深度学习概念"
+            },
+            {
+                "name": "蛋白质",
+                "type": "生物分子"
+            },
+            {
+                "name": "Linux系统",
+                "type": "生物信息工具"
+            }
+        ]
+    },
+    "relations": {
+        "chunk_id": "2024-03-02",
+        "relations": [
+            {
+                "head": "生物信息学",
+                "type": "属于",
+                "tail": "慕课视频"
+            },
+            {
+                "head": "Kaggle",
+                "type": "包含",
+                "tail": "CAFA 5 Protein Function Prediction"
+            },
+            {
+                "head": "Gene Ontology",
+                "type": "属于",
+                "tail": "生物数据库"
+            },
+            {
+                "head": "神经网络",
+                "type": "属于",
+                "tail": "深度学习概念"
+            },
+            {
+                "head": "梯度下降法",
+                "type": "属于",
+                "tail": "深度学习概念"
+            },
+            {
+                "head": "反向传播算法",
+                "type": "属于",
+                "tail": "深度学习概念"
+            },
+            {
+                "head": "卷积",
+                "type": "属于",
+                "tail": "深度学习概念"
+            },
+            {
+                "head": "蛋白质",
+                "type": "属于",
+                "tail": "生物分子"
+            },
+            {
+                "head": "Linux系统",
+                "type": "属于",
+                "tail": "生物信息工具"
+            }
+        ]
+    },
+    "status": "success"
+}

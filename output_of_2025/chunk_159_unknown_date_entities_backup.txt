@@ -1,0 +1,34 @@
+
+
+```json
+{
+  "chunk_id": "2024-03-02",
+  "entities": [
+    {"name": "结核病", "type": "生物医学概念"},
+    {"name": "MTB", "type": "生物分子"},
+    {"name": "INH", "type": "生物分子"},
+    {"name": "katG", "type": "生物分子"},
+    {"name": "inhA", "type": "生物分子"},
+    {"name": "kasA", "type": "生物分子"},
+    {"name": "AhpC", "type": "生物分子"},
+    {"name": "NADH", "type": "生物分子"},
+    {"name": "furA", "type": "生物分子"},
+    {"name": "mce3R", "type": "生物分子"},
+    {"name": "ctpD", "type": "生物分子"},
+    {"name": "Himar1", "type": "生物分子"},
+    {"name": "Rv1909c", "type": "生物分子"},
+    {"name": "Rv1963c", "type": "生物分子"},
+    {"name": "Rv0324", "type": "生物分子"},
+    {"name": "贝达喹啉", "type": "生物分子"},
+    {"name": "抗生素耐药性", "type": "生物医学概念"},
+    {"name": "代谢重组", "type": "生物医学概念"},
+    {"name": "突变", "type": "生物分子"},
+    {"name": "转录因子", "type": "生物分子"},
+    {"name": "转录调控网络", "type": "生物分子"},
+    {"name": "分枝杆菌酸合成", "type": "生物分子"},
+    {"name": "脂肪酸β氧化", "type": "生物分子"},
+    {"name": "工业菌株", "type": "生物技术"},
+    {"name": "测序", "type": "生物技术"}
+  ]
+}
+```

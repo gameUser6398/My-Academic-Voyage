@@ -1,0 +1,16 @@
+
+
+```json
+{
+  "chunk_id": "2024-03-02",
+  "relations": [
+    {"head": "6-11准备Glove词嵌入矩阵embedding_matrix", "type": "使用", "tail": "Glove词嵌入"},
+    {"head": "6-13将预训练的词嵌入加载到embedding层中", "type": "使用", "tail": "预训练的词嵌入"},
+    {"head": "6-13将预训练的词嵌入加载到embedding层中", "type": "属于", "tail": "embedding层"},
+    {"head": "Glove词嵌入", "type": "属于", "tail": "词向量"},
+    {"head": "预训练的词嵌入", "type": "属于", "tail": "词向量"},
+    {"head": "6-14训练评估", "type": "包含", "tail": "二分类准确率"},
+    {"head": "bio_embedding库", "type": "使用", "tail": "词向量"}
+  ]
+}
+```

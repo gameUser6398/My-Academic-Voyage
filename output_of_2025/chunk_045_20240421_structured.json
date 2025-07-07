@@ -1,0 +1,194 @@
+{
+    "timestamp": "2025-07-07T17:48:49.456144",
+    "filename": "chunk_045_20240421.md",
+    "entities": {
+        "chunk_id": "2024-04-21",
+        "entities": [
+            {
+                "name": "ARG",
+                "type": "生物分子"
+            },
+            {
+                "name": "抗生素耐药基因",
+                "type": "生物分子"
+            },
+            {
+                "name": "宏基因组数据",
+                "type": "生物技术"
+            },
+            {
+                "name": "深度学习",
+                "type": "深度学习概念"
+            },
+            {
+                "name": "DeepARG",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "DeepARG-SS",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "DeepARG-LS",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "DeepARG-DB",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "BLAST",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "Bowtie",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "DIAMOND",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "开放阅读框",
+                "type": "生物分子"
+            },
+            {
+                "name": "抗生素耐药性",
+                "type": "生物医学概念"
+            },
+            {
+                "name": "MRSA",
+                "type": "生物医学概念"
+            },
+            {
+                "name": "结核分枝杆菌",
+                "type": "生物分子"
+            },
+            {
+                "name": "粘菌素-碳青霉烯类耐药大肠杆菌",
+                "type": "生物医学概念"
+            },
+            {
+                "name": "mcr-1",
+                "type": "生物分子"
+            },
+            {
+                "name": "NDM-1",
+                "type": "生物分子"
+            },
+            {
+                "name": "ResFinder",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "SEAR",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "文献阅读",
+                "type": "项目活动"
+            }
+        ]
+    },
+    "relations": {
+        "chunk_id": "2024-04-21",
+        "relations": [
+            {
+                "head": "DeepARG",
+                "type": "使用",
+                "tail": "深度学习"
+            },
+            {
+                "head": "DeepARG",
+                "type": "使用",
+                "tail": "宏基因组数据"
+            },
+            {
+                "head": "DeepARG-SS",
+                "type": "属于",
+                "tail": "DeepARG"
+            },
+            {
+                "head": "DeepARG-LS",
+                "type": "属于",
+                "tail": "DeepARG"
+            },
+            {
+                "head": "抗生素使用",
+                "type": "因果",
+                "tail": "抗生素耐药性"
+            },
+            {
+                "head": "抗生素耐药性",
+                "type": "调控",
+                "tail": "ARG"
+            },
+            {
+                "head": "MRSA",
+                "type": "属于",
+                "tail": "抗生素耐药性"
+            },
+            {
+                "head": "结核分枝杆菌",
+                "type": "属于",
+                "tail": "抗生素耐药性"
+            },
+            {
+                "head": "粘菌素-碳青霉烯类耐药大肠杆菌",
+                "type": "属于",
+                "tail": "抗生素耐药性"
+            },
+            {
+                "head": "粘菌素-碳青霉烯类耐药大肠杆菌",
+                "type": "调控",
+                "tail": "mcr-1"
+            },
+            {
+                "head": "粘菌素-碳青霉烯类耐药大肠杆菌",
+                "type": "调控",
+                "tail": "NDM-1"
+            },
+            {
+                "head": "宏基因组数据",
+                "type": "使用",
+                "tail": "BLAST"
+            },
+            {
+                "head": "宏基因组数据",
+                "type": "使用",
+                "tail": "Bowtie"
+            },
+            {
+                "head": "宏基因组数据",
+                "type": "使用",
+                "tail": "DIAMOND"
+            },
+            {
+                "head": "宏基因组数据",
+                "type": "包含",
+                "tail": "开放阅读框"
+            },
+            {
+                "head": "ResFinder",
+                "type": "使用",
+                "tail": "抗生素耐药基因"
+            },
+            {
+                "head": "SEAR",
+                "type": "使用",
+                "tail": "抗生素耐药基因"
+            },
+            {
+                "head": "DeepARG-DB",
+                "type": "包含",
+                "tail": "ARG"
+            },
+            {
+                "head": "DeepARG",
+                "type": "属于",
+                "tail": "文献阅读"
+            }
+        ]
+    },
+    "status": "success"
+}

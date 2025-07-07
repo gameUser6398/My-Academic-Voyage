@@ -1,0 +1,43 @@
+
+
+```json
+{
+  "chunk_id": "2024-03-02",
+  "relations": [
+    {"head": "ARG", "type": "因果", "tail": "抗生素耐药性"},
+    {"head": "青霉素酶基因", "type": "属于", "tail": "ARG"},
+    {"head": "氧化酶基因", "type": "属于", "tail": "ARG"},
+    {"head": "ATP酶基因", "type": "属于", "tail": "ARG"},
+    {"head": "mecA", "type": "属于", "tail": "ARG"},
+    {"head": "vanA", "type": "属于", "tail": "ARG"},
+    {"head": "vanB", "type": "属于", "tail": "ARG"},
+    {"head": "bla", "type": "属于", "tail": "ARG"},
+    {"head": "sul", "type": "属于", "tail": "ARG"},
+    {"head": "tet", "type": "属于", "tail": "ARG"},
+    {"head": "ARG", "type": "包含", "tail": "质粒"},
+    {"head": "ARG", "type": "通过", "tail": "水平基因转移"},
+    {"head": "ARG", "type": "属于", "tail": "抗生素耐药基因"},
+    {"head": "ARG", "type": "存在于", "tail": "微生物群落"},
+    {"head": "ARG", "type": "存在于", "tail": "未受污染的土壤微生物群落"},
+    {"head": "ARG", "type": "存在于", "tail": "野生鸟类"},
+    {"head": "ARG", "type": "导致", "tail": "代谢多样化"},
+    {"head": "ARG", "type": "导致", "tail": "信号破坏"},
+    {"head": "ARG", "type": "赋予", "tail": "适应性"},
+    {"head": "抗生素使用", "type": "因果", "tail": "抗生素耐药性"},
+    {"head": "抗生素", "type": "导致", "tail": "基因突变"},
+    {"head": "基因突变", "type": "调控", "tail": "抗生素耐药性"},
+    {"head": "医院", "type": "包含", "tail": "mecA"},
+    {"head": "医院", "type": "包含", "tail": "vanA"},
+    {"head": "医院", "type": "包含", "tail": "vanB"},
+    {"head": "医院", "type": "包含", "tail": "bla"},
+    {"head": "农场", "type": "包含", "tail": "sul"},
+    {"head": "农场", "type": "包含", "tail": "tet"},
+    {"head": "污水处理厂", "type": "包含", "tail": "sul"},
+    {"head": "污水处理厂", "type": "包含", "tail": "tet"},
+    {"head": "水", "type": "包含", "tail": "sul"},
+    {"head": "水", "type": "包含", "tail": "tet"},
+    {"head": "土壤", "type": "包含", "tail": "sul"},
+    {"head": "土壤", "type": "包含", "tail": "tet"}
+  ]
+}
+```

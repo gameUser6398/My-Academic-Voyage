@@ -1,0 +1,18 @@
+
+
+```json
+{
+  "chunk_id": "2024-08-28_2024-09-03",
+  "entities": [
+    {"name": "蛋白质", "type": "生物分子"},
+    {"name": "DRSN", "type": "深度学习概念"},
+    {"name": "Attention layer", "type": "深度学习概念"},
+    {"name": "可视化", "type": "生物信息工具"},
+    {"name": "LORA技术", "type": "深度学习概念"},
+    {"name": "ESM", "type": "生物信息工具"},
+    {"name": "丰度统计", "type": "项目活动"},
+    {"name": "前后端", "type": "项目活动"},
+    {"name": "结核", "type": "生物医学概念"}
+  ]
+}
+```

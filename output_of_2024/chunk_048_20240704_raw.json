@@ -1,0 +1,6 @@
+{
+    "timestamp": "2025-07-07T16:55:57.144983",
+    "filename": "chunk_048_20240704.md",
+    "raw_entities": "\n\n```json\n{\n  \"chunk_id\": \"2024-03-02\",\n  \"entities\": [\n    {\"name\": \"SMOTE\", \"type\": \"深度学习概念\"},\n    {\"name\": \"支持向量机\", \"type\": \"深度学习概念\"},\n    {\"name\": \"不平衡\", \"type\": \"深度学习概念\"}\n  ]\n}\n```",
+    "raw_relations": "\n\n```json\n{\n  \"chunk_id\": \"2024-03-02\",\n  \"relations\": [\n    {\"head\": \"SMOTE\", \"type\": \"属于\", \"tail\": \"不平衡\"},\n    {\"head\": \"支持向量机\", \"type\": \"使用\", \"tail\": \"SMOTE\"}\n  ]\n}\n```"
+}

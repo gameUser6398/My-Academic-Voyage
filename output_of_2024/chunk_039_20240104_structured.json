@@ -1,0 +1,135 @@
+{
+    "timestamp": "2025-07-07T17:16:42.386462",
+    "filename": "chunk_039_20240104.md",
+    "entities": {
+        "chunk_id": "2024-04-05",
+        "entities": [
+            {
+                "name": "图卷积网络",
+                "type": "深度学习概念"
+            },
+            {
+                "name": "蛋白质语言模型",
+                "type": "深度学习概念"
+            },
+            {
+                "name": "蛋白质结构",
+                "type": "生物分子"
+            },
+            {
+                "name": "蛋白质功能",
+                "type": "生物分子"
+            },
+            {
+                "name": "PSSM",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "structure2GO",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "BPO",
+                "type": "生物医学概念"
+            },
+            {
+                "name": "MFO",
+                "type": "生物医学概念"
+            },
+            {
+                "name": "CCO",
+                "type": "生物医学概念"
+            },
+            {
+                "name": "GO项",
+                "type": "生物医学概念"
+            },
+            {
+                "name": "DeepFRI",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "GAT-GO",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "GO术语",
+                "type": "生物医学概念"
+            },
+            {
+                "name": "IA",
+                "type": "其他"
+            },
+            {
+                "name": "多模态融合",
+                "type": "深度学习概念"
+            }
+        ]
+    },
+    "relations": {
+        "chunk_id": "2024-04-05",
+        "relations": [
+            {
+                "head": "图卷积网络",
+                "type": "使用",
+                "tail": "蛋白质语言模型"
+            },
+            {
+                "head": "图卷积网络",
+                "type": "使用",
+                "tail": "蛋白质结构"
+            },
+            {
+                "head": "图卷积网络",
+                "type": "调控",
+                "tail": "蛋白质功能"
+            },
+            {
+                "head": "GCN Layer3",
+                "type": "使用",
+                "tail": "PSSM"
+            },
+            {
+                "head": "structure2GO",
+                "type": "包含",
+                "tail": "BPO"
+            },
+            {
+                "head": "structure2GO",
+                "type": "包含",
+                "tail": "MFO"
+            },
+            {
+                "head": "structure2GO",
+                "type": "包含",
+                "tail": "CCO"
+            },
+            {
+                "head": "DeepFRI",
+                "type": "使用",
+                "tail": "GO项"
+            },
+            {
+                "head": "GAT-GO",
+                "type": "使用",
+                "tail": "GO术语"
+            },
+            {
+                "head": "GAT-GO",
+                "type": "属于",
+                "tail": "多模态融合"
+            },
+            {
+                "head": "大创",
+                "type": "使用",
+                "tail": "IA"
+            },
+            {
+                "head": "多模态融合",
+                "type": "属于",
+                "tail": "深度学习概念"
+            }
+        ]
+    },
+    "status": "success"
+}

@@ -1,0 +1,15 @@
+
+
+{
+  "chunk_id": "2024-03-02",
+  "entities": [
+    {"name": "GRU", "type": "深度学习概念"},
+    {"name": "Transformer", "type": "深度学习概念"},
+    {"name": "Feature Extraction", "type": "深度学习概念"},
+    {"name": "编码器-解码器", "type": "深度学习概念"},
+    {"name": "全连接层", "type": "深度学习概念"},
+    {"name": "池化", "type": "深度学习概念"},
+    {"name": "Node2vec", "type": "生物信息工具"},
+    {"name": "氨基酸", "type": "生物分子"}
+  ]
+}

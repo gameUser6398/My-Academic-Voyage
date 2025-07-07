@@ -1,0 +1,270 @@
+{
+    "timestamp": "2025-07-07T17:36:22.072115",
+    "filename": "chunk_013_20240730.md",
+    "entities": {
+        "chunk_id": "2024-07-30",
+        "entities": [
+            {
+                "name": "uniprot",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "Antibiotic resistance",
+                "type": "生物医学概念"
+            },
+            {
+                "name": "ARG",
+                "type": "生物分子"
+            },
+            {
+                "name": "resistance",
+                "type": "生物分子"
+            },
+            {
+                "name": "resistant",
+                "type": "生物分子"
+            },
+            {
+                "name": "蛋白质",
+                "type": "生物分子"
+            },
+            {
+                "name": "Linux",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "fetch API",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "DOMContentLoaded",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "事件监听器",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "HTTP 请求",
+                "type": "生物技术"
+            },
+            {
+                "name": "GET 请求",
+                "type": "生物技术"
+            },
+            {
+                "name": "POST 请求",
+                "type": "生物技术"
+            },
+            {
+                "name": "Flask",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "Todo 应用",
+                "type": "其他"
+            },
+            {
+                "name": "subprocess",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "snakemake",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "腾讯云",
+                "type": "其他"
+            },
+            {
+                "name": "数据存储",
+                "type": "项目活动"
+            },
+            {
+                "name": "自抗机制",
+                "type": "生物医学概念"
+            }
+        ]
+    },
+    "relations": {
+        "chunk_id": "2024-07-30",
+        "relations": [
+            {
+                "head": "uniprot",
+                "type": "包含",
+                "tail": "Keywords - Antibiotic resistance (KW-0046)"
+            },
+            {
+                "head": "Keywords - Antibiotic resistance (KW-0046)",
+                "type": "属于",
+                "tail": "Antibiotic resistance"
+            },
+            {
+                "head": "RGDB",
+                "type": "调控",
+                "tail": "resistance"
+            },
+            {
+                "head": "RGDB",
+                "type": "调控",
+                "tail": "resistant"
+            },
+            {
+                "head": "蛋白质",
+                "type": "属于",
+                "tail": "生物分子"
+            },
+            {
+                "head": "蛋白质",
+                "type": "属于",
+                "tail": "ARG"
+            },
+            {
+                "head": "前端",
+                "type": "使用",
+                "tail": "fetch API"
+            },
+            {
+                "head": "前端",
+                "type": "使用",
+                "tail": "DOMContentLoaded"
+            },
+            {
+                "head": "前端",
+                "type": "使用",
+                "tail": "事件监听器"
+            },
+            {
+                "head": "前端",
+                "type": "发送",
+                "tail": "HTTP 请求"
+            },
+            {
+                "head": "前端",
+                "type": "发送",
+                "tail": "GET 请求"
+            },
+            {
+                "head": "前端",
+                "type": "发送",
+                "tail": "POST 请求"
+            },
+            {
+                "head": "后端",
+                "type": "使用",
+                "tail": "Flask"
+            },
+            {
+                "head": "后端",
+                "type": "处理",
+                "tail": "GET 请求"
+            },
+            {
+                "head": "后端",
+                "type": "处理",
+                "tail": "POST 请求"
+            },
+            {
+                "head": "后端",
+                "type": "使用",
+                "tail": "subprocess"
+            },
+            {
+                "head": "后端",
+                "type": "使用",
+                "tail": "snakemake"
+            },
+            {
+                "head": "后端",
+                "type": "涉及",
+                "tail": "数据存储"
+            },
+            {
+                "head": "Todo 应用",
+                "type": "属于",
+                "tail": "项目示例代码"
+            },
+            {
+                "head": "腾讯云",
+                "type": "用于",
+                "tail": "环境配置"
+            },
+            {
+                "head": "Antibiotic resistance",
+                "type": "属于",
+                "tail": "生物医学概念"
+            },
+            {
+                "head": "自抗机制",
+                "type": "属于",
+                "tail": "生物医学概念"
+            },
+            {
+                "head": "Linux",
+                "type": "运行",
+                "tail": "前端"
+            },
+            {
+                "head": "fetch API",
+                "type": "属于",
+                "tail": "生物信息工具"
+            },
+            {
+                "head": "DOMContentLoaded",
+                "type": "属于",
+                "tail": "生物信息工具"
+            },
+            {
+                "head": "事件监听器",
+                "type": "属于",
+                "tail": "生物信息工具"
+            },
+            {
+                "head": "HTTP 请求",
+                "type": "属于",
+                "tail": "生物技术"
+            },
+            {
+                "head": "GET 请求",
+                "type": "属于",
+                "tail": "生物技术"
+            },
+            {
+                "head": "POST 请求",
+                "type": "属于",
+                "tail": "生物技术"
+            },
+            {
+                "head": "Flask",
+                "type": "属于",
+                "tail": "生物信息工具"
+            },
+            {
+                "head": "Todo 应用",
+                "type": "属于",
+                "tail": "其他"
+            },
+            {
+                "head": "subprocess",
+                "type": "属于",
+                "tail": "生物信息工具"
+            },
+            {
+                "head": "snakemake",
+                "type": "属于",
+                "tail": "生物信息工具"
+            },
+            {
+                "head": "数据存储",
+                "type": "属于",
+                "tail": "项目活动"
+            },
+            {
+                "head": "自抗机制",
+                "type": "相关",
+                "tail": "Antibiotic resistance"
+            }
+        ]
+    },
+    "status": "success"
+}

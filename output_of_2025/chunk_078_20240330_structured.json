@@ -1,0 +1,404 @@
+{
+    "timestamp": "2025-07-07T17:48:16.785883",
+    "filename": "chunk_078_20240330.md",
+    "entities": {
+        "chunk_id": "2024-03-02",
+        "entities": [
+            {
+                "name": "NGS",
+                "type": "生物技术"
+            },
+            {
+                "name": "宏基因组",
+                "type": "生物技术"
+            },
+            {
+                "name": "MetaSUB",
+                "type": "项目活动"
+            },
+            {
+                "name": "AMR",
+                "type": "生物医学概念"
+            },
+            {
+                "name": "MegaRES",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "RPKM",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "大环内酯类",
+                "type": "生物分子"
+            },
+            {
+                "name": "林可酰胺类",
+                "type": "生物分子"
+            },
+            {
+                "name": "链霉胺类",
+                "type": "生物分子"
+            },
+            {
+                "name": "β-内酰胺类",
+                "type": "生物分子"
+            },
+            {
+                "name": "EF-Tu 抑制",
+                "type": "生物分子"
+            },
+            {
+                "name": "23S rRNA 甲基转移酶",
+                "type": "生物分子"
+            },
+            {
+                "name": "多药外排泵",
+                "type": "生物分子"
+            },
+            {
+                "name": "质粒",
+                "type": "生物分子"
+            },
+            {
+                "name": "Jaccard 距离",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "Bowtie2",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "ResistomeAnalyzer",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "BLASTn",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "基因簇",
+                "type": "生物分子"
+            },
+            {
+                "name": "抗微生物药物耐药性",
+                "type": "生物医学概念"
+            },
+            {
+                "name": "随机森林模型",
+                "type": "深度学习概念"
+            },
+            {
+                "name": "基因类别",
+                "type": "生物分子"
+            },
+            {
+                "name": "AMR机制",
+                "type": "生物分子"
+            },
+            {
+                "name": "基因组",
+                "type": "生物分子"
+            },
+            {
+                "name": "SNP",
+                "type": "生物分子"
+            },
+            {
+                "name": "核苷酸同一性",
+                "type": "生物分子"
+            },
+            {
+                "name": "抗菌素耐药性基因分析",
+                "type": "项目活动"
+            },
+            {
+                "name": "文献调研",
+                "type": "项目活动"
+            },
+            {
+                "name": "抗性基因",
+                "type": "生物分子"
+            },
+            {
+                "name": "开放的斜率",
+                "type": "其他"
+            },
+            {
+                "name": "全抗性组",
+                "type": "其他"
+            }
+        ]
+    },
+    "relations": {
+        "chunk_id": "2024-03-02",
+        "relations": [
+            {
+                "head": "MetaSUB",
+                "type": "使用",
+                "tail": "宏基因组"
+            },
+            {
+                "head": "MetaSUB",
+                "type": "使用",
+                "tail": "NGS"
+            },
+            {
+                "head": "MetaSUB",
+                "type": "包含",
+                "tail": "标准化采集和测序方案"
+            },
+            {
+                "head": "抗菌素耐药性基因分析",
+                "type": "使用",
+                "tail": "MegaRES"
+            },
+            {
+                "head": "抗菌素耐药性基因分析",
+                "type": "使用",
+                "tail": "Bowtie2"
+            },
+            {
+                "head": "抗菌素耐药性基因分析",
+                "type": "使用",
+                "tail": "ResistomeAnalyzer"
+            },
+            {
+                "head": "抗菌素耐药性基因分析",
+                "type": "使用",
+                "tail": "BLASTn"
+            },
+            {
+                "head": "抗菌素耐药性基因分析",
+                "type": "使用",
+                "tail": "RPKM"
+            },
+            {
+                "head": "MegaRES",
+                "type": "包含",
+                "tail": "AMR机制"
+            },
+            {
+                "head": "MegaRES",
+                "type": "包含",
+                "tail": "基因类别"
+            },
+            {
+                "head": "MegaRES",
+                "type": "包含",
+                "tail": "基因组"
+            },
+            {
+                "head": "抗性基因",
+                "type": "属于",
+                "tail": "全抗性组"
+            },
+            {
+                "head": "AMR基因",
+                "type": "形成",
+                "tail": "基因簇"
+            },
+            {
+                "head": "Jaccard距离",
+                "type": "用于",
+                "tail": "量化AMR基因共同出现频率"
+            },
+            {
+                "head": "聚类分析",
+                "type": "用于",
+                "tail": "将AMR基因组合聚集"
+            },
+            {
+                "head": "随机森林模型",
+                "type": "用于",
+                "tail": "预测城市分类"
+            },
+            {
+                "head": "AMR基因",
+                "type": "属于",
+                "tail": "抗菌素耐药性"
+            },
+            {
+                "head": "AMR基因",
+                "type": "通过",
+                "tail": "质粒传播"
+            },
+            {
+                "head": "核苷酸同一性",
+                "type": "用于",
+                "tail": "识别潜在的混淆基因"
+            },
+            {
+                "head": "文献调研",
+                "type": "属于",
+                "tail": "项目活动"
+            },
+            {
+                "head": "AMR机制",
+                "type": "调控",
+                "tail": "抗生素耐药性"
+            },
+            {
+                "head": "EF-Tu 抑制",
+                "type": "属于",
+                "tail": "AMR机制"
+            },
+            {
+                "head": "23S rRNA 甲基转移酶",
+                "type": "属于",
+                "tail": "AMR机制"
+            },
+            {
+                "head": "多药外排泵",
+                "type": "属于",
+                "tail": "AMR机制"
+            },
+            {
+                "head": "大环内酯类",
+                "type": "属于",
+                "tail": "基因类别"
+            },
+            {
+                "head": "林可酰胺类",
+                "type": "属于",
+                "tail": "基因类别"
+            },
+            {
+                "head": "链霉胺类",
+                "type": "属于",
+                "tail": "基因类别"
+            },
+            {
+                "head": "β-内酰胺类",
+                "type": "属于",
+                "tail": "基因类别"
+            },
+            {
+                "head": "抗菌素耐药性",
+                "type": "因果",
+                "tail": "抗微生物药物耐药性"
+            },
+            {
+                "head": "AMR基因",
+                "type": "属于",
+                "tail": "生物分子"
+            },
+            {
+                "head": "SNP",
+                "type": "用于",
+                "tail": "验证抗性预测"
+            },
+            {
+                "head": "AMR基因",
+                "type": "传播",
+                "tail": "城市环境"
+            },
+            {
+                "head": "AMR基因",
+                "type": "属于",
+                "tail": "基因簇"
+            },
+            {
+                "head": "Jaccard距离",
+                "type": "属于",
+                "tail": "生物信息工具"
+            },
+            {
+                "head": "RPKM",
+                "type": "属于",
+                "tail": "生物信息工具"
+            },
+            {
+                "head": "抗菌素耐药性基因分析",
+                "type": "属于",
+                "tail": "项目活动"
+            },
+            {
+                "head": "AMR",
+                "type": "属于",
+                "tail": "生物医学概念"
+            },
+            {
+                "head": "抗微生物药物耐药性",
+                "type": "属于",
+                "tail": "生物医学概念"
+            },
+            {
+                "head": "抗菌素耐药性",
+                "type": "属于",
+                "tail": "生物医学概念"
+            },
+            {
+                "head": "MegaRES",
+                "type": "属于",
+                "tail": "生物信息工具"
+            },
+            {
+                "head": "Bowtie2",
+                "type": "属于",
+                "tail": "生物信息工具"
+            },
+            {
+                "head": "ResistomeAnalyzer",
+                "type": "属于",
+                "tail": "生物信息工具"
+            },
+            {
+                "head": "BLASTn",
+                "type": "属于",
+                "tail": "生物信息工具"
+            },
+            {
+                "head": "基因簇",
+                "type": "属于",
+                "tail": "生物分子"
+            },
+            {
+                "head": "基因类别",
+                "type": "属于",
+                "tail": "生物分子"
+            },
+            {
+                "head": "AMR机制",
+                "type": "属于",
+                "tail": "生物分子"
+            },
+            {
+                "head": "基因组",
+                "type": "属于",
+                "tail": "生物分子"
+            },
+            {
+                "head": "SNP",
+                "type": "属于",
+                "tail": "生物分子"
+            },
+            {
+                "head": "核苷酸同一性",
+                "type": "属于",
+                "tail": "生物分子"
+            },
+            {
+                "head": "抗性基因",
+                "type": "属于",
+                "tail": "生物分子"
+            },
+            {
+                "head": "开放的斜率",
+                "type": "属于",
+                "tail": "其他"
+            },
+            {
+                "head": "全抗性组",
+                "type": "属于",
+                "tail": "其他"
+            },
+            {
+                "head": "随机森林模型",
+                "type": "属于",
+                "tail": "深度学习概念"
+            }
+        ]
+    },
+    "status": "success"
+}

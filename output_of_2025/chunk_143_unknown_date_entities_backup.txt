@@ -1,0 +1,32 @@
+
+
+```json
+{
+  "chunk_id": "2024-10-08",
+  "entities": [
+    {"name": "五折交叉实验", "type": "项目活动"},
+    {"name": "SMOTE", "type": "生物信息工具"},
+    {"name": "数据增强", "type": "生物信息工具"},
+    {"name": "WGAN", "type": "生物信息工具"},
+    {"name": "AOC", "type": "深度学习概念"},
+    {"name": "MCC", "type": "深度学习概念"},
+    {"name": "超参数", "type": "深度学习概念"},
+    {"name": "数据集", "type": "生物信息工具"},
+    {"name": "训练集", "type": "生物信息工具"},
+    {"name": "测试集", "type": "生物信息工具"},
+    {"name": "模型", "type": "生物信息工具"},
+    {"name": "数据生成模块", "type": "项目活动"},
+    {"name": "数据拆分模块", "type": "项目活动"},
+    {"name": "模型训练模块", "type": "项目活动"},
+    {"name": "模型评估模块", "type": "项目活动"},
+    {"name": "绘图模块", "type": "项目活动"},
+    {"name": "filter_rare-classes", "type": "生物信息工具"},
+    {"name": "filter_rare_sample", "type": "生物信息工具"},
+    {"name": "load_dataset", "type": "生物信息工具"},
+    {"name": "load_wgan", "type": "生物信息工具"},
+    {"name": "load_data", "type": "生物信息工具"},
+    {"name": "generate_data", "type": "生物信息工具"},
+    {"name": "save_merge_data", "type": "生物信息工具"}
+  ]
+}
+```

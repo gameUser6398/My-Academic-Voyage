@@ -1,0 +1,6 @@
+{
+    "timestamp": "2025-07-07T17:09:50.598036",
+    "filename": "chunk_076_20230522.md",
+    "raw_entities": "\n\n{\n  \"chunk_id\": \"2024-03-02\",\n  \"entities\": [\n    {\"name\": \"t-SNE\", \"type\": \"深度学习概念\"},\n    {\"name\": \"bio_embeddings\", \"type\": \"生物信息工具\"},\n    {\"name\": \"scikit-learn\", \"type\": \"生物信息工具\"},\n    {\"name\": \"TSNE\", \"type\": \"深度学习概念\"},\n    {\"name\": \"One hot编码\", \"type\": \"深度学习概念\"}\n  ]\n}",
+    "raw_relations": "\n\n{\n  \"chunk_id\": \"2024-03-02\",\n  \"relations\": [\n    {\"head\": \"bio_embeddings\", \"type\": \"使用\", \"tail\": \"t-SNE\"},\n    {\"head\": \"scikit-learn\", \"type\": \"使用\", \"tail\": \"TSNE\"},\n    {\"head\": \"t-SNE\", \"type\": \"属于\", \"tail\": \"投影方法\"},\n    {\"head\": \"TSNE\", \"type\": \"属于\", \"tail\": \"投影方法\"},\n    {\"head\": \"One hot编码\", \"type\": \"属于\", \"tail\": \"深度学习概念\"}\n  ]\n}"
+}

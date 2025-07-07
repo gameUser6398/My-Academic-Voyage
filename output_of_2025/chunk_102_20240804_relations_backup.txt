@@ -1,0 +1,15 @@
+
+
+{
+  "chunk_id": "2024-08-04",
+  "relations": [
+    {"head": "streptogramin antibiotic", "type": "属于", "tail": "Drug Class"},
+    {"head": "streptogramin antibiotic", "type": "产生", "tail": "链霉菌属"},
+    {"head": "streptogramin antibiotic", "type": "结合", "tail": "细菌核糖体 50S 亚基"},
+    {"head": "streptogramin antibiotic", "type": "调控", "tail": "蛋白质合成"},
+    {"head": "streptogramin antibiotic", "type": "包含", "tail": "A型"},
+    {"head": "streptogramin antibiotic", "type": "包含", "tail": "B型"},
+    {"head": "streptogramin antibiotic", "type": "使用", "tail": "CARD"},
+    {"head": "链霉素", "type": "属于", "tail": "streptogramin antibiotic"}
+  ]
+}

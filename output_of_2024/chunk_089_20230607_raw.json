@@ -1,0 +1,6 @@
+{
+    "timestamp": "2025-07-07T17:08:21.219511",
+    "filename": "chunk_089_20230607.md",
+    "raw_entities": "\n\n```json\n{\n  \"chunk_id\": \"2024-03-02\",\n  \"entities\": [\n    {\"name\": \"蛋白质\", \"type\": \"生物分子\"},\n    {\"name\": \"GO术语\", \"type\": \"生物医学概念\"},\n    {\"name\": \"Linux系统\", \"type\": \"生物信息工具\"}\n  ]\n}\n```",
+    "raw_relations": "\n\n```json\n{\n  \"chunk_id\": \"2024-03-02\",\n  \"relations\": [\n    {\"head\": \"蛋白质\", \"type\": \"属于\", \"tail\": \"GO术语\"},\n    {\"head\": \"Linux系统\", \"type\": \"使用\", \"tail\": \"ontobio\"}\n  ]\n}\n```"
+}

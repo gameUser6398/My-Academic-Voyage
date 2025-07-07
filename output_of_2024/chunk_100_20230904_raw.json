@@ -1,0 +1,6 @@
+{
+    "timestamp": "2025-07-07T17:06:10.346064",
+    "filename": "chunk_100_20230904.md",
+    "raw_entities": "\n\n{\n  \"chunk_id\": \"2024-03-02\",\n  \"entities\": [\n    {\"name\": \"one-hot编码\", \"type\": \"生物信息工具\"},\n    {\"name\": \"蛋白\", \"type\": \"生物分子\"},\n    {\"name\": \"maxlen\", \"type\": \"其他\"},\n    {\"name\": \"序列\", \"type\": \"生物分子\"}\n  ]\n}",
+    "raw_relations": "\n\n{\n  \"chunk_id\": \"2024-03-02\",\n  \"relations\": [\n    {\"head\": \"label\", \"type\": \"使用\", \"tail\": \"one-hot编码\"},\n    {\"head\": \"蛋白\", \"type\": \"包含\", \"tail\": \"序列\"},\n    {\"head\": \"序列\", \"type\": \"调控\", \"tail\": \"maxlen\"}\n  ]\n}"
+}

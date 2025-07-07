@@ -1,0 +1,76 @@
+{
+    "timestamp": "2025-07-07T17:16:27.612534",
+    "filename": "chunk_078_20230529.md",
+    "entities": {
+        "chunk_id": "2024-03-02",
+        "entities": [
+            {
+                "name": "OneHotEncoder",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "蛋白质",
+                "type": "生物分子"
+            },
+            {
+                "name": "氨基酸",
+                "type": "生物分子"
+            },
+            {
+                "name": "BLOSUM",
+                "type": "生物信息工具"
+            }
+        ]
+    },
+    "relations": {
+        "chunk_id": "2024-03-02",
+        "relations": [
+            {
+                "head": "OneHotEncoder",
+                "type": "使用",
+                "tail": "处理分类特征"
+            },
+            {
+                "head": "OneHotEncoder",
+                "type": "属于",
+                "tail": "Sklearn"
+            },
+            {
+                "head": "蛋白质",
+                "type": "包含",
+                "tail": "氨基酸"
+            },
+            {
+                "head": "BLOSUM",
+                "type": "使用",
+                "tail": "表示氨基酸残基相似性"
+            },
+            {
+                "head": "OneHotEncoder",
+                "type": "使用",
+                "tail": "转换整数分类值为独热向量"
+            },
+            {
+                "head": "氨基酸",
+                "type": "属于",
+                "tail": "生物分子"
+            },
+            {
+                "head": "蛋白质",
+                "type": "属于",
+                "tail": "生物分子"
+            },
+            {
+                "head": "OneHotEncoder",
+                "type": "属于",
+                "tail": "生物信息工具"
+            },
+            {
+                "head": "BLOSUM",
+                "type": "属于",
+                "tail": "生物信息工具"
+            }
+        ]
+    },
+    "status": "success"
+}

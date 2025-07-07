@@ -1,0 +1,11 @@
+
+
+{
+  "chunk_id": "2024-03-02",
+  "relations": [
+    {"head": "利用", "type": "使用", "tail": "nn.embedding"},
+    {"head": "Transformer", "type": "使用", "tail": "嵌入"},
+    {"head": "C:\\Users\\34940\\OneDrive\\桌面\\Transformer\\TALE\\example\\data\\train_seq_mf", "type": "包含", "tail": "填充数据0"},
+    {"head": "读取", "type": "属于", "tail": "生化课"}
+  ]
+}

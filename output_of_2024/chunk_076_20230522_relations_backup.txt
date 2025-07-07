@@ -1,0 +1,12 @@
+
+
+{
+  "chunk_id": "2024-03-02",
+  "relations": [
+    {"head": "bio_embeddings", "type": "使用", "tail": "t-SNE"},
+    {"head": "scikit-learn", "type": "使用", "tail": "TSNE"},
+    {"head": "t-SNE", "type": "属于", "tail": "投影方法"},
+    {"head": "TSNE", "type": "属于", "tail": "投影方法"},
+    {"head": "One hot编码", "type": "属于", "tail": "深度学习概念"}
+  ]
+}

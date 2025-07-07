@@ -1,0 +1,18 @@
+
+
+```json
+{
+  "chunk_id": "2024-05-11",
+  "entities": [
+    {"name": "TALE", "type": "生物分子"},
+    {"name": "protein-annotation", "type": "生物信息工具"},
+    {"name": "BLAST", "type": "生物信息工具"},
+    {"name": "one-hot编码", "type": "深度学习概念"},
+    {"name": "conv", "type": "深度学习概念"},
+    {"name": "mean", "type": "深度学习概念"},
+    {"name": "Dataloader", "type": "生物信息工具"},
+    {"name": "模型优化过程", "type": "项目活动"},
+    {"name": "任务分工", "type": "项目活动"}
+  ]
+}
+```

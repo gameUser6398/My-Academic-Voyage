@@ -1,0 +1,33 @@
+
+
+```json
+{
+  "chunk_id": "2024-03-02",
+  "entities": [
+    {"name": "多重耐药菌", "type": "生物医学概念"},
+    {"name": "多标签任务", "type": "其他"},
+    {"name": "ARG", "type": "生物分子"},
+    {"name": "Uniprot", "type": "生物信息工具"},
+    {"name": "耐药ARG", "type": "生物分子"},
+    {"name": "基因组信息", "type": "生物分子"},
+    {"name": "耐药信息", "type": "生物医学概念"},
+    {"name": "NCBI", "type": "生物信息工具"},
+    {"name": "UMAP", "type": "生物信息工具"},
+    {"name": "临床应用", "type": "其他"},
+    {"name": "不平衡数据处理", "type": "项目活动"},
+    {"name": "上采样", "type": "深度学习概念"},
+    {"name": "SMOTE", "type": "深度学习概念"},
+    {"name": "GAN", "type": "深度学习概念"},
+    {"name": "五折交叉验证", "type": "深度学习概念"},
+    {"name": "RGI", "type": "生物信息工具"},
+    {"name": "DeepARG", "type": "生物信息工具"},
+    {"name": "PLMARG", "type": "生物信息工具"},
+    {"name": "ctGAN", "type": "深度学习概念"},
+    {"name": "耐药发生机制", "type": "生物医学概念"},
+    {"name": "固有", "type": "生物医学概念"},
+    {"name": "获得", "type": "生物医学概念"},
+    {"name": "突变", "type": "生物分子"},
+    {"name": "WGS", "type": "生物技术"}
+  ]
+}
+```

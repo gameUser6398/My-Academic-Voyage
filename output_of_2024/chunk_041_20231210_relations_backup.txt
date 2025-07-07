@@ -1,0 +1,24 @@
+
+
+```json
+{
+  "chunk_id": "2024-03-02",
+  "relations": [
+    {"head": "GRU", "type": "使用", "tail": "Feature Extraction"},
+    {"head": "Transformer", "type": "使用", "tail": "Feature Extraction"},
+    {"head": "Feature Extraction", "type": "属于", "tail": "编码器-解码器"},
+    {"head": "GRU", "type": "属于", "tail": "递归机制"},
+    {"head": "Transformer", "type": "使用", "tail": "注意机制"},
+    {"head": "Transformer", "type": "使用", "tail": "位置编码"},
+    {"head": "池化", "type": "属于", "tail": "卷积"},
+    {"head": "GRU", "type": "使用", "tail": "全连接层"},
+    {"head": "Transformer", "type": "使用", "tail": "全连接层"},
+    {"head": "Node2vec", "type": "使用", "tail": "游走"},
+    {"head": "Node2vec", "type": "作用", "tail": "捕获a和b的空间关联"},
+    {"head": "氨基酸", "type": "属于", "tail": "生物分子"},
+    {"head": "Node2vec", "type": "缺乏", "tail": "氨基酸的生化性质信息"},
+    {"head": "Feature Extraction", "type": "作用", "tail": "压缩维度"},
+    {"head": "池化", "type": "作用", "tail": "压缩维度"}
+  ]
+}
+```

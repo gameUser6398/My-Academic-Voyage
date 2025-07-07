@@ -1,0 +1,17 @@
+
+
+{
+  "chunk_id": "2024-03-02",
+  "entities": [
+    {"name": "Hurricast", "type": "其他"},
+    {"name": "CNN", "type": "生物信息工具"},
+    {"name": "Transformer", "type": "深度学习概念"},
+    {"name": "XGBoost", "type": "生物信息工具"},
+    {"name": "梯度提升树", "type": "深度学习概念"},
+    {"name": "特征表示", "type": "其他"},
+    {"name": "嵌入", "type": "其他"},
+    {"name": "统计数据", "type": "其他"},
+    {"name": "图分析结果", "type": "其他"},
+    {"name": "一维向量", "type": "其他"}
+  ]
+}

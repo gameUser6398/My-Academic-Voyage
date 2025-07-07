@@ -1,0 +1,37 @@
+
+
+```json
+{
+  "chunk_id": "2024-03-02",
+  "relations": [
+    {"head": "吞噬Mtb", "type": "调控", "tail": "巨噬细胞内吞作用的酸度降低"},
+    {"head": "脂阿拉伯甘露聚糖", "type": "调控", "tail": "钙离子信号"},
+    {"head": "Mtb", "type": "使用", "tail": "抑制吞噬体与溶酶体的结合"},
+    {"head": "非特异性固有耐药", "type": "属于", "tail": "耐药机制"},
+    {"head": "获得性耐药", "type": "属于", "tail": "耐药机制"},
+    {"head": "复杂的代谢网络", "type": "调控", "tail": "Mtb先天性耐药"},
+    {"head": "WhiB转录因子", "type": "调控", "tail": "耐药性"},
+    {"head": "Sigma", "type": "调控", "tail": "耐药性"},
+    {"head": "毒素-抗毒素系统", "type": "属于", "tail": "转录后调控"},
+    {"head": "sRNA的变化", "type": "导致", "tail": "Mtb先天性耐药性"},
+    {"head": "抗结核药物", "type": "导致", "tail": "疗效下降"},
+    {"head": "TGS1基因", "type": "参与", "tail": "脂肪酸合成"},
+    {"head": "脂肪酸合成", "type": "属于", "tail": "代谢转化"},
+    {"head": "外排泵的增加", "type": "导致", "tail": "多重耐药"},
+    {"head": "细胞壁增厚", "type": "属于", "tail": "药物屏障"},
+    {"head": "转录网络", "type": "被破译", "tail": "耐药 Mtb 菌株"},
+    {"head": "利福平", "type": "属于", "tail": "一线药物"},
+    {"head": "利福平", "type": "作用于", "tail": "RNA聚合酶β"},
+    {"head": "rpoB基因", "type": "编码", "tail": "RNA聚合酶β"},
+    {"head": "异烟肼", "type": "被激活", "tail": "KatG"},
+    {"head": "KatG", "type": "参与", "tail": "代谢转化"},
+    {"head": "异烟肼", "type": "代谢成", "tail": "异烟碱-NAD"},
+    {"head": "NAD", "type": "参与", "tail": "异烟碱-NAD合成"},
+    {"head": "InhA", "type": "被抑制", "tail": "异烟碱-NAD"},
+    {"head": "InhA", "type": "参与", "tail": "细胞壁完整性"},
+    {"head": "单核苷酸多态性", "type": "参与", "tail": "获得性耐药"},
+    {"head": "rpoB基因", "type": "参与", "tail": "获得性耐药"},
+    {"head": "代谢转化", "type": "属于", "tail": "Mtb的固有耐药"}
+  ]
+}
+```

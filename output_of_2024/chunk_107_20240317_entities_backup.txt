@@ -1,0 +1,23 @@
+
+
+```json
+{
+  "chunk_id": "2024-03-02",
+  "entities": [
+    {"name": "DCGAN", "type": "深度学习概念"},
+    {"name": "TensorFlow", "type": "生物信息工具"},
+    {"name": "conv2d", "type": "深度学习概念"},
+    {"name": "lrelu", "type": "深度学习概念"},
+    {"name": "linear", "type": "深度学习概念"},
+    {"name": "sigmoid", "type": "深度学习概念"},
+    {"name": "deconv2d", "type": "深度学习概念"},
+    {"name": "tanh", "type": "深度学习概念"},
+    {"name": "concat", "type": "深度学习概念"},
+    {"name": "BCEWithLogitsLoss", "type": "深度学习概念"},
+    {"name": "PO2GO", "type": "深度学习概念"},
+    {"name": "torch", "type": "生物信息工具"},
+    {"name": "nn", "type": "生物信息工具"},
+    {"name": "Transformer", "type": "深度学习概念"}
+  ]
+}
+```

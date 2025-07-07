@@ -1,0 +1,85 @@
+{
+    "timestamp": "2025-07-07T18:20:19.585423",
+    "filename": "chunk_024_20241230.md",
+    "entities": {
+        "chunk_id": "2024-03-02",
+        "entities": [
+            {
+                "name": "BLAST",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "rpoB野生型",
+                "type": "生物分子"
+            },
+            {
+                "name": "beta-lactam",
+                "type": "生物分子"
+            },
+            {
+                "name": "cross-resistance (交叉耐药)",
+                "type": "生物医学概念"
+            },
+            {
+                "name": "multi-drug",
+                "type": "生物医学概念"
+            },
+            {
+                "name": "tetracycline (四环素)",
+                "type": "生物分子"
+            },
+            {
+                "name": "耐药机制",
+                "type": "生物医学概念"
+            },
+            {
+                "name": "过表达蛋白",
+                "type": "生物分子"
+            },
+            {
+                "name": "突变蛋白",
+                "type": "生物分子"
+            },
+            {
+                "name": "缺失蛋白",
+                "type": "生物分子"
+            }
+        ]
+    },
+    "relations": {
+        "chunk_id": "2024-03-02",
+        "relations": [
+            {
+                "head": "简单BLAST",
+                "type": "使用",
+                "tail": "rpoB野生型"
+            },
+            {
+                "head": "beta-lactam",
+                "type": "属于",
+                "tail": "cross-resistance (交叉耐药)"
+            },
+            {
+                "head": "tetracycline (四环素)",
+                "type": "属于",
+                "tail": "multi-drug"
+            },
+            {
+                "head": "过表达蛋白",
+                "type": "属于",
+                "tail": "耐药机制"
+            },
+            {
+                "head": "突变蛋白",
+                "type": "属于",
+                "tail": "耐药机制"
+            },
+            {
+                "head": "缺失蛋白",
+                "type": "属于",
+                "tail": "耐药机制"
+            }
+        ]
+    },
+    "status": "success"
+}

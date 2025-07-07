@@ -1,0 +1,16 @@
+
+
+{
+  "chunk_id": "2024-10-15",
+  "relations": [
+    {"head": "SpaCy", "type": "包含", "tail": "管道"},
+    {"head": "管道", "type": "包含", "tail": "分词"},
+    {"head": "管道", "type": "包含", "tail": "词性标注"},
+    {"head": "管道", "type": "包含", "tail": "依存解析"},
+    {"head": "SpaCy", "type": "使用", "tail": "BERT"},
+    {"head": "Flask", "type": "使用", "tail": "蛋白质"},
+    {"head": "Flask", "type": "使用", "tail": "基因组"},
+    {"head": "Flask", "type": "使用", "tail": "原始测序数据"},
+    {"head": "抗生素", "type": "属于", "tail": "生物医学概念"}
+  ]
+}

@@ -1,0 +1,20 @@
+
+
+{
+  "chunk_id": "2023-10-14",
+  "entities": [
+    {"name": "蛋白质家族", "type": "生物分子"},
+    {"name": "TALE", "type": "生物分子"},
+    {"name": "label_embedding", "type": "深度学习概念"},
+    {"name": "稀疏矩阵", "type": "深度学习概念"},
+    {"name": "密集矩阵", "type": "深度学习概念"},
+    {"name": "深度优先处理", "type": "深度学习概念"},
+    {"name": "Python", "type": "生物信息工具"},
+    {"name": "bio_embedding", "type": "生物信息工具"},
+    {"name": "Biopython", "type": "生物信息工具"},
+    {"name": "CAFA赛", "type": "项目活动"},
+    {"name": "CAFA数据集", "type": "项目活动"},
+    {"name": "CAFA提交", "type": "项目活动"},
+    {"name": "CAFA论坛", "type": "项目活动"}
+  ]
+}

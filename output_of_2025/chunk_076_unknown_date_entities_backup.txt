@@ -1,0 +1,41 @@
+
+
+{
+  "chunk_id": "2024-03-02",
+  "entities": [
+    {"name": "抗生素耐药性转移", "type": "生物分子"},
+    {"name": "HGT-ARG", "type": "生物分子"},
+    {"name": "ARG", "type": "生物分子"},
+    {"name": "HGT", "type": "生物分子"},
+    {"name": "KO", "type": "生物分子"},
+    {"name": "ARG-miner", "type": "生物信息工具"},
+    {"name": "RF", "type": "深度学习概念"},
+    {"name": "Lasso", "type": "深度学习概念"},
+    {"name": "GCN", "type": "深度学习概念"},
+    {"name": "超参数", "type": "深度学习概念"},
+    {"name": "max_features", "type": "深度学习概念"},
+    {"name": "min_samples_leaf", "type": "深度学习概念"},
+    {"name": "min_samples_split", "type": "深度学习概念"},
+    {"name": "n_estimators", "type": "深度学习概念"},
+    {"name": "class_weight", "type": "深度学习概念"},
+    {"name": "GridSearchCV", "type": "深度学习概念"},
+    {"name": "cv", "type": "深度学习概念"},
+    {"name": "feature_importances", "type": "深度学习概念"},
+    {"name": "CD-HIT", "type": "生物信息工具"},
+    {"name": "NetworkX", "type": "生物信息工具"},
+    {"name": ".shortest_path_length", "type": "生物信息工具"},
+    {"name": "ROC曲线", "type": "深度学习概念"},
+    {"name": "假阳性率", "type": "深度学习概念"},
+    {"name": "真阳性率", "type": "深度学习概念"},
+    {"name": "精确召回率曲线", "type": "深度学习概念"},
+    {"name": "AUC指标", "type": "深度学习概念"},
+    {"name": "sklearn.metrics.roc_curve", "type": "生物信息工具"},
+    {"name": "sklearn.metrics.precision_recall_curve", "type": "生物信息工具"},
+    {"name": "sklearn.metrics.auc", "type": "生物信息工具"},
+    {"name": "大肠杆菌", "type": "生物分子"},
+    {"name": "淋病奈瑟菌", "type": "生物分子"},
+    {"name": "鲍曼不动杆菌", "type": "生物分子"},
+    {"name": "16S rRNA", "type": "生物分子"},
+    {"name": "DNA", "type": "生物分子"}
+  ]
+}

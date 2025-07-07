@@ -1,0 +1,12 @@
+
+
+{
+  "chunk_id": "2024-03-02",
+  "entities": [
+    {"name": "Mycobacterium tuberculosis", "type": "生物分子"},
+    {"name": "深度学习", "type": "深度学习概念"},
+    {"name": "Global Catalogue of Microorganisms", "type": "其他"},
+    {"name": "Global Catalogue", "type": "其他"},
+    {"name": "wdcm.org", "type": "其他"}
+  ]
+}

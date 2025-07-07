@@ -1,0 +1,30 @@
+
+
+```json
+{
+  "chunk_id": "2024-03-02_29",
+  "relations": [
+    {"head": "抗生素使用", "type": "因果", "tail": "抗生素耐药性"},
+    {"head": "抗生素使用", "type": "调控", "tail": "ARB"},
+    {"head": "抗生素使用", "type": "调控", "tail": "ARG"},
+    {"head": "ARB", "type": "属于", "tail": "抗生素耐药性"},
+    {"head": "ARG", "type": "属于", "tail": "抗生素耐药性"},
+    {"head": "宏基因组学", "type": "使用", "tail": "医院污水"},
+    {"head": "宏基因组学", "type": "使用", "tail": "ARG"},
+    {"head": "宏基因组学", "type": "使用", "tail": "ARB"},
+    {"head": "培养", "type": "使用", "tail": "ARB"},
+    {"head": "ARG", "type": "调控", "tail": "ARB"},
+    {"head": "ARG", "type": "属于", "tail": "细菌特异性DNA序列"},
+    {"head": "质粒", "type": "调控", "tail": "ARG"},
+    {"head": "转座子", "type": "调控", "tail": "ARG"},
+    {"head": "整合子", "type": "调控", "tail": "ARG"},
+    {"head": "金黄色葡萄球菌", "type": "具有", "tail": "β-内酰胺酶"},
+    {"head": "金黄色葡萄球菌", "type": "具有", "tail": "四环素"},
+    {"head": "金黄色葡萄球菌", "type": "具有", "tail": "林可酰胺类"},
+    {"head": "AR预测风险模型", "type": "使用", "tail": "ARG"},
+    {"head": "AR预测风险模型", "type": "使用", "tail": "ARB"},
+    {"head": "AR预测风险模型", "type": "属于", "tail": "样本采集"},
+    {"head": "AR预测风险模型", "type": "属于", "tail": "文献调研"}
+  ]
+}
+```

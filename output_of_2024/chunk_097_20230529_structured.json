@@ -1,0 +1,169 @@
+{
+    "timestamp": "2025-07-07T17:17:58.982802",
+    "filename": "chunk_097_20230529.md",
+    "entities": {
+        "chunk_id": "2024-03-02",
+        "entities": [
+            {
+                "name": "CNN",
+                "type": "深度学习概念"
+            },
+            {
+                "name": "蛋白质",
+                "type": "生物分子"
+            },
+            {
+                "name": "BERT",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "Transformer",
+                "type": "深度学习概念"
+            },
+            {
+                "name": "自注意力机制",
+                "type": "深度学习概念"
+            },
+            {
+                "name": "遮蔽语言模型",
+                "type": "深度学习概念"
+            },
+            {
+                "name": "下一句预测",
+                "type": "深度学习概念"
+            },
+            {
+                "name": "生物数据库",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "基因本体论",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "蛋白质数据库",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "微调",
+                "type": "深度学习概念"
+            },
+            {
+                "name": "文本分类",
+                "type": "深度学习概念"
+            },
+            {
+                "name": "命名实体识别",
+                "type": "深度学习概念"
+            },
+            {
+                "name": "句子关系判断",
+                "type": "深度学习概念"
+            },
+            {
+                "name": "RNN",
+                "type": "深度学习概念"
+            },
+            {
+                "name": "AUC指标",
+                "type": "深度学习概念"
+            }
+        ]
+    },
+    "relations": {
+        "chunk_id": "2024-03-02",
+        "relations": [
+            {
+                "head": "BERT",
+                "type": "属于",
+                "tail": "Transformer"
+            },
+            {
+                "head": "Transformer",
+                "type": "包含",
+                "tail": "自注意力机制"
+            },
+            {
+                "head": "BERT",
+                "type": "使用",
+                "tail": "遮蔽语言模型"
+            },
+            {
+                "head": "BERT",
+                "type": "使用",
+                "tail": "下一句预测"
+            },
+            {
+                "head": "BERT",
+                "type": "使用",
+                "tail": "微调"
+            },
+            {
+                "head": "微调",
+                "type": "属于",
+                "tail": "深度学习概念"
+            },
+            {
+                "head": "微调",
+                "type": "属于",
+                "tail": "文本分类"
+            },
+            {
+                "head": "微调",
+                "type": "属于",
+                "tail": "命名实体识别"
+            },
+            {
+                "head": "微调",
+                "type": "属于",
+                "tail": "句子关系判断"
+            },
+            {
+                "head": "BERT",
+                "type": "属于",
+                "tail": "生物信息工具"
+            },
+            {
+                "head": "蛋白质数据库",
+                "type": "属于",
+                "tail": "生物信息工具"
+            },
+            {
+                "head": "基因本体论",
+                "type": "属于",
+                "tail": "生物信息工具"
+            },
+            {
+                "head": "生物数据库",
+                "type": "属于",
+                "tail": "生物信息工具"
+            },
+            {
+                "head": "CNN",
+                "type": "属于",
+                "tail": "深度学习概念"
+            },
+            {
+                "head": "RNN",
+                "type": "属于",
+                "tail": "深度学习概念"
+            },
+            {
+                "head": "AUC指标",
+                "type": "属于",
+                "tail": "深度学习概念"
+            },
+            {
+                "head": "BERT",
+                "type": "优于",
+                "tail": "RNN"
+            },
+            {
+                "head": "BERT",
+                "type": "优于",
+                "tail": "CNN"
+            }
+        ]
+    },
+    "status": "success"
+}

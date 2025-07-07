@@ -1,0 +1,16 @@
+
+
+{
+  "chunk_id": "2024-03-02",
+  "entities": [
+    {"name": "Linux", "type": "生物信息工具"},
+    {"name": "ls", "type": "生物信息工具"},
+    {"name": "-a", "type": "生物信息工具"},
+    {"name": "-l", "type": "生物信息工具"},
+    {"name": "-h", "type": "生物信息工具"},
+    {"name": "cd", "type": "生物信息工具"},
+    {"name": "pwd", "type": "生物信息工具"},
+    {"name": "mkdir", "type": "生物信息工具"},
+    {"name": "-p", "type": "生物信息工具"}
+  ]
+}

@@ -1,0 +1,12 @@
+
+
+```json
+{
+  "chunk_id": "2024-03-02",
+  "entities": [
+    {"name": "OneHotEncoder", "type": "生物信息工具"},
+    {"name": "Onehot", "type": "生物信息工具"},
+    {"name": "Pandas", "type": "生物信息工具"}
+  ]
+}
+```

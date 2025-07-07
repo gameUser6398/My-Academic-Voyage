@@ -1,0 +1,291 @@
+{
+    "timestamp": "2025-07-07T19:44:21.019327",
+    "filename": "chunk_105_20241102_split_1.md",
+    "entities": {
+        "chunk_id": "2024-03-02",
+        "entities": [
+            {
+                "name": "beta-lactam antibiotic catabolic process",
+                "type": "生物分子"
+            },
+            {
+                "name": "doxorubicin",
+                "type": "生物分子"
+            },
+            {
+                "name": "daunorubicin",
+                "type": "生物分子"
+            },
+            {
+                "name": "antibiotic efflux",
+                "type": "生物医学概念"
+            },
+            {
+                "name": "antibiotic inactivation",
+                "type": "生物医学概念"
+            },
+            {
+                "name": "putative_resistance_protein_transporter",
+                "type": "生物分子"
+            },
+            {
+                "name": "putative_uvra-drug_resistance_pump",
+                "type": "生物分子"
+            },
+            {
+                "name": "qaca",
+                "type": "生物分子"
+            },
+            {
+                "name": "qaca_drug_resistance_transporter",
+                "type": "生物分子"
+            },
+            {
+                "name": "qaca_family",
+                "type": "生物分子"
+            },
+            {
+                "name": "qaca_family_drug_resistance_transporter",
+                "type": "生物分子"
+            },
+            {
+                "name": "qaca_subfamily",
+                "type": "生物分子"
+            },
+            {
+                "name": "qaca_subfamily_drug_resistance_transporter",
+                "type": "生物分子"
+            },
+            {
+                "name": "multidrug_resistance_protein",
+                "type": "生物分子"
+            },
+            {
+                "name": "resistance_gene",
+                "type": "生物分子"
+            },
+            {
+                "name": "resistance_protein",
+                "type": "生物分子"
+            },
+            {
+                "name": "resistance_related_regulator",
+                "type": "生物分子"
+            },
+            {
+                "name": "resistant_dna_gyrase_subunit_b",
+                "type": "生物分子"
+            },
+            {
+                "name": "resistant_type_ii_topoisomerase_subunit_b",
+                "type": "生物分子"
+            },
+            {
+                "name": "rnd_superfamily_protein",
+                "type": "生物分子"
+            },
+            {
+                "name": "sisomicin_resistance_protein",
+                "type": "生物分子"
+            },
+            {
+                "name": "teicoplanin_resistance_protein_vanz",
+                "type": "生物分子"
+            },
+            {
+                "name": "tetracenomycin_c_resistance_and_export_gene_repressor",
+                "type": "生物分子"
+            },
+            {
+                "name": "tetracenomycin_c_resistance_and_export_protein",
+                "type": "生物分子"
+            },
+            {
+                "name": "tetranactin_resistance_protein",
+                "type": "生物分子"
+            },
+            {
+                "name": "uvra-like_drug_resistance_pump",
+                "type": "生物分子"
+            },
+            {
+                "name": "Uniprot",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "heteroresistance",
+                "type": "生物医学概念"
+            },
+            {
+                "name": "GO_bp",
+                "type": "生物信息工具"
+            }
+        ]
+    },
+    "relations": {
+        "chunk_id": "2024-03-02",
+        "relations": [
+            {
+                "head": "beta-lactam antibiotic catabolic process",
+                "type": "调控",
+                "tail": "antibiotic inactivation"
+            },
+            {
+                "head": "doxorubicin transport",
+                "type": "属于",
+                "tail": "antibiotic efflux"
+            },
+            {
+                "head": "daunorubicin transport",
+                "type": "属于",
+                "tail": "antibiotic efflux"
+            },
+            {
+                "head": "antibiotic catabolic process",
+                "type": "属于",
+                "tail": "antibiotic inactivation"
+            },
+            {
+                "head": "beta-lactam antibiotic catabolic process",
+                "type": "属于",
+                "tail": "GO_bp"
+            },
+            {
+                "head": "antibiotic efflux",
+                "type": "属于",
+                "tail": "heteroresistance"
+            },
+            {
+                "head": "antibiotic inactivation",
+                "type": "属于",
+                "tail": "heteroresistance"
+            },
+            {
+                "head": "putative_resistance_protein_transporter",
+                "type": "属于",
+                "tail": "resistance_protein"
+            },
+            {
+                "head": "putative_uvra-drug_resistance_pump",
+                "type": "属于",
+                "tail": "uvra-like_drug_resistance_pump"
+            },
+            {
+                "head": "qaca",
+                "type": "属于",
+                "tail": "qaca_family"
+            },
+            {
+                "head": "qaca",
+                "type": "属于",
+                "tail": "qaca_subfamily"
+            },
+            {
+                "head": "qaca_family",
+                "type": "属于",
+                "tail": "qaca_family_drug_resistance_transporter"
+            },
+            {
+                "head": "qaca_subfamily",
+                "type": "属于",
+                "tail": "qaca_subfamily_drug_resistance_transporter"
+            },
+            {
+                "head": "qaca_drug_resistance_transporter",
+                "type": "属于",
+                "tail": "resistance_protein"
+            },
+            {
+                "head": "qaca_family_drug_resistance_transporter",
+                "type": "属于",
+                "tail": "resistance_protein"
+            },
+            {
+                "head": "qaca_subfamily_drug_resistance_transporter",
+                "type": "属于",
+                "tail": "resistance_protein"
+            },
+            {
+                "head": "rnd_superfamily_protein",
+                "type": "属于",
+                "tail": "resistance_protein"
+            },
+            {
+                "head": "sisomicin_resistance_protein",
+                "type": "属于",
+                "tail": "resistance_protein"
+            },
+            {
+                "head": "teicoplanin_resistance_protein_vanz",
+                "type": "属于",
+                "tail": "resistance_protein"
+            },
+            {
+                "head": "tetracenomycin_c_resistance_and_export_gene_repressor",
+                "type": "属于",
+                "tail": "resistance_gene"
+            },
+            {
+                "head": "tetracenomycin_c_resistance_and_export_protein",
+                "type": "属于",
+                "tail": "resistance_protein"
+            },
+            {
+                "head": "tetranactin_resistance_protein",
+                "type": "属于",
+                "tail": "resistance_protein"
+            },
+            {
+                "head": "uvra-like_drug_resistance_pump",
+                "type": "属于",
+                "tail": "resistance_protein"
+            },
+            {
+                "head": "resistance_gene",
+                "type": "编码",
+                "tail": "resistance_protein"
+            },
+            {
+                "head": "resistance_protein",
+                "type": "调控",
+                "tail": "antibiotic efflux"
+            },
+            {
+                "head": "resistance_related_regulator",
+                "type": "调控",
+                "tail": "resistance_gene"
+            },
+            {
+                "head": "resistant_dna_gyrase_subunit_b",
+                "type": "属于",
+                "tail": "resistance_protein"
+            },
+            {
+                "head": "resistant_type_ii_topoisomerase_subunit_b",
+                "type": "属于",
+                "tail": "resistance_protein"
+            },
+            {
+                "head": "GO_bp",
+                "type": "使用",
+                "tail": "Uniprot"
+            },
+            {
+                "head": "antibiotic efflux",
+                "type": "属于",
+                "tail": "GO_bp"
+            },
+            {
+                "head": "antibiotic inactivation",
+                "type": "属于",
+                "tail": "GO_bp"
+            },
+            {
+                "head": "heteroresistance",
+                "type": "属于",
+                "tail": "GO_bp"
+            }
+        ]
+    },
+    "status": "success"
+}

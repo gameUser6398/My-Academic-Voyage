@@ -1,0 +1,454 @@
+{
+    "timestamp": "2025-07-07T18:35:25.366212",
+    "filename": "chunk_002_20240328.md",
+    "entities": {
+        "chunk_id": "2024-03-02",
+        "entities": [
+            {
+                "name": "WGS",
+                "type": "生物技术"
+            },
+            {
+                "name": "全基因组测序",
+                "type": "生物技术"
+            },
+            {
+                "name": "美罗培南",
+                "type": "生物分子"
+            },
+            {
+                "name": "环丙沙星",
+                "type": "生物分子"
+            },
+            {
+                "name": "Acinetobacter",
+                "type": "生物分子"
+            },
+            {
+                "name": "Campylobacter",
+                "type": "生物分子"
+            },
+            {
+                "name": "Enterobacter",
+                "type": "生物分子"
+            },
+            {
+                "name": "Escherichia",
+                "type": "生物分子"
+            },
+            {
+                "name": "Klebsiella",
+                "type": "生物分子"
+            },
+            {
+                "name": "Neisseria",
+                "type": "生物分子"
+            },
+            {
+                "name": "Pseudomonas",
+                "type": "生物分子"
+            },
+            {
+                "name": "Salmonella",
+                "type": "生物分子"
+            },
+            {
+                "name": "baumannii",
+                "type": "生物分子"
+            },
+            {
+                "name": "jejuni",
+                "type": "生物分子"
+            },
+            {
+                "name": "cloacae",
+                "type": "生物分子"
+            },
+            {
+                "name": "coli",
+                "type": "生物分子"
+            },
+            {
+                "name": "pneumoniae",
+                "type": "生物分子"
+            },
+            {
+                "name": "gonorrhoeae",
+                "type": "生物分子"
+            },
+            {
+                "name": "aeruginosa",
+                "type": "生物分子"
+            },
+            {
+                "name": "enterica",
+                "type": "生物分子"
+            },
+            {
+                "name": "GCA",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "GCF",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "SRR",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "ERR",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "GenBank",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "RefSeq",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "Resistant",
+                "type": "生物分子"
+            },
+            {
+                "name": "Susceptible",
+                "type": "生物分子"
+            },
+            {
+                "name": "Broth dilution",
+                "type": "生物技术"
+            },
+            {
+                "name": "VITEK 2",
+                "type": "生物技术"
+            },
+            {
+                "name": "BD Phoenix",
+                "type": "生物技术"
+            },
+            {
+                "name": "Sensititre",
+                "type": "生物技术"
+            },
+            {
+                "name": "CMV2AGNF",
+                "type": "生物技术"
+            },
+            {
+                "name": "CMV3AGNF",
+                "type": "生物技术"
+            },
+            {
+                "name": "CLSI",
+                "type": "生物医学概念"
+            },
+            {
+                "name": "PMID",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "最低抑制浓度",
+                "type": "生物医学概念"
+            },
+            {
+                "name": "抗性",
+                "type": "生物医学概念"
+            },
+            {
+                "name": "敏感性",
+                "type": "生物医学概念"
+            },
+            {
+                "name": "抗生素耐药性",
+                "type": "生物医学概念"
+            },
+            {
+                "name": "微生物菌群失调",
+                "type": "生物医学概念"
+            }
+        ]
+    },
+    "relations": {
+        "chunk_id": "2024-03-02",
+        "relations": [
+            {
+                "head": "WGS",
+                "type": "属于",
+                "tail": "全基因组测序"
+            },
+            {
+                "head": "数据集",
+                "type": "包含",
+                "tail": "全基因组测序"
+            },
+            {
+                "head": "数据集",
+                "type": "包含",
+                "tail": "表型数据"
+            },
+            {
+                "head": "表型数据",
+                "type": "包含",
+                "tail": "抗菌种类"
+            },
+            {
+                "head": "表型数据",
+                "type": "包含",
+                "tail": "抗菌表型"
+            },
+            {
+                "head": "表型数据",
+                "type": "包含",
+                "tail": "最低抑制浓度"
+            },
+            {
+                "head": "抗菌种类",
+                "type": "包含",
+                "tail": "美罗培南"
+            },
+            {
+                "head": "抗菌种类",
+                "type": "包含",
+                "tail": "环丙沙星"
+            },
+            {
+                "head": "抗菌表型",
+                "type": "包含",
+                "tail": "抗性"
+            },
+            {
+                "head": "抗菌表型",
+                "type": "包含",
+                "tail": "敏感性"
+            },
+            {
+                "head": "最低抑制浓度",
+                "type": "属于",
+                "tail": "表型元数据"
+            },
+            {
+                "head": "Broth dilution",
+                "type": "属于",
+                "tail": "表型元数据"
+            },
+            {
+                "head": "VITEK 2",
+                "type": "属于",
+                "tail": "表型元数据"
+            },
+            {
+                "head": "BD Phoenix",
+                "type": "属于",
+                "tail": "表型元数据"
+            },
+            {
+                "head": "Sensititre",
+                "type": "属于",
+                "tail": "表型元数据"
+            },
+            {
+                "head": "CMV2AGNF",
+                "type": "属于",
+                "tail": "表型元数据"
+            },
+            {
+                "head": "CMV3AGNF",
+                "type": "属于",
+                "tail": "表型元数据"
+            },
+            {
+                "head": "CLSI",
+                "type": "属于",
+                "tail": "表型元数据"
+            },
+            {
+                "head": "GCA",
+                "type": "属于",
+                "tail": "基因型数据"
+            },
+            {
+                "head": "GCF",
+                "type": "属于",
+                "tail": "基因型数据"
+            },
+            {
+                "head": "SRR",
+                "type": "属于",
+                "tail": "基因型数据"
+            },
+            {
+                "head": "ERR",
+                "type": "属于",
+                "tail": "基因型数据"
+            },
+            {
+                "head": "GenBank",
+                "type": "包含",
+                "tail": "GCA"
+            },
+            {
+                "head": "RefSeq",
+                "type": "包含",
+                "tail": "GCF"
+            },
+            {
+                "head": "PMID",
+                "type": "属于",
+                "tail": "其他元数据"
+            },
+            {
+                "head": "Acinetobacter",
+                "type": "属于",
+                "tail": "属"
+            },
+            {
+                "head": "Campylobacter",
+                "type": "属于",
+                "tail": "属"
+            },
+            {
+                "head": "Enterobacter",
+                "type": "属于",
+                "tail": "属"
+            },
+            {
+                "head": "Escherichia",
+                "type": "属于",
+                "tail": "属"
+            },
+            {
+                "head": "Klebsiella",
+                "type": "属于",
+                "tail": "属"
+            },
+            {
+                "head": "Neisseria",
+                "type": "属于",
+                "tail": "属"
+            },
+            {
+                "head": "Pseudomonas",
+                "type": "属于",
+                "tail": "属"
+            },
+            {
+                "head": "Salmonella",
+                "type": "属于",
+                "tail": "属"
+            },
+            {
+                "head": "baumannii",
+                "type": "属于",
+                "tail": "种"
+            },
+            {
+                "head": "jejuni",
+                "type": "属于",
+                "tail": "种"
+            },
+            {
+                "head": "cloacae",
+                "type": "属于",
+                "tail": "种"
+            },
+            {
+                "head": "coli",
+                "type": "属于",
+                "tail": "种"
+            },
+            {
+                "head": "pneumoniae",
+                "type": "属于",
+                "tail": "种"
+            },
+            {
+                "head": "gonorrhoeae",
+                "type": "属于",
+                "tail": "种"
+            },
+            {
+                "head": "aeruginosa",
+                "type": "属于",
+                "tail": "种"
+            },
+            {
+                "head": "enterica",
+                "type": "属于",
+                "tail": "种"
+            },
+            {
+                "head": "美罗培南",
+                "type": "导致",
+                "tail": "抗生素耐药性"
+            },
+            {
+                "head": "环丙沙星",
+                "type": "导致",
+                "tail": "抗生素耐药性"
+            },
+            {
+                "head": "抗生素使用",
+                "type": "导致",
+                "tail": "微生物菌群失调"
+            },
+            {
+                "head": "最低抑制浓度",
+                "type": "影响",
+                "tail": "抗性"
+            },
+            {
+                "head": "最低抑制浓度",
+                "type": "影响",
+                "tail": "敏感性"
+            },
+            {
+                "head": "Broth dilution",
+                "type": "使用",
+                "tail": "VITEK 2"
+            },
+            {
+                "head": "Broth dilution",
+                "type": "使用",
+                "tail": "BD Phoenix"
+            },
+            {
+                "head": "Broth dilution",
+                "type": "使用",
+                "tail": "Sensititre"
+            },
+            {
+                "head": "Broth dilution",
+                "type": "使用",
+                "tail": "CMV2AGNF"
+            },
+            {
+                "head": "Broth dilution",
+                "type": "使用",
+                "tail": "CMV3AGNF"
+            },
+            {
+                "head": "WGS",
+                "type": "使用",
+                "tail": "GCA"
+            },
+            {
+                "head": "WGS",
+                "type": "使用",
+                "tail": "GCF"
+            },
+            {
+                "head": "WGS",
+                "type": "使用",
+                "tail": "SRR"
+            },
+            {
+                "head": "WGS",
+                "type": "使用",
+                "tail": "ERR"
+            }
+        ]
+    },
+    "status": "success"
+}

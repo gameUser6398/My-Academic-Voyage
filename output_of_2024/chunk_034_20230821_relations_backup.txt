@@ -1,0 +1,24 @@
+
+
+```json
+{
+  "chunk_id": "2024-03-02",
+  "relations": [
+    {"head": "人造蛋白", "type": "属于", "tail": "蛋白质"},
+    {"head": "人造蛋白", "type": "跨越", "tail": "蛋白质家族"},
+    {"head": "模型", "type": "使用", "tail": "序列特征"},
+    {"head": "模型", "type": "属于", "tail": "DeepGOZero"},
+    {"head": "设计DNA序列", "type": "使用", "tail": "转录"},
+    {"head": "转录", "type": "包含", "tail": "表达"},
+    {"head": "表达", "type": "包含", "tail": "纯化检测"},
+    {"head": "纯化检测", "type": "包含", "tail": "assay activity"},
+    {"head": "DeepGOZero", "type": "使用", "tail": "序列"},
+    {"head": "DeepGOZero", "type": "使用", "tail": "零镜头学习"},
+    {"head": "DeepGOZero", "type": "用于", "tail": "蛋白质功能预测"},
+    {"head": "突变", "type": "因果", "tail": "目标蛋白获得"},
+    {"head": "蛋白作用时间（荧光）长", "type": "衡量", "tail": "溶菌酶功能"},
+    {"head": "蛋白质家族", "type": "包含", "tail": "蛋白质"},
+    {"head": "蛋白质", "type": "包含", "tail": "晶体结构"}
+  ]
+}
+```

@@ -1,0 +1,20 @@
+
+
+```json
+{
+  "chunk_id": "2024-03-02",
+  "relations": [
+    {"head": "模型错误预测样本", "type": "包含", "tail": "假阳性"},
+    {"head": "模型错误预测样本", "type": "包含", "tail": "假阴性"},
+    {"head": "模型错误预测标签", "type": "因果", "tail": "identity"},
+    {"head": "diamond", "type": "使用", "tail": "比对"},
+    {"head": "diamond", "type": "调控", "tail": "标签正确率"},
+    {"head": "假阴性样本", "type": "使用", "tail": "diamond"},
+    {"head": "diamond", "type": "因果", "tail": "标签正确率"},
+    {"head": "diamond", "type": "因果", "tail": "正确预测样本"},
+    {"head": "正确预测样本", "type": "包含", "tail": "predict的正确样本"},
+    {"head": "正确预测样本", "type": "属性", "tail": "重合率"},
+    {"head": "正确率", "type": "阈值", "tail": "50%"}
+  ]
+}
+```

@@ -1,0 +1,174 @@
+{
+    "timestamp": "2025-07-07T18:29:12.926953",
+    "filename": "chunk_016_20240806.md",
+    "entities": {
+        "chunk_id": "2024-03-02",
+        "entities": [
+            {
+                "name": "ARG",
+                "type": "生物分子"
+            },
+            {
+                "name": "β内酰胺",
+                "type": "生物分子"
+            },
+            {
+                "name": "四环素",
+                "type": "生物分子"
+            },
+            {
+                "name": "大环酯类",
+                "type": "生物分子"
+            },
+            {
+                "name": "PLM",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "HMD",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "3-concat",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "Uniprot",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "NCBI_BARRGD",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "MIBGC",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "RGDB",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "宏基因组测序",
+                "type": "生物技术"
+            },
+            {
+                "name": "接口",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "结核",
+                "type": "生物医学概念"
+            },
+            {
+                "name": "抗生素耐药性",
+                "type": "生物医学概念"
+            },
+            {
+                "name": "参数",
+                "type": "深度学习概念"
+            },
+            {
+                "name": "config文件",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "if else",
+                "type": "深度学习概念"
+            },
+            {
+                "name": "任务分工",
+                "type": "项目活动"
+            },
+            {
+                "name": "文献调研",
+                "type": "项目活动"
+            },
+            {
+                "name": "进度推进",
+                "type": "项目活动"
+            }
+        ]
+    },
+    "relations": {
+        "chunk_id": "2024-03-02",
+        "relations": [
+            {
+                "head": "PLM",
+                "type": "包含",
+                "tail": "β内酰胺"
+            },
+            {
+                "head": "HMD",
+                "type": "包含",
+                "tail": "β内酰胺"
+            },
+            {
+                "head": "四环素",
+                "type": "属于",
+                "tail": "广谱抗生素"
+            },
+            {
+                "head": "四环素",
+                "type": "包含",
+                "tail": "大环酯类"
+            },
+            {
+                "head": "Uniprot",
+                "type": "使用",
+                "tail": "Protein name"
+            },
+            {
+                "head": "NCBI_BARRGD",
+                "type": "使用",
+                "tail": "Protein name"
+            },
+            {
+                "head": "MIBGC",
+                "type": "使用",
+                "tail": "Protein name"
+            },
+            {
+                "head": "RGDB",
+                "type": "包含",
+                "tail": "Uniprot"
+            },
+            {
+                "head": "RGDB",
+                "type": "需要",
+                "tail": "注释完善"
+            },
+            {
+                "head": "任务分工",
+                "type": "包含",
+                "tail": "接口开发"
+            },
+            {
+                "head": "任务分工",
+                "type": "包含",
+                "tail": "参数处理"
+            },
+            {
+                "head": "任务分工",
+                "type": "包含",
+                "tail": "config文件缩进"
+            },
+            {
+                "head": "任务分工",
+                "type": "包含",
+                "tail": "if else缩进"
+            },
+            {
+                "head": "文献调研",
+                "type": "涉及",
+                "tail": "抗生素耐药性"
+            },
+            {
+                "head": "进度推进",
+                "type": "涉及",
+                "tail": "抗生素耐药性"
+            }
+        ]
+    },
+    "status": "success"
+}

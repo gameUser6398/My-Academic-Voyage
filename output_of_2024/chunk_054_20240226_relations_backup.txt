@@ -1,0 +1,17 @@
+
+
+```json
+{
+  "chunk_id": "2024-02-26",
+  "relations": [
+    {"head": "conda", "type": "使用", "tail": "环境管理"},
+    {"head": "Python", "type": "使用", "tail": "环境创建"},
+    {"head": "Google Colab", "type": "使用", "tail": "环境管理"},
+    {"head": "深度学习", "type": "属于", "tail": "蛋白质设计"},
+    {"head": "欧几里得距离", "type": "属于", "tail": "嵌入结果"},
+    {"head": "结构", "type": "包含", "tail": "能量比较"},
+    {"head": "chroma", "type": "使用", "tail": "质量控制"},
+    {"head": "Linux", "type": "属于", "tail": "系统配置"}
+  ]
+}
+```

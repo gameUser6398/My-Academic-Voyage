@@ -1,0 +1,226 @@
+{
+    "timestamp": "2025-07-07T18:37:36.415835",
+    "filename": "chunk_135_unknown_date.md",
+    "entities": {
+        "chunk_id": "2024-08-04_to_2024-08-06",
+        "entities": [
+            {
+                "name": "β-内酰胺",
+                "type": "生物分子"
+            },
+            {
+                "name": "β-内酰胺酶",
+                "type": "生物分子"
+            },
+            {
+                "name": "β-内酰胺酶数据库",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "HMD模型",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "PLM",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "BLAST",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "CARD",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "进化树",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "抗生素耐药性",
+                "type": "生物医学概念"
+            },
+            {
+                "name": "结核病",
+                "type": "生物医学概念"
+            },
+            {
+                "name": "Uniprot",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "MIBGC",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "生物合成",
+                "type": "生物技术"
+            },
+            {
+                "name": "序列匹配",
+                "type": "生物技术"
+            },
+            {
+                "name": "手动注释",
+                "type": "项目活动"
+            },
+            {
+                "name": "重复序列",
+                "type": "生物技术"
+            },
+            {
+                "name": "统计",
+                "type": "项目活动"
+            },
+            {
+                "name": "NCBI",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "NDARO",
+                "type": "生物信息工具"
+            }
+        ]
+    },
+    "relations": {
+        "chunk_id": "2024-08-04_to_2024-08-06",
+        "relations": [
+            {
+                "head": "β-内酰胺酶",
+                "type": "属于",
+                "tail": "抗生素耐药性"
+            },
+            {
+                "head": "β-内酰胺酶数据库",
+                "type": "包含",
+                "tail": "8273个酶"
+            },
+            {
+                "head": "β-内酰胺酶数据库",
+                "type": "属于",
+                "tail": "生物信息工具"
+            },
+            {
+                "head": "HMD模型",
+                "type": "参考",
+                "tail": "β-内酰胺酶数据库"
+            },
+            {
+                "head": "β-内酰胺",
+                "type": "分类",
+                "tail": "6类"
+            },
+            {
+                "head": "CARD",
+                "type": "包含",
+                "tail": "六千多条蛋白"
+            },
+            {
+                "head": "CARD",
+                "type": "属于",
+                "tail": "生物信息工具"
+            },
+            {
+                "head": "β-内酰胺酶",
+                "type": "分类",
+                "tail": "CARD"
+            },
+            {
+                "head": "序列匹配",
+                "type": "使用",
+                "tail": "赋予类别"
+            },
+            {
+                "head": "统计",
+                "type": "使用",
+                "tail": "条数"
+            },
+            {
+                "head": "统计",
+                "type": "使用",
+                "tail": "类别数"
+            },
+            {
+                "head": "CARD",
+                "type": "分类",
+                "tail": "β-内酰胺"
+            },
+            {
+                "head": "β-内酰胺",
+                "type": "分类",
+                "tail": "酶的功能"
+            },
+            {
+                "head": "NDARO",
+                "type": "属于",
+                "tail": "生物信息工具"
+            },
+            {
+                "head": "NDARO",
+                "type": "包含",
+                "tail": "抗生素耐药性"
+            },
+            {
+                "head": "进化树",
+                "type": "使用",
+                "tail": "构建"
+            },
+            {
+                "head": "进化树",
+                "type": "用于分析",
+                "tail": "远源序列"
+            },
+            {
+                "head": "手动注释",
+                "type": "用于分析",
+                "tail": "card"
+            },
+            {
+                "head": "Uniprot",
+                "type": "属于",
+                "tail": "生物信息工具"
+            },
+            {
+                "head": "Uniprot",
+                "type": "包含",
+                "tail": "β-内酰胺酶"
+            },
+            {
+                "head": "MIBGC",
+                "type": "属于",
+                "tail": "生物信息工具"
+            },
+            {
+                "head": "MIBGC",
+                "type": "包含",
+                "tail": "生物合成"
+            },
+            {
+                "head": "MIBGC",
+                "type": "包含",
+                "tail": "自抗性"
+            },
+            {
+                "head": "PLM",
+                "type": "包含",
+                "tail": "β-内酰胺酶"
+            },
+            {
+                "head": "HMD",
+                "type": "包含",
+                "tail": "β-内酰胺酶"
+            },
+            {
+                "head": "BLAST",
+                "type": "使用",
+                "tail": "比对"
+            },
+            {
+                "head": "结核病",
+                "type": "关联",
+                "tail": "β-内酰胺"
+            }
+        ]
+    },
+    "status": "success"
+}

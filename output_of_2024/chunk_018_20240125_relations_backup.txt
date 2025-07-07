@@ -1,0 +1,25 @@
+
+
+{
+  "chunk_id": "2024-01-25",
+  "relations": [
+    {"head": "ProteinGAN", "type": "使用", "tail": "序列"},
+    {"head": "Chroma", "type": "使用", "tail": "序列"},
+    {"head": "ProteinGAN", "type": "使用", "tail": "结构"},
+    {"head": "Chroma", "type": "使用", "tail": "结构"},
+    {"head": "序列相似性", "type": "属于", "tail": "序列"},
+    {"head": "GO", "type": "属于", "tail": "基因本体"},
+    {"head": "GO:0001906", "type": "属于", "tail": "GO"},
+    {"head": "Alex Warwick Vesztrocy", "type": "使用", "tail": "负注释"},
+    {"head": "Christophe Dessimoz", "type": "使用", "tail": "负注释"},
+    {"head": "负注释", "type": "使用", "tail": "基因本体"},
+    {"head": "IC", "type": "调控", "tail": "GO"},
+    {"head": "MSA", "type": "使用", "tail": "GO:0001906"},
+    {"head": "MSA", "type": "使用", "tail": "蛋白"},
+    {"head": "数据不平衡", "type": "因果", "tail": "多模态暂停"},
+    {"head": "任务分工", "type": "属于", "tail": "项目活动"},
+    {"head": "文献调研", "type": "属于", "tail": "项目活动"},
+    {"head": "colab平台", "type": "使用", "tail": "GPU"},
+    {"head": "生物信息学", "type": "使用", "tail": "GO"}
+  ]
+}

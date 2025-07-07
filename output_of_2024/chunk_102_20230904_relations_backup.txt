@@ -1,0 +1,18 @@
+
+
+```json
+{
+  "chunk_id": "2023-09-04_22:02",
+  "relations": [
+    {"head": "train.py", "type": "包含", "tail": "loss"},
+    {"head": "train.py", "type": "包含", "tail": "pred_out"},
+    {"head": "train.py", "type": "包含", "tail": "regular_loss"},
+    {"head": "train.py", "type": "包含", "tail": "encoder_outputs"},
+    {"head": "train.py", "type": "包含", "tail": "final_emb"},
+    {"head": "Transformer", "type": "输出", "tail": "encoder_outputs"},
+    {"head": "final_emb", "type": "属于", "tail": "dense层"},
+    {"head": "regular_loss", "type": "使用", "tail": "pred_out"},
+    {"head": "loss", "type": "属于", "tail": "损失"}
+  ]
+}
+```

@@ -1,0 +1,46 @@
+{
+    "timestamp": "2025-07-07T17:06:10.346064",
+    "filename": "chunk_100_20230904.md",
+    "entities": {
+        "chunk_id": "2024-03-02",
+        "entities": [
+            {
+                "name": "one-hot编码",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "蛋白",
+                "type": "生物分子"
+            },
+            {
+                "name": "maxlen",
+                "type": "其他"
+            },
+            {
+                "name": "序列",
+                "type": "生物分子"
+            }
+        ]
+    },
+    "relations": {
+        "chunk_id": "2024-03-02",
+        "relations": [
+            {
+                "head": "label",
+                "type": "使用",
+                "tail": "one-hot编码"
+            },
+            {
+                "head": "蛋白",
+                "type": "包含",
+                "tail": "序列"
+            },
+            {
+                "head": "序列",
+                "type": "调控",
+                "tail": "maxlen"
+            }
+        ]
+    },
+    "status": "success"
+}

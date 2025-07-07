@@ -1,0 +1,210 @@
+{
+    "timestamp": "2025-07-07T16:57:05.454559",
+    "filename": "chunk_026_unknown_date.md",
+    "entities": {
+        "chunk_id": "2024-03-02",
+        "entities": [
+            {
+                "name": "Deep_CNN_LSTM_GO",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "卷积神经网络",
+                "type": "深度学习概念"
+            },
+            {
+                "name": "长短期记忆",
+                "type": "深度学习概念"
+            },
+            {
+                "name": "氨基酸序列",
+                "type": "生物分子"
+            },
+            {
+                "name": "基因本体",
+                "type": "生物医学概念"
+            },
+            {
+                "name": "GO",
+                "type": "生物医学概念"
+            },
+            {
+                "name": "分子功能",
+                "type": "生物医学概念"
+            },
+            {
+                "name": "生物过程",
+                "type": "生物医学概念"
+            },
+            {
+                "name": "细胞成分",
+                "type": "生物医学概念"
+            },
+            {
+                "name": "UniProt-SwissProt",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "UniProtKB",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "蛋白质序列",
+                "type": "生物分子"
+            },
+            {
+                "name": "氨基酸序列",
+                "type": "生物分子"
+            },
+            {
+                "name": "GO ID",
+                "type": "生物医学概念"
+            },
+            {
+                "name": "CAFA",
+                "type": "项目活动"
+            },
+            {
+                "name": "CAFA4",
+                "type": "项目活动"
+            },
+            {
+                "name": "CAFA3",
+                "type": "项目活动"
+            },
+            {
+                "name": "CAFA2",
+                "type": "项目活动"
+            },
+            {
+                "name": "人类",
+                "type": "生物分子"
+            },
+            {
+                "name": "细菌",
+                "type": "生物分子"
+            }
+        ]
+    },
+    "relations": {
+        "chunk_id": "2024-03-02",
+        "relations": [
+            {
+                "head": "Deep_CNN_LSTM_GO",
+                "type": "使用",
+                "tail": "卷积神经网络"
+            },
+            {
+                "head": "Deep_CNN_LSTM_GO",
+                "type": "使用",
+                "tail": "长短期记忆"
+            },
+            {
+                "head": "Deep_CNN_LSTM_GO",
+                "type": "使用",
+                "tail": "氨基酸序列"
+            },
+            {
+                "head": "基因本体",
+                "type": "包含",
+                "tail": "分子功能"
+            },
+            {
+                "head": "基因本体",
+                "type": "包含",
+                "tail": "生物过程"
+            },
+            {
+                "head": "基因本体",
+                "type": "包含",
+                "tail": "细胞成分"
+            },
+            {
+                "head": "UniProt-SwissProt",
+                "type": "属于",
+                "tail": "UniProtKB"
+            },
+            {
+                "head": "Deep_CNN_LSTM_GO",
+                "type": "使用",
+                "tail": "UniProt-SwissProt"
+            },
+            {
+                "head": "UniProtKB",
+                "type": "提供",
+                "tail": "蛋白质序列"
+            },
+            {
+                "head": "UniProtKB",
+                "type": "提供",
+                "tail": "氨基酸序列"
+            },
+            {
+                "head": "UniProt-SwissProt",
+                "type": "包含",
+                "tail": "GO ID"
+            },
+            {
+                "head": "UniProt-SwissProt",
+                "type": "关联",
+                "tail": "生物体名称"
+            },
+            {
+                "head": "CAFA4",
+                "type": "属于",
+                "tail": "CAFA"
+            },
+            {
+                "head": "CAFA3",
+                "type": "属于",
+                "tail": "CAFA"
+            },
+            {
+                "head": "CAFA2",
+                "type": "属于",
+                "tail": "CAFA"
+            },
+            {
+                "head": "CAFA4",
+                "type": "包含",
+                "tail": "人类"
+            },
+            {
+                "head": "CAFA3",
+                "type": "包含",
+                "tail": "人类"
+            },
+            {
+                "head": "CAFA2",
+                "type": "包含",
+                "tail": "细菌"
+            },
+            {
+                "head": "Deep_CNN_LSTM_GO",
+                "type": "用于",
+                "tail": "CAFA4"
+            },
+            {
+                "head": "Deep_CNN_LSTM_GO",
+                "type": "用于",
+                "tail": "CAFA3"
+            },
+            {
+                "head": "Deep_CNN_LSTM_GO",
+                "type": "用于",
+                "tail": "CAFA2"
+            },
+            {
+                "head": "GO ID",
+                "type": "表示",
+                "tail": "注释"
+            },
+            {
+                "head": "蛋白质序列",
+                "type": "包含",
+                "tail": "氨基酸序列"
+            }
+        ]
+    },
+    "status": "success"
+}

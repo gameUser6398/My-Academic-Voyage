@@ -1,0 +1,6 @@
+{
+    "timestamp": "2025-07-07T18:02:05.187544",
+    "filename": "chunk_117_20240328.md",
+    "raw_entities": "\n\n```json\n{\n  \"chunk_id\": \"2024-03-02\",\n  \"entities\": [\n    {\"name\": \"OneHotEncoder\", \"type\": \"生物信息工具\"},\n    {\"name\": \"Onehot\", \"type\": \"生物信息工具\"},\n    {\"name\": \"Pandas\", \"type\": \"生物信息工具\"}\n  ]\n}\n```",
+    "raw_relations": "\n\n```json\n{\n  \"chunk_id\": \"2024-03-02\",\n  \"relations\": [\n    {\"head\": \"OneHotEncoder\", \"type\": \"属于\", \"tail\": \"Pandas\"},\n    {\"head\": \"OneHotEncoder\", \"type\": \"使用\", \"tail\": \"one-hot编码\"},\n    {\"head\": \"one-hot编码\", \"type\": \"使用\", \"tail\": \"Pandas\"}\n  ]\n}\n```"
+}

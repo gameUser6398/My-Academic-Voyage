@@ -1,0 +1,81 @@
+
+分区 基础知识 的第 130 页
+
+1 Linux系统命令初识
+19:58
+
+2023年5月21日
+
+层级关系用/表示
+
+根目录为/
+
+命令基础
+
+通用格式：command [-options] [parameter]
+
+如：ls -l /home/tiheima，ls是命令本身，-l是选项，剩下的是参数
+
+含义：以列表的形式，显示/home/itheima目录内容
+
+如：cp -r test1 test2，cp是命令本身，-r是选项，剩下是参数
+
+含义 复制文件夹test1 成为test2
+
+ls命令 list directory contents
+
+ls [-a -l -h] [Linux路(cid:1708)]
+
+•
+
+•
+
+•
+
+•
+
+•
+
+•
+
+ls不使用参数，列出当前目录的内容
+
+区分HOME目录与工作目录
+
+-a列出全部，.name表示隐藏文件
+
+-l以列表展示更多信息
+
+-al 组合使用，既隐藏又列表
+
+-h 展示文件大小，需要与-l组合使用
+
+-l返回信息详解
+
+第一位标明类型：若为-表示文件，为d表示dictionary，为l表示soft link
+
+cd命令change directory
+
+cd [Linux路(cid:1708)]
+
+pwd命令 print work directory
+
+输出当前所在的工作目录
+
+相对路(cid:1708)与绝对路(cid:1708)
+cd /home/itheima/Desktop
+cd Desktop 前提是当前目录为itheima
+
+.
+
+表示当前目录
+
+。。 上一级目录
+
+~
+
+表示HOME目录
+
+mkdir命令Make Directory
+
+创建新文件夹  mkdir [-p] Linux路(cid:1708)

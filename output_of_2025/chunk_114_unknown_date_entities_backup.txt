@@ -1,0 +1,40 @@
+
+
+{
+  "chunk_id": "2024-03-02",
+  "entities": [
+    {"name": "HTML", "type": "生物信息工具"},
+    {"name": "CSS", "type": "生物信息工具"},
+    {"name": "JavaScript", "type": "生物信息工具"},
+    {"name": "div", "type": "生物信息工具"},
+    {"name": "span", "type": "生物信息工具"},
+    {"name": "p", "type": "生物信息工具"},
+    {"name": "h1", "type": "生物信息工具"},
+    {"name": "h6", "type": "生物信息工具"},
+    {"name": "a", "type": "生物信息工具"},
+    {"name": "img", "type": "生物信息工具"},
+    {"name": "ul", "type": "生物信息工具"},
+    {"name": "ol", "type": "生物信息工具"},
+    {"name": "li", "type": "生物信息工具"},
+    {"name": "header", "type": "生物信息工具"},
+    {"name": "footer", "type": "生物信息工具"},
+    {"name": "article", "type": "生物信息工具"},
+    {"name": "section", "type": "生物信息工具"},
+    {"name": "盒子模型", "type": "其他"},
+    {"name": "margin", "type": "其他"},
+    {"name": "border", "type": "其他"},
+    {"name": "padding", "type": "其他"},
+    {"name": "content", "type": "其他"},
+    {"name": "Flexbox", "type": "其他"},
+    {"name": "Grid", "type": "其他"},
+    {"name": "float", "type": "其他"},
+    {"name": "position", "type": "其他"},
+    {"name": "媒体查询", "type": "其他"},
+    {"name": "em", "type": "其他"},
+    {"name": "rem", "type": "其他"},
+    {"name": "DOM", "type": "生物信息工具"},
+    {"name": "querySelector", "type": "生物信息工具"},
+    {"name": "getElementById", "type": "生物信息工具"},
+    {"name": "addEventListener", "type": "生物信息工具"}
+  ]
+}

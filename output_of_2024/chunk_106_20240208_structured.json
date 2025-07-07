@@ -1,0 +1,24 @@
+{
+    "timestamp": "2025-07-07T17:09:35.053122",
+    "filename": "chunk_106_20240208.md",
+    "entities": {
+        "chunk_id": "2024-03-02",
+        "entities": [
+            {
+                "name": "TM-score",
+                "type": "其他"
+            }
+        ]
+    },
+    "relations": {
+        "chunk_id": "2024-03-02",
+        "relations": [
+            {
+                "head": "TM-score",
+                "type": "属于",
+                "tail": "已有模型"
+            }
+        ]
+    },
+    "status": "success"
+}

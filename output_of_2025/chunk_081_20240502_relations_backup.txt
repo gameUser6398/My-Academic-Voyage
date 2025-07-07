@@ -1,0 +1,29 @@
+
+
+```json
+{
+  "chunk_id": "2024-03-02",
+  "relations": [
+    {"head": "ARG", "type": "使用", "tail": "宏基因组"},
+    {"head": "多药抗性基因", "type": "属于", "tail": "ARG"},
+    {"head": "多金属抗性基因", "type": "与共存", "tail": "多药抗性基因"},
+    {"head": "多药抗性基因", "type": "存在于", "tail": "质粒"},
+    {"head": "宏基因组组装基因组", "type": "使用", "tail": "宏基因组"},
+    {"head": "宏基因组组装基因组", "type": "携带", "tail": "多药抗性基因"},
+    {"head": "宏基因组组装基因组", "type": "携带", "tail": "多金属抗性基因"},
+    {"head": "宏基因组组装基因组", "type": "属于", "tail": "MAG"},
+    {"head": "潜在病原体", "type": "携带", "tail": "ARG"},
+    {"head": "文献调研", "type": "包含", "tail": "研究"},
+    {"head": "ARG", "type": "调控机制", "tail": "抗生素外排"},
+    {"head": "ARG", "type": "调控机制", "tail": "抗生素靶标改变"},
+    {"head": "金属", "type": "调控", "tail": "ARG"},
+    {"head": "交叉电阻", "type": "属于", "tail": "金属与ARG的共选择机制"},
+    {"head": "协调控", "type": "属于", "tail": "金属与ARG的共选择机制"},
+    {"head": "协阻", "type": "属于", "tail": "金属与ARG的共选择机制"},
+    {"head": "ArlR", "type": "属于", "tail": "调控基因"},
+    {"head": "ompR", "type": "属于", "tail": "调控基因"},
+    {"head": "vanR", "type": "属于", "tail": "调控基因"},
+    {"head": "突变", "type": "属于", "tail": "ARG的获得机制"}
+  ]
+}
+```

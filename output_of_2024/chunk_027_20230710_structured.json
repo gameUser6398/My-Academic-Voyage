@@ -1,0 +1,573 @@
+{
+    "timestamp": "2025-07-07T20:06:14.625456",
+    "filename": "chunk_027_20230710.md",
+    "entities": {
+        "chunk_id": "2024-03-02",
+        "entities": [
+            {
+                "name": "氨基酸",
+                "type": "生物分子"
+            },
+            {
+                "name": "蛋白质",
+                "type": "生物分子"
+            },
+            {
+                "name": "one-hot编码",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "CNN",
+                "type": "深度学习概念"
+            },
+            {
+                "name": "LSTM",
+                "type": "深度学习概念"
+            },
+            {
+                "name": "Max-Pooling",
+                "type": "深度学习概念"
+            },
+            {
+                "name": "tanh激活函数",
+                "type": "深度学习概念"
+            },
+            {
+                "name": "Sigmoid激活函数",
+                "type": "深度学习概念"
+            },
+            {
+                "name": "Flatten层",
+                "type": "深度学习概念"
+            },
+            {
+                "name": "1D-CNN",
+                "type": "深度学习概念"
+            },
+            {
+                "name": "GO",
+                "type": "生物医学概念"
+            },
+            {
+                "name": "UniProtKB-Swissport",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "Deep_GO",
+                "type": "深度学习概念"
+            },
+            {
+                "name": "Deep_GO_Plus",
+                "type": "深度学习概念"
+            },
+            {
+                "name": "bio_embeddings",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "BERT",
+                "type": "深度学习概念"
+            },
+            {
+                "name": "ProtBERT",
+                "type": "深度学习概念"
+            },
+            {
+                "name": "ProtTrans",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "DeepLoc",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "亚细胞位置",
+                "type": "生物医学概念"
+            },
+            {
+                "name": "AUPR",
+                "type": "深度学习概念"
+            },
+            {
+                "name": "Fmax",
+                "type": "深度学习概念"
+            },
+            {
+                "name": "Smin",
+                "type": "深度学习概念"
+            },
+            {
+                "name": "Precision",
+                "type": "深度学习概念"
+            },
+            {
+                "name": "Recall",
+                "type": "深度学习概念"
+            },
+            {
+                "name": "ADAM优化",
+                "type": "深度学习概念"
+            },
+            {
+                "name": "交叉熵",
+                "type": "深度学习概念"
+            },
+            {
+                "name": "FASTA",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "DisProt",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "CSV",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "FASTA格式",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "嵌入",
+                "type": "深度学习概念"
+            },
+            {
+                "name": "全局平均池化",
+                "type": "深度学习概念"
+            },
+            {
+                "name": "机器学习模型",
+                "type": "深度学习概念"
+            },
+            {
+                "name": "SVM",
+                "type": "深度学习概念"
+            },
+            {
+                "name": "ANN",
+                "type": "深度学习概念"
+            },
+            {
+                "name": "标准误差",
+                "type": "深度学习概念"
+            },
+            {
+                "name": "bio_embeddings软件",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "输入蛋白质序列",
+                "type": "项目活动"
+            },
+            {
+                "name": "模型训练",
+                "type": "项目活动"
+            },
+            {
+                "name": "文献调研",
+                "type": "项目活动"
+            },
+            {
+                "name": "评估指标",
+                "type": "项目活动"
+            },
+            {
+                "name": "序列注释",
+                "type": "项目活动"
+            },
+            {
+                "name": "可视化",
+                "type": "项目活动"
+            },
+            {
+                "name": "嵌入生成",
+                "type": "项目活动"
+            },
+            {
+                "name": "蛋白质空间",
+                "type": "其他"
+            },
+            {
+                "name": "预测蛋白质位置",
+                "type": "其他"
+            }
+        ]
+    },
+    "relations": {
+        "chunk_id": "2024-03-02",
+        "relations": [
+            {
+                "head": "蛋白质",
+                "type": "包含",
+                "tail": "氨基酸"
+            },
+            {
+                "head": "输入蛋白质序列",
+                "type": "使用",
+                "tail": "one-hot编码"
+            },
+            {
+                "head": "one-hot编码",
+                "type": "属于",
+                "tail": "预处理"
+            },
+            {
+                "head": "预处理",
+                "type": "属于",
+                "tail": "模型训练"
+            },
+            {
+                "head": "1D-CNN",
+                "type": "属于",
+                "tail": "神经网络构建块"
+            },
+            {
+                "head": "CNN",
+                "type": "包含",
+                "tail": "1D-CNN"
+            },
+            {
+                "head": "Max-Pooling",
+                "type": "属于",
+                "tail": "池化"
+            },
+            {
+                "head": "tanh激活函数",
+                "type": "属于",
+                "tail": "激活函数"
+            },
+            {
+                "head": "Sigmoid激活函数",
+                "type": "属于",
+                "tail": "激活函数"
+            },
+            {
+                "head": "LSTM",
+                "type": "使用",
+                "tail": "tanh激活函数"
+            },
+            {
+                "head": "Flatten层",
+                "type": "属于",
+                "tail": "神经网络构建块"
+            },
+            {
+                "head": "Deep_CNN_LSTM_GO",
+                "type": "包含",
+                "tail": "1D-CNN"
+            },
+            {
+                "head": "Deep_CNN_LSTM_GO",
+                "type": "包含",
+                "tail": "Max-Pooling"
+            },
+            {
+                "head": "Deep_CNN_LSTM_GO",
+                "type": "包含",
+                "tail": "LSTM"
+            },
+            {
+                "head": "Deep_CNN_LSTM_GO",
+                "type": "包含",
+                "tail": "Flatten层"
+            },
+            {
+                "head": "Deep_CNN_LSTM_GO",
+                "type": "使用",
+                "tail": "Sigmoid激活函数"
+            },
+            {
+                "head": "模型训练",
+                "type": "使用",
+                "tail": "ADAM优化"
+            },
+            {
+                "head": "模型训练",
+                "type": "使用",
+                "tail": "交叉熵"
+            },
+            {
+                "head": "评估指标",
+                "type": "包含",
+                "tail": "AUPR"
+            },
+            {
+                "head": "评估指标",
+                "type": "包含",
+                "tail": "Fmax"
+            },
+            {
+                "head": "评估指标",
+                "type": "包含",
+                "tail": "Smin"
+            },
+            {
+                "head": "评估指标",
+                "type": "包含",
+                "tail": "Precision"
+            },
+            {
+                "head": "评估指标",
+                "type": "包含",
+                "tail": "Recall"
+            },
+            {
+                "head": "Deep_CNN_LSTM_GO",
+                "type": "输出",
+                "tail": "GO"
+            },
+            {
+                "head": "bio_embeddings软件",
+                "type": "使用",
+                "tail": "FASTA格式"
+            },
+            {
+                "head": "bio_embeddings软件",
+                "type": "使用",
+                "tail": "DisProt"
+            },
+            {
+                "head": "bio_embeddings软件",
+                "type": "生成",
+                "tail": "嵌入"
+            },
+            {
+                "head": "ProtBERT",
+                "type": "属于",
+                "tail": "ProtTrans"
+            },
+            {
+                "head": "嵌入生成",
+                "type": "使用",
+                "tail": "ProtBERT"
+            },
+            {
+                "head": "嵌入生成",
+                "type": "使用",
+                "tail": "全局平均池化"
+            },
+            {
+                "head": "蛋白质空间",
+                "type": "属于",
+                "tail": "可视化"
+            },
+            {
+                "head": "预测蛋白质位置",
+                "type": "属于",
+                "tail": "亚细胞位置"
+            },
+            {
+                "head": "DeepLoc",
+                "type": "包含",
+                "tail": "亚细胞位置"
+            },
+            {
+                "head": "bio_embeddings",
+                "type": "包含",
+                "tail": "嵌入生成"
+            },
+            {
+                "head": "bio_embeddings",
+                "type": "包含",
+                "tail": "序列注释"
+            },
+            {
+                "head": "bio_embeddings",
+                "type": "包含",
+                "tail": "可视化"
+            },
+            {
+                "head": "机器学习模型",
+                "type": "使用",
+                "tail": "ANN"
+            },
+            {
+                "head": "机器学习模型",
+                "type": "使用",
+                "tail": "SVM"
+            },
+            {
+                "head": "模型训练",
+                "type": "使用",
+                "tail": "机器学习模型"
+            },
+            {
+                "head": "评估指标",
+                "type": "使用",
+                "tail": "标准误差"
+            },
+            {
+                "head": "Deep_GO",
+                "type": "属于",
+                "tail": "深度学习概念"
+            },
+            {
+                "head": "Deep_GO_Plus",
+                "type": "属于",
+                "tail": "深度学习概念"
+            },
+            {
+                "head": "UniProtKB-Swissport",
+                "type": "属于",
+                "tail": "生物信息工具"
+            },
+            {
+                "head": "GO",
+                "type": "属于",
+                "tail": "生物医学概念"
+            },
+            {
+                "head": "输入蛋白质序列",
+                "type": "属于",
+                "tail": "项目活动"
+            },
+            {
+                "head": "模型训练",
+                "type": "属于",
+                "tail": "项目活动"
+            },
+            {
+                "head": "文献调研",
+                "type": "属于",
+                "tail": "项目活动"
+            },
+            {
+                "head": "评估指标",
+                "type": "属于",
+                "tail": "项目活动"
+            },
+            {
+                "head": "序列注释",
+                "type": "属于",
+                "tail": "项目活动"
+            },
+            {
+                "head": "可视化",
+                "type": "属于",
+                "tail": "项目活动"
+            },
+            {
+                "head": "嵌入生成",
+                "type": "属于",
+                "tail": "项目活动"
+            },
+            {
+                "head": "蛋白质空间",
+                "type": "属于",
+                "tail": "项目活动"
+            },
+            {
+                "head": "预测蛋白质位置",
+                "type": "属于",
+                "tail": "项目活动"
+            },
+            {
+                "head": "Deep_CNN_LSTM_GO",
+                "type": "属于",
+                "tail": "项目活动"
+            },
+            {
+                "head": "Deep_CNN_LSTM_GO",
+                "type": "使用",
+                "tail": "LSTM"
+            },
+            {
+                "head": "Deep_CNN_LSTM_GO",
+                "type": "使用",
+                "tail": "1D-CNN"
+            },
+            {
+                "head": "Deep_CNN_LSTM_GO",
+                "type": "使用",
+                "tail": "Max-Pooling"
+            },
+            {
+                "head": "Deep_CNN_LSTM_GO",
+                "type": "使用",
+                "tail": "Flatten层"
+            },
+            {
+                "head": "Deep_CNN_LSTM_GO",
+                "type": "输出",
+                "tail": "GO"
+            },
+            {
+                "head": "bio_embeddings",
+                "type": "使用",
+                "tail": "FASTA"
+            },
+            {
+                "head": "bio_embeddings",
+                "type": "使用",
+                "tail": "CSV"
+            },
+            {
+                "head": "嵌入生成",
+                "type": "使用",
+                "tail": "bio_embeddings"
+            },
+            {
+                "head": "嵌入生成",
+                "type": "输出",
+                "tail": "嵌入"
+            },
+            {
+                "head": "嵌入",
+                "type": "属于",
+                "tail": "深度学习概念"
+            },
+            {
+                "head": "嵌入",
+                "type": "使用",
+                "tail": "机器学习模型"
+            },
+            {
+                "head": "蛋白质空间",
+                "type": "使用",
+                "tail": "嵌入"
+            },
+            {
+                "head": "预测蛋白质位置",
+                "type": "使用",
+                "tail": "嵌入"
+            },
+            {
+                "head": "预测蛋白质位置",
+                "type": "使用",
+                "tail": "机器学习模型"
+            },
+            {
+                "head": "项目活动",
+                "type": "包含",
+                "tail": "嵌入生成"
+            },
+            {
+                "head": "项目活动",
+                "type": "包含",
+                "tail": "序列注释"
+            },
+            {
+                "head": "项目活动",
+                "type": "包含",
+                "tail": "可视化"
+            },
+            {
+                "head": "项目活动",
+                "type": "包含",
+                "tail": "模型训练"
+            },
+            {
+                "head": "项目活动",
+                "type": "包含",
+                "tail": "文献调研"
+            },
+            {
+                "head": "项目活动",
+                "type": "包含",
+                "tail": "评估指标"
+            }
+        ]
+    },
+    "status": "success"
+}

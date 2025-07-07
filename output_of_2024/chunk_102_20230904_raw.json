@@ -1,0 +1,6 @@
+{
+    "timestamp": "2025-07-07T17:16:17.936442",
+    "filename": "chunk_102_20230904.md",
+    "raw_entities": "\n\n{\n  \"chunk_id\": \"2023-09-04_22:02\",\n  \"entities\": [\n    {\"name\": \"Transformer\", \"type\": \"深度学习概念\"},\n    {\"name\": \"loss\", \"type\": \"深度学习概念\"},\n    {\"name\": \"pred_out\", \"type\": \"深度学习概念\"},\n    {\"name\": \"regular_loss\", \"type\": \"深度学习概念\"},\n    {\"name\": \"encoder_outputs\", \"type\": \"深度学习概念\"},\n    {\"name\": \"final_emb\", \"type\": \"深度学习概念\"},\n    {\"name\": \"train.py\", \"type\": \"生物信息工具\"}\n  ]\n}",
+    "raw_relations": "\n\n```json\n{\n  \"chunk_id\": \"2023-09-04_22:02\",\n  \"relations\": [\n    {\"head\": \"train.py\", \"type\": \"包含\", \"tail\": \"loss\"},\n    {\"head\": \"train.py\", \"type\": \"包含\", \"tail\": \"pred_out\"},\n    {\"head\": \"train.py\", \"type\": \"包含\", \"tail\": \"regular_loss\"},\n    {\"head\": \"train.py\", \"type\": \"包含\", \"tail\": \"encoder_outputs\"},\n    {\"head\": \"train.py\", \"type\": \"包含\", \"tail\": \"final_emb\"},\n    {\"head\": \"Transformer\", \"type\": \"输出\", \"tail\": \"encoder_outputs\"},\n    {\"head\": \"final_emb\", \"type\": \"属于\", \"tail\": \"dense层\"},\n    {\"head\": \"regular_loss\", \"type\": \"使用\", \"tail\": \"pred_out\"},\n    {\"head\": \"loss\", \"type\": \"属于\", \"tail\": \"损失\"}\n  ]\n}\n```"
+}

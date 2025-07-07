@@ -1,0 +1,413 @@
+{
+    "timestamp": "2025-07-07T18:02:49.209133",
+    "filename": "chunk_047_unknown_date.md",
+    "entities": {
+        "chunk_id": "2024-03-02",
+        "entities": [
+            {
+                "name": "ARG",
+                "type": "生物分子"
+            },
+            {
+                "name": "ORF",
+                "type": "生物分子"
+            },
+            {
+                "name": "DNA序列",
+                "type": "生物分子"
+            },
+            {
+                "name": "蛋白质",
+                "type": "生物分子"
+            },
+            {
+                "name": "抗生素耐药性",
+                "type": "生物医学概念"
+            },
+            {
+                "name": "抗生素",
+                "type": "生物医学概念"
+            },
+            {
+                "name": "抗性类别",
+                "type": "生物医学概念"
+            },
+            {
+                "name": "多标签分类",
+                "type": "深度学习概念"
+            },
+            {
+                "name": "PLM-ARG",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "PLM-ARGDB",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "UniPort FASTA",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "CD-HIT",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "CARD",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "MEGARes",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "Resfams",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "DeepARG",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "RGI",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "UniProt",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "HMD-ARG-DB",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "AUC指标",
+                "type": "深度学习概念"
+            },
+            {
+                "name": "概率值",
+                "type": "深度学习概念"
+            },
+            {
+                "name": "E-value",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "多药耐药",
+                "type": "生物医学概念"
+            },
+            {
+                "name": "肽",
+                "type": "生物分子"
+            },
+            {
+                "name": "β-内酰胺",
+                "type": "生物分子"
+            },
+            {
+                "name": "四环素",
+                "type": "生物分子"
+            },
+            {
+                "name": "大环内酯类",
+                "type": "生物分子"
+            },
+            {
+                "name": "林可酰胺类",
+                "type": "生物分子"
+            },
+            {
+                "name": "链球菌敏",
+                "type": "生物分子"
+            },
+            {
+                "name": "抗生素类别",
+                "type": "生物医学概念"
+            },
+            {
+                "name": "同源性",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "数据集策划",
+                "type": "项目活动"
+            },
+            {
+                "name": "模型评估",
+                "type": "项目活动"
+            },
+            {
+                "name": "案例研究",
+                "type": "项目活动"
+            },
+            {
+                "name": "抗性注释",
+                "type": "项目活动"
+            },
+            {
+                "name": "EMBOSS",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "Transeq",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "AWaRe分类系统",
+                "type": "生物医学概念"
+            },
+            {
+                "name": "UniProt数据库",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "ResFinder",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "AMRFinderPlus",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "ARGMiner",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "序列比对",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "概率",
+                "type": "深度学习概念"
+            },
+            {
+                "name": "分类系统",
+                "type": "其他"
+            },
+            {
+                "name": "多类别分类",
+                "type": "深度学习概念"
+            },
+            {
+                "name": "相似度",
+                "type": "生物信息工具"
+            }
+        ]
+    },
+    "relations": {
+        "chunk_id": "2024-03-02",
+        "relations": [
+            {
+                "head": "PLM-ARG",
+                "type": "使用",
+                "tail": "EMBOSS"
+            },
+            {
+                "head": "EMBOSS",
+                "type": "包含",
+                "tail": "Transeq"
+            },
+            {
+                "head": "Transeq",
+                "type": "使用",
+                "tail": "DNA序列"
+            },
+            {
+                "head": "Transeq",
+                "type": "输出",
+                "tail": "UniPort FASTA"
+            },
+            {
+                "head": "CD-HIT",
+                "type": "使用",
+                "tail": "序列比对"
+            },
+            {
+                "head": "CD-HIT",
+                "type": "使用",
+                "tail": "同源性"
+            },
+            {
+                "head": "ARG",
+                "type": "属于",
+                "tail": "抗生素耐药性"
+            },
+            {
+                "head": "PLM-ARG",
+                "type": "输出",
+                "tail": "抗性类别"
+            },
+            {
+                "head": "PLM-ARG",
+                "type": "输出",
+                "tail": "概率值"
+            },
+            {
+                "head": "ARG",
+                "type": "属于",
+                "tail": "抗生素类别"
+            },
+            {
+                "head": "抗生素类别",
+                "type": "属于",
+                "tail": "AWaRe分类系统"
+            },
+            {
+                "head": "PLM-ARGDB",
+                "type": "包含",
+                "tail": "CARD"
+            },
+            {
+                "head": "PLM-ARGDB",
+                "type": "包含",
+                "tail": "ResFinder"
+            },
+            {
+                "head": "PLM-ARGDB",
+                "type": "包含",
+                "tail": "MEGARes"
+            },
+            {
+                "head": "PLM-ARGDB",
+                "type": "包含",
+                "tail": "AMRFinderPlus"
+            },
+            {
+                "head": "PLM-ARGDB",
+                "type": "包含",
+                "tail": "ARGMiner"
+            },
+            {
+                "head": "PLM-ARGDB",
+                "type": "包含",
+                "tail": "HMD-ARG-DB"
+            },
+            {
+                "head": "PLM-ARGDB",
+                "type": "属于",
+                "tail": "数据集策划"
+            },
+            {
+                "head": "PLM-ARG",
+                "type": "属于",
+                "tail": "模型评估"
+            },
+            {
+                "head": "PLM-ARG",
+                "type": "使用",
+                "tail": "UniProt数据库"
+            },
+            {
+                "head": "UniProt数据库",
+                "type": "包含",
+                "tail": "ARG"
+            },
+            {
+                "head": "PLM-ARG",
+                "type": "属于",
+                "tail": "案例研究"
+            },
+            {
+                "head": "案例研究",
+                "type": "包含",
+                "tail": "抗性注释"
+            },
+            {
+                "head": "PLM-ARG",
+                "type": "调控",
+                "tail": "抗性注释"
+            },
+            {
+                "head": "DeepARG",
+                "type": "使用",
+                "tail": "概率"
+            },
+            {
+                "head": "Resfams",
+                "type": "使用",
+                "tail": "E-value"
+            },
+            {
+                "head": "RGI",
+                "type": "属于",
+                "tail": "序列比对"
+            },
+            {
+                "head": "RGI",
+                "type": "被推荐",
+                "tail": "CARD"
+            },
+            {
+                "head": "RGI",
+                "type": "被推荐",
+                "tail": "MEGARes"
+            },
+            {
+                "head": "抗生素使用",
+                "type": "因果",
+                "tail": "多药耐药"
+            },
+            {
+                "head": "PLM-ARG",
+                "type": "使用",
+                "tail": "多标签分类"
+            },
+            {
+                "head": "PLM-ARGDB",
+                "type": "属于",
+                "tail": "生物信息工具"
+            },
+            {
+                "head": "PLM-ARG",
+                "type": "属于",
+                "tail": "深度学习概念"
+            },
+            {
+                "head": "PLM-ARGDB",
+                "type": "包含",
+                "tail": "肽"
+            },
+            {
+                "head": "PLM-ARGDB",
+                "type": "包含",
+                "tail": "β-内酰胺"
+            },
+            {
+                "head": "PLM-ARGDB",
+                "type": "包含",
+                "tail": "四环素"
+            },
+            {
+                "head": "PLM-ARGDB",
+                "type": "包含",
+                "tail": "大环内酯类"
+            },
+            {
+                "head": "PLM-ARGDB",
+                "type": "包含",
+                "tail": "林可酰胺类"
+            },
+            {
+                "head": "PLM-ARGDB",
+                "type": "包含",
+                "tail": "链球菌敏"
+            },
+            {
+                "head": "UniProt",
+                "type": "包含",
+                "tail": "ARG"
+            },
+            {
+                "head": "UniProt",
+                "type": "属于",
+                "tail": "生物信息工具"
+            },
+            {
+                "head": "PLM-ARG",
+                "type": "输出",
+                "tail": "AUC指标"
+            }
+        ]
+    },
+    "status": "success"
+}

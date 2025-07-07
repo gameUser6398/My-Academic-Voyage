@@ -1,0 +1,30 @@
+
+
+```json
+{
+  "chunk_id": "2024-03-02",
+  "entities": [
+    {"name": "ARG", "type": "生物分子"},
+    {"name": "AMR", "type": "生物分子"},
+    {"name": "MEGARes", "type": "生物信息工具"},
+    {"name": "CARD", "type": "生物信息工具"},
+    {"name": "Resfams", "type": "生物信息工具"},
+    {"name": "ARGminer", "type": "生物信息工具"},
+    {"name": "NDARO", "type": "生物信息工具"},
+    {"name": "SARG", "type": "生物信息工具"},
+    {"name": "ARGs-OAP", "type": "生物信息工具"},
+    {"name": "WGS", "type": "生物技术"},
+    {"name": "Whole Genome Sequencing", "type": "生物技术"},
+    {"name": "BLAST", "type": "生物信息工具"},
+    {"name": "SNP", "type": "生物分子"},
+    {"name": "Indel", "type": "生物分子"},
+    {"name": "Structure Variantions", "type": "生物分子"},
+    {"name": "AMRFinderPlus", "type": "生物信息工具"},
+    {"name": "Xshell", "type": "生物信息工具"},
+    {"name": "XFTP", "type": "生物信息工具"},
+    {"name": "阿里云服务器", "type": "其他"},
+    {"name": "虚拟环境配置", "type": "项目活动"},
+    {"name": "RTX显卡", "type": "其他"}
+  ]
+}
+```

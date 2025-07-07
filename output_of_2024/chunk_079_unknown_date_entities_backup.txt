@@ -1,0 +1,37 @@
+
+
+```json
+{
+  "chunk_id": "2024-03-02",
+  "entities": [
+    {"name": "INSDC", "type": "生物信息工具"},
+    {"name": "NCBI", "type": "生物信息工具"},
+    {"name": "EMBL", "type": "生物信息工具"},
+    {"name": "UniProt", "type": "生物信息工具"},
+    {"name": "Pfam", "type": "生物信息工具"},
+    {"name": "毒力蛋白", "type": "生物分子"},
+    {"name": "耐药基因", "type": "生物分子"},
+    {"name": "合成基因簇", "type": "生物分子"},
+    {"name": "toxin-antitoxin", "type": "生物分子"},
+    {"name": "序列比对搜索", "type": "生物技术"},
+    {"name": "blast索引库", "type": "生物信息工具"},
+    {"name": "基因组测序", "type": "生物技术"},
+    {"name": "蛋白质序列", "type": "生物分子"},
+    {"name": "UniParc", "type": "生物信息工具"},
+    {"name": "UniProtKB", "type": "生物信息工具"},
+    {"name": "Proteomes", "type": "生物信息工具"},
+    {"name": "UNIRef", "type": "生物信息工具"},
+    {"name": "Swiss-Prot", "type": "生物信息工具"},
+    {"name": "TrEMBL", "type": "生物信息工具"},
+    {"name": "PIR-PSD", "type": "生物信息工具"},
+    {"name": "ExPASy", "type": "生物信息工具"},
+    {"name": "EMBL-EBI", "type": "项目活动"},
+    {"name": "SIB", "type": "项目活动"},
+    {"name": "PIR", "type": "生物信息工具"},
+    {"name": "NBRF", "type": "项目活动"},
+    {"name": "欧洲生物信息学研究所", "type": "项目活动"},
+    {"name": "基因组学", "type": "生物医学概念"},
+    {"name": "蛋白质组学", "type": "生物医学概念"}
+  ]
+}
+```

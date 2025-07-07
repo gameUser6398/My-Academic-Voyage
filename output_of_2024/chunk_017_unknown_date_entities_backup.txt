@@ -1,0 +1,17 @@
+
+
+{
+  "chunk_id": "2024-03-02",
+  "entities": [
+    {"name": "蛋白", "type": "生物分子"},
+    {"name": "同源搜索", "type": "生物技术"},
+    {"name": "anc2vec", "type": "生物信息工具"},
+    {"name": "GO", "type": "生物分子"},
+    {"name": "focal loss", "type": "深度学习概念"},
+    {"name": "Learning from Imbalanced Classes", "type": "其他"},
+    {"name": "蛋白相互作用", "type": "生物分子"},
+    {"name": "数据筛选", "type": "项目活动"},
+    {"name": "调参", "type": "深度学习概念"},
+    {"name": "样本极度不平衡", "type": "项目活动"}
+  ]
+}

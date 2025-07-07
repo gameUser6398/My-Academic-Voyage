@@ -1,0 +1,60 @@
+{
+    "timestamp": "2025-07-07T16:58:32.246125",
+    "filename": "chunk_098_20230529.md",
+    "entities": {
+        "chunk_id": "2024-03-02",
+        "entities": [
+            {
+                "name": "Protein Structure Alignment",
+                "type": "生物技术"
+            },
+            {
+                "name": "Deep_CNN_LSTM_GO",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "Protein function prediction",
+                "type": "生物技术"
+            },
+            {
+                "name": "amino-acid sequences",
+                "type": "生物分子"
+            },
+            {
+                "name": "DeepGOPlus",
+                "type": "生物信息工具"
+            }
+        ]
+    },
+    "relations": {
+        "chunk_id": "2024-03-02",
+        "relations": [
+            {
+                "head": "Deep_CNN_LSTM_GO",
+                "type": "使用",
+                "tail": "amino-acid sequences"
+            },
+            {
+                "head": "Deep_CNN_LSTM_GO",
+                "type": "属于",
+                "tail": "Protein function prediction"
+            },
+            {
+                "head": "DeepGOPlus",
+                "type": "属于",
+                "tail": "Protein function prediction"
+            },
+            {
+                "head": "Protein function prediction",
+                "type": "使用",
+                "tail": "Deep_CNN_LSTM_GO"
+            },
+            {
+                "head": "Protein function prediction",
+                "type": "使用",
+                "tail": "amino-acid sequences"
+            }
+        ]
+    },
+    "status": "success"
+}

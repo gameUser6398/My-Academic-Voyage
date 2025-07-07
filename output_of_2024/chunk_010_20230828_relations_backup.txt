@@ -1,0 +1,18 @@
+
+
+{
+  "chunk_id": "2024-03-02",
+  "relations": [
+    {"head": "维度/参数增加", "type": "因果", "tail": "local minimal更少见"},
+    {"head": "维度/参数增加", "type": "因果", "tail": "saddle point更常见"},
+    {"head": "GPU处理", "type": "使用", "tail": "大的batch size"},
+    {"head": "大的batch size", "type": "因果", "tail": "训练结果更差"},
+    {"head": "训练Bert", "type": "使用", "tail": "warm up"},
+    {"head": "Transformer", "type": "使用", "tail": "warm up"},
+    {"head": "Transformer", "type": "使用", "tail": "优化器"},
+    {"head": "Transformer", "type": "使用", "tail": "学习率调整"},
+    {"head": "Transformer", "type": "属于", "tail": "深度学习概念"},
+    {"head": "Bert", "type": "属于", "tail": "深度学习概念"},
+    {"head": "RAdm", "type": "因果", "tail": "1908.03265"}
+  ]
+}

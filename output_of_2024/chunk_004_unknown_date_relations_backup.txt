@@ -1,0 +1,21 @@
+
+
+```json
+{
+  "chunk_id": "2024-07-17-18",
+  "relations": [
+    {"head": "CAFA 5", "type": "使用", "tail": "T5 Embeds"},
+    {"head": "CAFA 5", "type": "使用", "tail": "Ensemble"},
+    {"head": "CAFA 5", "type": "使用", "tail": "zero_predic"},
+    {"head": "CAFA 5", "type": "属于", "tail": "Kaggle"},
+    {"head": "训练框架", "type": "使用", "tail": "torch"},
+    {"head": "训练框架", "type": "使用", "tail": "tensorboard"},
+    {"head": "模型预测", "type": "使用", "tail": "GO term"},
+    {"head": "词嵌入", "type": "使用", "tail": "CNN"},
+    {"head": "ProteiNet", "type": "使用", "tail": "EMS2"},
+    {"head": "ProteiNet", "type": "使用", "tail": "T5 Embeds"},
+    {"head": "ProteiNet", "type": "使用", "tail": "ProtBERT"},
+    {"head": "ProteiNet", "type": "属于", "tail": "Kaggle"}
+  ]
+}
+```

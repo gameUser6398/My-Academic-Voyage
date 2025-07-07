@@ -1,0 +1,47 @@
+
+
+```json
+{
+  "chunk_id": "2024-03-02",
+  "relations": [
+    {"head": "多重耐药菌", "type": "属于", "tail": "多标签任务"},
+    {"head": "多标签任务", "type": "属于", "tail": "临床应用"},
+    {"head": "文献报道", "type": "包含", "tail": "ARG"},
+    {"head": "Uniprot", "type": "使用", "tail": "耐药ARG"},
+    {"head": "新收集菌株", "type": "包含", "tail": "基因组信息"},
+    {"head": "新收集菌株", "type": "包含", "tail": "耐药信息"},
+    {"head": "数据收集", "type": "使用", "tail": "NCBI"},
+    {"head": "数据收集", "type": "属于", "tail": "项目特色"},
+    {"head": "数据收集", "type": "属于", "tail": "写作时"},
+    {"head": "数据收集", "type": "属于", "tail": "lcl当前计划"},
+    {"head": "耐药发生机制", "type": "包含", "tail": "固有"},
+    {"head": "耐药发生机制", "type": "包含", "tail": "获得"},
+    {"head": "耐药发生机制", "type": "包含", "tail": "突变"},
+    {"head": "不平衡数据处理", "type": "包含", "tail": "上采样"},
+    {"head": "不平衡数据处理", "type": "包含", "tail": "SMOTE"},
+    {"head": "不平衡数据处理", "type": "包含", "tail": "GAN"},
+    {"head": "GAN", "type": "属于", "tail": "ctGAN"},
+    {"head": "五折交叉验证", "type": "使用", "tail": "RGI"},
+    {"head": "五折交叉验证", "type": "使用", "tail": "DeepARG"},
+    {"head": "五折交叉验证", "type": "使用", "tail": "PLMARG"},
+    {"head": "写作时", "type": "包含", "tail": "介绍耐药发生机制"},
+    {"head": "写作时", "type": "包含", "tail": "介绍WGS优势"},
+    {"head": "WGS", "type": "属于", "tail": "生物技术"},
+    {"head": "项目特色", "type": "包含", "tail": "多重耐药菌"},
+    {"head": "项目特色", "type": "包含", "tail": "多标签任务"},
+    {"head": "数据收集", "type": "使用", "tail": "文献报道"},
+    {"head": "数据收集", "type": "使用", "tail": "Uniprot"},
+    {"head": "数据收集", "type": "使用", "tail": "新收集菌株"},
+    {"head": "数据收集", "type": "后续处理", "tail": "可视化"},
+    {"head": "可视化", "type": "使用", "tail": "UMAP"},
+    {"head": "不平衡数据处理", "type": "属于", "tail": "项目活动"},
+    {"head": "GAN", "type": "属于", "tail": "深度学习概念"},
+    {"head": "ctGAN", "type": "属于", "tail": "深度学习概念"},
+    {"head": "五折交叉验证", "type": "属于", "tail": "深度学习概念"},
+    {"head": "SMOTE", "type": "属于", "tail": "深度学习概念"},
+    {"head": "RGI", "type": "属于", "tail": "生物信息工具"},
+    {"head": "DeepARG", "type": "属于", "tail": "生物信息工具"},
+    {"head": "PLMARG", "type": "属于", "tail": "生物信息工具"}
+  ]
+}
+```

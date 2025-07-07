@@ -1,0 +1,18 @@
+
+
+```json
+{
+  "chunk_id": "2024-03-02",
+  "entities": [
+    {"name": "余弦相似度", "type": "生物信息工具"},
+    {"name": "Python", "type": "生物信息工具"},
+    {"name": "轮廓系数", "type": "生物信息工具"},
+    {"name": "silhouette_score", "type": "生物信息工具"},
+    {"name": "silhouette_samples", "type": "生物信息工具"},
+    {"name": "维度灾难", "type": "其他"},
+    {"name": "欧氏距离", "type": "其他"},
+    {"name": "高维空间", "type": "其他"},
+    {"name": "蛋白簇", "type": "生物分子"}
+  ]
+}
+```

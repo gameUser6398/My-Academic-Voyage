@@ -1,0 +1,135 @@
+{
+    "timestamp": "2025-07-07T20:08:14.719620",
+    "filename": "chunk_052_20230711.md",
+    "entities": {
+        "chunk_id": "2024-03-02",
+        "entities": [
+            {
+                "name": "Colab",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "bio_embeddings",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "GridSearchCV",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "DataFrame",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "Pytorch",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "Conv2d",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "CondaHTTPError",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "https",
+                "type": "其他"
+            },
+            {
+                "name": "http",
+                "type": "其他"
+            },
+            {
+                "name": "pip",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "Anaconda",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "Python",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "Linux",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "json.decoder.JSONDecodeError",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "anc2vec",
+                "type": "生物信息工具"
+            }
+        ]
+    },
+    "relations": {
+        "chunk_id": "2024-03-02",
+        "relations": [
+            {
+                "head": "Colab",
+                "type": "使用",
+                "tail": "bio_embeddings"
+            },
+            {
+                "head": "GridSearchCV",
+                "type": "属于",
+                "tail": "Pytorch"
+            },
+            {
+                "head": "Conv2d",
+                "type": "属于",
+                "tail": "Pytorch"
+            },
+            {
+                "head": "CondaHTTPError",
+                "type": "属于",
+                "tail": "Anaconda"
+            },
+            {
+                "head": "CondaHTTPError",
+                "type": "因果",
+                "tail": "https"
+            },
+            {
+                "head": "https",
+                "type": "解决方案",
+                "tail": "CondaHTTPError"
+            },
+            {
+                "head": "http",
+                "type": "解决方案",
+                "tail": "https"
+            },
+            {
+                "head": "pip",
+                "type": "属于",
+                "tail": "Python"
+            },
+            {
+                "head": "Anaconda",
+                "type": "使用",
+                "tail": "conda install python"
+            },
+            {
+                "head": "Linux",
+                "type": "报错",
+                "tail": "connection timed out"
+            },
+            {
+                "head": "json.decoder.JSONDecodeError",
+                "type": "属于",
+                "tail": "Python"
+            },
+            {
+                "head": "anc2vec",
+                "type": "安装",
+                "tail": "Colab"
+            }
+        ]
+    },
+    "status": "success"
+}

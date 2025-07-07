@@ -1,0 +1,18 @@
+
+
+{
+  "chunk_id": "2024-03-02",
+  "entities": [
+    {"name": "local minimal", "type": "深度学习概念"},
+    {"name": "saddle point", "type": "深度学习概念"},
+    {"name": "batch size", "type": "深度学习概念"},
+    {"name": "学习率调整", "type": "深度学习概念"},
+    {"name": "优化器", "type": "深度学习概念"},
+    {"name": "warm up", "type": "深度学习概念"},
+    {"name": "Transformer", "type": "深度学习概念"},
+    {"name": "Bert", "type": "生物信息工具"},
+    {"name": "RAdm", "type": "其他"},
+    {"name": "1908.03265", "type": "其他"},
+    {"name": "Transformer", "type": "深度学习概念"}
+  ]
+}

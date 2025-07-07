@@ -1,0 +1,40 @@
+
+
+```json
+{
+  "chunk_id": "2024-03-02",
+  "entities": [
+    {"name": "β-内酰胺酶", "type": "生物分子"},
+    {"name": "β-内酰胺类抗生素", "type": "生物分子"},
+    {"name": "活性位点丝氨酸 β-内酰胺酶", "type": "生物分子"},
+    {"name": "金属-β-内酰胺酶", "type": "生物分子"},
+    {"name": "A 类", "type": "生物分子"},
+    {"name": "B类", "type": "生物分子"},
+    {"name": "B1 类", "type": "生物分子"},
+    {"name": "B2类", "type": "生物分子"},
+    {"name": "B3 类", "type": "生物分子"},
+    {"name": "C类", "type": "生物分子"},
+    {"name": "D类", "type": "生物分子"},
+    {"name": "TEM-1", "type": "生物分子"},
+    {"name": "SHV-1", "type": "生物分子"},
+    {"name": "NDM-1", "type": "生物分子"},
+    {"name": "VIM-2", "type": "生物分子"},
+    {"name": "IMP-1", "type": "生物分子"},
+    {"name": "CphA", "type": "生物分子"},
+    {"name": "L1", "type": "生物分子"},
+    {"name": "P99", "type": "生物分子"},
+    {"name": "FOX-4", "type": "生物分子"},
+    {"name": "OXA-1", "type": "生物分子"},
+    {"name": "OXA-11", "type": "生物分子"},
+    {"name": "CepA", "type": "生物分子"},
+    {"name": "KPC-2", "type": "生物分子"},
+    {"name": "头孢菌素", "type": "生物分子"},
+    {"name": "青霉素", "type": "生物分子"},
+    {"name": "碳青霉烯类", "type": "生物分子"},
+    {"name": "氨曲南", "type": "生物分子"},
+    {"name": "苯唑西林", "type": "生物分子"},
+    {"name": "HMDARG", "type": "生物信息工具"},
+    {"name": "BLDB", "type": "生物信息工具"}
+  ]
+}
+```

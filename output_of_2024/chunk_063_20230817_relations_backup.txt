@@ -1,0 +1,17 @@
+
+
+{
+  "chunk_id": "2024-03-02",
+  "relations": [
+    {"head": "数据加载", "type": "使用", "tail": "DataLoader"},
+    {"head": "数据加载", "type": "使用", "tail": "Dataset"},
+    {"head": "数据加载", "type": "使用", "tail": "random_split()"},
+    {"head": "Multi-Head-Attention", "type": "属于", "tail": "self-Attention"},
+    {"head": "神经网络", "type": "使用", "tail": "dropout"},
+    {"head": "模型预测", "type": "使用", "tail": "model.eval()"},
+    {"head": "深度学习模型", "type": "使用", "tail": "softmax"},
+    {"head": "分类任务", "type": "使用", "tail": "crossentropy"},
+    {"head": "crossentropy", "type": "包含", "tail": "softmax"},
+    {"head": "TorchProtein", "type": "属于", "tail": "深度学习概念"}
+  ]
+}

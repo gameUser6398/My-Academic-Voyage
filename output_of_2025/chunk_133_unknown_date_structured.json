@@ -1,0 +1,138 @@
+{
+    "timestamp": "2025-07-07T17:37:44.740082",
+    "filename": "chunk_133_unknown_date.md",
+    "entities": {
+        "chunk_id": "2024-03-02",
+        "entities": [
+            {
+                "name": "基因表达数据",
+                "type": "生物分子"
+            },
+            {
+                "name": "生存数据",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "癌症",
+                "type": "生物医学概念"
+            },
+            {
+                "name": "蛋白质表征",
+                "type": "生物分子"
+            },
+            {
+                "name": "抗生素耐药性",
+                "type": "生物医学概念"
+            },
+            {
+                "name": "ctGAN",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "CGAN",
+                "type": "深度学习概念"
+            },
+            {
+                "name": "WGAN",
+                "type": "深度学习概念"
+            },
+            {
+                "name": "Attention",
+                "type": "深度学习概念"
+            },
+            {
+                "name": "residual",
+                "type": "深度学习概念"
+            },
+            {
+                "name": "pre_v4_Attention",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "weight_init",
+                "type": "深度学习概念"
+            }
+        ]
+    },
+    "relations": {
+        "chunk_id": "2024-03-02",
+        "relations": [
+            {
+                "head": "ctGAN",
+                "type": "使用",
+                "tail": "CGAN"
+            },
+            {
+                "head": "ctGAN",
+                "type": "使用",
+                "tail": "Attention"
+            },
+            {
+                "head": "pre_v4_Attention",
+                "type": "属于",
+                "tail": "生物信息工具"
+            },
+            {
+                "head": "ctGAN",
+                "type": "属于",
+                "tail": "生物信息工具"
+            },
+            {
+                "head": "CGAN",
+                "type": "属于",
+                "tail": "生成对抗网络"
+            },
+            {
+                "head": "WGAN",
+                "type": "属于",
+                "tail": "生成对抗网络"
+            },
+            {
+                "head": "ctGAN",
+                "type": "包含",
+                "tail": "多标签"
+            },
+            {
+                "head": "ctGAN",
+                "type": "调控",
+                "tail": "基因表达数据"
+            },
+            {
+                "head": "ctGAN",
+                "type": "调控",
+                "tail": "生成数据"
+            },
+            {
+                "head": "ctGAN",
+                "type": "属于",
+                "tail": "深度学习概念"
+            },
+            {
+                "head": "Attention",
+                "type": "属于",
+                "tail": "深度学习概念"
+            },
+            {
+                "head": "ctGAN",
+                "type": "因果",
+                "tail": "癌症预后分析准确性提升"
+            },
+            {
+                "head": "生成对抗网络",
+                "type": "使用",
+                "tail": "基因表达数据"
+            },
+            {
+                "head": "生成对抗网络",
+                "type": "使用",
+                "tail": "蛋白质表征"
+            },
+            {
+                "head": "生成对抗网络",
+                "type": "讨论",
+                "tail": "抗生素耐药性转化"
+            }
+        ]
+    },
+    "status": "success"
+}

@@ -1,0 +1,134 @@
+
+
+```json
+{
+  "chunk_id": "2024-03-02",
+  "relations": [
+    {
+      "head": "Embed_then_GOannotations.py",
+      "type": "使用",
+      "tail": "Bert嵌入向量"
+    },
+    {
+      "head": "Embed_then_GOannotations.py",
+      "type": "使用",
+      "tail": "KNN"
+    },
+    {
+      "head": "Embed_then_GOannotations.py",
+      "type": "目的",
+      "tail": "蛋白质注释"
+    },
+    {
+      "head": "Embed_then_GOannotations.py",
+      "type": "本质",
+      "tail": "序列相似性"
+    },
+    {
+      "head": "pairwise_distance_matrix_from_embeddings_and_annotations",
+      "type": "使用",
+      "tail": "Bert嵌入向量"
+    },
+    {
+      "head": "pairwise_distance_matrix_from_embeddings_and_annotations",
+      "type": "使用",
+      "tail": "蛋白质注释"
+    },
+    {
+      "head": "pairwise_distance_matrix_from_embeddings_and_annotations",
+      "type": "生成",
+      "tail": "DataFrame"
+    },
+    {
+      "head": "DataFrame",
+      "type": "使用",
+      "tail": "queries"
+    },
+    {
+      "head": "DataFrame",
+      "type": "使用",
+      "tail": "references"
+    },
+    {
+      "head": "get_k_nearest_neighbours",
+      "type": "使用",
+      "tail": "pairwise_distance_matrix_from_embeddings_and_annotations"
+    },
+    {
+      "head": "GOannotations_knn.py",
+      "type": "使用",
+      "tail": "KNN"
+    },
+    {
+      "head": "GOannotations_knn.py",
+      "type": "使用",
+      "tail": "蛋白质注释"
+    },
+    {
+      "head": "GOannotations_knn.py",
+      "type": "使用",
+      "tail": "RI"
+    },
+    {
+      "head": "GOannotations_knn.py",
+      "type": "使用",
+      "tail": "ARI"
+    },
+    {
+      "head": "GOannotations_knn.py",
+      "type": "使用",
+      "tail": "MI"
+    },
+    {
+      "head": "GOannotations_knn.py",
+      "type": "使用",
+      "tail": "NMI"
+    },
+    {
+      "head": "Visual_sequSpace_embd1.py",
+      "type": "目的",
+      "tail": "嵌入序列"
+    },
+    {
+      "head": "Visual_sequSpace_embd1.py",
+      "type": "目的",
+      "tail": "聚类不同序列"
+    },
+    {
+      "head": "Bert嵌入向量",
+      "type": "属于",
+      "tail": "bio_embeddings"
+    },
+    {
+      "head": "KNN",
+      "type": "属于",
+      "tail": "深度学习概念"
+    },
+    {
+      "head": "RI",
+      "type": "属于",
+      "tail": "深度学习概念"
+    },
+    {
+      "head": "ARI",
+      "type": "属于",
+      "tail": "深度学习概念"
+    },
+    {
+      "head": "MI",
+      "type": "属于",
+      "tail": "深度学习概念"
+    },
+    {
+      "head": "NMI",
+      "type": "属于",
+      "tail": "深度学习概念"
+    },
+    {
+      "head": "get_k_nearest_neighbours",
+      "type": "使用",
+      "tail": "sklearn.metrics.pairwise_distances"
+    }
+  ]
+}
+```

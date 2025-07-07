@@ -1,0 +1,34 @@
+
+
+```json
+{
+  "chunk_id": "2024-03-02",
+  "entities": [
+    {"name": "抗性微生物", "type": "生物分子"},
+    {"name": "基因组元数据", "type": "生物分子"},
+    {"name": "assembly_level", "type": "生物分子"},
+    {"name": "gene_counts", "type": "生物分子"},
+    {"name": "assembly_stat", "type": "生物分子"},
+    {"name": "CAMDA竞赛", "type": "项目活动"},
+    {"name": "抗生素耐药性", "type": "生物医学概念"},
+    {"name": "AI驱动", "type": "深度学习概念"},
+    {"name": "用药指导", "type": "生物医学概念"},
+    {"name": "抗生素", "type": "生物医学概念"},
+    {"name": "感染", "type": "生物医学概念"},
+    {"name": "metaSPAdes", "type": "生物信息工具"},
+    {"name": "Prodigal", "type": "生物信息工具"},
+    {"name": "web", "type": "生物信息工具"},
+    {"name": "app", "type": "生物信息工具"},
+    {"name": "DeepARG", "type": "生物信息工具"},
+    {"name": "专利", "type": "项目活动"},
+    {"name": "论文", "type": "项目活动"},
+    {"name": "一站式平台", "type": "项目活动"},
+    {"name": "学科交叉", "type": "项目活动"},
+    {"name": "激活函数", "type": "深度学习概念"},
+    {"name": "损失函数", "type": "深度学习概念"},
+    {"name": "Transformer", "type": "深度学习概念"},
+    {"name": "AUC指标", "type": "深度学习概念"},
+    {"name": "调参", "type": "深度学习概念"}
+  ]
+}
+```

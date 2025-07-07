@@ -1,0 +1,29 @@
+
+
+```json
+{
+  "chunk_id": "2024-07-02",
+  "relations": [
+    {"head": "CAMDA名单", "type": "包含", "tail": "测序数据"},
+    {"head": "progdial", "type": "使用", "tail": "结核杆菌"},
+    {"head": "fasta", "type": "使用", "tail": "基因组的描述"},
+    {"head": "PLM数据库", "type": "包含", "tail": "抗性机制"},
+    {"head": "BLAST", "type": "使用", "tail": "RGDB序列"},
+    {"head": "RGDB", "type": "包含", "tail": "fasta"},
+    {"head": "fasta", "type": "包含", "tail": "基因组信息"},
+    {"head": "HMM", "type": "使用", "tail": "ID"},
+    {"head": "CD-hit", "type": "使用", "tail": "HMD机制"},
+    {"head": "自抗性机制", "type": "属于", "tail": "抗性机制"},
+    {"head": "HMD", "type": "包含", "tail": "抗性机制"},
+    {"head": "Uniprot", "type": "包含", "tail": "抗性机制"},
+    {"head": "CARD", "type": "包含", "tail": "ARO"},
+    {"head": "fastQ", "type": "属于", "tail": "Java环境"},
+    {"head": "fastP", "type": "属于", "tail": "Java环境"},
+    {"head": "conda", "type": "属于", "tail": "Linux"},
+    {"head": "结核杆菌", "type": "属于", "tail": "结核病"},
+    {"head": "fasta", "type": "使用", "tail": "gene信息"},
+    {"head": "NCBI", "type": "提供", "tail": "元数据"},
+    {"head": "CARD", "type": "提供", "tail": "ARO信息"}
+  ]
+}
+```

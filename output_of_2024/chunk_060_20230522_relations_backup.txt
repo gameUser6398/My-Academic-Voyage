@@ -1,0 +1,26 @@
+
+
+{
+  "chunk_id": "2024-03-02",
+  "relations": [
+    {"head": "CentOS", "type": "使用", "tail": "yum"},
+    {"head": "yum", "type": "用于", "tail": "安装"},
+    {"head": "yum", "type": "用于", "tail": "移除"},
+    {"head": "yum", "type": "用于", "tail": "搜索"},
+    {"head": "Ubuntu", "type": "使用", "tail": "apt"},
+    {"head": "apt", "type": "用于", "tail": "安装"},
+    {"head": "apt", "type": "用于", "tail": "移除"},
+    {"head": "apt", "type": "用于", "tail": "搜索"},
+    {"head": "systemctl", "type": "用于", "tail": "启动"},
+    {"head": "systemctl", "type": "用于", "tail": "关闭"},
+    {"head": "systemctl", "type": "用于", "tail": "状态查看"},
+    {"head": "systemctl", "type": "用于", "tail": "启用"},
+    {"head": "systemctl", "type": "用于", "tail": "禁用"},
+    {"head": "NetworkManager", "type": "属于", "tail": "系统内置服务"},
+    {"head": "firewalld", "type": "属于", "tail": "系统内置服务"},
+    {"head": "sshd", "type": "属于", "tail": "系统内置服务"},
+    {"head": "第三方软件", "type": "需要", "tail": "注册"},
+    {"head": "软连接", "type": "使用", "tail": "ln"},
+    {"head": "ln", "type": "用于", "tail": "创建软连接"}
+  ]
+}

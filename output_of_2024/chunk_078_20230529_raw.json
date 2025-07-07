@@ -1,0 +1,6 @@
+{
+    "timestamp": "2025-07-07T17:16:27.612534",
+    "filename": "chunk_078_20230529.md",
+    "raw_entities": "\n\n{\n  \"chunk_id\": \"2024-03-02\",\n  \"entities\": [\n    {\"name\": \"OneHotEncoder\", \"type\": \"生物信息工具\"},\n    {\"name\": \"蛋白质\", \"type\": \"生物分子\"},\n    {\"name\": \"氨基酸\", \"type\": \"生物分子\"},\n    {\"name\": \"BLOSUM\", \"type\": \"生物信息工具\"}\n  ]\n}",
+    "raw_relations": "\n\n```json\n{\n  \"chunk_id\": \"2024-03-02\",\n  \"relations\": [\n    {\"head\": \"OneHotEncoder\", \"type\": \"使用\", \"tail\": \"处理分类特征\"},\n    {\"head\": \"OneHotEncoder\", \"type\": \"属于\", \"tail\": \"Sklearn\"},\n    {\"head\": \"蛋白质\", \"type\": \"包含\", \"tail\": \"氨基酸\"},\n    {\"head\": \"BLOSUM\", \"type\": \"使用\", \"tail\": \"表示氨基酸残基相似性\"},\n    {\"head\": \"OneHotEncoder\", \"type\": \"使用\", \"tail\": \"转换整数分类值为独热向量\"},\n    {\"head\": \"氨基酸\", \"type\": \"属于\", \"tail\": \"生物分子\"},\n    {\"head\": \"蛋白质\", \"type\": \"属于\", \"tail\": \"生物分子\"},\n    {\"head\": \"OneHotEncoder\", \"type\": \"属于\", \"tail\": \"生物信息工具\"},\n    {\"head\": \"BLOSUM\", \"type\": \"属于\", \"tail\": \"生物信息工具\"}\n  ]\n}\n```"
+}

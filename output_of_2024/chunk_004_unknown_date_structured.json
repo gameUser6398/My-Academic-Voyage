@@ -1,0 +1,123 @@
+{
+    "timestamp": "2025-07-07T17:22:43.425703",
+    "filename": "chunk_004_unknown_date.md",
+    "entities": {
+        "chunk_id": "2024-07-17-18",
+        "entities": [
+            {
+                "name": "CAFA 5",
+                "type": "其他"
+            },
+            {
+                "name": "T5 Embeds",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "Ensemble",
+                "type": "深度学习概念"
+            },
+            {
+                "name": "zero_predic",
+                "type": "深度学习概念"
+            },
+            {
+                "name": "Kaggle",
+                "type": "其他"
+            },
+            {
+                "name": "GO term",
+                "type": "生物分子"
+            },
+            {
+                "name": "torch",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "tensorboard",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "CNN",
+                "type": "深度学习概念"
+            },
+            {
+                "name": "ProteiNet",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "EMS2",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "ProtBERT",
+                "type": "生物信息工具"
+            }
+        ]
+    },
+    "relations": {
+        "chunk_id": "2024-07-17-18",
+        "relations": [
+            {
+                "head": "CAFA 5",
+                "type": "使用",
+                "tail": "T5 Embeds"
+            },
+            {
+                "head": "CAFA 5",
+                "type": "使用",
+                "tail": "Ensemble"
+            },
+            {
+                "head": "CAFA 5",
+                "type": "使用",
+                "tail": "zero_predic"
+            },
+            {
+                "head": "CAFA 5",
+                "type": "属于",
+                "tail": "Kaggle"
+            },
+            {
+                "head": "训练框架",
+                "type": "使用",
+                "tail": "torch"
+            },
+            {
+                "head": "训练框架",
+                "type": "使用",
+                "tail": "tensorboard"
+            },
+            {
+                "head": "模型预测",
+                "type": "使用",
+                "tail": "GO term"
+            },
+            {
+                "head": "词嵌入",
+                "type": "使用",
+                "tail": "CNN"
+            },
+            {
+                "head": "ProteiNet",
+                "type": "使用",
+                "tail": "EMS2"
+            },
+            {
+                "head": "ProteiNet",
+                "type": "使用",
+                "tail": "T5 Embeds"
+            },
+            {
+                "head": "ProteiNet",
+                "type": "使用",
+                "tail": "ProtBERT"
+            },
+            {
+                "head": "ProteiNet",
+                "type": "属于",
+                "tail": "Kaggle"
+            }
+        ]
+    },
+    "status": "success"
+}

@@ -1,0 +1,6 @@
+{
+    "timestamp": "2025-07-07T17:13:18.358981",
+    "filename": "chunk_111_20240511.md",
+    "raw_entities": "\n\n```json\n{\n  \"chunk_id\": \"2024-05-11\",\n  \"entities\": [\n    {\"name\": \"TALE\", \"type\": \"生物分子\"},\n    {\"name\": \"protein-annotation\", \"type\": \"生物信息工具\"},\n    {\"name\": \"BLAST\", \"type\": \"生物信息工具\"},\n    {\"name\": \"one-hot编码\", \"type\": \"深度学习概念\"},\n    {\"name\": \"conv\", \"type\": \"深度学习概念\"},\n    {\"name\": \"mean\", \"type\": \"深度学习概念\"},\n    {\"name\": \"Dataloader\", \"type\": \"生物信息工具\"},\n    {\"name\": \"模型优化过程\", \"type\": \"项目活动\"},\n    {\"name\": \"任务分工\", \"type\": \"项目活动\"}\n  ]\n}\n```",
+    "raw_relations": "\n\n```json\n{\n  \"chunk_id\": \"2024-05-11\",\n  \"relations\": [\n    {\"head\": \"模型优化过程\", \"type\": \"使用\", \"tail\": \"one-hot编码\"},\n    {\"head\": \"模型优化过程\", \"type\": \"使用\", \"tail\": \"conv\"},\n    {\"head\": \"模型优化过程\", \"type\": \"使用\", \"tail\": \"mean\"},\n    {\"head\": \"模型优化过程\", \"type\": \"使用\", \"tail\": \"Dataloader\"},\n    {\"head\": \"TALE\", \"type\": \"使用\", \"tail\": \"protein-annotation\"},\n    {\"head\": \"任务分工\", \"type\": \"属于\", \"tail\": \"模型优化过程\"}\n  ]\n}\n```"
+}

@@ -1,0 +1,30 @@
+
+
+```json
+{
+  "chunk_id": "2024-03-02",
+  "relations": [
+    {"head": "fastp", "type": "使用", "tail": "质量检查和过滤"},
+    {"head": "质量检查和过滤", "type": "属于", "tail": "全基因组测序"},
+    {"head": "BWA-mem", "type": "使用", "tail": "比对"},
+    {"head": "比对", "type": "属于", "tail": "全基因组测序"},
+    {"head": "Bcftools", "type": "使用", "tail": "调用变异"},
+    {"head": "调用变异", "type": "属于", "tail": "全基因组测序"},
+    {"head": "one-hot编码", "type": "使用", "tail": "数值化SNP矩阵"},
+    {"head": "抗菌素耐药基因分析", "type": "使用", "tail": "MegaRes"},
+    {"head": "MegaRes", "type": "包含", "tail": "抗性基因本体"},
+    {"head": "MegaRes", "type": "包含", "tail": "基因类别"},
+    {"head": "MegaRes", "type": "包含", "tail": "AMR机制"},
+    {"head": "MegaRes", "type": "包含", "tail": "基因组"},
+    {"head": "抗菌素耐药基因分析", "type": "使用", "tail": "Bowtie2"},
+    {"head": "Bowtie2", "type": "用于", "tail": "生成配置文件"},
+    {"head": "ResistomeAnalyzer", "type": "使用", "tail": "比对分析"},
+    {"head": "ResistomeAnalyzer", "type": "生成", "tail": "RPKM"},
+    {"head": "BLASTn", "type": "使用", "tail": "比对MegaRes AMR基因"},
+    {"head": "平均核苷酸同一性", "type": "用于", "tail": "判断潜在混淆基因"},
+    {"head": "培养", "type": "属于", "tail": "抗微生物药物耐药性检测金标准"},
+    {"head": "抗菌素耐药基因", "type": "属于", "tail": "基因家族"},
+    {"head": "抗菌素耐药基因", "type": "属于", "tail": "抗微生物药物耐药性"}
+  ]
+}
+```

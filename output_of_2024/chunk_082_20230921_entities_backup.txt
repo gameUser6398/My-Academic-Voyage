@@ -1,0 +1,20 @@
+
+
+{
+  "chunk_id": "2024-03-02",
+  "entities": [
+    {"name": "损失函数", "type": "深度学习概念"},
+    {"name": "binary cross entropy", "type": "深度学习概念"},
+    {"name": "binary_crossentropy", "type": "生物信息工具"},
+    {"name": "PyTorch", "type": "生物信息工具"},
+    {"name": "binary_cross_entropy_with_logits", "type": "生物信息工具"},
+    {"name": "F-1 分数", "type": "深度学习概念"},
+    {"name": "torchmetrics", "type": "生物信息工具"},
+    {"name": "softmax", "type": "深度学习概念"},
+    {"name": "多标签分类", "type": "深度学习概念"},
+    {"name": "FocalLoss", "type": "深度学习概念"},
+    {"name": "样本不平衡", "type": "深度学习概念"},
+    {"name": "AUC", "type": "深度学习概念"},
+    {"name": "MCC", "type": "深度学习概念"}
+  ]
+}

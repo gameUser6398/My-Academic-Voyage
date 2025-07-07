@@ -1,0 +1,31 @@
+
+
+```json
+{
+  "chunk_id": "2024-03-02",
+  "relations": [
+    {"head": "DCGAN", "type": "使用", "tail": "TensorFlow"},
+    {"head": "discriminator", "type": "使用", "tail": "conv2d"},
+    {"head": "discriminator", "type": "使用", "tail": "lrelu"},
+    {"head": "discriminator", "type": "使用", "tail": "linear"},
+    {"head": "discriminator", "type": "使用", "tail": "sigmoid"},
+    {"head": "discriminator", "type": "使用", "tail": "BCEWithLogitsLoss"},
+    {"head": "generator", "type": "使用", "tail": "deconv2d"},
+    {"head": "generator", "type": "使用", "tail": "tanh"},
+    {"head": "generator", "type": "使用", "tail": "linear"},
+    {"head": "generator", "type": "使用", "tail": "concat"},
+    {"head": "PO2GO", "type": "使用", "tail": "torch"},
+    {"head": "PO2GO", "type": "使用", "tail": "nn"},
+    {"head": "PO2GO", "type": "使用", "tail": "BCEWithLogitsLoss"},
+    {"head": "PO2GO", "type": "包含", "tail": "init_predictor"},
+    {"head": "init_predictor", "type": "使用", "tail": "nn.Linear"},
+    {"head": "init_predictor", "type": "使用", "tail": "nn.BatchNorm1d"},
+    {"head": "init_predictor", "type": "使用", "tail": "nn.ReLU"},
+    {"head": "init_predictor", "type": "使用", "tail": "nn.Dropout"},
+    {"head": "forward", "type": "使用", "tail": "torch.matmul"},
+    {"head": "forward", "type": "使用", "tail": "F.relu"},
+    {"head": "forward", "type": "使用", "tail": "F.dropout"},
+    {"head": "Transformer", "type": "属于", "tail": "深度学习概念"}
+  ]
+}
+```

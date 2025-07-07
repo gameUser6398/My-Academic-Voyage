@@ -1,0 +1,83 @@
+{
+    "timestamp": "2025-07-07T16:58:25.812023",
+    "filename": "chunk_036_20230822.md",
+    "entities": {
+        "chunk_id": "2023-08-22_14-20",
+        "entities": [
+            {
+                "name": "蛋白质",
+                "type": "生物分子"
+            },
+            {
+                "name": "进化尺度建模（ESM）",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "LucaProt",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "深度学习",
+                "type": "深度学习概念"
+            },
+            {
+                "name": "氨基酸序列",
+                "type": "生物分子"
+            },
+            {
+                "name": "蛋白质功能预测",
+                "type": "生物技术"
+            },
+            {
+                "name": "GitHub",
+                "type": "其他"
+            }
+        ]
+    },
+    "relations": {
+        "chunk_id": "2023-08-22_14-20",
+        "relations": [
+            {
+                "head": "LucaProt",
+                "type": "使用",
+                "tail": "深度学习"
+            },
+            {
+                "head": "LucaProt",
+                "type": "使用",
+                "tail": "氨基酸序列"
+            },
+            {
+                "head": "LucaProt",
+                "type": "属于",
+                "tail": "GitHub"
+            },
+            {
+                "head": "LucaProt",
+                "type": "实现",
+                "tail": "蛋白质功能预测"
+            },
+            {
+                "head": "进化尺度建模（ESM）",
+                "type": "属于",
+                "tail": "GitHub"
+            },
+            {
+                "head": "进化尺度建模（ESM）",
+                "type": "实现",
+                "tail": "蛋白质功能预测"
+            },
+            {
+                "head": "进化尺度建模（ESM）",
+                "type": "使用",
+                "tail": "深度学习"
+            },
+            {
+                "head": "进化尺度建模（ESM）",
+                "type": "使用",
+                "tail": "氨基酸序列"
+            }
+        ]
+    },
+    "status": "success"
+}

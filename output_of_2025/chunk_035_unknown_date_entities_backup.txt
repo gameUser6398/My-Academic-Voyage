@@ -1,0 +1,28 @@
+
+
+```json
+{
+  "chunk_id": "2024-03-02",
+  "entities": [
+    {"name": "基因组", "type": "生物分子"},
+    {"name": "转录组", "type": "生物分子"},
+    {"name": "SNP", "type": "生物分子"},
+    {"name": "Geneformer", "type": "生物信息工具"},
+    {"name": "DNABERT", "type": "生物信息工具"},
+    {"name": "Transformer", "type": "深度学习概念"},
+    {"name": "迁移学习", "type": "深度学习概念"},
+    {"name": "单细胞转录组", "type": "生物技术"},
+    {"name": "染色质", "type": "生物分子"},
+    {"name": "心肌病", "type": "生物医学概念"},
+    {"name": "候选治疗靶点", "type": "生物医学概念"},
+    {"name": "DNA", "type": "生物分子"},
+    {"name": "基因调控密码", "type": "生物分子"},
+    {"name": "预训练", "type": "深度学习概念"},
+    {"name": "微调", "type": "深度学习概念"},
+    {"name": "注意力权重", "type": "深度学习概念"},
+    {"name": "非编码DNA", "type": "生物分子"},
+    {"name": "核苷酸", "type": "生物分子"},
+    {"name": "调控元件", "type": "生物分子"}
+  ]
+}
+```

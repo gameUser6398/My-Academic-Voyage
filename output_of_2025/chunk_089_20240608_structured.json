@@ -1,0 +1,240 @@
+{
+    "timestamp": "2025-07-07T18:17:11.314651",
+    "filename": "chunk_089_20240608.md",
+    "entities": {
+        "chunk_id": "2024-03-02",
+        "entities": [
+            {
+                "name": "GCA_002947415.1",
+                "type": "生物分子"
+            },
+            {
+                "name": "datasets",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "NCBI Prokaryotic Genome Annotation Pipeline (PGAP)",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "ARG",
+                "type": "生物分子"
+            },
+            {
+                "name": "lncRNA",
+                "type": "生物分子"
+            },
+            {
+                "name": "miRNA",
+                "type": "生物分子"
+            },
+            {
+                "name": "rRNA",
+                "type": "生物分子"
+            },
+            {
+                "name": "Acinetobacter baumannii",
+                "type": "生物医学概念"
+            },
+            {
+                "name": "Centers for Disease Control and Prevention",
+                "type": "其他"
+            },
+            {
+                "name": "PacBio RSII",
+                "type": "生物技术"
+            },
+            {
+                "name": "canu",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "BLAST",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "makeblastdb",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "blastp",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "RGDB-Mechanism_database",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "cardresis",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "PLM-ARG_DB.fasta",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "evalue",
+                "type": "深度学习概念"
+            },
+            {
+                "name": "FASTA",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "Tabular",
+                "type": "深度学习概念"
+            },
+            {
+                "name": "XML",
+                "type": "深度学习概念"
+            },
+            {
+                "name": "JSON",
+                "type": "深度学习概念"
+            },
+            {
+                "name": "qacc",
+                "type": "深度学习概念"
+            },
+            {
+                "name": "sacc",
+                "type": "深度学习概念"
+            },
+            {
+                "name": "evalue",
+                "type": "深度学习概念"
+            },
+            {
+                "name": "bitscore",
+                "type": "深度学习概念"
+            },
+            {
+                "name": "score",
+                "type": "深度学习概念"
+            },
+            {
+                "name": "Prodigal",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "mRNA",
+                "type": "生物分子"
+            },
+            {
+                "name": "Python",
+                "type": "生物信息工具"
+            }
+        ]
+    },
+    "relations": {
+        "chunk_id": "2024-03-02",
+        "relations": [
+            {
+                "head": "GCA_002947415.1",
+                "type": "使用",
+                "tail": "NCBI Prokaryotic Genome Annotation Pipeline (PGAP)"
+            },
+            {
+                "head": "NCBI Prokaryotic Genome Annotation Pipeline (PGAP)",
+                "type": "包含",
+                "tail": "GeneMarkS+"
+            },
+            {
+                "head": "GCA_002947415.1",
+                "type": "属于",
+                "tail": "Acinetobacter baumannii"
+            },
+            {
+                "head": "GCA_002947415.1",
+                "type": "使用",
+                "tail": "PacBio RSII"
+            },
+            {
+                "head": "GCA_002947415.1",
+                "type": "提交者",
+                "tail": "Centers for Disease Control and Prevention"
+            },
+            {
+                "head": "NCBI Prokaryotic Genome Annotation Pipeline (PGAP)",
+                "type": "包含",
+                "tail": "protein_coding"
+            },
+            {
+                "head": "NCBI Prokaryotic Genome Annotation Pipeline (PGAP)",
+                "type": "包含",
+                "tail": "non_coding"
+            },
+            {
+                "head": "NCBI Prokaryotic Genome Annotation Pipeline (PGAP)",
+                "type": "包含",
+                "tail": "pseudogene"
+            },
+            {
+                "head": "makeblastdb",
+                "type": "使用",
+                "tail": "FASTA"
+            },
+            {
+                "head": "blastp",
+                "type": "使用",
+                "tail": "RGDB-Mechanism_database"
+            },
+            {
+                "head": "blastp",
+                "type": "使用",
+                "tail": "cardresis"
+            },
+            {
+                "head": "blastp",
+                "type": "使用",
+                "tail": "PLM-ARG_DB.fasta"
+            },
+            {
+                "head": "blastp",
+                "type": "输出",
+                "tail": "Tabular"
+            },
+            {
+                "head": "blastp",
+                "type": "输出",
+                "tail": "XML"
+            },
+            {
+                "head": "blastp",
+                "type": "输出",
+                "tail": "JSON"
+            },
+            {
+                "head": "blastp",
+                "type": "使用",
+                "tail": "evalue"
+            },
+            {
+                "head": "blastp",
+                "type": "使用",
+                "tail": "bitscore"
+            },
+            {
+                "head": "blastp",
+                "type": "使用",
+                "tail": "score"
+            },
+            {
+                "head": "Prodigal",
+                "type": "使用",
+                "tail": "mRNA"
+            },
+            {
+                "head": "Prodigal",
+                "type": "使用",
+                "tail": "FASTA"
+            },
+            {
+                "head": "Python",
+                "type": "使用",
+                "tail": "biopython::blast"
+            }
+        ]
+    },
+    "status": "success"
+}

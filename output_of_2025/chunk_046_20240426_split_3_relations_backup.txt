@@ -1,0 +1,214 @@
+
+
+```json
+{
+  "chunk_id": "2024-03-02",
+  "relations": [
+    {
+      "head": "DeepARG",
+      "type": "使用",
+      "tail": "宏基因组数据"
+    },
+    {
+      "head": "DeepARG",
+      "type": "使用",
+      "tail": "FASTA"
+    },
+    {
+      "head": "DeepARG",
+      "type": "使用",
+      "tail": "BLAST 表格文件"
+    },
+    {
+      "head": "DeepARG",
+      "type": "属于",
+      "tail": "生物信息工具"
+    },
+    {
+      "head": "深度学习",
+      "type": "使用",
+      "tail": "DeepARG"
+    },
+    {
+      "head": "DeepARG",
+      "type": "包含",
+      "tail": "CARD"
+    },
+    {
+      "head": "DeepARG",
+      "type": "包含",
+      "tail": "ARDB"
+    },
+    {
+      "head": "DeepARG",
+      "type": "包含",
+      "tail": "UNIPROT"
+    },
+    {
+      "head": "DeepARG",
+      "type": "包含",
+      "tail": "基因家族"
+    },
+    {
+      "head": "DeepARG",
+      "type": "包含",
+      "tail": "抗生素耐药性"
+    },
+    {
+      "head": "DeepARG",
+      "type": "包含",
+      "tail": "beta-lactam"
+    },
+    {
+      "head": "DeepARG",
+      "type": "包含",
+      "tail": "peptide"
+    },
+    {
+      "head": "DeepARG",
+      "type": "包含",
+      "tail": "fluoroquinolone"
+    },
+    {
+      "head": "DeepARG",
+      "type": "包含",
+      "tail": "macrolide"
+    },
+    {
+      "head": "DeepARG",
+      "type": "包含",
+      "tail": "tetracycline"
+    },
+    {
+      "head": "DeepARG",
+      "type": "包含",
+      "tail": "phenicol"
+    },
+    {
+      "head": "DeepARG",
+      "type": "包含",
+      "tail": "aminoglycoside"
+    },
+    {
+      "head": "DeepARG",
+      "type": "包含",
+      "tail": "lincosamide"
+    },
+    {
+      "head": "DeepARG",
+      "type": "包含",
+      "tail": "streptogramin"
+    },
+    {
+      "head": "DeepARG",
+      "type": "包含",
+      "tail": "multi-drug"
+    },
+    {
+      "head": "DeepARG",
+      "type": "包含",
+      "tail": "aminocoumarin"
+    },
+    {
+      "head": "DeepARG",
+      "type": "包含",
+      "tail": "antibiotic without defined classification"
+    },
+    {
+      "head": "DeepARG",
+      "type": "包含",
+      "tail": "rifamycin"
+    },
+    {
+      "head": "DeepARG",
+      "type": "包含",
+      "tail": "disinfecting agents and antiseptics"
+    },
+    {
+      "head": "DeepARG",
+      "type": "包含",
+      "tail": "alkaloids with antibiotic activity"
+    },
+    {
+      "head": "DeepARG",
+      "type": "包含",
+      "tail": "diaminopyrimidine"
+    },
+    {
+      "head": "DeepARG",
+      "type": "包含",
+      "tail": "glycopeptide"
+    },
+    {
+      "head": "DeepARG",
+      "type": "包含",
+      "tail": "sulfonamide"
+    },
+    {
+      "head": "DeepARG",
+      "type": "包含",
+      "tail": "nucleoside"
+    },
+    {
+      "head": "DeepARG",
+      "type": "包含",
+      "tail": "pleuromutilin"
+    },
+    {
+      "head": "DeepARG",
+      "type": "包含",
+      "tail": "nitroimidazole"
+    },
+    {
+      "head": "DeepARG",
+      "type": "包含",
+      "tail": "sulfone"
+    },
+    {
+      "head": "DeepARG",
+      "type": "包含",
+      "tail": "16S rRNA"
+    },
+    {
+      "head": "DeepARG",
+      "type": "包含",
+      "tail": "抗生素 AWaRe 分类"
+    },
+    {
+      "head": "DeepARG",
+      "type": "包含",
+      "tail": "MultiOutputClassifier"
+    },
+    {
+      "head": "DeepARG",
+      "type": "包含",
+      "tail": "概率"
+    },
+    {
+      "head": "DeepARG",
+      "type": "包含",
+      "tail": "E 值"
+    },
+    {
+      "head": "PLM-ARG",
+      "type": "属于",
+      "tail": "生物信息工具"
+    },
+    {
+      "head": "PLM-ARG",
+      "type": "使用",
+      "tail": "预训练的蛋白质语言模型"
+    },
+    {
+      "head": "ARG",
+      "type": "属于",
+      "tail": "生物分子"
+    },
+    {
+      "head": "抗生素使用",
+      "type": "因果",
+      "tail": "抗生素耐药性"
+    }
+  ]
+}
+```

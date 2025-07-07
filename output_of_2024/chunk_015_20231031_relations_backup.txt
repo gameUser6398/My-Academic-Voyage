@@ -1,0 +1,24 @@
+
+
+```json
+{
+  "chunk_id": "2024-03-02",
+  "relations": [
+    {"head": "TALE", "type": "使用", "tail": "GO图"},
+    {"head": "TALE", "type": "使用", "tail": "二维矩阵"},
+    {"head": "TALE", "type": "表示", "tail": "GO术语"},
+    {"head": "label_embedding", "type": "属于", "tail": "深度学习概念"},
+    {"head": "dense_matrix", "type": "因果", "tail": "效果更好"},
+    {"head": "sparse matrix", "type": "因果", "tail": "不利于特征提取"},
+    {"head": "label_embedding", "type": "建议使用", "tail": "Anc2vec"},
+    {"head": "batch_size", "type": "调控", "tail": "loss稳定"},
+    {"head": "batch_size", "type": "调控", "tail": "训练速度"},
+    {"head": "batch effect", "type": "消除方法", "tail": "sequence_embedding"},
+    {"head": "sequence_embedding", "type": "使用", "tail": "PSSM"},
+    {"head": "PSSM", "type": "属于", "tail": "同源比对"},
+    {"head": "CAFA5", "type": "包含", "tail": "同源比对"},
+    {"head": "epoch", "type": "调控", "tail": "训练次数"},
+    {"head": "dense_matrix", "type": "比较", "tail": "sparse matrix"}
+  ]
+}
+```

@@ -1,0 +1,25 @@
+
+
+{
+  "chunk_id": "2024-03-02",
+  "entities": [
+    {"name": "Transformer", "type": "深度学习概念"},
+    {"name": "Bert", "type": "生物信息工具"},
+    {"name": "自编码模型", "type": "深度学习概念"},
+    {"name": "embedding", "type": "深度学习概念"},
+    {"name": "蛋白质家族", "type": "生物分子"},
+    {"name": "高维矩阵相乘", "type": "深度学习概念"},
+    {"name": "验证集", "type": "项目活动"},
+    {"name": "测试集", "type": "项目活动"},
+    {"name": "调参", "type": "深度学习概念"},
+    {"name": "损失函数", "type": "深度学习概念"},
+    {"name": "语言模型", "type": "深度学习概念"},
+    {"name": "位置编码（positional encoding）", "type": "深度学习概念"},
+    {"name": "EMS", "type": "生物信息工具"},
+    {"name": "Linux", "type": "生物信息工具"},
+    {"name": "Python", "type": "生物信息工具"},
+    {"name": "CAFA", "type": "项目活动"},
+    {"name": "论文阅读", "type": "项目活动"},
+    {"name": "样本采集", "type": "项目活动"}
+  ]
+}

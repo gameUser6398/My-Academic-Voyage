@@ -1,0 +1,15 @@
+
+
+```json
+{
+  "chunk_id": "2024-03-02",
+  "relations": [
+    {"head": "ProteinGAN", "type": "使用", "tail": "生成对抗网络"},
+    {"head": "DCGAN", "type": "属于", "tail": "生成对抗网络"},
+    {"head": "DCGAN", "type": "使用", "tail": "Tensorflow"},
+    {"head": "序列预测", "type": "使用", "tail": "机器学习"},
+    {"head": "蛋白质", "type": "与", "tail": "配体"},
+    {"head": "蛋白质", "type": "接触", "tail": "配体"}
+  ]
+}
+```

@@ -1,0 +1,10 @@
+
+
+```json
+{
+  "chunk_id": "2024-03-02",
+  "relations": [
+    {"head": "TM-score", "type": "属于", "tail": "已有模型"}
+  ]
+}
+```

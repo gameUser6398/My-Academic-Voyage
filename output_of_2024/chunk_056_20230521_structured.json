@@ -1,0 +1,328 @@
+{
+    "timestamp": "2025-07-07T17:14:18.558897",
+    "filename": "chunk_056_20230521.md",
+    "entities": {
+        "chunk_id": "2024-03-02",
+        "entities": [
+            {
+                "name": "conda",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "bash",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "Linux",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "pip",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "pandas",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "Anaconda",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "miniconda",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "Python",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "pytorch",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "git",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "JupyterLab",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "ipykernel",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "ls",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "cd",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "pwd",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "mkdir",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "touch",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "cat",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "more",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "cp",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "mv",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "rm",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "which",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "find",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "grep",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "wc",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "echo",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "tail",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "vi",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "vim",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "awk",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "xargs",
+                "type": "生物信息工具"
+            }
+        ]
+    },
+    "relations": {
+        "chunk_id": "2024-03-02",
+        "relations": [
+            {
+                "head": "conda",
+                "type": "使用",
+                "tail": "bash"
+            },
+            {
+                "head": "root用户",
+                "type": "使用",
+                "tail": "bash环境"
+            },
+            {
+                "head": "lcl",
+                "type": "使用",
+                "tail": "goodjob环境"
+            },
+            {
+                "head": "xk",
+                "type": "使用",
+                "tail": "goodjob环境"
+            },
+            {
+                "head": "zlj",
+                "type": "使用",
+                "tail": "goodjob环境"
+            },
+            {
+                "head": "goodjob环境",
+                "type": "属于",
+                "tail": "Anaconda"
+            },
+            {
+                "head": "Anaconda",
+                "type": "安装",
+                "tail": "Linux"
+            },
+            {
+                "head": "conda",
+                "type": "初始化",
+                "tail": ".bashrc"
+            },
+            {
+                "head": "conda",
+                "type": "激活",
+                "tail": "pytorch"
+            },
+            {
+                "head": "pip",
+                "type": "安装",
+                "tail": "pandas"
+            },
+            {
+                "head": "pandas",
+                "type": "属于",
+                "tail": "goodjob环境"
+            },
+            {
+                "head": "pandas",
+                "type": "冲突",
+                "tail": "anc2vec"
+            },
+            {
+                "head": "conda",
+                "type": "安装",
+                "tail": "miniconda"
+            },
+            {
+                "head": "miniconda",
+                "type": "初始化",
+                "tail": ".bashrc"
+            },
+            {
+                "head": "JupyterLab",
+                "type": "使用",
+                "tail": "ipykernel"
+            },
+            {
+                "head": "conda",
+                "type": "安装",
+                "tail": "ipykernel"
+            },
+            {
+                "head": "pip",
+                "type": "安装",
+                "tail": "JupyterLab"
+            },
+            {
+                "head": "ls",
+                "type": "使用",
+                "tail": "Linux"
+            },
+            {
+                "head": "cd",
+                "type": "使用",
+                "tail": "Linux"
+            },
+            {
+                "head": "pwd",
+                "type": "使用",
+                "tail": "Linux"
+            },
+            {
+                "head": "mkdir",
+                "type": "使用",
+                "tail": "Linux"
+            },
+            {
+                "head": "touch",
+                "type": "使用",
+                "tail": "Linux"
+            },
+            {
+                "head": "cat",
+                "type": "使用",
+                "tail": "Linux"
+            },
+            {
+                "head": "more",
+                "type": "使用",
+                "tail": "Linux"
+            },
+            {
+                "head": "cp",
+                "type": "使用",
+                "tail": "Linux"
+            },
+            {
+                "head": "mv",
+                "type": "使用",
+                "tail": "Linux"
+            },
+            {
+                "head": "rm",
+                "type": "使用",
+                "tail": "Linux"
+            },
+            {
+                "head": "which",
+                "type": "使用",
+                "tail": "Linux"
+            },
+            {
+                "head": "find",
+                "type": "使用",
+                "tail": "Linux"
+            },
+            {
+                "head": "grep",
+                "type": "使用",
+                "tail": "Linux"
+            },
+            {
+                "head": "wc",
+                "type": "使用",
+                "tail": "Linux"
+            },
+            {
+                "head": "echo",
+                "type": "使用",
+                "tail": "Linux"
+            },
+            {
+                "head": "tail",
+                "type": "使用",
+                "tail": "Linux"
+            },
+            {
+                "head": "vi",
+                "type": "使用",
+                "tail": "Linux"
+            },
+            {
+                "head": "vim",
+                "type": "使用",
+                "tail": "Linux"
+            },
+            {
+                "head": "awk",
+                "type": "使用",
+                "tail": "Linux"
+            },
+            {
+                "head": "xargs",
+                "type": "使用",
+                "tail": "Linux"
+            }
+        ]
+    },
+    "status": "success"
+}

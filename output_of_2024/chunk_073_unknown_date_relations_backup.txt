@@ -1,0 +1,22 @@
+
+
+```json
+{
+  "chunk_id": "2024-03-02",
+  "relations": [
+    {"head": "bio_embeddings", "type": "使用", "tail": "深度学习"},
+    {"head": "深度学习", "type": "使用", "tail": "语言模型"},
+    {"head": "语言模型", "type": "用于", "tail": "蛋白质嵌入预测"},
+    {"head": "bio_embeddings", "type": "属于", "tail": "Python"},
+    {"head": "make", "type": "属于", "tail": "Linux"},
+    {"head": "g++", "type": "属于", "tail": "Linux"},
+    {"head": "gcc-c++", "type": "属于", "tail": "Linux"},
+    {"head": "Yum", "type": "属于", "tail": "Linux"},
+    {"head": "bio_embeddings", "type": "使用", "tail": "torch"},
+    {"head": "torch", "type": "使用", "tail": "torch-geometric"},
+    {"head": "torch-geometric", "type": "使用", "tail": "torch_sparse"},
+    {"head": "诱变", "type": "属于", "tail": "bio_embeddings"},
+    {"head": "诱变", "type": "用于", "tail": "蛋白质"}
+  ]
+}
+```

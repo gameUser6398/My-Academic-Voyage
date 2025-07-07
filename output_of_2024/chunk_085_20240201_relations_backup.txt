@@ -1,0 +1,15 @@
+
+
+{
+  "chunk_id": "2024-02-01",
+  "relations": [
+    {"head": "TM-align", "type": "使用", "tail": "蛋白质三维结构"},
+    {"head": "TM-align", "type": "属于", "tail": "结构比对"},
+    {"head": "RCSB PDB", "type": "包含", "tail": "蛋白质三维结构"},
+    {"head": "PubMed", "type": "包含", "tail": "TM-align"},
+    {"head": "PDB下载", "type": "使用", "tail": "RCSB PDB"},
+    {"head": "蛋白质三维结构比较", "type": "调控", "tail": "进化信息"},
+    {"head": "结构比对", "type": "使用", "tail": "TM-align"},
+    {"head": "结构比对", "type": "使用", "tail": "RCSB PDB"}
+  ]
+}

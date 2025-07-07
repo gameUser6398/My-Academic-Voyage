@@ -1,0 +1,10 @@
+
+
+{
+  "chunk_id": "2024-03-02",
+  "relations": [
+    {"head": "Mycobacterium tuberculosis", "type": "属于", "tail": "Global Catalogue of Microorganisms"},
+    {"head": "Global Catalogue of Microorganisms", "type": "属于", "tail": "Global Catalogue"},
+    {"head": "Global Catalogue", "type": "属于", "tail": "wdcm.org"}
+  ]
+}

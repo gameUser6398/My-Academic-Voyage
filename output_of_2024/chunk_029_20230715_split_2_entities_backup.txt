@@ -1,0 +1,45 @@
+
+
+```json
+{
+  "chunk_id": "2024-03-02",
+  "entities": [
+    {"name": "ProteinBERT", "type": "生物信息工具"},
+    {"name": "预训练", "type": "深度学习概念"},
+    {"name": "GO注释", "type": "生物分子"},
+    {"name": "UniRef46", "type": "生物信息工具"},
+    {"name": "UniRef90", "type": "生物信息工具"},
+    {"name": "UniProt", "type": "生物信息工具"},
+    {"name": "BLAST", "type": "生物信息工具"},
+    {"name": "信号肽", "type": "生物分子"},
+    {"name": "HIV-1", "type": "生物分子"},
+    {"name": "ProtT5", "type": "生物信息工具"},
+    {"name": "ProtTrans", "type": "生物信息工具"},
+    {"name": "Transformer", "type": "深度学习概念"},
+    {"name": "全局注意力", "type": "深度学习概念"},
+    {"name": "微调", "type": "深度学习概念"},
+    {"name": "深度学习", "type": "深度学习概念"},
+    {"name": "Python", "type": "生物信息工具"},
+    {"name": "TensorFlow", "type": "生物信息工具"},
+    {"name": "Keras", "type": "生物信息工具"},
+    {"name": "二级结构", "type": "生物分子"},
+    {"name": "远程同源性", "type": "生物分子"},
+    {"name": "折叠类", "type": "生物分子"},
+    {"name": "信号肽切割", "type": "生物分子"},
+    {"name": "主要PTM", "type": "生物分子"},
+    {"name": "神经剪切", "type": "生物分子"},
+    {"name": "超参数", "type": "深度学习概念"},
+    {"name": "AUC指标", "type": "深度学习概念"},
+    {"name": "模型权重", "type": "深度学习概念"},
+    {"name": "隐马尔可夫模型", "type": "生物信息工具"},
+    {"name": "TAPE基准", "type": "生物信息工具"},
+    {"name": "蛋白质注释预测", "type": "生物信息工具"},
+    {"name": "蛋白质空间", "type": "生物分子"},
+    {"name": "非冗余蛋白质", "type": "生物分子"},
+    {"name": "标记数据集", "type": "生物信息工具"},
+    {"name": "蛋白质结构预测", "type": "生物医学概念"},
+    {"name": "模型泛化", "type": "深度学习概念"},
+    {"name": "计算资源", "type": "深度学习概念"}
+  ]
+}
+```

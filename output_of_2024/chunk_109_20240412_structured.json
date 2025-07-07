@@ -1,0 +1,55 @@
+{
+    "timestamp": "2025-07-07T17:04:35.681658",
+    "filename": "chunk_109_20240412.md",
+    "entities": {
+        "chunk_id": "2024-04-12",
+        "entities": [
+            {
+                "name": "tsne",
+                "type": "深度学习概念"
+            },
+            {
+                "name": "余弦相似度",
+                "type": "深度学习概念"
+            },
+            {
+                "name": "簇",
+                "type": "深度学习概念"
+            },
+            {
+                "name": "模型优化过程",
+                "type": "项目活动"
+            },
+            {
+                "name": "分区",
+                "type": "项目活动"
+            }
+        ]
+    },
+    "relations": {
+        "chunk_id": "2024-04-12",
+        "relations": [
+            {
+                "head": "tsne",
+                "type": "使用",
+                "tail": "模型优化过程"
+            },
+            {
+                "head": "tsne",
+                "type": "导致",
+                "tail": "簇"
+            },
+            {
+                "head": "余弦相似度",
+                "type": "属于",
+                "tail": "簇"
+            },
+            {
+                "head": "分区",
+                "type": "属于",
+                "tail": "模型优化过程"
+            }
+        ]
+    },
+    "status": "success"
+}

@@ -1,0 +1,153 @@
+{
+    "timestamp": "2025-07-07T16:59:08.127567",
+    "filename": "chunk_045_unknown_date.md",
+    "entities": {
+        "chunk_id": "2024-03-02",
+        "entities": [
+            {
+                "name": "t-SNE",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "MMseqs2",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "Clustal Omega",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "scikit-learn",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "ProteinGAN",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "序列",
+                "type": "生物分子"
+            },
+            {
+                "name": "蛋白质",
+                "type": "生物分子"
+            },
+            {
+                "name": "潜在空间",
+                "type": "深度学习概念"
+            },
+            {
+                "name": "Pearson's r",
+                "type": "深度学习概念"
+            },
+            {
+                "name": "序列多样性",
+                "type": "生物分子"
+            },
+            {
+                "name": "生成模型",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "生物物理序列特性",
+                "type": "生物分子"
+            },
+            {
+                "name": "一级序列属性",
+                "type": "生物分子"
+            },
+            {
+                "name": "二级序列属性",
+                "type": "生物分子"
+            },
+            {
+                "name": "均匀采样",
+                "type": "深度学习概念"
+            },
+            {
+                "name": "任务分工",
+                "type": "项目活动"
+            },
+            {
+                "name": "文献调研",
+                "type": "项目活动"
+            }
+        ]
+    },
+    "relations": {
+        "chunk_id": "2024-03-02",
+        "relations": [
+            {
+                "head": "t-SNE",
+                "type": "使用",
+                "tail": "距离矩阵"
+            },
+            {
+                "head": "MMseqs2",
+                "type": "使用",
+                "tail": "序列"
+            },
+            {
+                "head": "Clustal Omega",
+                "type": "使用",
+                "tail": "代表性序列"
+            },
+            {
+                "head": "Clustal Omega",
+                "type": "使用",
+                "tail": "距离矩阵"
+            },
+            {
+                "head": "scikit-learn",
+                "type": "使用",
+                "tail": "t-SNE"
+            },
+            {
+                "head": "ProteinGAN",
+                "type": "使用",
+                "tail": "潜在空间"
+            },
+            {
+                "head": "潜在空间",
+                "type": "调控",
+                "tail": "序列多样性"
+            },
+            {
+                "head": "潜在空间",
+                "type": "属于",
+                "tail": "深度学习概念"
+            },
+            {
+                "head": "Pearson's r",
+                "type": "属于",
+                "tail": "深度学习概念"
+            },
+            {
+                "head": "生成模型",
+                "type": "属于",
+                "tail": "生物信息工具"
+            },
+            {
+                "head": "生成模型",
+                "type": "调控",
+                "tail": "生物物理序列特性"
+            },
+            {
+                "head": "均匀采样",
+                "type": "使用",
+                "tail": "潜在空间"
+            },
+            {
+                "head": "任务分工",
+                "type": "包含",
+                "tail": "生成模型"
+            },
+            {
+                "head": "文献调研",
+                "type": "包含",
+                "tail": "生物物理序列特性"
+            }
+        ]
+    },
+    "status": "success"
+}

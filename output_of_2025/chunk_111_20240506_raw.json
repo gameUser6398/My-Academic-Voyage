@@ -1,0 +1,6 @@
+{
+    "timestamp": "2025-07-07T18:11:31.190433",
+    "filename": "chunk_111_20240506.md",
+    "raw_entities": "\n\n{\n  \"chunk_id\": \"2024-05-06\",\n  \"entities\": [\n    {\"name\": \"特征融合\", \"type\": \"深度学习概念\"},\n    {\"name\": \"深度学习\", \"type\": \"深度学习概念\"},\n    {\"name\": \"推荐系统\", \"type\": \"其他\"},\n    {\"name\": \"Deep Residual Learning\", \"type\": \"深度学习概念\"},\n    {\"name\": \"CNN\", \"type\": \"深度学习概念\"},\n    {\"name\": \"回归预测\", \"type\": \"深度学习概念\"},\n    {\"name\": \"weight_decay\", \"type\": \"深度学习概念\"}\n  ]\n}",
+    "raw_relations": "\n\n{\n  \"chunk_id\": \"2024-05-06\",\n  \"relations\": [\n    {\"head\": \"推荐系统\", \"type\": \"包含\", \"tail\": \"特征融合\"},\n    {\"head\": \"深度学习\", \"type\": \"包含\", \"tail\": \"特征融合\"},\n    {\"head\": \"深度学习\", \"type\": \"包含\", \"tail\": \"Deep Residual Learning\"},\n    {\"head\": \"深度学习\", \"type\": \"包含\", \"tail\": \"CNN\"},\n    {\"head\": \"深度学习\", \"type\": \"包含\", \"tail\": \"回归预测\"},\n    {\"head\": \"回归预测\", \"type\": \"使用\", \"tail\": \"weight_decay\"}\n  ]\n}"
+}

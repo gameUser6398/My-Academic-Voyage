@@ -1,0 +1,50 @@
+
+
+```json
+{
+  "chunk_id": "2024-03-02",
+  "entities": [
+    {"name": "WGS", "type": "生物技术"},
+    {"name": "全基因组测序", "type": "生物技术"},
+    {"name": "美罗培南", "type": "生物分子"},
+    {"name": "环丙沙星", "type": "生物分子"},
+    {"name": "Acinetobacter", "type": "生物分子"},
+    {"name": "Campylobacter", "type": "生物分子"},
+    {"name": "Enterobacter", "type": "生物分子"},
+    {"name": "Escherichia", "type": "生物分子"},
+    {"name": "Klebsiella", "type": "生物分子"},
+    {"name": "Neisseria", "type": "生物分子"},
+    {"name": "Pseudomonas", "type": "生物分子"},
+    {"name": "Salmonella", "type": "生物分子"},
+    {"name": "baumannii", "type": "生物分子"},
+    {"name": "jejuni", "type": "生物分子"},
+    {"name": "cloacae", "type": "生物分子"},
+    {"name": "coli", "type": "生物分子"},
+    {"name": "pneumoniae", "type": "生物分子"},
+    {"name": "gonorrhoeae", "type": "生物分子"},
+    {"name": "aeruginosa", "type": "生物分子"},
+    {"name": "enterica", "type": "生物分子"},
+    {"name": "GCA", "type": "生物信息工具"},
+    {"name": "GCF", "type": "生物信息工具"},
+    {"name": "SRR", "type": "生物信息工具"},
+    {"name": "ERR", "type": "生物信息工具"},
+    {"name": "GenBank", "type": "生物信息工具"},
+    {"name": "RefSeq", "type": "生物信息工具"},
+    {"name": "Resistant", "type": "生物分子"},
+    {"name": "Susceptible", "type": "生物分子"},
+    {"name": "Broth dilution", "type": "生物技术"},
+    {"name": "VITEK 2", "type": "生物技术"},
+    {"name": "BD Phoenix", "type": "生物技术"},
+    {"name": "Sensititre", "type": "生物技术"},
+    {"name": "CMV2AGNF", "type": "生物技术"},
+    {"name": "CMV3AGNF", "type": "生物技术"},
+    {"name": "CLSI", "type": "生物医学概念"},
+    {"name": "PMID", "type": "生物信息工具"},
+    {"name": "最低抑制浓度", "type": "生物医学概念"},
+    {"name": "抗性", "type": "生物医学概念"},
+    {"name": "敏感性", "type": "生物医学概念"},
+    {"name": "抗生素耐药性", "type": "生物医学概念"},
+    {"name": "微生物菌群失调", "type": "生物医学概念"}
+  ]
+}
+```

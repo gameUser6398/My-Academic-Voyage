@@ -1,0 +1,31 @@
+
+
+```json
+{
+  "chunk_id": "2024-03-02",
+  "entities": [
+    {"name": "RND", "type": "生物分子"},
+    {"name": "AcrB", "type": "生物分子"},
+    {"name": "MexB", "type": "生物分子"},
+    {"name": "TolC", "type": "生物分子"},
+    {"name": "OprM", "type": "生物分子"},
+    {"name": "AcrA", "type": "生物分子"},
+    {"name": "MexA", "type": "生物分子"},
+    {"name": "OMF", "type": "生物分子"},
+    {"name": "MFP", "type": "生物分子"},
+    {"name": "NorA", "type": "生物分子"},
+    {"name": "P55", "type": "生物分子"},
+    {"name": "MDR", "type": "生物医学概念"},
+    {"name": "抗生素耐药性", "type": "生物医学概念"},
+    {"name": "结核", "type": "生物医学概念"},
+    {"name": "大肠杆菌", "type": "生物分子"},
+    {"name": "铜绿假单胞菌", "type": "生物分子"},
+    {"name": "金黄色葡萄球菌", "type": "生物分子"},
+    {"name": "结核分枝杆菌", "type": "生物分子"},
+    {"name": "mmr", "type": "生物分子"},
+    {"name": "mmpL7", "type": "生物分子"},
+    {"name": "Rv1258c", "type": "生物分子"},
+    {"name": "efpA", "type": "生物分子"}
+  ]
+}
+```

@@ -1,0 +1,11 @@
+
+
+```json
+{
+  "chunk_id": "2024-03-02",
+  "relations": [
+    {"head": "蛋白质", "type": "属于", "tail": "GO术语"},
+    {"head": "Linux系统", "type": "使用", "tail": "ontobio"}
+  ]
+}
+```

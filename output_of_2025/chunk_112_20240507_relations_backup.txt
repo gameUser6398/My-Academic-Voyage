@@ -1,0 +1,39 @@
+
+
+```json
+{
+  "chunk_id": "2024-05-07",
+  "relations": [
+    {"head": "PyTorch", "type": "包含", "tail": "torch"},
+    {"head": "torch", "type": "包含", "tail": "torch.contiguous"},
+    {"head": "torch", "type": "包含", "tail": "torch.bmm"},
+    {"head": "torch", "type": "包含", "tail": "torch.matmul"},
+    {"head": "torch", "type": "包含", "tail": "torch.nn.conv1d"},
+    {"head": "torch", "type": "包含", "tail": "torch.cuda.is_available"},
+    {"head": "PyTorch", "type": "包含", "tail": "DataLoader"},
+    {"head": "PyTorch", "type": "包含", "tail": "nn.BatchNorm1d"},
+    {"head": "CNN", "type": "包含", "tail": "卷积核"},
+    {"head": "PyTorch", "type": "使用", "tail": "GPU"},
+    {"head": "lora", "type": "属于", "tail": "深度学习概念"},
+    {"head": "esm", "type": "属于", "tail": "生物信息工具"},
+    {"head": "DeepFRI", "type": "属于", "tail": "生物信息工具"},
+    {"head": "Transformer", "type": "属于", "tail": "深度学习概念"},
+    {"head": "AUC", "type": "属于", "tail": "深度学习概念"},
+    {"head": "Python", "type": "使用", "tail": "PyTorch"},
+    {"head": "Linux", "type": "使用", "tail": "脚本"},
+    {"head": "脚本", "type": "使用", "tail": "PyTorch"},
+    {"head": "抗生素耐药性", "type": "因果", "tail": "ARG"},
+    {"head": "lora", "type": "使用", "tail": "esm"},
+    {"head": "lora", "type": "使用", "tail": "PyTorch"},
+    {"head": "PyTorch", "type": "使用", "tail": "BLAST"},
+    {"head": "DataLoader", "type": "使用", "tail": "shuffer"},
+    {"head": "nn.BatchNorm1d", "type": "使用", "tail": "卷积神经网络"},
+    {"head": "CNN", "type": "使用", "tail": "卷积核"},
+    {"head": "PyTorch", "type": "使用", "tail": "Transformer"},
+    {"head": "PyTorch", "type": "使用", "tail": "深度学习"},
+    {"head": "GPU", "type": "使用", "tail": "训练神经网络"},
+    {"head": "torch.cuda.is_available", "type": "用于", "tail": "检测GPU是否可用"},
+    {"head": "AUC", "type": "用于", "tail": "模型评估"}
+  ]
+}
+```

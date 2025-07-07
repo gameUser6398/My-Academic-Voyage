@@ -1,0 +1,18 @@
+
+
+```json
+{
+  "chunk_id": "2024-03-02",
+  "relations": [
+    {"head": "generate_embd.py", "type": "使用", "tail": "h5"},
+    {"head": "generate_embd.py", "type": "使用", "tail": "npy"},
+    {"head": "generate_embd.py", "type": "使用", "tail": "protein_name"},
+    {"head": "generate_embd.py", "type": "尝试", "tail": "embd_Series.csv"},
+    {"head": "generate_embd.py", "type": "使用", "tail": "csv"},
+    {"head": "select_train_embd.py", "type": "使用", "tail": "npy"},
+    {"head": "select_train_embd.py", "type": "处理", "tail": "np.array"},
+    {"head": "select_train_embd.py", "type": "使用", "tail": "True"},
+    {"head": "select_train_embd.py", "type": "使用", "tail": "False"}
+  ]
+}
+```

@@ -1,0 +1,21 @@
+
+
+{
+  "chunk_id": "2024-03-02",
+  "entities": [
+    {"name": "TALE", "type": "生物信息工具"},
+    {"name": "GO图", "type": "生物分子"},
+    {"name": "label_embedding", "type": "生物信息工具"},
+    {"name": "GO术语", "type": "生物分子"},
+    {"name": "dense_matrix", "type": "生物信息工具"},
+    {"name": "sparse matrix", "type": "生物信息工具"},
+    {"name": "Anc2vec", "type": "生物信息工具"},
+    {"name": "batch_size", "type": "深度学习概念"},
+    {"name": "loss", "type": "深度学习概念"},
+    {"name": "batch effect", "type": "生物信息工具"},
+    {"name": "sequence_embedding", "type": "生物信息工具"},
+    {"name": "PSSM", "type": "生物信息工具"},
+    {"name": "CAFA5", "type": "生物信息工具"},
+    {"name": "epoch", "type": "深度学习概念"}
+  ]
+}

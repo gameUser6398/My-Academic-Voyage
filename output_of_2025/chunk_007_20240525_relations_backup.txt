@@ -1,0 +1,23 @@
+
+
+```json
+{
+  "chunk_id": "2024-03-02",
+  "relations": [
+    {"head": "论文简析", "type": "使用", "tail": "PLM"},
+    {"head": "论文简析", "type": "包含", "tail": "GAN使用"},
+    {"head": "论文简析", "type": "包含", "tail": "耐药机制"},
+    {"head": "论文简析", "type": "包含", "tail": "单端测序"},
+    {"head": "论文简析", "type": "包含", "tail": "组装"},
+    {"head": "论文简析", "type": "包含", "tail": "假阳率"},
+    {"head": "论文简析", "type": "包含", "tail": "物种信息"},
+    {"head": "论文简析", "type": "包含", "tail": "菌株信息"},
+    {"head": "环境搭建", "type": "属于", "tail": "论文简析"},
+    {"head": "163服务器", "type": "属于", "tail": "环境搭建"},
+    {"head": "论文简析", "type": "使用", "tail": "snakemake"},
+    {"head": "论文简析", "type": "使用", "tail": "-c"},
+    {"head": "刘畅乐", "type": "参与", "tail": "论文简析"},
+    {"head": "论文简析", "type": "包含", "tail": "临床试剂需求"}
+  ]
+}
+```

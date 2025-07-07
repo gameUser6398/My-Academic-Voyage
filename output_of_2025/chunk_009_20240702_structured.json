@@ -1,0 +1,207 @@
+{
+    "timestamp": "2025-07-07T17:33:24.179227",
+    "filename": "chunk_009_20240702.md",
+    "entities": {
+        "chunk_id": "2024-07-02",
+        "entities": [
+            {
+                "name": "WHO细菌名单",
+                "type": "项目活动"
+            },
+            {
+                "name": "CAMDA名单",
+                "type": "项目活动"
+            },
+            {
+                "name": "测序数据",
+                "type": "生物技术"
+            },
+            {
+                "name": "结核杆菌",
+                "type": "生物分子"
+            },
+            {
+                "name": "progdial",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "fasta",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "PLM数据库",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "BLAST",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "ARG",
+                "type": "生物分子"
+            },
+            {
+                "name": "NCBI",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "CARD",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "ARO",
+                "type": "生物分子"
+            },
+            {
+                "name": "HMM",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "CD-hit",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "自抗性机制",
+                "type": "生物医学概念"
+            },
+            {
+                "name": "抗性机制",
+                "type": "生物医学概念"
+            },
+            {
+                "name": "Uniprot",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "fastQ",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "fastP",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "Java环境",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "conda",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "Linux",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "结核病",
+                "type": "生物医学概念"
+            }
+        ]
+    },
+    "relations": {
+        "chunk_id": "2024-07-02",
+        "relations": [
+            {
+                "head": "CAMDA名单",
+                "type": "包含",
+                "tail": "测序数据"
+            },
+            {
+                "head": "progdial",
+                "type": "使用",
+                "tail": "结核杆菌"
+            },
+            {
+                "head": "fasta",
+                "type": "使用",
+                "tail": "基因组的描述"
+            },
+            {
+                "head": "PLM数据库",
+                "type": "包含",
+                "tail": "抗性机制"
+            },
+            {
+                "head": "BLAST",
+                "type": "使用",
+                "tail": "RGDB序列"
+            },
+            {
+                "head": "RGDB",
+                "type": "包含",
+                "tail": "fasta"
+            },
+            {
+                "head": "fasta",
+                "type": "包含",
+                "tail": "基因组信息"
+            },
+            {
+                "head": "HMM",
+                "type": "使用",
+                "tail": "ID"
+            },
+            {
+                "head": "CD-hit",
+                "type": "使用",
+                "tail": "HMD机制"
+            },
+            {
+                "head": "自抗性机制",
+                "type": "属于",
+                "tail": "抗性机制"
+            },
+            {
+                "head": "HMD",
+                "type": "包含",
+                "tail": "抗性机制"
+            },
+            {
+                "head": "Uniprot",
+                "type": "包含",
+                "tail": "抗性机制"
+            },
+            {
+                "head": "CARD",
+                "type": "包含",
+                "tail": "ARO"
+            },
+            {
+                "head": "fastQ",
+                "type": "属于",
+                "tail": "Java环境"
+            },
+            {
+                "head": "fastP",
+                "type": "属于",
+                "tail": "Java环境"
+            },
+            {
+                "head": "conda",
+                "type": "属于",
+                "tail": "Linux"
+            },
+            {
+                "head": "结核杆菌",
+                "type": "属于",
+                "tail": "结核病"
+            },
+            {
+                "head": "fasta",
+                "type": "使用",
+                "tail": "gene信息"
+            },
+            {
+                "head": "NCBI",
+                "type": "提供",
+                "tail": "元数据"
+            },
+            {
+                "head": "CARD",
+                "type": "提供",
+                "tail": "ARO信息"
+            }
+        ]
+    },
+    "status": "success"
+}

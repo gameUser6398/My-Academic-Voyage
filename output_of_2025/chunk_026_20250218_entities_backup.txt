@@ -1,0 +1,11 @@
+
+
+{
+  "chunk_id": "2024-03-02",
+  "entities": [
+    {"name": "蛋白质功能预测", "type": "生物分子"},
+    {"name": "CAFA 5", "type": "项目活动"},
+    {"name": "Kaggle", "type": "其他"},
+    {"name": "NCBI", "type": "生物信息工具"}
+  ]
+}

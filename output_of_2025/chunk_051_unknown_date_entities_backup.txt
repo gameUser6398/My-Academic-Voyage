@@ -1,0 +1,18 @@
+
+
+{
+  "chunk_id": "2024-03-02",
+  "entities": [
+    {"name": "ARG", "type": "生物分子"},
+    {"name": "抗生素耐药性基因", "type": "生物分子"},
+    {"name": "深度神经网络", "type": "深度学习概念"},
+    {"name": "ARGNet-LSaa", "type": "生物信息工具"},
+    {"name": "ARGNet-Ssaa", "type": "生物信息工具"},
+    {"name": "DeepARG", "type": "生物信息工具"},
+    {"name": "自动编码器", "type": "深度学习概念"},
+    {"name": "CNN 分类器", "type": "深度学习概念"},
+    {"name": "独热编码", "type": "深度学习概念"},
+    {"name": "重建损失", "type": "深度学习概念"},
+    {"name": "ResBlock", "type": "深度学习概念"}
+  ]
+}

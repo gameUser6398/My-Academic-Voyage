@@ -1,0 +1,29 @@
+
+
+```json
+{
+  "chunk_id": "2024-06-11",
+  "entities": [
+    {"name": "prodigal", "type": "生物信息工具"},
+    {"name": "snakemake", "type": "生物信息工具"},
+    {"name": "GPT", "type": "生物信息工具"},
+    {"name": "BLAST", "type": "生物信息工具"},
+    {"name": "DIAMOND", "type": "生物信息工具"},
+    {"name": "metaSpa", "type": "生物信息工具"},
+    {"name": "megahit", "type": "生物信息工具"},
+    {"name": "HMD-ARG", "type": "生物分子"},
+    {"name": "RGDB", "type": "生物分子"},
+    {"name": "PLM-ARG", "type": "生物分子"},
+    {"name": "结核", "type": "生物医学概念"},
+    {"name": "结核杆菌", "type": "生物分子"},
+    {"name": "非结核杆菌", "type": "生物分子"},
+    {"name": "抗生素", "type": "生物医学概念"},
+    {"name": "数据集策划", "type": "项目活动"},
+    {"name": "文献阅读", "type": "项目活动"},
+    {"name": "网站搭建", "type": "项目活动"},
+    {"name": "临床常用药物收集", "type": "项目活动"},
+    {"name": "基因组收集", "type": "项目活动"},
+    {"name": "信息收集", "type": "项目活动"}
+  ]
+}
+```

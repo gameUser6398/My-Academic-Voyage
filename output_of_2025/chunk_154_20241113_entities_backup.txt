@@ -1,0 +1,18 @@
+
+
+{
+  "chunk_id": "2024-10-15",
+  "entities": [
+    {"name": "蛋白质", "type": "生物分子"},
+    {"name": "基因组", "type": "生物分子"},
+    {"name": "原始测序数据", "type": "生物技术"},
+    {"name": "BERT", "type": "深度学习概念"},
+    {"name": "SpaCy", "type": "生物信息工具"},
+    {"name": "抗生素", "type": "生物医学概念"},
+    {"name": "Flask", "type": "生物信息工具"},
+    {"name": "Pipeline", "type": "深度学习概念"},
+    {"name": "Tokenization", "type": "深度学习概念"},
+    {"name": "POS Tagging", "type": "深度学习概念"},
+    {"name": "Dependency Parsing", "type": "深度学习概念"}
+  ]
+}

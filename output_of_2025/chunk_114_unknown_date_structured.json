@@ -1,0 +1,327 @@
+{
+    "timestamp": "2025-07-07T17:46:44.485152",
+    "filename": "chunk_114_unknown_date.md",
+    "entities": {
+        "chunk_id": "2024-03-02",
+        "entities": [
+            {
+                "name": "HTML",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "CSS",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "JavaScript",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "div",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "span",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "p",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "h1",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "h6",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "a",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "img",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "ul",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "ol",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "li",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "header",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "footer",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "article",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "section",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "盒子模型",
+                "type": "其他"
+            },
+            {
+                "name": "margin",
+                "type": "其他"
+            },
+            {
+                "name": "border",
+                "type": "其他"
+            },
+            {
+                "name": "padding",
+                "type": "其他"
+            },
+            {
+                "name": "content",
+                "type": "其他"
+            },
+            {
+                "name": "Flexbox",
+                "type": "其他"
+            },
+            {
+                "name": "Grid",
+                "type": "其他"
+            },
+            {
+                "name": "float",
+                "type": "其他"
+            },
+            {
+                "name": "position",
+                "type": "其他"
+            },
+            {
+                "name": "媒体查询",
+                "type": "其他"
+            },
+            {
+                "name": "em",
+                "type": "其他"
+            },
+            {
+                "name": "rem",
+                "type": "其他"
+            },
+            {
+                "name": "DOM",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "querySelector",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "getElementById",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "addEventListener",
+                "type": "生物信息工具"
+            }
+        ]
+    },
+    "relations": {
+        "chunk_id": "2024-03-02",
+        "relations": [
+            {
+                "head": "网页制作",
+                "type": "使用",
+                "tail": "HTML"
+            },
+            {
+                "head": "网页制作",
+                "type": "使用",
+                "tail": "CSS"
+            },
+            {
+                "head": "网页制作",
+                "type": "使用",
+                "tail": "JavaScript"
+            },
+            {
+                "head": "HTML",
+                "type": "包含",
+                "tail": "div"
+            },
+            {
+                "head": "HTML",
+                "type": "包含",
+                "tail": "span"
+            },
+            {
+                "head": "HTML",
+                "type": "包含",
+                "tail": "p"
+            },
+            {
+                "head": "HTML",
+                "type": "包含",
+                "tail": "h1"
+            },
+            {
+                "head": "HTML",
+                "type": "包含",
+                "tail": "h6"
+            },
+            {
+                "head": "HTML",
+                "type": "包含",
+                "tail": "a"
+            },
+            {
+                "head": "HTML",
+                "type": "包含",
+                "tail": "img"
+            },
+            {
+                "head": "HTML",
+                "type": "包含",
+                "tail": "ul"
+            },
+            {
+                "head": "HTML",
+                "type": "包含",
+                "tail": "ol"
+            },
+            {
+                "head": "HTML",
+                "type": "包含",
+                "tail": "li"
+            },
+            {
+                "head": "HTML",
+                "type": "包含",
+                "tail": "header"
+            },
+            {
+                "head": "HTML",
+                "type": "包含",
+                "tail": "footer"
+            },
+            {
+                "head": "HTML",
+                "type": "包含",
+                "tail": "article"
+            },
+            {
+                "head": "HTML",
+                "type": "包含",
+                "tail": "section"
+            },
+            {
+                "head": "CSS",
+                "type": "包含",
+                "tail": "margin"
+            },
+            {
+                "head": "CSS",
+                "type": "包含",
+                "tail": "border"
+            },
+            {
+                "head": "CSS",
+                "type": "包含",
+                "tail": "padding"
+            },
+            {
+                "head": "CSS",
+                "type": "包含",
+                "tail": "content"
+            },
+            {
+                "head": "CSS",
+                "type": "包含",
+                "tail": "盒子模型"
+            },
+            {
+                "head": "CSS",
+                "type": "包含",
+                "tail": "Flexbox"
+            },
+            {
+                "head": "CSS",
+                "type": "包含",
+                "tail": "Grid"
+            },
+            {
+                "head": "CSS",
+                "type": "包含",
+                "tail": "float"
+            },
+            {
+                "head": "CSS",
+                "type": "包含",
+                "tail": "position"
+            },
+            {
+                "head": "CSS",
+                "type": "包含",
+                "tail": "媒体查询"
+            },
+            {
+                "head": "CSS",
+                "type": "包含",
+                "tail": "em"
+            },
+            {
+                "head": "CSS",
+                "type": "包含",
+                "tail": "rem"
+            },
+            {
+                "head": "JavaScript",
+                "type": "操作",
+                "tail": "DOM"
+            },
+            {
+                "head": "JavaScript",
+                "type": "使用",
+                "tail": "querySelector"
+            },
+            {
+                "head": "JavaScript",
+                "type": "使用",
+                "tail": "getElementById"
+            },
+            {
+                "head": "JavaScript",
+                "type": "使用",
+                "tail": "addEventListener"
+            },
+            {
+                "head": "项目驱动学习",
+                "type": "使用",
+                "tail": "HTML"
+            },
+            {
+                "head": "项目驱动学习",
+                "type": "使用",
+                "tail": "CSS"
+            },
+            {
+                "head": "项目驱动学习",
+                "type": "使用",
+                "tail": "JavaScript"
+            }
+        ]
+    },
+    "status": "success"
+}

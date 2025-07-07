@@ -1,0 +1,10 @@
+
+
+{
+  "chunk_id": "2024-03-02",
+  "relations": [
+    {"head": "Ensemble deep learning", "type": "属于", "tail": "生物信息学"},
+    {"head": "Ensemble deep learning", "type": "使用", "tail": "RNN"},
+    {"head": "Ensemble deep learning", "type": "使用", "tail": "CNNs"}
+  ]
+}

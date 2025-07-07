@@ -1,0 +1,38 @@
+
+
+```json
+{
+  "chunk_id": "2024-03-02",
+  "relations": [
+    {"head": "外排泵", "type": "调控", "tail": "抗生素耐药性"},
+    {"head": "DeepARG", "type": "使用", "tail": "宏基因组"},
+    {"head": "DeepARG", "type": "包含", "tail": "抗生素分类"},
+    {"head": "青霉素酶基因", "type": "属于", "tail": "β-内酰胺类"},
+    {"head": "tetA", "type": "属于", "tail": "四环素"},
+    {"head": "sul1", "type": "属于", "tail": "磺胺类（隐含）"},
+    {"head": "macB", "type": "属于", "tail": "大环内酯类-林可酰胺-链球菌素"},
+    {"head": "oxa", "type": "属于", "tail": "碳青霉烯"},
+    {"head": "mir", "type": "属于", "tail": "β-内酰胺类"},
+    {"head": "dha", "type": "属于", "tail": "β-内酰胺类"},
+    {"head": "碳青霉烯", "type": "属于", "tail": "β-内酰胺类"},
+    {"head": "羧苄青霉素", "type": "属于", "tail": "β-内酰胺类"},
+    {"head": "头孢西丁", "type": "属于", "tail": "β-内酰胺类"},
+    {"head": "头孢他啶", "type": "属于", "tail": "β-内酰胺类"},
+    {"head": "头孢曲松", "type": "属于", "tail": "β-内酰胺类"},
+    {"head": "头孢菌素", "type": "属于", "tail": "β-内酰胺类"},
+    {"head": "ARDB", "type": "包含", "tail": "抗生素类别信息"},
+    {"head": "CARD", "type": "包含", "tail": "抗生素类别信息"},
+    {"head": "ARG", "type": "属于", "tail": "抗生素耐药性"},
+    {"head": "ARG", "type": "属于", "tail": "耐药机制"},
+    {"head": "ARG", "type": "功能分布", "tail": "废水"},
+    {"head": "抗生素耐药性", "type": "因果", "tail": "ARG"},
+    {"head": "抗生素类别", "type": "包含", "tail": "大环内酯类"},
+    {"head": "抗生素类别", "type": "包含", "tail": "β-内酰胺类"},
+    {"head": "抗生素类别", "type": "包含", "tail": "氨基糖苷类"},
+    {"head": "抗生素类别", "type": "包含", "tail": "氯霉素"},
+    {"head": "抗生素类别", "type": "包含", "tail": "四环素"},
+    {"head": "抗生素类别", "type": "包含", "tail": "林可酰胺-链球菌素"},
+    {"head": "文献阅读", "type": "包含", "tail": "第104页"}
+  ]
+}
+```

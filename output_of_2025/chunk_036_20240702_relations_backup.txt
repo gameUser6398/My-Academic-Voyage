@@ -1,0 +1,26 @@
+
+
+```json
+{
+  "chunk_id": "2024-03-02",
+  "relations": [
+    {"head": "DNABERT", "type": "使用", "tail": "k-mer"},
+    {"head": "DNABERT", "type": "使用", "tail": "CLS 标记"},
+    {"head": "DNABERT", "type": "使用", "tail": "SEP 标记"},
+    {"head": "DNABERT", "type": "使用", "tail": "MASK 标记"},
+    {"head": "DNABERT", "type": "使用", "tail": "Transformer"},
+    {"head": "scBERT", "type": "属于", "tail": "语言模型"},
+    {"head": "scBERT", "type": "使用", "tail": "scRNA-seq"},
+    {"head": "scBERT", "type": "用于", "tail": "细胞类型注释"},
+    {"head": "scBERT", "type": "涉及", "tail": "基因-基因相互作用"},
+    {"head": "scBERT", "type": "使用", "tail": "Transformer"},
+    {"head": "抗微生物药物耐药性", "type": "因果", "tail": "抗生素耐药基因"},
+    {"head": "语言模型", "type": "使用", "tail": "PubMed"},
+    {"head": "语言模型", "type": "用于", "tail": "抗微生物药物耐药性预测"},
+    {"head": "软投票集成模型", "type": "使用", "tail": "语言模型"},
+    {"head": "WGS", "type": "用于", "tail": "结核病传播特征分析"},
+    {"head": "全国横断面监测", "type": "属于", "tail": "中国"},
+    {"head": "全国横断面监测", "type": "使用", "tail": "WGS"}
+  ]
+}
+```

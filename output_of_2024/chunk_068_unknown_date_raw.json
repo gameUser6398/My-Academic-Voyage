@@ -1,0 +1,6 @@
+{
+    "timestamp": "2025-07-07T17:08:45.440535",
+    "filename": "chunk_068_unknown_date.md",
+    "raw_entities": "\n\n{\n  \"chunk_id\": \"2024-03-02\",\n  \"entities\": [\n    {\"name\": \"自注意力机制\", \"type\": \"深度学习概念\"},\n    {\"name\": \"Transformer\", \"type\": \"深度学习概念\"},\n    {\"name\": \"PyTorch\", \"type\": \"生物信息工具\"},\n    {\"name\": \"滑动窗口\", \"type\": \"深度学习概念\"}\n  ]\n}",
+    "raw_relations": "\n\n{\n  \"chunk_id\": \"2024-03-02\",\n  \"relations\": [\n    {\"head\": \"Transformer\", \"type\": \"包含\", \"tail\": \"自注意力机制\"},\n    {\"head\": \"PyTorch\", \"type\": \"使用\", \"tail\": \"Transformer\"},\n    {\"head\": \"自注意力机制\", \"type\": \"属于\", \"tail\": \"深度学习概念\"},\n    {\"head\": \"滑动窗口\", \"type\": \"属于\", \"tail\": \"深度学习概念\"}\n  ]\n}"
+}

@@ -1,0 +1,88 @@
+{
+    "timestamp": "2025-07-07T17:12:02.748740",
+    "filename": "chunk_021_20240514.md",
+    "entities": {
+        "chunk_id": "2024-05-15",
+        "entities": [
+            {
+                "name": "SMOTE",
+                "type": "深度学习概念"
+            },
+            {
+                "name": "CGAN",
+                "type": "深度学习概念"
+            },
+            {
+                "name": "focal loss",
+                "type": "深度学习概念"
+            },
+            {
+                "name": "BCE",
+                "type": "深度学习概念"
+            },
+            {
+                "name": "调试计划",
+                "type": "项目活动"
+            },
+            {
+                "name": "结项撰写",
+                "type": "项目活动"
+            },
+            {
+                "name": "项目进展",
+                "type": "项目活动"
+            }
+        ]
+    },
+    "relations": {
+        "chunk_id": "2024-05-15",
+        "relations": [
+            {
+                "head": "调试计划",
+                "type": "属于",
+                "tail": "项目进展"
+            },
+            {
+                "head": "结项撰写",
+                "type": "属于",
+                "tail": "项目进展"
+            },
+            {
+                "head": "SMOTE",
+                "type": "使用",
+                "tail": "调试计划"
+            },
+            {
+                "head": "CGAN",
+                "type": "使用",
+                "tail": "调试计划"
+            },
+            {
+                "head": "focal loss",
+                "type": "使用",
+                "tail": "调试计划"
+            },
+            {
+                "head": "BCE",
+                "type": "使用",
+                "tail": "调试计划"
+            },
+            {
+                "head": "CGAN",
+                "type": "使用",
+                "tail": "BCE"
+            },
+            {
+                "head": "SMOTE",
+                "type": "使用",
+                "tail": "focal loss"
+            },
+            {
+                "head": "CGAN",
+                "type": "使用",
+                "tail": "focal loss"
+            }
+        ]
+    },
+    "status": "success"
+}

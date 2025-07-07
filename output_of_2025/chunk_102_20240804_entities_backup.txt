@@ -1,0 +1,14 @@
+
+
+{
+  "chunk_id": "2024-08-04",
+  "entities": [
+    {"name": "链霉素", "type": "生物分子"},
+    {"name": "streptogramin antibiotic", "type": "生物分子"},
+    {"name": "链霉菌属", "type": "生物分子"},
+    {"name": "细菌核糖体 50S 亚基", "type": "生物分子"},
+    {"name": "A型", "type": "生物分子"},
+    {"name": "B型", "type": "生物分子"},
+    {"name": "CARD", "type": "生物信息工具"}
+  ]
+}

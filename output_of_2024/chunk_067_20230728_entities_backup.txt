@@ -1,0 +1,21 @@
+
+
+{
+  "chunk_id": "2024-03-02",
+  "entities": [
+    {"name": "LSTM", "type": "深度学习概念"},
+    {"name": "RNN", "type": "深度学习概念"},
+    {"name": "遗忘门", "type": "深度学习概念"},
+    {"name": "输入门", "type": "深度学习概念"},
+    {"name": "输出门", "type": "深度学习概念"},
+    {"name": "loss", "type": "深度学习概念"},
+    {"name": "category_tensor", "type": "深度学习概念"},
+    {"name": "hidden", "type": "深度学习概念"},
+    {"name": "cell", "type": "深度学习概念"},
+    {"name": "output", "type": "深度学习概念"},
+    {"name": "self-attention机制", "type": "深度学习概念"},
+    {"name": "PyTorch", "type": "生物信息工具"},
+    {"name": "NLP", "type": "深度学习概念"},
+    {"name": "CNN", "type": "深度学习概念"}
+  ]
+}

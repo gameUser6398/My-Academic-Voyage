@@ -1,0 +1,603 @@
+{
+    "timestamp": "2025-07-07T19:43:42.649862",
+    "filename": "chunk_046_20240426_split_2.md",
+    "entities": {
+        "chunk_id": "2024-03-02",
+        "entities": [
+            {
+                "name": "DeepARG",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "DeepARG-SS",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "DeepARG-LS",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "ARG",
+                "type": "生物分子"
+            },
+            {
+                "name": "精确度",
+                "type": "深度学习概念"
+            },
+            {
+                "name": "召回率",
+                "type": "深度学习概念"
+            },
+            {
+                "name": "F1 分数",
+                "type": "深度学习概念"
+            },
+            {
+                "name": "TP",
+                "type": "深度学习概念"
+            },
+            {
+                "name": "FP",
+                "type": "深度学习概念"
+            },
+            {
+                "name": "FN",
+                "type": "深度学习概念"
+            },
+            {
+                "name": "DIAMOND",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "抗生素耐药性",
+                "type": "生物医学概念"
+            },
+            {
+                "name": "β-内酰胺酶",
+                "type": "生物分子"
+            },
+            {
+                "name": "杆菌肽类",
+                "type": "生物分子"
+            },
+            {
+                "name": "大环内酯类-林可酰胺-链球菌素 (MLS)",
+                "type": "生物分子"
+            },
+            {
+                "name": "氨基糖苷类",
+                "type": "生物分子"
+            },
+            {
+                "name": "多混合素类",
+                "type": "生物分子"
+            },
+            {
+                "name": "多药类",
+                "type": "生物分子"
+            },
+            {
+                "name": "未知抗生素耐药性类别",
+                "type": "生物医学概念"
+            },
+            {
+                "name": "MEGARes",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "CARD",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "ARDB",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "UNIPROT",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "宏基因组",
+                "type": "生物技术"
+            },
+            {
+                "name": "测序",
+                "type": "生物技术"
+            },
+            {
+                "name": "隐马尔可夫模型",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "β 内酰胺酶",
+                "type": "生物分子"
+            },
+            {
+                "name": "三氯生",
+                "type": "生物分子"
+            },
+            {
+                "name": "艾达霉素",
+                "type": "生物分子"
+            },
+            {
+                "name": "夫西地酸",
+                "type": "生物分子"
+            },
+            {
+                "name": "嘌呤霉素",
+                "type": "生物分子"
+            },
+            {
+                "name": "β-内酰胺酶",
+                "type": "生物分子"
+            },
+            {
+                "name": "大环内酯类",
+                "type": "生物分子"
+            },
+            {
+                "name": "糖肽类",
+                "type": "生物分子"
+            },
+            {
+                "name": "喹诺酮类药物",
+                "type": "生物分子"
+            },
+            {
+                "name": "磺胺类",
+                "type": "生物分子"
+            },
+            {
+                "name": "莫匹罗星",
+                "type": "生物分子"
+            },
+            {
+                "name": "Tunicamycin",
+                "type": "生物分子"
+            },
+            {
+                "name": "衣霉素",
+                "type": "生物分子"
+            },
+            {
+                "name": "多药类别",
+                "type": "生物分子"
+            },
+            {
+                "name": "金属β内酰胺酶",
+                "type": "生物分子"
+            },
+            {
+                "name": "亚胺培南",
+                "type": "生物分子"
+            },
+            {
+                "name": "SNP",
+                "type": "生物分子"
+            },
+            {
+                "name": "文献调研",
+                "type": "项目活动"
+            },
+            {
+                "name": "样本采集",
+                "type": "项目活动"
+            },
+            {
+                "name": "序列比对",
+                "type": "生物技术"
+            },
+            {
+                "name": "读段",
+                "type": "生物技术"
+            },
+            {
+                "name": "开放阅读框 (ORF)",
+                "type": "生物技术"
+            },
+            {
+                "name": "模型训练",
+                "type": "项目活动"
+            },
+            {
+                "name": "模型测试",
+                "type": "项目活动"
+            },
+            {
+                "name": "加标实验",
+                "type": "项目活动"
+            },
+            {
+                "name": "宏基因组实验",
+                "type": "项目活动"
+            }
+        ]
+    },
+    "relations": {
+        "chunk_id": "2024-03-02",
+        "relations": [
+            {
+                "head": "DeepARG",
+                "type": "包含",
+                "tail": "DeepARG-SS"
+            },
+            {
+                "head": "DeepARG",
+                "type": "包含",
+                "tail": "DeepARG-LS"
+            },
+            {
+                "head": "DeepARG-SS",
+                "type": "使用",
+                "tail": "精确度"
+            },
+            {
+                "head": "DeepARG-SS",
+                "type": "使用",
+                "tail": "召回率"
+            },
+            {
+                "head": "DeepARG-SS",
+                "type": "使用",
+                "tail": "F1 分数"
+            },
+            {
+                "head": "DeepARG-SS",
+                "type": "使用",
+                "tail": "TP"
+            },
+            {
+                "head": "DeepARG-SS",
+                "type": "使用",
+                "tail": "FP"
+            },
+            {
+                "head": "DeepARG-SS",
+                "type": "使用",
+                "tail": "FN"
+            },
+            {
+                "head": "DeepARG 管道",
+                "type": "使用",
+                "tail": "DIAMOND"
+            },
+            {
+                "head": "DIAMOND",
+                "type": "使用",
+                "tail": "序列比对"
+            },
+            {
+                "head": "DeepARG-DB",
+                "type": "包含",
+                "tail": "ARDB"
+            },
+            {
+                "head": "DeepARG-DB",
+                "type": "包含",
+                "tail": "CARD"
+            },
+            {
+                "head": "DeepARG-DB",
+                "type": "包含",
+                "tail": "UNIPROT"
+            },
+            {
+                "head": "DeepARG-DB",
+                "type": "包含",
+                "tail": "β-内酰胺酶"
+            },
+            {
+                "head": "DeepARG-DB",
+                "type": "包含",
+                "tail": "杆菌肽类"
+            },
+            {
+                "head": "DeepARG-DB",
+                "type": "包含",
+                "tail": "大环内酯类-林可酰胺-链球菌素 (MLS)"
+            },
+            {
+                "head": "DeepARG-DB",
+                "type": "包含",
+                "tail": "氨基糖苷类"
+            },
+            {
+                "head": "DeepARG-DB",
+                "type": "包含",
+                "tail": "多混合素类"
+            },
+            {
+                "head": "DeepARG-DB",
+                "type": "包含",
+                "tail": "多药类"
+            },
+            {
+                "head": "DeepARG-DB",
+                "type": "包含",
+                "tail": "未知抗生素耐药性类别"
+            },
+            {
+                "head": "β-内酰胺酶",
+                "type": "属于",
+                "tail": "抗生素耐药性"
+            },
+            {
+                "head": "杆菌肽类",
+                "type": "属于",
+                "tail": "抗生素耐药性"
+            },
+            {
+                "head": "大环内酯类-林可酰胺-链球菌素 (MLS)",
+                "type": "属于",
+                "tail": "抗生素耐药性"
+            },
+            {
+                "head": "氨基糖苷类",
+                "type": "属于",
+                "tail": "抗生素耐药性"
+            },
+            {
+                "head": "多混合素类",
+                "type": "属于",
+                "tail": "抗生素耐药性"
+            },
+            {
+                "head": "多药类",
+                "type": "属于",
+                "tail": "抗生素耐药性"
+            },
+            {
+                "head": "未知抗生素耐药性类别",
+                "type": "属于",
+                "tail": "抗生素耐药性"
+            },
+            {
+                "head": "DeepARG-SS",
+                "type": "使用",
+                "tail": "宏基因组"
+            },
+            {
+                "head": "DeepARG-SS",
+                "type": "使用",
+                "tail": "读段"
+            },
+            {
+                "head": "DeepARG-SS",
+                "type": "使用",
+                "tail": "模型训练"
+            },
+            {
+                "head": "DeepARG-SS",
+                "type": "使用",
+                "tail": "模型测试"
+            },
+            {
+                "head": "DeepARG-SS",
+                "type": "使用",
+                "tail": "加标实验"
+            },
+            {
+                "head": "DeepARG-SS",
+                "type": "使用",
+                "tail": "宏基因组实验"
+            },
+            {
+                "head": "DeepARG-LS",
+                "type": "使用",
+                "tail": "开放阅读框 (ORF)"
+            },
+            {
+                "head": "DeepARG-LS",
+                "type": "使用",
+                "tail": "β-内酰胺酶"
+            },
+            {
+                "head": "DeepARG-LS",
+                "type": "使用",
+                "tail": "三氯生"
+            },
+            {
+                "head": "DeepARG-LS",
+                "type": "使用",
+                "tail": "磺胺类"
+            },
+            {
+                "head": "DeepARG-LS",
+                "type": "使用",
+                "tail": "莫匹罗星"
+            },
+            {
+                "head": "DeepARG-LS",
+                "type": "使用",
+                "tail": "Tunicamycin"
+            },
+            {
+                "head": "DeepARG-LS",
+                "type": "使用",
+                "tail": "金属β内酰胺酶"
+            },
+            {
+                "head": "DeepARG-LS",
+                "type": "使用",
+                "tail": "亚胺培南"
+            },
+            {
+                "head": "DeepARG-LS",
+                "type": "使用",
+                "tail": "隐马尔可夫模型"
+            },
+            {
+                "head": "DeepARG-LS",
+                "type": "使用",
+                "tail": "MEGARes"
+            },
+            {
+                "head": "DeepARG-LS",
+                "type": "使用",
+                "tail": "SNP"
+            },
+            {
+                "head": "DeepARG-SS",
+                "type": "因果",
+                "tail": "高灵敏度"
+            },
+            {
+                "head": "DeepARG-SS",
+                "type": "因果",
+                "tail": "低假阳性率"
+            },
+            {
+                "head": "最佳命中方法",
+                "type": "因果",
+                "tail": "高假阴性率"
+            },
+            {
+                "head": "DeepARG-DB",
+                "type": "调控",
+                "tail": "DeepARG-SS 模型性能"
+            },
+            {
+                "head": "DeepARG-DB",
+                "type": "调控",
+                "tail": "DeepARG-LS 模型性能"
+            },
+            {
+                "head": "β-内酰胺酶",
+                "type": "属于",
+                "tail": "多药类别"
+            },
+            {
+                "head": "大环内酯类",
+                "type": "属于",
+                "tail": "多药类别"
+            },
+            {
+                "head": "糖肽类",
+                "type": "属于",
+                "tail": "多药类别"
+            },
+            {
+                "head": "喹诺酮类药物",
+                "type": "属于",
+                "tail": "多药类别"
+            },
+            {
+                "head": "Tunicamycin",
+                "type": "属于",
+                "tail": "未知抗生素耐药性类别"
+            },
+            {
+                "head": "衣霉素",
+                "type": "属于",
+                "tail": "未知抗生素耐药性类别"
+            },
+            {
+                "head": "多药类",
+                "type": "调控",
+                "tail": "假阳性率"
+            },
+            {
+                "head": "DeepARG-SS",
+                "type": "使用",
+                "tail": "β 内酰胺酶"
+            },
+            {
+                "head": "DeepARG-SS",
+                "type": "使用",
+                "tail": "杆菌肽类"
+            },
+            {
+                "head": "DeepARG-SS",
+                "type": "使用",
+                "tail": "MLS"
+            },
+            {
+                "head": "DeepARG-SS",
+                "type": "使用",
+                "tail": "多药类"
+            },
+            {
+                "head": "DeepARG-SS",
+                "type": "使用",
+                "tail": "未知抗生素耐药性类别"
+            },
+            {
+                "head": "DeepARG-LS",
+                "type": "使用",
+                "tail": "β-内酰胺酶"
+            },
+            {
+                "head": "DeepARG-LS",
+                "type": "使用",
+                "tail": "杆菌肽类"
+            },
+            {
+                "head": "DeepARG-LS",
+                "type": "使用",
+                "tail": "MLS"
+            },
+            {
+                "head": "DeepARG-LS",
+                "type": "使用",
+                "tail": "多药类"
+            },
+            {
+                "head": "DeepARG-LS",
+                "type": "使用",
+                "tail": "未知抗生素耐药性类别"
+            },
+            {
+                "head": "DeepARG",
+                "type": "属于",
+                "tail": "深度学习概念"
+            },
+            {
+                "head": "DeepARG",
+                "type": "属于",
+                "tail": "生物信息工具"
+            },
+            {
+                "head": "DeepARG-SS",
+                "type": "属于",
+                "tail": "生物信息工具"
+            },
+            {
+                "head": "DeepARG-LS",
+                "type": "属于",
+                "tail": "生物信息工具"
+            },
+            {
+                "head": "MEGARes",
+                "type": "属于",
+                "tail": "生物信息工具"
+            },
+            {
+                "head": "CARD",
+                "type": "属于",
+                "tail": "生物信息工具"
+            },
+            {
+                "head": "ARDB",
+                "type": "属于",
+                "tail": "生物信息工具"
+            },
+            {
+                "head": "UNIPROT",
+                "type": "属于",
+                "tail": "生物信息工具"
+            },
+            {
+                "head": "DIAMOND",
+                "type": "属于",
+                "tail": "生物信息工具"
+            },
+            {
+                "head": "隐马尔可夫模型",
+                "type": "属于",
+                "tail": "生物信息工具"
+            }
+        ]
+    },
+    "status": "success"
+}

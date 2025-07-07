@@ -1,0 +1,324 @@
+
+
+```json
+{
+  "chunk_id": "2024-03-02",
+  "relations": [
+    {
+      "head": "POU5F1_HUMAN",
+      "type": "属于",
+      "tail": "UniProt"
+    },
+    {
+      "head": "POU5F1_HUMAN",
+      "type": "属于",
+      "tail": "Swiss-Prot"
+    },
+    {
+      "head": "POU5F1_HUMAN",
+      "type": "使用",
+      "tail": "UniProt ID"
+    },
+    {
+      "head": "POU domain",
+      "type": "属于",
+      "tail": "POU5F1_HUMAN"
+    },
+    {
+      "head": "transcription factor 1",
+      "type": "属于",
+      "tail": "POU5F1_HUMAN"
+    },
+    {
+      "head": "Homo sapiens",
+      "type": "属于",
+      "tail": "POU5F1_HUMAN"
+    },
+    {
+      "head": "UniProt",
+      "type": "包含",
+      "tail": "Swiss-Prot"
+    },
+    {
+      "head": "UniProt",
+      "type": "包含",
+      "tail": "TrEMBL"
+    },
+    {
+      "head": "TrEMBL",
+      "type": "包含",
+      "tail": "EMBL-Bank"
+    },
+    {
+      "head": "TrEMBL",
+      "type": "包含",
+      "tail": "GenBank"
+    },
+    {
+      "head": "TrEMBL",
+      "type": "包含",
+      "tail": "DDBJ"
+    },
+    {
+      "head": "TrEMBL",
+      "type": "包含",
+      "tail": "PDB"
+    },
+    {
+      "head": "TrEMBL",
+      "type": "包含",
+      "tail": "Ensembl"
+    },
+    {
+      "head": "TrEMBL",
+      "type": "包含",
+      "tail": "Refeq"
+    },
+    {
+      "head": "TrEMBL",
+      "type": "包含",
+      "tail": "CCDS"
+    },
+    {
+      "head": "UniParc",
+      "type": "包含",
+      "tail": "UPI"
+    },
+    {
+      "head": "UniRef",
+      "type": "使用",
+      "tail": "CD-HIT"
+    },
+    {
+      "head": "UniRef",
+      "type": "包含",
+      "tail": "UniRef100"
+    },
+    {
+      "head": "UniRef",
+      "type": "包含",
+      "tail": "UniRef90"
+    },
+    {
+      "head": "UniRef",
+      "type": "包含",
+      "tail": "UniRef50"
+    },
+    {
+      "head": "InterPro",
+      "type": "整合",
+      "tail": "蛋白质结构域"
+    },
+    {
+      "head": "InterPro",
+      "type": "整合",
+      "tail": "蛋白质家族"
+    },
+    {
+      "head": "InterPro",
+      "type": "整合",
+      "tail": "功能位点"
+    },
+    {
+      "head": "InterPro",
+      "type": "整合",
+      "tail": "结合位点"
+    },
+    {
+      "head": "CDD",
+      "type": "包含",
+      "tail": "蛋白质保守结构域"
+    },
+    {
+      "head": "IUPHAR-DB",
+      "type": "包含",
+      "tail": "G蛋白偶联受体"
+    },
+    {
+      "head": "IUPHAR-DB",
+      "type": "包含",
+      "tail": "离子通道"
+    },
+    {
+      "head": "SWISS-2DPAGE",
+      "type": "收录",
+      "tail": "双向电泳"
+    },
+    {
+      "head": "SWISS-2DPAGE",
+      "type": "收录",
+      "tail": "SDS电泳"
+    },
+    {
+      "head": "IPSA",
+      "type": "提供",
+      "tail": "质谱可视化"
+    },
+    {
+      "head": "utils",
+      "type": "包含",
+      "tail": "质谱常用软件"
+    },
+    {
+      "head": "utils",
+      "type": "包含",
+      "tail": "数据可视化"
+    },
+    {
+      "head": "utils",
+      "type": "包含",
+      "tail": "格式转换"
+    },
+    {
+      "head": "utils",
+      "type": "包含",
+      "tail": "峰提取/反卷积"
+    },
+    {
+      "head": "utils",
+      "type": "包含",
+      "tail": "PTM"
+    },
+    {
+      "head": "utils",
+      "type": "包含",
+      "tail": "蛋白质鉴定"
+    },
+    {
+      "head": "utils",
+      "type": "包含",
+      "tail": "蛋白质定量"
+    },
+    {
+      "head": "utils",
+      "type": "包含",
+      "tail": "蛋白结构"
+    },
+    {
+      "head": "utils",
+      "type": "包含",
+      "tail": "质谱成像"
+    },
+    {
+      "head": "utils",
+      "type": "包含",
+      "tail": "同位素分析计算"
+    },
+    {
+      "head": "BRENDA",
+      "type": "包含",
+      "tail": "酶的分类"
+    },
+    {
+      "head": "BRENDA",
+      "type": "包含",
+      "tail": "酶的命名法"
+    },
+    {
+      "head": "BRENDA",
+      "type": "包含",
+      "tail": "酶的生化反应"
+    },
+    {
+      "head": "BRENDA",
+      "type": "包含",
+      "tail": "酶的专一性"
+    },
+    {
+      "head": "BRENDA",
+      "type": "包含",
+      "tail": "酶的结构"
+    },
+    {
+      "head": "BRENDA",
+      "type": "包含",
+      "tail": "酶的细胞定位"
+    },
+    {
+      "head": "BRENDA",
+      "type": "包含",
+      "tail": "酶的提取方法"
+    },
+    {
+      "head": "BRENDA",
+      "type": "包含",
+      "tail": "酶的文献"
+    },
+    {
+      "head": "BRENDA",
+      "type": "包含",
+      "tail": "酶的应用与改造"
+    },
+    {
+      "head": "BRENDA",
+      "type": "包含",
+      "tail": "酶相关疾病"
+    },
+    {
+      "head": "GO",
+      "type": "包含",
+      "tail": "生物学过程"
+    },
+    {
+      "head": "GO",
+      "type": "包含",
+      "tail": "细胞定位"
+    },
+    {
+      "head": "GO",
+      "type": "包含",
+      "tail": "分子功能"
+    },
+    {
+      "head": "KEGG",
+      "type": "包含",
+      "tail": "代谢通路"
+    },
+    {
+      "head": "KEGG",
+      "type": "包含",
+      "tail": "药物"
+    },
+    {
+      "head": "KEGG",
+      "type": "包含",
+      "tail": "疾病"
+    },
+    {
+      "head": "KEGG",
+      "type": "包含",
+      "tail": "基因序列"
+    },
+    {
+      "head": "KEGG",
+      "type": "包含",
+      "tail": "基因组"
+    },
+    {
+      "head": "Reactome",
+      "type": "包含",
+      "tail": "细胞代谢"
+    },
+    {
+      "head": "Reactome",
+      "type": "包含",
+      "tail": "信号通路"
+    },
+    {
+      "head": "STRING",
+      "type": "提供",
+      "tail": "蛋白质相互作用"
+    },
+    {
+      "head": "STRING",
+      "type": "基于",
+      "tail": "confidence score"
+    },
+    {
+      "head": "CORUM",
+      "type": "提供",
+      "tail": "哺乳动物蛋白质复合物"
+    }
+  ]
+}
+```

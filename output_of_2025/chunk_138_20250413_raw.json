@@ -1,0 +1,6 @@
+{
+    "timestamp": "2025-07-07T17:33:02.414026",
+    "filename": "chunk_138_20250413.md",
+    "raw_entities": "\n\n{\n  \"chunk_id\": \"2024-09-24\",\n  \"entities\": [\n    {\"name\": \"CARD\", \"type\": \"生物信息工具\"},\n    {\"name\": \"Resfams\", \"type\": \"生物信息工具\"},\n    {\"name\": \"ESM embeddings\", \"type\": \"生物信息工具\"},\n    {\"name\": \"1D convolution\", \"type\": \"深度学习概念\"},\n    {\"name\": \"Django\", \"type\": \"生物信息工具\"}\n  ]\n}",
+    "raw_relations": "\n\n```json\n{\n  \"chunk_id\": \"2024-09-24\",\n  \"relations\": [\n    {\"head\": \"Resfams\", \"type\": \"属于\", \"tail\": \"CARD实验\"},\n    {\"head\": \"separable-like 1D convolution\", \"type\": \"使用\", \"tail\": \"ESM embeddings\"},\n    {\"head\": \"Django\", \"type\": \"属于\", \"tail\": \"学习日志\"}\n  ]\n}\n```"
+}

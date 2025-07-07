@@ -1,0 +1,6 @@
+{
+    "timestamp": "2025-07-07T18:39:08.833275",
+    "filename": "chunk_145_unknown_date.md",
+    "raw_entities": "\n\n```json\n{\n  \"chunk_id\": \"2024-03-02\",\n  \"entities\": [\n    {\"name\": \"Python\", \"type\": \"生物信息工具\"},\n    {\"name\": \"VSCode\", \"type\": \"生物信息工具\"},\n    {\"name\": \"PyCharm\", \"type\": \"生物信息工具\"},\n    {\"name\": \"SSH\", \"type\": \"生物信息工具\"},\n    {\"name\": \"OpenSSH\", \"type\": \"生物信息工具\"},\n    {\"name\": \"Linux\", \"type\": \"生物信息工具\"},\n    {\"name\": \"命令\", \"type\": \"生物信息工具\"},\n    {\"name\": \"远程连接\", \"type\": \"项目活动\"}\n  ]\n}\n```",
+    "raw_relations": "\n\n```json\n{\n  \"chunk_id\": \"2024-03-02\",\n  \"relations\": [\n    {\"head\": \"VSCode\", \"type\": \"使用\", \"tail\": \"SSH\"},\n    {\"head\": \"VSCode\", \"type\": \"使用\", \"tail\": \"OpenSSH\"},\n    {\"head\": \"VSCode\", \"type\": \"属于\", \"tail\": \"远程连接\"},\n    {\"head\": \"VSCode\", \"type\": \"使用\", \"tail\": \"命令\"},\n    {\"head\": \"PyCharm\", \"type\": \"使用\", \"tail\": \"Python\"},\n    {\"head\": \"Linux\", \"type\": \"使用\", \"tail\": \"SSH\"},\n    {\"head\": \"SSH\", \"type\": \"属于\", \"tail\": \"远程连接\"},\n    {\"head\": \"OpenSSH\", \"type\": \"属于\", \"tail\": \"SSH\"}\n  ]\n}\n```"
+}

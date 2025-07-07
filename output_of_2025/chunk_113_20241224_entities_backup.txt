@@ -1,0 +1,24 @@
+
+
+```json
+{
+  "chunk_id": "2024-03-02",
+  "entities": [
+    {"name": "RAG", "type": "生物信息工具"},
+    {"name": "腾讯云", "type": "生物信息工具"},
+    {"name": "MultiLabelBinarizer", "type": "生物信息工具"},
+    {"name": "One vs All", "type": "生物信息工具"},
+    {"name": "深度度量学习", "type": "深度学习概念"},
+    {"name": "监督学习", "type": "深度学习概念"},
+    {"name": "弱监督学习", "type": "深度学习概念"},
+    {"name": "对比损失", "type": "深度学习概念"},
+    {"name": "深度残差收缩网络", "type": "深度学习概念"},
+    {"name": "软阈值化", "type": "深度学习概念"},
+    {"name": "First-Order Strategy", "type": "深度学习概念"},
+    {"name": "Second-Order Strategy", "type": "深度学习概念"},
+    {"name": "High-Order Strategy", "type": "深度学习概念"},
+    {"name": "对比学习", "type": "深度学习概念"},
+    {"name": "数据库", "type": "生物信息工具"}
+  ]
+}
+```

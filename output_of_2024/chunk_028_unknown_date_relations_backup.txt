@@ -1,0 +1,27 @@
+
+
+```json
+{
+  "chunk_id": "2024-03-02",
+  "relations": [
+    {"head": "ProteinBERT", "type": "使用", "tail": "Transformer"},
+    {"head": "ProteinBERT", "type": "使用", "tail": "双向语言建模"},
+    {"head": "ProteinBERT", "type": "使用", "tail": "注释预测"},
+    {"head": "ProteinBERT", "type": "使用", "tail": "UniRef106"},
+    {"head": "ProteinBERT", "type": "使用", "tail": "UniRef90"},
+    {"head": "ProteinBERT", "type": "使用", "tail": "氨基酸序列"},
+    {"head": "ProteinBERT", "type": "使用", "tail": "GO注释"},
+    {"head": "ProteinBERT", "type": "属于", "tail": "预训练"},
+    {"head": "ProteinBERT", "type": "属于", "tail": "预训练模型权重"},
+    {"head": "UniRef90", "type": "属于", "tail": "UniProtKB"},
+    {"head": "UniRef106", "type": "属于", "tail": "UniProtKB"},
+    {"head": "GO注释", "type": "属于", "tail": "基因本体论"},
+    {"head": "ProteinBERT", "type": "包含", "tail": "局部（字符级）和全局（全序列级）表示"},
+    {"head": "预训练", "type": "使用", "tail": "蛋白质数据集"},
+    {"head": "预训练", "type": "使用", "tail": "氨基酸序列"},
+    {"head": "预训练", "type": "使用", "tail": "GO注释"},
+    {"head": "ProteinBERT", "type": "使用", "tail": "代码"},
+    {"head": "预训练模型权重", "type": "使用", "tail": "代码"}
+  ]
+}
+```

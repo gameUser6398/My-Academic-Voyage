@@ -1,0 +1,46 @@
+
+
+```json
+{
+  "chunk_id": "2024-03-02",
+  "relations": [
+    {"head": "Transformer", "type": "包含", "tail": "attention mechanism"},
+    {"head": "Transformer", "type": "包含", "tail": "position encoding"},
+    {"head": "Transformer", "type": "包含", "tail": "embedding"},
+    {"head": "Transformer", "type": "包含", "tail": "head"},
+    {"head": "BERT", "type": "属于", "tail": "Transformer"},
+    {"head": "resnet", "type": "属于", "深度学习概念"},
+    {"head": "resnet", "type": "包含", "tail": "residual"},
+    {"head": "residual", "type": "使用", "tail": "gradient descent"},
+    {"head": "layer normalization", "type": "属于", "tail": "深度学习概念"},
+    {"head": "batch normalization", "type": "属于", "tail": "深度学习概念"},
+    {"head": "GAN", "type": "包含", "tail": "generator"},
+    {"head": "GAN", "type": "包含", "tail": "discriminator"},
+    {"head": "GAN", "type": "使用", "tail": "Jensen-Shannon (JS) divergence"},
+    {"head": "GAN", "type": "使用", "tail": "Kullback-Leibler (KL) divergence"},
+    {"head": "Wasserstein GAN (WGAN)", "type": "属于", "tail": "GAN"},
+    {"head": "Wasserstein GAN (WGAN)", "type": "使用", "tail": "Earth Mover's Distance"},
+    {"head": "Least Square GAN (LSGAN)", "type": "属于", "tail": "GAN"},
+    {"head": "GAN", "type": "包含", "tail": "loss function"},
+    {"head": "GAN", "type": "使用", "tail": "cross-entropy"},
+    {"head": "GAN", "type": "使用", "tail": "pseudo label"},
+    {"head": "GAN", "type": "使用", "tail": "teacher model"},
+    {"head": "VAE", "type": "属于", "tail": "Auto-encoder"},
+    {"head": "Diffusion model", "type": "包含", "tail": "latent space"},
+    {"head": "Stable Diffusion", "type": "属于", "tail": "Diffusion model"},
+    {"head": "Stable Diffusion", "type": "包含", "tail": "encoder"},
+    {"head": "Stable Diffusion", "type": "包含", "tail": "generator"},
+    {"head": "Stable Diffusion", "type": "使用", "tail": "FID"},
+    {"head": "Stable Diffusion", "type": "使用", "tail": "CLIP"},
+    {"head": "Diffusion model", "type": "包含", "tail": "noise predicter"},
+    {"head": "Diffusion model", "type": "使用", "tail": "beam search"},
+    {"head": "Diffusion model", "type": "使用", "tail": "feature fusion"},
+    {"head": "Maximum likelihood estimation", "type": "使用", "tail": "VAE"},
+    {"head": "generator", "type": "使用", "tail": "gradient descent"},
+    {"head": "discriminator", "type": "使用", "tail": "gradient descent"},
+    {"head": "attention mechanism", "type": "使用", "tail": "embedding"},
+    {"head": "attention mechanism", "type": "包含", "tail": "head"},
+    {"head": "attention mechanism", "type": "使用", "tail": "position encoding"}
+  ]
+}
+```

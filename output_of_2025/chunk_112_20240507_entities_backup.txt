@@ -1,0 +1,28 @@
+
+
+```json
+{
+  "chunk_id": "2024-05-07",
+  "entities": [
+    {"name": "ARG", "type": "生物分子"},
+    {"name": "PyTorch", "type": "生物信息工具"},
+    {"name": "torch", "type": "生物信息工具"},
+    {"name": "CNN", "type": "深度学习概念"},
+    {"name": "卷积核", "type": "深度学习概念"},
+    {"name": "GPU", "type": "深度学习概念"},
+    {"name": "torch.cuda.is_available", "type": "生物信息工具"},
+    {"name": "DataLoader", "type": "生物信息工具"},
+    {"name": "nn.BatchNorm1d", "type": "生物信息工具"},
+    {"name": "lora", "type": "深度学习概念"},
+    {"name": "esm", "type": "生物信息工具"},
+    {"name": "DeepFRI", "type": "生物信息工具"},
+    {"name": "Transformer", "type": "深度学习概念"},
+    {"name": "AUC", "type": "深度学习概念"},
+    {"name": "Python", "type": "生物信息工具"},
+    {"name": "Linux", "type": "生物信息工具"},
+    {"name": "脚本", "type": "生物信息工具"},
+    {"name": "BLAST", "type": "生物信息工具"},
+    {"name": "抗生素耐药性", "type": "生物医学概念"}
+  ]
+}
+```

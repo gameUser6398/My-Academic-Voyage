@@ -1,0 +1,262 @@
+{
+    "timestamp": "2025-07-07T17:09:22.160239",
+    "filename": "chunk_093_20230928.md",
+    "entities": {
+        "chunk_id": "2024-03-02",
+        "entities": [
+            {
+                "name": "self-Attention",
+                "type": "深度学习概念"
+            },
+            {
+                "name": "ESM",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "Transformer",
+                "type": "深度学习概念"
+            },
+            {
+                "name": "卷积神经网络",
+                "type": "深度学习概念"
+            },
+            {
+                "name": "氨基酸",
+                "type": "生物分子"
+            },
+            {
+                "name": "蛋白质序列",
+                "type": "生物分子"
+            },
+            {
+                "name": "蛋白质功能预测",
+                "type": "生物医学概念"
+            },
+            {
+                "name": "GO术语",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "TALE",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "ProtTrans",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "mf",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "bp",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "cc",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "CAFA5挑战赛",
+                "type": "项目活动"
+            },
+            {
+                "name": "文献检索",
+                "type": "项目活动"
+            },
+            {
+                "name": "模型改造",
+                "type": "项目活动"
+            },
+            {
+                "name": "准确率",
+                "type": "深度学习概念"
+            },
+            {
+                "name": "点积",
+                "type": "深度学习概念"
+            },
+            {
+                "name": "预训练",
+                "type": "深度学习概念"
+            },
+            {
+                "name": "迁移学习",
+                "type": "深度学习概念"
+            },
+            {
+                "name": "嵌入",
+                "type": "深度学习概念"
+            },
+            {
+                "name": "多模态数据",
+                "type": "深度学习概念"
+            },
+            {
+                "name": "模型性能",
+                "type": "深度学习概念"
+            }
+        ]
+    },
+    "relations": {
+        "chunk_id": "2024-03-02",
+        "relations": [
+            {
+                "head": "self-Attention",
+                "type": "使用",
+                "tail": "蛋白质序列"
+            },
+            {
+                "head": "self-Attention",
+                "type": "使用",
+                "tail": "氨基酸"
+            },
+            {
+                "head": "ESM",
+                "type": "使用",
+                "tail": "蛋白质功能预测"
+            },
+            {
+                "head": "self-Attention",
+                "type": "使用",
+                "tail": "活性中心关键氨基酸之间的联系"
+            },
+            {
+                "head": "mf",
+                "type": "属于",
+                "tail": "基因本体论"
+            },
+            {
+                "head": "bp",
+                "type": "属于",
+                "tail": "基因本体论"
+            },
+            {
+                "head": "cc",
+                "type": "属于",
+                "tail": "基因本体论"
+            },
+            {
+                "head": "嵌入",
+                "type": "使用",
+                "tail": "GO术语"
+            },
+            {
+                "head": "点积",
+                "type": "使用",
+                "tail": "GO术语"
+            },
+            {
+                "head": "点积",
+                "type": "使用",
+                "tail": "氨基酸"
+            },
+            {
+                "head": "Transformer",
+                "type": "使用",
+                "tail": "蛋白质序列"
+            },
+            {
+                "head": "Transformer",
+                "type": "使用",
+                "tail": "氨基酸"
+            },
+            {
+                "head": "迁移学习",
+                "type": "使用",
+                "tail": "蛋白质功能预测"
+            },
+            {
+                "head": "预训练",
+                "type": "使用",
+                "tail": "ProtTrans"
+            },
+            {
+                "head": "多模态数据",
+                "type": "使用",
+                "tail": "模型性能"
+            },
+            {
+                "head": "CAFA5挑战赛",
+                "type": "包含",
+                "tail": "卷积神经网络"
+            },
+            {
+                "head": "CAFA5挑战赛",
+                "type": "包含",
+                "tail": "Transformer"
+            },
+            {
+                "head": "CAFA5挑战赛",
+                "type": "包含",
+                "tail": "模型改造"
+            },
+            {
+                "head": "项目",
+                "type": "包含",
+                "tail": "蛋白质功能预测"
+            },
+            {
+                "head": "项目",
+                "type": "包含",
+                "tail": "文献检索"
+            },
+            {
+                "head": "项目",
+                "type": "包含",
+                "tail": "模型改造"
+            },
+            {
+                "head": "TALE",
+                "type": "使用",
+                "tail": "GO术语"
+            },
+            {
+                "head": "TALE",
+                "type": "使用",
+                "tail": "点积"
+            },
+            {
+                "head": "卷积神经网络",
+                "type": "因果",
+                "tail": "准确率74.46%"
+            },
+            {
+                "head": "卷积神经网络",
+                "type": "因果",
+                "tail": "局部序列特征提取"
+            },
+            {
+                "head": "Transformer",
+                "type": "因果",
+                "tail": "氨基酸之间相互作用捕获"
+            },
+            {
+                "head": "项目",
+                "type": "因果",
+                "tail": "成员变更"
+            },
+            {
+                "head": "项目",
+                "type": "因果",
+                "tail": "迷茫期"
+            },
+            {
+                "head": "文献检索",
+                "type": "因果",
+                "tail": "找到TALE模型"
+            },
+            {
+                "head": "TALE",
+                "type": "属于",
+                "tail": "非预训练模型"
+            },
+            {
+                "head": "模型性能",
+                "type": "因果",
+                "tail": "多模态数据融合"
+            }
+        ]
+    },
+    "status": "success"
+}

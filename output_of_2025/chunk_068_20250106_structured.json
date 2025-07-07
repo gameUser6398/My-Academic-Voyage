@@ -1,0 +1,190 @@
+{
+    "timestamp": "2025-07-07T17:28:17.271861",
+    "filename": "chunk_068_20250106.md",
+    "entities": {
+        "chunk_id": "2024-03-02",
+        "entities": [
+            {
+                "name": "结核分枝杆菌",
+                "type": "生物分子"
+            },
+            {
+                "name": "Mtb",
+                "type": "生物分子"
+            },
+            {
+                "name": "代偿进化",
+                "type": "生物医学概念"
+            },
+            {
+                "name": "上位性",
+                "type": "生物医学概念"
+            },
+            {
+                "name": "克隆干扰",
+                "type": "生物医学概念"
+            },
+            {
+                "name": "细胞包膜不可渗透性",
+                "type": "生物医学概念"
+            },
+            {
+                "name": "外排泵",
+                "type": "生物医学概念"
+            },
+            {
+                "name": "药物降解",
+                "type": "生物医学概念"
+            },
+            {
+                "name": "靶标模拟",
+                "type": "生物医学概念"
+            },
+            {
+                "name": "表型药物耐受性",
+                "type": "生物医学概念"
+            },
+            {
+                "name": "利福霉素衍生物",
+                "type": "生物技术"
+            },
+            {
+                "name": "RIF（利福平）",
+                "type": "生物分子"
+            },
+            {
+                "name": "rpoB",
+                "type": "生物分子"
+            },
+            {
+                "name": "RNA 聚合酶",
+                "type": "生物分子"
+            },
+            {
+                "name": "rpoA",
+                "type": "生物分子"
+            },
+            {
+                "name": "rpoC",
+                "type": "生物分子"
+            },
+            {
+                "name": "生物膜",
+                "type": "生物医学概念"
+            },
+            {
+                "name": "孔蛋白",
+                "type": "生物分子"
+            },
+            {
+                "name": "抗生素摄取",
+                "type": "生物医学概念"
+            },
+            {
+                "name": "替代途径",
+                "type": "生物医学概念"
+            }
+        ]
+    },
+    "relations": {
+        "chunk_id": "2024-03-02",
+        "relations": [
+            {
+                "head": "Mtb",
+                "type": "调控",
+                "tail": "代偿进化"
+            },
+            {
+                "head": "Mtb",
+                "type": "调控",
+                "tail": "上位性"
+            },
+            {
+                "head": "Mtb",
+                "type": "调控",
+                "tail": "克隆干扰"
+            },
+            {
+                "head": "Mtb",
+                "type": "调控",
+                "tail": "细胞包膜不可渗透性"
+            },
+            {
+                "head": "Mtb",
+                "type": "调控",
+                "tail": "外排泵"
+            },
+            {
+                "head": "Mtb",
+                "type": "调控",
+                "tail": "药物降解"
+            },
+            {
+                "head": "Mtb",
+                "type": "调控",
+                "tail": "靶标模拟"
+            },
+            {
+                "head": "Mtb",
+                "type": "调控",
+                "tail": "表型药物耐受性"
+            },
+            {
+                "head": "利福霉素衍生物",
+                "type": "作用",
+                "tail": "RIF（利福平）"
+            },
+            {
+                "head": "RIF（利福平）",
+                "type": "作用",
+                "tail": "rpoB"
+            },
+            {
+                "head": "rpoB",
+                "type": "属于",
+                "tail": "RNA 聚合酶"
+            },
+            {
+                "head": "RNA 聚合酶",
+                "type": "包含",
+                "tail": "rpoB"
+            },
+            {
+                "head": "RNA 聚合酶",
+                "type": "包含",
+                "tail": "rpoA"
+            },
+            {
+                "head": "RNA 聚合酶",
+                "type": "包含",
+                "tail": "rpoC"
+            },
+            {
+                "head": "外排泵",
+                "type": "因果",
+                "tail": "Mtb 耐药性"
+            },
+            {
+                "head": "生物膜",
+                "type": "属于",
+                "tail": "抗生素摄取"
+            },
+            {
+                "head": "孔蛋白",
+                "type": "属于",
+                "tail": "抗生素摄取"
+            },
+            {
+                "head": "替代途径",
+                "type": "属于",
+                "tail": "代偿进化"
+            },
+            {
+                "head": "补偿突变",
+                "type": "属于",
+                "tail": "代偿进化"
+            }
+        ]
+    },
+    "status": "success"
+}

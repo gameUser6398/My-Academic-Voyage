@@ -1,0 +1,30 @@
+
+
+```json
+{
+  "chunk_id": "2024-03-02",
+  "relations": [
+    {"head": "RNN", "type": "使用", "tail": "模型结果展示"},
+    {"head": "RNN", "type": "使用", "tail": "混淆矩阵"},
+    {"head": "RNN", "type": "使用", "tail": "预测失败"},
+    {"head": "RNN", "type": "包含", "tail": "递归神经网络"},
+    {"head": "递归神经网络", "type": "属于", "tail": "深度学习概念"},
+    {"head": "混淆矩阵", "type": "属于", "tail": "深度学习概念"},
+    {"head": "词嵌入", "type": "属于", "tail": "深度学习概念"},
+    {"head": "语言模型", "type": "使用", "tail": "词嵌入"},
+    {"head": "语言模型", "type": "使用", "tail": "生成词向量"},
+    {"head": "RNN", "type": "使用", "tail": "嵌入空间可视化"},
+    {"head": "嵌入空间", "type": "属于", "tail": "深度学习概念"},
+    {"head": "嵌入空间", "type": "缺少", "tail": "分类信息"},
+    {"head": "中文", "type": "容易误判", "tail": "韩语"},
+    {"head": "西班牙语", "type": "容易误判", "tail": "意大利语"},
+    {"head": "LSTM", "type": "使用", "tail": "TensorBoard"},
+    {"head": "LSTM", "type": "使用", "tail": "PyCharm"},
+    {"head": "TensorBoard", "type": "属于", "tail": "生物信息工具"},
+    {"head": "PyCharm", "type": "属于", "tail": "生物信息工具"},
+    {"head": "模型结果展示", "type": "属于", "tail": "项目活动"},
+    {"head": "预测失败", "type": "属于", "tail": "项目活动"},
+    {"head": "任务分工", "type": "属于", "tail": "项目活动"}
+  ]
+}
+```

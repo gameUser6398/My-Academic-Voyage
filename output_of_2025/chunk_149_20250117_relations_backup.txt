@@ -1,0 +1,46 @@
+
+
+```json
+{
+  "chunk_id": "2024-03-02",
+  "relations": [
+    {"head": "基因水平转移", "type": "因果", "tail": "抗生素耐药性"},
+    {"head": "基因水平转移", "type": "调控", "tail": "多重耐药菌的产生"},
+    {"head": "多重耐药菌的产生", "type": "因果", "tail": "抗生素耐药性"},
+    {"head": "快速准确地诊断感染原因", "type": "调控", "tail": "减少抗生素的使用"},
+    {"head": "减少抗生素的使用", "type": "调控", "tail": "减缓耐药性的演变"},
+    {"head": "BLAST", "type": "使用", "tail": "基于序列相似性"},
+    {"head": "BLAST", "type": "属于", "tail": "基于序列相似性的工具"},
+    {"head": "BLAST", "type": "无法识别", "tail": "WHO收录的突变目录"},
+    {"head": "基于序列相似性的工具", "type": "无法识别", "tail": "新型 ARGs"},
+    {"head": "DeepLIFT", "type": "使用", "tail": "显著性评分"},
+    {"head": "DeepLIFT", "type": "属于", "tail": "深度学习概念"},
+    {"head": "Saliency map", "type": "属于", "tail": "深度学习概念"},
+    {"head": "HMD-ARG", "type": "使用", "tail": "Saliency map"},
+    {"head": "Attention", "type": "属于", "tail": "深度学习概念"},
+    {"head": "ARD", "type": "包含", "tail": "RGI"},
+    {"head": "RGI", "type": "使用", "tail": "CARD"},
+    {"head": "RGI", "type": "包含", "tail": "Perfect"},
+    {"head": "RGI", "type": "包含", "tail": "Strict"},
+    {"head": "RGI", "type": "包含", "tail": "Loose"},
+    {"head": "RGI", "type": "属于", "tail": "生物信息工具"},
+    {"head": "Perfect", "type": "属于", "tail": "检测模型范式"},
+    {"head": "Strict", "type": "属于", "tail": "检测模型范式"},
+    {"head": "Loose", "type": "属于", "tail": "检测模型范式"},
+    {"head": "Strict", "type": "使用", "tail": "精选相似性临界值"},
+    {"head": "Strict", "type": "检测", "tail": "AMR 基因的未知变体"},
+    {"head": "Loose", "type": "使用", "tail": "检测模型截断值"},
+    {"head": "Loose", "type": "检测", "tail": "新的、紧急的威胁"},
+    {"head": "Loose", "type": "检测", "tail": "AMR 基因的更远同源物"},
+    {"head": "RGI", "type": "分析", "tail": "Perfect"},
+    {"head": "RGI", "type": "分析", "tail": "Strict"},
+    {"head": "RGI", "type": "分析", "tail": "Loose"},
+    {"head": "RGI", "type": "可视化", "tail": "抗性基因预测"},
+    {"head": "CARD", "type": "提供", "tail": "AMR 数据"},
+    {"head": "ARG", "type": "属于", "tail": "AMR"},
+    {"head": "AMR", "type": "属于", "tail": "生物医学概念"},
+    {"head": "ARD", "type": "属于", "tail": "生物信息工具"},
+    {"head": "RGI", "type": "属于", "tail": "ARD"}
+  ]
+}
+```

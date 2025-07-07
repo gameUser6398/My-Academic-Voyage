@@ -1,0 +1,37 @@
+{
+    "timestamp": "2025-07-07T17:08:21.219511",
+    "filename": "chunk_089_20230607.md",
+    "entities": {
+        "chunk_id": "2024-03-02",
+        "entities": [
+            {
+                "name": "蛋白质",
+                "type": "生物分子"
+            },
+            {
+                "name": "GO术语",
+                "type": "生物医学概念"
+            },
+            {
+                "name": "Linux系统",
+                "type": "生物信息工具"
+            }
+        ]
+    },
+    "relations": {
+        "chunk_id": "2024-03-02",
+        "relations": [
+            {
+                "head": "蛋白质",
+                "type": "属于",
+                "tail": "GO术语"
+            },
+            {
+                "head": "Linux系统",
+                "type": "使用",
+                "tail": "ontobio"
+            }
+        ]
+    },
+    "status": "success"
+}

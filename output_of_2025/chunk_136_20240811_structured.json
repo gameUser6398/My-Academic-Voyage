@@ -1,0 +1,200 @@
+{
+    "timestamp": "2025-07-07T18:37:58.292141",
+    "filename": "chunk_136_20240811.md",
+    "entities": {
+        "chunk_id": "2024-03-02",
+        "entities": [
+            {
+                "name": "isoniazid-like antibiotic",
+                "type": "生物医学概念"
+            },
+            {
+                "name": "thiosemicarbazone antibiotic",
+                "type": "生物医学概念"
+            },
+            {
+                "name": "卷曲霉素",
+                "type": "生物医学概念"
+            },
+            {
+                "name": "prothionamide",
+                "type": "生物分子"
+            },
+            {
+                "name": "ARO",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "Levenshtein距离",
+                "type": "深度学习概念"
+            },
+            {
+                "name": "DeepARG",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "Uniprot",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "GO",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "WHO",
+                "type": "其他"
+            },
+            {
+                "name": "pandas",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "BLAST",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "utility.py",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "spaCy",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "抗生素",
+                "type": "生物医学概念"
+            },
+            {
+                "name": "基因描述",
+                "type": "生物分子"
+            },
+            {
+                "name": "数据管理",
+                "type": "项目活动"
+            },
+            {
+                "name": "代码复用",
+                "type": "项目活动"
+            },
+            {
+                "name": "正则表达式",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "样本采集",
+                "type": "项目活动"
+            },
+            {
+                "name": "文献调研",
+                "type": "项目活动"
+            },
+            {
+                "name": "任务分工",
+                "type": "项目活动"
+            },
+            {
+                "name": "损失函数",
+                "type": "深度学习概念"
+            },
+            {
+                "name": "激活函数",
+                "type": "深度学习概念"
+            },
+            {
+                "name": "AUC指标",
+                "type": "深度学习概念"
+            },
+            {
+                "name": "数据去重",
+                "type": "项目活动"
+            },
+            {
+                "name": "数据整理",
+                "type": "项目活动"
+            },
+            {
+                "name": "数据库",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "blast-2.12.0",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "网页搭建",
+                "type": "项目活动"
+            }
+        ]
+    },
+    "relations": {
+        "chunk_id": "2024-03-02",
+        "relations": [
+            {
+                "head": "DeepARG",
+                "type": "使用",
+                "tail": "Levenshtein距离"
+            },
+            {
+                "head": "DeepARG",
+                "type": "使用",
+                "tail": "基因描述"
+            },
+            {
+                "head": "DeepARG",
+                "type": "属于",
+                "tail": "生物信息工具"
+            },
+            {
+                "head": "pandas",
+                "type": "使用",
+                "tail": "数据管理"
+            },
+            {
+                "head": "正则表达式",
+                "type": "使用",
+                "tail": "字符串提取"
+            },
+            {
+                "head": "代码复用",
+                "type": "包含",
+                "tail": "utility.py"
+            },
+            {
+                "head": "utility.py",
+                "type": "使用",
+                "tail": "blast-2.12.0"
+            },
+            {
+                "head": "blast-2.12.0",
+                "type": "属于",
+                "tail": "生物信息工具"
+            },
+            {
+                "head": "数据整理",
+                "type": "包含",
+                "tail": "数据去重"
+            },
+            {
+                "head": "Uniprot",
+                "type": "包含",
+                "tail": "KW_0046"
+            },
+            {
+                "head": "GO",
+                "type": "使用",
+                "tail": "共现"
+            },
+            {
+                "head": "WHO",
+                "type": "使用",
+                "tail": "类别标准化"
+            },
+            {
+                "head": "网页搭建",
+                "type": "属于",
+                "tail": "项目活动"
+            }
+        ]
+    },
+    "status": "success"
+}

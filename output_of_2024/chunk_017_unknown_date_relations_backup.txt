@@ -1,0 +1,23 @@
+
+
+```json
+{
+  "chunk_id": "2024-03-02",
+  "relations": [
+    {"head": "深层注释", "type": "使用", "tail": "同源搜索"},
+    {"head": "深层注释", "type": "使用", "tail": "anc2vec"},
+    {"head": "数据筛选", "type": "因果", "tail": "样本极度不平衡"},
+    {"head": "输入GO", "type": "属于", "tail": "数据筛选"},
+    {"head": "预测GO", "type": "属于", "tail": "深层注释"},
+    {"head": "调参", "type": "使用", "tail": "focal loss"},
+    {"head": "调参", "type": "属于", "tail": "Learning from Imbalanced Classes"},
+    {"head": "样本极度不平衡", "type": "属于", "tail": "Learning from Imbalanced Classes"},
+    {"head": "添加蛋白相互作用", "type": "属于", "tail": "Learning from Imbalanced Classes"},
+    {"head": "Learning from Imbalanced Classes", "type": "属于", "tail": "调参"},
+    {"head": "Learning from Imbalanced Classes", "type": "属于", "tail": "数据严重不"},
+    {"head": "数据严重不", "type": "因果", "tail": "样本极度不平衡"},
+    {"head": "数据严重不", "type": "改进", "tail": "添加蛋白相互作用"},
+    {"head": "数据严重不", "type": "改进", "tail": "IA选大一点"}
+  ]
+}
+```

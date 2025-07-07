@@ -1,0 +1,995 @@
+{
+    "timestamp": "2025-07-07T18:24:18.683400",
+    "filename": "chunk_104_unknown_date.md",
+    "entities": {
+        "chunk_id": "2024-03-02",
+        "entities": [
+            {
+                "name": "抗性基因",
+                "type": "生物分子"
+            },
+            {
+                "name": "iARGs",
+                "type": "生物分子"
+            },
+            {
+                "name": "eARGs",
+                "type": "生物分子"
+            },
+            {
+                "name": "ARGs",
+                "type": "生物分子"
+            },
+            {
+                "name": "eDNA",
+                "type": "生物分子"
+            },
+            {
+                "name": "CARD-PLM映射表",
+                "type": "其他"
+            },
+            {
+                "name": "CARD Drug Class",
+                "type": "生物分子"
+            },
+            {
+                "name": "PLM drug class",
+                "type": "生物分子"
+            },
+            {
+                "name": "alkaloids with antibiotic activity",
+                "type": "生物分子"
+            },
+            {
+                "name": "aminocoumarin",
+                "type": "生物分子"
+            },
+            {
+                "name": "aminoglycoside",
+                "type": "生物分子"
+            },
+            {
+                "name": "antibacterial free fatty acids",
+                "type": "生物分子"
+            },
+            {
+                "name": "beta-lactam",
+                "type": "生物分子"
+            },
+            {
+                "name": "diaminopyrimidine",
+                "type": "生物分子"
+            },
+            {
+                "name": "disinfecting agents and antiseptics",
+                "type": "生物分子"
+            },
+            {
+                "name": "elfamycin",
+                "type": "生物分子"
+            },
+            {
+                "name": "fluoroquinolone",
+                "type": "生物分子"
+            },
+            {
+                "name": "glycopeptide",
+                "type": "生物分子"
+            },
+            {
+                "name": "ionophore with antibiotic activity",
+                "type": "生物分子"
+            },
+            {
+                "name": "lincosamide",
+                "type": "生物分子"
+            },
+            {
+                "name": "macrolide",
+                "type": "生物分子"
+            },
+            {
+                "name": "multi-drug",
+                "type": "生物分子"
+            },
+            {
+                "name": "nitrofuran",
+                "type": "生物分子"
+            },
+            {
+                "name": "nitroimidazole",
+                "type": "生物分子"
+            },
+            {
+                "name": "nucleoside",
+                "type": "生物分子"
+            },
+            {
+                "name": "oxazolidinone",
+                "type": "生物分子"
+            },
+            {
+                "name": "peptide",
+                "type": "生物分子"
+            },
+            {
+                "name": "phenicol",
+                "type": "生物分子"
+            },
+            {
+                "name": "pleuromutilin",
+                "type": "生物分子"
+            },
+            {
+                "name": "polyamine",
+                "type": "生物分子"
+            },
+            {
+                "name": "rifamycin",
+                "type": "生物分子"
+            },
+            {
+                "name": "streptogramin",
+                "type": "生物分子"
+            },
+            {
+                "name": "sulfonamide",
+                "type": "生物分子"
+            },
+            {
+                "name": "sulfone",
+                "type": "生物分子"
+            },
+            {
+                "name": "tetracycline",
+                "type": "生物分子"
+            },
+            {
+                "name": "aminocoumarin antibiotic",
+                "type": "生物分子"
+            },
+            {
+                "name": "aminoglycoside antibiotic",
+                "type": "生物分子"
+            },
+            {
+                "name": "carbapenem",
+                "type": "生物分子"
+            },
+            {
+                "name": "cephalosporin",
+                "type": "生物分子"
+            },
+            {
+                "name": "cephamycin",
+                "type": "生物分子"
+            },
+            {
+                "name": "diaminopyrimidine antibiotic",
+                "type": "生物分子"
+            },
+            {
+                "name": "disinfecting agents and antiseptics",
+                "type": "生物分子"
+            },
+            {
+                "name": "elfamycin antibiotic",
+                "type": "生物分子"
+            },
+            {
+                "name": "fluoroquinolone antibiotic",
+                "type": "生物分子"
+            },
+            {
+                "name": "fusidane antibiotic",
+                "type": "生物分子"
+            },
+            {
+                "name": "glycopeptide antibiotic",
+                "type": "生物分子"
+            },
+            {
+                "name": "glycylcycline",
+                "type": "生物分子"
+            },
+            {
+                "name": "isoniazid-like antibiotic",
+                "type": "生物分子"
+            },
+            {
+                "name": "lincosamide antibiotic",
+                "type": "生物分子"
+            },
+            {
+                "name": "macrolide antibiotic",
+                "type": "生物分子"
+            },
+            {
+                "name": "monobactam",
+                "type": "生物分子"
+            },
+            {
+                "name": "mupirocin-like antibiotic",
+                "type": "生物分子"
+            },
+            {
+                "name": "nitrofuran antibiotic",
+                "type": "生物分子"
+            },
+            {
+                "name": "nitroimidazole antibiotic",
+                "type": "生物分子"
+            },
+            {
+                "name": "nucleoside antibiotic",
+                "type": "生物分子"
+            },
+            {
+                "name": "orthosomycin antibiotic",
+                "type": "生物分子"
+            },
+            {
+                "name": "oxacephem",
+                "type": "生物分子"
+            },
+            {
+                "name": "penam",
+                "type": "生物分子"
+            },
+            {
+                "name": "penem",
+                "type": "生物分子"
+            },
+            {
+                "name": "peptide antibiotic",
+                "type": "生物分子"
+            },
+            {
+                "name": "phenicol antibiotic",
+                "type": "生物分子"
+            },
+            {
+                "name": "phosphonic acid antibiotic",
+                "type": "生物分子"
+            },
+            {
+                "name": "pleuromutilin antibiotic",
+                "type": "生物分子"
+            },
+            {
+                "name": "polyamine antibiotic",
+                "type": "生物分子"
+            },
+            {
+                "name": "rifamycin antibiotic",
+                "type": "生物分子"
+            },
+            {
+                "name": "streptogramin A antibiotic",
+                "type": "生物分子"
+            },
+            {
+                "name": "streptogramin B antibiotic",
+                "type": "生物分子"
+            },
+            {
+                "name": "streptogramin antibiotic",
+                "type": "生物分子"
+            },
+            {
+                "name": "sulfonamide antibiotic",
+                "type": "生物分子"
+            },
+            {
+                "name": "sulfone antibiotic",
+                "type": "生物分子"
+            },
+            {
+                "name": "tetracycline antibiotic",
+                "type": "生物分子"
+            },
+            {
+                "name": "MIBGC",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "耐药类别",
+                "type": "生物医学概念"
+            },
+            {
+                "name": "耐药机制",
+                "type": "生物医学概念"
+            },
+            {
+                "name": "自抗性机制",
+                "type": "生物医学概念"
+            },
+            {
+                "name": "抗生素耐药性",
+                "type": "生物医学概念"
+            },
+            {
+                "name": "外排机制",
+                "type": "生物医学概念"
+            },
+            {
+                "name": "耐多药",
+                "type": "生物医学概念"
+            },
+            {
+                "name": "bcr",
+                "type": "生物分子"
+            },
+            {
+                "name": "emrb",
+                "type": "生物分子"
+            },
+            {
+                "name": "acriflavin",
+                "type": "生物分子"
+            },
+            {
+                "name": "16s_rrna_methyltransferase",
+                "type": "生物分子"
+            },
+            {
+                "name": "tetracenomycin",
+                "type": "生物分子"
+            },
+            {
+                "name": "clorobiocin",
+                "type": "生物分子"
+            },
+            {
+                "name": "gentamicin",
+                "type": "生物分子"
+            },
+            {
+                "name": "bleomycin",
+                "type": "生物分子"
+            },
+            {
+                "name": "ABC transporter",
+                "type": "生物技术"
+            },
+            {
+                "name": "Major Facilitator Superfamily transporter",
+                "type": "生物技术"
+            },
+            {
+                "name": "Metal-dependent hydrolase",
+                "type": "生物技术"
+            },
+            {
+                "name": "bicyclomycin",
+                "type": "生物分子"
+            },
+            {
+                "name": "multi-drug",
+                "type": "生物分子"
+            },
+            {
+                "name": "16s_rrna_methyltransferase",
+                "type": "生物分子"
+            },
+            {
+                "name": "acriflavin_resistance_protein",
+                "type": "生物分子"
+            },
+            {
+                "name": "antibiotic_resistance_macrolide_glycosyltransferase",
+                "type": "生物分子"
+            },
+            {
+                "name": "antibiotic_resistance_protein",
+                "type": "生物分子"
+            },
+            {
+                "name": "bleomycin_resistance",
+                "type": "生物分子"
+            },
+            {
+                "name": "bleomycin_resistance_protein",
+                "type": "生物分子"
+            },
+            {
+                "name": "cfla_subfamily",
+                "type": "生物分子"
+            },
+            {
+                "name": "clorobiocin-resistant_gyrase_b",
+                "type": "生物分子"
+            },
+            {
+                "name": "daunorubicin",
+                "type": "生物分子"
+            },
+            {
+                "name": "daunorubicin_resistance_abc_transporter",
+                "type": "生物分子"
+            },
+            {
+                "name": "doxorubicin",
+                "type": "生物分子"
+            },
+            {
+                "name": "doxorubicin_resistance_abc_transporter",
+                "type": "生物分子"
+            },
+            {
+                "name": "drug_resistance_transporter",
+                "type": "生物分子"
+            },
+            {
+                "name": "efflux_pump_antibiotic_resistance_protein_putative",
+                "type": "生物分子"
+            },
+            {
+                "name": "enediyne_self-sacrifice_resistance_protein",
+                "type": "生物分子"
+            },
+            {
+                "name": "exporter",
+                "type": "生物技术"
+            },
+            {
+                "name": "gentamicin_resistance_ribosomal_methyl_transferase",
+                "type": "生物分子"
+            },
+            {
+                "name": "glyoxalase",
+                "type": "生物分子"
+            },
+            {
+                "name": "major_facilitator_superfamily_transporter_multidrug_resistance_protein",
+                "type": "生物分子"
+            },
+            {
+                "name": "multidrug_resistance_abc_transporter_atp-binding_and_permease_protein",
+                "type": "生物分子"
+            },
+            {
+                "name": "multidrug_resistance_protein",
+                "type": "生物分子"
+            },
+            {
+                "name": "multidrug_resistance_protein_mdtg",
+                "type": "生物分子"
+            },
+            {
+                "name": "multidrug_resistance_protein_stp",
+                "type": "生物分子"
+            },
+            {
+                "name": "putative_abc_multidrug_resistance_transporter",
+                "type": "生物分子"
+            },
+            {
+                "name": "putative_drug_resistance_transporter",
+                "type": "生物分子"
+            },
+            {
+                "name": "putative_glyoxalase",
+                "type": "生物分子"
+            },
+            {
+                "name": "putative_monensin_resistance_protein",
+                "type": "生物分子"
+            },
+            {
+                "name": "putative_multidrug_resistance_efflux_protein",
+                "type": "生物分子"
+            },
+            {
+                "name": "putative_multidrug_resistance_pump",
+                "type": "生物分子"
+            },
+            {
+                "name": "putative_resistance_protein",
+                "type": "生物分子"
+            },
+            {
+                "name": "putative_resistance_protein_transporter",
+                "type": "生物分子"
+            },
+            {
+                "name": "methylenomycin_a_resistance_protein_mmr",
+                "type": "生物分子"
+            },
+            {
+                "name": "putative_netropsin_resistance_protein_subunit_1",
+                "type": "生物分子"
+            },
+            {
+                "name": "putative_netropsin_resistance_protein_subunit_2",
+                "type": "生物分子"
+            }
+        ]
+    },
+    "relations": {
+        "chunk_id": "2024-03-02",
+        "relations": [
+            {
+                "head": "抗性基因",
+                "type": "包含",
+                "tail": "iARGs"
+            },
+            {
+                "head": "抗性基因",
+                "type": "包含",
+                "tail": "eARGs"
+            },
+            {
+                "head": "iARGs",
+                "type": "调控",
+                "tail": "抗性基因的传播"
+            },
+            {
+                "head": "eARGs",
+                "type": "调控",
+                "tail": "自然转化"
+            },
+            {
+                "head": "抗生素使用",
+                "type": "因果",
+                "tail": "抗生素耐药性"
+            },
+            {
+                "head": "eARGs",
+                "type": "属于",
+                "tail": "ARGs"
+            },
+            {
+                "head": "eDNA",
+                "type": "属于",
+                "tail": "抗性基因的传播媒介"
+            },
+            {
+                "head": "CARD-PLM映射表",
+                "type": "包含",
+                "tail": "CARD Drug Class"
+            },
+            {
+                "head": "CARD-PLM映射表",
+                "type": "包含",
+                "tail": "PLM drug class"
+            },
+            {
+                "head": "aminocoumarin antibiotic",
+                "type": "属于",
+                "tail": "aminocoumarin"
+            },
+            {
+                "head": "aminoglycoside antibiotic",
+                "type": "属于",
+                "tail": "aminoglycoside"
+            },
+            {
+                "head": "beta-lactam",
+                "type": "包含",
+                "tail": "carbapenem"
+            },
+            {
+                "head": "beta-lactam",
+                "type": "包含",
+                "tail": "cephalosporin"
+            },
+            {
+                "head": "beta-lactam",
+                "type": "包含",
+                "tail": "cephamycin"
+            },
+            {
+                "head": "beta-lactam",
+                "type": "包含",
+                "tail": "monobactam"
+            },
+            {
+                "head": "beta-lactam",
+                "type": "包含",
+                "tail": "oxacephem"
+            },
+            {
+                "head": "beta-lactam",
+                "type": "包含",
+                "tail": "penam"
+            },
+            {
+                "head": "beta-lactam",
+                "type": "包含",
+                "tail": "penem"
+            },
+            {
+                "head": "multidrug",
+                "type": "属于",
+                "tail": "耐多药"
+            },
+            {
+                "head": "gentamicin",
+                "type": "属于",
+                "tail": "aminoglycoside"
+            },
+            {
+                "head": "emrb",
+                "type": "属于",
+                "tail": "fluoroquinolone"
+            },
+            {
+                "head": "acriflavin",
+                "type": "属于",
+                "tail": "disinfecting agents and antiseptics"
+            },
+            {
+                "head": "monensin",
+                "type": "属于",
+                "tail": "ionophore with antibiotic activity"
+            },
+            {
+                "head": "16s_rrna_methyltransferase",
+                "type": "属于",
+                "tail": "aminoglycoside"
+            },
+            {
+                "head": "teicoplanin",
+                "type": "属于",
+                "tail": "glycopeptide"
+            },
+            {
+                "head": "bleomycin",
+                "type": "属于",
+                "tail": "glycopeptide"
+            },
+            {
+                "head": "elfamycin antibiotic",
+                "type": "属于",
+                "tail": "elfamycin"
+            },
+            {
+                "head": "fluoroquinolone antibiotic",
+                "type": "属于",
+                "tail": "fluoroquinolone"
+            },
+            {
+                "head": "fusidane antibiotic",
+                "type": "属于",
+                "tail": "multi-drug"
+            },
+            {
+                "head": "glycopeptide antibiotic",
+                "type": "属于",
+                "tail": "glycopeptide"
+            },
+            {
+                "head": "glycylcycline",
+                "type": "属于",
+                "tail": "tetracycline"
+            },
+            {
+                "head": "isoniazid-like antibiotic",
+                "type": "属于",
+                "tail": "isoniazid-like antibiotic"
+            },
+            {
+                "head": "lincosamide antibiotic",
+                "type": "属于",
+                "tail": "lincosamide"
+            },
+            {
+                "head": "macrolide antibiotic",
+                "type": "属于",
+                "tail": "macrolide"
+            },
+            {
+                "head": "mupirocin-like antibiotic",
+                "type": "属于",
+                "tail": "mupirocin-like antibiotic"
+            },
+            {
+                "head": "nitrofuran antibiotic",
+                "type": "属于",
+                "tail": "nitrofuran"
+            },
+            {
+                "head": "nitroimidazole antibiotic",
+                "type": "属于",
+                "tail": "nitroimidazole"
+            },
+            {
+                "head": "nucleoside antibiotic",
+                "type": "属于",
+                "tail": "nucleoside"
+            },
+            {
+                "head": "oxazolidinone antibiotic",
+                "type": "属于",
+                "tail": "oxazolidinone"
+            },
+            {
+                "head": "peptide antibiotic",
+                "type": "属于",
+                "tail": "peptide"
+            },
+            {
+                "head": "phenicol antibiotic",
+                "type": "属于",
+                "tail": "phenicol"
+            },
+            {
+                "head": "phosphonic acid antibiotic",
+                "type": "属于",
+                "tail": "phosphonic acid antibiotic"
+            },
+            {
+                "head": "pleuromutilin antibiotic",
+                "type": "属于",
+                "tail": "pleuromutilin"
+            },
+            {
+                "head": "polyamine antibiotic",
+                "type": "属于",
+                "tail": "polyamine"
+            },
+            {
+                "head": "rifamycin antibiotic",
+                "type": "属于",
+                "tail": "rifamycin"
+            },
+            {
+                "head": "streptogramin A antibiotic",
+                "type": "属于",
+                "tail": "streptogramin"
+            },
+            {
+                "head": "streptogramin B antibiotic",
+                "type": "属于",
+                "tail": "streptogramin"
+            },
+            {
+                "head": "streptogramin antibiotic",
+                "type": "属于",
+                "tail": "streptogramin"
+            },
+            {
+                "head": "sulfonamide antibiotic",
+                "type": "属于",
+                "tail": "sulfonamide"
+            },
+            {
+                "head": "sulfone antibiotic",
+                "type": "属于",
+                "tail": "sulfone"
+            },
+            {
+                "head": "tetracycline antibiotic",
+                "type": "属于",
+                "tail": "tetracycline"
+            },
+            {
+                "head": "耐药机制",
+                "type": "属于",
+                "tail": "自抗性机制"
+            },
+            {
+                "head": "emrb",
+                "type": "属于",
+                "tail": "antibiotic efflux"
+            },
+            {
+                "head": "macrolide_glycosyltransferase",
+                "type": "属于",
+                "tail": "antibiotic inactivation"
+            },
+            {
+                "head": "16s_rrna_methyltransferase",
+                "type": "属于",
+                "tail": "antibiotic target alteration"
+            },
+            {
+                "head": "ABC transporter",
+                "type": "属于",
+                "tail": "general"
+            },
+            {
+                "head": "bicyclomycin",
+                "type": "属于",
+                "tail": "独特的分类系统"
+            },
+            {
+                "head": "Metal-dependent hydrolase",
+                "type": "属于",
+                "tail": "resistance"
+            },
+            {
+                "head": "multi-drug",
+                "type": "属于",
+                "tail": "耐多药"
+            },
+            {
+                "head": "16s_rrna_methyltransferase",
+                "type": "属于",
+                "tail": "gentamicin_resistance_ribosomal_methyl_transferase"
+            },
+            {
+                "head": "acriflavin_resistance_protein",
+                "type": "属于",
+                "tail": "acriflavin"
+            },
+            {
+                "head": "antibiotic_resistance_macrolide_glycosyltransferase",
+                "type": "属于",
+                "tail": "macrolide"
+            },
+            {
+                "head": "antibiotic_resistance_protein",
+                "type": "属于",
+                "tail": "耐药机制"
+            },
+            {
+                "head": "bicyclomycin_resistant_protein",
+                "type": "属于",
+                "tail": "bicyclomycin"
+            },
+            {
+                "head": "bleomycin_resistance",
+                "type": "属于",
+                "tail": "bleomycin"
+            },
+            {
+                "head": "bleomycin_resistance_protein",
+                "type": "属于",
+                "tail": "bleomycin"
+            },
+            {
+                "head": "cfla_subfamily",
+                "type": "属于",
+                "tail": "cfla_family_protein_putative"
+            },
+            {
+                "head": "clorobiocin-resistant_gyrase_b",
+                "type": "属于",
+                "tail": "clorobiocin"
+            },
+            {
+                "head": "daunorubicin_resistance_abc_transporter",
+                "type": "属于",
+                "tail": "daunorubicin"
+            },
+            {
+                "head": "doxorubicin_resistance_abc_transporter",
+                "type": "属于",
+                "tail": "doxorubicin"
+            },
+            {
+                "head": "drug_resistance_related_regulator",
+                "type": "属于",
+                "tail": "耐药机制"
+            },
+            {
+                "head": "drug_resistance_transporter_bcr",
+                "type": "属于",
+                "tail": "bcr"
+            },
+            {
+                "head": "drug_resistance_transporter_emrb",
+                "type": "属于",
+                "tail": "emrb"
+            },
+            {
+                "head": "efflux_pump_antibiotic_resistance_protein_putative",
+                "type": "属于",
+                "tail": "外排机制"
+            },
+            {
+                "head": "exporter",
+                "type": "属于",
+                "tail": "外排机制"
+            },
+            {
+                "head": "gentamicin_resistance_ribosomal_methyl_transferase",
+                "type": "属于",
+                "tail": "gentamicin"
+            },
+            {
+                "head": "glyoxalase",
+                "type": "属于",
+                "tail": "乙二醛酶"
+            },
+            {
+                "head": "major_facilitator_superfamily_transporter_multidrug_resistance_protein",
+                "type": "属于",
+                "tail": "外排机制"
+            },
+            {
+                "head": "metal-dependent_hydrolase_(resistance)",
+                "type": "属于",
+                "tail": "Metal-dependent hydrolase"
+            },
+            {
+                "head": "methylenomycin_a_resistance_protein_mmr",
+                "type": "属于",
+                "tail": "methylenomycin_a"
+            },
+            {
+                "head": "multidrug_resistance_abc_transporter_atp-binding_and_permease_protein",
+                "type": "属于",
+                "tail": "multidrug"
+            },
+            {
+                "head": "multidrug_resistance_protein",
+                "type": "属于",
+                "tail": "multidrug"
+            },
+            {
+                "head": "multidrug_resistance_protein_mdtg",
+                "type": "属于",
+                "tail": "multidrug"
+            },
+            {
+                "head": "multidrug_resistance_protein_stp",
+                "type": "属于",
+                "tail": "multidrug"
+            },
+            {
+                "head": "putative_abc_multidrug_resistance_transporter",
+                "type": "属于",
+                "tail": "multidrug"
+            },
+            {
+                "head": "putative_drug_resistance_transporter",
+                "type": "属于",
+                "tail": "耐药机制"
+            },
+            {
+                "head": "putative_glyoxalase",
+                "type": "属于",
+                "tail": "glyoxalase"
+            },
+            {
+                "head": "putative_monensin_resistance_protein",
+                "type": "属于",
+                "tail": "monensin"
+            },
+            {
+                "head": "putative_multidrug_resistance_efflux_protein",
+                "type": "属于",
+                "tail": "multidrug"
+            },
+            {
+                "head": "putative_multidrug_resistance_pump",
+                "type": "属于",
+                "tail": "multidrug"
+            },
+            {
+                "head": "putative_resistance_protein",
+                "type": "属于",
+                "tail": "耐药机制"
+            },
+            {
+                "head": "putative_resistance_protein_transporter",
+                "type": "属于",
+                "tail": "耐药机制"
+            },
+            {
+                "head": "putative_netropsin_resistance_protein_subunit_1",
+                "type": "属于",
+                "tail": "netropsin_resistance"
+            },
+            {
+                "head": "putative_netropsin_resistance_protein_subunit_2",
+                "type": "属于",
+                "tail": "netropsin_resistance"
+            },
+            {
+                "head": "MIBGC",
+                "type": "使用",
+                "tail": "耐药类别信息"
+            },
+            {
+                "head": "MIBGC",
+                "type": "使用",
+                "tail": "耐药机制信息"
+            }
+        ]
+    },
+    "status": "success"
+}

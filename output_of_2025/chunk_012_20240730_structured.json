@@ -1,0 +1,278 @@
+{
+    "timestamp": "2025-07-07T17:28:55.178164",
+    "filename": "chunk_012_20240730.md",
+    "entities": {
+        "chunk_id": "2024-03-02",
+        "entities": [
+            {
+                "name": "beta-lactamase",
+                "type": "生物分子"
+            },
+            {
+                "name": "gentamicin",
+                "type": "生物分子"
+            },
+            {
+                "name": "kanamycin",
+                "type": "生物分子"
+            },
+            {
+                "name": "macrolide",
+                "type": "生物分子"
+            },
+            {
+                "name": "multidrug resistance",
+                "type": "生物医学概念"
+            },
+            {
+                "name": "multi-drug resistance",
+                "type": "生物医学概念"
+            },
+            {
+                "name": "multidrug efflux",
+                "type": "生物医学概念"
+            },
+            {
+                "name": "penicillin-binding",
+                "type": "生物分子"
+            },
+            {
+                "name": "puromycin",
+                "type": "生物分子"
+            },
+            {
+                "name": "quinolone",
+                "type": "生物分子"
+            },
+            {
+                "name": "rifampicin",
+                "type": "生物分子"
+            },
+            {
+                "name": "tetracycline resistance",
+                "type": "生物医学概念"
+            },
+            {
+                "name": "polymyxin resistance",
+                "type": "生物医学概念"
+            },
+            {
+                "name": "bacitracin resistance",
+                "type": "生物医学概念"
+            },
+            {
+                "name": "fatty acids resistance",
+                "type": "生物医学概念"
+            },
+            {
+                "name": "antibiotic efflux",
+                "type": "生物医学概念"
+            },
+            {
+                "name": "antibiotic inactivation",
+                "type": "生物医学概念"
+            },
+            {
+                "name": "antibiotic target alteration",
+                "type": "生物医学概念"
+            },
+            {
+                "name": "efflux pump complex",
+                "type": "生物分子"
+            },
+            {
+                "name": "macrolide transmembrane transporter complex",
+                "type": "生物分子"
+            },
+            {
+                "name": "beta-lactam antibiotic catabolic process",
+                "type": "生物医学概念"
+            },
+            {
+                "name": "antibiotic catabolic process",
+                "type": "生物医学概念"
+            },
+            {
+                "name": "Uniprot",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "blastp",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "pd.merge",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "pd.concat",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "tqdm",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "Python",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "Linux",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "BLAST",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "数据清洗",
+                "type": "项目活动"
+            },
+            {
+                "name": "2024年7月30日",
+                "type": "其他"
+            }
+        ]
+    },
+    "relations": {
+        "chunk_id": "2024-03-02",
+        "relations": [
+            {
+                "head": "beta-lactamase",
+                "type": "属于",
+                "tail": "beta-lactam antibiotic catabolic process"
+            },
+            {
+                "head": "gentamicin",
+                "type": "属于",
+                "tail": "aminoglycoside"
+            },
+            {
+                "head": "kanamycin",
+                "type": "属于",
+                "tail": "aminoglycoside"
+            },
+            {
+                "head": "macrolide",
+                "type": "属于",
+                "tail": "macrolide"
+            },
+            {
+                "head": "multidrug resistance",
+                "type": "属于",
+                "tail": "multidrug"
+            },
+            {
+                "head": "multi-drug resistance",
+                "type": "属于",
+                "tail": "multidrug"
+            },
+            {
+                "head": "multidrug efflux",
+                "type": "属于",
+                "tail": "multidrug"
+            },
+            {
+                "head": "penicillin-binding",
+                "type": "属于",
+                "tail": "beta-lactam"
+            },
+            {
+                "head": "puromycin",
+                "type": "属于",
+                "tail": "nucleoside"
+            },
+            {
+                "head": "quinolone",
+                "type": "属于",
+                "tail": "fluoroquinolone"
+            },
+            {
+                "head": "rifampicin",
+                "type": "属于",
+                "tail": "rifamycin"
+            },
+            {
+                "head": "tetracycline resistance",
+                "type": "属于",
+                "tail": "tetracycline"
+            },
+            {
+                "head": "polymyxin resistance",
+                "type": "属于",
+                "tail": "peptide"
+            },
+            {
+                "head": "bacitracin resistance",
+                "type": "属于",
+                "tail": "peptide"
+            },
+            {
+                "head": "fatty acids resistance",
+                "type": "属于",
+                "tail": "antibacterial free fatty acids"
+            },
+            {
+                "head": "efflux pump complex",
+                "type": "属于",
+                "tail": "antibiotic efflux"
+            },
+            {
+                "head": "macrolide transmembrane transporter complex",
+                "type": "属于",
+                "tail": "antibiotic efflux"
+            },
+            {
+                "head": "beta-lactam antibiotic catabolic process",
+                "type": "属于",
+                "tail": "antibiotic inactivation"
+            },
+            {
+                "head": "antibiotic catabolic process",
+                "type": "属于",
+                "tail": "antibiotic inactivation"
+            },
+            {
+                "head": "16s_rrna_methyltransferase",
+                "type": "属于",
+                "tail": "antibiotic target alteration"
+            },
+            {
+                "head": "数据清洗",
+                "type": "使用",
+                "tail": "pd.merge"
+            },
+            {
+                "head": "数据清洗",
+                "type": "使用",
+                "tail": "pd.concat"
+            },
+            {
+                "head": "数据清洗",
+                "type": "使用",
+                "tail": "tqdm"
+            },
+            {
+                "head": "数据清洗",
+                "type": "使用",
+                "tail": "Python"
+            },
+            {
+                "head": "数据清洗",
+                "type": "使用",
+                "tail": "Linux"
+            },
+            {
+                "head": "blastp",
+                "type": "属于",
+                "tail": "BLAST"
+            },
+            {
+                "head": "数据清洗",
+                "type": "时间",
+                "tail": "2024年7月30日"
+            }
+        ]
+    },
+    "status": "success"
+}

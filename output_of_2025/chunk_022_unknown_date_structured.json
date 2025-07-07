@@ -1,0 +1,305 @@
+{
+    "timestamp": "2025-07-07T18:22:02.509018",
+    "filename": "chunk_022_unknown_date.md",
+    "entities": {
+        "chunk_id": "2024-03-02",
+        "entities": [
+            {
+                "name": "宏基因组",
+                "type": "生物技术"
+            },
+            {
+                "name": "ARG",
+                "type": "生物分子"
+            },
+            {
+                "name": "耐药报告",
+                "type": "生物医学概念"
+            },
+            {
+                "name": "三代测序",
+                "type": "生物技术"
+            },
+            {
+                "name": "二代测序",
+                "type": "生物技术"
+            },
+            {
+                "name": "NGS",
+                "type": "生物技术"
+            },
+            {
+                "name": "mNGS",
+                "type": "生物技术"
+            },
+            {
+                "name": "湿实验",
+                "type": "生物技术"
+            },
+            {
+                "name": "干实验",
+                "type": "生物技术"
+            },
+            {
+                "name": "短读序列",
+                "type": "生物分子"
+            },
+            {
+                "name": "多重耐药",
+                "type": "生物医学概念"
+            },
+            {
+                "name": "PDF提取",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "可视化图",
+                "type": "项目活动"
+            },
+            {
+                "name": "ChatGPT API",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "ESM",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "ResFinder",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "ARGnet",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "计算attention",
+                "type": "深度学习概念"
+            },
+            {
+                "name": "per-residual",
+                "type": "深度学习概念"
+            },
+            {
+                "name": "标签重构",
+                "type": "项目活动"
+            }
+        ]
+    },
+    "relations": {
+        "chunk_id": "2024-03-02",
+        "relations": [
+            {
+                "head": "临床宏基因组",
+                "type": "包含",
+                "tail": "宏基因组"
+            },
+            {
+                "head": "宏基因组",
+                "type": "使用",
+                "tail": "参数设置"
+            },
+            {
+                "head": "宏基因组",
+                "type": "使用",
+                "tail": "定制分析"
+            },
+            {
+                "head": "宏基因组",
+                "type": "使用",
+                "tail": "流水线分析"
+            },
+            {
+                "head": "宏基因组",
+                "type": "包含",
+                "tail": "耐药报告"
+            },
+            {
+                "head": "耐药报告",
+                "type": "包含",
+                "tail": "多重耐药"
+            },
+            {
+                "head": "三代测序",
+                "type": "属于",
+                "tail": "生物技术"
+            },
+            {
+                "head": "二代测序",
+                "type": "属于",
+                "tail": "生物技术"
+            },
+            {
+                "head": "NGS",
+                "type": "属于",
+                "tail": "生物技术"
+            },
+            {
+                "head": "mNGS",
+                "type": "属于",
+                "tail": "生物技术"
+            },
+            {
+                "head": "湿实验",
+                "type": "属于",
+                "tail": "生物技术"
+            },
+            {
+                "head": "干实验",
+                "type": "属于",
+                "tail": "生物技术"
+            },
+            {
+                "head": "湿实验",
+                "type": "对比",
+                "tail": "干实验"
+            },
+            {
+                "head": "测序流程",
+                "type": "包含",
+                "tail": "湿实验"
+            },
+            {
+                "head": "测序流程",
+                "type": "包含",
+                "tail": "干实验"
+            },
+            {
+                "head": "短读序列",
+                "type": "属于",
+                "tail": "生物分子"
+            },
+            {
+                "head": "算法",
+                "type": "使用",
+                "tail": "短读序列"
+            },
+            {
+                "head": "项目",
+                "type": "包含",
+                "tail": "多重耐药"
+            },
+            {
+                "head": "可扬",
+                "type": "负责",
+                "tail": "PDF提取"
+            },
+            {
+                "head": "可扬",
+                "type": "负责",
+                "tail": "实体识别"
+            },
+            {
+                "head": "可扬",
+                "type": "负责",
+                "tail": "predict"
+            },
+            {
+                "head": "可扬",
+                "type": "负责",
+                "tail": "可视化图"
+            },
+            {
+                "head": "可扬",
+                "type": "负责",
+                "tail": "data"
+            },
+            {
+                "head": "可扬",
+                "type": "使用",
+                "tail": "ChatGPT API"
+            },
+            {
+                "head": "皓哥",
+                "type": "负责",
+                "tail": "可视化图"
+            },
+            {
+                "head": "皓哥",
+                "type": "负责",
+                "tail": "搜索和生成"
+            },
+            {
+                "head": "皓哥",
+                "type": "使用",
+                "tail": "基因组数据"
+            },
+            {
+                "head": "刘畅乐",
+                "type": "负责",
+                "tail": "模型"
+            },
+            {
+                "head": "刘畅乐",
+                "type": "使用",
+                "tail": "ESM"
+            },
+            {
+                "head": "刘畅乐",
+                "type": "使用",
+                "tail": "计算attention"
+            },
+            {
+                "head": "刘畅乐",
+                "type": "使用",
+                "tail": "per-residual"
+            },
+            {
+                "head": "刘畅乐",
+                "type": "负责",
+                "tail": "数据"
+            },
+            {
+                "head": "刘畅乐",
+                "type": "负责",
+                "tail": "标签重构"
+            },
+            {
+                "head": "刘畅乐",
+                "type": "使用",
+                "tail": "OUR"
+            },
+            {
+                "head": "刘畅乐",
+                "type": "包含",
+                "tail": "multi-drug"
+            },
+            {
+                "head": "刘畅乐",
+                "type": "包含",
+                "tail": "MLS"
+            },
+            {
+                "head": "刘畅乐",
+                "type": "包含",
+                "tail": "others"
+            },
+            {
+                "head": "刘畅乐",
+                "type": "事后计算",
+                "tail": "multi-drug"
+            },
+            {
+                "head": "刘畅乐",
+                "type": "事后计算",
+                "tail": "MLS"
+            },
+            {
+                "head": "刘畅乐",
+                "type": "事后计算",
+                "tail": "others"
+            },
+            {
+                "head": "刘畅乐",
+                "type": "排查",
+                "tail": "ResFinder错误"
+            },
+            {
+                "head": "刘畅乐",
+                "type": "排查",
+                "tail": "ARGnet错误"
+            }
+        ]
+    },
+    "status": "success"
+}

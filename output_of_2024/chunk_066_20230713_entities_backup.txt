@@ -1,0 +1,18 @@
+
+
+{
+  "chunk_id": "2024-03-02",
+  "entities": [
+    {"name": "CNN", "type": "深度学习概念"},
+    {"name": "AlexNet", "type": "深度学习概念"},
+    {"name": "VGG-16", "type": "深度学习概念"},
+    {"name": "RNN", "type": "深度学习概念"},
+    {"name": "LSTM", "type": "深度学习概念"},
+    {"name": "PyTorch", "type": "生物信息工具"},
+    {"name": "Keras", "type": "生物信息工具"},
+    {"name": "NLP", "type": "深度学习概念"},
+    {"name": "RNN", "type": "深度学习概念"},
+    {"name": "Transformer", "type": "深度学习概念"},
+    {"name": "AUC指标", "type": "深度学习概念"}
+  ]
+}

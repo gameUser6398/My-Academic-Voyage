@@ -1,0 +1,39 @@
+
+
+{
+  "chunk_id": "2024-03-02",
+  "entities": [
+    {"name": "beta-lactamase", "type": "生物分子"},
+    {"name": "gentamicin", "type": "生物分子"},
+    {"name": "kanamycin", "type": "生物分子"},
+    {"name": "macrolide", "type": "生物分子"},
+    {"name": "multidrug resistance", "type": "生物医学概念"},
+    {"name": "multi-drug resistance", "type": "生物医学概念"},
+    {"name": "multidrug efflux", "type": "生物医学概念"},
+    {"name": "penicillin-binding", "type": "生物分子"},
+    {"name": "puromycin", "type": "生物分子"},
+    {"name": "quinolone", "type": "生物分子"},
+    {"name": "rifampicin", "type": "生物分子"},
+    {"name": "tetracycline resistance", "type": "生物医学概念"},
+    {"name": "polymyxin resistance", "type": "生物医学概念"},
+    {"name": "bacitracin resistance", "type": "生物医学概念"},
+    {"name": "fatty acids resistance", "type": "生物医学概念"},
+    {"name": "antibiotic efflux", "type": "生物医学概念"},
+    {"name": "antibiotic inactivation", "type": "生物医学概念"},
+    {"name": "antibiotic target alteration", "type": "生物医学概念"},
+    {"name": "efflux pump complex", "type": "生物分子"},
+    {"name": "macrolide transmembrane transporter complex", "type": "生物分子"},
+    {"name": "beta-lactam antibiotic catabolic process", "type": "生物医学概念"},
+    {"name": "antibiotic catabolic process", "type": "生物医学概念"},
+    {"name": "Uniprot", "type": "生物信息工具"},
+    {"name": "blastp", "type": "生物信息工具"},
+    {"name": "pd.merge", "type": "生物信息工具"},
+    {"name": "pd.concat", "type": "生物信息工具"},
+    {"name": "tqdm", "type": "生物信息工具"},
+    {"name": "Python", "type": "生物信息工具"},
+    {"name": "Linux", "type": "生物信息工具"},
+    {"name": "BLAST", "type": "生物信息工具"},
+    {"name": "数据清洗", "type": "项目活动"},
+    {"name": "2024年7月30日", "type": "其他"}
+  ]
+}

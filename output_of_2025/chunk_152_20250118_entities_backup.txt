@@ -1,0 +1,48 @@
+
+
+```json
+{
+  "chunk_id": "2024-03-02",
+  "entities": [
+    {"name": "耐药基因", "type": "生物分子"},
+    {"name": "抗生素", "type": "生物分子"},
+    {"name": "OmpF", "type": "生物分子"},
+    {"name": "OmpC", "type": "生物分子"},
+    {"name": "RND转运蛋白", "type": "生物分子"},
+    {"name": "MDR", "type": "生物医学概念"},
+    {"name": "β-内酰胺酶家族", "type": "生物分子"},
+    {"name": "Tet(X)家族酶", "type": "生物分子"},
+    {"name": "ADP-核糖基转移酶", "type": "生物分子"},
+    {"name": "磷酸转移酶", "type": "生物分子"},
+    {"name": "rpoB", "type": "生物分子"},
+    {"name": "katG", "type": "生物分子"},
+    {"name": "rpoA", "type": "生物分子"},
+    {"name": "ahpC", "type": "生物分子"},
+    {"name": "结核杆菌", "type": "生物医学概念"},
+    {"name": "抗生素耐药性", "type": "生物医学概念"},
+    {"name": "CARD", "type": "生物信息工具"},
+    {"name": "ARDB", "type": "生物信息工具"},
+    {"name": "NCBI-NR", "type": "生物信息工具"},
+    {"name": "SARG", "type": "生物信息工具"},
+    {"name": "ARG-ANNOT", "type": "生物信息工具"},
+    {"name": "MEGARes", "type": "生物信息工具"},
+    {"name": "NDARO", "type": "生物信息工具"},
+    {"name": "Resfinder", "type": "生物信息工具"},
+    {"name": "PointFinder", "type": "生物信息工具"},
+    {"name": "RGI", "type": "生物信息工具"},
+    {"name": "ARGs-OAP", "type": "生物信息工具"},
+    {"name": "Resfams", "type": "生物信息工具"},
+    {"name": "Mustard", "type": "生物信息工具"},
+    {"name": "隐马尔可夫模型", "type": "深度学习概念"},
+    {"name": "同源序列比对", "type": "生物技术"},
+    {"name": "结构比对", "type": "生物技术"},
+    {"name": "高通量测序", "type": "生物技术"},
+    {"name": "药敏测试", "type": "生物技术"},
+    {"name": "基因型诊断", "type": "生物技术"},
+    {"name": "基因注释", "type": "生物技术"},
+    {"name": "基因传播", "type": "项目活动"},
+    {"name": "耐药机制", "type": "生物医学概念"},
+    {"name": "计算预测", "type": "生物信息工具"}
+  ]
+}
+```

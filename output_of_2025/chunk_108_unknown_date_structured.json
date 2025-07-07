@@ -1,0 +1,318 @@
+{
+    "timestamp": "2025-07-07T18:42:59.615992",
+    "filename": "chunk_108_unknown_date.md",
+    "entities": {
+        "chunk_id": "2024-03-02",
+        "entities": [
+            {
+                "name": "结核病",
+                "type": "生物医学概念"
+            },
+            {
+                "name": "肺结核",
+                "type": "生物医学概念"
+            },
+            {
+                "name": "异烟肼",
+                "type": "生物分子"
+            },
+            {
+                "name": "利福平",
+                "type": "生物分子"
+            },
+            {
+                "name": "吡嗪酰胺",
+                "type": "生物分子"
+            },
+            {
+                "name": "乙胺丁醇",
+                "type": "生物分子"
+            },
+            {
+                "name": "链霉素",
+                "type": "生物分子"
+            },
+            {
+                "name": "耐多药结核病",
+                "type": "生物医学概念"
+            },
+            {
+                "name": "抗生素",
+                "type": "生物分子"
+            },
+            {
+                "name": "耐药性",
+                "type": "生物医学概念"
+            },
+            {
+                "name": "二线药物",
+                "type": "生物分子"
+            },
+            {
+                "name": "耐多药/耐利福平结核病",
+                "type": "生物医学概念"
+            },
+            {
+                "name": "BPaLM/BPaL",
+                "type": "项目活动"
+            },
+            {
+                "name": "MDR-TB",
+                "type": "生物医学概念"
+            },
+            {
+                "name": "RR-TB",
+                "type": "生物医学概念"
+            },
+            {
+                "name": "结核分枝杆菌",
+                "type": "生物分子"
+            },
+            {
+                "name": "tubercle bacillus",
+                "type": "生物分子"
+            },
+            {
+                "name": "Mycobacterium tuberculosis",
+                "type": "生物分子"
+            },
+            {
+                "name": "Global Catalogue of Microorganisms",
+                "type": "项目活动"
+            },
+            {
+                "name": "GCM",
+                "type": "项目活动"
+            },
+            {
+                "name": "全球微生物目录",
+                "type": "项目活动"
+            },
+            {
+                "name": "API服务",
+                "type": "生物信息工具"
+            }
+        ]
+    },
+    "relations": {
+        "chunk_id": "2024-03-02",
+        "relations": [
+            {
+                "head": "结核病",
+                "type": "使用",
+                "tail": "抗生素"
+            },
+            {
+                "head": "结核病",
+                "type": "属于",
+                "tail": "生物医学概念"
+            },
+            {
+                "head": "肺结核",
+                "type": "属于",
+                "tail": "生物医学概念"
+            },
+            {
+                "head": "异烟肼",
+                "type": "属于",
+                "tail": "生物分子"
+            },
+            {
+                "head": "利福平",
+                "type": "属于",
+                "tail": "生物分子"
+            },
+            {
+                "head": "吡嗪酰胺",
+                "type": "属于",
+                "tail": "生物分子"
+            },
+            {
+                "head": "乙胺丁醇",
+                "type": "属于",
+                "tail": "生物分子"
+            },
+            {
+                "head": "链霉素",
+                "type": "属于",
+                "tail": "生物分子"
+            },
+            {
+                "head": "耐多药结核病",
+                "type": "属于",
+                "tail": "生物医学概念"
+            },
+            {
+                "head": "耐药性",
+                "type": "属于",
+                "tail": "生物医学概念"
+            },
+            {
+                "head": "二线药物",
+                "type": "属于",
+                "tail": "生物分子"
+            },
+            {
+                "head": "耐多药/耐利福平结核病",
+                "type": "属于",
+                "tail": "生物医学概念"
+            },
+            {
+                "head": "BPaLM/BPaL",
+                "type": "属于",
+                "tail": "项目活动"
+            },
+            {
+                "head": "MDR-TB",
+                "type": "属于",
+                "tail": "生物医学概念"
+            },
+            {
+                "head": "RR-TB",
+                "type": "属于",
+                "tail": "生物医学概念"
+            },
+            {
+                "head": "结核分枝杆菌",
+                "type": "属于",
+                "tail": "生物分子"
+            },
+            {
+                "head": "tubercle bacillus",
+                "type": "属于",
+                "tail": "生物分子"
+            },
+            {
+                "head": "Mycobacterium tuberculosis",
+                "type": "属于",
+                "tail": "生物分子"
+            },
+            {
+                "head": "Global Catalogue of Microorganisms",
+                "type": "属于",
+                "tail": "项目活动"
+            },
+            {
+                "head": "GCM",
+                "type": "属于",
+                "tail": "项目活动"
+            },
+            {
+                "head": "全球微生物目录",
+                "type": "属于",
+                "tail": "项目活动"
+            },
+            {
+                "head": "API服务",
+                "type": "属于",
+                "tail": "生物信息工具"
+            },
+            {
+                "head": "结核病",
+                "type": "使用",
+                "tail": "异烟肼"
+            },
+            {
+                "head": "结核病",
+                "type": "使用",
+                "tail": "利福平"
+            },
+            {
+                "head": "结核病",
+                "type": "使用",
+                "tail": "吡嗪酰胺"
+            },
+            {
+                "head": "结核病",
+                "type": "使用",
+                "tail": "乙胺丁醇"
+            },
+            {
+                "head": "结核病",
+                "type": "使用",
+                "tail": "链霉素"
+            },
+            {
+                "head": "耐多药结核病",
+                "type": "使用",
+                "tail": "二线药物"
+            },
+            {
+                "head": "耐多药结核病",
+                "type": "因果",
+                "tail": "处方不正确"
+            },
+            {
+                "head": "耐多药结核病",
+                "type": "因果",
+                "tail": "药品质量低劣"
+            },
+            {
+                "head": "耐多药结核病",
+                "type": "因果",
+                "tail": "患者过早中断治疗"
+            },
+            {
+                "head": "耐多药结核病",
+                "type": "由",
+                "tail": "结核分枝杆菌"
+            },
+            {
+                "head": "耐多药结核病",
+                "type": "由",
+                "tail": "tubercle bacillus"
+            },
+            {
+                "head": "耐多药结核病",
+                "type": "由",
+                "tail": "Mycobacterium tuberculosis"
+            },
+            {
+                "head": "耐多药/耐利福平结核病",
+                "type": "检测",
+                "tail": "快速分子检测"
+            },
+            {
+                "head": "耐多药/耐利福平结核病",
+                "type": "检测",
+                "tail": "培养方法"
+            },
+            {
+                "head": "BPaLM/BPaL",
+                "type": "使用",
+                "tail": "6个月治疗方案"
+            },
+            {
+                "head": "Global Catalogue of Microorganisms",
+                "type": "简称",
+                "tail": "GCM"
+            },
+            {
+                "head": "Global Catalogue of Microorganisms",
+                "type": "简称",
+                "tail": "全球微生物目录"
+            },
+            {
+                "head": "全球微生物目录",
+                "type": "简称",
+                "tail": "GCM"
+            },
+            {
+                "head": "API服务",
+                "type": "属于",
+                "tail": "全球微生物目录"
+            },
+            {
+                "head": "耐多药结核病",
+                "type": "属于",
+                "tail": "公共卫生危机"
+            },
+            {
+                "head": "耐多药结核病",
+                "type": "属于",
+                "tail": "卫生安全威胁"
+            }
+        ]
+    },
+    "status": "success"
+}

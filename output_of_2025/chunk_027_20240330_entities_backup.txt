@@ -1,0 +1,30 @@
+
+
+```json
+{
+  "chunk_id": "2024-03-02",
+  "entities": [
+    {"name": "AMR", "type": "生物医学概念"},
+    {"name": "AR", "type": "生物医学概念"},
+    {"name": "ARB", "type": "生物分子"},
+    {"name": "ARGs", "type": "生物分子"},
+    {"name": "HBPs", "type": "生物分子"},
+    {"name": "HGT", "type": "生物技术"},
+    {"name": "MGEs", "type": "生物技术"},
+    {"name": "Antimicrobial Resistance", "type": "生物医学概念"},
+    {"name": "Antibiotic-resistant", "type": "生物医学概念"},
+    {"name": "Antimicrobial-resistant bacteria", "type": "生物分子"},
+    {"name": "Antimicrobial-resistant genes", "type": "生物分子"},
+    {"name": "Human bacterial pathogens", "type": "生物分子"},
+    {"name": "Horizontal gene transfer", "type": "生物技术"},
+    {"name": "Mobile genetic elements", "type": "生物技术"},
+    {"name": "Carbapenem-Resistant", "type": "生物医学概念"},
+    {"name": "碳青霉烯类耐药肠杆菌", "type": "生物医学概念"},
+    {"name": "抗菌剂", "type": "生物医学概念"},
+    {"name": "抗生素", "type": "生物分子"},
+    {"name": "moulds", "type": "生物分子"},
+    {"name": "bactericidal", "type": "生物医学概念"},
+    {"name": "bacteriostatic", "type": "生物医学概念"}
+  ]
+}
+```

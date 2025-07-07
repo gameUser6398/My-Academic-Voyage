@@ -1,0 +1,18 @@
+
+
+{
+  "chunk_id": "2024-03-02",
+  "entities": [
+    {"name": "Linux", "type": "生物信息工具"},
+    {"name": "one-hot", "type": "深度学习概念"},
+    {"name": "散列技巧", "type": "深度学习概念"},
+    {"name": "散列冲突", "type": "深度学习概念"},
+    {"name": "散列表", "type": "深度学习概念"},
+    {"name": "Embedding", "type": "深度学习概念"},
+    {"name": "词向量", "type": "深度学习概念"},
+    {"name": "几何空间", "type": "深度学习概念"},
+    {"name": "Keras", "type": "生物信息工具"},
+    {"name": "pad_sequences", "type": "生物信息工具"},
+    {"name": "Python", "type": "生物信息工具"}
+  ]
+}

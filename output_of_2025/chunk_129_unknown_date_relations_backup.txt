@@ -1,0 +1,26 @@
+
+
+```json
+{
+  "chunk_id": "2024-03-02",
+  "relations": [
+    {"head": "酶反应动力学", "type": "使用", "tail": "Michaelis-Menten方程"},
+    {"head": "药物代谢动力学", "type": "使用", "tail": "ADME"},
+    {"head": "细胞生长和分裂", "type": "使用", "tail": "Gompertz模型"},
+    {"head": "细胞生长和分裂", "type": "使用", "tail": "Logistic模型"},
+    {"head": "细胞信号传导", "type": "使用", "tail": "基因调控网络模型"},
+    {"head": "DNA复制和修复", "type": "使用", "tail": "数学模型"},
+    {"head": "生态学", "type": "使用", "tail": "遗传平衡定律"},
+    {"head": "遗传平衡定律", "type": "属于", "tail": "种群遗传学"},
+    {"head": "种群动态模型", "type": "使用", "tail": "Logistic增长模型"},
+    {"head": "种群动态模型", "type": "使用", "tail": "Lotka-Volterra捕食者-猎物模型"},
+    {"head": "生态系统模型", "type": "使用", "tail": "生态系统模型"},
+    {"head": "药物代谢动力学", "type": "调控", "tail": "药物剂量"},
+    {"head": "细胞信号传导", "type": "调控", "tail": "基因表达"},
+    {"head": "基因调控网络模型", "type": "调控", "tail": "基因表达水平"},
+    {"head": "PCR指数扩增模型", "type": "属于", "tail": "分子生物学"},
+    {"head": "SIR传染病模型", "type": "属于", "tail": "生态学"},
+    {"head": "系统发生树模型", "type": "属于", "tail": "分子生物学"}
+  ]
+}
+```

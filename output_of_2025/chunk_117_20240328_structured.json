@@ -1,0 +1,42 @@
+{
+    "timestamp": "2025-07-07T18:02:05.187544",
+    "filename": "chunk_117_20240328.md",
+    "entities": {
+        "chunk_id": "2024-03-02",
+        "entities": [
+            {
+                "name": "OneHotEncoder",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "Onehot",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "Pandas",
+                "type": "生物信息工具"
+            }
+        ]
+    },
+    "relations": {
+        "chunk_id": "2024-03-02",
+        "relations": [
+            {
+                "head": "OneHotEncoder",
+                "type": "属于",
+                "tail": "Pandas"
+            },
+            {
+                "head": "OneHotEncoder",
+                "type": "使用",
+                "tail": "one-hot编码"
+            },
+            {
+                "head": "one-hot编码",
+                "type": "使用",
+                "tail": "Pandas"
+            }
+        ]
+    },
+    "status": "success"
+}

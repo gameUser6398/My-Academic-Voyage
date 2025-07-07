@@ -1,0 +1,181 @@
+{
+    "timestamp": "2025-07-07T17:02:06.886700",
+    "filename": "chunk_107_20240317.md",
+    "entities": {
+        "chunk_id": "2024-03-02",
+        "entities": [
+            {
+                "name": "DCGAN",
+                "type": "深度学习概念"
+            },
+            {
+                "name": "TensorFlow",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "conv2d",
+                "type": "深度学习概念"
+            },
+            {
+                "name": "lrelu",
+                "type": "深度学习概念"
+            },
+            {
+                "name": "linear",
+                "type": "深度学习概念"
+            },
+            {
+                "name": "sigmoid",
+                "type": "深度学习概念"
+            },
+            {
+                "name": "deconv2d",
+                "type": "深度学习概念"
+            },
+            {
+                "name": "tanh",
+                "type": "深度学习概念"
+            },
+            {
+                "name": "concat",
+                "type": "深度学习概念"
+            },
+            {
+                "name": "BCEWithLogitsLoss",
+                "type": "深度学习概念"
+            },
+            {
+                "name": "PO2GO",
+                "type": "深度学习概念"
+            },
+            {
+                "name": "torch",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "nn",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "Transformer",
+                "type": "深度学习概念"
+            }
+        ]
+    },
+    "relations": {
+        "chunk_id": "2024-03-02",
+        "relations": [
+            {
+                "head": "DCGAN",
+                "type": "使用",
+                "tail": "TensorFlow"
+            },
+            {
+                "head": "discriminator",
+                "type": "使用",
+                "tail": "conv2d"
+            },
+            {
+                "head": "discriminator",
+                "type": "使用",
+                "tail": "lrelu"
+            },
+            {
+                "head": "discriminator",
+                "type": "使用",
+                "tail": "linear"
+            },
+            {
+                "head": "discriminator",
+                "type": "使用",
+                "tail": "sigmoid"
+            },
+            {
+                "head": "discriminator",
+                "type": "使用",
+                "tail": "BCEWithLogitsLoss"
+            },
+            {
+                "head": "generator",
+                "type": "使用",
+                "tail": "deconv2d"
+            },
+            {
+                "head": "generator",
+                "type": "使用",
+                "tail": "tanh"
+            },
+            {
+                "head": "generator",
+                "type": "使用",
+                "tail": "linear"
+            },
+            {
+                "head": "generator",
+                "type": "使用",
+                "tail": "concat"
+            },
+            {
+                "head": "PO2GO",
+                "type": "使用",
+                "tail": "torch"
+            },
+            {
+                "head": "PO2GO",
+                "type": "使用",
+                "tail": "nn"
+            },
+            {
+                "head": "PO2GO",
+                "type": "使用",
+                "tail": "BCEWithLogitsLoss"
+            },
+            {
+                "head": "PO2GO",
+                "type": "包含",
+                "tail": "init_predictor"
+            },
+            {
+                "head": "init_predictor",
+                "type": "使用",
+                "tail": "nn.Linear"
+            },
+            {
+                "head": "init_predictor",
+                "type": "使用",
+                "tail": "nn.BatchNorm1d"
+            },
+            {
+                "head": "init_predictor",
+                "type": "使用",
+                "tail": "nn.ReLU"
+            },
+            {
+                "head": "init_predictor",
+                "type": "使用",
+                "tail": "nn.Dropout"
+            },
+            {
+                "head": "forward",
+                "type": "使用",
+                "tail": "torch.matmul"
+            },
+            {
+                "head": "forward",
+                "type": "使用",
+                "tail": "F.relu"
+            },
+            {
+                "head": "forward",
+                "type": "使用",
+                "tail": "F.dropout"
+            },
+            {
+                "head": "Transformer",
+                "type": "属于",
+                "tail": "深度学习概念"
+            }
+        ]
+    },
+    "status": "success"
+}

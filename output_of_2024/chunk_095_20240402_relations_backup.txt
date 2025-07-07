@@ -1,0 +1,12 @@
+
+
+{
+  "chunk_id": "2024-03-02",
+  "relations": [
+    {"head": "GO", "type": "使用", "tail": "UMAP"},
+    {"head": "UMAP", "type": "属于", "tail": "降维"},
+    {"head": "UMAP", "type": "属于", "tail": "机器学习算法"},
+    {"head": "机器学习算法", "type": "属于", "tail": "深度学习"},
+    {"head": "深度学习", "type": "包含", "tail": "调参"}
+  ]
+}

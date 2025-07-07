@@ -1,0 +1,42 @@
+
+
+```json
+{
+  "chunk_id": "2024-03-02",
+  "entities": [
+    {"name": "NLP", "type": "深度学习概念"},
+    {"name": "深度学习模型", "type": "深度学习概念"},
+    {"name": "词袋", "type": "深度学习概念"},
+    {"name": "k-mers", "type": "深度学习概念"},
+    {"name": "n-gram", "type": "深度学习概念"},
+    {"name": "文本搜索", "type": "深度学习概念"},
+    {"name": "词嵌入", "type": "深度学习概念"},
+    {"name": "上下文嵌入", "type": "深度学习概念"},
+    {"name": "深度学习", "type": "深度学习概念"},
+    {"name": "神经语言模型", "type": "深度学习概念"},
+    {"name": "掩蔽语言建模", "type": "深度学习概念"},
+    {"name": "自我监督学习", "type": "深度学习概念"},
+    {"name": "基于注意力的模型", "type": "深度学习概念"},
+    {"name": "Transformer-XL", "type": "深度学习概念"},
+    {"name": "XLNet", "type": "深度学习概念"},
+    {"name": "BERT", "type": "深度学习概念"},
+    {"name": "Albert", "type": "深度学习概念"},
+    {"name": "Electra", "type": "深度学习概念"},
+    {"name": "T5", "type": "深度学习概念"},
+    {"name": "UniRef", "type": "生物信息工具"},
+    {"name": "BFD", "type": "生物信息工具"},
+    {"name": "蛋白质LMs", "type": "深度学习概念"},
+    {"name": "Summit超级计算机", "type": "其他"},
+    {"name": "GPU", "type": "其他"},
+    {"name": "TPU Pod", "type": "其他"},
+    {"name": "蛋白质二级结构", "type": "生物分子"},
+    {"name": "亚细胞位置", "type": "生物分子"},
+    {"name": "膜与水溶性", "type": "生物分子"},
+    {"name": "蛋白质序列", "type": "生物分子"},
+    {"name": "多序列比对（MSA）", "type": "生物信息工具"},
+    {"name": "ProtT5", "type": "深度学习概念"},
+    {"name": "ProtTrans", "type": "生物信息工具"},
+    {"name": "蛋白质语言模型", "type": "深度学习概念"}
+  ]
+}
+```

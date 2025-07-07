@@ -1,0 +1,23 @@
+
+
+```json
+{
+  "chunk_id": "2024-03-02",
+  "relations": [
+    {"head": "t-SNE", "type": "使用", "tail": "距离矩阵"},
+    {"head": "MMseqs2", "type": "使用", "tail": "序列"},
+    {"head": "Clustal Omega", "type": "使用", "tail": "代表性序列"},
+    {"head": "Clustal Omega", "type": "使用", "tail": "距离矩阵"},
+    {"head": "scikit-learn", "type": "使用", "tail": "t-SNE"},
+    {"head": "ProteinGAN", "type": "使用", "tail": "潜在空间"},
+    {"head": "潜在空间", "type": "调控", "tail": "序列多样性"},
+    {"head": "潜在空间", "type": "属于", "tail": "深度学习概念"},
+    {"head": "Pearson's r", "type": "属于", "tail": "深度学习概念"},
+    {"head": "生成模型", "type": "属于", "tail": "生物信息工具"},
+    {"head": "生成模型", "type": "调控", "tail": "生物物理序列特性"},
+    {"head": "均匀采样", "type": "使用", "tail": "潜在空间"},
+    {"head": "任务分工", "type": "包含", "tail": "生成模型"},
+    {"head": "文献调研", "type": "包含", "tail": "生物物理序列特性"}
+  ]
+}
+```

@@ -1,0 +1,149 @@
+{
+    "timestamp": "2025-07-07T17:12:18.565720",
+    "filename": "chunk_084_20240310.md",
+    "entities": {
+        "chunk_id": "2024-03-02",
+        "entities": [
+            {
+                "name": "蛋白质",
+                "type": "生物分子"
+            },
+            {
+                "name": "4HHB",
+                "type": "生物分子"
+            },
+            {
+                "name": "HEM",
+                "type": "生物分子"
+            },
+            {
+                "name": "X-射线衍射法",
+                "type": "生物技术"
+            },
+            {
+                "name": "核磁共振法",
+                "type": "生物技术"
+            },
+            {
+                "name": "冷冻电子显微镜技术",
+                "type": "生物技术"
+            },
+            {
+                "name": "PDB",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "GraphQL",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "REST",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "RCSB PDB",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "三级结构",
+                "type": "生物分子"
+            },
+            {
+                "name": "三维结构",
+                "type": "生物分子"
+            },
+            {
+                "name": "进化信息",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "数据筛选",
+                "type": "项目活动"
+            },
+            {
+                "name": "结构比较",
+                "type": "项目活动"
+            },
+            {
+                "name": "文献调研",
+                "type": "项目活动"
+            }
+        ]
+    },
+    "relations": {
+        "chunk_id": "2024-03-02",
+        "relations": [
+            {
+                "head": "4HHB",
+                "type": "属于",
+                "tail": "PDB"
+            },
+            {
+                "head": "4HHB",
+                "type": "属于",
+                "tail": "RCSB PDB"
+            },
+            {
+                "head": "蛋白质",
+                "type": "包含",
+                "tail": "三级结构"
+            },
+            {
+                "head": "蛋白质",
+                "type": "包含",
+                "tail": "三维结构"
+            },
+            {
+                "head": "三维结构",
+                "type": "属于",
+                "tail": "蛋白质"
+            },
+            {
+                "head": "蛋白质三维结构比较",
+                "type": "属于",
+                "tail": "结构比较"
+            },
+            {
+                "head": "结构比较",
+                "type": "属于",
+                "tail": "数据筛选"
+            },
+            {
+                "head": "蛋白质",
+                "type": "使用",
+                "tail": "X-射线衍射法"
+            },
+            {
+                "head": "蛋白质",
+                "type": "使用",
+                "tail": "核磁共振法"
+            },
+            {
+                "head": "蛋白质",
+                "type": "使用",
+                "tail": "冷冻电子显微镜技术"
+            },
+            {
+                "head": "RCSB PDB",
+                "type": "使用",
+                "tail": "GraphQL"
+            },
+            {
+                "head": "RCSB PDB",
+                "type": "使用",
+                "tail": "REST"
+            },
+            {
+                "head": "三维结构",
+                "type": "用于",
+                "tail": "挖掘进化信息"
+            },
+            {
+                "head": "数据筛选",
+                "type": "使用",
+                "tail": "文献调研"
+            }
+        ]
+    },
+    "status": "success"
+}

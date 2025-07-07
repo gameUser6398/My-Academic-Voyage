@@ -1,0 +1,16 @@
+
+
+```json
+{
+  "chunk_id": "2024-05-15",
+  "entities": [
+    {"name": "SMOTE", "type": "深度学习概念"},
+    {"name": "CGAN", "type": "深度学习概念"},
+    {"name": "focal loss", "type": "深度学习概念"},
+    {"name": "BCE", "type": "深度学习概念"},
+    {"name": "调试计划", "type": "项目活动"},
+    {"name": "结项撰写", "type": "项目活动"},
+    {"name": "项目进展", "type": "项目活动"}
+  ]
+}
+```

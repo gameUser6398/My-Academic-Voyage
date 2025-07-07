@@ -1,0 +1,6 @@
+{
+    "timestamp": "2025-07-07T16:57:44.543558",
+    "filename": "chunk_046_20240511.md",
+    "raw_entities": "\n\n{\n  \"chunk_id\": \"2024-03-02\",\n  \"entities\": [\n    {\"name\": \"AnnoPRO\", \"type\": \"生物信息工具\"},\n    {\"name\": \"蛋白质\", \"type\": \"生物分子\"},\n    {\"name\": \"蛋白质功能注释\", \"type\": \"项目活动\"},\n    {\"name\": \"多尺度蛋白质表示\", \"type\": \"生物信息工具\"},\n    {\"name\": \"双路径编码\", \"type\": \"深度学习概念\"},\n    {\"name\": \"混合深度学习\", \"type\": \"深度学习概念\"}\n  ]\n}",
+    "raw_relations": "\n\n{\n  \"chunk_id\": \"2024-03-02\",\n  \"relations\": [\n    {\"head\": \"AnnoPRO\", \"type\": \"使用\", \"tail\": \"多尺度蛋白质表示\"},\n    {\"head\": \"AnnoPRO\", \"type\": \"使用\", \"tail\": \"双路径编码\"},\n    {\"head\": \"AnnoPRO\", \"type\": \"属于\", \"tail\": \"蛋白质功能注释\"},\n    {\"head\": \"AnnoPRO\", \"type\": \"使用\", \"tail\": \"混合深度学习\"}\n  ]\n}"
+}

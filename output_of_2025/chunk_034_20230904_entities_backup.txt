@@ -1,0 +1,48 @@
+
+
+```json
+{
+  "chunk_id": "2024-03-02",
+  "entities": [
+    {"name": "Illumina测序", "type": "生物技术"},
+    {"name": "基因组DNA", "type": "生物分子"},
+    {"name": "ARG", "type": "生物分子"},
+    {"name": "开放阅读框", "type": "生物分子"},
+    {"name": "ResFinder", "type": "生物信息工具"},
+    {"name": "PointFinder", "type": "生物信息工具"},
+    {"name": "ResFams", "type": "生物信息工具"},
+    {"name": "BLAST", "type": "生物信息工具"},
+    {"name": "WGS", "type": "生物技术"},
+    {"name": "金黄色葡萄球菌", "type": "生物分子"},
+    {"name": "质粒介导的耐药机制", "type": "生物医学概念"},
+    {"name": "外排泵", "type": "生物分子"},
+    {"name": "草唑青糖酶基因", "type": "生物分子"},
+    {"name": "抗生素耐药性", "type": "生物医学概念"},
+    {"name": "AMR表型", "type": "生物医学概念"},
+    {"name": "全基因组关联研究", "type": "生物信息工具"},
+    {"name": "机器学习算法", "type": "深度学习概念"},
+    {"name": "DeepARG v2", "type": "生物信息工具"},
+    {"name": "LS模型", "type": "其他"},
+    {"name": "MobileGeneticElementDatabase", "type": "生物信息工具"},
+    {"name": "DIAMOND", "type": "生物信息工具"},
+    {"name": "Python", "type": "生物信息工具"},
+    {"name": "NCBI / Genome数据库", "type": "生物信息工具"},
+    {"name": "MAGs", "type": "生物分子"},
+    {"name": "Prodigal", "type": "生物信息工具"},
+    {"name": "CD-hit-est", "type": "生物信息工具"},
+    {"name": "SVM模型", "type": "深度学习概念"},
+    {"name": "k-mer", "type": "生物分子"},
+    {"name": "抗菌剂", "type": "生物医学概念"},
+    {"name": "SCM模型", "type": "深度学习概念"},
+    {"name": "AMRfinderPlus", "type": "生物信息工具"},
+    {"name": "BLASTp", "type": "生物信息工具"},
+    {"name": "SARG数据库", "type": "生物信息工具"},
+    {"name": "CoverM", "type": "生物信息工具"},
+    {"name": "ORF", "type": "生物分子"},
+    {"name": "CheckV", "type": "生物信息工具"},
+    {"name": "VIBRANT", "type": "生物信息工具"},
+    {"name": "MGE", "type": "生物分子"},
+    {"name": "AMG", "type": "生物分子"}
+  ]
+}
+```

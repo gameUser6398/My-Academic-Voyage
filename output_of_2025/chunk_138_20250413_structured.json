@@ -1,0 +1,50 @@
+{
+    "timestamp": "2025-07-07T17:33:02.414026",
+    "filename": "chunk_138_20250413.md",
+    "entities": {
+        "chunk_id": "2024-09-24",
+        "entities": [
+            {
+                "name": "CARD",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "Resfams",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "ESM embeddings",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "1D convolution",
+                "type": "深度学习概念"
+            },
+            {
+                "name": "Django",
+                "type": "生物信息工具"
+            }
+        ]
+    },
+    "relations": {
+        "chunk_id": "2024-09-24",
+        "relations": [
+            {
+                "head": "Resfams",
+                "type": "属于",
+                "tail": "CARD实验"
+            },
+            {
+                "head": "separable-like 1D convolution",
+                "type": "使用",
+                "tail": "ESM embeddings"
+            },
+            {
+                "head": "Django",
+                "type": "属于",
+                "tail": "学习日志"
+            }
+        ]
+    },
+    "status": "success"
+}

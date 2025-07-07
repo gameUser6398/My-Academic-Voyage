@@ -1,0 +1,82 @@
+{
+    "timestamp": "2025-07-07T16:56:05.637262",
+    "filename": "chunk_012_unknown_date.md",
+    "entities": {
+        "chunk_id": "2024-03-02",
+        "entities": [
+            {
+                "name": "UniProtKB",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "InterPro",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "蛋白质家族",
+                "type": "生物分子"
+            },
+            {
+                "name": "序列相似性搜索工具",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "宏基因组测序",
+                "type": "生物技术"
+            },
+            {
+                "name": "API",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "protein_families",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "P05067",
+                "type": "生物分子"
+            }
+        ]
+    },
+    "relations": {
+        "chunk_id": "2024-03-02",
+        "relations": [
+            {
+                "head": "UniProtKB",
+                "type": "包含",
+                "tail": "蛋白质家族"
+            },
+            {
+                "head": "UniProtKB",
+                "type": "使用",
+                "tail": "InterPro"
+            },
+            {
+                "head": "UniProtKB",
+                "type": "使用",
+                "tail": "序列相似性搜索工具"
+            },
+            {
+                "head": "UniProtKB",
+                "type": "使用",
+                "tail": "科学文献"
+            },
+            {
+                "head": "蛋白质家族",
+                "type": "属于",
+                "tail": "UniProtKB"
+            },
+            {
+                "head": "API",
+                "type": "使用",
+                "tail": "protein_families"
+            },
+            {
+                "head": "P05067",
+                "type": "使用",
+                "tail": "API"
+            }
+        ]
+    },
+    "status": "success"
+}

@@ -1,0 +1,26 @@
+
+
+```json
+{
+  "chunk_id": "2024-03-02",
+  "entities": [
+    {"name": "Bert嵌入向量", "type": "生物信息工具"},
+    {"name": "KNN", "type": "深度学习概念"},
+    {"name": "蛋白质注释", "type": "生物分子"},
+    {"name": "序列相似性", "type": "生物信息工具"},
+    {"name": "bio_embeddings", "type": "生物信息工具"},
+    {"name": "pairwise_distance_matrix_from_embeddings_and_annotations", "type": "生物信息工具"},
+    {"name": "DataFrame", "type": "生物信息工具"},
+    {"name": "queries", "type": "生物信息工具"},
+    {"name": "references", "type": "生物信息工具"},
+    {"name": "sklearn.metrics.pairwise_distances", "type": "生物信息工具"},
+    {"name": "get_k_nearest_neighbours", "type": "生物信息工具"},
+    {"name": "RI", "type": "深度学习概念"},
+    {"name": "ARI", "type": "深度学习概念"},
+    {"name": "MI", "type": "深度学习概念"},
+    {"name": "NMI", "type": "深度学习概念"},
+    {"name": "GOannotations_knn.py", "type": "项目活动"},
+    {"name": "Visual_sequSpace_embd1.py", "type": "项目活动"}
+  ]
+}
+```

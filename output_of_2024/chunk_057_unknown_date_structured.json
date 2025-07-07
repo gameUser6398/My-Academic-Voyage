@@ -1,0 +1,215 @@
+{
+    "timestamp": "2025-07-07T16:56:28.403513",
+    "filename": "chunk_057_unknown_date.md",
+    "entities": {
+        "chunk_id": "2024-03-02",
+        "entities": [
+            {
+                "name": "root",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "su",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "sudo",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "/etc/sudoers",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "groupadd",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "groupdel",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "useradd",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "userdel",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "id",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "usermod",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "getent",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "HOME目录",
+                "type": "其他"
+            },
+            {
+                "name": "用户组",
+                "type": "其他"
+            },
+            {
+                "name": "用户",
+                "type": "其他"
+            },
+            {
+                "name": "权限管控",
+                "type": "其他"
+            }
+        ]
+    },
+    "relations": {
+        "chunk_id": "2024-03-02",
+        "relations": [
+            {
+                "head": "root",
+                "type": "属于",
+                "tail": "用户"
+            },
+            {
+                "head": "su",
+                "type": "使用",
+                "tail": "用户"
+            },
+            {
+                "head": "sudo",
+                "type": "使用",
+                "tail": "用户"
+            },
+            {
+                "head": "sudo",
+                "type": "属于",
+                "tail": "权限管控"
+            },
+            {
+                "head": "sudo",
+                "type": "使用",
+                "tail": "/etc/sudoers"
+            },
+            {
+                "head": "/etc/sudoers",
+                "type": "属于",
+                "tail": "权限管控"
+            },
+            {
+                "head": "groupadd",
+                "type": "使用",
+                "tail": "用户组"
+            },
+            {
+                "head": "groupdel",
+                "type": "使用",
+                "tail": "用户组"
+            },
+            {
+                "head": "useradd",
+                "type": "使用",
+                "tail": "用户"
+            },
+            {
+                "head": "useradd",
+                "type": "包含",
+                "tail": "HOME目录"
+            },
+            {
+                "head": "userdel",
+                "type": "使用",
+                "tail": "用户"
+            },
+            {
+                "head": "id",
+                "type": "使用",
+                "tail": "用户"
+            },
+            {
+                "head": "usermod",
+                "type": "使用",
+                "tail": "用户"
+            },
+            {
+                "head": "getent",
+                "type": "使用",
+                "tail": "用户"
+            },
+            {
+                "head": "getent",
+                "type": "使用",
+                "tail": "用户组"
+            },
+            {
+                "head": "getent",
+                "type": "属于",
+                "tail": "用户、用户组管理"
+            },
+            {
+                "head": "useradd",
+                "type": "属于",
+                "tail": "用户、用户组管理"
+            },
+            {
+                "head": "groupadd",
+                "type": "属于",
+                "tail": "用户、用户组管理"
+            },
+            {
+                "head": "groupdel",
+                "type": "属于",
+                "tail": "用户、用户组管理"
+            },
+            {
+                "head": "userdel",
+                "type": "属于",
+                "tail": "用户、用户组管理"
+            },
+            {
+                "head": "id",
+                "type": "属于",
+                "tail": "用户、用户组管理"
+            },
+            {
+                "head": "usermod",
+                "type": "属于",
+                "tail": "用户、用户组管理"
+            },
+            {
+                "head": "HOME目录",
+                "type": "属于",
+                "tail": "用户"
+            },
+            {
+                "head": "权限管控",
+                "type": "包含",
+                "tail": "sudo"
+            },
+            {
+                "head": "权限管控",
+                "type": "包含",
+                "tail": "/etc/sudoers"
+            },
+            {
+                "head": "useradd",
+                "type": "包含",
+                "tail": "HOME目录"
+            },
+            {
+                "head": "useradd",
+                "type": "包含",
+                "tail": "用户组"
+            },
+            {
+                "head": "usermod",
+                "type": "修改",
+                "tail": "用户组"
+            }
+        ]
+    },
+    "status": "success"
+}

@@ -1,0 +1,356 @@
+{
+    "timestamp": "2025-07-07T18:41:52.526172",
+    "filename": "chunk_034_20230904.md",
+    "entities": {
+        "chunk_id": "2024-03-02",
+        "entities": [
+            {
+                "name": "Illumina测序",
+                "type": "生物技术"
+            },
+            {
+                "name": "基因组DNA",
+                "type": "生物分子"
+            },
+            {
+                "name": "ARG",
+                "type": "生物分子"
+            },
+            {
+                "name": "开放阅读框",
+                "type": "生物分子"
+            },
+            {
+                "name": "ResFinder",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "PointFinder",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "ResFams",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "BLAST",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "WGS",
+                "type": "生物技术"
+            },
+            {
+                "name": "金黄色葡萄球菌",
+                "type": "生物分子"
+            },
+            {
+                "name": "质粒介导的耐药机制",
+                "type": "生物医学概念"
+            },
+            {
+                "name": "外排泵",
+                "type": "生物分子"
+            },
+            {
+                "name": "草唑青糖酶基因",
+                "type": "生物分子"
+            },
+            {
+                "name": "抗生素耐药性",
+                "type": "生物医学概念"
+            },
+            {
+                "name": "AMR表型",
+                "type": "生物医学概念"
+            },
+            {
+                "name": "全基因组关联研究",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "机器学习算法",
+                "type": "深度学习概念"
+            },
+            {
+                "name": "DeepARG v2",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "LS模型",
+                "type": "其他"
+            },
+            {
+                "name": "MobileGeneticElementDatabase",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "DIAMOND",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "Python",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "NCBI / Genome数据库",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "MAGs",
+                "type": "生物分子"
+            },
+            {
+                "name": "Prodigal",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "CD-hit-est",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "SVM模型",
+                "type": "深度学习概念"
+            },
+            {
+                "name": "k-mer",
+                "type": "生物分子"
+            },
+            {
+                "name": "抗菌剂",
+                "type": "生物医学概念"
+            },
+            {
+                "name": "SCM模型",
+                "type": "深度学习概念"
+            },
+            {
+                "name": "AMRfinderPlus",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "BLASTp",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "SARG数据库",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "CoverM",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "ORF",
+                "type": "生物分子"
+            },
+            {
+                "name": "CheckV",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "VIBRANT",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "MGE",
+                "type": "生物分子"
+            },
+            {
+                "name": "AMG",
+                "type": "生物分子"
+            }
+        ]
+    },
+    "relations": {
+        "chunk_id": "2024-03-02",
+        "relations": [
+            {
+                "head": "ARG注释",
+                "type": "使用",
+                "tail": "Illumina测序"
+            },
+            {
+                "head": "ARG",
+                "type": "使用",
+                "tail": "ResFinder"
+            },
+            {
+                "head": "ARG",
+                "type": "使用",
+                "tail": "PointFinder"
+            },
+            {
+                "head": "ARG",
+                "type": "使用",
+                "tail": "ResFams"
+            },
+            {
+                "head": "ResFinder",
+                "type": "使用",
+                "tail": "BLAST"
+            },
+            {
+                "head": "PointFinder",
+                "type": "使用",
+                "tail": "BLAST"
+            },
+            {
+                "head": "ResFams",
+                "type": "使用",
+                "tail": "BLAST"
+            },
+            {
+                "head": "ARG",
+                "type": "使用",
+                "tail": "WGS"
+            },
+            {
+                "head": "WGS",
+                "type": "因果",
+                "tail": "质粒介导的耐药机制"
+            },
+            {
+                "head": "WGS",
+                "type": "因果",
+                "tail": "抗性基因表达改变"
+            },
+            {
+                "head": "抗性基因表达改变",
+                "type": "包含",
+                "tail": "外排泵"
+            },
+            {
+                "head": "抗性基因表达改变",
+                "type": "包含",
+                "tail": "草唑青糖酶基因"
+            },
+            {
+                "head": "ARG",
+                "type": "属于",
+                "tail": "AMR表型"
+            },
+            {
+                "head": "AMR表型",
+                "type": "因果",
+                "tail": "抗生素耐药性"
+            },
+            {
+                "head": "AMR表型",
+                "type": "使用",
+                "tail": "全基因组关联研究"
+            },
+            {
+                "head": "AMR表型",
+                "type": "使用",
+                "tail": "机器学习算法"
+            },
+            {
+                "head": "DeepARG v2",
+                "type": "使用",
+                "tail": "LS模型"
+            },
+            {
+                "head": "MGEs",
+                "type": "使用",
+                "tail": "DIAMOND"
+            },
+            {
+                "head": "MGEs",
+                "type": "使用",
+                "tail": "MobileGeneticElementDatabase"
+            },
+            {
+                "head": "MGEs",
+                "type": "共现",
+                "tail": "ARGs"
+            },
+            {
+                "head": "MGEs和ARGs",
+                "type": "使用",
+                "tail": "Python"
+            },
+            {
+                "head": "ARGs鉴定",
+                "type": "使用",
+                "tail": "DeepARG v2"
+            },
+            {
+                "head": "ARGs鉴定",
+                "type": "使用",
+                "tail": "Prodigal"
+            },
+            {
+                "head": "MGEs鉴定",
+                "type": "使用",
+                "tail": "DIAMOND"
+            },
+            {
+                "head": "开放阅读框",
+                "type": "使用",
+                "tail": "Prodigal"
+            },
+            {
+                "head": "ARG",
+                "type": "使用",
+                "tail": "AMRfinderPlus"
+            },
+            {
+                "head": "ARG",
+                "type": "使用",
+                "tail": "BLASTp"
+            },
+            {
+                "head": "ARG",
+                "type": "使用",
+                "tail": "SARG数据库"
+            },
+            {
+                "head": "ARG",
+                "type": "量化",
+                "tail": "CoverM"
+            },
+            {
+                "head": "ARG",
+                "type": "使用",
+                "tail": "ORF"
+            },
+            {
+                "head": "ARG",
+                "type": "属于",
+                "tail": "AMG"
+            },
+            {
+                "head": "ARG",
+                "type": "使用",
+                "tail": "CD-hit-est"
+            },
+            {
+                "head": "ARG",
+                "type": "使用",
+                "tail": "NCBI / Genome数据库"
+            },
+            {
+                "head": "SVM模型",
+                "type": "使用",
+                "tail": "k-mer"
+            },
+            {
+                "head": "SVM模型",
+                "type": "预测",
+                "tail": "AMR表型"
+            },
+            {
+                "head": "SCM模型",
+                "type": "使用",
+                "tail": "k-mer"
+            },
+            {
+                "head": "SCM模型",
+                "type": "预测",
+                "tail": "AMR表型"
+            }
+        ]
+    },
+    "status": "success"
+}

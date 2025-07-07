@@ -1,0 +1,34 @@
+
+
+```json
+{
+  "chunk_id": "2024-03-02",
+  "relations": [
+    {"head": "版本控制", "type": "使用", "tail": "Git"},
+    {"head": "版本控制", "type": "使用", "tail": "GitHub"},
+    {"head": "调试与优化", "type": "使用", "tail": "Chrome的DevTools"},
+    {"head": "在线教程和课程", "type": "包含", "tail": "W3Schools"},
+    {"head": "在线教程和课程", "type": "包含", "tail": "MDN"},
+    {"head": "在线教程和课程", "type": "包含", "tail": "freeCodeCamp"},
+    {"head": "在线教程和课程", "type": "包含", "tail": "Codecademy"},
+    {"head": "W3Schools", "type": "包含", "tail": "HTML"},
+    {"head": "W3Schools", "type": "包含", "tail": "CSS"},
+    {"head": "W3Schools", "type": "包含", "tail": "JavaScript"},
+    {"head": "MDN", "type": "包含", "tail": "HTML"},
+    {"head": "MDN", "type": "包含", "tail": "CSS"},
+    {"head": "MDN", "type": "包含", "tail": "JavaScript"},
+    {"head": "freeCodeCamp", "type": "包含", "tail": "HTML"},
+    {"head": "freeCodeCamp", "type": "包含", "tail": "CSS"},
+    {"head": "freeCodeCamp", "type": "包含", "tail": "JavaScript"},
+    {"head": "Codecademy", "type": "包含", "tail": "HTML"},
+    {"head": "Codecademy", "type": "包含", "tail": "CSS"},
+    {"head": "Codecademy", "type": "包含", "tail": "JavaScript"},
+    {"head": "网页部署", "type": "使用", "tail": "宝塔面板"},
+    {"head": "宝塔面板", "type": "属于", "tail": "Linux"},
+    {"head": "腾讯云", "type": "包含", "tail": "云服务器"},
+    {"head": "华为云", "type": "包含", "tail": "云服务器"},
+    {"head": "云服务器", "type": "使用", "tail": "宝塔面板"},
+    {"head": "参与社区", "type": "属于", "tail": "GitHub"}
+  ]
+}
+```

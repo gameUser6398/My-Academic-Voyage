@@ -1,0 +1,17 @@
+
+
+```json
+{
+  "chunk_id": "2024-03-02",
+  "entities": [
+    {"name": "蛋白质", "type": "生物分子"},
+    {"name": "配体", "type": "生物分子"},
+    {"name": "DCGAN", "type": "深度学习概念"},
+    {"name": "Tensorflow", "type": "生物信息工具"},
+    {"name": "生成对抗网络", "type": "深度学习概念"},
+    {"name": "序列预测", "type": "生物信息工具"},
+    {"name": "机器学习", "type": "深度学习概念"},
+    {"name": "ProteinGAN", "type": "生物信息工具"}
+  ]
+}
+```

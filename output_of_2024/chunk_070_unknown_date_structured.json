@@ -1,0 +1,47 @@
+{
+    "timestamp": "2025-07-07T16:58:17.504675",
+    "filename": "chunk_070_unknown_date.md",
+    "entities": {
+        "chunk_id": "2024-03-02",
+        "entities": [
+            {
+                "name": "add",
+                "type": "其他"
+            },
+            {
+                "name": "concat",
+                "type": "其他"
+            },
+            {
+                "name": "FPN",
+                "type": "其他"
+            }
+        ]
+    },
+    "relations": {
+        "chunk_id": "2024-03-02",
+        "relations": [
+            {
+                "head": "add",
+                "type": "属于",
+                "tail": "深度特征融合"
+            },
+            {
+                "head": "concat",
+                "type": "属于",
+                "tail": "深度特征融合"
+            },
+            {
+                "head": "add",
+                "type": "替代",
+                "tail": "concat"
+            },
+            {
+                "head": "FPN",
+                "type": "使用",
+                "tail": "add"
+            }
+        ]
+    },
+    "status": "success"
+}

@@ -1,0 +1,19 @@
+
+
+{
+  "chunk_id": "2024-03-02",
+  "entities": [
+    {"name": "torch.bmm()", "type": "生物信息工具"},
+    {"name": "permute()", "type": "生物信息工具"},
+    {"name": "Multi-Head-Attention", "type": "深度学习概念"},
+    {"name": "self-Attention", "type": "深度学习概念"},
+    {"name": "DataLoader", "type": "生物信息工具"},
+    {"name": "Dataset", "type": "生物信息工具"},
+    {"name": "random_split()", "type": "生物信息工具"},
+    {"name": "dropout", "type": "深度学习概念"},
+    {"name": "model.eval()", "type": "生物信息工具"},
+    {"name": "softmax", "type": "深度学习概念"},
+    {"name": "crossentropy", "type": "深度学习概念"},
+    {"name": "TorchProtein", "type": "生物信息工具"}
+  ]
+}

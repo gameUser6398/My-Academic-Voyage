@@ -1,0 +1,16 @@
+
+
+{
+  "chunk_id": "2024-03-02",
+  "relations": [
+    {"head": "生物信息学", "type": "属于", "tail": "慕课视频"},
+    {"head": "Kaggle", "type": "包含", "tail": "CAFA 5 Protein Function Prediction"},
+    {"head": "Gene Ontology", "type": "属于", "tail": "生物数据库"},
+    {"head": "神经网络", "type": "属于", "tail": "深度学习概念"},
+    {"head": "梯度下降法", "type": "属于", "tail": "深度学习概念"},
+    {"head": "反向传播算法", "type": "属于", "tail": "深度学习概念"},
+    {"head": "卷积", "type": "属于", "tail": "深度学习概念"},
+    {"head": "蛋白质", "type": "属于", "tail": "生物分子"},
+    {"head": "Linux系统", "type": "属于", "tail": "生物信息工具"}
+  ]
+}

@@ -1,0 +1,18 @@
+
+
+```json
+{
+  "chunk_id": "2024-03-02",
+  "relations": [
+    {"head": "DeepGOZero", "type": "使用", "tail": "模型理论"},
+    {"head": "DeepGOZero", "type": "使用", "tail": "本体嵌入"},
+    {"head": "DeepGOZero", "type": "使用", "tail": "神经网络"},
+    {"head": "DeepGOZero", "type": "属于", "tail": "蛋白质功能预测"},
+    {"head": "DeepGOZero", "type": "属于", "tail": "零镜头学习"},
+    {"head": "DeepGOZero", "type": "属于", "tail": "GO（Gene Ontology）"},
+    {"head": "DeepGOZero", "type": "使用", "tail": "训练"},
+    {"head": "DeepGOZero", "type": "使用", "tail": "评估"},
+    {"head": "本体", "type": "属于", "tail": "GO（Gene Ontology）"}
+  ]
+}
+```

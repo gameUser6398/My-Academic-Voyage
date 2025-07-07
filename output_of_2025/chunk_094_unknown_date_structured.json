@@ -1,0 +1,155 @@
+{
+    "timestamp": "2025-07-07T18:17:58.387487",
+    "filename": "chunk_094_unknown_date.md",
+    "entities": {
+        "chunk_id": "2024-03-02",
+        "entities": [
+            {
+                "name": "Illumina",
+                "type": "生物技术"
+            },
+            {
+                "name": "PacBio",
+                "type": "生物技术"
+            },
+            {
+                "name": "Oxford Nanopore",
+                "type": "生物技术"
+            },
+            {
+                "name": "测序文库",
+                "type": "生物技术"
+            },
+            {
+                "name": "基因组DNA",
+                "type": "生物分子"
+            },
+            {
+                "name": "质粒",
+                "type": "生物分子"
+            },
+            {
+                "name": "read",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "PE reads",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "paired-end reads",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "contig",
+                "type": "生物信息工具"
+            }
+        ]
+    },
+    "relations": {
+        "chunk_id": "2024-03-02",
+        "relations": [
+            {
+                "head": "Illumina",
+                "type": "属于",
+                "tail": "第二代短读长测序技术"
+            },
+            {
+                "head": "PacBio",
+                "type": "属于",
+                "tail": "第三代长读长测序技术"
+            },
+            {
+                "head": "Oxford Nanopore",
+                "type": "属于",
+                "tail": "第三代长读长测序技术"
+            },
+            {
+                "head": "测序文库",
+                "type": "使用",
+                "tail": "Illumina"
+            },
+            {
+                "head": "测序文库",
+                "type": "包含",
+                "tail": "基因组DNA"
+            },
+            {
+                "head": "测序文库",
+                "type": "包含",
+                "tail": "质粒"
+            },
+            {
+                "head": "基因组DNA",
+                "type": "属于",
+                "tail": "微生物染色体"
+            },
+            {
+                "head": "read",
+                "type": "属于",
+                "tail": "高通量测序"
+            },
+            {
+                "head": "PE reads",
+                "type": "属于",
+                "tail": "paired-end reads"
+            },
+            {
+                "head": "read",
+                "type": "使用",
+                "tail": "测序文库"
+            },
+            {
+                "head": "contig",
+                "type": "使用",
+                "tail": "read"
+            },
+            {
+                "head": "contig",
+                "type": "使用",
+                "tail": "overlap"
+            },
+            {
+                "head": "paired-end reads",
+                "type": "使用",
+                "tail": "测序文库"
+            },
+            {
+                "head": "contig",
+                "type": "属于",
+                "tail": "WGS和组装流程"
+            },
+            {
+                "head": "Illumina",
+                "type": "因果",
+                "tail": "读长较短"
+            },
+            {
+                "head": "PacBio",
+                "type": "因果",
+                "tail": "读长较长"
+            },
+            {
+                "head": "Oxford Nanopore",
+                "type": "因果",
+                "tail": "读长较长"
+            },
+            {
+                "head": "Illumina",
+                "type": "因果",
+                "tail": "单位碱基成本较低"
+            },
+            {
+                "head": "PacBio",
+                "type": "因果",
+                "tail": "周转时间较短"
+            },
+            {
+                "head": "Oxford Nanopore",
+                "type": "因果",
+                "tail": "周转时间较短"
+            }
+        ]
+    },
+    "status": "success"
+}

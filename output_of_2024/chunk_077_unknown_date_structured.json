@@ -1,0 +1,38 @@
+{
+    "timestamp": "2025-07-07T16:58:36.740852",
+    "filename": "chunk_077_unknown_date.md",
+    "entities": {
+        "chunk_id": "2024-03-02",
+        "entities": [
+            {
+                "name": "One-Hot编码",
+                "type": "深度学习概念"
+            },
+            {
+                "name": "get_dummies",
+                "type": "生物信息工具"
+            }
+        ]
+    },
+    "relations": {
+        "chunk_id": "2024-03-02",
+        "relations": [
+            {
+                "head": "get_dummies",
+                "type": "使用",
+                "tail": "One-Hot编码"
+            },
+            {
+                "head": "One-Hot编码",
+                "type": "属于",
+                "tail": "数据预处理"
+            },
+            {
+                "head": "One-Hot编码",
+                "type": "方法",
+                "tail": "特征数字化"
+            }
+        ]
+    },
+    "status": "success"
+}

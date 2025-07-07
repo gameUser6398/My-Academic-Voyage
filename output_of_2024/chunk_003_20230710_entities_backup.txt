@@ -1,0 +1,39 @@
+
+
+```json
+{
+  "chunk_id": "2024-07-10",
+  "entities": [
+    {"name": "Python", "type": "生物信息工具"},
+    {"name": "Keras", "type": "生物信息工具"},
+    {"name": "bio_embedding", "type": "生物信息工具"},
+    {"name": "h5文件", "type": "生物信息工具"},
+    {"name": "ProtT5", "type": "深度学习概念"},
+    {"name": "词嵌入", "type": "深度学习概念"},
+    {"name": "per-protein", "type": "生物信息工具"},
+    {"name": "per-residue", "type": "生物信息工具"},
+    {"name": "Word2Vec", "type": "深度学习概念"},
+    {"name": "BERT", "type": "深度学习概念"},
+    {"name": "Transformer", "type": "深度学习概念"},
+    {"name": "CNN", "type": "深度学习概念"},
+    {"name": "PyTorch", "type": "生物信息工具"},
+    {"name": "torch张量", "type": "生物信息工具"},
+    {"name": "神经网络", "type": "深度学习概念"},
+    {"name": "hidden_layer_sizes", "type": "深度学习概念"},
+    {"name": "MLP", "type": "深度学习概念"},
+    {"name": "padding", "type": "深度学习概念"},
+    {"name": "亚细胞定位", "type": "生物医学概念"},
+    {"name": "二级结构预测", "type": "生物医学概念"},
+    {"name": "预训练", "type": "深度学习概念"},
+    {"name": "微调", "type": "深度学习概念"},
+    {"name": "BiLSTM", "type": "深度学习概念"},
+    {"name": "解冻", "type": "深度学习概念"},
+    {"name": "卷积", "type": "深度学习概念"},
+    {"name": "预训练权重", "type": "深度学习概念"},
+    {"name": "断点恢复", "type": "深度学习概念"},
+    {"name": "序列相似性", "type": "生物信息工具"},
+    {"name": "RI", "type": "深度学习概念"},
+    {"name": "抗体基因重排", "type": "生物分子"}
+  ]
+}
+```

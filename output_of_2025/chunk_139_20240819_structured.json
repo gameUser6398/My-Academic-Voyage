@@ -1,0 +1,312 @@
+{
+    "timestamp": "2025-07-07T18:40:21.343027",
+    "filename": "chunk_139_20240819.md",
+    "entities": {
+        "chunk_id": "2024-08-19",
+        "entities": [
+            {
+                "name": "Dense层",
+                "type": "深度学习概念"
+            },
+            {
+                "name": "F1-score",
+                "type": "深度学习概念"
+            },
+            {
+                "name": "Conv",
+                "type": "深度学习概念"
+            },
+            {
+                "name": "DeepARG",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "ARGNet",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "Uniprot",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "ARG",
+                "type": "生物分子"
+            },
+            {
+                "name": "Autoencoder",
+                "type": "深度学习概念"
+            },
+            {
+                "name": "DHR",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "无监督",
+                "type": "深度学习概念"
+            },
+            {
+                "name": "有监督",
+                "type": "深度学习概念"
+            },
+            {
+                "name": "对比学习",
+                "type": "深度学习概念"
+            },
+            {
+                "name": "do_retrieval.py",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "GPU",
+                "type": "其他"
+            },
+            {
+                "name": "loss",
+                "type": "深度学习概念"
+            },
+            {
+                "name": "logits",
+                "type": "深度学习概念"
+            },
+            {
+                "name": "padding=same",
+                "type": "深度学习概念"
+            },
+            {
+                "name": "Focal loss",
+                "type": "深度学习概念"
+            },
+            {
+                "name": "gamma",
+                "type": "深度学习概念"
+            },
+            {
+                "name": "Hydra 框架",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "TensorBoard",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "opt",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "torchsummary",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "self-Attention",
+                "type": "深度学习概念"
+            },
+            {
+                "name": "Attention",
+                "type": "深度学习概念"
+            },
+            {
+                "name": "CNN",
+                "type": "深度学习概念"
+            },
+            {
+                "name": "一维卷积",
+                "type": "深度学习概念"
+            },
+            {
+                "name": "base_channels",
+                "type": "深度学习概念"
+            },
+            {
+                "name": "过拟合",
+                "type": "深度学习概念"
+            },
+            {
+                "name": "计算开销",
+                "type": "其他"
+            },
+            {
+                "name": "特征",
+                "type": "其他"
+            },
+            {
+                "name": "row_softmax",
+                "type": "深度学习概念"
+            },
+            {
+                "name": "Sequential_3",
+                "type": "深度学习概念"
+            }
+        ]
+    },
+    "relations": {
+        "chunk_id": "2024-08-19",
+        "relations": [
+            {
+                "head": "ARGNet",
+                "type": "使用",
+                "tail": "无监督"
+            },
+            {
+                "head": "ARGNet",
+                "type": "使用",
+                "tail": "Autoencoder"
+            },
+            {
+                "head": "ARGNet",
+                "type": "属于",
+                "tail": "生物信息工具"
+            },
+            {
+                "head": "ARGNet",
+                "type": "优于",
+                "tail": "DeepARG"
+            },
+            {
+                "head": "DeepARG",
+                "type": "属于",
+                "tail": "生物信息工具"
+            },
+            {
+                "head": "ARGNet",
+                "type": "在...上表现",
+                "tail": "Uniprot"
+            },
+            {
+                "head": "DHR",
+                "type": "属于",
+                "tail": "生物信息工具"
+            },
+            {
+                "head": "DHR",
+                "type": "使用",
+                "tail": "对比学习"
+            },
+            {
+                "head": "DHR",
+                "type": "使用",
+                "tail": "有监督"
+            },
+            {
+                "head": "使用",
+                "type": "使用",
+                "tail": "Conv"
+            },
+            {
+                "head": "使用",
+                "type": "使用",
+                "tail": "Dense层"
+            },
+            {
+                "head": "使用",
+                "type": "使用",
+                "tail": "self-Attention"
+            },
+            {
+                "head": "使用",
+                "type": "使用",
+                "tail": "row_softmax"
+            },
+            {
+                "head": "使用",
+                "type": "使用",
+                "tail": "Sequential_3"
+            },
+            {
+                "head": "使用",
+                "type": "使用",
+                "tail": "Focal loss"
+            },
+            {
+                "head": "Focal loss",
+                "type": "调控",
+                "tail": "F1-score"
+            },
+            {
+                "head": "Focal loss",
+                "type": "包含",
+                "tail": "gamma"
+            },
+            {
+                "head": "使用",
+                "type": "使用",
+                "tail": "GPU"
+            },
+            {
+                "head": "使用",
+                "type": "使用",
+                "tail": "TensorBoard"
+            },
+            {
+                "head": "使用",
+                "type": "使用",
+                "tail": "opt"
+            },
+            {
+                "head": "使用",
+                "type": "使用",
+                "tail": "torchsummary"
+            },
+            {
+                "head": "使用",
+                "type": "使用",
+                "tail": "Hydra 框架"
+            },
+            {
+                "head": "使用",
+                "type": "使用",
+                "tail": "do_retrieval.py"
+            },
+            {
+                "head": "一维卷积",
+                "type": "属于",
+                "tail": "深度学习概念"
+            },
+            {
+                "head": "Attention",
+                "type": "属于",
+                "tail": "深度学习概念"
+            },
+            {
+                "head": "self-Attention",
+                "type": "属于",
+                "tail": "深度学习概念"
+            },
+            {
+                "head": "base_channels",
+                "type": "属于",
+                "tail": "深度学习概念"
+            },
+            {
+                "head": "padding=same",
+                "type": "属于",
+                "tail": "深度学习概念"
+            },
+            {
+                "head": "无监督",
+                "type": "属于",
+                "tail": "深度学习概念"
+            },
+            {
+                "head": "有监督",
+                "type": "属于",
+                "tail": "深度学习概念"
+            },
+            {
+                "head": "过拟合",
+                "type": "属于",
+                "tail": "深度学习概念"
+            },
+            {
+                "head": "计算开销",
+                "type": "属于",
+                "tail": "其他"
+            },
+            {
+                "head": "特征",
+                "type": "属于",
+                "tail": "其他"
+            }
+        ]
+    },
+    "status": "success"
+}

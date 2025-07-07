@@ -1,0 +1,17 @@
+
+
+{
+  "chunk_id": "2024-03-02",
+  "entities": [
+    {"name": "SMOTE", "type": "生物信息工具"},
+    {"name": "GAN", "type": "深度学习概念"},
+    {"name": "Transformer", "type": "深度学习概念"},
+    {"name": "loss", "type": "深度学习概念"},
+    {"name": "embedding", "type": "深度学习概念"},
+    {"name": "SGBs", "type": "深度学习概念"},
+    {"name": "多标签分类", "type": "其他"},
+    {"name": "数据不平衡", "type": "其他"},
+    {"name": "微调", "type": "深度学习概念"},
+    {"name": "上采样", "type": "生物信息工具"}
+  ]
+}

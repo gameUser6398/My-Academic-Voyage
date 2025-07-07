@@ -1,0 +1,13 @@
+
+
+{
+  "chunk_id": "2023-05-22",
+  "relations": [
+    {"head": "深度学习", "type": "包含", "tail": "卷积神经网络"},
+    {"head": "深度学习", "type": "包含", "tail": "调参"},
+    {"head": "卷积神经网络", "type": "属于", "tail": "深度学习概念"},
+    {"head": "蛋白质", "type": "使用", "tail": "onehot"},
+    {"head": "CNN", "type": "使用", "tail": "文本向量化"},
+    {"head": "CNN", "type": "使用", "tail": "局部特征提取"}
+  ]
+}

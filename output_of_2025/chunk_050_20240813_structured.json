@@ -1,0 +1,538 @@
+{
+    "timestamp": "2025-07-07T17:50:57.427854",
+    "filename": "chunk_050_20240813.md",
+    "entities": {
+        "chunk_id": "2024-03-02",
+        "entities": [
+            {
+                "name": "ARG",
+                "type": "生物分子"
+            },
+            {
+                "name": "β-内酰胺酶",
+                "type": "生物分子"
+            },
+            {
+                "name": "β-内酰胺类抗生素",
+                "type": "生物分子"
+            },
+            {
+                "name": "抗生素耐药性",
+                "type": "生物医学概念"
+            },
+            {
+                "name": "抗生素外排efflux",
+                "type": "生物医学概念"
+            },
+            {
+                "name": "抗生素失活",
+                "type": "生物医学概念"
+            },
+            {
+                "name": "抗生素靶标交替",
+                "type": "生物医学概念"
+            },
+            {
+                "name": "抗生素靶标保护",
+                "type": "生物医学概念"
+            },
+            {
+                "name": "抗生素替代",
+                "type": "生物医学概念"
+            },
+            {
+                "name": "基因迁移率",
+                "type": "生物医学概念"
+            },
+            {
+                "name": "HMD-ARG",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "CARD",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "AMRFinder",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "ResFinder",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "ARG-ANNOT",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "DeepARG",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "MEGARes",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "Resfams",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "深度学习模型",
+                "type": "深度学习概念"
+            },
+            {
+                "name": "多任务学习",
+                "type": "深度学习概念"
+            },
+            {
+                "name": "损失函数",
+                "type": "深度学习概念"
+            },
+            {
+                "name": "卷积层",
+                "type": "深度学习概念"
+            },
+            {
+                "name": "池化层",
+                "type": "深度学习概念"
+            },
+            {
+                "name": "全连接层",
+                "type": "深度学习概念"
+            },
+            {
+                "name": "one-hot",
+                "type": "深度学习概念"
+            },
+            {
+                "name": "文献调研",
+                "type": "项目活动"
+            },
+            {
+                "name": "数据集策划",
+                "type": "项目活动"
+            },
+            {
+                "name": "样本采集",
+                "type": "项目活动"
+            },
+            {
+                "name": "样本处理筛选",
+                "type": "项目活动"
+            },
+            {
+                "name": "TEM-1",
+                "type": "生物分子"
+            },
+            {
+                "name": "SHV-1",
+                "type": "生物分子"
+            },
+            {
+                "name": "NDM-1",
+                "type": "生物分子"
+            },
+            {
+                "name": "VIM-2",
+                "type": "生物分子"
+            },
+            {
+                "name": "IMP-1",
+                "type": "生物分子"
+            },
+            {
+                "name": "CphA",
+                "type": "生物分子"
+            },
+            {
+                "name": "L1",
+                "type": "生物分子"
+            },
+            {
+                "name": "P99",
+                "type": "生物分子"
+            },
+            {
+                "name": "FOX-4",
+                "type": "生物分子"
+            },
+            {
+                "name": "OXA-1",
+                "type": "生物分子"
+            },
+            {
+                "name": "OXA-11",
+                "type": "生物分子"
+            },
+            {
+                "name": "CepA",
+                "type": "生物分子"
+            },
+            {
+                "name": "KPC-2",
+                "type": "生物分子"
+            },
+            {
+                "name": "环内酯类-林可酰胺-链球菌素 (MLS)",
+                "type": "生物医学概念"
+            },
+            {
+                "name": "四环素",
+                "type": "生物医学概念"
+            },
+            {
+                "name": "喹诺酮类",
+                "type": "生物医学概念"
+            },
+            {
+                "name": "氨基糖苷类药物",
+                "type": "生物医学概念"
+            },
+            {
+                "name": "杆菌肽",
+                "type": "生物医学概念"
+            },
+            {
+                "name": "磷霉素",
+                "type": "生物医学概念"
+            },
+            {
+                "name": "糖肽",
+                "type": "生物医学概念"
+            },
+            {
+                "name": "氯霉素",
+                "type": "生物医学概念"
+            },
+            {
+                "name": "利福平",
+                "type": "生物医学概念"
+            },
+            {
+                "name": "磺胺类药物",
+                "type": "生物医学概念"
+            },
+            {
+                "name": "甲氧苄啶类药物",
+                "type": "生物医学概念"
+            },
+            {
+                "name": "多粘菌素",
+                "type": "生物医学概念"
+            },
+            {
+                "name": "多种药物",
+                "type": "生物医学概念"
+            },
+            {
+                "name": "其他药物",
+                "type": "生物医学概念"
+            },
+            {
+                "name": "ARGNet",
+                "type": "生物信息工具"
+            }
+        ]
+    },
+    "relations": {
+        "chunk_id": "2024-03-02",
+        "relations": [
+            {
+                "head": "HMD-ARG",
+                "type": "使用",
+                "tail": "深度学习模型"
+            },
+            {
+                "head": "HMD-ARG",
+                "type": "使用",
+                "tail": "多任务学习"
+            },
+            {
+                "head": "HMD-ARG",
+                "type": "使用",
+                "tail": "one-hot"
+            },
+            {
+                "head": "HMD-ARG",
+                "type": "使用",
+                "tail": "卷积层"
+            },
+            {
+                "head": "HMD-ARG",
+                "type": "使用",
+                "tail": "池化层"
+            },
+            {
+                "head": "HMD-ARG",
+                "type": "使用",
+                "tail": "全连接层"
+            },
+            {
+                "head": "HMD-ARG",
+                "type": "使用",
+                "tail": "损失函数"
+            },
+            {
+                "head": "HMD-ARG",
+                "type": "包含",
+                "tail": "β-内酰胺酶"
+            },
+            {
+                "head": "HMD-ARG",
+                "type": "包含",
+                "tail": "抗生素外排efflux"
+            },
+            {
+                "head": "HMD-ARG",
+                "type": "包含",
+                "tail": "抗生素失活"
+            },
+            {
+                "head": "HMD-ARG",
+                "type": "包含",
+                "tail": "抗生素靶标交替"
+            },
+            {
+                "head": "HMD-ARG",
+                "type": "包含",
+                "tail": "抗生素靶标保护"
+            },
+            {
+                "head": "HMD-ARG",
+                "type": "包含",
+                "tail": "抗生素替代"
+            },
+            {
+                "head": "HMD-ARG",
+                "type": "包含",
+                "tail": "基因迁移率"
+            },
+            {
+                "head": "HMD-ARG",
+                "type": "使用",
+                "tail": "CARD"
+            },
+            {
+                "head": "HMD-ARG",
+                "type": "使用",
+                "tail": "AMRFinder"
+            },
+            {
+                "head": "HMD-ARG",
+                "type": "使用",
+                "tail": "ResFinder"
+            },
+            {
+                "head": "HMD-ARG",
+                "type": "使用",
+                "tail": "ARG-ANNOT"
+            },
+            {
+                "head": "HMD-ARG",
+                "type": "使用",
+                "tail": "DeepARG"
+            },
+            {
+                "head": "HMD-ARG",
+                "type": "使用",
+                "tail": "MEGARes"
+            },
+            {
+                "head": "HMD-ARG",
+                "type": "使用",
+                "tail": "Resfams"
+            },
+            {
+                "head": "β-内酰胺酶",
+                "type": "属于",
+                "tail": "抗生素耐药性"
+            },
+            {
+                "head": "β-内酰胺酶",
+                "type": "调控",
+                "tail": "β-内酰胺类抗生素"
+            },
+            {
+                "head": "β-内酰胺酶",
+                "type": "属于",
+                "tail": "生物分子"
+            },
+            {
+                "head": "TEM-1",
+                "type": "属于",
+                "tail": "A类"
+            },
+            {
+                "head": "SHV-1",
+                "type": "属于",
+                "tail": "A类"
+            },
+            {
+                "head": "NDM-1",
+                "type": "属于",
+                "tail": "B1类"
+            },
+            {
+                "head": "VIM-2",
+                "type": "属于",
+                "tail": "B1类"
+            },
+            {
+                "head": "IMP-1",
+                "type": "属于",
+                "tail": "B1类"
+            },
+            {
+                "head": "CphA",
+                "type": "属于",
+                "tail": "B2类"
+            },
+            {
+                "head": "L1",
+                "type": "属于",
+                "tail": "B2类"
+            },
+            {
+                "head": "P99",
+                "type": "属于",
+                "tail": "C类"
+            },
+            {
+                "head": "FOX-4",
+                "type": "属于",
+                "tail": "C类"
+            },
+            {
+                "head": "OXA-1",
+                "type": "属于",
+                "tail": "D类"
+            },
+            {
+                "head": "OXA-11",
+                "type": "属于",
+                "tail": "D类"
+            },
+            {
+                "head": "CepA",
+                "type": "属于",
+                "tail": "D类"
+            },
+            {
+                "head": "KPC-2",
+                "type": "属于",
+                "tail": "D类"
+            },
+            {
+                "head": "数据集策划",
+                "type": "属于",
+                "tail": "项目活动"
+            },
+            {
+                "head": "样本处理筛选",
+                "type": "属于",
+                "tail": "项目活动"
+            },
+            {
+                "head": "HMD-ARG",
+                "type": "属于",
+                "tail": "生物信息工具"
+            },
+            {
+                "head": "ARGNet",
+                "type": "属于",
+                "tail": "生物信息工具"
+            },
+            {
+                "head": "ARGNet",
+                "type": "使用",
+                "tail": "深度神经网络"
+            },
+            {
+                "head": "β-内酰胺酶",
+                "type": "属于",
+                "tail": "生物分子"
+            },
+            {
+                "head": "β-内酰胺类抗生素",
+                "type": "属于",
+                "tail": "生物医学概念"
+            },
+            {
+                "head": "文献调研",
+                "type": "属于",
+                "tail": "项目活动"
+            },
+            {
+                "head": "HMD-ARG",
+                "type": "属于",
+                "tail": "生物信息工具"
+            },
+            {
+                "head": "多任务学习",
+                "type": "属于",
+                "tail": "深度学习概念"
+            },
+            {
+                "head": "one-hot",
+                "type": "属于",
+                "tail": "深度学习概念"
+            },
+            {
+                "head": "卷积层",
+                "type": "属于",
+                "tail": "深度学习概念"
+            },
+            {
+                "head": "池化层",
+                "type": "属于",
+                "tail": "深度学习概念"
+            },
+            {
+                "head": "全连接层",
+                "type": "属于",
+                "tail": "深度学习概念"
+            },
+            {
+                "head": "损失函数",
+                "type": "属于",
+                "tail": "深度学习概念"
+            },
+            {
+                "head": "抗生素耐药性",
+                "type": "属于",
+                "tail": "生物医学概念"
+            },
+            {
+                "head": "基因迁移率",
+                "type": "属于",
+                "tail": "生物医学概念"
+            },
+            {
+                "head": "β-内酰胺酶",
+                "type": "属于",
+                "tail": "A类"
+            },
+            {
+                "head": "β-内酰胺酶",
+                "type": "属于",
+                "tail": "B1类"
+            },
+            {
+                "head": "β-内酰胺酶",
+                "type": "属于",
+                "tail": "B2类"
+            },
+            {
+                "head": "β-内酰胺酶",
+                "type": "属于",
+                "tail": "C类"
+            },
+            {
+                "head": "β-内酰胺酶",
+                "type": "属于",
+                "tail": "D类"
+            }
+        ]
+    },
+    "status": "success"
+}

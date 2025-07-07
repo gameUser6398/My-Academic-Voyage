@@ -1,0 +1,14 @@
+
+
+```json
+{
+  "chunk_id": "2024-04-05",
+  "relations": [
+    {"head": "Anaconda", "type": "属于", "tail": "root用户"},
+    {"head": "Python", "type": "属于", "tail": "不同用户"},
+    {"head": "Keras", "type": "使用", "tail": "TensorFlow"},
+    {"head": "TensorRT", "type": "因果", "tail": "安装失败"},
+    {"head": "ECS服务器", "type": "属于", "tail": "2023年6月12日"}
+  ]
+}
+```

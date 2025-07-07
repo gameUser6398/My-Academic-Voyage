@@ -1,0 +1,25 @@
+
+
+```json
+{
+  "chunk_id": "2024-03-02",
+  "entities": [
+    {"name": "蛋白质组学", "type": "生物技术"},
+    {"name": "基因组学", "type": "生物技术"},
+    {"name": "生物序列", "type": "生物分子"},
+    {"name": "one-hot", "type": "深度学习概念"},
+    {"name": "Embedding", "type": "深度学习概念"},
+    {"name": "稀疏矩阵", "type": "深度学习概念"},
+    {"name": "数据降维", "type": "深度学习概念"},
+    {"name": "词向量", "type": "深度学习概念"},
+    {"name": "Word2Vec", "type": "深度学习概念"},
+    {"name": "Python", "type": "生物信息工具"},
+    {"name": "gensim", "type": "生物信息工具"},
+    {"name": "BERT", "type": "深度学习概念"},
+    {"name": "Transformer", "type": "深度学习概念"},
+    {"name": "Bi-directional Long Short-Term Memory", "type": "深度学习概念"},
+    {"name": "BiLSTM", "type": "深度学习概念"},
+    {"name": "蛋白质功能预测", "type": "生物技术"}
+  ]
+}
+```

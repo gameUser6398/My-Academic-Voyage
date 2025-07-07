@@ -1,0 +1,28 @@
+
+
+{
+  "chunk_id": "2024-04-21_9_04",
+  "relations": [
+    {"head": "RUN", "type": "属于", "tail": "测序仪"},
+    {"head": "RUN", "type": "属于", "tail": "SRA"},
+    {"head": "STUDY", "type": "包含", "tail": "SAMPLE"},
+    {"head": "SAMPLE", "type": "包含", "tail": "EXPERIMENT"},
+    {"head": "EXPERIMENT", "type": "包含", "tail": "RUN"},
+    {"head": "RUN", "type": "属于", "tail": "ACCESSION IDs"},
+    {"head": "SRP", "type": "属于", "tail": "ACCESSION IDs"},
+    {"head": "ERP", "type": "属于", "tail": "ACCESSION IDs"},
+    {"head": "DRP", "type": "属于", "tail": "ACCESSION IDs"},
+    {"head": "SRS", "type": "属于", "tail": "ACCESSION IDs"},
+    {"head": "ERS", "type": "属于", "tail": "ACCESSION IDs"},
+    {"head": "DRS", "type": "属于", "tail": "ACCESSION IDs"},
+    {"head": "SRX", "type": "属于", "tail": "ACCESSION IDs"},
+    {"head": "ERX", "type": "属于", "tail": "ACCESSION IDs"},
+    {"head": "DRX", "type": "属于", "tail": "ACCESSION IDs"},
+    {"head": "SRR", "type": "属于", "tail": "ACCESSION IDs"},
+    {"head": "ERR", "type": "属于", "tail": "ACCESSION IDs"},
+    {"head": "DRR", "type": "属于", "tail": "ACCESSION IDs"},
+    {"head": "PRJNA", "type": "属于", "tail": "ACCESSION IDs"},
+    {"head": "GSE", "type": "属于", "tail": "ACCESSION IDs"},
+    {"head": "WGS", "type": "使用", "tail": "测序仪"}
+  ]
+}

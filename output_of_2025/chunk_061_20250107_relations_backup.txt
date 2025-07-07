@@ -1,0 +1,42 @@
+
+
+```json
+{
+  "chunk_id": "2024-03-02",
+  "relations": [
+    {"head": "RND", "type": "包含", "tail": "AcrB"},
+    {"head": "RND", "type": "包含", "tail": "MexB"},
+    {"head": "RND", "type": "调控", "tail": "多药耐药性"},
+    {"head": "RND", "type": "属于", "tail": "外排泵"},
+    {"head": "AcrB", "type": "属于", "tail": "大肠杆菌"},
+    {"head": "MexB", "type": "属于", "tail": "铜绿假单胞菌"},
+    {"head": "TolC", "type": "属于", "tail": "大肠杆菌"},
+    {"head": "OprM", "type": "属于", "tail": "铜绿假单胞菌"},
+    {"head": "TolC", "type": "属于", "tail": "OMF"},
+    {"head": "OprM", "type": "属于", "tail": "OMF"},
+    {"head": "AcrA", "type": "属于", "tail": "大肠杆菌"},
+    {"head": "MexA", "type": "属于", "tail": "铜绿假单胞菌"},
+    {"head": "AcrA", "type": "属于", "tail": "MFP"},
+    {"head": "MexA", "type": "属于", "tail": "MFP"},
+    {"head": "RND", "type": "包含", "tail": "OMF"},
+    {"head": "RND", "type": "包含", "tail": "MFP"},
+    {"head": "RND", "type": "导致", "tail": "MDR"},
+    {"head": "RND", "type": "导致", "tail": "抗生素耐药性"},
+    {"head": "NorA", "type": "属于", "tail": "金黄色葡萄球菌"},
+    {"head": "P55", "type": "属于", "tail": "结核分枝杆菌"},
+    {"head": "NorA", "type": "属于", "tail": "主要促进子超家族"},
+    {"head": "P55", "type": "属于", "tail": "主要促进子超家族"},
+    {"head": "MMR", "type": "属于", "tail": "结核分枝杆菌"},
+    {"head": "MMR", "type": "导致", "tail": "抗生素耐药性"},
+    {"head": "mmpL7", "type": "属于", "tail": "结核分枝杆菌"},
+    {"head": "Rv1258c", "type": "属于", "tail": "结核分枝杆菌"},
+    {"head": "efpA", "type": "属于", "tail": "结核分枝杆菌"},
+    {"head": "MMR", "type": "导致", "tail": "抗生素耐药性"},
+    {"head": "mmpL7", "type": "导致", "tail": "抗生素耐药性"},
+    {"head": "Rv1258c", "type": "导致", "tail": "抗生素耐药性"},
+    {"head": "efpA", "type": "导致", "tail": "抗生素耐药性"},
+    {"head": "P55", "type": "导致", "tail": "抗生素耐药性"},
+    {"head": "抗生素使用", "type": "因果", "tail": "抗生素耐药性"}
+  ]
+}
+```

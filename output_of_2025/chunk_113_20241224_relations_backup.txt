@@ -1,0 +1,23 @@
+
+
+```json
+{
+  "chunk_id": "2024-03-02",
+  "relations": [
+    {"head": "RAG", "type": "属于", "tail": "基础知识"},
+    {"head": "腾讯云", "type": "使用", "tail": "RAG"},
+    {"head": "MultiLabelBinarizer", "type": "属于", "tail": "多分类模型"},
+    {"head": "One vs All", "type": "属于", "tail": "多分类模型"},
+    {"head": "深度度量学习", "type": "属于", "tail": "监督学习"},
+    {"head": "深度度量学习", "type": "属于", "tail": "弱监督学习"},
+    {"head": "对比损失", "type": "属于", "tail": "深度度量学习"},
+    {"head": "深度残差收缩网络", "type": "使用", "tail": "软阈值化"},
+    {"head": "First-Order Strategy", "type": "属于", "tail": "多标签学习算法"},
+    {"head": "First-Order Strategy", "type": "使用", "tail": "One vs All"},
+    {"head": "Second-Order Strategy", "type": "属于", "tail": "多标签学习算法"},
+    {"head": "High-Order Strategy", "type": "属于", "tail": "多标签学习算法"},
+    {"head": "对比学习", "type": "应用", "tail": "风控领域"},
+    {"head": "数据库", "type": "属于", "tail": "基础知识"}
+  ]
+}
+```

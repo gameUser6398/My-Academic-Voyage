@@ -1,0 +1,21 @@
+
+
+```json
+{
+  "chunk_id": "2024-03-02",
+  "entities": [
+    {"name": "generate_embd.py", "type": "其他"},
+    {"name": "h5", "type": "生物信息工具"},
+    {"name": "all_ids.npy", "type": "其他"},
+    {"name": "all_embds.npy", "type": "其他"},
+    {"name": "protein_name", "type": "生物分子"},
+    {"name": "embd_Series.csv", "type": "其他"},
+    {"name": "csv", "type": "生物信息工具"},
+    {"name": "npy", "type": "生物信息工具"},
+    {"name": "select_train_embd.py", "type": "其他"},
+    {"name": "np.array", "type": "生物信息工具"},
+    {"name": "True", "type": "其他"},
+    {"name": "False", "type": "其他"}
+  ]
+}
+```

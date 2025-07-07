@@ -1,0 +1,16 @@
+
+
+```json
+{
+  "chunk_id": "2024-03-02",
+  "entities": [
+    {"name": "wget", "type": "生物信息工具"},
+    {"name": "conda create", "type": "生物信息工具"},
+    {"name": "loss", "type": "深度学习概念"},
+    {"name": "梯度归零", "type": "深度学习概念"},
+    {"name": "batch_size", "type": "深度学习概念"},
+    {"name": "Focalloss", "type": "深度学习概念"},
+    {"name": "激活函数", "type": "深度学习概念"}
+  ]
+}
+```

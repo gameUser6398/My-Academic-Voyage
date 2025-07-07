@@ -1,0 +1,29 @@
+
+
+{
+  "chunk_id": "2024-01-25",
+  "entities": [
+    {"name": "数据不平衡", "type": "其他"},
+    {"name": "ProteinGAN", "type": "深度学习概念"},
+    {"name": "Chroma", "type": "深度学习概念"},
+    {"name": "序列", "type": "生物分子"},
+    {"name": "GPU", "type": "生物信息工具"},
+    {"name": "colab平台", "type": "生物信息工具"},
+    {"name": "GO", "type": "生物分子"},
+    {"name": "蛋白", "type": "生物分子"},
+    {"name": "PDB", "type": "生物分子"},
+    {"name": "基因本体", "type": "生物分子"},
+    {"name": "负注释", "type": "生物信息工具"},
+    {"name": "Alex Warwick Vesztrocy", "type": "其他"},
+    {"name": "Christophe Dessimoz", "type": "其他"},
+    {"name": "生物信息学", "type": "生物信息工具"},
+    {"name": "IC", "type": "生物信息工具"},
+    {"name": "GO:0001906", "type": "生物分子"},
+    {"name": "MSA", "type": "生物信息工具"},
+    {"name": "蛋白资源", "type": "生物分子"},
+    {"name": "同源性", "type": "生物分子"},
+    {"name": "任务分工", "type": "项目活动"},
+    {"name": "文献调研", "type": "项目活动"},
+    {"name": "序列相似性", "type": "生物分子"}
+  ]
+}

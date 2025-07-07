@@ -1,0 +1,25 @@
+
+
+```json
+{
+  "chunk_id": "2024-03-02",
+  "relations": [
+    {"head": "NLP", "type": "使用", "tail": "RNN"},
+    {"head": "RNN", "type": "使用", "tail": "LSTM"},
+    {"head": "LSTM", "type": "包含", "tail": "遗忘门"},
+    {"head": "LSTM", "type": "包含", "tail": "输入门"},
+    {"head": "LSTM", "type": "包含", "tail": "输出门"},
+    {"head": "RNN", "type": "属于", "tail": "深度学习概念"},
+    {"head": "LSTM", "type": "属于", "tail": "深度学习概念"},
+    {"head": "NLP", "type": "使用", "tail": "PyTorch"},
+    {"head": "LSTM", "type": "使用", "tail": "output"},
+    {"head": "output", "type": "用于", "tail": "loss计算"},
+    {"head": "RNN", "type": "使用", "tail": "hidden"},
+    {"head": "RNN", "type": "使用", "tail": "cell"},
+    {"head": "RNN", "type": "使用", "tail": "output"},
+    {"head": "loss", "type": "依赖", "tail": "output"},
+    {"head": "RNN", "type": "结合", "tail": "CNN"},
+    {"head": "LSTM", "type": "结合", "tail": "self-attention机制"}
+  ]
+}
+```

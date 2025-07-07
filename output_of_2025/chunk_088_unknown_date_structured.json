@@ -1,0 +1,140 @@
+{
+    "timestamp": "2025-07-07T17:51:32.125795",
+    "filename": "chunk_088_unknown_date.md",
+    "entities": {
+        "chunk_id": "2024-03-02",
+        "entities": [
+            {
+                "name": "datasets",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "dataformat",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "conda",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "CLI工具",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "GCF_000001405.40",
+                "type": "生物分子"
+            },
+            {
+                "name": "Mycobacterium tuberculosis",
+                "type": "生物分子"
+            },
+            {
+                "name": "SRA",
+                "type": "生物技术"
+            },
+            {
+                "name": "Entrez",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "Python",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "os.system",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "os.popen",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "commands",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "subprocess",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "样本采集",
+                "type": "项目活动"
+            },
+            {
+                "name": "文献调研",
+                "type": "项目活动"
+            }
+        ]
+    },
+    "relations": {
+        "chunk_id": "2024-03-02",
+        "relations": [
+            {
+                "head": "命令行工具",
+                "type": "包含",
+                "tail": "datasets"
+            },
+            {
+                "head": "命令行工具",
+                "type": "包含",
+                "tail": "dataformat"
+            },
+            {
+                "head": "conda",
+                "type": "使用",
+                "tail": "CLI工具"
+            },
+            {
+                "head": "datasets",
+                "type": "使用",
+                "tail": "SRA"
+            },
+            {
+                "head": "dataformat",
+                "type": "使用",
+                "tail": "SRA"
+            },
+            {
+                "head": "datasets",
+                "type": "使用",
+                "tail": "GCF_000001405.40"
+            },
+            {
+                "head": "datasets",
+                "type": "使用",
+                "tail": "Mycobacterium tuberculosis"
+            },
+            {
+                "head": "Python",
+                "type": "使用",
+                "tail": "os.system"
+            },
+            {
+                "head": "Python",
+                "type": "使用",
+                "tail": "os.popen"
+            },
+            {
+                "head": "Python",
+                "type": "使用",
+                "tail": "commands"
+            },
+            {
+                "head": "Python",
+                "type": "使用",
+                "tail": "subprocess"
+            },
+            {
+                "head": "样本采集",
+                "type": "使用",
+                "tail": "SRA"
+            },
+            {
+                "head": "文献调研",
+                "type": "使用",
+                "tail": "Entrez"
+            }
+        ]
+    },
+    "status": "success"
+}

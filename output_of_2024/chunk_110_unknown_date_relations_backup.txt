@@ -1,0 +1,18 @@
+
+
+```json
+{
+  "chunk_id": "2024-03-02",
+  "relations": [
+    {"head": "Discriminator", "type": "使用", "tail": "leakRELU"},
+    {"head": "Discriminator", "type": "使用", "tail": "Linear"},
+    {"head": "Discriminator", "type": "使用", "tail": "SelfAttention"},
+    {"head": "y标签", "type": "属于", "tail": "数据"},
+    {"head": "特征提", "type": "属于", "tail": "降维到"},
+    {"head": "融合", "type": "属于", "tail": "特征提"},
+    {"head": "Discriminator", "type": "包含", "tail": "leakRELU"},
+    {"head": "Discriminator", "type": "包含", "tail": "Linear"},
+    {"head": "Discriminator", "type": "包含", "tail": "SelfAttention"}
+  ]
+}
+```

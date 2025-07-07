@@ -1,0 +1,557 @@
+{
+    "timestamp": "2025-07-07T20:07:13.933759",
+    "filename": "chunk_080_20230529_split_2.md",
+    "entities": {
+        "chunk_id": "2024-03-02",
+        "entities": [
+            {
+                "name": "ConsensusPathDB",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "蛋白质",
+                "type": "生物分子"
+            },
+            {
+                "name": "基因调控",
+                "type": "生物分子"
+            },
+            {
+                "name": "HPRD",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "蛋白质互作",
+                "type": "生物分子"
+            },
+            {
+                "name": "亚细胞定位",
+                "type": "生物分子"
+            },
+            {
+                "name": "结构域",
+                "type": "生物分子"
+            },
+            {
+                "name": "转录后修饰",
+                "type": "生物分子"
+            },
+            {
+                "name": "BLAST",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "STITCH",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "化合物",
+                "type": "生物分子"
+            },
+            {
+                "name": "3DID",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "结构域",
+                "type": "生物分子"
+            },
+            {
+                "name": "基序",
+                "type": "生物分子"
+            },
+            {
+                "name": "GO编码",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "PDB ID",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "PiSite",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "PhosphoSitePlus",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "磷酸化",
+                "type": "生物分子"
+            },
+            {
+                "name": "甲基化",
+                "type": "生物分子"
+            },
+            {
+                "name": "乙酰化",
+                "type": "生物分子"
+            },
+            {
+                "name": "泛素化",
+                "type": "生物分子"
+            },
+            {
+                "name": "PTMs",
+                "type": "生物分子"
+            },
+            {
+                "name": "UNIMOD",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "dbPTM",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "翻译后修饰",
+                "type": "生物分子"
+            },
+            {
+                "name": "二级结构",
+                "type": "生物分子"
+            },
+            {
+                "name": "三级结构",
+                "type": "生物分子"
+            },
+            {
+                "name": "PLMD",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "PTM-疾病关联",
+                "type": "生物分子"
+            },
+            {
+                "name": "Delta Mass",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "PDB",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "X射线单晶衍射",
+                "type": "生物技术"
+            },
+            {
+                "name": "核磁共振",
+                "type": "生物技术"
+            },
+            {
+                "name": "电子衍射",
+                "type": "生物技术"
+            },
+            {
+                "name": "原子坐标",
+                "type": "生物分子"
+            },
+            {
+                "name": "SARST",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "结构相似性搜索",
+                "type": "生物技术"
+            },
+            {
+                "name": "CAFA",
+                "type": "其他"
+            },
+            {
+                "name": "Directed Acyclic Graph",
+                "type": "深度学习概念"
+            },
+            {
+                "name": "DAG",
+                "type": "深度学习概念"
+            },
+            {
+                "name": "obonet",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "t-SNE",
+                "type": "深度学习概念"
+            },
+            {
+                "name": "降维算法",
+                "type": "深度学习概念"
+            },
+            {
+                "name": "UniProtKB",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "reviewed: true",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "ProtT5",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "蛋白质包埋",
+                "type": "深度学习概念"
+            },
+            {
+                "name": "pre-protein嵌入",
+                "type": "深度学习概念"
+            },
+            {
+                "name": "pre-residue嵌入",
+                "type": "深度学习概念"
+            },
+            {
+                "name": "Biopython",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "Bio.SeqIO",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "fasta文件",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "NGLview",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "jupyterLab",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "PDB结构",
+                "type": "生物分子"
+            },
+            {
+                "name": "基因本体",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "GO",
+                "type": "生物信息工具"
+            }
+        ]
+    },
+    "relations": {
+        "chunk_id": "2024-03-02",
+        "relations": [
+            {
+                "head": "ConsensusPathDB",
+                "type": "包含",
+                "tail": "蛋白质互作"
+            },
+            {
+                "head": "ConsensusPathDB",
+                "type": "包含",
+                "tail": "生化反应"
+            },
+            {
+                "head": "ConsensusPathDB",
+                "type": "包含",
+                "tail": "基因调控"
+            },
+            {
+                "head": "HPRD",
+                "type": "包含",
+                "tail": "蛋白质互作"
+            },
+            {
+                "head": "HPRD",
+                "type": "包含",
+                "tail": "亚细胞定位"
+            },
+            {
+                "head": "HPRD",
+                "type": "包含",
+                "tail": "结构域"
+            },
+            {
+                "head": "HPRD",
+                "type": "包含",
+                "tail": "转录后修饰"
+            },
+            {
+                "head": "HPRD",
+                "type": "包含",
+                "tail": "信号通路合集"
+            },
+            {
+                "head": "HPRD",
+                "type": "使用",
+                "tail": "BLAST"
+            },
+            {
+                "head": "STITCH",
+                "type": "包含",
+                "tail": "化合物"
+            },
+            {
+                "head": "STITCH",
+                "type": "包含",
+                "tail": "蛋白质"
+            },
+            {
+                "head": "3DID",
+                "type": "使用",
+                "tail": "结构域"
+            },
+            {
+                "head": "3DID",
+                "type": "使用",
+                "tail": "基序"
+            },
+            {
+                "head": "3DID",
+                "type": "使用",
+                "tail": "GO编码"
+            },
+            {
+                "head": "3DID",
+                "type": "使用",
+                "tail": "PDB ID"
+            },
+            {
+                "head": "PiSite",
+                "type": "基于",
+                "tail": "PDB"
+            },
+            {
+                "head": "PhosphoSitePlus",
+                "type": "包含",
+                "tail": "磷酸化"
+            },
+            {
+                "head": "PhosphoSitePlus",
+                "type": "包含",
+                "tail": "甲基化"
+            },
+            {
+                "head": "PhosphoSitePlus",
+                "type": "包含",
+                "tail": "乙酰化"
+            },
+            {
+                "head": "PhosphoSitePlus",
+                "type": "包含",
+                "tail": "泛素化"
+            },
+            {
+                "head": "PhosphoSitePlus",
+                "type": "包含",
+                "tail": "PTMs"
+            },
+            {
+                "head": "PhosphoSitePlus",
+                "type": "交叉应用",
+                "tail": "NCBI"
+            },
+            {
+                "head": "PhosphoSitePlus",
+                "type": "交叉应用",
+                "tail": "SwissProt"
+            },
+            {
+                "head": "PhosphoSitePlus",
+                "type": "交叉应用",
+                "tail": "PDB"
+            },
+            {
+                "head": "UNIMOD",
+                "type": "包含",
+                "tail": "翻译后修饰"
+            },
+            {
+                "head": "dbPTM",
+                "type": "包含",
+                "tail": "PTM"
+            },
+            {
+                "head": "dbPTM",
+                "type": "包含",
+                "tail": "二级结构"
+            },
+            {
+                "head": "dbPTM",
+                "type": "包含",
+                "tail": "结构域"
+            },
+            {
+                "head": "dbPTM",
+                "type": "包含",
+                "tail": "蛋白互作"
+            },
+            {
+                "head": "dbPTM",
+                "type": "包含",
+                "tail": "三级结构"
+            },
+            {
+                "head": "CPLM/PLMD",
+                "type": "包含",
+                "tail": "PTM位点"
+            },
+            {
+                "head": "CPLM/PLMD",
+                "type": "包含",
+                "tail": "PTM-疾病关联"
+            },
+            {
+                "head": "CPLM/PLMD",
+                "type": "包含",
+                "tail": "疾病交叉注释"
+            },
+            {
+                "head": "CPLM/PLMD",
+                "type": "用于",
+                "tail": "富集分析"
+            },
+            {
+                "head": "CPLM/PLMD",
+                "type": "用于",
+                "tail": "通路分析"
+            },
+            {
+                "head": "Delta Mass",
+                "type": "包含",
+                "tail": "翻译后修饰"
+            },
+            {
+                "head": "Delta Mass",
+                "type": "包含",
+                "tail": "平均分子量"
+            },
+            {
+                "head": "PDB",
+                "type": "包含",
+                "tail": "X射线单晶衍射"
+            },
+            {
+                "head": "PDB",
+                "type": "包含",
+                "tail": "核磁共振"
+            },
+            {
+                "head": "PDB",
+                "type": "包含",
+                "tail": "电子衍射"
+            },
+            {
+                "head": "PDB",
+                "type": "包含",
+                "tail": "原子坐标"
+            },
+            {
+                "head": "PDB",
+                "type": "包含",
+                "tail": "一级结构信息"
+            },
+            {
+                "head": "PDB",
+                "type": "包含",
+                "tail": "二级结构信息"
+            },
+            {
+                "head": "SARST",
+                "type": "用于",
+                "tail": "蛋白质结构相互对比"
+            },
+            {
+                "head": "CAFA",
+                "type": "属于",
+                "tail": "其他"
+            },
+            {
+                "head": "Directed Acyclic Graph",
+                "type": "属于",
+                "tail": "深度学习概念"
+            },
+            {
+                "head": "DAG",
+                "type": "属于",
+                "tail": "深度学习概念"
+            },
+            {
+                "head": "t-SNE",
+                "type": "属于",
+                "tail": "降维算法"
+            },
+            {
+                "head": "t-SNE",
+                "type": "属于",
+                "tail": "深度学习概念"
+            },
+            {
+                "head": "ProtT5",
+                "type": "包含",
+                "tail": "蛋白质包埋"
+            },
+            {
+                "head": "ProtT5",
+                "type": "包含",
+                "tail": "pre-protein嵌入"
+            },
+            {
+                "head": "ProtT5",
+                "type": "包含",
+                "tail": "pre-residue嵌入"
+            },
+            {
+                "head": "Biopython",
+                "type": "包含",
+                "tail": "Bio.SeqIO"
+            },
+            {
+                "head": "Bio.SeqIO",
+                "type": "使用",
+                "tail": "fasta文件"
+            },
+            {
+                "head": "NGLview",
+                "type": "使用",
+                "tail": "jupyterLab"
+            },
+            {
+                "head": "NGLview",
+                "type": "可视化",
+                "tail": "PDB结构"
+            },
+            {
+                "head": "基因本体",
+                "type": "包含",
+                "tail": "GO编码"
+            },
+            {
+                "head": "基因本体",
+                "type": "属于",
+                "tail": "生物信息工具"
+            },
+            {
+                "head": "GO",
+                "type": "属于",
+                "tail": "生物信息工具"
+            },
+            {
+                "head": "UniProtKB",
+                "type": "包含",
+                "tail": "reviewed: true"
+            },
+            {
+                "head": "UniProtKB",
+                "type": "包含",
+                "tail": "pre-protein嵌入"
+            },
+            {
+                "head": "UniProtKB",
+                "type": "包含",
+                "tail": "pre-residue嵌入"
+            }
+        ]
+    },
+    "status": "success"
+}

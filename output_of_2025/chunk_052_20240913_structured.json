@@ -1,0 +1,110 @@
+{
+    "timestamp": "2025-07-07T17:51:45.282733",
+    "filename": "chunk_052_20240913.md",
+    "entities": {
+        "chunk_id": "2024-03-02",
+        "entities": [
+            {
+                "name": "ARG",
+                "type": "生物分子"
+            },
+            {
+                "name": "CNN",
+                "type": "深度学习概念"
+            },
+            {
+                "name": "一维卷积层",
+                "type": "深度学习概念"
+            },
+            {
+                "name": "密集层",
+                "type": "深度学习概念"
+            },
+            {
+                "name": "注意力机制",
+                "type": "深度学习概念"
+            },
+            {
+                "name": "ARGNet",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "DeepARG",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "HMD-ARG",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "GeneBac",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "抗生素耐药性",
+                "type": "生物医学概念"
+            }
+        ]
+    },
+    "relations": {
+        "chunk_id": "2024-03-02",
+        "relations": [
+            {
+                "head": "ARGNet",
+                "type": "使用",
+                "tail": "一维卷积层"
+            },
+            {
+                "head": "DeepARG",
+                "type": "使用",
+                "tail": "密集层"
+            },
+            {
+                "head": "HMD-ARG",
+                "type": "使用",
+                "tail": "二维卷积层"
+            },
+            {
+                "head": "GeneBac",
+                "type": "因果",
+                "tail": "抗生素耐药性"
+            },
+            {
+                "head": "CNN",
+                "type": "包含",
+                "tail": "一维卷积层"
+            },
+            {
+                "head": "CNN",
+                "type": "包含",
+                "tail": "密集层"
+            },
+            {
+                "head": "CNN",
+                "type": "包含",
+                "tail": "注意力机制"
+            },
+            {
+                "head": "ARGNet",
+                "type": "属于",
+                "tail": "深度学习概念"
+            },
+            {
+                "head": "DeepARG",
+                "type": "属于",
+                "tail": "深度学习概念"
+            },
+            {
+                "head": "HMD-ARG",
+                "type": "属于",
+                "tail": "深度学习概念"
+            },
+            {
+                "head": "GeneBac",
+                "type": "属于",
+                "tail": "生物信息工具"
+            }
+        ]
+    },
+    "status": "success"
+}

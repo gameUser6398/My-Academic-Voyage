@@ -1,0 +1,87 @@
+{
+    "timestamp": "2025-07-07T17:20:50.419811",
+    "filename": "chunk_032_20230812.md",
+    "entities": {
+        "chunk_id": "2024-03-02",
+        "entities": [
+            {
+                "name": "氨基酸",
+                "type": "生物分子"
+            },
+            {
+                "name": "ProtBert",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "self-Attention",
+                "type": "深度学习概念"
+            },
+            {
+                "name": "LSTM",
+                "type": "深度学习概念"
+            },
+            {
+                "name": "BIOSUM",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "BLOSUM",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "特征提取",
+                "type": "项目活动"
+            },
+            {
+                "name": "concatenate",
+                "type": "深度学习概念"
+            }
+        ]
+    },
+    "relations": {
+        "chunk_id": "2024-03-02",
+        "relations": [
+            {
+                "head": "ProtBert",
+                "type": "使用",
+                "tail": "构建词向量"
+            },
+            {
+                "head": "ProtBert",
+                "type": "使用",
+                "tail": "氨基酸"
+            },
+            {
+                "head": "self-Attention",
+                "type": "属于",
+                "tail": "LSTM"
+            },
+            {
+                "head": "BIOSUM",
+                "type": "使用",
+                "tail": "特征提取"
+            },
+            {
+                "head": "BIOSUM",
+                "type": "使用",
+                "tail": "concatenate"
+            },
+            {
+                "head": "BLOSUM",
+                "type": "属于",
+                "tail": "特征提取"
+            },
+            {
+                "head": "BLOSUM",
+                "type": "表示",
+                "tail": "进化的亲缘关系"
+            },
+            {
+                "head": "特征提取",
+                "type": "包含",
+                "tail": "concatenate"
+            }
+        ]
+    },
+    "status": "success"
+}

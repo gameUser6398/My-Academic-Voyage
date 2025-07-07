@@ -1,0 +1,193 @@
+{
+    "timestamp": "2025-07-07T16:58:03.907136",
+    "filename": "chunk_018_20240125.md",
+    "entities": {
+        "chunk_id": "2024-01-25",
+        "entities": [
+            {
+                "name": "数据不平衡",
+                "type": "其他"
+            },
+            {
+                "name": "ProteinGAN",
+                "type": "深度学习概念"
+            },
+            {
+                "name": "Chroma",
+                "type": "深度学习概念"
+            },
+            {
+                "name": "序列",
+                "type": "生物分子"
+            },
+            {
+                "name": "GPU",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "colab平台",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "GO",
+                "type": "生物分子"
+            },
+            {
+                "name": "蛋白",
+                "type": "生物分子"
+            },
+            {
+                "name": "PDB",
+                "type": "生物分子"
+            },
+            {
+                "name": "基因本体",
+                "type": "生物分子"
+            },
+            {
+                "name": "负注释",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "Alex Warwick Vesztrocy",
+                "type": "其他"
+            },
+            {
+                "name": "Christophe Dessimoz",
+                "type": "其他"
+            },
+            {
+                "name": "生物信息学",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "IC",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "GO:0001906",
+                "type": "生物分子"
+            },
+            {
+                "name": "MSA",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "蛋白资源",
+                "type": "生物分子"
+            },
+            {
+                "name": "同源性",
+                "type": "生物分子"
+            },
+            {
+                "name": "任务分工",
+                "type": "项目活动"
+            },
+            {
+                "name": "文献调研",
+                "type": "项目活动"
+            },
+            {
+                "name": "序列相似性",
+                "type": "生物分子"
+            }
+        ]
+    },
+    "relations": {
+        "chunk_id": "2024-01-25",
+        "relations": [
+            {
+                "head": "ProteinGAN",
+                "type": "使用",
+                "tail": "序列"
+            },
+            {
+                "head": "Chroma",
+                "type": "使用",
+                "tail": "序列"
+            },
+            {
+                "head": "ProteinGAN",
+                "type": "使用",
+                "tail": "结构"
+            },
+            {
+                "head": "Chroma",
+                "type": "使用",
+                "tail": "结构"
+            },
+            {
+                "head": "序列相似性",
+                "type": "属于",
+                "tail": "序列"
+            },
+            {
+                "head": "GO",
+                "type": "属于",
+                "tail": "基因本体"
+            },
+            {
+                "head": "GO:0001906",
+                "type": "属于",
+                "tail": "GO"
+            },
+            {
+                "head": "Alex Warwick Vesztrocy",
+                "type": "使用",
+                "tail": "负注释"
+            },
+            {
+                "head": "Christophe Dessimoz",
+                "type": "使用",
+                "tail": "负注释"
+            },
+            {
+                "head": "负注释",
+                "type": "使用",
+                "tail": "基因本体"
+            },
+            {
+                "head": "IC",
+                "type": "调控",
+                "tail": "GO"
+            },
+            {
+                "head": "MSA",
+                "type": "使用",
+                "tail": "GO:0001906"
+            },
+            {
+                "head": "MSA",
+                "type": "使用",
+                "tail": "蛋白"
+            },
+            {
+                "head": "数据不平衡",
+                "type": "因果",
+                "tail": "多模态暂停"
+            },
+            {
+                "head": "任务分工",
+                "type": "属于",
+                "tail": "项目活动"
+            },
+            {
+                "head": "文献调研",
+                "type": "属于",
+                "tail": "项目活动"
+            },
+            {
+                "head": "colab平台",
+                "type": "使用",
+                "tail": "GPU"
+            },
+            {
+                "head": "生物信息学",
+                "type": "使用",
+                "tail": "GO"
+            }
+        ]
+    },
+    "status": "success"
+}

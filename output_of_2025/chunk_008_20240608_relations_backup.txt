@@ -1,0 +1,23 @@
+
+
+```json
+{
+  "chunk_id": "2024-06-11",
+  "relations": [
+    {"head": "snakemake", "type": "使用", "tail": "GPT"},
+    {"head": "数据集策划", "type": "包含", "tail": "HMD-ARG"},
+    {"head": "数据集策划", "type": "包含", "tail": "RGDB"},
+    {"head": "数据集策划", "type": "包含", "tail": "PLM-ARG"},
+    {"head": "数据集策划", "type": "使用", "tail": "BLAST"},
+    {"head": "数据集策划", "type": "使用", "tail": "DIAMOND"},
+    {"head": "metaSpa", "type": "替代", "tail": "megahit"},
+    {"head": "网站搭建", "type": "使用", "tail": "Headfirst系列图书"},
+    {"head": "临床常用药物收集", "type": "属于", "tail": "结核"},
+    {"head": "结核杆菌基因组收集", "type": "属于", "tail": "结核"},
+    {"head": "非结核杆菌基因组收集", "type": "属于", "tail": "结核"},
+    {"head": "非结核杆菌信息收集", "type": "属于", "tail": "结核"},
+    {"head": "临床抗生素用药大全整理", "type": "因果", "tail": "抗生素使用"},
+    {"head": "群文献阅读", "type": "属于", "tail": "文献阅读"}
+  ]
+}
+```

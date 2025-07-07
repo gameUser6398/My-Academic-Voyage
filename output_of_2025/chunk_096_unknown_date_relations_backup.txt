@@ -1,0 +1,15 @@
+
+
+```json
+{
+  "chunk_id": "2024-03-02",
+  "relations": [
+    {"head": "MEGAHIT", "type": "使用", "tail": "de Bruijn graph"},
+    {"head": "MEGAHIT", "type": "属于", "tail": "宏基因组"},
+    {"head": "NCBI Genome Assembly Model", "type": "属于", "tail": "参考基因组组装"},
+    {"head": "Prodigal", "type": "属于", "tail": "原核基因"},
+    {"head": "Prodigal", "type": "属于", "tail": "翻译起始位点"},
+    {"head": "QUAST", "type": "属于", "tail": "基因组组装质量评估"}
+  ]
+}
+```

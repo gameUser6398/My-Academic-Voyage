@@ -1,0 +1,78 @@
+{
+    "timestamp": "2025-07-07T17:07:38.158573",
+    "filename": "chunk_053_20231124.md",
+    "entities": {
+        "chunk_id": "2024-03-02",
+        "entities": [
+            {
+                "name": "Transformer",
+                "type": "深度学习概念"
+            },
+            {
+                "name": "PyTorch",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "Torchvision",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "Torchaudio",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "CUDA",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "Torchmetrics",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "Colab",
+                "type": "生物信息工具"
+            }
+        ]
+    },
+    "relations": {
+        "chunk_id": "2024-03-02",
+        "relations": [
+            {
+                "head": "conda",
+                "type": "使用",
+                "tail": "PyTorch"
+            },
+            {
+                "head": "conda",
+                "type": "使用",
+                "tail": "Torchvision"
+            },
+            {
+                "head": "conda",
+                "type": "使用",
+                "tail": "Torchaudio"
+            },
+            {
+                "head": "conda",
+                "type": "使用",
+                "tail": "CUDA"
+            },
+            {
+                "head": "conda",
+                "type": "使用",
+                "tail": "Torchmetrics"
+            },
+            {
+                "head": "Transformer",
+                "type": "使用",
+                "tail": "PyTorch"
+            },
+            {
+                "head": "Colab",
+                "type": "使用",
+                "tail": "Transformer"
+            }
+        ]
+    },
+    "status": "success"
+}

@@ -1,0 +1,459 @@
+{
+    "timestamp": "2025-07-07T20:05:13.812787",
+    "filename": "chunk_029_20230715_split_1.md",
+    "entities": {
+        "chunk_id": "2024-03-02",
+        "entities": [
+            {
+                "name": "蛋白质",
+                "type": "生物分子"
+            },
+            {
+                "name": "氨基酸",
+                "type": "生物分子"
+            },
+            {
+                "name": "硒代半胱氨酸",
+                "type": "生物分子"
+            },
+            {
+                "name": "START",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "END",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "PAD",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "ProteinBERT",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "UniRef90",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "GO注释",
+                "type": "生物分子"
+            },
+            {
+                "name": "BLASTP",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "Transformer",
+                "type": "深度学习概念"
+            },
+            {
+                "name": "卷积层",
+                "type": "深度学习概念"
+            },
+            {
+                "name": "全连接层",
+                "type": "深度学习概念"
+            },
+            {
+                "name": "GELU",
+                "type": "深度学习概念"
+            },
+            {
+                "name": "ReLU",
+                "type": "深度学习概念"
+            },
+            {
+                "name": "softmax",
+                "type": "深度学习概念"
+            },
+            {
+                "name": "sigmoid",
+                "type": "深度学习概念"
+            },
+            {
+                "name": "dropout",
+                "type": "深度学习概念"
+            },
+            {
+                "name": "预训练",
+                "type": "项目活动"
+            },
+            {
+                "name": "微调",
+                "type": "项目活动"
+            },
+            {
+                "name": "Nvidia Quadro RTX 5000",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "TensorFlow",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "Keras",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "TAPE",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "BERT",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "ProtT5",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "ESM",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "ProtTrans",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "蛋白质序列",
+                "type": "生物分子"
+            },
+            {
+                "name": "二级结构",
+                "type": "生物医学概念"
+            },
+            {
+                "name": "远程同源性",
+                "type": "生物医学概念"
+            },
+            {
+                "name": "荧光",
+                "type": "生物医学概念"
+            },
+            {
+                "name": "稳定性预测",
+                "type": "生物医学概念"
+            },
+            {
+                "name": "深度学习模型",
+                "type": "深度学习概念"
+            },
+            {
+                "name": "自动编码器",
+                "type": "深度学习概念"
+            },
+            {
+                "name": "激活函数",
+                "type": "深度学习概念"
+            },
+            {
+                "name": "损失函数",
+                "type": "深度学习概念"
+            },
+            {
+                "name": "学习率",
+                "type": "深度学习概念"
+            },
+            {
+                "name": "早期停止",
+                "type": "深度学习概念"
+            },
+            {
+                "name": "参数矩阵",
+                "type": "深度学习概念"
+            },
+            {
+                "name": "注意力机制",
+                "type": "深度学习概念"
+            },
+            {
+                "name": "序列长度",
+                "type": "深度学习概念"
+            },
+            {
+                "name": "嵌入层",
+                "type": "深度学习概念"
+            },
+            {
+                "name": "局部表示",
+                "type": "深度学习概念"
+            },
+            {
+                "name": "全局表示",
+                "type": "深度学习概念"
+            },
+            {
+                "name": "广播全连接层",
+                "type": "深度学习概念"
+            },
+            {
+                "name": "全局注意力层",
+                "type": "深度学习概念"
+            },
+            {
+                "name": "自监督学习",
+                "type": "深度学习概念"
+            },
+            {
+                "name": "监督微调",
+                "type": "项目活动"
+            },
+            {
+                "name": "文献调研",
+                "type": "项目活动"
+            },
+            {
+                "name": "模型评估",
+                "type": "项目活动"
+            }
+        ]
+    },
+    "relations": {
+        "chunk_id": "2024-03-02",
+        "relations": [
+            {
+                "head": "ProteinBERT",
+                "type": "使用",
+                "tail": "UniRef90"
+            },
+            {
+                "head": "ProteinBERT",
+                "type": "使用",
+                "tail": "GO注释"
+            },
+            {
+                "head": "ProteinBERT",
+                "type": "使用",
+                "tail": "预训练"
+            },
+            {
+                "head": "ProteinBERT",
+                "type": "使用",
+                "tail": "微调"
+            },
+            {
+                "head": "ProteinBERT",
+                "type": "属于",
+                "tail": "深度学习模型"
+            },
+            {
+                "head": "ProteinBERT",
+                "type": "使用",
+                "tail": "Transformer"
+            },
+            {
+                "head": "ProteinBERT",
+                "type": "使用",
+                "tail": "卷积层"
+            },
+            {
+                "head": "ProteinBERT",
+                "type": "使用",
+                "tail": "全连接层"
+            },
+            {
+                "head": "ProteinBERT",
+                "type": "使用",
+                "tail": "GELU"
+            },
+            {
+                "head": "ProteinBERT",
+                "type": "使用",
+                "tail": "softmax"
+            },
+            {
+                "head": "ProteinBERT",
+                "type": "使用",
+                "tail": "sigmoid"
+            },
+            {
+                "head": "ProteinBERT",
+                "type": "使用",
+                "tail": "全局注意力层"
+            },
+            {
+                "head": "ProteinBERT",
+                "type": "使用",
+                "tail": "广播全连接层"
+            },
+            {
+                "head": "ProteinBERT",
+                "type": "包含",
+                "tail": "START"
+            },
+            {
+                "head": "ProteinBERT",
+                "type": "包含",
+                "tail": "END"
+            },
+            {
+                "head": "ProteinBERT",
+                "type": "包含",
+                "tail": "PAD"
+            },
+            {
+                "head": "预训练",
+                "type": "使用",
+                "tail": "Nvidia Quadro RTX 5000"
+            },
+            {
+                "head": "预训练",
+                "type": "使用",
+                "tail": "TensorFlow"
+            },
+            {
+                "head": "预训练",
+                "type": "使用",
+                "tail": "Keras"
+            },
+            {
+                "head": "蛋白质序列",
+                "type": "包含",
+                "tail": "氨基酸"
+            },
+            {
+                "head": "蛋白质序列",
+                "type": "包含",
+                "tail": "硒代半胱氨酸"
+            },
+            {
+                "head": "蛋白质序列",
+                "type": "包含",
+                "tail": "蛋白质"
+            },
+            {
+                "head": "GO注释",
+                "type": "属于",
+                "tail": "生物医学概念"
+            },
+            {
+                "head": "蛋白质序列",
+                "type": "属于",
+                "tail": "生物分子"
+            },
+            {
+                "head": "BLASTP",
+                "type": "使用",
+                "tail": "GO注释"
+            },
+            {
+                "head": "微调",
+                "type": "使用",
+                "tail": "全连接层"
+            },
+            {
+                "head": "微调",
+                "type": "使用",
+                "tail": "学习率"
+            },
+            {
+                "head": "微调",
+                "type": "使用",
+                "tail": "早期停止"
+            },
+            {
+                "head": "微调",
+                "type": "使用",
+                "tail": "监督微调"
+            },
+            {
+                "head": "蛋白质",
+                "type": "包含",
+                "tail": "蛋白质序列"
+            },
+            {
+                "head": "蛋白质",
+                "type": "包含",
+                "tail": "GO注释"
+            },
+            {
+                "head": "ProteinBERT",
+                "type": "属于",
+                "tail": "自监督学习"
+            },
+            {
+                "head": "ProteinBERT",
+                "type": "包含",
+                "tail": "参数矩阵"
+            },
+            {
+                "head": "ProteinBERT",
+                "type": "包含",
+                "tail": "嵌入层"
+            },
+            {
+                "head": "ProteinBERT",
+                "type": "包含",
+                "tail": "局部表示"
+            },
+            {
+                "head": "ProteinBERT",
+                "type": "包含",
+                "tail": "全局表示"
+            },
+            {
+                "head": "ProteinBERT",
+                "type": "使用",
+                "tail": "损失函数"
+            },
+            {
+                "head": "ProteinBERT",
+                "type": "使用",
+                "tail": "激活函数"
+            },
+            {
+                "head": "ProteinBERT",
+                "type": "使用",
+                "tail": "注意力机制"
+            },
+            {
+                "head": "ProteinBERT",
+                "type": "使用",
+                "tail": "蛋白质序列"
+            },
+            {
+                "head": "ProteinBERT",
+                "type": "使用",
+                "tail": "蛋白质评估"
+            },
+            {
+                "head": "ProteinBERT",
+                "type": "使用",
+                "tail": "二级结构"
+            },
+            {
+                "head": "ProteinBERT",
+                "type": "使用",
+                "tail": "远程同源性"
+            },
+            {
+                "head": "ProteinBERT",
+                "type": "使用",
+                "tail": "荧光"
+            },
+            {
+                "head": "ProteinBERT",
+                "type": "使用",
+                "tail": "稳定性预测"
+            },
+            {
+                "head": "蛋白质评估",
+                "type": "使用",
+                "tail": "TAPE"
+            },
+            {
+                "head": "ProteinBERT",
+                "type": "使用",
+                "tail": "文献调研"
+            },
+            {
+                "head": "ProteinBERT",
+                "type": "使用",
+                "tail": "模型评估"
+            }
+        ]
+    },
+    "status": "success"
+}

@@ -1,0 +1,28 @@
+
+
+```json
+{
+  "chunk_id": "2024-03-02",
+  "entities": [
+    {"name": "database/sql", "type": "生物信息工具"},
+    {"name": "CAFA数据集", "type": "生物信息工具"},
+    {"name": "bio-embedding库", "type": "生物信息工具"},
+    {"name": "神经网络", "type": "深度学习概念"},
+    {"name": "one-hot", "type": "深度学习概念"},
+    {"name": "CNN", "type": "深度学习概念"},
+    {"name": "词嵌入", "type": "深度学习概念"},
+    {"name": "蛋白质", "type": "生物分子"},
+    {"name": "RNN", "type": "深度学习概念"},
+    {"name": "LSTM", "type": "深度学习概念"},
+    {"name": "BERT", "type": "深度学习概念"},
+    {"name": "文献阅读", "type": "项目活动"},
+    {"name": "源代码阅读", "type": "项目活动"},
+    {"name": "环境配置", "type": "项目活动"},
+    {"name": "软件安装", "type": "项目活动"},
+    {"name": "OneNote", "type": "生物信息工具"},
+    {"name": "服务器", "type": "生物信息工具"},
+    {"name": "突发性能型", "type": "其他"},
+    {"name": "性能模式", "type": "其他"}
+  ]
+}
+```

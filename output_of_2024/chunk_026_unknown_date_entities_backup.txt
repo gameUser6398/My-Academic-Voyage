@@ -1,0 +1,27 @@
+
+
+{
+  "chunk_id": "2024-03-02",
+  "entities": [
+    {"name": "Deep_CNN_LSTM_GO", "type": "生物信息工具"},
+    {"name": "卷积神经网络", "type": "深度学习概念"},
+    {"name": "长短期记忆", "type": "深度学习概念"},
+    {"name": "氨基酸序列", "type": "生物分子"},
+    {"name": "基因本体", "type": "生物医学概念"},
+    {"name": "GO", "type": "生物医学概念"},
+    {"name": "分子功能", "type": "生物医学概念"},
+    {"name": "生物过程", "type": "生物医学概念"},
+    {"name": "细胞成分", "type": "生物医学概念"},
+    {"name": "UniProt-SwissProt", "type": "生物信息工具"},
+    {"name": "UniProtKB", "type": "生物信息工具"},
+    {"name": "蛋白质序列", "type": "生物分子"},
+    {"name": "氨基酸序列", "type": "生物分子"},
+    {"name": "GO ID", "type": "生物医学概念"},
+    {"name": "CAFA", "type": "项目活动"},
+    {"name": "CAFA4", "type": "项目活动"},
+    {"name": "CAFA3", "type": "项目活动"},
+    {"name": "CAFA2", "type": "项目活动"},
+    {"name": "人类", "type": "生物分子"},
+    {"name": "细菌", "type": "生物分子"}
+  ]
+}

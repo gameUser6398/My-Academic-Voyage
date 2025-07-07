@@ -1,0 +1,239 @@
+
+
+```json
+{
+  "chunk_id": "2024-04-22_10-56",
+  "relations": [
+    {
+      "head": "抗生素耐药性基因",
+      "type": "调控",
+      "tail": "质粒"
+    },
+    {
+      "head": "质粒",
+      "type": "使用",
+      "tail": "水平基因转移"
+    },
+    {
+      "head": "质粒",
+      "type": "包含",
+      "tail": "整合子"
+    },
+    {
+      "head": "质粒",
+      "type": "包含",
+      "tail": "转座子"
+    },
+    {
+      "head": "质粒",
+      "type": "包含",
+      "tail": "ISCR"
+    },
+    {
+      "head": "整合子",
+      "type": "使用",
+      "tail": "位点特异性重组"
+    },
+    {
+      "head": "整合子",
+      "type": "包含",
+      "tail": "基因盒"
+    },
+    {
+      "head": "基因盒",
+      "type": "调控",
+      "tail": "启动子"
+    },
+    {
+      "head": "基因盒",
+      "type": "插入",
+      "tail": "attI"
+    },
+    {
+      "head": "ISCR",
+      "type": "使用",
+      "tail": "滚动圈转座"
+    },
+    {
+      "head": "ISCR",
+      "type": "介导",
+      "tail": "基因转移"
+    },
+    {
+      "head": "ISCR1",
+      "type": "属于",
+      "tail": "ISCR"
+    },
+    {
+      "head": "1类整合子",
+      "type": "包含",
+      "tail": "5′-CS"
+    },
+    {
+      "head": "1类整合子",
+      "type": "包含",
+      "tail": "3′-CS"
+    },
+    {
+      "head": "1类整合子",
+      "type": "包含",
+      "tail": "attC"
+    },
+    {
+      "head": "1类整合子",
+      "type": "包含",
+      "tail": "整合酶"
+    },
+    {
+      "head": "Tn5",
+      "type": "包含",
+      "tail": "卡那霉素"
+    },
+    {
+      "head": "Tn5",
+      "type": "包含",
+      "tail": "链霉素"
+    },
+    {
+      "head": "Tn10",
+      "type": "包含",
+      "tail": "四环素"
+    },
+    {
+      "head": "Tn3",
+      "type": "包含",
+      "tail": "氨苄西林"
+    },
+    {
+      "head": "Tn21",
+      "type": "包含",
+      "tail": "链霉素"
+    },
+    {
+      "head": "Tn21",
+      "type": "包含",
+      "tail": "甲氧苄啶"
+    },
+    {
+      "head": "Tn21",
+      "type": "包含",
+      "tail": "氯霉素"
+    },
+    {
+      "head": "Tn21",
+      "type": "包含",
+      "tail": "sul1"
+    },
+    {
+      "head": "aadA",
+      "type": "属于",
+      "tail": "基因盒"
+    },
+    {
+      "head": "aacA",
+      "type": "属于",
+      "tail": "基因盒"
+    },
+    {
+      "head": "catB",
+      "type": "属于",
+      "tail": "基因盒"
+    },
+    {
+      "head": "dfrA",
+      "type": "属于",
+      "tail": "基因盒"
+    },
+    {
+      "head": "qacE",
+      "type": "属于",
+      "tail": "基因盒"
+    },
+    {
+      "head": "blaIMP",
+      "type": "属于",
+      "tail": "基因盒"
+    },
+    {
+      "head": "blaVIM",
+      "type": "属于",
+      "tail": "基因盒"
+    },
+    {
+      "head": "blaOXA",
+      "type": "属于",
+      "tail": "基因盒"
+    },
+    {
+      "head": "抗生素使用",
+      "type": "因果",
+      "tail": "抗生素耐药性"
+    },
+    {
+      "head": "质粒测序",
+      "type": "属于",
+      "tail": "基因组监测"
+    },
+    {
+      "head": "BLAST",
+      "type": "使用",
+      "tail": "系统发育分析"
+    },
+    {
+      "head": "Linux",
+      "type": "使用",
+      "tail": "基因组监测"
+    },
+    {
+      "head": "Python",
+      "type": "使用",
+      "tail": "基因组监测"
+    },
+    {
+      "head": "SNP",
+      "type": "使用",
+      "tail": "系统发育分析"
+    },
+    {
+      "head": "医院感染控制",
+      "type": "使用",
+      "tail": "基因表达调控"
+    },
+    {
+      "head": "文献调研",
+      "type": "属于",
+      "tail": "基因组监测"
+    },
+    {
+      "head": "样本采集",
+      "type": "属于",
+      "tail": "基因组监测"
+    },
+    {
+      "head": "1类整合子",
+      "type": "属于",
+      "tail": "整合子"
+    },
+    {
+      "head": "基因重组",
+      "type": "使用",
+      "tail": "同源重组"
+    },
+    {
+      "head": "质粒",
+      "type": "使用",
+      "tail": "DNA转移"
+    },
+    {
+      "head": "ISCR",
+      "type": "使用",
+      "tail": "基因捕获"
+    },
+    {
+      "head": "整合子",
+      "type": "属于",
+      "tail": "基因转移"
+    }
+  ]
+}
+```

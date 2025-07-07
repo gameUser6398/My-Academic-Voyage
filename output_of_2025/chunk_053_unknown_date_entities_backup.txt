@@ -1,0 +1,17 @@
+
+
+{
+  "chunk_id": "2024-03-02",
+  "entities": [
+    {"name": "Drug-Target", "type": "生物分子"},
+    {"name": "ARG", "type": "生物分子"},
+    {"name": "基因", "type": "生物分子"},
+    {"name": "宏基因组测序", "type": "生物技术"},
+    {"name": "DeepLift", "type": "深度学习概念"},
+    {"name": "kundajelab/deeplift", "type": "生物信息工具"},
+    {"name": "重要性评分", "type": "深度学习概念"},
+    {"name": "激活差异", "type": "深度学习概念"},
+    {"name": "可解释机器学习", "type": "深度学习概念"},
+    {"name": "计算生物学", "type": "生物医学概念"}
+  ]
+}

@@ -1,0 +1,39 @@
+
+
+```json
+{
+  "chunk_id": "2024-03-02",
+  "relations": [
+    {"head": "深度学习", "type": "属于", "tail": "机器学习"},
+    {"head": "BP神经网络", "type": "视为", "tail": "特征提取的方法"},
+    {"head": "BP神经网络", "type": "包含", "tail": "特征工程"},
+    {"head": "BP神经网络", "type": "包含", "tail": "建立模型"},
+    {"head": "BP神经网络", "type": "包含", "tail": "评估与应用"},
+    {"head": "两层神经网络", "type": "包含", "tail": "输入层"},
+    {"head": "两层神经网络", "type": "包含", "tail": "输出层"},
+    {"head": "两层神经网络", "type": "包含", "tail": "中间层"},
+    {"head": "两层神经网络", "type": "使用", "tail": "sigmoid"},
+    {"head": "激活函数", "type": "属于", "tail": "两层神经网络"},
+    {"head": "多层神经系统", "type": "使用", "tail": "ReLU"},
+    {"head": "损失函数", "type": "包含", "tail": "数据损失"},
+    {"head": "损失函数", "type": "包含", "tail": "正则化惩罚项"},
+    {"head": "二分类问题", "type": "使用", "tail": "二元交叉熵"},
+    {"head": "多分类问题", "type": "使用", "tail": "分类交叉熵"},
+    {"head": "回归问题", "type": "使用", "tail": "均方误差"},
+    {"head": "序列学习问题", "type": "使用", "tail": "CTC"},
+    {"head": "过拟合", "type": "因果", "tail": "模型在训练集上表现好但在测试集上表现差"},
+    {"head": "过拟合", "type": "调控", "tail": "正则化"},
+    {"head": "正则化", "type": "包含", "tail": "L1"},
+    {"head": "正则化", "type": "包含", "tail": "L2"},
+    {"head": "偏差", "type": "调控", "tail": "欠拟合"},
+    {"head": "方差", "type": "调控", "tail": "过拟合"},
+    {"head": "数据", "type": "包含", "tail": "训练集"},
+    {"head": "数据", "type": "包含", "tail": "验证集"},
+    {"head": "数据", "type": "包含", "tail": "测试集"},
+    {"head": "卷积神经网络", "type": "包含", "tail": "卷积层"},
+    {"head": "卷积层", "type": "使用", "tail": "PyTorch"},
+    {"head": "卷积层", "type": "使用", "tail": "TensorFlow"},
+    {"head": "卷积神经网络", "type": "属于", "tail": "深度学习"}
+  ]
+}
+```

@@ -1,0 +1,33 @@
+
+
+```json
+{
+  "chunk_id": "2024-03-02",
+  "relations": [
+    {"head": "HMD-ARG", "type": "使用", "tail": "端到端分层多任务深度学习框架"},
+    {"head": "HMD-ARG", "type": "包含", "tail": "深度学习模型"},
+    {"head": "HMD-ARG", "type": "包含", "tail": "多任务深度学习模型"},
+    {"head": "HMD-ARG", "type": "属于", "tail": "生物信息工具"},
+    {"head": "HMD-ARG", "type": "调控", "tail": "ARG注释"},
+    {"head": "HMD-ARG", "type": "预测", "tail": "ARG"},
+    {"head": "HMD-ARG", "type": "预测", "tail": "抗生素家族"},
+    {"head": "HMD-ARG", "type": "预测", "tail": "耐药机制"},
+    {"head": "HMD-ARG", "type": "预测", "tail": "基因迁移率"},
+    {"head": "HMD-ARG", "type": "预测", "tail": "β-内酰胺酶亚类"},
+    {"head": "预测β-内酰胺酶亚类", "type": "属于", "tail": "多任务深度学习模型"},
+    {"head": "预测β-内酰胺酶亚类", "type": "属于", "tail": "项目活动"},
+    {"head": "交叉折叠验证", "type": "属于", "tail": "项目活动"},
+    {"head": "人类肠道微生物群", "type": "属于", "tail": "生物医学概念"},
+    {"head": "湿实验功能验证", "type": "属于", "tail": "项目活动"},
+    {"head": "预测保守位点的结构研究", "type": "属于", "tail": "项目活动"},
+    {"head": "HMD-ARG", "type": "参与", "tail": "交叉折叠验证"},
+    {"head": "HMD-ARG", "type": "参与", "tail": "湿实验功能验证"},
+    {"head": "HMD-ARG", "type": "参与", "tail": "预测保守位点的结构研究"},
+    {"head": "ARG", "type": "属于", "tail": "生物分子"},
+    {"head": "β-内酰胺酶", "type": "属于", "tail": "抗生素家族"},
+    {"head": "β-内酰胺酶", "type": "属于", "tail": "生物分子"},
+    {"head": "耐药机制", "type": "属于", "tail": "生物医学概念"},
+    {"head": "基因迁移率", "type": "属于", "tail": "生物医学概念"}
+  ]
+}
+```

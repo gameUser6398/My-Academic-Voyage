@@ -1,0 +1,6 @@
+{
+    "timestamp": "2025-07-07T18:25:07.983597",
+    "filename": "chunk_109_20240425.md",
+    "raw_entities": "\n\n{\n  \"chunk_id\": \"2024-03-02\",\n  \"entities\": [\n    {\"name\": \"Mycobacterium tuberculosis\", \"type\": \"生物分子\"},\n    {\"name\": \"深度学习\", \"type\": \"深度学习概念\"},\n    {\"name\": \"Global Catalogue of Microorganisms\", \"type\": \"其他\"},\n    {\"name\": \"Global Catalogue\", \"type\": \"其他\"},\n    {\"name\": \"wdcm.org\", \"type\": \"其他\"}\n  ]\n}",
+    "raw_relations": "\n\n{\n  \"chunk_id\": \"2024-03-02\",\n  \"relations\": [\n    {\"head\": \"Mycobacterium tuberculosis\", \"type\": \"属于\", \"tail\": \"Global Catalogue of Microorganisms\"},\n    {\"head\": \"Global Catalogue of Microorganisms\", \"type\": \"属于\", \"tail\": \"Global Catalogue\"},\n    {\"head\": \"Global Catalogue\", \"type\": \"属于\", \"tail\": \"wdcm.org\"}\n  ]\n}"
+}

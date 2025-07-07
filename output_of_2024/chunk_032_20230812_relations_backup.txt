@@ -1,0 +1,47 @@
+
+
+{
+  "chunk_id": "2024-03-02",
+  "relations": [
+    {
+      "head": "ProtBert",
+      "type": "使用",
+      "tail": "构建词向量"
+    },
+    {
+      "head": "ProtBert",
+      "type": "使用",
+      "tail": "氨基酸"
+    },
+    {
+      "head": "self-Attention",
+      "type": "属于",
+      "tail": "LSTM"
+    },
+    {
+      "head": "BIOSUM",
+      "type": "使用",
+      "tail": "特征提取"
+    },
+    {
+      "head": "BIOSUM",
+      "type": "使用",
+      "tail": "concatenate"
+    },
+    {
+      "head": "BLOSUM",
+      "type": "属于",
+      "tail": "特征提取"
+    },
+    {
+      "head": "BLOSUM",
+      "type": "表示",
+      "tail": "进化的亲缘关系"
+    },
+    {
+      "head": "特征提取",
+      "type": "包含",
+      "tail": "concatenate"
+    }
+  ]
+}

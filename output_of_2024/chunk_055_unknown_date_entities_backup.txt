@@ -1,0 +1,24 @@
+
+
+```json
+{
+  "chunk_id": "2024-03-02",
+  "entities": [
+    {"name": "Python", "type": "生物信息工具"},
+    {"name": "Miniconda", "type": "生物信息工具"},
+    {"name": "Linux", "type": "生物信息工具"},
+    {"name": "Shell脚本", "type": "生物信息工具"},
+    {"name": "Anaconda", "type": "生物信息工具"},
+    {"name": "TensorFlow", "type": "生物信息工具"},
+    {"name": "PyTorch", "type": "生物信息工具"},
+    {"name": "bio-embeddings", "type": "生物信息工具"},
+    {"name": "Sklearn", "type": "生物信息工具"},
+    {"name": "Ontobio", "type": "生物信息工具"},
+    {"name": "深度学习", "type": "深度学习概念"},
+    {"name": "pip install", "type": "命令"},
+    {"name": "bio-embeddings[all]", "type": "命令"},
+    {"name": "文献调研", "type": "项目活动"},
+    {"name": "环境配置", "type": "项目活动"}
+  ]
+}
+```

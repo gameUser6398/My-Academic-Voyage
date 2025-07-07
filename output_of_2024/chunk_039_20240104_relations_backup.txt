@@ -1,0 +1,21 @@
+
+
+```json
+{
+  "chunk_id": "2024-04-05",
+  "relations": [
+    {"head": "图卷积网络", "type": "使用", "tail": "蛋白质语言模型"},
+    {"head": "图卷积网络", "type": "使用", "tail": "蛋白质结构"},
+    {"head": "图卷积网络", "type": "调控", "tail": "蛋白质功能"},
+    {"head": "GCN Layer3", "type": "使用", "tail": "PSSM"},
+    {"head": "structure2GO", "type": "包含", "tail": "BPO"},
+    {"head": "structure2GO", "type": "包含", "tail": "MFO"},
+    {"head": "structure2GO", "type": "包含", "tail": "CCO"},
+    {"head": "DeepFRI", "type": "使用", "tail": "GO项"},
+    {"head": "GAT-GO", "type": "使用", "tail": "GO术语"},
+    {"head": "GAT-GO", "type": "属于", "tail": "多模态融合"},
+    {"head": "大创", "type": "使用", "tail": "IA"},
+    {"head": "多模态融合", "type": "属于", "tail": "深度学习概念"}
+  ]
+}
+```

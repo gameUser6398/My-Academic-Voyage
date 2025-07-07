@@ -1,0 +1,279 @@
+
+
+```json
+{
+  "chunk_id": "2024-10-02",
+  "relations": [
+    {
+      "head": "QuickGO",
+      "type": "包含",
+      "tail": "GO:0046677 (对抗生素的响应)"
+    },
+    {
+      "head": "QuickGO",
+      "type": "包含",
+      "tail": "GO:0017001 (抗生素降解过程)"
+    },
+    {
+      "head": "QuickGO",
+      "type": "包含",
+      "tail": "GO:0030655 (β-内酰胺抗生素降解过程)"
+    },
+    {
+      "head": "QuickGO",
+      "type": "包含",
+      "tail": "GO:1990195 (大环内酯跨膜转运体复合物)"
+    },
+    {
+      "head": "实验策略",
+      "type": "使用",
+      "tail": "Uniprot"
+    },
+    {
+      "head": "实验策略",
+      "type": "使用",
+      "tail": "API"
+    },
+    {
+      "head": "四环素B类",
+      "type": "属于",
+      "tail": "四环素类抗生素"
+    },
+    {
+      "head": "四环素A类",
+      "type": "属于",
+      "tail": "四环素类抗生素"
+    },
+    {
+      "head": "抗生素耐药性",
+      "type": "因果",
+      "tail": "抗生素使用"
+    },
+    {
+      "head": "β-内酰胺抗生素",
+      "type": "属于",
+      "tail": "β-内酰胺类"
+    },
+    {
+      "head": "β-内酰胺酶",
+      "type": "调控",
+      "tail": "β-内酰胺抗生素降解过程"
+    },
+    {
+      "head": "耐药基因",
+      "type": "调控",
+      "tail": "抗生素耐药性"
+    },
+    {
+      "head": "DC_card_blast",
+      "type": "包含",
+      "tail": "cephalosporin"
+    },
+    {
+      "head": "DC_ncbi",
+      "type": "包含",
+      "tail": "cephalosporin"
+    },
+    {
+      "head": "DC_card_blast",
+      "type": "包含",
+      "tail": "carbapenem"
+    },
+    {
+      "head": "DC_ncbi",
+      "type": "包含",
+      "tail": "carbapenem"
+    },
+    {
+      "head": "DC_card_blast",
+      "type": "包含",
+      "tail": "penicillin beta-lactam"
+    },
+    {
+      "head": "DC_ncbi",
+      "type": "包含",
+      "tail": "penicillin beta-lactam"
+    },
+    {
+      "head": "DC_card_blast",
+      "type": "包含",
+      "tail": "monobactam"
+    },
+    {
+      "head": "DC_ncbi",
+      "type": "包含",
+      "tail": "monobactam"
+    },
+    {
+      "head": "β-内酰胺抗生素",
+      "type": "属于",
+      "tail": "β-内酰胺类抗生素"
+    },
+    {
+      "head": "万古霉素",
+      "type": "属于",
+      "tail": "糖肽类抗生素"
+    },
+    {
+      "head": "亚胺培南",
+      "type": "属于",
+      "tail": "碳青霉烯类抗生素"
+    },
+    {
+      "head": "模型训练",
+      "type": "使用",
+      "tail": "数据集"
+    },
+    {
+      "head": "模型优化",
+      "type": "使用",
+      "tail": "图神经网络 (GNN)"
+    },
+    {
+      "head": "抗菌素耐药性预测",
+      "type": "使用",
+      "tail": "耐药基因"
+    },
+    {
+      "head": "药物分类",
+      "type": "使用",
+      "tail": "ATC代码"
+    },
+    {
+      "head": "药物分类",
+      "type": "使用",
+      "tail": "SNOMED CT"
+    },
+    {
+      "head": "机器学习",
+      "type": "使用",
+      "tail": "随机森林"
+    },
+    {
+      "head": "机器学习",
+      "type": "使用",
+      "tail": "XGBoost"
+    },
+    {
+      "head": "抗性分类",
+      "type": "使用",
+      "tail": "18个数据集"
+    },
+    {
+      "head": "ARG",
+      "type": "使用",
+      "tail": "宏基因组测序"
+    },
+    {
+      "head": "抗性蛋白",
+      "type": "属于",
+      "tail": "抗生素耐药性"
+    },
+    {
+      "head": "多粘菌素",
+      "type": "作用机制",
+      "tail": "破坏细胞膜"
+    },
+    {
+      "head": "喹诺酮类",
+      "type": "作用机制",
+      "tail": "干扰DNA合成"
+    },
+    {
+      "head": "β-内酰胺类",
+      "type": "作用机制",
+      "tail": "抑制细胞壁合成"
+    },
+    {
+      "head": "大环内酯类",
+      "type": "作用机制",
+      "tail": "抑制蛋白质合成"
+    },
+    {
+      "head": "氨基糖苷类",
+      "type": "作用机制",
+      "tail": "抑制蛋白质合成"
+    },
+    {
+      "head": "糖肽类",
+      "type": "作用机制",
+      "tail": "抑制细胞壁合成"
+    },
+    {
+      "head": "利福霉素类",
+      "type": "作用机制",
+      "tail": "抑制RNA合成"
+    },
+    {
+      "head": "β-内酰胺酶",
+      "type": "导致",
+      "tail": "β-内酰胺类抗生素失效"
+    },
+    {
+      "head": "mecA基因",
+      "type": "调控",
+      "tail": "MRSA耐药性"
+    },
+    {
+      "head": "blaKPC基因",
+      "type": "调控",
+      "tail": "碳青霉烯类抗生素耐药性"
+    },
+    {
+      "head": "blaNDM-1基因",
+      "type": "调控",
+      "tail": "碳青霉烯类抗生素耐药性"
+    },
+    {
+      "head": "药物安全性",
+      "type": "包含",
+      "tail": "肾毒性"
+    },
+    {
+      "head": "药物安全性",
+      "type": "包含",
+      "tail": "肝毒性"
+    },
+    {
+      "head": "药物安全性",
+      "type": "包含",
+      "tail": "中枢神经毒性"
+    },
+    {
+      "head": "药物安全性",
+      "type": "包含",
+      "tail": "过敏风险"
+    },
+    {
+      "head": "药物代谢",
+      "type": "包含",
+      "tail": "时间依赖型"
+    },
+    {
+      "head": "药物代谢",
+      "type": "包含",
+      "tail": "浓度依赖型"
+    },
+    {
+      "head": "药物选择",
+      "type": "依赖",
+      "tail": "抗菌谱"
+    },
+    {
+      "head": "药物选择",
+      "type": "依赖",
+      "tail": "耐药标记"
+    },
+    {
+      "head": "药物选择",
+      "type": "依赖",
+      "tail": "药物代谢特性"
+    },
+    {
+      "head": "药物选择",
+      "type": "依赖",
+      "tail": "安全性风险"
+    }
+  ]
+}
+```

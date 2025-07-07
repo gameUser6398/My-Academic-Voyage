@@ -1,0 +1,22 @@
+
+
+```json
+{
+  "chunk_id": "2024-03-02",
+  "relations": [
+    {"head": "命令行工具", "type": "包含", "tail": "datasets"},
+    {"head": "命令行工具", "type": "包含", "tail": "dataformat"},
+    {"head": "conda", "type": "使用", "tail": "CLI工具"},
+    {"head": "datasets", "type": "使用", "tail": "SRA"},
+    {"head": "dataformat", "type": "使用", "tail": "SRA"},
+    {"head": "datasets", "type": "使用", "tail": "GCF_000001405.40"},
+    {"head": "datasets", "type": "使用", "tail": "Mycobacterium tuberculosis"},
+    {"head": "Python", "type": "使用", "tail": "os.system"},
+    {"head": "Python", "type": "使用", "tail": "os.popen"},
+    {"head": "Python", "type": "使用", "tail": "commands"},
+    {"head": "Python", "type": "使用", "tail": "subprocess"},
+    {"head": "样本采集", "type": "使用", "tail": "SRA"},
+    {"head": "文献调研", "type": "使用", "tail": "Entrez"}
+  ]
+}
+```

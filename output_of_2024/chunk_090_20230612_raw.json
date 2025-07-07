@@ -1,0 +1,6 @@
+{
+    "timestamp": "2025-07-07T17:08:40.235356",
+    "filename": "chunk_090_20230612.md",
+    "raw_entities": "\n\n```json\n{\n  \"chunk_id\": \"2024-04-05\",\n  \"entities\": [\n    {\"name\": \"Anaconda\", \"type\": \"生物信息工具\"},\n    {\"name\": \"Python\", \"type\": \"生物信息工具\"},\n    {\"name\": \"Keras\", \"type\": \"深度学习概念\"},\n    {\"name\": \"TensorFlow\", \"type\": \"深度学习概念\"},\n    {\"name\": \"TensorRT\", \"type\": \"深度学习概念\"},\n    {\"name\": \"ECS服务器\", \"type\": \"其他\"},\n    {\"name\": \"2023年6月12日\", \"type\": \"其他\"}\n  ]\n}\n```",
+    "raw_relations": "\n\n```json\n{\n  \"chunk_id\": \"2024-04-05\",\n  \"relations\": [\n    {\"head\": \"Anaconda\", \"type\": \"属于\", \"tail\": \"root用户\"},\n    {\"head\": \"Python\", \"type\": \"属于\", \"tail\": \"不同用户\"},\n    {\"head\": \"Keras\", \"type\": \"使用\", \"tail\": \"TensorFlow\"},\n    {\"head\": \"TensorRT\", \"type\": \"因果\", \"tail\": \"安装失败\"},\n    {\"head\": \"ECS服务器\", \"type\": \"属于\", \"tail\": \"2023年6月12日\"}\n  ]\n}\n```"
+}

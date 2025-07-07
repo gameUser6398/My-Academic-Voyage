@@ -1,0 +1,16 @@
+
+
+{
+  "chunk_id": "2024-09-18",
+  "relations": [
+    {"head": "LoRA", "type": "属于", "tail": "微调"},
+    {"head": "微调", "type": "使用", "tail": "ESM"},
+    {"head": "刘畅乐", "type": "使用", "tail": "LoRA"},
+    {"head": "刘畅乐", "type": "使用", "tail": "文献解释"},
+    {"head": "刘畅乐", "type": "使用", "tail": "标准的输出格式"},
+    {"head": "张皓", "type": "使用", "tail": "FASTQ"},
+    {"head": "张皓", "type": "使用", "tail": "可视化"},
+    {"head": "张皓", "type": "输入", "tail": "ARG的丰度谱"},
+    {"head": "张皓", "type": "操作", "tail": "一次只输一个FASTQ"}
+  ]
+}

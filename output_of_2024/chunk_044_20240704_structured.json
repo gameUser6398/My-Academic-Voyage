@@ -1,0 +1,77 @@
+{
+    "timestamp": "2025-07-07T17:02:14.161621",
+    "filename": "chunk_044_20240704.md",
+    "entities": {
+        "chunk_id": "2024-03-02",
+        "entities": [
+            {
+                "name": "蛋白质",
+                "type": "生物分子"
+            },
+            {
+                "name": "配体",
+                "type": "生物分子"
+            },
+            {
+                "name": "DCGAN",
+                "type": "深度学习概念"
+            },
+            {
+                "name": "Tensorflow",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "生成对抗网络",
+                "type": "深度学习概念"
+            },
+            {
+                "name": "序列预测",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "机器学习",
+                "type": "深度学习概念"
+            },
+            {
+                "name": "ProteinGAN",
+                "type": "生物信息工具"
+            }
+        ]
+    },
+    "relations": {
+        "chunk_id": "2024-03-02",
+        "relations": [
+            {
+                "head": "ProteinGAN",
+                "type": "使用",
+                "tail": "生成对抗网络"
+            },
+            {
+                "head": "DCGAN",
+                "type": "属于",
+                "tail": "生成对抗网络"
+            },
+            {
+                "head": "DCGAN",
+                "type": "使用",
+                "tail": "Tensorflow"
+            },
+            {
+                "head": "序列预测",
+                "type": "使用",
+                "tail": "机器学习"
+            },
+            {
+                "head": "蛋白质",
+                "type": "与",
+                "tail": "配体"
+            },
+            {
+                "head": "蛋白质",
+                "type": "接触",
+                "tail": "配体"
+            }
+        ]
+    },
+    "status": "success"
+}

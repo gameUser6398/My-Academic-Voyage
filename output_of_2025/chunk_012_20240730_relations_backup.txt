@@ -1,0 +1,142 @@
+
+
+{
+  "chunk_id": "2024-03-02",
+  "relations": [
+    {
+      "head": "beta-lactamase",
+      "type": "属于",
+      "tail": "beta-lactam antibiotic catabolic process"
+    },
+    {
+      "head": "gentamicin",
+      "type": "属于",
+      "tail": "aminoglycoside"
+    },
+    {
+      "head": "kanamycin",
+      "type": "属于",
+      "tail": "aminoglycoside"
+    },
+    {
+      "head": "macrolide",
+      "type": "属于",
+      "tail": "macrolide"
+    },
+    {
+      "head": "multidrug resistance",
+      "type": "属于",
+      "tail": "multidrug"
+    },
+    {
+      "head": "multi-drug resistance",
+      "type": "属于",
+      "tail": "multidrug"
+    },
+    {
+      "head": "multidrug efflux",
+      "type": "属于",
+      "tail": "multidrug"
+    },
+    {
+      "head": "penicillin-binding",
+      "type": "属于",
+      "tail": "beta-lactam"
+    },
+    {
+      "head": "puromycin",
+      "type": "属于",
+      "tail": "nucleoside"
+    },
+    {
+      "head": "quinolone",
+      "type": "属于",
+      "tail": "fluoroquinolone"
+    },
+    {
+      "head": "rifampicin",
+      "type": "属于",
+      "tail": "rifamycin"
+    },
+    {
+      "head": "tetracycline resistance",
+      "type": "属于",
+      "tail": "tetracycline"
+    },
+    {
+      "head": "polymyxin resistance",
+      "type": "属于",
+      "tail": "peptide"
+    },
+    {
+      "head": "bacitracin resistance",
+      "type": "属于",
+      "tail": "peptide"
+    },
+    {
+      "head": "fatty acids resistance",
+      "type": "属于",
+      "tail": "antibacterial free fatty acids"
+    },
+    {
+      "head": "efflux pump complex",
+      "type": "属于",
+      "tail": "antibiotic efflux"
+    },
+    {
+      "head": "macrolide transmembrane transporter complex",
+      "type": "属于",
+      "tail": "antibiotic efflux"
+    },
+    {
+      "head": "beta-lactam antibiotic catabolic process",
+      "type": "属于",
+      "tail": "antibiotic inactivation"
+    },
+    {
+      "head": "antibiotic catabolic process",
+      "type": "属于",
+      "tail": "antibiotic inactivation"
+    },
+    {
+      "head": "16s_rrna_methyltransferase",
+      "type": "属于",
+      "tail": "antibiotic target alteration"
+    },
+    {
+      "head": "数据清洗",
+      "type": "使用",
+      "tail": "pd.merge"
+    },
+    {
+      "head": "数据清洗",
+      "type": "使用",
+      "tail": "pd.concat"
+    },
+    {
+      "head": "数据清洗",
+      "type": "使用",
+      "tail": "tqdm"
+    },
+    {
+      "head": "数据清洗",
+      "type": "使用",
+      "tail": "Python"
+    },
+    {
+      "head": "数据清洗",
+      "type": "使用",
+      "tail": "Linux"
+    },
+    {
+      "head": "blastp",
+      "type": "属于",
+      "tail": "BLAST"
+    },
+    {
+      "head": "数据清洗",
+      "type": "时间",
+      "tail": "2024年7月30日"
+    }
+  ]
+}

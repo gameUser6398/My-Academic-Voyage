@@ -1,0 +1,15 @@
+
+
+```json
+{
+  "chunk_id": "2024-05-11",
+  "relations": [
+    {"head": "模型优化过程", "type": "使用", "tail": "one-hot编码"},
+    {"head": "模型优化过程", "type": "使用", "tail": "conv"},
+    {"head": "模型优化过程", "type": "使用", "tail": "mean"},
+    {"head": "模型优化过程", "type": "使用", "tail": "Dataloader"},
+    {"head": "TALE", "type": "使用", "tail": "protein-annotation"},
+    {"head": "任务分工", "type": "属于", "tail": "模型优化过程"}
+  ]
+}
+```

@@ -1,0 +1,38 @@
+
+
+```json
+{
+  "chunk_id": "2024-03-02",
+  "relations": [
+    {"head": "蛋白质", "type": "属于", "tail": "生物大分子"},
+    {"head": "宏基因组测序", "type": "包含", "tail": "宏基因组"},
+    {"head": "宏基因组测序", "type": "包含", "tail": "宏转录组"},
+    {"head": "蛋白质", "type": "使用", "tail": "宏基因组测序"},
+    {"head": "蛋白质", "type": "使用", "tail": "宏转录组"},
+    {"head": "蛋白质功能预测", "type": "使用", "tail": "深度学习模型"},
+    {"head": "深度学习模型", "type": "包含", "tail": "Word2vec"},
+    {"head": "深度学习模型", "type": "包含", "tail": "Bert"},
+    {"head": "深度学习模型", "type": "包含", "tail": "CNN"},
+    {"head": "深度学习模型", "type": "包含", "tail": "BiLSTM"},
+    {"head": "深度学习模型", "type": "包含", "tail": "Transformer"},
+    {"head": "Word2vec", "type": "属于", "tail": "深度学习概念"},
+    {"head": "Bert", "type": "属于", "tail": "深度学习概念"},
+    {"head": "CNN", "type": "属于", "tail": "深度学习概念"},
+    {"head": "BiLSTM", "type": "属于", "tail": "深度学习概念"},
+    {"head": "Transformer", "type": "属于", "tail": "深度学习概念"},
+    {"head": "蛋白质", "type": "使用", "tail": "one-hot编码"},
+    {"head": "one-hot编码", "type": "属于", "tail": "生物信息工具"},
+    {"head": "UniProt 蛋白质数据库", "type": "属于", "tail": "生物信息工具"},
+    {"head": "CAFA5数据集", "type": "属于", "tail": "生物信息工具"},
+    {"head": "蛋白质功能预测", "type": "使用", "tail": "UniProt 蛋白质数据库"},
+    {"head": "蛋白质功能预测", "type": "使用", "tail": "CAFA5数据集"},
+    {"head": "蛋白质功能预测", "type": "属于", "tail": "基因本体论"},
+    {"head": "Word2vec", "type": "使用", "tail": "蛋白质语言"},
+    {"head": "Bert", "type": "使用", "tail": "蛋白质语言"},
+    {"head": "蛋白质语言", "type": "属于", "tail": "自然语言处理概念"},
+    {"head": "蛋白质功能预测", "type": "调控", "tail": "结构域提取"},
+    {"head": "蛋白质功能预测", "type": "调控", "tail": "局部序列特征提取"},
+    {"head": "蛋白质功能预测", "type": "调控", "tail": "远距离氨基酸残基相互关联分析"}
+  ]
+}
+```

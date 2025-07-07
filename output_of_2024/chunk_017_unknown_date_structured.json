@@ -1,0 +1,125 @@
+{
+    "timestamp": "2025-07-07T16:56:43.752626",
+    "filename": "chunk_017_unknown_date.md",
+    "entities": {
+        "chunk_id": "2024-03-02",
+        "entities": [
+            {
+                "name": "蛋白",
+                "type": "生物分子"
+            },
+            {
+                "name": "同源搜索",
+                "type": "生物技术"
+            },
+            {
+                "name": "anc2vec",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "GO",
+                "type": "生物分子"
+            },
+            {
+                "name": "focal loss",
+                "type": "深度学习概念"
+            },
+            {
+                "name": "Learning from Imbalanced Classes",
+                "type": "其他"
+            },
+            {
+                "name": "蛋白相互作用",
+                "type": "生物分子"
+            },
+            {
+                "name": "数据筛选",
+                "type": "项目活动"
+            },
+            {
+                "name": "调参",
+                "type": "深度学习概念"
+            },
+            {
+                "name": "样本极度不平衡",
+                "type": "项目活动"
+            }
+        ]
+    },
+    "relations": {
+        "chunk_id": "2024-03-02",
+        "relations": [
+            {
+                "head": "深层注释",
+                "type": "使用",
+                "tail": "同源搜索"
+            },
+            {
+                "head": "深层注释",
+                "type": "使用",
+                "tail": "anc2vec"
+            },
+            {
+                "head": "数据筛选",
+                "type": "因果",
+                "tail": "样本极度不平衡"
+            },
+            {
+                "head": "输入GO",
+                "type": "属于",
+                "tail": "数据筛选"
+            },
+            {
+                "head": "预测GO",
+                "type": "属于",
+                "tail": "深层注释"
+            },
+            {
+                "head": "调参",
+                "type": "使用",
+                "tail": "focal loss"
+            },
+            {
+                "head": "调参",
+                "type": "属于",
+                "tail": "Learning from Imbalanced Classes"
+            },
+            {
+                "head": "样本极度不平衡",
+                "type": "属于",
+                "tail": "Learning from Imbalanced Classes"
+            },
+            {
+                "head": "添加蛋白相互作用",
+                "type": "属于",
+                "tail": "Learning from Imbalanced Classes"
+            },
+            {
+                "head": "Learning from Imbalanced Classes",
+                "type": "属于",
+                "tail": "调参"
+            },
+            {
+                "head": "Learning from Imbalanced Classes",
+                "type": "属于",
+                "tail": "数据严重不"
+            },
+            {
+                "head": "数据严重不",
+                "type": "因果",
+                "tail": "样本极度不平衡"
+            },
+            {
+                "head": "数据严重不",
+                "type": "改进",
+                "tail": "添加蛋白相互作用"
+            },
+            {
+                "head": "数据严重不",
+                "type": "改进",
+                "tail": "IA选大一点"
+            }
+        ]
+    },
+    "status": "success"
+}

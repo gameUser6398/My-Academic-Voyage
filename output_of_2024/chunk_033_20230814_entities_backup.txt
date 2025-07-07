@@ -1,0 +1,16 @@
+
+
+{
+  "chunk_id": "2024-03-02",
+  "entities": [
+    {"name": "ProGen", "type": "生物信息工具"},
+    {"name": "氨基酸", "type": "生物分子"},
+    {"name": "溶菌酶", "type": "生物分子"},
+    {"name": "蛋白质", "type": "生物分子"},
+    {"name": "Transformer", "type": "深度学习概念"},
+    {"name": "log-likelihood score", "type": "深度学习概念"},
+    {"name": "adversarial discriminator", "type": "深度学习概念"},
+    {"name": "Max ID", "type": "深度学习概念"},
+    {"name": "文献阅读", "type": "项目活动"}
+  ]
+}

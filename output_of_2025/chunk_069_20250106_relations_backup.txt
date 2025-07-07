@@ -1,0 +1,42 @@
+
+
+```json
+{
+  "chunk_id": "2024-03-02",
+  "relations": [
+    {"head": "Mtb", "type": "调控", "tail": "β-内酰胺类药物耐药性"},
+    {"head": "blaC", "type": "属于", "tail": "β-内酰胺酶"},
+    {"head": "β-内酰胺酶", "type": "属于", "生物分子"},
+    {"head": "β-内酰胺酶", "type": "调控", "tail": "β-内酰胺类药物耐药性"},
+    {"head": "PBP", "type": "调控", "tail": "β-内酰胺类药物耐药性"},
+    {"head": "Mtb", "type": "属于", "tail": "结核分枝杆菌"},
+    {"head": "erm", "type": "调控", "tail": "林可酰胺/大环内酯类药物耐药性"},
+    {"head": "tlyA", "type": "调控", "tail": "林可酰胺/大环内酯类药物耐药性"},
+    {"head": "GidB", "type": "调控", "tail": "林可酰胺/大环内酯类药物耐药性"},
+    {"head": "氟喹诺酮类抗生素", "type": "调控", "tail": "DNA旋转酶"},
+    {"head": "MDR", "type": "属于", "tail": "AMR"},
+    {"head": "OXA-23", "type": "属于", "tail": "药物水解酶"},
+    {"head": "OXA-48", "type": "属于", "tail": "药物水解酶"},
+    {"head": "外排泵", "type": "调控", "tail": "药物外排"},
+    {"head": "膜孔蛋白", "type": "调控", "tail": "渗透屏障"},
+    {"head": "异烟肼", "type": "属于", "tail": "前药"},
+    {"head": "利福平", "type": "属于", "tail": "药物"},
+    {"head": "吡嗪酰胺", "type": "属于", "tail": "药物"},
+    {"head": "乙胺丁醇", "type": "属于", "tail": "药物"},
+    {"head": "rpoB", "type": "调控", "tail": "利福平耐药性"},
+    {"head": "Arr_Mab", "type": "属于", "tail": "利福平 ADP-核糖基转移酶"},
+    {"head": "MAB_0591", "type": "编码", "tail": "Arr_Mab"},
+    {"head": "β 内酰胺酶", "type": "属于", "tail": "药物灭活"},
+    {"head": "乙酰/甲基转移酶", "type": "属于", "tail": "药物灭活"},
+    {"head": "药物外排", "type": "属于", "tail": "抗生素耐药机制"},
+    {"head": "渗透屏障", "type": "属于", "tail": "抗生素耐药机制"},
+    {"head": "药物灭活", "type": "属于", "tail": "抗生素耐药机制"},
+    {"head": "染色体突变", "type": "调控", "tail": "AMR"},
+    {"head": "水平基因转移", "type": "属于", "tail": "AMR"},
+    {"head": "表型药物耐受性", "type": "属于", "tail": "抗生素耐药机制"},
+    {"head": "生物膜", "type": "调控", "tail": "渗透屏障"},
+    {"head": "PanD", "type": "调控", "tail": "吡嗪酰胺耐药性"},
+    {"head": "前药", "type": "属于", "tail": "异烟肼"}
+  ]
+}
+```

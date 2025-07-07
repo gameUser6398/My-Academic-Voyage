@@ -1,0 +1,18 @@
+
+
+```json
+{
+  "chunk_id": "2024-05-15",
+  "relations": [
+    {"head": "调试计划", "type": "属于", "tail": "项目进展"},
+    {"head": "结项撰写", "type": "属于", "tail": "项目进展"},
+    {"head": "SMOTE", "type": "使用", "tail": "调试计划"},
+    {"head": "CGAN", "type": "使用", "tail": "调试计划"},
+    {"head": "focal loss", "type": "使用", "tail": "调试计划"},
+    {"head": "BCE", "type": "使用", "tail": "调试计划"},
+    {"head": "CGAN", "type": "使用", "tail": "BCE"},
+    {"head": "SMOTE", "type": "使用", "tail": "focal loss"},
+    {"head": "CGAN", "type": "使用", "tail": "focal loss"}
+  ]
+}
+```

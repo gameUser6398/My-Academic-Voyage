@@ -1,0 +1,14 @@
+
+
+{
+  "chunk_id": "2024-03-02",
+  "relations": [
+    {"head": "融合基因", "type": "因果", "tail": "融合蛋白"},
+    {"head": "GO Terms", "type": "使用", "tail": "蛋白质功能预测"},
+    {"head": "蛋白质结构网络", "type": "使用", "tail": "湿实验"},
+    {"head": "NetGO", "type": "使用", "tail": "蛋白质功能预测"},
+    {"head": "Python", "type": "属于", "tail": "蛋白质结构网络"},
+    {"head": "蛋白质功能预测", "type": "属于", "tail": "生物信息工具"},
+    {"head": "蛋白质结构网络", "type": "属于", "tail": "生物信息工具"}
+  ]
+}

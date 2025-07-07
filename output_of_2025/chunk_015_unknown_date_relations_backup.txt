@@ -1,0 +1,21 @@
+
+
+```json
+{
+  "chunk_id": "2024-03-02",
+  "relations": [
+    {"head": "card-rgi", "type": "使用", "tail": "基因或蛋白质序列预测"},
+    {"head": "Resfinder", "type": "使用", "tail": "基因或蛋白质序列预测"},
+    {"head": "脚本", "type": "使用", "tail": "基因或蛋白质序列预测"},
+    {"head": "网页", "type": "包含", "tail": "搜索框"},
+    {"head": "网页", "type": "包含", "tail": "gene search"},
+    {"head": "网页", "type": "包含", "tail": "左侧菜单"},
+    {"head": "网页", "type": "属于", "tail": "项目活动"},
+    {"head": "搜索框", "type": "输入", "tail": "序列数据"},
+    {"head": "青霉素", "type": "属于", "tail": "β-内酰胺类"},
+    {"head": "阿莫西林", "type": "属于", "tail": "β-内酰胺类"},
+    {"head": "后端衔接", "type": "属于", "tail": "项目活动"},
+    {"head": "ARG", "type": "调控", "tail": "抗生素耐药性"}
+  ]
+}
+```

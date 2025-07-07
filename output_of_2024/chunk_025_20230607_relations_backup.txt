@@ -1,0 +1,18 @@
+
+
+```json
+{
+  "chunk_id": "2024-03-02",
+  "relations": [
+    {"head": "蛋白质", "type": "属于", "tail": "蛋白质功能预测"},
+    {"head": "氨基酸序列", "type": "属于", "tail": "蛋白质功能预测"},
+    {"head": "Deep_CNN_LSTM_GO", "type": "使用", "tail": "蛋白质功能预测"},
+    {"head": "结构比对", "type": "属于", "tail": "同源搜索"},
+    {"head": "结构比对", "type": "属于", "tail": "折叠空间构建"},
+    {"head": "多结构比对", "type": "属于", "tail": "蛋白质结构家族"},
+    {"head": "多结构比对", "type": "调控", "tail": "进化保守"},
+    {"head": "文献阅读", "type": "包含", "tail": "第54页"},
+    {"head": "第54页", "type": "包含", "tail": "Deep_CNN_LSTM_GO"}
+  ]
+}
+```

@@ -1,0 +1,6 @@
+{
+    "timestamp": "2025-07-07T16:56:05.637262",
+    "filename": "chunk_012_unknown_date.md",
+    "raw_entities": "\n\n{\n  \"chunk_id\": \"2024-03-02\",\n  \"entities\": [\n    {\"name\": \"UniProtKB\", \"type\": \"生物信息工具\"},\n    {\"name\": \"InterPro\", \"type\": \"生物信息工具\"},\n    {\"name\": \"蛋白质家族\", \"type\": \"生物分子\"},\n    {\"name\": \"序列相似性搜索工具\", \"type\": \"生物信息工具\"},\n    {\"name\": \"宏基因组测序\", \"type\": \"生物技术\"},\n    {\"name\": \"API\", \"type\": \"生物信息工具\"},\n    {\"name\": \"protein_families\", \"type\": \"生物信息工具\"},\n    {\"name\": \"P05067\", \"type\": \"生物分子\"}\n  ]\n}",
+    "raw_relations": "\n\n{\n  \"chunk_id\": \"2024-03-02\",\n  \"relations\": [\n    {\"head\": \"UniProtKB\", \"type\": \"包含\", \"tail\": \"蛋白质家族\"},\n    {\"head\": \"UniProtKB\", \"type\": \"使用\", \"tail\": \"InterPro\"},\n    {\"head\": \"UniProtKB\", \"type\": \"使用\", \"tail\": \"序列相似性搜索工具\"},\n    {\"head\": \"UniProtKB\", \"type\": \"使用\", \"tail\": \"科学文献\"},\n    {\"head\": \"蛋白质家族\", \"type\": \"属于\", \"tail\": \"UniProtKB\"},\n    {\"head\": \"API\", \"type\": \"使用\", \"tail\": \"protein_families\"},\n    {\"head\": \"P05067\", \"type\": \"使用\", \"tail\": \"API\"}\n  ]\n}"
+}

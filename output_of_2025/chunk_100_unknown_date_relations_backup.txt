@@ -1,0 +1,17 @@
+
+
+{
+  "chunk_id": "2024-03-02",
+  "relations": [
+    {"head": "β-内酰胺类", "type": "调控", "tail": "β-内酰胺酶"},
+    {"head": "氨基糖苷类", "type": "调控", "tail": "16S rRNA甲基化酶"},
+    {"head": "四环素类", "type": "调控", "tail": "Tet（M）"},
+    {"head": "四环素类", "type": "调控", "tail": "Tet（X）"},
+    {"head": "大环内酯类", "type": "调控", "tail": "Erm"},
+    {"head": "喹诺酮类", "type": "调控", "tail": "Qnr"},
+    {"head": "磺胺类", "type": "调控", "tail": "Sul"},
+    {"head": "甲氧苄啶类", "type": "调控", "tail": "DfrA"},
+    {"head": "磷霉素", "type": "调控", "tail": "Fos"},
+    {"head": "糖肽", "type": "调控", "tail": "Van连接酶"}
+  ]
+}

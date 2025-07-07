@@ -1,0 +1,21 @@
+
+
+```json
+{
+  "chunk_id": "2024-03-02",
+  "entities": [
+    {"name": "高通量测序技术", "type": "生物技术"},
+    {"name": "基因型", "type": "生物分子"},
+    {"name": "变异结果", "type": "生物分子"},
+    {"name": "染色体异常", "type": "生物分子"},
+    {"name": "致病性分级", "type": "生物医学概念"},
+    {"name": "药物信息", "type": "生物医学概念"},
+    {"name": "临床意义", "type": "生物医学概念"},
+    {"name": "Antimicrobial resistance", "type": "生物医学概念"},
+    {"name": "抗生素耐药性", "type": "生物医学概念"},
+    {"name": "Staphylococcus", "type": "生物分子"},
+    {"name": "靶向测序", "type": "生物技术"},
+    {"name": "分枝杆菌病", "type": "生物医学概念"}
+  ]
+}
+```

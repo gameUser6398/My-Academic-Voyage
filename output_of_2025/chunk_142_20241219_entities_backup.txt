@@ -1,0 +1,34 @@
+
+
+```json
+{
+  "chunk_id": "2024-03-02",
+  "entities": [
+    {"name": "Git", "type": "生物信息工具"},
+    {"name": "GitHub", "type": "生物信息工具"},
+    {"name": "LORA", "type": "深度学习概念"},
+    {"name": "微调", "type": "深度学习概念"},
+    {"name": "ESM", "type": "生物信息工具"},
+    {"name": "Transformer", "type": "深度学习概念"},
+    {"name": "学习率", "type": "深度学习概念"},
+    {"name": "5e-5", "type": "深度学习概念"},
+    {"name": "秩", "type": "深度学习概念"},
+    {"name": "缩放因子", "type": "深度学习概念"},
+    {"name": "query", "type": "深度学习概念"},
+    {"name": "value", "type": "深度学习概念"},
+    {"name": "key", "type": "深度学习概念"},
+    {"name": "ESM2", "type": "生物信息工具"},
+    {"name": "35M", "type": "其他"},
+    {"name": "Attention", "type": "深度学习概念"},
+    {"name": "结构域", "type": "生物分子"},
+    {"name": "bertviz", "type": "生物信息工具"},
+    {"name": "model_view", "type": "生物信息工具"},
+    {"name": "熵", "type": "深度学习概念"},
+    {"name": "保守位置", "type": "生物分子"},
+    {"name": "简单平均", "type": "其他"},
+    {"name": "最大值", "type": "其他"},
+    {"name": "Warmup策略", "type": "深度学习概念"},
+    {"name": "Batch size", "type": "深度学习概念"}
+  ]
+}
+```

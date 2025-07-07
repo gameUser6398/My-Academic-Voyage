@@ -1,0 +1,39 @@
+
+
+```json
+{
+  "chunk_id": "2024-03-02",
+  "relations": [
+    {"head": "MTB", "type": "属于", "tail": "结核病"},
+    {"head": "katG", "type": "调控", "tail": "INH"},
+    {"head": "INH", "type": "调控", "tail": "inhA"},
+    {"head": "INH", "type": "调控", "tail": "kasA"},
+    {"head": "inhA", "type": "参与", "tail": "分枝杆菌酸合成"},
+    {"head": "NADH", "type": "参与", "tail": "分枝杆菌酸合成"},
+    {"head": "INH", "type": "参与", "tail": "分枝杆菌酸合成"},
+    {"head": "katG", "type": "编码", "tail": "过氧化氢酶"},
+    {"head": "inhA", "type": "编码", "tail": "NADH 特异性烯酰-ACP 还原酶"},
+    {"head": "kasA", "type": "编码", "tail": "β-酮酰基 ACP 合酶"},
+    {"head": "AhpC", "type": "参与", "tail": "氧化应激"},
+    {"head": "katG", "type": "参与", "tail": "INH 前药激活"},
+    {"head": "furA", "type": "调控", "tail": "katG"},
+    {"head": "furA", "type": "属于", "tail": "Rv1909c"},
+    {"head": "mce3R", "type": "属于", "tail": "Rv1963c"},
+    {"head": "mce3R", "type": "调控", "tail": "脂肪酸β氧化"},
+    {"head": "mce3R", "type": "调控", "tail": "脂质转运"},
+    {"head": "ctpD", "type": "调控", "tail": "mce3R"},
+    {"head": "katG", "type": "参与", "tail": "转录调控网络"},
+    {"head": "furA", "type": "属于", "tail": "转录因子"},
+    {"head": "mce3R", "type": "属于", "tail": "转录因子"},
+    {"head": "katG", "type": "参与", "tail": "抗生素耐药性"},
+    {"head": "inhA", "type": "参与", "tail": "抗生素耐药性"},
+    {"head": "突变", "type": "导致", "tail": "INH 诱导耐药"},
+    {"head": "katG", "type": "突变", "tail": "INH 诱导耐药"},
+    {"head": "inhA", "type": "突变", "tail": "INH 诱导耐药"},
+    {"head": "INH", "type": "导致", "tail": "代谢重组"},
+    {"head": "INH", "type": "导致", "tail": "抗生素耐药性"},
+    {"head": "Rv0324", "type": "调控", "tail": "贝达喹啉"},
+    {"head": "测序", "type": "使用", "tail": "代谢重组研究"}
+  ]
+}
+```

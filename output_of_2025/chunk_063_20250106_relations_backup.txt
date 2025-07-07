@@ -1,0 +1,23 @@
+
+
+```json
+{
+  "chunk_id": "2025-01-06",
+  "relations": [
+    {"head": "抗生素治疗", "type": "因果", "tail": "MDR菌株"},
+    {"head": "抗生素", "type": "因果", "tail": "抗生素耐药性"},
+    {"head": "抗生素耐药基因", "type": "调控", "tail": "肺炎克雷伯菌耐药性"},
+    {"head": "AGRs", "type": "包含", "tail": "靶标结合位点改变"},
+    {"head": "AGRs", "type": "包含", "tail": "外排泵活性增加"},
+    {"head": "AGRs", "type": "包含", "tail": "酶诱导"},
+    {"head": "AGRs", "type": "包含", "tail": "孔蛋白减少"},
+    {"head": "外排泵", "type": "属于", "tail": "抗生素耐药机制"},
+    {"head": "β-内酰胺酶", "type": "属于", "tail": "抗生素耐药机制"},
+    {"head": "碳青霉烯酶", "type": "属于", "tail": "抗生素耐药机制"},
+    {"head": "VanA", "type": "属于", "tail": "抗生素耐药机制"},
+    {"head": "抗生素耐药基因", "type": "属于", "tail": "ARGs"},
+    {"head": "抗生素耐药性", "type": "属于", "tail": "生物医学概念"},
+    {"head": "肺炎克雷伯菌", "type": "属于", "tail": "生物分子"}
+  ]
+}
+```

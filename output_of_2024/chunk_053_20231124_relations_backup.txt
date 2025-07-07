@@ -1,0 +1,14 @@
+
+
+{
+  "chunk_id": "2024-03-02",
+  "relations": [
+    {"head": "conda", "type": "使用", "tail": "PyTorch"},
+    {"head": "conda", "type": "使用", "tail": "Torchvision"},
+    {"head": "conda", "type": "使用", "tail": "Torchaudio"},
+    {"head": "conda", "type": "使用", "tail": "CUDA"},
+    {"head": "conda", "type": "使用", "tail": "Torchmetrics"},
+    {"head": "Transformer", "type": "使用", "tail": "PyTorch"},
+    {"head": "Colab", "type": "使用", "tail": "Transformer"}
+  ]
+}

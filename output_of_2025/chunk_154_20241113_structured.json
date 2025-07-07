@@ -1,0 +1,104 @@
+{
+    "timestamp": "2025-07-07T18:39:21.515072",
+    "filename": "chunk_154_20241113.md",
+    "entities": {
+        "chunk_id": "2024-10-15",
+        "entities": [
+            {
+                "name": "蛋白质",
+                "type": "生物分子"
+            },
+            {
+                "name": "基因组",
+                "type": "生物分子"
+            },
+            {
+                "name": "原始测序数据",
+                "type": "生物技术"
+            },
+            {
+                "name": "BERT",
+                "type": "深度学习概念"
+            },
+            {
+                "name": "SpaCy",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "抗生素",
+                "type": "生物医学概念"
+            },
+            {
+                "name": "Flask",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "Pipeline",
+                "type": "深度学习概念"
+            },
+            {
+                "name": "Tokenization",
+                "type": "深度学习概念"
+            },
+            {
+                "name": "POS Tagging",
+                "type": "深度学习概念"
+            },
+            {
+                "name": "Dependency Parsing",
+                "type": "深度学习概念"
+            }
+        ]
+    },
+    "relations": {
+        "chunk_id": "2024-10-15",
+        "relations": [
+            {
+                "head": "SpaCy",
+                "type": "包含",
+                "tail": "管道"
+            },
+            {
+                "head": "管道",
+                "type": "包含",
+                "tail": "分词"
+            },
+            {
+                "head": "管道",
+                "type": "包含",
+                "tail": "词性标注"
+            },
+            {
+                "head": "管道",
+                "type": "包含",
+                "tail": "依存解析"
+            },
+            {
+                "head": "SpaCy",
+                "type": "使用",
+                "tail": "BERT"
+            },
+            {
+                "head": "Flask",
+                "type": "使用",
+                "tail": "蛋白质"
+            },
+            {
+                "head": "Flask",
+                "type": "使用",
+                "tail": "基因组"
+            },
+            {
+                "head": "Flask",
+                "type": "使用",
+                "tail": "原始测序数据"
+            },
+            {
+                "head": "抗生素",
+                "type": "属于",
+                "tail": "生物医学概念"
+            }
+        ]
+    },
+    "status": "success"
+}

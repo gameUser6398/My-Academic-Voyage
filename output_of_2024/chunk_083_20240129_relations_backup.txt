@@ -1,0 +1,20 @@
+
+
+```json
+{
+  "chunk_id": "2024-03-02",
+  "relations": [
+    {"head": "Python", "type": "使用", "tail": "余弦相似度"},
+    {"head": "Python", "type": "使用", "tail": "轮廓系数"},
+    {"head": "Python", "type": "使用", "tail": "silhouette_score"},
+    {"head": "Python", "type": "使用", "tail": "silhouette_samples"},
+    {"head": "维度灾难", "type": "因果", "tail": "高维空间"},
+    {"head": "维度灾难", "type": "因果", "tail": "欧氏距离失效"},
+    {"head": "维度灾难", "type": "因果", "tail": "余弦相似度失效"},
+    {"head": "余弦相似度", "type": "属于", "tail": "生物信息工具"},
+    {"head": "轮廓系数", "type": "属于", "tail": "聚类效果评估指标"},
+    {"head": "蛋白簇", "type": "使用", "tail": "余弦相似度"},
+    {"head": "蛋白簇", "type": "使用", "tail": "阈值"}
+  ]
+}
+```

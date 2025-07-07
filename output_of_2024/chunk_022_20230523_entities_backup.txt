@@ -1,0 +1,11 @@
+
+
+{
+  "chunk_id": "2024-03-02",
+  "entities": [
+    {"name": "RNN", "type": "深度学习概念"},
+    {"name": "CNNs", "type": "深度学习概念"},
+    {"name": "Ensemble deep learning", "type": "深度学习概念"},
+    {"name": "生物信息学", "type": "生物信息工具"}
+  ]
+}

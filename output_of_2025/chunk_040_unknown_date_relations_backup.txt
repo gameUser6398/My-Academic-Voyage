@@ -1,0 +1,31 @@
+
+
+{
+  "chunk_id": "2024-03-02",
+  "relations": [
+    {"head": "mNGS", "type": "使用", "tail": "DNA"},
+    {"head": "mNGS", "type": "使用", "tail": "RNA"},
+    {"head": "mNGS", "type": "属于", "tail": "宏基因组下一代测序"},
+    {"head": "mNGS", "type": "应用于", "tail": "感染"},
+    {"head": "mNGS", "type": "检测", "tail": "病原体"},
+    {"head": "mNGS", "type": "涉及", "tail": "抗菌素耐药性"},
+    {"head": "mNGS", "type": "涉及", "tail": "微生物组"},
+    {"head": "mNGS", "type": "涉及", "tail": "转录组学"},
+    {"head": "mNGS", "type": "涉及", "tail": "肿瘤学"},
+    {"head": "mNGS", "type": "依赖", "tail": "生物信息学管道"},
+    {"head": "抗菌素耐药性", "type": "因果", "tail": "感染"},
+    {"head": "未确诊的感染", "type": "因果", "tail": "患者死亡"},
+    {"head": "未确诊的感染", "type": "因果", "tail": "长期后果"},
+    {"head": "mNGS", "type": "改进", "tail": "临床诊断"},
+    {"head": "mNGS", "type": "优于", "tail": "传统诊断"},
+    {"head": "生物信息学管道", "type": "标准化需求", "tail": "mNGS"},
+    {"head": "医生", "type": "必须了解", "tail": "mNGS的潜在优点和缺点"},
+    {"head": "mNGS", "type": "用于", "tail": "识别严重感染"},
+    {"head": "mNGS", "type": "属于", "tail": "生物技术"},
+    {"head": "抗菌素耐药性", "type": "属于", "tail": "生物医学概念"},
+    {"head": "微生物组", "type": "属于", "tail": "生物医学概念"},
+    {"head": "转录组学", "type": "属于", "tail": "生物医学概念"},
+    {"head": "肿瘤学", "type": "属于", "tail": "生物医学概念"},
+    {"head": "生物信息学管道", "type": "属于", "tail": "生物信息工具"}
+  ]
+}

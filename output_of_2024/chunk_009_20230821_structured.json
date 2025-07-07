@@ -1,0 +1,232 @@
+{
+    "timestamp": "2025-07-07T17:24:15.743285",
+    "filename": "chunk_009_20230821.md",
+    "entities": {
+        "chunk_id": "2024-03-02",
+        "entities": [
+            {
+                "name": "Transformer",
+                "type": "深度学习概念"
+            },
+            {
+                "name": "Bert",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "自编码模型",
+                "type": "深度学习概念"
+            },
+            {
+                "name": "embedding",
+                "type": "深度学习概念"
+            },
+            {
+                "name": "蛋白质家族",
+                "type": "生物分子"
+            },
+            {
+                "name": "高维矩阵相乘",
+                "type": "深度学习概念"
+            },
+            {
+                "name": "验证集",
+                "type": "项目活动"
+            },
+            {
+                "name": "测试集",
+                "type": "项目活动"
+            },
+            {
+                "name": "调参",
+                "type": "深度学习概念"
+            },
+            {
+                "name": "损失函数",
+                "type": "深度学习概念"
+            },
+            {
+                "name": "语言模型",
+                "type": "深度学习概念"
+            },
+            {
+                "name": "位置编码（positional encoding）",
+                "type": "深度学习概念"
+            },
+            {
+                "name": "EMS",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "Linux",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "Python",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "CAFA",
+                "type": "项目活动"
+            },
+            {
+                "name": "论文阅读",
+                "type": "项目活动"
+            },
+            {
+                "name": "样本采集",
+                "type": "项目活动"
+            }
+        ]
+    },
+    "relations": {
+        "chunk_id": "2024-03-02",
+        "relations": [
+            {
+                "head": "Transformer",
+                "type": "使用",
+                "tail": "语言模型"
+            },
+            {
+                "head": "语言模型",
+                "type": "使用",
+                "tail": "embedding"
+            },
+            {
+                "head": "Transformer",
+                "type": "使用",
+                "tail": "位置编码（positional encoding）"
+            },
+            {
+                "head": "Bert",
+                "type": "使用",
+                "tail": "论文阅读"
+            },
+            {
+                "head": "Transformer",
+                "type": "使用",
+                "tail": "调参"
+            },
+            {
+                "head": "自编码模型",
+                "type": "使用",
+                "tail": "高维矩阵相乘"
+            },
+            {
+                "head": "自编码模型",
+                "type": "使用",
+                "tail": "embedding相加"
+            },
+            {
+                "head": "EMS",
+                "type": "使用",
+                "tail": "embedding"
+            },
+            {
+                "head": "Linux",
+                "type": "使用",
+                "tail": "样本采集"
+            },
+            {
+                "head": "Python",
+                "type": "使用",
+                "tail": "样本采集"
+            },
+            {
+                "head": "验证集",
+                "type": "因果",
+                "tail": "测试集"
+            },
+            {
+                "head": "Transformer",
+                "type": "属于",
+                "tail": "深度学习概念"
+            },
+            {
+                "head": "Bert",
+                "type": "属于",
+                "tail": "生物信息工具"
+            },
+            {
+                "head": "自编码模型",
+                "type": "属于",
+                "tail": "深度学习概念"
+            },
+            {
+                "head": "embedding",
+                "type": "属于",
+                "tail": "深度学习概念"
+            },
+            {
+                "head": "蛋白质家族",
+                "type": "属于",
+                "tail": "生物分子"
+            },
+            {
+                "head": "高维矩阵相乘",
+                "type": "属于",
+                "tail": "深度学习概念"
+            },
+            {
+                "head": "验证集",
+                "type": "属于",
+                "tail": "项目活动"
+            },
+            {
+                "head": "测试集",
+                "type": "属于",
+                "tail": "项目活动"
+            },
+            {
+                "head": "调参",
+                "type": "属于",
+                "tail": "深度学习概念"
+            },
+            {
+                "head": "损失函数",
+                "type": "属于",
+                "tail": "深度学习概念"
+            },
+            {
+                "head": "语言模型",
+                "type": "属于",
+                "tail": "深度学习概念"
+            },
+            {
+                "head": "位置编码（positional encoding）",
+                "type": "属于",
+                "tail": "深度学习概念"
+            },
+            {
+                "head": "EMS",
+                "type": "属于",
+                "tail": "生物信息工具"
+            },
+            {
+                "head": "Linux",
+                "type": "属于",
+                "tail": "生物信息工具"
+            },
+            {
+                "head": "Python",
+                "type": "属于",
+                "tail": "生物信息工具"
+            },
+            {
+                "head": "CAFA",
+                "type": "属于",
+                "tail": "项目活动"
+            },
+            {
+                "head": "论文阅读",
+                "type": "属于",
+                "tail": "项目活动"
+            },
+            {
+                "head": "样本采集",
+                "type": "属于",
+                "tail": "项目活动"
+            }
+        ]
+    },
+    "status": "success"
+}

@@ -1,0 +1,32 @@
+
+
+```json
+{
+  "chunk_id": "2024-03-02",
+  "relations": [
+    {"head": "CAFA", "type": "包含", "tail": "蛋白"},
+    {"head": "CAFA", "type": "使用", "tail": "ProtBert"},
+    {"head": "ProtBert", "type": "生成", "tail": "嵌入结果"},
+    {"head": "任务分工", "type": "包含", "tail": "CAFA用CNN训练一遍"},
+    {"head": "任务分工", "type": "包含", "tail": "复现Deep_CNN_LSTM_GO论文模型"},
+    {"head": "进度推进", "type": "包含", "tail": "ddl: 8.20"},
+    {"head": "文献调研", "type": "包含", "tail": "学长论文"},
+    {"head": "CNN", "type": "属于", "tail": "深度学习概念"},
+    {"head": "LSTM", "type": "属于", "tail": "深度学习概念"},
+    {"head": "Self-Attention", "type": "属于", "tail": "深度学习概念"},
+    {"head": "Transformer", "type": "属于", "tail": "深度学习概念"},
+    {"head": "PyTorch", "type": "使用", "tail": "CNN"},
+    {"head": "PyTorch", "type": "使用", "tail": "LSTM"},
+    {"head": "PyTorch", "type": "使用", "tail": "Self-Attention"},
+    {"head": "PyTorch", "type": "使用", "tail": "Transformer"},
+    {"head": "TensorBoard", "type": "与...一起使用", "tail": "PyTorch"},
+    {"head": "Linux", "type": "与...一起使用", "tail": "PyTorch"},
+    {"head": "PyCharm 专业版", "type": "使用", "tail": "PyTorch"},
+    {"head": "bio-embeddings", "type": "与...相关", "tail": "ProtBert"},
+    {"head": "任务分工", "type": "包含", "tail": "理解好selfAttention，如何用于classification"},
+    {"head": "进度推进", "type": "包含", "tail": "向老师报进展"},
+    {"head": "改进想法", "type": "属于", "tail": "项目活动"},
+    {"head": "构架", "type": "涉及", "tail": "hidden_layer"}
+  ]
+}
+```

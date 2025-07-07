@@ -1,0 +1,24 @@
+
+
+```json
+{
+  "chunk_id": "2024-09-22-2024-09-23",
+  "relations": [
+    {"head": "蛋白质", "type": "使用", "tail": "Transformer"},
+    {"head": "Transformer", "type": "包含", "tail": "Trainer API"},
+    {"head": "Trainer API", "type": "使用", "tail": "Python"},
+    {"head": "vscode", "type": "包含", "tail": "launch.json"},
+    {"head": "launch.json", "type": "用于", "tail": "调试代码"},
+    {"head": "调试代码", "type": "属于", "tail": "项目活动"},
+    {"head": "Transformer", "type": "包含", "tail": "超参数"},
+    {"head": "Hydra", "type": "导致", "tail": "ListConfig"},
+    {"head": "ListConfig", "type": "属于", "tail": "JSON serializable"},
+    {"head": "PEFT", "type": "属于", "tail": "Hugging Face"},
+    {"head": "Weights & Biases", "type": "用于", "tail": "记录日志"},
+    {"head": "Weights & Biases", "type": "与", "tail": "Hugging Face Transformers"},
+    {"head": "调试代码", "type": "参考", "tail": "Stack Overflow"},
+    {"head": "调试代码", "type": "参考", "tail": "CSDN"},
+    {"head": "调试代码", "type": "参考", "tail": "GitHub"}
+  ]
+}
+```

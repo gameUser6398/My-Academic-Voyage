@@ -1,0 +1,87 @@
+{
+    "timestamp": "2025-07-07T18:39:08.833275",
+    "filename": "chunk_145_unknown_date.md",
+    "entities": {
+        "chunk_id": "2024-03-02",
+        "entities": [
+            {
+                "name": "Python",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "VSCode",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "PyCharm",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "SSH",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "OpenSSH",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "Linux",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "命令",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "远程连接",
+                "type": "项目活动"
+            }
+        ]
+    },
+    "relations": {
+        "chunk_id": "2024-03-02",
+        "relations": [
+            {
+                "head": "VSCode",
+                "type": "使用",
+                "tail": "SSH"
+            },
+            {
+                "head": "VSCode",
+                "type": "使用",
+                "tail": "OpenSSH"
+            },
+            {
+                "head": "VSCode",
+                "type": "属于",
+                "tail": "远程连接"
+            },
+            {
+                "head": "VSCode",
+                "type": "使用",
+                "tail": "命令"
+            },
+            {
+                "head": "PyCharm",
+                "type": "使用",
+                "tail": "Python"
+            },
+            {
+                "head": "Linux",
+                "type": "使用",
+                "tail": "SSH"
+            },
+            {
+                "head": "SSH",
+                "type": "属于",
+                "tail": "远程连接"
+            },
+            {
+                "head": "OpenSSH",
+                "type": "属于",
+                "tail": "SSH"
+            }
+        ]
+    },
+    "status": "success"
+}

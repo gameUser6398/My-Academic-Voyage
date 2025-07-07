@@ -1,0 +1,25 @@
+
+
+{
+  "chunk_id": "2024-03-02",
+  "entities": [
+    {"name": "conda", "type": "生物信息工具"},
+    {"name": "Miniconda3", "type": "生物信息工具"},
+    {"name": "pip", "type": "生物信息工具"},
+    {"name": "python", "type": "生物信息工具"},
+    {"name": "pytorch", "type": "生物信息工具"},
+    {"name": "torchvision", "type": "生物信息工具"},
+    {"name": "torchaudio", "type": "生物信息工具"},
+    {"name": "pytorch-cuda", "type": "生物信息工具"},
+    {"name": "cuda", "type": "生物信息工具"},
+    {"name": "conda config", "type": "生物信息工具"},
+    {"name": "conda create", "type": "生物信息工具"},
+    {"name": "conda install", "type": "生物信息工具"},
+    {"name": "conda pack", "type": "生物信息工具"},
+    {"name": "环境打包", "type": "项目活动"},
+    {"name": "创建环境", "type": "项目活动"},
+    {"name": "添加源", "type": "项目活动"},
+    {"name": "克隆已有环境", "type": "项目活动"},
+    {"name": "安装torch库", "type": "项目活动"}
+  ]
+}

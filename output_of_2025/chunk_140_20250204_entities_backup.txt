@@ -1,0 +1,52 @@
+
+
+```json
+{
+  "chunk_id": "2024-03-02",
+  "entities": [
+    {"name": "CNN", "type": "深度学习概念"},
+    {"name": "base_channels", "type": "深度学习概念"},
+    {"name": "num_block", "type": "深度学习概念"},
+    {"name": "selfAttention", "type": "深度学习概念"},
+    {"name": "lr", "type": "深度学习概念"},
+    {"name": "epoch", "type": "深度学习概念"},
+    {"name": "召回率", "type": "深度学习概念"},
+    {"name": "阈值", "type": "深度学习概念"},
+    {"name": "focalloss", "type": "深度学习概念"},
+    {"name": "α", "type": "深度学习概念"},
+    {"name": "ARGNet", "type": "生物信息工具"},
+    {"name": "1d", "type": "生物信息工具"},
+    {"name": "Attention", "type": "深度学习概念"},
+    {"name": "v1_ResNet_0827", "type": "生物信息工具"},
+    {"name": "pytorch", "type": "生物信息工具"},
+    {"name": "ResNet", "type": "生物信息工具"},
+    {"name": "1_RESNet", "type": "生物信息工具"},
+    {"name": "1d", "type": "生物信息工具"},
+    {"name": "ARG", "type": "生物分子"},
+    {"name": "Resfinder", "type": "生物信息工具"},
+    {"name": "PLM", "type": "生物信息工具"},
+    {"name": "multi-drug", "type": "生物分子"},
+    {"name": "β-lactam", "type": "生物分子"},
+    {"name": "BLAST", "type": "生物技术"},
+    {"name": "CD-hit", "type": "生物技术"},
+    {"name": "ESM", "type": "生物信息工具"},
+    {"name": "LoRA", "type": "生物信息工具"},
+    {"name": "Meta-learning", "type": "深度学习概念"},
+    {"name": "margin-based loss", "type": "深度学习概念"},
+    {"name": "BBN", "type": "深度学习概念"},
+    {"name": "F1 score", "type": "深度学习概念"},
+    {"name": "BinaryRecall", "type": "深度学习概念"},
+    {"name": "MultilabelRecall", "type": "深度学习概念"},
+    {"name": "DRSN", "type": "生物信息工具"},
+    {"name": "conv1d", "type": "生物信息工具"},
+    {"name": "conv2d", "type": "生物信息工具"},
+    {"name": "MultiTaskTrainer", "type": "生物信息工具"},
+    {"name": "cosine", "type": "深度学习概念"},
+    {"name": "warm-up", "type": "深度学习概念"},
+    {"name": "label smoothing", "type": "深度学习概念"},
+    {"name": "WGAN", "type": "深度学习概念"},
+    {"name": "fasta", "type": "生物技术"},
+    {"name": "自回归模型", "type": "深度学习概念"}
+  ]
+}
+```

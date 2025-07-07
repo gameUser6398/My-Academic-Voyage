@@ -1,0 +1,25 @@
+
+
+{
+  "chunk_id": "2024-03-02",
+  "entities": [
+    {"name": "ARG", "type": "生物分子"},
+    {"name": "抗性基因", "type": "生物分子"},
+    {"name": "天然产物", "type": "生物分子"},
+    {"name": "抗生素", "type": "生物分子"},
+    {"name": "耐药机制", "type": "生物分子"},
+    {"name": "MIBiG 2.0", "type": "生物信息工具"},
+    {"name": "CARD", "type": "生物信息工具"},
+    {"name": "NCBIAMR", "type": "生物信息工具"},
+    {"name": "UniProt", "type": "生物信息工具"},
+    {"name": "BLAST", "type": "生物信息工具"},
+    {"name": "HMMSCAN", "type": "生物信息工具"},
+    {"name": "MarRef", "type": "项目活动"},
+    {"name": "BGCs", "type": "生物分子"},
+    {"name": "DHR", "type": "生物信息工具"},
+    {"name": "ESM2", "type": "深度学习概念"},
+    {"name": "FAISS", "type": "深度学习概念"},
+    {"name": "对比学习", "type": "深度学习概念"},
+    {"name": "logMeff", "type": "深度学习概念"}
+  ]
+}

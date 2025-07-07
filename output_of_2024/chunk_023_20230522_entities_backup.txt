@@ -1,0 +1,27 @@
+
+
+```json
+{
+  "chunk_id": "2024-03-02",
+  "entities": [
+    {"name": "k-mer", "type": "生物分子"},
+    {"name": "n-gram", "type": "其他"},
+    {"name": "氨基酸", "type": "生物分子"},
+    {"name": "核酸", "type": "生物分子"},
+    {"name": "One-Hot", "type": "其他"},
+    {"name": "词嵌入", "type": "其他"},
+    {"name": "CountVectorizer", "type": "生物信息工具"},
+    {"name": "词袋表示", "type": "其他"},
+    {"name": "Bag of Words", "type": "其他"},
+    {"name": "神经网络", "type": "深度学习概念"},
+    {"name": "词频", "type": "其他"},
+    {"name": "语义鸿沟", "type": "其他"},
+    {"name": "语料库", "type": "其他"},
+    {"name": "稀疏矩阵", "type": "其他"},
+    {"name": "向量", "type": "其他"},
+    {"name": "词典", "type": "其他"},
+    {"name": "生物信息学", "type": "其他"},
+    {"name": "自然语言处理", "type": "其他"}
+  ]
+}
+```

@@ -1,0 +1,26 @@
+
+
+{
+  "chunk_id": "2024-03-02",
+  "relations": [
+    {"head": "ARGs", "type": "属于", "tail": "抗菌素耐药性"},
+    {"head": "ARG", "type": "属于", "tail": "抗菌素耐药性"},
+    {"head": "AMR", "type": "同义", "tail": "抗菌素耐药性"},
+    {"head": "ARGfams", "type": "使用", "tail": "环境样本"},
+    {"head": "ARGfams", "type": "用于", "tail": "抗生素抗性基因快速注释"},
+    {"head": "ARGfams", "type": "用于", "tail": "新基因发现"},
+    {"head": "AMRFinder", "type": "使用", "tail": "抗菌素耐药性参考基因数据库"},
+    {"head": "AMRFinder", "type": "使用", "tail": "HMM"},
+    {"head": "AMRFinder", "type": "用于", "tail": "鉴定全基因组序列中的 AMR 基因"},
+    {"head": "AMRFinder", "type": "用于", "tail": "评估 AMR 基因型与耐药表型之间的一致性"},
+    {"head": "ResFinder", "type": "用于", "tail": "检测耐药基因"},
+    {"head": "ResFinder", "type": "与", "tail": "AMRFinder"},
+    {"head": "沙门氏菌", "type": "包含", "tail": "AMR 基因"},
+    {"head": "弯曲杆菌属", "type": "包含", "tail": "AMR 基因"},
+    {"head": "大肠杆菌", "type": "包含", "tail": "AMR 基因"},
+    {"head": "抗菌素耐药性", "type": "因果", "tail": "公共卫生问题"},
+    {"head": "ARGfams", "type": "属于", "tail": "文献阅读"},
+    {"head": "AMRFinder", "type": "属于", "tail": "文献阅读"},
+    {"head": "ResFinder", "type": "属于", "tail": "文献阅读"}
+  ]
+}

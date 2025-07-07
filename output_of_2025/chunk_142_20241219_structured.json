@@ -1,0 +1,225 @@
+{
+    "timestamp": "2025-07-07T18:26:42.257540",
+    "filename": "chunk_142_20241219.md",
+    "entities": {
+        "chunk_id": "2024-03-02",
+        "entities": [
+            {
+                "name": "Git",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "GitHub",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "LORA",
+                "type": "深度学习概念"
+            },
+            {
+                "name": "微调",
+                "type": "深度学习概念"
+            },
+            {
+                "name": "ESM",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "Transformer",
+                "type": "深度学习概念"
+            },
+            {
+                "name": "学习率",
+                "type": "深度学习概念"
+            },
+            {
+                "name": "5e-5",
+                "type": "深度学习概念"
+            },
+            {
+                "name": "秩",
+                "type": "深度学习概念"
+            },
+            {
+                "name": "缩放因子",
+                "type": "深度学习概念"
+            },
+            {
+                "name": "query",
+                "type": "深度学习概念"
+            },
+            {
+                "name": "value",
+                "type": "深度学习概念"
+            },
+            {
+                "name": "key",
+                "type": "深度学习概念"
+            },
+            {
+                "name": "ESM2",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "35M",
+                "type": "其他"
+            },
+            {
+                "name": "Attention",
+                "type": "深度学习概念"
+            },
+            {
+                "name": "结构域",
+                "type": "生物分子"
+            },
+            {
+                "name": "bertviz",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "model_view",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "熵",
+                "type": "深度学习概念"
+            },
+            {
+                "name": "保守位置",
+                "type": "生物分子"
+            },
+            {
+                "name": "简单平均",
+                "type": "其他"
+            },
+            {
+                "name": "最大值",
+                "type": "其他"
+            },
+            {
+                "name": "Warmup策略",
+                "type": "深度学习概念"
+            },
+            {
+                "name": "Batch size",
+                "type": "深度学习概念"
+            }
+        ]
+    },
+    "relations": {
+        "chunk_id": "2024-03-02",
+        "relations": [
+            {
+                "head": "LORA",
+                "type": "使用",
+                "tail": "微调"
+            },
+            {
+                "head": "微调",
+                "type": "使用",
+                "tail": "ESM"
+            },
+            {
+                "head": "微调",
+                "type": "使用",
+                "tail": "Transformer"
+            },
+            {
+                "head": "学习率",
+                "type": "设置",
+                "tail": "5e-5"
+            },
+            {
+                "head": "微调",
+                "type": "调整",
+                "tail": "学习率"
+            },
+            {
+                "head": "微调",
+                "type": "调整",
+                "tail": "秩"
+            },
+            {
+                "head": "微调",
+                "type": "调整",
+                "tail": "缩放因子"
+            },
+            {
+                "head": "微调",
+                "type": "调整",
+                "tail": "target_modules"
+            },
+            {
+                "head": "target_modules",
+                "type": "包含",
+                "tail": "query"
+            },
+            {
+                "head": "target_modules",
+                "type": "包含",
+                "tail": "value"
+            },
+            {
+                "head": "target_modules",
+                "type": "包含",
+                "tail": "key"
+            },
+            {
+                "head": "ESM2",
+                "type": "属于",
+                "tail": "生物信息工具"
+            },
+            {
+                "head": "35M",
+                "type": "描述",
+                "tail": "ESM2"
+            },
+            {
+                "head": "微调",
+                "type": "依赖",
+                "tail": "Warmup策略"
+            },
+            {
+                "head": "微调",
+                "type": "依赖",
+                "tail": "Batch size"
+            },
+            {
+                "head": "Attention",
+                "type": "使用",
+                "tail": "结构域识别"
+            },
+            {
+                "head": "bertviz",
+                "type": "使用",
+                "tail": "Attention解析"
+            },
+            {
+                "head": "model_view",
+                "type": "使用",
+                "tail": "Attention解析"
+            },
+            {
+                "head": "Attention",
+                "type": "包含",
+                "tail": "多头attention"
+            },
+            {
+                "head": "熵",
+                "type": "使用",
+                "tail": "保守位置识别"
+            },
+            {
+                "head": "简单平均",
+                "type": "属于",
+                "tail": "其他"
+            },
+            {
+                "head": "最大值",
+                "type": "属于",
+                "tail": "其他"
+            }
+        ]
+    },
+    "status": "success"
+}

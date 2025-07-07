@@ -1,0 +1,52 @@
+{
+    "timestamp": "2025-07-07T17:32:29.323655",
+    "filename": "chunk_025_20250123.md",
+    "entities": {
+        "chunk_id": "2025-01-23",
+        "entities": [
+            {
+                "name": "研究目的",
+                "type": "项目活动"
+            },
+            {
+                "name": "研究内容",
+                "type": "项目活动"
+            },
+            {
+                "name": "研究方案",
+                "type": "项目活动"
+            }
+        ]
+    },
+    "relations": {
+        "chunk_id": "2025-01-23",
+        "relations": [
+            {
+                "head": "研究目的",
+                "type": "属于",
+                "tail": "项目活动"
+            },
+            {
+                "head": "研究内容",
+                "type": "属于",
+                "tail": "项目活动"
+            },
+            {
+                "head": "研究方案",
+                "type": "属于",
+                "tail": "项目活动"
+            },
+            {
+                "head": "研究目的",
+                "type": "包含",
+                "tail": "研究内容"
+            },
+            {
+                "head": "研究内容",
+                "type": "包含",
+                "tail": "研究方案"
+            }
+        ]
+    },
+    "status": "success"
+}

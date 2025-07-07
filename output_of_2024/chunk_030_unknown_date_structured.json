@@ -1,0 +1,351 @@
+{
+    "timestamp": "2025-07-07T17:22:12.073053",
+    "filename": "chunk_030_unknown_date.md",
+    "entities": {
+        "chunk_id": "2024-03-02",
+        "entities": [
+            {
+                "name": "蛋白质",
+                "type": "生物分子"
+            },
+            {
+                "name": "氨基酸残基",
+                "type": "生物分子"
+            },
+            {
+                "name": "肽键",
+                "type": "生物分子"
+            },
+            {
+                "name": "氢键",
+                "type": "生物分子"
+            },
+            {
+                "name": "α螺旋",
+                "type": "生物分子"
+            },
+            {
+                "name": "β链",
+                "type": "生物分子"
+            },
+            {
+                "name": "β片",
+                "type": "生物分子"
+            },
+            {
+                "name": "核磁共振",
+                "type": "生物技术"
+            },
+            {
+                "name": "X射线晶体学",
+                "type": "生物技术"
+            },
+            {
+                "name": "低温电子显微镜",
+                "type": "生物技术"
+            },
+            {
+                "name": "蛋白质结构预测",
+                "type": "生物技术"
+            },
+            {
+                "name": "Anfinsen定律",
+                "type": "生物医学概念"
+            },
+            {
+                "name": "深度学习",
+                "type": "深度学习概念"
+            },
+            {
+                "name": "深度神经网络",
+                "type": "深度学习概念"
+            },
+            {
+                "name": "接触预测",
+                "type": "深度学习概念"
+            },
+            {
+                "name": "残基间距离矩阵",
+                "type": "深度学习概念"
+            },
+            {
+                "name": "端到端",
+                "type": "深度学习概念"
+            },
+            {
+                "name": "蛋白质二级结构预测",
+                "type": "深度学习概念"
+            },
+            {
+                "name": "蛋白质模型质量评估",
+                "type": "深度学习概念"
+            },
+            {
+                "name": "算法建模",
+                "type": "深度学习概念"
+            },
+            {
+                "name": "第二计算文化",
+                "type": "深度学习概念"
+            },
+            {
+                "name": "经验分布",
+                "type": "深度学习概念"
+            },
+            {
+                "name": "CMAPpro",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "DL-Pro",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "DNSS",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "SPIDE",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "aptorX-Contact",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "ResNet",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "PSIKOV",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "CCMpred",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "PSICOV",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "θ角",
+                "type": "生物分子"
+            },
+            {
+                "name": "τ角",
+                "type": "生物分子"
+            },
+            {
+                "name": "残基间接触图",
+                "type": "生物分子"
+            }
+        ]
+    },
+    "relations": {
+        "chunk_id": "2024-03-02",
+        "relations": [
+            {
+                "head": "蛋白质",
+                "type": "包含",
+                "tail": "氨基酸残基"
+            },
+            {
+                "head": "蛋白质",
+                "type": "包含",
+                "tail": "肽键"
+            },
+            {
+                "head": "蛋白质",
+                "type": "包含",
+                "tail": "α螺旋"
+            },
+            {
+                "head": "蛋白质",
+                "type": "包含",
+                "tail": "β链"
+            },
+            {
+                "head": "蛋白质",
+                "type": "包含",
+                "tail": "β片"
+            },
+            {
+                "head": "α螺旋",
+                "type": "形成",
+                "tail": "氢键"
+            },
+            {
+                "head": "β链",
+                "type": "形成",
+                "tail": "氢键"
+            },
+            {
+                "head": "β片",
+                "type": "形成",
+                "tail": "氢键"
+            },
+            {
+                "head": "蛋白质结构预测",
+                "type": "使用",
+                "tail": "Anfinsen定律"
+            },
+            {
+                "head": "蛋白质结构预测",
+                "type": "使用",
+                "tail": "深度学习"
+            },
+            {
+                "head": "深度学习",
+                "type": "属于",
+                "tail": "第二计算文化"
+            },
+            {
+                "head": "深度学习",
+                "type": "使用",
+                "tail": "深度神经网络"
+            },
+            {
+                "head": "深度神经网络",
+                "type": "用于",
+                "tail": "蛋白质二级结构预测"
+            },
+            {
+                "head": "深度神经网络",
+                "type": "用于",
+                "tail": "残基间接触图预测"
+            },
+            {
+                "head": "深度神经网络",
+                "type": "用于",
+                "tail": "蛋白质模型质量评估"
+            },
+            {
+                "head": "深度神经网络",
+                "type": "用于",
+                "tail": "残基间距离矩阵预测"
+            },
+            {
+                "head": "深度神经网络",
+                "type": "用于",
+                "tail": "端到端蛋白质结构预测"
+            },
+            {
+                "head": "深度神经网络",
+                "type": "使用",
+                "tail": "经验分布"
+            },
+            {
+                "head": "CMAPpro",
+                "type": "属于",
+                "tail": "深度神经网络"
+            },
+            {
+                "head": "CMAPpro",
+                "type": "用于",
+                "tail": "接触预测"
+            },
+            {
+                "head": "DL-Pro",
+                "type": "属于",
+                "tail": "深度神经网络"
+            },
+            {
+                "head": "DL-Pro",
+                "type": "使用",
+                "tail": "残基间距离矩阵"
+            },
+            {
+                "head": "DL-Pro",
+                "type": "用于",
+                "tail": "蛋白质模型质量评估"
+            },
+            {
+                "head": "DNSS",
+                "type": "属于",
+                "tail": "深度神经网络"
+            },
+            {
+                "head": "DNSS",
+                "type": "用于",
+                "tail": "蛋白质二级结构预测"
+            },
+            {
+                "head": "SPIDE",
+                "type": "属于",
+                "tail": "深度神经网络"
+            },
+            {
+                "head": "SPIDE",
+                "type": "用于",
+                "tail": "θ角预测"
+            },
+            {
+                "head": "SPIDE",
+                "type": "用于",
+                "tail": "τ角预测"
+            },
+            {
+                "head": "aptorX-Contact",
+                "type": "属于",
+                "tail": "深度神经网络"
+            },
+            {
+                "head": "aptorX-Contact",
+                "type": "使用",
+                "tail": "ResNet"
+            },
+            {
+                "head": "aptorX-Contact",
+                "type": "用于",
+                "tail": "残基间接触图预测"
+            },
+            {
+                "head": "aptorX-Contact",
+                "type": "优于",
+                "tail": "CCMpred"
+            },
+            {
+                "head": "aptorX-Contact",
+                "type": "优于",
+                "tail": "PSICOV"
+            },
+            {
+                "head": "蛋白质结构",
+                "type": "决定",
+                "tail": "蛋白质功能"
+            },
+            {
+                "head": "蛋白质天然结构",
+                "type": "可以通过",
+                "tail": "核磁共振"
+            },
+            {
+                "head": "蛋白质天然结构",
+                "type": "可以通过",
+                "tail": "X射线晶体学"
+            },
+            {
+                "head": "蛋白质天然结构",
+                "type": "可以通过",
+                "tail": "低温电子显微镜"
+            },
+            {
+                "head": "蛋白质结构预测",
+                "type": "与",
+                "tail": "实验测定技术"
+            },
+            {
+                "head": "蛋白质结构预测",
+                "type": "比",
+                "tail": "实验测定技术"
+            },
+            {
+                "head": "蛋白质结构预测",
+                "type": "比",
+                "tail": "实验测定技术"
+            }
+        ]
+    },
+    "status": "success"
+}

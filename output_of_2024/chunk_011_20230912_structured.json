@@ -1,0 +1,59 @@
+{
+    "timestamp": "2025-07-07T17:23:43.635867",
+    "filename": "chunk_011_20230912.md",
+    "entities": {
+        "chunk_id": "2024-03-02",
+        "entities": [
+            {
+                "name": "focal loss",
+                "type": "深度学习概念"
+            },
+            {
+                "name": "数据不平衡问题",
+                "type": "深度学习概念"
+            },
+            {
+                "name": "蛋白质",
+                "type": "生物分子"
+            },
+            {
+                "name": "蛋白质家族",
+                "type": "生物分子"
+            },
+            {
+                "name": "进化尺度",
+                "type": "其他"
+            },
+            {
+                "name": "嵌入可视化图",
+                "type": "其他"
+            }
+        ]
+    },
+    "relations": {
+        "chunk_id": "2024-03-02",
+        "relations": [
+            {
+                "head": "focal loss",
+                "type": "使用",
+                "tail": "数据不平衡问题"
+            },
+            {
+                "head": "蛋白质家族",
+                "type": "包含",
+                "tail": "嵌入可视化图"
+            },
+            {
+                "head": "蛋白质",
+                "type": "属于",
+                "tail": "进化尺度"
+            },
+            {
+                "head": "进化尺度",
+                "type": "调控",
+                "tail": "蛋白质语言"
+            }
+        ]
+    },
+    "status": "success"
+}

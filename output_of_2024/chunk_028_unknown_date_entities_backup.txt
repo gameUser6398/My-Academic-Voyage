@@ -1,0 +1,22 @@
+
+
+{
+  "chunk_id": "2024-03-02",
+  "entities": [
+    {"name": "蛋白质", "type": "生物分子"},
+    {"name": "ARG", "type": "生物分子"},
+    {"name": "基因本体论", "type": "生物医学概念"},
+    {"name": "GO注释", "type": "生物医学概念"},
+    {"name": "ProteinBERT", "type": "生物信息工具"},
+    {"name": "Transformer", "type": "深度学习概念"},
+    {"name": "UniProtKB", "type": "生物信息工具"},
+    {"name": "UniRef106", "type": "生物信息工具"},
+    {"name": "UniRef90", "type": "生物信息工具"},
+    {"name": "氨基酸序列", "type": "生物分子"},
+    {"name": "预训练", "type": "项目活动"},
+    {"name": "双向语言建模", "type": "项目活动"},
+    {"name": "注释预测", "type": "项目活动"},
+    {"name": "代码", "type": "项目活动"},
+    {"name": "预训练模型权重", "type": "项目活动"}
+  ]
+}

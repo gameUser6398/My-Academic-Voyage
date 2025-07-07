@@ -1,0 +1,272 @@
+{
+    "timestamp": "2025-07-07T17:14:46.631110",
+    "filename": "chunk_023_20230522.md",
+    "entities": {
+        "chunk_id": "2024-03-02",
+        "entities": [
+            {
+                "name": "k-mer",
+                "type": "生物分子"
+            },
+            {
+                "name": "n-gram",
+                "type": "其他"
+            },
+            {
+                "name": "氨基酸",
+                "type": "生物分子"
+            },
+            {
+                "name": "核酸",
+                "type": "生物分子"
+            },
+            {
+                "name": "One-Hot",
+                "type": "其他"
+            },
+            {
+                "name": "词嵌入",
+                "type": "其他"
+            },
+            {
+                "name": "CountVectorizer",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "词袋表示",
+                "type": "其他"
+            },
+            {
+                "name": "Bag of Words",
+                "type": "其他"
+            },
+            {
+                "name": "神经网络",
+                "type": "深度学习概念"
+            },
+            {
+                "name": "词频",
+                "type": "其他"
+            },
+            {
+                "name": "语义鸿沟",
+                "type": "其他"
+            },
+            {
+                "name": "语料库",
+                "type": "其他"
+            },
+            {
+                "name": "稀疏矩阵",
+                "type": "其他"
+            },
+            {
+                "name": "向量",
+                "type": "其他"
+            },
+            {
+                "name": "词典",
+                "type": "其他"
+            },
+            {
+                "name": "生物信息学",
+                "type": "其他"
+            },
+            {
+                "name": "自然语言处理",
+                "type": "其他"
+            }
+        ]
+    },
+    "relations": {
+        "chunk_id": "2024-03-02",
+        "relations": [
+            {
+                "head": "k-mer",
+                "type": "属于",
+                "tail": "生物信息学"
+            },
+            {
+                "head": "n-gram",
+                "type": "属于",
+                "tail": "自然语言处理"
+            },
+            {
+                "head": "k-mer",
+                "type": "包含",
+                "tail": "氨基酸"
+            },
+            {
+                "head": "k-mer",
+                "type": "包含",
+                "tail": "核酸"
+            },
+            {
+                "head": "k-mer",
+                "type": "使用",
+                "tail": "窗口"
+            },
+            {
+                "head": "n-gram",
+                "type": "使用",
+                "tail": "窗口"
+            },
+            {
+                "head": "One-Hot",
+                "type": "属于",
+                "tail": "词嵌入"
+            },
+            {
+                "head": "词袋表示",
+                "type": "属于",
+                "tail": "词嵌入"
+            },
+            {
+                "head": "One-Hot",
+                "type": "使用",
+                "tail": "向量"
+            },
+            {
+                "head": "词袋表示",
+                "type": "使用",
+                "tail": "词频"
+            },
+            {
+                "head": "词袋表示",
+                "type": "使用",
+                "tail": "向量"
+            },
+            {
+                "head": "CountVectorizer",
+                "type": "使用",
+                "tail": "词袋表示"
+            },
+            {
+                "head": "CountVectorizer",
+                "type": "使用",
+                "tail": "One-Hot"
+            },
+            {
+                "head": "CountVectorizer",
+                "type": "使用",
+                "tail": "词典"
+            },
+            {
+                "head": "CountVectorizer",
+                "type": "生成",
+                "tail": "稀疏矩阵"
+            },
+            {
+                "head": "One-Hot",
+                "type": "导致",
+                "tail": "维度爆炸"
+            },
+            {
+                "head": "One-Hot",
+                "type": "导致",
+                "tail": "矩阵稀疏"
+            },
+            {
+                "head": "One-Hot",
+                "type": "导致",
+                "tail": "语义鸿沟"
+            },
+            {
+                "head": "词袋表示",
+                "type": "不考虑",
+                "tail": "词的顺序"
+            },
+            {
+                "head": "词袋表示",
+                "type": "包含",
+                "tail": "词频"
+            },
+            {
+                "head": "词袋表示",
+                "type": "生成",
+                "tail": "稀疏矩阵"
+            },
+            {
+                "head": "词嵌入",
+                "type": "解决",
+                "tail": "语义鸿沟"
+            },
+            {
+                "head": "词嵌入",
+                "type": "属于",
+                "tail": "深度学习概念"
+            },
+            {
+                "head": "词典",
+                "type": "构建",
+                "tail": "向量"
+            },
+            {
+                "head": "语料库",
+                "type": "构建",
+                "tail": "词典"
+            },
+            {
+                "head": "词典",
+                "type": "属于",
+                "tail": "生物信息学"
+            },
+            {
+                "head": "语料库",
+                "type": "属于",
+                "tail": "自然语言处理"
+            },
+            {
+                "head": "CountVectorizer",
+                "type": "属于",
+                "tail": "自然语言处理"
+            },
+            {
+                "head": "CountVectorizer",
+                "type": "属于",
+                "tail": "生物信息学"
+            },
+            {
+                "head": "生物信息学",
+                "type": "使用",
+                "tail": "k-mer"
+            },
+            {
+                "head": "自然语言处理",
+                "type": "使用",
+                "tail": "n-gram"
+            },
+            {
+                "head": "自然语言处理",
+                "type": "使用",
+                "tail": "One-Hot"
+            },
+            {
+                "head": "自然语言处理",
+                "type": "使用",
+                "tail": "词袋表示"
+            },
+            {
+                "head": "词嵌入",
+                "type": "使用",
+                "tail": "上下文语境"
+            },
+            {
+                "head": "词嵌入",
+                "type": "使用",
+                "tail": "语料库"
+            },
+            {
+                "head": "词嵌入",
+                "type": "使用",
+                "tail": "词典"
+            },
+            {
+                "head": "词嵌入",
+                "type": "使用",
+                "tail": "神经网络"
+            }
+        ]
+    },
+    "status": "success"
+}

@@ -1,0 +1,11 @@
+
+
+{
+  "chunk_id": "2024-03-02",
+  "relations": [
+    {"head": "Transformer", "type": "包含", "tail": "自注意力机制"},
+    {"head": "PyTorch", "type": "使用", "tail": "Transformer"},
+    {"head": "自注意力机制", "type": "属于", "tail": "深度学习概念"},
+    {"head": "滑动窗口", "type": "属于", "tail": "深度学习概念"}
+  ]
+}

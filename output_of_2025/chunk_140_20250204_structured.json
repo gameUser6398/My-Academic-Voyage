@@ -1,0 +1,577 @@
+{
+    "timestamp": "2025-07-07T18:38:58.055540",
+    "filename": "chunk_140_20250204.md",
+    "entities": {
+        "chunk_id": "2024-03-02",
+        "entities": [
+            {
+                "name": "CNN",
+                "type": "深度学习概念"
+            },
+            {
+                "name": "base_channels",
+                "type": "深度学习概念"
+            },
+            {
+                "name": "num_block",
+                "type": "深度学习概念"
+            },
+            {
+                "name": "selfAttention",
+                "type": "深度学习概念"
+            },
+            {
+                "name": "lr",
+                "type": "深度学习概念"
+            },
+            {
+                "name": "epoch",
+                "type": "深度学习概念"
+            },
+            {
+                "name": "召回率",
+                "type": "深度学习概念"
+            },
+            {
+                "name": "阈值",
+                "type": "深度学习概念"
+            },
+            {
+                "name": "focalloss",
+                "type": "深度学习概念"
+            },
+            {
+                "name": "α",
+                "type": "深度学习概念"
+            },
+            {
+                "name": "ARGNet",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "1d",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "Attention",
+                "type": "深度学习概念"
+            },
+            {
+                "name": "v1_ResNet_0827",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "pytorch",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "ResNet",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "1_RESNet",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "1d",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "ARG",
+                "type": "生物分子"
+            },
+            {
+                "name": "Resfinder",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "PLM",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "multi-drug",
+                "type": "生物分子"
+            },
+            {
+                "name": "β-lactam",
+                "type": "生物分子"
+            },
+            {
+                "name": "BLAST",
+                "type": "生物技术"
+            },
+            {
+                "name": "CD-hit",
+                "type": "生物技术"
+            },
+            {
+                "name": "ESM",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "LoRA",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "Meta-learning",
+                "type": "深度学习概念"
+            },
+            {
+                "name": "margin-based loss",
+                "type": "深度学习概念"
+            },
+            {
+                "name": "BBN",
+                "type": "深度学习概念"
+            },
+            {
+                "name": "F1 score",
+                "type": "深度学习概念"
+            },
+            {
+                "name": "BinaryRecall",
+                "type": "深度学习概念"
+            },
+            {
+                "name": "MultilabelRecall",
+                "type": "深度学习概念"
+            },
+            {
+                "name": "DRSN",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "conv1d",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "conv2d",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "MultiTaskTrainer",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "cosine",
+                "type": "深度学习概念"
+            },
+            {
+                "name": "warm-up",
+                "type": "深度学习概念"
+            },
+            {
+                "name": "label smoothing",
+                "type": "深度学习概念"
+            },
+            {
+                "name": "WGAN",
+                "type": "深度学习概念"
+            },
+            {
+                "name": "fasta",
+                "type": "生物技术"
+            },
+            {
+                "name": "自回归模型",
+                "type": "深度学习概念"
+            }
+        ]
+    },
+    "relations": {
+        "chunk_id": "2024-03-02",
+        "relations": [
+            {
+                "head": "ARGNet",
+                "type": "使用",
+                "tail": "Attention"
+            },
+            {
+                "head": "ARGNet",
+                "type": "使用",
+                "tail": "1d"
+            },
+            {
+                "head": "v1_ResNet_0827",
+                "type": "使用",
+                "tail": "Attention"
+            },
+            {
+                "head": "v1_ResNet_0827",
+                "type": "包含",
+                "tail": "num_block"
+            },
+            {
+                "head": "ResNet",
+                "type": "使用",
+                "tail": "conv1d"
+            },
+            {
+                "head": "ResNet",
+                "type": "使用",
+                "tail": "conv2d"
+            },
+            {
+                "head": "ResNet",
+                "type": "使用",
+                "tail": "1d"
+            },
+            {
+                "head": "ResNet",
+                "type": "包含",
+                "tail": "base_channels"
+            },
+            {
+                "head": "ResNet",
+                "type": "包含",
+                "tail": "num_block"
+            },
+            {
+                "head": "DRSN",
+                "type": "使用",
+                "tail": "conv2d"
+            },
+            {
+                "head": "DRSN",
+                "type": "包含",
+                "tail": "base_channels"
+            },
+            {
+                "head": "DRSN",
+                "type": "包含",
+                "tail": "kernel_size"
+            },
+            {
+                "head": "DRSN",
+                "type": "包含",
+                "tail": "num_block"
+            },
+            {
+                "head": "MultiTaskTrainer",
+                "type": "使用",
+                "tail": "margin-based loss"
+            },
+            {
+                "head": "MultiTaskTrainer",
+                "type": "使用",
+                "tail": "F1 score"
+            },
+            {
+                "head": "MultiTaskTrainer",
+                "type": "使用",
+                "tail": "BinaryRecall"
+            },
+            {
+                "head": "MultiTaskTrainer",
+                "type": "使用",
+                "tail": "MultilabelRecall"
+            },
+            {
+                "head": "focalloss",
+                "type": "包含",
+                "tail": "α"
+            },
+            {
+                "head": "focalloss",
+                "type": "包含",
+                "tail": "gamma"
+            },
+            {
+                "head": "focalloss",
+                "type": "包含",
+                "tail": "threshold"
+            },
+            {
+                "head": "focalloss",
+                "type": "使用",
+                "tail": "召回率"
+            },
+            {
+                "head": "focalloss",
+                "type": "使用",
+                "tail": "精准度"
+            },
+            {
+                "head": "学习率",
+                "type": "包含",
+                "tail": "lr"
+            },
+            {
+                "head": "学习率",
+                "type": "使用",
+                "tail": "warm-up"
+            },
+            {
+                "head": "模型",
+                "type": "使用",
+                "tail": "dropout"
+            },
+            {
+                "head": "模型",
+                "type": "使用",
+                "tail": "label smoothing"
+            },
+            {
+                "head": "模型",
+                "type": "使用",
+                "tail": "WGAN"
+            },
+            {
+                "head": "自回归模型",
+                "type": "使用",
+                "tail": "ARG"
+            },
+            {
+                "head": "Resfinder",
+                "type": "属于",
+                "tail": "ARG识别工具"
+            },
+            {
+                "head": "PLM",
+                "type": "使用",
+                "tail": "ARG识别"
+            },
+            {
+                "head": "ESM",
+                "type": "使用",
+                "tail": "protein embedding"
+            },
+            {
+                "head": "LoRA",
+                "type": "使用",
+                "tail": "参数高效微调"
+            },
+            {
+                "head": "LoRA",
+                "type": "包含",
+                "tail": "r"
+            },
+            {
+                "head": "LoRA",
+                "type": "使用",
+                "tail": "ARG识别"
+            },
+            {
+                "head": "CNN",
+                "type": "包含",
+                "tail": "base_channels"
+            },
+            {
+                "head": "CNN",
+                "type": "包含",
+                "tail": "num_block"
+            },
+            {
+                "head": "CNN",
+                "type": "使用",
+                "tail": "conv1d"
+            },
+            {
+                "head": "CNN",
+                "type": "使用",
+                "tail": "conv2d"
+            },
+            {
+                "head": "CNN",
+                "type": "使用",
+                "tail": "selfAttention"
+            },
+            {
+                "head": "CNN",
+                "type": "使用",
+                "tail": "召回率"
+            },
+            {
+                "head": "CNN",
+                "type": "使用",
+                "tail": "精准度"
+            },
+            {
+                "head": "CNN",
+                "type": "使用",
+                "tail": "阈值"
+            },
+            {
+                "head": "CNN",
+                "type": "使用",
+                "tail": "F1 score"
+            },
+            {
+                "head": "CNN",
+                "type": "使用",
+                "tail": "BinaryRecall"
+            },
+            {
+                "head": "CNN",
+                "type": "使用",
+                "tail": "MultilabelRecall"
+            },
+            {
+                "head": "CNN",
+                "type": "使用",
+                "tail": "label smoothing"
+            },
+            {
+                "head": "CNN",
+                "type": "使用",
+                "tail": "warm-up"
+            },
+            {
+                "head": "CNN",
+                "type": "使用",
+                "tail": "学习率"
+            },
+            {
+                "head": "CNN",
+                "type": "使用",
+                "tail": "正则化"
+            },
+            {
+                "head": "CNN",
+                "type": "使用",
+                "tail": "通道设计"
+            },
+            {
+                "head": "CNN",
+                "type": "使用",
+                "tail": "kernel_size"
+            },
+            {
+                "head": "CNN",
+                "type": "使用",
+                "tail": "stride"
+            },
+            {
+                "head": "CNN",
+                "type": "使用",
+                "tail": "padding"
+            },
+            {
+                "head": "CNN",
+                "type": "使用",
+                "tail": "downsample"
+            },
+            {
+                "head": "CNN",
+                "type": "使用",
+                "tail": "fc_hidden_dim"
+            },
+            {
+                "head": "CNN",
+                "type": "使用",
+                "tail": "num_classes"
+            },
+            {
+                "head": "CNN",
+                "type": "使用",
+                "tail": "output_size"
+            },
+            {
+                "head": "CNN",
+                "type": "使用",
+                "tail": "MultitaskTrainer"
+            },
+            {
+                "head": "CNN",
+                "type": "使用",
+                "tail": "focalloss"
+            },
+            {
+                "head": "CNN",
+                "type": "使用",
+                "tail": "BCE"
+            },
+            {
+                "head": "CNN",
+                "type": "使用",
+                "tail": "cosine"
+            },
+            {
+                "head": "CNN",
+                "type": "使用",
+                "tail": "Meta-learning"
+            },
+            {
+                "head": "CNN",
+                "type": "使用",
+                "tail": "BBN"
+            },
+            {
+                "head": "CNN",
+                "type": "使用",
+                "tail": "Meta-weight-net"
+            },
+            {
+                "head": "CNN",
+                "type": "使用",
+                "tail": "MESA"
+            },
+            {
+                "head": "CNN",
+                "type": "使用",
+                "tail": "Posterior Re-calibration"
+            },
+            {
+                "head": "CNN",
+                "type": "使用",
+                "tail": "深度学习模型"
+            },
+            {
+                "head": "深度学习模型",
+                "type": "包含",
+                "tail": "selfAttention"
+            },
+            {
+                "head": "深度学习模型",
+                "type": "包含",
+                "tail": "Meta-learning"
+            },
+            {
+                "head": "深度学习模型",
+                "type": "包含",
+                "tail": "label smoothing"
+            },
+            {
+                "head": "深度学习模型",
+                "type": "包含",
+                "tail": "WGAN"
+            },
+            {
+                "head": "深度学习模型",
+                "type": "包含",
+                "tail": "BBN"
+            },
+            {
+                "head": "深度学习模型",
+                "type": "包含",
+                "tail": "margin-based loss"
+            },
+            {
+                "head": "深度学习模型",
+                "type": "包含",
+                "tail": "cosine"
+            },
+            {
+                "head": "深度学习模型",
+                "type": "包含",
+                "tail": "warm-up"
+            },
+            {
+                "head": "深度学习模型",
+                "type": "包含",
+                "tail": "F1 score"
+            },
+            {
+                "head": "深度学习模型",
+                "type": "包含",
+                "tail": "BinaryRecall"
+            },
+            {
+                "head": "深度学习模型",
+                "type": "包含",
+                "tail": "MultilabelRecall"
+            }
+        ]
+    },
+    "status": "success"
+}

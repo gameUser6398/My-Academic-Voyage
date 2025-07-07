@@ -1,0 +1,14 @@
+
+
+{
+  "chunk_id": "2024-03-02",
+  "entities": [
+    {"name": "SelfAttention", "type": "生物信息工具"},
+    {"name": "Linear", "type": "生物信息工具"},
+    {"name": "leakRELU", "type": "深度学习概念"},
+    {"name": "Discriminator", "type": "深度学习概念"},
+    {"name": "y标签", "type": "其他"},
+    {"name": "特征提", "type": "其他"},
+    {"name": "融合", "type": "其他"}
+  ]
+}

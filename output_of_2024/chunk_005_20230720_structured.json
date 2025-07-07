@@ -1,0 +1,199 @@
+{
+    "timestamp": "2025-07-07T17:05:50.645474",
+    "filename": "chunk_005_20230720.md",
+    "entities": {
+        "chunk_id": "2024-03-02",
+        "entities": [
+            {
+                "name": "ProteiNet",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "PyTorch",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "EMS2",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "T5",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "ProtBERT",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "Kaggle",
+                "type": "其他"
+            },
+            {
+                "name": "MLP",
+                "type": "深度学习概念"
+            },
+            {
+                "name": "CAFA",
+                "type": "项目活动"
+            },
+            {
+                "name": "蛋白功能",
+                "type": "生物分子"
+            },
+            {
+                "name": "TensorFlow",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "Numpy",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "Python",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "罗斯特拉布",
+                "type": "其他"
+            },
+            {
+                "name": "huggingface.transformers",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "transformers",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "CSDN博客",
+                "type": "其他"
+            }
+        ]
+    },
+    "relations": {
+        "chunk_id": "2024-03-02",
+        "relations": [
+            {
+                "head": "ProteiNet",
+                "type": "使用",
+                "tail": "PyTorch"
+            },
+            {
+                "head": "ProteiNet",
+                "type": "使用",
+                "tail": "EMS2"
+            },
+            {
+                "head": "ProteiNet",
+                "type": "使用",
+                "tail": "T5"
+            },
+            {
+                "head": "ProteiNet",
+                "type": "使用",
+                "tail": "ProtBERT"
+            },
+            {
+                "head": "ProteiNet",
+                "type": "属于",
+                "tail": "Kaggle"
+            },
+            {
+                "head": "Simple MLP",
+                "type": "属于",
+                "tail": "Kaggle"
+            },
+            {
+                "head": "CAFA 5",
+                "type": "使用",
+                "tail": "TensorFlow"
+            },
+            {
+                "head": "CAFA 5",
+                "type": "属于",
+                "tail": "Kaggle"
+            },
+            {
+                "head": "CAFA 5",
+                "type": "目标",
+                "tail": "蛋白功能"
+            },
+            {
+                "head": "Numpy",
+                "type": "用于",
+                "tail": "内存管理"
+            },
+            {
+                "head": "Numpy",
+                "type": "用于",
+                "tail": "内存分配"
+            },
+            {
+                "head": "Numpy",
+                "type": "用于",
+                "tail": "压缩内存"
+            },
+            {
+                "head": "Numpy",
+                "type": "用于",
+                "tail": "内存映射"
+            },
+            {
+                "head": "Python",
+                "type": "用于",
+                "tail": "获取数组内存使用情况"
+            },
+            {
+                "head": "huggingface.transformers",
+                "type": "用于",
+                "tail": "prot_bert"
+            },
+            {
+                "head": "transformers",
+                "type": "属于",
+                "tail": "huggingface.transformers"
+            },
+            {
+                "head": "安装transformers",
+                "type": "教程",
+                "tail": "CSDN博客"
+            },
+            {
+                "head": "prot_bert",
+                "type": "属于",
+                "tail": "罗斯特拉布"
+            },
+            {
+                "head": "Numpy",
+                "type": "属于",
+                "tail": "Python"
+            },
+            {
+                "head": "TensorFlow",
+                "type": "属于",
+                "tail": "深度学习框架"
+            },
+            {
+                "head": "PyTorch",
+                "type": "属于",
+                "tail": "深度学习框架"
+            },
+            {
+                "head": "ProtBERT",
+                "type": "用于",
+                "tail": "蛋白功能预测"
+            },
+            {
+                "head": "T5",
+                "type": "用于",
+                "tail": "蛋白功能预测"
+            },
+            {
+                "head": "EMS2",
+                "type": "用于",
+                "tail": "蛋白功能预测"
+            }
+        ]
+    },
+    "status": "success"
+}

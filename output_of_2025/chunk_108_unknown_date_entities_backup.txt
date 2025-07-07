@@ -1,0 +1,29 @@
+
+
+{
+  "chunk_id": "2024-03-02",
+  "entities": [
+    {"name": "结核病", "type": "生物医学概念"},
+    {"name": "肺结核", "type": "生物医学概念"},
+    {"name": "异烟肼", "type": "生物分子"},
+    {"name": "利福平", "type": "生物分子"},
+    {"name": "吡嗪酰胺", "type": "生物分子"},
+    {"name": "乙胺丁醇", "type": "生物分子"},
+    {"name": "链霉素", "type": "生物分子"},
+    {"name": "耐多药结核病", "type": "生物医学概念"},
+    {"name": "抗生素", "type": "生物分子"},
+    {"name": "耐药性", "type": "生物医学概念"},
+    {"name": "二线药物", "type": "生物分子"},
+    {"name": "耐多药/耐利福平结核病", "type": "生物医学概念"},
+    {"name": "BPaLM/BPaL", "type": "项目活动"},
+    {"name": "MDR-TB", "type": "生物医学概念"},
+    {"name": "RR-TB", "type": "生物医学概念"},
+    {"name": "结核分枝杆菌", "type": "生物分子"},
+    {"name": "tubercle bacillus", "type": "生物分子"},
+    {"name": "Mycobacterium tuberculosis", "type": "生物分子"},
+    {"name": "Global Catalogue of Microorganisms", "type": "项目活动"},
+    {"name": "GCM", "type": "项目活动"},
+    {"name": "全球微生物目录", "type": "项目活动"},
+    {"name": "API服务", "type": "生物信息工具"}
+  ]
+}

@@ -1,0 +1,6 @@
+{
+    "timestamp": "2025-07-07T16:55:25.503638",
+    "filename": "chunk_105_20240204.md",
+    "raw_entities": "\n\n```json\n{\n  \"chunk_id\": \"2024-03-02\",\n  \"entities\": [\n    {\"name\": \"protein\", \"type\": \"生物分子\"},\n    {\"name\": \"Matplotlib\", \"type\": \"生物信息工具\"},\n    {\"name\": \"identity_min\", \"type\": \"生物信息工具\"},\n    {\"name\": \"mean\", \"type\": \"生物信息工具\"},\n    {\"name\": \"sample\", \"type\": \"生物信息工具\"},\n    {\"name\": \"结构\", \"type\": \"其他\"},\n    {\"name\": \"结果\", \"type\": \"项目活动\"}\n  ]\n}\n```",
+    "raw_relations": "\n\n```json\n{\n  \"chunk_id\": \"2024-03-02\",\n  \"relations\": [\n    {\"head\": \"protein\", \"type\": \"使用\", \"tail\": \"Matplotlib\"},\n    {\"head\": \"identity_min\", \"type\": \"属于\", \"tail\": \"结构\"},\n    {\"head\": \"mean\", \"type\": \"属于\", \"tail\": \"结构\"},\n    {\"head\": \"sample\", \"type\": \"属于\", \"tail\": \"结构\"},\n    {\"head\": \"结果\", \"type\": \"包含\", \"tail\": \"结构\"}\n  ]\n}\n```"
+}

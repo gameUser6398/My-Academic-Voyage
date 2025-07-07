@@ -1,0 +1,35 @@
+
+
+```json
+{
+  "chunk_id": "2024-03-02",
+  "relations": [
+    {"head": "数据爬取", "type": "使用", "tail": "Python"},
+    {"head": "数据爬取", "type": "属于", "tail": "项目活动"},
+    {"head": "数据爬取", "type": "使用", "tail": "Linux"},
+    {"head": "数据预处理", "type": "使用", "tail": "Python"},
+    {"head": "数据预处理", "type": "属于", "tail": "项目活动"},
+    {"head": "数据降维", "type": "使用", "tail": "TSNE"},
+    {"head": "数据降维", "type": "使用", "tail": "UMAP"},
+    {"head": "数据降维", "type": "属于", "tail": "项目活动"},
+    {"head": "可视化", "type": "使用", "tail": "Plotly"},
+    {"head": "可视化", "type": "属于", "tail": "项目活动"},
+    {"head": "可视化", "type": "使用", "tail": "颜色配色方案"},
+    {"head": "可视化", "type": "使用", "tail": "bio_embeddings"},
+    {"head": "embedding数据", "type": "使用", "tail": "T5"},
+    {"head": "T5", "type": "属于", "tail": "深度学习概念"},
+    {"head": "TSNE", "type": "属于", "tail": "生物信息工具"},
+    {"head": "UMAP", "type": "属于", "tail": "生物信息工具"},
+    {"head": "Plotly", "type": "属于", "tail": "生物信息工具"},
+    {"head": "bio_embeddings", "type": "属于", "tail": "生物信息工具"},
+    {"head": "数据预处理", "type": "调控", "tail": "数据降维"},
+    {"head": "数据降维", "type": "调控", "tail": "可视化"},
+    {"head": "数据爬取", "type": "调控", "tail": "数据预处理"},
+    {"head": "宏基因组测序", "type": "属于", "tail": "生物技术"},
+    {"head": "宏基因组测序", "type": "包含", "tail": "蛋白质家族"},
+    {"head": "数据预处理", "type": "包含", "tail": "dropna"},
+    {"head": "可视化", "type": "包含", "tail": "颜色配色方案"},
+    {"head": "可视化", "type": "包含", "tail": "marker颜色设置"}
+  ]
+}
+```

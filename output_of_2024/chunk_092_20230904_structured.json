@@ -1,0 +1,59 @@
+{
+    "timestamp": "2025-07-07T17:20:57.290354",
+    "filename": "chunk_092_20230904.md",
+    "entities": {
+        "chunk_id": "2024-03-02",
+        "entities": [
+            {
+                "name": "nn.embedding",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "填充数据0",
+                "type": "其他"
+            },
+            {
+                "name": "Transformer",
+                "type": "深度学习概念"
+            },
+            {
+                "name": "C:\\Users\\34940\\OneDrive\\桌面\\Transformer\\TALE\\example\\data\\train_seq_mf",
+                "type": "其他"
+            },
+            {
+                "name": "读取",
+                "type": "其他"
+            },
+            {
+                "name": "生化课",
+                "type": "其他"
+            }
+        ]
+    },
+    "relations": {
+        "chunk_id": "2024-03-02",
+        "relations": [
+            {
+                "head": "利用",
+                "type": "使用",
+                "tail": "nn.embedding"
+            },
+            {
+                "head": "Transformer",
+                "type": "使用",
+                "tail": "嵌入"
+            },
+            {
+                "head": "C:\\Users\\34940\\OneDrive\\桌面\\Transformer\\TALE\\example\\data\\train_seq_mf",
+                "type": "包含",
+                "tail": "填充数据0"
+            },
+            {
+                "head": "读取",
+                "type": "属于",
+                "tail": "生化课"
+            }
+        ]
+    },
+    "status": "success"
+}

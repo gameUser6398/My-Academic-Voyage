@@ -1,0 +1,13 @@
+
+
+{
+  "chunk_id": "2024-05-06",
+  "relations": [
+    {"head": "推荐系统", "type": "包含", "tail": "特征融合"},
+    {"head": "深度学习", "type": "包含", "tail": "特征融合"},
+    {"head": "深度学习", "type": "包含", "tail": "Deep Residual Learning"},
+    {"head": "深度学习", "type": "包含", "tail": "CNN"},
+    {"head": "深度学习", "type": "包含", "tail": "回归预测"},
+    {"head": "回归预测", "type": "使用", "tail": "weight_decay"}
+  ]
+}

@@ -1,0 +1,26 @@
+
+
+```json
+{
+  "chunk_id": "2024-09-22-2024-09-23",
+  "entities": [
+    {"name": "蛋白质", "type": "生物分子"},
+    {"name": "Transformer", "type": "深度学习概念"},
+    {"name": "Trainer API", "type": "生物信息工具"},
+    {"name": "Python", "type": "生物信息工具"},
+    {"name": "launch.json", "type": "生物信息工具"},
+    {"name": "vscode", "type": "生物信息工具"},
+    {"name": "Stack Overflow", "type": "生物信息工具"},
+    {"name": "CSDN", "type": "生物信息工具"},
+    {"name": "GitHub", "type": "生物信息工具"},
+    {"name": "Weights & Biases", "type": "生物信息工具"},
+    {"name": "Hugging Face", "type": "生物信息工具"},
+    {"name": "Hydra", "type": "生物信息工具"},
+    {"name": "ListConfig", "type": "生物信息工具"},
+    {"name": "PEFT", "type": "生物信息工具"},
+    {"name": "超参数", "type": "深度学习概念"},
+    {"name": "调试代码", "type": "项目活动"},
+    {"name": "JSON serializable", "type": "其他"}
+  ]
+}
+```

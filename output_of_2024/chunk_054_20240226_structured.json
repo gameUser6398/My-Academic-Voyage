@@ -1,0 +1,95 @@
+{
+    "timestamp": "2025-07-07T17:12:28.521628",
+    "filename": "chunk_054_20240226.md",
+    "entities": {
+        "chunk_id": "2024-02-26",
+        "entities": [
+            {
+                "name": "conda",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "Python",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "Google Colab",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "蛋白质设计",
+                "type": "生物分子"
+            },
+            {
+                "name": "深度学习",
+                "type": "深度学习概念"
+            },
+            {
+                "name": "Linux",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "欧几里得距离",
+                "type": "深度学习概念"
+            },
+            {
+                "name": "结构",
+                "type": "生物分子"
+            },
+            {
+                "name": "能量比较",
+                "type": "项目活动"
+            },
+            {
+                "name": "质量控制",
+                "type": "项目活动"
+            }
+        ]
+    },
+    "relations": {
+        "chunk_id": "2024-02-26",
+        "relations": [
+            {
+                "head": "conda",
+                "type": "使用",
+                "tail": "环境管理"
+            },
+            {
+                "head": "Python",
+                "type": "使用",
+                "tail": "环境创建"
+            },
+            {
+                "head": "Google Colab",
+                "type": "使用",
+                "tail": "环境管理"
+            },
+            {
+                "head": "深度学习",
+                "type": "属于",
+                "tail": "蛋白质设计"
+            },
+            {
+                "head": "欧几里得距离",
+                "type": "属于",
+                "tail": "嵌入结果"
+            },
+            {
+                "head": "结构",
+                "type": "包含",
+                "tail": "能量比较"
+            },
+            {
+                "head": "chroma",
+                "type": "使用",
+                "tail": "质量控制"
+            },
+            {
+                "head": "Linux",
+                "type": "属于",
+                "tail": "系统配置"
+            }
+        ]
+    },
+    "status": "success"
+}

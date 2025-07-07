@@ -1,0 +1,14 @@
+
+
+{
+  "chunk_id": "2024-03-02",
+  "relations": [
+    {"head": "UniProtKB", "type": "包含", "tail": "蛋白质家族"},
+    {"head": "UniProtKB", "type": "使用", "tail": "InterPro"},
+    {"head": "UniProtKB", "type": "使用", "tail": "序列相似性搜索工具"},
+    {"head": "UniProtKB", "type": "使用", "tail": "科学文献"},
+    {"head": "蛋白质家族", "type": "属于", "tail": "UniProtKB"},
+    {"head": "API", "type": "使用", "tail": "protein_families"},
+    {"head": "P05067", "type": "使用", "tail": "API"}
+  ]
+}

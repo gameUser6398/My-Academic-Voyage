@@ -1,0 +1,159 @@
+{
+    "timestamp": "2025-07-07T16:59:50.715235",
+    "filename": "chunk_066_20230713.md",
+    "entities": {
+        "chunk_id": "2024-03-02",
+        "entities": [
+            {
+                "name": "CNN",
+                "type": "深度学习概念"
+            },
+            {
+                "name": "AlexNet",
+                "type": "深度学习概念"
+            },
+            {
+                "name": "VGG-16",
+                "type": "深度学习概念"
+            },
+            {
+                "name": "RNN",
+                "type": "深度学习概念"
+            },
+            {
+                "name": "LSTM",
+                "type": "深度学习概念"
+            },
+            {
+                "name": "PyTorch",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "Keras",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "NLP",
+                "type": "深度学习概念"
+            },
+            {
+                "name": "RNN",
+                "type": "深度学习概念"
+            },
+            {
+                "name": "Transformer",
+                "type": "深度学习概念"
+            },
+            {
+                "name": "AUC指标",
+                "type": "深度学习概念"
+            }
+        ]
+    },
+    "relations": {
+        "chunk_id": "2024-03-02",
+        "relations": [
+            {
+                "head": "CNN",
+                "type": "属于",
+                "tail": "经典CNN模型"
+            },
+            {
+                "head": "AlexNet",
+                "type": "属于",
+                "tail": "经典CNN模型"
+            },
+            {
+                "head": "VGG-16",
+                "type": "属于",
+                "tail": "经典CNN模型"
+            },
+            {
+                "head": "RNN",
+                "type": "属于",
+                "tail": "RNN及变体"
+            },
+            {
+                "head": "LSTM",
+                "type": "属于",
+                "tail": "RNN及变体"
+            },
+            {
+                "head": "Keras",
+                "type": "使用",
+                "tail": "主页 - Keras 中文文档"
+            },
+            {
+                "head": "RNN",
+                "type": "使用",
+                "tail": "NLP 从头开始：使用字符级 RNN 对名称进行分类 — PyTorch 教程 2.0.1+cu117 文档"
+            },
+            {
+                "head": "RNN",
+                "type": "使用",
+                "tail": "NLP 从头开始：使用字符级 RNN 生成名称 — PyTorch 教程 2.0.1+cu117 文档"
+            },
+            {
+                "head": "RNN",
+                "type": "使用",
+                "tail": "NLP 从零开始：从序列到序列网络的翻译和注意力 — PyTorch 教程 2.0.1+cu117 文档"
+            },
+            {
+                "head": "LSTM",
+                "type": "使用",
+                "tail": "LSTM自动生成文本"
+            },
+            {
+                "head": "RNN",
+                "type": "使用",
+                "tail": "手撕RNN预测股票"
+            },
+            {
+                "head": "Transformer",
+                "type": "属于",
+                "tail": "深度学习概念"
+            },
+            {
+                "head": "AUC指标",
+                "type": "属于",
+                "tail": "深度学习概念"
+            },
+            {
+                "head": "PyTorch",
+                "type": "使用",
+                "tail": "NLP 从头开始：使用字符级 RNN 对名称进行分类 — PyTorch 教程 2.0.1+cu117 文档"
+            },
+            {
+                "head": "PyTorch",
+                "type": "使用",
+                "tail": "NLP 从头开始：使用字符级 RNN 生成名称 — PyTorch 教程 2.0.1+cu117 文档"
+            },
+            {
+                "head": "PyTorch",
+                "type": "使用",
+                "tail": "NLP 从零开始：从序列到序列网络的翻译和注意力 — PyTorch 教程 2.0.1+cu117 文档"
+            },
+            {
+                "head": "PyTorch",
+                "type": "使用",
+                "tail": "LSTM自动生成文本"
+            },
+            {
+                "head": "PyTorch",
+                "type": "使用",
+                "tail": "手撕RNN预测股票"
+            },
+            {
+                "head": "RNN",
+                "type": "属于",
+                "tail": "深度学习概念"
+            },
+            {
+                "head": "NLP",
+                "type": "使用",
+                "tail": "RNN"
+            }
+        ]
+    },
+    "status": "success"
+}

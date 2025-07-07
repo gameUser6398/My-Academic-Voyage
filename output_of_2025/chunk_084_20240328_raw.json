@@ -1,0 +1,6 @@
+{
+    "timestamp": "2025-07-07T18:05:29.091715",
+    "filename": "chunk_084_20240328.md",
+    "raw_entities": "\n\n{\n  \"chunk_id\": \"2024-03-28\",\n  \"entities\": [\n    {\"name\": \"Shell\", \"type\": \"生物信息工具\"},\n    {\"name\": \"字符串\", \"type\": \"其他\"},\n    {\"name\": \"变量\", \"type\": \"其他\"},\n    {\"name\": \"双引号\", \"type\": \"其他\"},\n    {\"name\": \"转义字符\", \"type\": \"其他\"},\n    {\"name\": \"参数\", \"type\": \"其他\"},\n    {\"name\": \"脚本\", \"type\": \"生物信息工具\"},\n    {\"name\": \"VPN\", \"type\": \"其他\"}\n  ]\n}",
+    "raw_relations": "\n\n{\n  \"chunk_id\": \"2024-03-28\",\n  \"relations\": [\n    {\"head\": \"Shell\", \"type\": \"包含\", \"tail\": \"字符串\"},\n    {\"head\": \"Shell\", \"type\": \"包含\", \"tail\": \"变量\"},\n    {\"head\": \"Shell\", \"type\": \"包含\", \"tail\": \"双引号\"},\n    {\"head\": \"Shell\", \"type\": \"包含\", \"tail\": \"转义字符\"},\n    {\"head\": \"Shell\", \"type\": \"包含\", \"tail\": \"参数\"},\n    {\"head\": \"Shell\", \"type\": \"属于\", \"tail\": \"脚本\"},\n    {\"head\": \"脚本\", \"type\": \"使用\", \"tail\": \"参数\"},\n    {\"head\": \"使用\", \"type\": \"属于\", \"tail\": \"VPN\"}\n  ]\n}"
+}

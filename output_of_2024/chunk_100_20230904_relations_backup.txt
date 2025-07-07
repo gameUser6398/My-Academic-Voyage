@@ -1,0 +1,10 @@
+
+
+{
+  "chunk_id": "2024-03-02",
+  "relations": [
+    {"head": "label", "type": "使用", "tail": "one-hot编码"},
+    {"head": "蛋白", "type": "包含", "tail": "序列"},
+    {"head": "序列", "type": "调控", "tail": "maxlen"}
+  ]
+}

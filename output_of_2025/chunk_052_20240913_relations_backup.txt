@@ -1,0 +1,20 @@
+
+
+```json
+{
+  "chunk_id": "2024-03-02",
+  "relations": [
+    {"head": "ARGNet", "type": "使用", "tail": "一维卷积层"},
+    {"head": "DeepARG", "type": "使用", "tail": "密集层"},
+    {"head": "HMD-ARG", "type": "使用", "tail": "二维卷积层"},
+    {"head": "GeneBac", "type": "因果", "tail": "抗生素耐药性"},
+    {"head": "CNN", "type": "包含", "tail": "一维卷积层"},
+    {"head": "CNN", "type": "包含", "tail": "密集层"},
+    {"head": "CNN", "type": "包含", "tail": "注意力机制"},
+    {"head": "ARGNet", "type": "属于", "tail": "深度学习概念"},
+    {"head": "DeepARG", "type": "属于", "tail": "深度学习概念"},
+    {"head": "HMD-ARG", "type": "属于", "tail": "深度学习概念"},
+    {"head": "GeneBac", "type": "属于", "tail": "生物信息工具"}
+  ]
+}
+```

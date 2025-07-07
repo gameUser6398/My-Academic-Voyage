@@ -1,0 +1,21 @@
+
+
+```json
+{
+  "chunk_id": "2024-03-02",
+  "relations": [
+    {"head": "Colab", "type": "使用", "tail": "bio_embeddings"},
+    {"head": "GridSearchCV", "type": "属于", "tail": "Pytorch"},
+    {"head": "Conv2d", "type": "属于", "tail": "Pytorch"},
+    {"head": "CondaHTTPError", "type": "属于", "tail": "Anaconda"},
+    {"head": "CondaHTTPError", "type": "因果", "tail": "https"},
+    {"head": "https", "type": "解决方案", "tail": "CondaHTTPError"},
+    {"head": "http", "type": "解决方案", "tail": "https"},
+    {"head": "pip", "type": "属于", "tail": "Python"},
+    {"head": "Anaconda", "type": "使用", "tail": "conda install python"},
+    {"head": "Linux", "type": "报错", "tail": "connection timed out"},
+    {"head": "json.decoder.JSONDecodeError", "type": "属于", "tail": "Python"},
+    {"head": "anc2vec", "type": "安装", "tail": "Colab"}
+  ]
+}
+```

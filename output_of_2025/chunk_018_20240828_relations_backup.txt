@@ -1,0 +1,20 @@
+
+
+```json
+{
+  "chunk_id": "2024-08-28_2024-09-03",
+  "relations": [
+    {"head": "皓哥", "type": "使用", "tail": "可视化"},
+    {"head": "皓哥", "type": "参与", "tail": "项目进展"},
+    {"head": "可扬", "type": "参与", "tail": "项目进展"},
+    {"head": "刘畅乐", "type": "参与", "tail": "项目进展"},
+    {"head": "DRSN", "type": "包含", "tail": "Attention layer"},
+    {"head": "刘畅乐", "type": "使用", "tail": "LORA技术"},
+    {"head": "刘畅乐", "type": "使用", "tail": "ESM"},
+    {"head": "皓哥", "type": "参与", "tail": "丰度统计"},
+    {"head": "皓哥", "type": "参与", "tail": "前后端"},
+    {"head": "可扬", "type": "参与", "tail": "前后端"},
+    {"head": "皓哥", "type": "关注", "tail": "结核"}
+  ]
+}
+```

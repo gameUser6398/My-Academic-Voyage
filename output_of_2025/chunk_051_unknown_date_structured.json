@@ -1,0 +1,134 @@
+{
+    "timestamp": "2025-07-07T18:31:46.628123",
+    "filename": "chunk_051_unknown_date.md",
+    "entities": {
+        "chunk_id": "2024-03-02",
+        "entities": [
+            {
+                "name": "ARG",
+                "type": "生物分子"
+            },
+            {
+                "name": "抗生素耐药性基因",
+                "type": "生物分子"
+            },
+            {
+                "name": "深度神经网络",
+                "type": "深度学习概念"
+            },
+            {
+                "name": "ARGNet-LSaa",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "ARGNet-Ssaa",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "DeepARG",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "自动编码器",
+                "type": "深度学习概念"
+            },
+            {
+                "name": "CNN 分类器",
+                "type": "深度学习概念"
+            },
+            {
+                "name": "独热编码",
+                "type": "深度学习概念"
+            },
+            {
+                "name": "重建损失",
+                "type": "深度学习概念"
+            },
+            {
+                "name": "ResBlock",
+                "type": "深度学习概念"
+            }
+        ]
+    },
+    "relations": {
+        "chunk_id": "2024-03-02",
+        "relations": [
+            {
+                "head": "ARGNet-LSaa",
+                "type": "使用",
+                "tail": "深度神经网络"
+            },
+            {
+                "head": "ARGNet-LSaa",
+                "type": "使用",
+                "tail": "自动编码器"
+            },
+            {
+                "head": "ARGNet-LSaa",
+                "type": "使用",
+                "tail": "CNN 分类器"
+            },
+            {
+                "head": "ARGNet-LSaa",
+                "type": "使用",
+                "tail": "独热编码"
+            },
+            {
+                "head": "ARGNet-LSaa",
+                "type": "使用",
+                "tail": "重建损失"
+            },
+            {
+                "head": "ARGNet-LSaa",
+                "type": "使用",
+                "tail": "ResBlock"
+            },
+            {
+                "head": "ARGNet-LSaa",
+                "type": "属于",
+                "tail": "ARGNet"
+            },
+            {
+                "head": "ARGNet-Ssaa",
+                "type": "属于",
+                "tail": "ARGNet"
+            },
+            {
+                "head": "DeepARG",
+                "type": "属于",
+                "tail": "ARGNet"
+            },
+            {
+                "head": "ARGNet",
+                "type": "调控",
+                "tail": "抗生素耐药性基因识别"
+            },
+            {
+                "head": "ARGNet",
+                "type": "调控",
+                "tail": "ARG分类"
+            },
+            {
+                "head": "ARGNet-LSaa",
+                "type": "目的",
+                "tail": "区分ARG与non-ARG"
+            },
+            {
+                "head": "ARGNet-LSaa",
+                "type": "方法",
+                "tail": "混合全长序列和 90%、80%、70% 和 60% 全长序列的minibatch中进行训练"
+            },
+            {
+                "head": "ARGNet-LSaa",
+                "type": "使用",
+                "tail": "自回归autoencoder"
+            },
+            {
+                "head": "ARG",
+                "type": "同义词",
+                "tail": "抗生素耐药性基因"
+            }
+        ]
+    },
+    "status": "success"
+}

@@ -1,0 +1,6 @@
+{
+    "timestamp": "2025-07-07T17:48:25.549541",
+    "filename": "chunk_137_20241030.md",
+    "raw_entities": "\n\n```json\n{\n  \"chunk_id\": \"2024-03-02\",\n  \"entities\": [\n    {\"name\": \"WHONET software\", \"type\": \"生物信息工具\"},\n    {\"name\": \"抗生素\", \"type\": \"生物医学概念\"},\n    {\"name\": \"微生物\", \"type\": \"生物分子\"},\n    {\"name\": \"统计软件\", \"type\": \"其他\"},\n    {\"name\": \"爬虫\", \"type\": \"其他\"},\n    {\"name\": \"Netron\", \"type\": \"生物信息工具\"}\n  ]\n}\n```",
+    "raw_relations": "\n\n```json\n{\n  \"chunk_id\": \"2024-03-02\",\n  \"relations\": [\n    {\"head\": \"WHONET software\", \"type\": \"属于\", \"tail\": \"统计软件\"},\n    {\"head\": \"WHONET software\", \"type\": \"使用\", \"tail\": \"抗生素\"},\n    {\"head\": \"WHONET software\", \"type\": \"使用\", \"tail\": \"微生物\"},\n    {\"head\": \"Netron\", \"type\": \"属于\", \"tail\": \"生物信息工具\"},\n    {\"head\": \"爬虫\", \"type\": \"属于\", \"tail\": \"其他\"}\n  ]\n}\n```"
+}

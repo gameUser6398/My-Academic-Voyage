@@ -1,0 +1,160 @@
+{
+    "timestamp": "2025-07-07T18:29:56.319429",
+    "filename": "chunk_095_20241103.md",
+    "entities": {
+        "chunk_id": "2024-03-02",
+        "entities": [
+            {
+                "name": "reads",
+                "type": "生物分子"
+            },
+            {
+                "name": "overlap",
+                "type": "生物分子"
+            },
+            {
+                "name": "contig",
+                "type": "生物分子"
+            },
+            {
+                "name": "Contig N50",
+                "type": "生物技术"
+            },
+            {
+                "name": "paired-end库",
+                "type": "生物技术"
+            },
+            {
+                "name": "mate-pair库",
+                "type": "生物技术"
+            },
+            {
+                "name": "454 Paired-end库",
+                "type": "生物技术"
+            },
+            {
+                "name": "Illumina Mate-pair库",
+                "type": "生物技术"
+            },
+            {
+                "name": "Scaffold N50",
+                "type": "生物技术"
+            },
+            {
+                "name": "de novo测序",
+                "type": "生物技术"
+            },
+            {
+                "name": "MEGAHIT",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "de Bruijn 图",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "宏基因组学",
+                "type": "生物分子"
+            },
+            {
+                "name": "singleton",
+                "type": "生物分子"
+            },
+            {
+                "name": "unigene",
+                "type": "生物分子"
+            }
+        ]
+    },
+    "relations": {
+        "chunk_id": "2024-03-02",
+        "relations": [
+            {
+                "head": "reads",
+                "type": "包含",
+                "tail": "overlap"
+            },
+            {
+                "head": "overlap",
+                "type": "用于",
+                "tail": "拼接成contig"
+            },
+            {
+                "head": "contig",
+                "type": "用于计算",
+                "tail": "Contig N50"
+            },
+            {
+                "head": "Contig N50",
+                "type": "属于",
+                "tail": "基因组拼接评估指标"
+            },
+            {
+                "head": "paired-end库",
+                "type": "用于",
+                "tail": "构建scaffold"
+            },
+            {
+                "head": "mate-pair库",
+                "type": "用于",
+                "tail": "构建scaffold"
+            },
+            {
+                "head": "454 Paired-end库",
+                "type": "属于",
+                "tail": "paired-end库"
+            },
+            {
+                "head": "Illumina Mate-pair库",
+                "type": "属于",
+                "tail": "mate-pair库"
+            },
+            {
+                "head": "contig",
+                "type": "通过",
+                "tail": "de novo测序"
+            },
+            {
+                "head": "contig",
+                "type": "组成",
+                "tail": "scaffold"
+            },
+            {
+                "head": "scaffold",
+                "type": "用于计算",
+                "tail": "Scaffold N50"
+            },
+            {
+                "head": "Scaffold N50",
+                "type": "属于",
+                "tail": "基因组拼接评估指标"
+            },
+            {
+                "head": "contig",
+                "type": "鉴定为",
+                "tail": "singleton"
+            },
+            {
+                "head": "scaffold",
+                "type": "鉴定为",
+                "tail": "unigene"
+            },
+            {
+                "head": "MEGAHIT",
+                "type": "使用",
+                "tail": "de Bruijn 图"
+            },
+            {
+                "head": "MEGAHIT",
+                "type": "用于",
+                "tail": "宏基因组学"
+            },
+            {
+                "head": "de novo测序",
+                "type": "用于",
+                "tail": "宏基因组学"
+            }
+        ]
+    },
+    "status": "success"
+}

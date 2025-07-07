@@ -1,0 +1,46 @@
+
+
+```json
+{
+  "chunk_id": "2024-03-02",
+  "relations": [
+    {"head": "ARG注释", "type": "使用", "tail": "Illumina测序"},
+    {"head": "ARG", "type": "使用", "tail": "ResFinder"},
+    {"head": "ARG", "type": "使用", "tail": "PointFinder"},
+    {"head": "ARG", "type": "使用", "tail": "ResFams"},
+    {"head": "ResFinder", "type": "使用", "tail": "BLAST"},
+    {"head": "PointFinder", "type": "使用", "tail": "BLAST"},
+    {"head": "ResFams", "type": "使用", "tail": "BLAST"},
+    {"head": "ARG", "type": "使用", "tail": "WGS"},
+    {"head": "WGS", "type": "因果", "tail": "质粒介导的耐药机制"},
+    {"head": "WGS", "type": "因果", "tail": "抗性基因表达改变"},
+    {"head": "抗性基因表达改变", "type": "包含", "tail": "外排泵"},
+    {"head": "抗性基因表达改变", "type": "包含", "tail": "草唑青糖酶基因"},
+    {"head": "ARG", "type": "属于", "tail": "AMR表型"},
+    {"head": "AMR表型", "type": "因果", "tail": "抗生素耐药性"},
+    {"head": "AMR表型", "type": "使用", "tail": "全基因组关联研究"},
+    {"head": "AMR表型", "type": "使用", "tail": "机器学习算法"},
+    {"head": "DeepARG v2", "type": "使用", "tail": "LS模型"},
+    {"head": "MGEs", "type": "使用", "tail": "DIAMOND"},
+    {"head": "MGEs", "type": "使用", "tail": "MobileGeneticElementDatabase"},
+    {"head": "MGEs", "type": "共现", "tail": "ARGs"},
+    {"head": "MGEs和ARGs", "type": "使用", "tail": "Python"},
+    {"head": "ARGs鉴定", "type": "使用", "tail": "DeepARG v2"},
+    {"head": "ARGs鉴定", "type": "使用", "tail": "Prodigal"},
+    {"head": "MGEs鉴定", "type": "使用", "tail": "DIAMOND"},
+    {"head": "开放阅读框", "type": "使用", "tail": "Prodigal"},
+    {"head": "ARG", "type": "使用", "tail": "AMRfinderPlus"},
+    {"head": "ARG", "type": "使用", "tail": "BLASTp"},
+    {"head": "ARG", "type": "使用", "tail": "SARG数据库"},
+    {"head": "ARG", "type": "量化", "tail": "CoverM"},
+    {"head": "ARG", "type": "使用", "tail": "ORF"},
+    {"head": "ARG", "type": "属于", "tail": "AMG"},
+    {"head": "ARG", "type": "使用", "tail": "CD-hit-est"},
+    {"head": "ARG", "type": "使用", "tail": "NCBI / Genome数据库"},
+    {"head": "SVM模型", "type": "使用", "tail": "k-mer"},
+    {"head": "SVM模型", "type": "预测", "tail": "AMR表型"},
+    {"head": "SCM模型", "type": "使用", "tail": "k-mer"},
+    {"head": "SCM模型", "type": "预测", "tail": "AMR表型"}
+  ]
+}
+```

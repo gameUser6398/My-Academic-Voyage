@@ -1,0 +1,6 @@
+{
+    "timestamp": "2025-07-07T16:58:40.657326",
+    "filename": "chunk_058_20230522.md",
+    "raw_entities": "\n\n{\n  \"chunk_id\": \"2024-05-22_1616\",\n  \"entities\": [\n    {\"name\": \"chmod\", \"type\": \"生物信息工具\"},\n    {\"name\": \"chown\", \"type\": \"生物信息工具\"},\n    {\"name\": \"Linux\", \"type\": \"生物信息工具\"}\n  ]\n}",
+    "raw_relations": "\n\n{\n  \"chunk_id\": \"2024-05-22_1616\",\n  \"relations\": [\n    {\"head\": \"chmod\", \"type\": \"属于\", \"tail\": \"Linux\"},\n    {\"head\": \"chown\", \"type\": \"属于\", \"tail\": \"Linux\"}\n  ]\n}"
+}

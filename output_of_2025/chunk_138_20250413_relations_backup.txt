@@ -1,0 +1,12 @@
+
+
+```json
+{
+  "chunk_id": "2024-09-24",
+  "relations": [
+    {"head": "Resfams", "type": "属于", "tail": "CARD实验"},
+    {"head": "separable-like 1D convolution", "type": "使用", "tail": "ESM embeddings"},
+    {"head": "Django", "type": "属于", "tail": "学习日志"}
+  ]
+}
+```

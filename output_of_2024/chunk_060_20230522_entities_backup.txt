@@ -1,0 +1,23 @@
+
+
+{
+  "chunk_id": "2024-03-02",
+  "entities": [
+    {"name": "Linux", "type": "生物信息工具"},
+    {"name": "yum", "type": "生物信息工具"},
+    {"name": "rpm", "type": "生物信息工具"},
+    {"name": "apt", "type": "生物信息工具"},
+    {"name": "systemctl", "type": "生物信息工具"},
+    {"name": "NetworkManager", "type": "生物信息工具"},
+    {"name": "firewalld", "type": "生物信息工具"},
+    {"name": "sshd", "type": "生物信息工具"},
+    {"name": "软连接", "type": "生物信息工具"},
+    {"name": "ln", "type": "生物信息工具"},
+    {"name": "CentOS", "type": "其他"},
+    {"name": "Ubuntu", "type": "其他"},
+    {"name": "安装", "type": "项目活动"},
+    {"name": "启动", "type": "项目活动"},
+    {"name": "关闭", "type": "项目活动"},
+    {"name": "注册", "type": "项目活动"}
+  ]
+}

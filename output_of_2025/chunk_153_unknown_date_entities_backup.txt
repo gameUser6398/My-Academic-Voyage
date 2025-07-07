@@ -1,0 +1,19 @@
+
+
+```json
+{
+  "chunk_id": "2024-03-02",
+  "entities": [
+    {"name": "假阳性", "type": "其他"},
+    {"name": "假阴性", "type": "其他"},
+    {"name": "identity", "type": "其他"},
+    {"name": "diamond", "type": "生物信息工具"},
+    {"name": "best hit", "type": "其他"},
+    {"name": "标签", "type": "其他"},
+    {"name": "正确率", "type": "其他"},
+    {"name": "50%", "type": "其他"},
+    {"name": "正确预测样本", "type": "其他"},
+    {"name": "重合率", "type": "其他"}
+  ]
+}
+```

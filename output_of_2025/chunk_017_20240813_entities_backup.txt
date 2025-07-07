@@ -1,0 +1,23 @@
+
+
+{
+  "chunk_id": "2024-08-13",
+  "entities": [
+    {"name": "序列", "type": "生物分子"},
+    {"name": "ProtBert", "type": "深度学习概念"},
+    {"name": "参数", "type": "深度学习概念"},
+    {"name": "Python", "type": "生物信息工具"},
+    {"name": "ARGNet", "type": "生物信息工具"},
+    {"name": "DHR", "type": "生物信息工具"},
+    {"name": "模型复杂度", "type": "深度学习概念"},
+    {"name": "非ARG识别", "type": "生物分子"},
+    {"name": "dense密集层", "type": "深度学习概念"},
+    {"name": "shell语言", "type": "生物信息工具"},
+    {"name": "JavaScript", "type": "生物信息工具"},
+    {"name": "文件后缀", "type": "其他"},
+    {"name": "mv", "type": "生物信息工具"},
+    {"name": "网页", "type": "其他"},
+    {"name": "图片报告", "type": "其他"},
+    {"name": "自适应屏幕大小", "type": "其他"}
+  ]
+}

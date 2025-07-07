@@ -1,0 +1,6 @@
+{
+    "timestamp": "2025-07-07T18:20:19.585423",
+    "filename": "chunk_024_20241230.md",
+    "raw_entities": "\n\n```json\n{\n  \"chunk_id\": \"2024-03-02\",\n  \"entities\": [\n    {\"name\": \"BLAST\", \"type\": \"生物信息工具\"},\n    {\"name\": \"rpoB野生型\", \"type\": \"生物分子\"},\n    {\"name\": \"beta-lactam\", \"type\": \"生物分子\"},\n    {\"name\": \"cross-resistance (交叉耐药)\", \"type\": \"生物医学概念\"},\n    {\"name\": \"multi-drug\", \"type\": \"生物医学概念\"},\n    {\"name\": \"tetracycline (四环素)\", \"type\": \"生物分子\"},\n    {\"name\": \"耐药机制\", \"type\": \"生物医学概念\"},\n    {\"name\": \"过表达蛋白\", \"type\": \"生物分子\"},\n    {\"name\": \"突变蛋白\", \"type\": \"生物分子\"},\n    {\"name\": \"缺失蛋白\", \"type\": \"生物分子\"}\n  ]\n}\n```",
+    "raw_relations": "\n\n```json\n{\n  \"chunk_id\": \"2024-03-02\",\n  \"relations\": [\n    {\"head\": \"简单BLAST\", \"type\": \"使用\", \"tail\": \"rpoB野生型\"},\n    {\"head\": \"beta-lactam\", \"type\": \"属于\", \"tail\": \"cross-resistance (交叉耐药)\"},\n    {\"head\": \"tetracycline (四环素)\", \"type\": \"属于\", \"tail\": \"multi-drug\"},\n    {\"head\": \"过表达蛋白\", \"type\": \"属于\", \"tail\": \"耐药机制\"},\n    {\"head\": \"突变蛋白\", \"type\": \"属于\", \"tail\": \"耐药机制\"},\n    {\"head\": \"缺失蛋白\", \"type\": \"属于\", \"tail\": \"耐药机制\"}\n  ]\n}\n```"
+}

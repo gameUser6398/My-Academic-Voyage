@@ -1,0 +1,6 @@
+{
+    "timestamp": "2025-07-07T16:58:13.009526",
+    "filename": "chunk_110_unknown_date.md",
+    "raw_entities": "\n\n{\n  \"chunk_id\": \"2024-03-02\",\n  \"entities\": [\n    {\"name\": \"SelfAttention\", \"type\": \"生物信息工具\"},\n    {\"name\": \"Linear\", \"type\": \"生物信息工具\"},\n    {\"name\": \"leakRELU\", \"type\": \"深度学习概念\"},\n    {\"name\": \"Discriminator\", \"type\": \"深度学习概念\"},\n    {\"name\": \"y标签\", \"type\": \"其他\"},\n    {\"name\": \"特征提\", \"type\": \"其他\"},\n    {\"name\": \"融合\", \"type\": \"其他\"}\n  ]\n}",
+    "raw_relations": "\n\n```json\n{\n  \"chunk_id\": \"2024-03-02\",\n  \"relations\": [\n    {\"head\": \"Discriminator\", \"type\": \"使用\", \"tail\": \"leakRELU\"},\n    {\"head\": \"Discriminator\", \"type\": \"使用\", \"tail\": \"Linear\"},\n    {\"head\": \"Discriminator\", \"type\": \"使用\", \"tail\": \"SelfAttention\"},\n    {\"head\": \"y标签\", \"type\": \"属于\", \"tail\": \"数据\"},\n    {\"head\": \"特征提\", \"type\": \"属于\", \"tail\": \"降维到\"},\n    {\"head\": \"融合\", \"type\": \"属于\", \"tail\": \"特征提\"},\n    {\"head\": \"Discriminator\", \"type\": \"包含\", \"tail\": \"leakRELU\"},\n    {\"head\": \"Discriminator\", \"type\": \"包含\", \"tail\": \"Linear\"},\n    {\"head\": \"Discriminator\", \"type\": \"包含\", \"tail\": \"SelfAttention\"}\n  ]\n}\n```"
+}

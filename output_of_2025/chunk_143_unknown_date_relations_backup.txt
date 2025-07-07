@@ -1,0 +1,43 @@
+
+
+```json
+{
+  "chunk_id": "2024-10-08",
+  "relations": [
+    {"head": "五折交叉实验", "type": "包含", "tail": "数据拆分模块"},
+    {"head": "五折交叉实验", "type": "包含", "tail": "数据生成模块"},
+    {"head": "五折交叉实验", "type": "包含", "tail": "模型训练模块"},
+    {"head": "五折交叉实验", "type": "包含", "tail": "模型评估模块"},
+    {"head": "五折交叉实验", "type": "包含", "tail": "绘图模块"},
+    {"head": "数据生成模块", "type": "使用", "tail": "SMOTE"},
+    {"head": "数据生成模块", "type": "使用", "tail": "数据增强"},
+    {"head": "数据生成模块", "type": "使用", "tail": "filter_rare-classes"},
+    {"head": "数据生成模块", "type": "使用", "tail": "filter_rare_sample"},
+    {"head": "数据生成模块", "type": "使用", "tail": "load_dataset"},
+    {"head": "数据生成模块", "type": "使用", "tail": "load_wgan"},
+    {"head": "数据生成模块", "type": "使用", "tail": "generate_data"},
+    {"head": "数据生成模块", "type": "使用", "tail": "save_merge_data"},
+    {"head": "数据生成模块", "type": "属于", "tail": "WGAN数据生成模块"},
+    {"head": "模型训练模块", "type": "使用", "tail": "load_data"},
+    {"head": "模型训练模块", "type": "使用", "tail": "超参数"},
+    {"head": "模型评估模块", "type": "计算", "tail": "AOC"},
+    {"head": "模型评估模块", "type": "计算", "tail": "MCC"},
+    {"head": "数据拆分模块", "type": "生成", "tail": "训练集"},
+    {"head": "数据拆分模块", "type": "生成", "tail": "测试集"},
+    {"head": "模型", "type": "使用", "tail": "训练集"},
+    {"head": "模型", "type": "使用", "tail": "数据生成模块"},
+    {"head": "模型", "type": "使用", "tail": "超参数"},
+    {"head": "数据集", "type": "包含", "tail": "训练集"},
+    {"head": "数据集", "type": "包含", "tail": "测试集"},
+    {"head": "五折交叉实验", "type": "使用", "tail": "训练集"},
+    {"head": "五折交叉实验", "type": "使用", "tail": "测试集"},
+    {"head": "五折交叉实验", "type": "使用", "tail": "模型"},
+    {"head": "数据生成模块", "type": "生成", "tail": "新生成数据"},
+    {"head": "训练集", "type": "包含", "tail": "新生成数据"},
+    {"head": "模型训练模块", "type": "输入", "tail": "训练集"},
+    {"head": "模型评估模块", "type": "输入", "tail": "测试集"},
+    {"head": "绘图模块", "type": "使用", "tail": "AOC"},
+    {"head": "绘图模块", "type": "使用", "tail": "MCC"}
+  ]
+}
+```

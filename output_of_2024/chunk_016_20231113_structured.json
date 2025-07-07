@@ -1,0 +1,108 @@
+{
+    "timestamp": "2025-07-07T16:51:48.217204",
+    "filename": "chunk_016_20231113.md",
+    "entities": {
+        "chunk_id": "2024-03-02",
+        "entities": [
+            {
+                "name": "wget",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "conda create",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "loss",
+                "type": "深度学习概念"
+            },
+            {
+                "name": "梯度归零",
+                "type": "深度学习概念"
+            },
+            {
+                "name": "batch_size",
+                "type": "深度学习概念"
+            },
+            {
+                "name": "Focalloss",
+                "type": "深度学习概念"
+            },
+            {
+                "name": "激活函数",
+                "type": "深度学习概念"
+            }
+        ]
+    },
+    "relations": {
+        "chunk_id": "2024-03-02",
+        "relations": [
+            {
+                "head": "服务器网络连接",
+                "type": "使用",
+                "tail": "wget"
+            },
+            {
+                "head": "服务器网络连接",
+                "type": "使用",
+                "tail": "conda create"
+            },
+            {
+                "head": "loss上升和骤变",
+                "type": "属于",
+                "tail": "深度学习概念"
+            },
+            {
+                "head": "梯度归零",
+                "type": "属于",
+                "tail": "深度学习概念"
+            },
+            {
+                "head": "batch_size",
+                "type": "属于",
+                "tail": "深度学习概念"
+            },
+            {
+                "head": "Focalloss",
+                "type": "属于",
+                "tail": "深度学习概念"
+            },
+            {
+                "head": "初始化",
+                "type": "属于",
+                "tail": "深度学习概念"
+            },
+            {
+                "head": "激活函数",
+                "type": "属于",
+                "tail": "深度学习概念"
+            },
+            {
+                "head": "梯度归零",
+                "type": "调控",
+                "tail": "loss上升和骤变"
+            },
+            {
+                "head": "batch_size",
+                "type": "调控",
+                "tail": "loss上升和骤变"
+            },
+            {
+                "head": "Focalloss",
+                "type": "调控",
+                "tail": "loss上升和骤变"
+            },
+            {
+                "head": "初始化",
+                "type": "调控",
+                "tail": "loss上升和骤变"
+            },
+            {
+                "head": "激活函数",
+                "type": "调控",
+                "tail": "loss上升和骤变"
+            }
+        ]
+    },
+    "status": "success"
+}

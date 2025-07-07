@@ -1,0 +1,6 @@
+{
+    "timestamp": "2025-07-07T18:15:48.178584",
+    "filename": "chunk_102_20240804.md",
+    "raw_entities": "\n\n{\n  \"chunk_id\": \"2024-08-04\",\n  \"entities\": [\n    {\"name\": \"链霉素\", \"type\": \"生物分子\"},\n    {\"name\": \"streptogramin antibiotic\", \"type\": \"生物分子\"},\n    {\"name\": \"链霉菌属\", \"type\": \"生物分子\"},\n    {\"name\": \"细菌核糖体 50S 亚基\", \"type\": \"生物分子\"},\n    {\"name\": \"A型\", \"type\": \"生物分子\"},\n    {\"name\": \"B型\", \"type\": \"生物分子\"},\n    {\"name\": \"CARD\", \"type\": \"生物信息工具\"}\n  ]\n}",
+    "raw_relations": "\n\n{\n  \"chunk_id\": \"2024-08-04\",\n  \"relations\": [\n    {\"head\": \"streptogramin antibiotic\", \"type\": \"属于\", \"tail\": \"Drug Class\"},\n    {\"head\": \"streptogramin antibiotic\", \"type\": \"产生\", \"tail\": \"链霉菌属\"},\n    {\"head\": \"streptogramin antibiotic\", \"type\": \"结合\", \"tail\": \"细菌核糖体 50S 亚基\"},\n    {\"head\": \"streptogramin antibiotic\", \"type\": \"调控\", \"tail\": \"蛋白质合成\"},\n    {\"head\": \"streptogramin antibiotic\", \"type\": \"包含\", \"tail\": \"A型\"},\n    {\"head\": \"streptogramin antibiotic\", \"type\": \"包含\", \"tail\": \"B型\"},\n    {\"head\": \"streptogramin antibiotic\", \"type\": \"使用\", \"tail\": \"CARD\"},\n    {\"head\": \"链霉素\", \"type\": \"属于\", \"tail\": \"streptogramin antibiotic\"}\n  ]\n}"
+}

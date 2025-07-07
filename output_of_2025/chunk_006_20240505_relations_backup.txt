@@ -1,0 +1,47 @@
+
+
+```json
+{
+  "chunk_id": "2024-03-02",
+  "relations": [
+    {"head": "AI驱动", "type": "属于", "tail": "研究内容"},
+    {"head": "用药指导", "type": "属于", "tail": "背景修改"},
+    {"head": "抗生素耐药性", "type": "属于", "tail": "背景修改"},
+    {"head": "感染", "type": "属于", "tail": "拟解决问题"},
+    {"head": "抗生素", "type": "属于", "tail": "拟解决问题"},
+    {"head": "抗性微生物", "type": "属于", "tail": "抗性微生物种类"},
+    {"head": "基因组元数据", "type": "包含", "tail": "assembly_level"},
+    {"head": "基因组元数据", "type": "包含", "tail": "assembly_stat"},
+    {"head": "基因组元数据", "type": "包含", "tail": "gene_counts"},
+    {"head": "基因组组装", "type": "使用", "tail": "metaSPAdes"},
+    {"head": "基因与开放阅读框的识别", "type": "使用", "tail": "Prodigal"},
+    {"head": "平台搭建", "type": "使用", "tail": "web"},
+    {"head": "平台搭建", "type": "上升到", "tail": "app"},
+    {"head": "成果", "type": "包含", "tail": "论文"},
+    {"head": "成果", "type": "包含", "tail": "专利"},
+    {"head": "成果", "type": "包含", "tail": "一站式平台"},
+    {"head": "研究内容", "type": "包含", "tail": "抗生素耐药性"},
+    {"head": "研究内容", "type": "包含", "tail": "抗性微生物种类"},
+    {"head": "研究内容", "type": "包含", "tail": "基因组元数据"},
+    {"head": "研究内容", "type": "包含", "tail": "AI驱动"},
+    {"head": "研究内容", "type": "包含", "tail": "学科交叉"},
+    {"head": "拟解决问题", "type": "包含", "tail": "抗生素耐药性"},
+    {"head": "拟解决问题", "type": "包含", "tail": "用药指导"},
+    {"head": "拟解决问题", "type": "包含", "tail": "感染"},
+    {"head": "创新点", "type": "包含", "tail": "AI驱动"},
+    {"head": "创新点", "type": "包含", "tail": "一站式平台"},
+    {"head": "创新点", "type": "包含", "tail": "学科交叉"},
+    {"head": "成果", "type": "因果", "tail": "专利"},
+    {"head": "成果", "type": "因果", "tail": "论文"},
+    {"head": "成果", "type": "因果", "tail": "一站式平台"},
+    {"head": "AI驱动", "type": "调控", "tail": "抗生素耐药性分析"},
+    {"head": "基因组组装", "type": "调控", "tail": "assembly_level"},
+    {"head": "基因组组装", "type": "调控", "tail": "assembly_stat"},
+    {"head": "基因与开放阅读框的识别", "type": "调控", "tail": "gene_counts"},
+    {"head": "一站式平台", "type": "属于", "tail": "成果"},
+    {"head": "学科交叉", "type": "属于", "tail": "创新点"},
+    {"head": "Transformer", "type": "属于", "tail": "AI驱动"},
+    {"head": "DeepARG", "type": "属于", "tail": "项目参考"}
+  ]
+}
+```

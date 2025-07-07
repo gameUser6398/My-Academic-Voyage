@@ -1,0 +1,15 @@
+
+
+{
+  "chunk_id": "2024-03-28",
+  "relations": [
+    {"head": "Shell", "type": "包含", "tail": "字符串"},
+    {"head": "Shell", "type": "包含", "tail": "变量"},
+    {"head": "Shell", "type": "包含", "tail": "双引号"},
+    {"head": "Shell", "type": "包含", "tail": "转义字符"},
+    {"head": "Shell", "type": "包含", "tail": "参数"},
+    {"head": "Shell", "type": "属于", "tail": "脚本"},
+    {"head": "脚本", "type": "使用", "tail": "参数"},
+    {"head": "使用", "type": "属于", "tail": "VPN"}
+  ]
+}

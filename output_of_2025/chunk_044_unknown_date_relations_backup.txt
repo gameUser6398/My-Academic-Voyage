@@ -1,0 +1,15 @@
+
+
+{
+  "chunk_id": "2024-03-02",
+  "relations": [
+    {"head": "深度学习", "type": "属于", "tail": "分层多任务方法"},
+    {"head": "HMD-ARG", "type": "使用", "tail": "分层多任务方法"},
+    {"head": "HMD-ARG", "type": "使用", "tail": "深度学习"},
+    {"head": "HMD-ARG", "type": "包含", "tail": "耐药抗生素类别"},
+    {"head": "HMD-ARG", "type": "包含", "tail": "耐药机制"},
+    {"head": "HMD-ARG", "type": "包含", "tail": "基因迁移率"},
+    {"head": "HMD-ARG", "type": "用于", "tail": "抗生素耐药基因识别"},
+    {"head": "抗生素耐药基因", "type": "导致", "tail": "抗生素耐药性"}
+  ]
+}

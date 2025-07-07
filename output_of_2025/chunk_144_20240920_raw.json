@@ -1,0 +1,6 @@
+{
+    "timestamp": "2025-07-07T18:43:11.134884",
+    "filename": "chunk_144_20240920.md",
+    "raw_entities": "\n\n{\n  \"chunk_id\": \"2024-03-02\",\n  \"entities\": [\n    {\"name\": \"SMOTE\", \"type\": \"生物信息工具\"},\n    {\"name\": \"GAN\", \"type\": \"深度学习概念\"},\n    {\"name\": \"Transformer\", \"type\": \"深度学习概念\"},\n    {\"name\": \"loss\", \"type\": \"深度学习概念\"},\n    {\"name\": \"embedding\", \"type\": \"深度学习概念\"},\n    {\"name\": \"SGBs\", \"type\": \"深度学习概念\"},\n    {\"name\": \"多标签分类\", \"type\": \"其他\"},\n    {\"name\": \"数据不平衡\", \"type\": \"其他\"},\n    {\"name\": \"微调\", \"type\": \"深度学习概念\"},\n    {\"name\": \"上采样\", \"type\": \"生物信息工具\"}\n  ]\n}",
+    "raw_relations": "\n\n{\n  \"chunk_id\": \"2024-03-02\",\n  \"relations\": [\n    {\"head\": \"SMOTE\", \"type\": \"使用\", \"tail\": \"处理多标签分类中的数据不平衡\"},\n    {\"head\": \"SMOTE\", \"type\": \"属于\", \"tail\": \"上采样\"},\n    {\"head\": \"GAN\", \"type\": \"使用\", \"tail\": \"生成数据\"},\n    {\"head\": \"GAN\", \"type\": \"包含\", \"tail\": \"loss\"},\n    {\"head\": \"Transformer\", \"type\": \"使用\", \"tail\": \"压缩\"},\n    {\"head\": \"embedding\", \"type\": \"使用\", \"tail\": \"加入噪音\"},\n    {\"head\": \"加入噪音\", \"type\": \"属于\", \"tail\": \"微调\"},\n    {\"head\": \"SGBs\", \"type\": \"属于\", \"tail\": \"深度学习概念\"}\n  ]\n}"
+}

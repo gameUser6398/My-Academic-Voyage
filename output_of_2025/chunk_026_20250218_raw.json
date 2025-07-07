@@ -1,0 +1,6 @@
+{
+    "timestamp": "2025-07-07T18:19:02.752506",
+    "filename": "chunk_026_20250218.md",
+    "raw_entities": "\n\n{\n  \"chunk_id\": \"2024-03-02\",\n  \"entities\": [\n    {\"name\": \"蛋白质功能预测\", \"type\": \"生物分子\"},\n    {\"name\": \"CAFA 5\", \"type\": \"项目活动\"},\n    {\"name\": \"Kaggle\", \"type\": \"其他\"},\n    {\"name\": \"NCBI\", \"type\": \"生物信息工具\"}\n  ]\n}",
+    "raw_relations": "\n\n{\n  \"chunk_id\": \"2024-03-02\",\n  \"relations\": [\n    {\"head\": \"CAFA 5\", \"type\": \"属于\", \"tail\": \"蛋白质功能预测\"},\n    {\"head\": \"蛋白质功能预测\", \"type\": \"属于\", \"tail\": \"生物信息学\"},\n    {\"head\": \"蛋白质功能预测\", \"type\": \"使用\", \"tail\": \"Kaggle\"},\n    {\"head\": \"蛋白质功能预测\", \"type\": \"使用\", \"tail\": \"NCBI\"}\n  ]\n}"
+}

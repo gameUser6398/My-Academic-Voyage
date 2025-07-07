@@ -1,0 +1,51 @@
+
+
+```json
+{
+  "chunk_id": "2024-03-02",
+  "relations": [
+    {"head": "临床宏基因组", "type": "包含", "tail": "宏基因组"},
+    {"head": "宏基因组", "type": "使用", "tail": "参数设置"},
+    {"head": "宏基因组", "type": "使用", "tail": "定制分析"},
+    {"head": "宏基因组", "type": "使用", "tail": "流水线分析"},
+    {"head": "宏基因组", "type": "包含", "tail": "耐药报告"},
+    {"head": "耐药报告", "type": "包含", "tail": "多重耐药"},
+    {"head": "三代测序", "type": "属于", "tail": "生物技术"},
+    {"head": "二代测序", "type": "属于", "tail": "生物技术"},
+    {"head": "NGS", "type": "属于", "tail": "生物技术"},
+    {"head": "mNGS", "type": "属于", "tail": "生物技术"},
+    {"head": "湿实验", "type": "属于", "tail": "生物技术"},
+    {"head": "干实验", "type": "属于", "tail": "生物技术"},
+    {"head": "湿实验", "type": "对比", "tail": "干实验"},
+    {"head": "测序流程", "type": "包含", "tail": "湿实验"},
+    {"head": "测序流程", "type": "包含", "tail": "干实验"},
+    {"head": "短读序列", "type": "属于", "tail": "生物分子"},
+    {"head": "算法", "type": "使用", "tail": "短读序列"},
+    {"head": "项目", "type": "包含", "tail": "多重耐药"},
+    {"head": "可扬", "type": "负责", "tail": "PDF提取"},
+    {"head": "可扬", "type": "负责", "tail": "实体识别"},
+    {"head": "可扬", "type": "负责", "tail": "predict"},
+    {"head": "可扬", "type": "负责", "tail": "可视化图"},
+    {"head": "可扬", "type": "负责", "tail": "data"},
+    {"head": "可扬", "type": "使用", "tail": "ChatGPT API"},
+    {"head": "皓哥", "type": "负责", "tail": "可视化图"},
+    {"head": "皓哥", "type": "负责", "tail": "搜索和生成"},
+    {"head": "皓哥", "type": "使用", "tail": "基因组数据"},
+    {"head": "刘畅乐", "type": "负责", "tail": "模型"},
+    {"head": "刘畅乐", "type": "使用", "tail": "ESM"},
+    {"head": "刘畅乐", "type": "使用", "tail": "计算attention"},
+    {"head": "刘畅乐", "type": "使用", "tail": "per-residual"},
+    {"head": "刘畅乐", "type": "负责", "tail": "数据"},
+    {"head": "刘畅乐", "type": "负责", "tail": "标签重构"},
+    {"head": "刘畅乐", "type": "使用", "tail": "OUR"},
+    {"head": "刘畅乐", "type": "包含", "tail": "multi-drug"},
+    {"head": "刘畅乐", "type": "包含", "tail": "MLS"},
+    {"head": "刘畅乐", "type": "包含", "tail": "others"},
+    {"head": "刘畅乐", "type": "事后计算", "tail": "multi-drug"},
+    {"head": "刘畅乐", "type": "事后计算", "tail": "MLS"},
+    {"head": "刘畅乐", "type": "事后计算", "tail": "others"},
+    {"head": "刘畅乐", "type": "排查", "tail": "ResFinder错误"},
+    {"head": "刘畅乐", "type": "排查", "tail": "ARGnet错误"}
+  ]
+}
+```

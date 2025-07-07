@@ -1,0 +1,37 @@
+{
+    "timestamp": "2025-07-07T16:55:57.144983",
+    "filename": "chunk_048_20240704.md",
+    "entities": {
+        "chunk_id": "2024-03-02",
+        "entities": [
+            {
+                "name": "SMOTE",
+                "type": "深度学习概念"
+            },
+            {
+                "name": "支持向量机",
+                "type": "深度学习概念"
+            },
+            {
+                "name": "不平衡",
+                "type": "深度学习概念"
+            }
+        ]
+    },
+    "relations": {
+        "chunk_id": "2024-03-02",
+        "relations": [
+            {
+                "head": "SMOTE",
+                "type": "属于",
+                "tail": "不平衡"
+            },
+            {
+                "head": "支持向量机",
+                "type": "使用",
+                "tail": "SMOTE"
+            }
+        ]
+    },
+    "status": "success"
+}

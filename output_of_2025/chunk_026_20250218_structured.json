@@ -1,0 +1,51 @@
+{
+    "timestamp": "2025-07-07T18:19:02.752506",
+    "filename": "chunk_026_20250218.md",
+    "entities": {
+        "chunk_id": "2024-03-02",
+        "entities": [
+            {
+                "name": "蛋白质功能预测",
+                "type": "生物分子"
+            },
+            {
+                "name": "CAFA 5",
+                "type": "项目活动"
+            },
+            {
+                "name": "Kaggle",
+                "type": "其他"
+            },
+            {
+                "name": "NCBI",
+                "type": "生物信息工具"
+            }
+        ]
+    },
+    "relations": {
+        "chunk_id": "2024-03-02",
+        "relations": [
+            {
+                "head": "CAFA 5",
+                "type": "属于",
+                "tail": "蛋白质功能预测"
+            },
+            {
+                "head": "蛋白质功能预测",
+                "type": "属于",
+                "tail": "生物信息学"
+            },
+            {
+                "head": "蛋白质功能预测",
+                "type": "使用",
+                "tail": "Kaggle"
+            },
+            {
+                "head": "蛋白质功能预测",
+                "type": "使用",
+                "tail": "NCBI"
+            }
+        ]
+    },
+    "status": "success"
+}

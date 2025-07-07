@@ -1,0 +1,6 @@
+{
+    "timestamp": "2025-07-07T17:40:49.059524",
+    "filename": "chunk_096_unknown_date.md",
+    "raw_entities": "\n\n```json\n{\n  \"chunk_id\": \"2024-03-02\",\n  \"entities\": [\n    {\"name\": \"NCBI Genome Assembly Model\", \"type\": \"生物信息工具\"},\n    {\"name\": \"参考基因组组装\", \"type\": \"生物技术\"},\n    {\"name\": \"MEGAHIT\", \"type\": \"生物信息工具\"},\n    {\"name\": \"宏基因组\", \"type\": \"生物分子\"},\n    {\"name\": \"de Bruijn graph\", \"type\": \"生物信息工具\"},\n    {\"name\": \"Prodigal\", \"type\": \"生物信息工具\"},\n    {\"name\": \"原核基因\", \"type\": \"生物分子\"},\n    {\"name\": \"翻译起始位点\", \"type\": \"生物分子\"},\n    {\"name\": \"QUAST\", \"type\": \"生物信息工具\"},\n    {\"name\": \"基因组组装质量评估\", \"type\": \"项目活动\"}\n  ]\n}\n```",
+    "raw_relations": "\n\n```json\n{\n  \"chunk_id\": \"2024-03-02\",\n  \"relations\": [\n    {\"head\": \"MEGAHIT\", \"type\": \"使用\", \"tail\": \"de Bruijn graph\"},\n    {\"head\": \"MEGAHIT\", \"type\": \"属于\", \"tail\": \"宏基因组\"},\n    {\"head\": \"NCBI Genome Assembly Model\", \"type\": \"属于\", \"tail\": \"参考基因组组装\"},\n    {\"head\": \"Prodigal\", \"type\": \"属于\", \"tail\": \"原核基因\"},\n    {\"head\": \"Prodigal\", \"type\": \"属于\", \"tail\": \"翻译起始位点\"},\n    {\"head\": \"QUAST\", \"type\": \"属于\", \"tail\": \"基因组组装质量评估\"}\n  ]\n}\n```"
+}

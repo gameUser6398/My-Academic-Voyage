@@ -1,0 +1,11 @@
+
+
+{
+  "chunk_id": "2024-03-02",
+  "relations": [
+    {"head": "AnnoPRO", "type": "使用", "tail": "多尺度蛋白质表示"},
+    {"head": "AnnoPRO", "type": "使用", "tail": "双路径编码"},
+    {"head": "AnnoPRO", "type": "属于", "tail": "蛋白质功能注释"},
+    {"head": "AnnoPRO", "type": "使用", "tail": "混合深度学习"}
+  ]
+}

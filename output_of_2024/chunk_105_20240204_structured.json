@@ -1,0 +1,68 @@
+{
+    "timestamp": "2025-07-07T16:55:25.503638",
+    "filename": "chunk_105_20240204.md",
+    "entities": {
+        "chunk_id": "2024-03-02",
+        "entities": [
+            {
+                "name": "protein",
+                "type": "生物分子"
+            },
+            {
+                "name": "Matplotlib",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "identity_min",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "mean",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "sample",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "结构",
+                "type": "其他"
+            },
+            {
+                "name": "结果",
+                "type": "项目活动"
+            }
+        ]
+    },
+    "relations": {
+        "chunk_id": "2024-03-02",
+        "relations": [
+            {
+                "head": "protein",
+                "type": "使用",
+                "tail": "Matplotlib"
+            },
+            {
+                "head": "identity_min",
+                "type": "属于",
+                "tail": "结构"
+            },
+            {
+                "head": "mean",
+                "type": "属于",
+                "tail": "结构"
+            },
+            {
+                "head": "sample",
+                "type": "属于",
+                "tail": "结构"
+            },
+            {
+                "head": "结果",
+                "type": "包含",
+                "tail": "结构"
+            }
+        ]
+    },
+    "status": "success"
+}

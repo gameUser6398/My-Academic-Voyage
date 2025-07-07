@@ -1,0 +1,30 @@
+
+
+{
+  "chunk_id": "2024-03-02",
+  "entities": [
+    {"name": "Python", "type": "生物信息工具"},
+    {"name": "Conda", "type": "生物信息工具"},
+    {"name": "conda pack", "type": "生物信息工具"},
+    {"name": "tar", "type": "生物信息工具"},
+    {"name": "mkdir", "type": "生物信息工具"},
+    {"name": "source", "type": "生物信息工具"},
+    {"name": "conda-unpack", "type": "生物信息工具"},
+    {"name": "ipython", "type": "生物信息工具"},
+    {"name": "jupyter", "type": "生物信息工具"},
+    {"name": "jupyterlab", "type": "生物信息工具"},
+    {"name": "TensorBoard", "type": "生物信息工具"},
+    {"name": "TensorboardX", "type": "生物信息工具"},
+    {"name": "pytorch", "type": "生物信息工具"},
+    {"name": "torchvision", "type": "生物信息工具"},
+    {"name": "torchaudio", "type": "生物信息工具"},
+    {"name": "Mamba", "type": "生物信息工具"},
+    {"name": "conda-forge", "type": "生物信息工具"},
+    {"name": "git", "type": "生物信息工具"},
+    {"name": "git clone", "type": "生物信息工具"},
+    {"name": "environment.yaml", "type": "生物信息工具"},
+    {"name": "Github", "type": "生物信息工具"},
+    {"name": "基因组数据", "type": "生物分子"},
+    {"name": "CLI工具", "type": "生物信息工具"}
+  ]
+}

@@ -1,0 +1,11 @@
+
+
+{
+  "chunk_id": "2024-03-02",
+  "relations": [
+    {"head": "add", "type": "属于", "tail": "深度特征融合"},
+    {"head": "concat", "type": "属于", "tail": "深度特征融合"},
+    {"head": "add", "type": "替代", "tail": "concat"},
+    {"head": "FPN", "type": "使用", "tail": "add"}
+  ]
+}

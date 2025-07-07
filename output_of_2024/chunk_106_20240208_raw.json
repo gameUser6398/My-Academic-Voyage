@@ -1,0 +1,6 @@
+{
+    "timestamp": "2025-07-07T17:09:35.053122",
+    "filename": "chunk_106_20240208.md",
+    "raw_entities": "\n\n```json\n{\n  \"chunk_id\": \"2024-03-02\",\n  \"entities\": [\n    {\"name\": \"TM-score\", \"type\": \"其他\"}\n  ]\n}\n```",
+    "raw_relations": "\n\n```json\n{\n  \"chunk_id\": \"2024-03-02\",\n  \"relations\": [\n    {\"head\": \"TM-score\", \"type\": \"属于\", \"tail\": \"已有模型\"}\n  ]\n}\n```"
+}

@@ -1,0 +1,24 @@
+
+
+```json
+{
+  "chunk_id": "2024-05-13",
+  "relations": [
+    {"head": "蛋白降维分布特点分析", "type": "使用", "tail": "TSNE降维"},
+    {"head": "蛋白降维分布特点分析", "type": "使用", "tail": "余弦相似度"},
+    {"head": "蛋白降维分布特点分析", "type": "使用", "tail": "1-Wasserstein 距离"},
+    {"head": "1-Wasserstein 距离", "type": "属于", "tail": "线性规划问题"},
+    {"head": "model_hparams", "type": "包含", "tail": "prot_encoder"},
+    {"head": "model_hparams", "type": "包含", "tail": "label_encoder"},
+    {"head": "prot_encoder", "type": "包含", "tail": "self-attention"},
+    {"head": "prot_encoder", "type": "包含", "tail": "FeedForward"},
+    {"head": "label_encoder", "type": "包含", "tail": "self-attention"},
+    {"head": "label_encoder", "type": "包含", "tail": "FeedForward"},
+    {"head": "数据库搭建", "type": "属于", "tail": "蛋白质"},
+    {"head": "数据库搭建", "type": "属于", "tail": "序列与功能"},
+    {"head": "数据库搭建", "type": "属于", "tail": "结构"},
+    {"head": "数据库搭建", "type": "属于", "tail": "家族"},
+    {"head": "结项汇报", "type": "属于", "tail": "项目活动"}
+  ]
+}
+```

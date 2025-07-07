@@ -1,0 +1,15 @@
+
+
+{
+  "chunk_id": "2024-03-02",
+  "entities": [
+    {"name": "Glove词嵌入", "type": "生物信息工具"},
+    {"name": "embedding_matrix", "type": "生物信息工具"},
+    {"name": "embedding层", "type": "生物信息工具"},
+    {"name": "预训练的词嵌入", "type": "生物信息工具"},
+    {"name": "蛋白质", "type": "生物分子"},
+    {"name": "词向量", "type": "生物信息工具"},
+    {"name": "二分类准确率", "type": "深度学习概念"},
+    {"name": "bio_embedding库", "type": "生物信息工具"}
+  ]
+}

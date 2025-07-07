@@ -1,0 +1,13 @@
+
+
+```json
+{
+  "chunk_id": "2024-04-12",
+  "relations": [
+    {"head": "tsne", "type": "使用", "tail": "模型优化过程"},
+    {"head": "tsne", "type": "导致", "tail": "簇"},
+    {"head": "余弦相似度", "type": "属于", "tail": "簇"},
+    {"head": "分区", "type": "属于", "tail": "模型优化过程"}
+  ]
+}
+```

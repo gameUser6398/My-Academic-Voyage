@@ -1,0 +1,460 @@
+{
+    "timestamp": "2025-07-07T17:49:44.757388",
+    "filename": "chunk_042_unknown_date.md",
+    "entities": {
+        "chunk_id": "2024-03-02",
+        "entities": [
+            {
+                "name": "ARG",
+                "type": "生物分子"
+            },
+            {
+                "name": "BGC",
+                "type": "生物分子"
+            },
+            {
+                "name": "MarRef BGCs",
+                "type": "生物分子"
+            },
+            {
+                "name": "ABC转运体",
+                "type": "生物分子"
+            },
+            {
+                "name": "MFS转运体",
+                "type": "生物分子"
+            },
+            {
+                "name": "氨基糖苷乙酰转移酶",
+                "type": "生物分子"
+            },
+            {
+                "name": "氨基糖苷磷酸转铁酶",
+                "type": "生物分子"
+            },
+            {
+                "name": "乙醛酸盐/博来霉素耐药蛋白",
+                "type": "生物分子"
+            },
+            {
+                "name": "3-氧酰-[酰基-载体蛋白]合成酶",
+                "type": "生物分子"
+            },
+            {
+                "name": "β-内酰胺酶",
+                "type": "生物分子"
+            },
+            {
+                "name": "青霉素",
+                "type": "生物分子"
+            },
+            {
+                "name": "万古霉素",
+                "type": "生物分子"
+            },
+            {
+                "name": "利福霉素",
+                "type": "生物分子"
+            },
+            {
+                "name": "喹诺酮类药物",
+                "type": "生物分子"
+            },
+            {
+                "name": "RNA聚合酶",
+                "type": "生物分子"
+            },
+            {
+                "name": "DNA旋切酶",
+                "type": "生物分子"
+            },
+            {
+                "name": "RGDB",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "MIBiG",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "CARD",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "NCBIAMR",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "Uniprot",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "同源比对",
+                "type": "生物信息技术"
+            },
+            {
+                "name": "测序",
+                "type": "生物技术"
+            },
+            {
+                "name": "基因组挖掘",
+                "type": "生物技术"
+            },
+            {
+                "name": "生物合成",
+                "type": "生物技术"
+            },
+            {
+                "name": "基因簇家族 (GCF)",
+                "type": "生物信息概念"
+            },
+            {
+                "name": "天然产物",
+                "type": "生物分子"
+            },
+            {
+                "name": "外排泵",
+                "type": "生物分子"
+            },
+            {
+                "name": "产物失活",
+                "type": "生物医学概念"
+            },
+            {
+                "name": "靶标保护",
+                "type": "生物医学概念"
+            },
+            {
+                "name": "靶标改变",
+                "type": "生物医学概念"
+            },
+            {
+                "name": "靶标替代",
+                "type": "生物医学概念"
+            },
+            {
+                "name": "抗性机制",
+                "type": "生物医学概念"
+            },
+            {
+                "name": "抗性基因",
+                "type": "生物分子"
+            },
+            {
+                "name": "萜烯",
+                "type": "生物分子"
+            }
+        ]
+    },
+    "relations": {
+        "chunk_id": "2024-03-02",
+        "relations": [
+            {
+                "head": "RGDB",
+                "type": "包含",
+                "tail": "抗性基因"
+            },
+            {
+                "head": "RGDB",
+                "type": "包含",
+                "tail": "抗性机制"
+            },
+            {
+                "head": "RGDB",
+                "type": "包含",
+                "tail": "可能化合物"
+            },
+            {
+                "head": "RGDB",
+                "type": "应用",
+                "tail": "基因组挖掘"
+            },
+            {
+                "head": "RGDB",
+                "type": "应用",
+                "tail": "MarRef BGCs分析"
+            },
+            {
+                "head": "同源比对",
+                "type": "使用",
+                "tail": "MarRef BGCs数据集"
+            },
+            {
+                "head": "MarRef BGCs",
+                "type": "包含",
+                "tail": "抗性基因"
+            },
+            {
+                "head": "MarRef BGCs",
+                "type": "包含",
+                "tail": "外排泵"
+            },
+            {
+                "head": "MarRef BGCs",
+                "type": "包含",
+                "tail": "产物失活"
+            },
+            {
+                "head": "MarRef BGCs",
+                "type": "包含",
+                "tail": "靶标保护"
+            },
+            {
+                "head": "MarRef BGCs",
+                "type": "包含",
+                "tail": "靶标改变"
+            },
+            {
+                "head": "MarRef BGCs",
+                "type": "包含",
+                "tail": "靶标替代"
+            },
+            {
+                "head": "外排泵",
+                "type": "属于",
+                "tail": "抗性机制"
+            },
+            {
+                "head": "产物失活",
+                "type": "属于",
+                "tail": "抗性机制"
+            },
+            {
+                "head": "靶标保护",
+                "type": "属于",
+                "tail": "抗性机制"
+            },
+            {
+                "head": "靶标改变",
+                "type": "属于",
+                "tail": "抗性机制"
+            },
+            {
+                "head": "靶标替代",
+                "type": "属于",
+                "tail": "抗性机制"
+            },
+            {
+                "head": "ABC转运体",
+                "type": "属于",
+                "tail": "外排泵"
+            },
+            {
+                "head": "MFS转运体",
+                "type": "属于",
+                "tail": "外排泵"
+            },
+            {
+                "head": "β-内酰胺酶",
+                "type": "属于",
+                "tail": "产物失活"
+            },
+            {
+                "head": "β-内酰胺酶",
+                "type": "调控",
+                "tail": "青霉素耐药性"
+            },
+            {
+                "head": "氨基糖苷乙酰转移酶",
+                "type": "属于",
+                "tail": "产物失活"
+            },
+            {
+                "head": "氨基糖苷磷酸转铁酶",
+                "type": "属于",
+                "tail": "产物失活"
+            },
+            {
+                "head": "乙醛酸盐/博来霉素耐药蛋白",
+                "type": "属于",
+                "tail": "产物失活"
+            },
+            {
+                "head": "万古霉素耐药基因",
+                "type": "属于",
+                "tail": "靶标相关机制"
+            },
+            {
+                "head": "RNA聚合酶",
+                "type": "调控",
+                "tail": "利福霉素耐药性"
+            },
+            {
+                "head": "DNA旋切酶",
+                "type": "调控",
+                "tail": "喹诺酮类药物耐药性"
+            },
+            {
+                "head": "3-氧酰-[酰基-载体蛋白]合成酶",
+                "type": "属于",
+                "tail": "抗性基因"
+            },
+            {
+                "head": "RGDB",
+                "type": "使用",
+                "tail": "同源比对"
+            },
+            {
+                "head": "RGDB",
+                "type": "使用",
+                "tail": "MIBiG"
+            },
+            {
+                "head": "RGDB",
+                "type": "使用",
+                "tail": "CARD"
+            },
+            {
+                "head": "RGDB",
+                "type": "使用",
+                "tail": "NCBIAMR"
+            },
+            {
+                "head": "RGDB",
+                "type": "使用",
+                "tail": "Uniprot"
+            },
+            {
+                "head": "BGC",
+                "type": "包含",
+                "tail": "抗性基因"
+            },
+            {
+                "head": "BGC",
+                "type": "包含",
+                "tail": "基因簇家族 (GCF)"
+            },
+            {
+                "head": "GCF",
+                "type": "降低",
+                "tail": "BGC数据集复杂性"
+            },
+            {
+                "head": "RGDB",
+                "type": "应用",
+                "tail": "天然产物发现"
+            },
+            {
+                "head": "BGC",
+                "type": "参与",
+                "tail": "生物合成"
+            },
+            {
+                "head": "BGC",
+                "type": "参与",
+                "tail": "天然产物"
+            },
+            {
+                "head": "BGC",
+                "type": "参与",
+                "tail": "萜烯"
+            },
+            {
+                "head": "ARG",
+                "type": "属于",
+                "tail": "抗性基因"
+            },
+            {
+                "head": "抗性基因",
+                "type": "调控",
+                "tail": "抗性机制"
+            },
+            {
+                "head": "产物失活",
+                "type": "导致",
+                "tail": "天然产物降解"
+            },
+            {
+                "head": "靶标改变",
+                "type": "导致",
+                "tail": "抗生素耐药性"
+            },
+            {
+                "head": "靶标替代",
+                "type": "导致",
+                "tail": "抗生素耐药性"
+            },
+            {
+                "head": "靶标保护",
+                "type": "导致",
+                "tail": "抗生素耐药性"
+            },
+            {
+                "head": "外排泵",
+                "type": "导致",
+                "tail": "抗生素耐药性"
+            },
+            {
+                "head": "抗性机制",
+                "type": "关联",
+                "tail": "化合物"
+            },
+            {
+                "head": "MIBiG",
+                "type": "包含",
+                "tail": "已知BGCs"
+            },
+            {
+                "head": "MarRef BGCs",
+                "type": "关联",
+                "tail": "MIBiG BGCs"
+            },
+            {
+                "head": "MarRef BGCs",
+                "type": "预测",
+                "tail": "天然产物类型"
+            },
+            {
+                "head": "MarRef BGCs",
+                "type": "预测",
+                "tail": "化学scaffolds"
+            },
+            {
+                "head": "MarRef BGCs",
+                "type": "预测",
+                "tail": "与抗性基因的相互作用"
+            },
+            {
+                "head": "GCF",
+                "type": "分析",
+                "tail": "BGC数据集"
+            },
+            {
+                "head": "BGC",
+                "type": "参与",
+                "tail": "次级生物合成"
+            },
+            {
+                "head": "BGC",
+                "type": "参与",
+                "tail": "自抗性"
+            },
+            {
+                "head": "生物合成",
+                "type": "属于",
+                "tail": "天然产物"
+            },
+            {
+                "head": "测序",
+                "type": "应用",
+                "tail": "耐药基因鉴定"
+            },
+            {
+                "head": "测序",
+                "type": "应用",
+                "tail": "BGC分析"
+            },
+            {
+                "head": "基因组挖掘",
+                "type": "应用",
+                "tail": "MarRef BGCs"
+            },
+            {
+                "head": "基因组挖掘",
+                "type": "应用",
+                "tail": "天然产物发现"
+            }
+        ]
+    },
+    "status": "success"
+}

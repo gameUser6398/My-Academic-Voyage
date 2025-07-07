@@ -1,0 +1,16 @@
+
+
+{
+  "chunk_id": "2024-04-22",
+  "relations": [
+    {"head": "细菌分离株", "type": "使用", "tail": "WGS"},
+    {"head": "WGS", "type": "使用", "tail": "Microreact"},
+    {"head": "WGS", "type": "使用", "tail": "Pathogenwatch"},
+    {"head": "遗传相关性", "type": "属于", "tail": "细菌分离株"},
+    {"head": "AMR", "type": "属于", "tail": "细菌分离株"},
+    {"head": "MGE", "type": "属于", "tail": "细菌分离株"},
+    {"head": "传播", "type": "调控", "tail": "高风险克隆"},
+    {"head": "实验室", "type": "整合", "tail": "基因组监测"},
+    {"head": "WGS", "type": "属于", "tail": "文献阅读"}
+  ]
+}

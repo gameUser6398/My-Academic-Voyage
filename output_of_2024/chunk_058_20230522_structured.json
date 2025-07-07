@@ -1,0 +1,37 @@
+{
+    "timestamp": "2025-07-07T16:58:40.657326",
+    "filename": "chunk_058_20230522.md",
+    "entities": {
+        "chunk_id": "2024-05-22_1616",
+        "entities": [
+            {
+                "name": "chmod",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "chown",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "Linux",
+                "type": "生物信息工具"
+            }
+        ]
+    },
+    "relations": {
+        "chunk_id": "2024-05-22_1616",
+        "relations": [
+            {
+                "head": "chmod",
+                "type": "属于",
+                "tail": "Linux"
+            },
+            {
+                "head": "chown",
+                "type": "属于",
+                "tail": "Linux"
+            }
+        ]
+    },
+    "status": "success"
+}

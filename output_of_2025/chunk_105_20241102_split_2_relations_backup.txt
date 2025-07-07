@@ -1,0 +1,229 @@
+
+
+```json
+{
+  "chunk_id": "2024-03-02",
+  "relations": [
+    {
+      "head": "beta-lactamase",
+      "type": "属于",
+      "tail": "beta-lactam"
+    },
+    {
+      "head": "gentamicin-resistance methyltransferase",
+      "type": "属于",
+      "tail": "aminoglycoside"
+    },
+    {
+      "head": "16S rRNA (guanine(1405)-n(7))-methyltransferase",
+      "type": "属于",
+      "tail": "aminoglycoside"
+    },
+    {
+      "head": "23S rRNA (adenosine(1067)-2'-o)-methyltransferase",
+      "type": "属于",
+      "tail": "macrolide"
+    },
+    {
+      "head": "antibiotic efflux pump",
+      "type": "属于",
+      "tail": "antibiotic efflux"
+    },
+    {
+      "head": "antibiotic efflux pump membrane transporter arpb",
+      "type": "属于",
+      "tail": "antibiotic efflux pump"
+    },
+    {
+      "head": "antibiotic efflux pump outer membrane protein arpc",
+      "type": "属于",
+      "tail": "antibiotic efflux pump"
+    },
+    {
+      "head": "antibiotic efflux pump periplasmic linker protein arpa",
+      "type": "属于",
+      "tail": "antibiotic efflux pump"
+    },
+    {
+      "head": "Multidrug efflux pump LfrA",
+      "type": "属于",
+      "tail": "multidrug"
+    },
+    {
+      "head": "lfrA",
+      "type": "编码",
+      "tail": "Multidrug efflux pump LfrA"
+    },
+    {
+      "head": "MSMEG_6225",
+      "type": "编码",
+      "tail": "Multidrug efflux pump LfrA"
+    },
+    {
+      "head": "MSMEI_6063",
+      "type": "编码",
+      "tail": "Multidrug efflux pump LfrA"
+    },
+    {
+      "head": "A0R5K5",
+      "type": "对应",
+      "tail": "regulatory protein phop"
+    },
+    {
+      "head": "regulatory protein phop",
+      "type": "调控",
+      "tail": "Multidrug efflux pump LfrA"
+    },
+    {
+      "head": "16S rRNA (adenine(1408)-n(1))-methyltransferase",
+      "type": "属于",
+      "tail": "其他"
+    },
+    {
+      "head": "16S rRNA (guanine(1405)-n(7))-methyltransferase",
+      "type": "属于",
+      "tail": "其他"
+    },
+    {
+      "head": "23S rRNA (uridine(2479)-2'-o)-methyltransferase",
+      "type": "属于",
+      "tail": "其他"
+    },
+    {
+      "head": "abc transporter atp-binding protein yxdl",
+      "type": "属于",
+      "tail": "其他"
+    },
+    {
+      "head": "adhesin ata autotransporter",
+      "type": "属于",
+      "tail": "其他"
+    },
+    {
+      "head": "alanine racemase",
+      "type": "属于",
+      "tail": "其他"
+    },
+    {
+      "head": "amino-acid racemase",
+      "type": "属于",
+      "tail": "其他"
+    },
+    {
+      "head": "aminoglycoside (3'') (9) adenylyltransferase",
+      "type": "属于",
+      "tail": "其他"
+    },
+    {
+      "head": "aminoglycoside 3'-phosphotransferase",
+      "type": "属于",
+      "tail": "其他"
+    },
+    {
+      "head": "aminoglycoside 6-adenylyltransferase",
+      "type": "属于",
+      "tail": "其他"
+    },
+    {
+      "head": "aminoglycoside n(3)-acetyltransferase iii",
+      "type": "属于",
+      "tail": "其他"
+    },
+    {
+      "head": "aminoglycoside n(3)-acetyltransferase iv",
+      "type": "属于",
+      "tail": "其他"
+    },
+    {
+      "head": "aminoglycoside n(6')-acetyltransferase type 1",
+      "type": "属于",
+      "tail": "其他"
+    },
+    {
+      "head": "arsenical pump membrane protein",
+      "type": "属于",
+      "tail": "其他"
+    },
+    {
+      "head": "atm1-type heavy metal exporter",
+      "type": "属于",
+      "tail": "其他"
+    },
+    {
+      "head": "bacitracin export atp-binding protein bcea",
+      "type": "属于",
+      "tail": "其他"
+    },
+    {
+      "head": "bacitracin transport atp-binding protein bcra",
+      "type": "属于",
+      "tail": "其他"
+    },
+    {
+      "head": "antibiotic efflux",
+      "type": "属于",
+      "tail": "机制"
+    },
+    {
+      "head": "beta-lactam",
+      "type": "属于",
+      "tail": "耐药类别"
+    },
+    {
+      "head": "aminoglycoside",
+      "type": "属于",
+      "tail": "耐药类别"
+    },
+    {
+      "head": "macrolide",
+      "type": "属于",
+      "tail": "耐药类别"
+    },
+    {
+      "head": "multidrug",
+      "type": "属于",
+      "tail": "耐药类别"
+    },
+    {
+      "head": "fluoroquinolone",
+      "type": "属于",
+      "tail": "耐药类别"
+    },
+    {
+      "head": "rifamycin",
+      "type": "属于",
+      "tail": "耐药类别"
+    },
+    {
+      "head": "tetracycline",
+      "type": "属于",
+      "tail": "耐药类别"
+    },
+    {
+      "head": "peptide",
+      "type": "属于",
+      "tail": "耐药类别"
+    },
+    {
+      "head": "antibacterial free fatty acids",
+      "type": "属于",
+      "tail": "耐药类别"
+    },
+    {
+      "head": "virulence",
+      "type": "属于",
+      "tail": "其他"
+    },
+    {
+      "head": "virginiamycin",
+      "type": "属于",
+      "tail": "其他"
+    },
+    {
+      "head": "LCL_4724",
+      "type": "属于",
+      "tail": "其他"
+    }
+  ]
+}
+```

@@ -1,0 +1,42 @@
+
+
+```json
+{
+  "chunk_id": "2024-08-19",
+  "entities": [
+    {"name": "Dense层", "type": "深度学习概念"},
+    {"name": "F1-score", "type": "深度学习概念"},
+    {"name": "Conv", "type": "深度学习概念"},
+    {"name": "DeepARG", "type": "生物信息工具"},
+    {"name": "ARGNet", "type": "生物信息工具"},
+    {"name": "Uniprot", "type": "生物信息工具"},
+    {"name": "ARG", "type": "生物分子"},
+    {"name": "Autoencoder", "type": "深度学习概念"},
+    {"name": "DHR", "type": "生物信息工具"},
+    {"name": "无监督", "type": "深度学习概念"},
+    {"name": "有监督", "type": "深度学习概念"},
+    {"name": "对比学习", "type": "深度学习概念"},
+    {"name": "do_retrieval.py", "type": "生物信息工具"},
+    {"name": "GPU", "type": "其他"},
+    {"name": "loss", "type": "深度学习概念"},
+    {"name": "logits", "type": "深度学习概念"},
+    {"name": "padding=same", "type": "深度学习概念"},
+    {"name": "Focal loss", "type": "深度学习概念"},
+    {"name": "gamma", "type": "深度学习概念"},
+    {"name": "Hydra 框架", "type": "生物信息工具"},
+    {"name": "TensorBoard", "type": "生物信息工具"},
+    {"name": "opt", "type": "生物信息工具"},
+    {"name": "torchsummary", "type": "生物信息工具"},
+    {"name": "self-Attention", "type": "深度学习概念"},
+    {"name": "Attention", "type": "深度学习概念"},
+    {"name": "CNN", "type": "深度学习概念"},
+    {"name": "一维卷积", "type": "深度学习概念"},
+    {"name": "base_channels", "type": "深度学习概念"},
+    {"name": "过拟合", "type": "深度学习概念"},
+    {"name": "计算开销", "type": "其他"},
+    {"name": "特征", "type": "其他"},
+    {"name": "row_softmax", "type": "深度学习概念"},
+    {"name": "Sequential_3", "type": "深度学习概念"}
+  ]
+}
+```

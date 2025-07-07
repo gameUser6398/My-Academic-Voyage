@@ -1,0 +1,17 @@
+
+
+```json
+{
+  "chunk_id": "2024-03-02",
+  "entities": [
+    {"name": "Python", "type": "生物信息工具"},
+    {"name": "VSCode", "type": "生物信息工具"},
+    {"name": "PyCharm", "type": "生物信息工具"},
+    {"name": "SSH", "type": "生物信息工具"},
+    {"name": "OpenSSH", "type": "生物信息工具"},
+    {"name": "Linux", "type": "生物信息工具"},
+    {"name": "命令", "type": "生物信息工具"},
+    {"name": "远程连接", "type": "项目活动"}
+  ]
+}
+```

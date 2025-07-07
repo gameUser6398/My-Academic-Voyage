@@ -1,0 +1,15 @@
+
+
+{
+  "chunk_id": "2024-03-02",
+  "relations": [
+    {"head": "SMOTE", "type": "使用", "tail": "处理多标签分类中的数据不平衡"},
+    {"head": "SMOTE", "type": "属于", "tail": "上采样"},
+    {"head": "GAN", "type": "使用", "tail": "生成数据"},
+    {"head": "GAN", "type": "包含", "tail": "loss"},
+    {"head": "Transformer", "type": "使用", "tail": "压缩"},
+    {"head": "embedding", "type": "使用", "tail": "加入噪音"},
+    {"head": "加入噪音", "type": "属于", "tail": "微调"},
+    {"head": "SGBs", "type": "属于", "tail": "深度学习概念"}
+  ]
+}

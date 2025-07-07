@@ -1,0 +1,11 @@
+
+
+{
+  "chunk_id": "2024-03-02",
+  "entities": [
+    {"name": "OneHotEncoder", "type": "生物信息工具"},
+    {"name": "蛋白质", "type": "生物分子"},
+    {"name": "氨基酸", "type": "生物分子"},
+    {"name": "BLOSUM", "type": "生物信息工具"}
+  ]
+}

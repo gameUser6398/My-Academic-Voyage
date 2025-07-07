@@ -1,0 +1,172 @@
+{
+    "timestamp": "2025-07-07T18:18:49.999275",
+    "filename": "chunk_129_unknown_date.md",
+    "entities": {
+        "chunk_id": "2024-03-02",
+        "entities": [
+            {
+                "name": "酶",
+                "type": "生物分子"
+            },
+            {
+                "name": "Michaelis-Menten方程",
+                "type": "生物技术"
+            },
+            {
+                "name": "药物代谢动力学",
+                "type": "生物技术"
+            },
+            {
+                "name": "ADME",
+                "type": "生物技术"
+            },
+            {
+                "name": "Gompertz模型",
+                "type": "生物技术"
+            },
+            {
+                "name": "Logistic模型",
+                "type": "生物技术"
+            },
+            {
+                "name": "细胞信号传导",
+                "type": "生物技术"
+            },
+            {
+                "name": "基因调控网络模型",
+                "type": "生物技术"
+            },
+            {
+                "name": "DNA",
+                "type": "生物分子"
+            },
+            {
+                "name": "遗传平衡定律",
+                "type": "生物技术"
+            },
+            {
+                "name": "哈代-温伯格定律",
+                "type": "生物技术"
+            },
+            {
+                "name": "种群动态模型",
+                "type": "生物技术"
+            },
+            {
+                "name": "Logistic增长模型",
+                "type": "生物技术"
+            },
+            {
+                "name": "Lotka-Volterra捕食者-猎物模型",
+                "type": "生物技术"
+            },
+            {
+                "name": "生态系统模型",
+                "type": "生物技术"
+            },
+            {
+                "name": "PCR指数扩增模型",
+                "type": "生物技术"
+            },
+            {
+                "name": "SIR传染病模型",
+                "type": "生物技术"
+            },
+            {
+                "name": "系统发生树模型",
+                "type": "生物技术"
+            }
+        ]
+    },
+    "relations": {
+        "chunk_id": "2024-03-02",
+        "relations": [
+            {
+                "head": "酶反应动力学",
+                "type": "使用",
+                "tail": "Michaelis-Menten方程"
+            },
+            {
+                "head": "药物代谢动力学",
+                "type": "使用",
+                "tail": "ADME"
+            },
+            {
+                "head": "细胞生长和分裂",
+                "type": "使用",
+                "tail": "Gompertz模型"
+            },
+            {
+                "head": "细胞生长和分裂",
+                "type": "使用",
+                "tail": "Logistic模型"
+            },
+            {
+                "head": "细胞信号传导",
+                "type": "使用",
+                "tail": "基因调控网络模型"
+            },
+            {
+                "head": "DNA复制和修复",
+                "type": "使用",
+                "tail": "数学模型"
+            },
+            {
+                "head": "生态学",
+                "type": "使用",
+                "tail": "遗传平衡定律"
+            },
+            {
+                "head": "遗传平衡定律",
+                "type": "属于",
+                "tail": "种群遗传学"
+            },
+            {
+                "head": "种群动态模型",
+                "type": "使用",
+                "tail": "Logistic增长模型"
+            },
+            {
+                "head": "种群动态模型",
+                "type": "使用",
+                "tail": "Lotka-Volterra捕食者-猎物模型"
+            },
+            {
+                "head": "生态系统模型",
+                "type": "使用",
+                "tail": "生态系统模型"
+            },
+            {
+                "head": "药物代谢动力学",
+                "type": "调控",
+                "tail": "药物剂量"
+            },
+            {
+                "head": "细胞信号传导",
+                "type": "调控",
+                "tail": "基因表达"
+            },
+            {
+                "head": "基因调控网络模型",
+                "type": "调控",
+                "tail": "基因表达水平"
+            },
+            {
+                "head": "PCR指数扩增模型",
+                "type": "属于",
+                "tail": "分子生物学"
+            },
+            {
+                "head": "SIR传染病模型",
+                "type": "属于",
+                "tail": "生态学"
+            },
+            {
+                "head": "系统发生树模型",
+                "type": "属于",
+                "tail": "分子生物学"
+            }
+        ]
+    },
+    "status": "success"
+}

@@ -1,0 +1,199 @@
+{
+    "timestamp": "2025-07-07T17:21:31.126972",
+    "filename": "chunk_061_20230523.md",
+    "entities": {
+        "chunk_id": "2024-03-02",
+        "entities": [
+            {
+                "name": "date命令",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "ntp命令",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "Linux",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "ping命令",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "wget命令",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "curl",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "环境变量",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "PATH变量",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "tar命令",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "zip",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "unzip",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "anaconda",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "pip",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "git",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "conda",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "深度学习神经网络",
+                "type": "深度学习概念"
+            }
+        ]
+    },
+    "relations": {
+        "chunk_id": "2024-03-02",
+        "relations": [
+            {
+                "head": "date命令",
+                "type": "使用",
+                "tail": "查看时间"
+            },
+            {
+                "head": "ntp命令",
+                "type": "使用",
+                "tail": "时间同步与校准"
+            },
+            {
+                "head": "Linux",
+                "type": "包含",
+                "tail": "date命令"
+            },
+            {
+                "head": "Linux",
+                "type": "包含",
+                "tail": "ntp命令"
+            },
+            {
+                "head": "Linux",
+                "type": "包含",
+                "tail": "ping命令"
+            },
+            {
+                "head": "Linux",
+                "type": "包含",
+                "tail": "wget命令"
+            },
+            {
+                "head": "Linux",
+                "type": "包含",
+                "tail": "curl"
+            },
+            {
+                "head": "Linux",
+                "type": "包含",
+                "tail": "tar命令"
+            },
+            {
+                "head": "Linux",
+                "type": "包含",
+                "tail": "zip"
+            },
+            {
+                "head": "Linux",
+                "type": "包含",
+                "tail": "unzip"
+            },
+            {
+                "head": "Linux",
+                "type": "包含",
+                "tail": "环境变量"
+            },
+            {
+                "head": "环境变量",
+                "type": "包含",
+                "tail": "PATH变量"
+            },
+            {
+                "head": "ping命令",
+                "type": "使用",
+                "tail": "检查服务器是否可联通"
+            },
+            {
+                "head": "wget命令",
+                "type": "使用",
+                "tail": "下载文件"
+            },
+            {
+                "head": "curl",
+                "type": "使用",
+                "tail": "发起网络请求"
+            },
+            {
+                "head": "tar命令",
+                "type": "使用",
+                "tail": "压缩或解压"
+            },
+            {
+                "head": "zip",
+                "type": "使用",
+                "tail": "压缩文件"
+            },
+            {
+                "head": "unzip",
+                "type": "使用",
+                "tail": "解压文件"
+            },
+            {
+                "head": "anaconda",
+                "type": "使用",
+                "tail": "安装机器学习/深度学习python程序"
+            },
+            {
+                "head": "pip",
+                "type": "使用",
+                "tail": "下载"
+            },
+            {
+                "head": "git",
+                "type": "使用",
+                "tail": "clone"
+            },
+            {
+                "head": "conda",
+                "type": "使用",
+                "tail": "pack"
+            },
+            {
+                "head": "conda",
+                "type": "使用",
+                "tail": "离线安装包"
+            },
+            {
+                "head": "深度学习神经网络",
+                "type": "属于",
+                "tail": "深度学习概念"
+            }
+        ]
+    },
+    "status": "success"
+}

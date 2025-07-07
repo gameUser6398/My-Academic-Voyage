@@ -1,0 +1,19 @@
+
+
+{
+  "chunk_id": "2024-07-31_21-40",
+  "entities": [
+    {"name": "Python", "type": "生物信息工具"},
+    {"name": "数据清洗", "type": "项目活动"},
+    {"name": "数据管理", "type": "其他"},
+    {"name": "rename", "type": "生物信息工具"},
+    {"name": "filter", "type": "生物信息工具"},
+    {"name": "apply", "type": "生物信息工具"},
+    {"name": "str.replace", "type": "生物信息工具"},
+    {"name": "str.split", "type": "生物信息工具"},
+    {"name": "str.get_dummies", "type": "生物信息工具"},
+    {"name": "str.startswith", "type": "生物信息工具"},
+    {"name": "df.explode", "type": "生物信息工具"},
+    {"name": "df.shape", "type": "生物信息工具"}
+  ]
+}

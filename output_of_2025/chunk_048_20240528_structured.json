@@ -1,0 +1,285 @@
+{
+    "timestamp": "2025-07-07T18:34:09.212083",
+    "filename": "chunk_048_20240528.md",
+    "entities": {
+        "chunk_id": "2024-03-02",
+        "entities": [
+            {
+                "name": "ARG",
+                "type": "生物分子"
+            },
+            {
+                "name": "PLM-ARG",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "PLM-ARGDB",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "四环素",
+                "type": "生物分子"
+            },
+            {
+                "name": "肽",
+                "type": "生物分子"
+            },
+            {
+                "name": "阳离子抗菌肽",
+                "type": "生物分子"
+            },
+            {
+                "name": "A0A010ZRL4",
+                "type": "生物分子"
+            },
+            {
+                "name": "A0A023CZL5",
+                "type": "生物分子"
+            },
+            {
+                "name": "UniProt",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "宏基因组测序",
+                "type": "生物技术"
+            },
+            {
+                "name": "MAGs",
+                "type": "生物技术"
+            },
+            {
+                "name": "XGBoost",
+                "type": "深度学习概念"
+            },
+            {
+                "name": "XGBClassifier",
+                "type": "深度学习概念"
+            },
+            {
+                "name": "MultiOutputClassifier",
+                "type": "深度学习概念"
+            },
+            {
+                "name": "MultiLabelBinarizer",
+                "type": "深度学习概念"
+            },
+            {
+                "name": "ESM-1b",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "PyTorch",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "FastaBatchedDataset",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "train.py",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "utility.py",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "抗生素耐药性",
+                "type": "生物医学概念"
+            },
+            {
+                "name": "微生物菌群",
+                "type": "生物医学概念"
+            },
+            {
+                "name": "宏基因组抗性基因多样性调查",
+                "type": "项目活动"
+            },
+            {
+                "name": "文献调研",
+                "type": "项目活动"
+            },
+            {
+                "name": "代码阅读",
+                "type": "项目活动"
+            }
+        ]
+    },
+    "relations": {
+        "chunk_id": "2024-03-02",
+        "relations": [
+            {
+                "head": "PLM-ARG",
+                "type": "使用",
+                "tail": "宏基因组抗性基因多样性调查"
+            },
+            {
+                "head": "PLM-ARG",
+                "type": "使用",
+                "tail": "宏基因组测序"
+            },
+            {
+                "head": "PLM-ARG",
+                "type": "使用",
+                "tail": "MAGs"
+            },
+            {
+                "head": "PLM-ARGDB",
+                "type": "使用",
+                "tail": "PLM-ARG"
+            },
+            {
+                "head": "UniProt",
+                "type": "包含",
+                "tail": "A0A010ZRL4"
+            },
+            {
+                "head": "UniProt",
+                "type": "包含",
+                "tail": "A0A023CZL5"
+            },
+            {
+                "head": "A0A010ZRL4",
+                "type": "属于",
+                "tail": "四环素"
+            },
+            {
+                "head": "A0A010ZRL4",
+                "type": "调控",
+                "tail": "四环素耐药性"
+            },
+            {
+                "head": "A0A023CZL5",
+                "type": "属于",
+                "tail": "肽"
+            },
+            {
+                "head": "A0A023CZL5",
+                "type": "调控",
+                "tail": "阳离子抗菌肽耐药性"
+            },
+            {
+                "head": "PLM-ARG",
+                "type": "因果",
+                "tail": "抗生素耐药性"
+            },
+            {
+                "head": "代码阅读",
+                "type": "包含",
+                "tail": "train.py"
+            },
+            {
+                "head": "代码阅读",
+                "type": "包含",
+                "tail": "utility.py"
+            },
+            {
+                "head": "train.py",
+                "type": "使用",
+                "tail": "XGBClassifier"
+            },
+            {
+                "head": "train.py",
+                "type": "使用",
+                "tail": "MultiOutputClassifier"
+            },
+            {
+                "head": "train.py",
+                "type": "使用",
+                "tail": "MultiLabelBinarizer"
+            },
+            {
+                "head": "train.py",
+                "type": "使用",
+                "tail": "ESM-1b"
+            },
+            {
+                "head": "train.py",
+                "type": "使用",
+                "tail": "PyTorch"
+            },
+            {
+                "head": "train.py",
+                "type": "使用",
+                "tail": "FastaBatchedDataset"
+            },
+            {
+                "head": "utility.py",
+                "type": "使用",
+                "tail": "ESM-1b"
+            },
+            {
+                "head": "utility.py",
+                "type": "使用",
+                "tail": "PyTorch"
+            },
+            {
+                "head": "utility.py",
+                "type": "使用",
+                "tail": "FastaBatchedDataset"
+            },
+            {
+                "head": "utility.py",
+                "type": "使用",
+                "tail": "MultiLabelBinarizer"
+            },
+            {
+                "head": "宏基因组抗性基因多样性调查",
+                "type": "属于",
+                "tail": "微生物菌群"
+            },
+            {
+                "head": "PLM-ARG",
+                "type": "属于",
+                "tail": "深度学习概念"
+            },
+            {
+                "head": "XGBoost",
+                "type": "属于",
+                "tail": "深度学习概念"
+            },
+            {
+                "head": "XGBClassifier",
+                "type": "属于",
+                "tail": "深度学习概念"
+            },
+            {
+                "head": "MultiOutputClassifier",
+                "type": "属于",
+                "tail": "深度学习概念"
+            },
+            {
+                "head": "MultiLabelBinarizer",
+                "type": "属于",
+                "tail": "深度学习概念"
+            },
+            {
+                "head": "PLM-ARG",
+                "type": "因果",
+                "tail": "ARG识别"
+            },
+            {
+                "head": "文献调研",
+                "type": "属于",
+                "tail": "项目活动"
+            },
+            {
+                "head": "代码阅读",
+                "type": "属于",
+                "tail": "项目活动"
+            },
+            {
+                "head": "HMD-ARG",
+                "type": "属于",
+                "tail": "生物信息工具"
+            },
+            {
+                "head": "HMD-ARG",
+                "type": "使用",
+                "tail": "抗生素耐药性"
+            }
+        ]
+    },
+    "status": "success"
+}

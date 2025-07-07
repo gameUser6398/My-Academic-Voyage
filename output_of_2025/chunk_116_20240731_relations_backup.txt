@@ -1,0 +1,21 @@
+
+
+```json
+{
+  "chunk_id": "2024-07-31_21-40",
+  "relations": [
+    {"head": "Python", "type": "使用", "tail": "数据清洗"},
+    {"head": "数据清洗", "type": "包含", "tail": "列名"},
+    {"head": "数据清洗", "type": "包含", "tail": "字符"},
+    {"head": "列名", "type": "使用", "tail": "rename"},
+    {"head": "列名", "type": "使用", "tail": "filter"},
+    {"head": "列名", "type": "使用", "tail": "apply"},
+    {"head": "字符", "type": "使用", "tail": "str.replace"},
+    {"head": "字符", "type": "使用", "tail": "str.split"},
+    {"head": "字符", "type": "使用", "tail": "str.get_dummies"},
+    {"head": "字符", "type": "使用", "tail": "str.startswith"},
+    {"head": "数据清洗", "type": "使用", "tail": "df.explode"},
+    {"head": "数据清洗", "type": "使用", "tail": "df.shape"}
+  ]
+}
+```

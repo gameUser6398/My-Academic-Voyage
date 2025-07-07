@@ -1,0 +1,90 @@
+{
+    "timestamp": "2025-07-07T17:17:08.931130",
+    "filename": "chunk_051_unknown_date.md",
+    "entities": {
+        "chunk_id": "2024-03-02",
+        "entities": [
+            {
+                "name": "Python",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "yield",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "TensorBoard",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "PyTorch",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "numpy",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "setdiff1d",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "TorchMetrics",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "gc.collect()",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "torch.cuda.empty_cache()",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "CUDA out of memory",
+                "type": "其他"
+            }
+        ]
+    },
+    "relations": {
+        "chunk_id": "2024-03-02",
+        "relations": [
+            {
+                "head": "python generator",
+                "type": "使用",
+                "tail": "yield"
+            },
+            {
+                "head": "yield",
+                "type": "属于",
+                "tail": "Python"
+            },
+            {
+                "head": "TensorBoard",
+                "type": "使用",
+                "tail": "PyTorch"
+            },
+            {
+                "head": "setdiff1d",
+                "type": "属于",
+                "tail": "numpy"
+            },
+            {
+                "head": "TorchMetrics",
+                "type": "使用",
+                "tail": "PyTorch"
+            },
+            {
+                "head": "CUDA out of memory",
+                "type": "解决",
+                "tail": "gc.collect()"
+            },
+            {
+                "head": "CUDA out of memory",
+                "type": "解决",
+                "tail": "torch.cuda.empty_cache()"
+            }
+        ]
+    },
+    "status": "success"
+}

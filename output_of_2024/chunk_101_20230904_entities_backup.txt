@@ -1,0 +1,16 @@
+
+
+{
+  "chunk_id": "2024-03-02",
+  "entities": [
+    {"name": "seq_emb", "type": "其他"},
+    {"name": "final_emb", "type": "其他"},
+    {"name": "Transformer", "type": "深度学习概念"},
+    {"name": "residual", "type": "深度学习概念"},
+    {"name": "protein", "type": "生物分子"},
+    {"name": "TensorFlow", "type": "生物信息工具"},
+    {"name": "tf.placeholder()", "type": "生物信息工具"},
+    {"name": "eager execution", "type": "其他"},
+    {"name": "checkpoint", "type": "其他"}
+  ]
+}

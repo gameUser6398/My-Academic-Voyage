@@ -1,0 +1,181 @@
+{
+    "timestamp": "2025-07-07T17:23:00.823906",
+    "filename": "chunk_002_20230529.md",
+    "entities": {
+        "chunk_id": "2024-03-02",
+        "entities": [
+            {
+                "name": "database/sql",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "CAFA数据集",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "bio-embedding库",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "神经网络",
+                "type": "深度学习概念"
+            },
+            {
+                "name": "one-hot",
+                "type": "深度学习概念"
+            },
+            {
+                "name": "CNN",
+                "type": "深度学习概念"
+            },
+            {
+                "name": "词嵌入",
+                "type": "深度学习概念"
+            },
+            {
+                "name": "蛋白质",
+                "type": "生物分子"
+            },
+            {
+                "name": "RNN",
+                "type": "深度学习概念"
+            },
+            {
+                "name": "LSTM",
+                "type": "深度学习概念"
+            },
+            {
+                "name": "BERT",
+                "type": "深度学习概念"
+            },
+            {
+                "name": "文献阅读",
+                "type": "项目活动"
+            },
+            {
+                "name": "源代码阅读",
+                "type": "项目活动"
+            },
+            {
+                "name": "环境配置",
+                "type": "项目活动"
+            },
+            {
+                "name": "软件安装",
+                "type": "项目活动"
+            },
+            {
+                "name": "OneNote",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "服务器",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "突发性能型",
+                "type": "其他"
+            },
+            {
+                "name": "性能模式",
+                "type": "其他"
+            }
+        ]
+    },
+    "relations": {
+        "chunk_id": "2023-07-06",
+        "relations": [
+            {
+                "head": "文献阅读",
+                "type": "使用",
+                "tail": "CAFA数据集"
+            },
+            {
+                "head": "文献阅读",
+                "type": "使用",
+                "tail": "bio-embedding库"
+            },
+            {
+                "head": "文献阅读",
+                "type": "使用",
+                "tail": "神经网络"
+            },
+            {
+                "head": "技术学习",
+                "type": "包含",
+                "tail": "one-hot"
+            },
+            {
+                "head": "技术学习",
+                "type": "包含",
+                "tail": "CNN"
+            },
+            {
+                "head": "技术学习",
+                "type": "包含",
+                "tail": "词嵌入"
+            },
+            {
+                "head": "技术学习",
+                "type": "包含",
+                "tail": "RNN"
+            },
+            {
+                "head": "技术学习",
+                "type": "包含",
+                "tail": "LSTM"
+            },
+            {
+                "head": "技术学习",
+                "type": "包含",
+                "tail": "BERT"
+            },
+            {
+                "head": "技术学习",
+                "type": "使用",
+                "tail": "蛋白质数据提取"
+            },
+            {
+                "head": "技术学习",
+                "type": "属于",
+                "tail": "模型1.0"
+            },
+            {
+                "head": "技术学习",
+                "type": "属于",
+                "tail": "项目活动"
+            },
+            {
+                "head": "源代码阅读",
+                "type": "属于",
+                "tail": "项目活动"
+            },
+            {
+                "head": "环境配置",
+                "type": "属于",
+                "tail": "项目活动"
+            },
+            {
+                "head": "软件安装",
+                "type": "属于",
+                "tail": "项目活动"
+            },
+            {
+                "head": "讨论内容",
+                "type": "使用",
+                "tail": "OneNote"
+            },
+            {
+                "head": "服务器",
+                "type": "属于",
+                "tail": "生物信息工具"
+            },
+            {
+                "head": "突发性能型",
+                "type": "属于",
+                "tail": "性能模式"
+            }
+        ]
+    },
+    "status": "success"
+}

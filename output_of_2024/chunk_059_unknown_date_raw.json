@@ -1,0 +1,6 @@
+{
+    "timestamp": "2025-07-07T16:59:30.089885",
+    "filename": "chunk_059_unknown_date.md",
+    "raw_entities": "\n\n{\n  \"chunk_id\": \"2024-03-02\",\n  \"entities\": [\n    {\"name\": \"Python\", \"type\": \"生物信息工具\"},\n    {\"name\": \"Linux\", \"type\": \"生物信息工具\"},\n    {\"name\": \"history\", \"type\": \"生物信息工具\"},\n    {\"name\": \"clear\", \"type\": \"生物信息工具\"}\n  ]\n}",
+    "raw_relations": "\n\n{\n  \"chunk_id\": \"2024-03-02\",\n  \"relations\": [\n    {\"head\": \"Python\", \"type\": \"属于\", \"tail\": \"Linux\"},\n    {\"head\": \"clear\", \"type\": \"使用\", \"tail\": \"清屏\"},\n    {\"head\": \"history\", \"type\": \"使用\", \"tail\": \"历史命令搜索\"},\n    {\"head\": \"Ctrl+c\", \"type\": \"使用\", \"tail\": \"强制停止程序运行\"},\n    {\"head\": \"Ctrl+d\", \"type\": \"使用\", \"tail\": \"退出或登出\"},\n    {\"head\": \"Ctrl+r\", \"type\": \"使用\", \"tail\": \"匹配历史命令\"},\n    {\"head\": \"Ctrl+p\", \"type\": \"使用\", \"tail\": \"返回上一次输入命令字符\"},\n    {\"head\": \"Ctrl+a\", \"type\": \"使用\", \"tail\": \"跳到命令开头\"},\n    {\"head\": \"Ctrl+e\", \"type\": \"使用\", \"tail\": \"跳到命令结尾\"},\n    {\"head\": \"Ctrl+←\", \"type\": \"使用\", \"tail\": \"向左跳一个单词\"},\n    {\"head\": \"Ctrl+→\", \"type\": \"使用\", \"tail\": \"向右跳一个单词\"}\n  ]\n}"
+}

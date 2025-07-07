@@ -1,0 +1,48 @@
+
+
+```json
+{
+  "chunk_id": "2024-03-02",
+  "relations": [
+    {"head": "Python", "type": "属于", "tail": "Linux"},
+    {"head": "Miniconda", "type": "属于", "tail": "Linux"},
+    {"head": "Shell脚本", "type": "属于", "tail": "Linux"},
+    {"head": "Anaconda", "type": "属于", "tail": "Linux"},
+    {"head": "TensorFlow", "type": "属于", "tail": "深度学习"},
+    {"head": "PyTorch", "type": "属于", "tail": "深度学习"},
+    {"head": "bio-embeddings", "type": "属于", "tail": "深度学习"},
+    {"head": "Sklearn", "type": "属于", "tail": "深度学习"},
+    {"head": "Ontobio", "type": "属于", "tail": "深度学习"},
+    {"head": "pip install", "type": "使用", "tail": "bio-embeddings"},
+    {"head": "pip install", "type": "使用", "tail": "ontobio"},
+    {"head": "bio-embeddings[all]", "type": "使用", "tail": "bio-embeddings"},
+    {"head": "环境配置", "type": "使用", "tail": "Miniconda"},
+    {"head": "环境配置", "type": "使用", "tail": "Anaconda"},
+    {"head": "环境配置", "type": "使用", "tail": "pip install"},
+    {"head": "环境配置", "type": "使用", "tail": "bio-embeddings[all]"},
+    {"head": "文献调研", "type": "使用", "tail": "bio-embeddings"},
+    {"head": "文献调研", "type": "使用", "tail": "Ontobio"},
+    {"head": "Linux", "type": "包含", "tail": "Shell脚本"},
+    {"head": "Linux", "type": "包含", "tail": "Miniconda"},
+    {"head": "Linux", "type": "包含", "tail": "Anaconda"},
+    {"head": "Linux", "type": "包含", "tail": "TensorFlow"},
+    {"head": "Linux", "type": "包含", "tail": "PyTorch"},
+    {"head": "Linux", "type": "包含", "tail": "bio-embeddings"},
+    {"head": "Linux", "type": "包含", "tail": "Sklearn"},
+    {"head": "Linux", "type": "包含", "tail": "Ontobio"},
+    {"head": "PyTorch", "type": "属于", "tail": "bio_embd环境"},
+    {"head": "bio-embeddings[all]", "type": "属于", "tail": "bio_embd环境"},
+    {"head": "Sklearn", "type": "属于", "tail": "bio_embd环境"},
+    {"head": "bio-embeddings", "type": "属于", "tail": "bio_embd环境"},
+    {"head": "Ontobio", "type": "属于", "tail": "bio_embd环境"},
+    {"head": "Anaconda", "type": "属于", "tail": "阿里大创服务器配置"},
+    {"head": "PyTorch", "type": "属于", "tail": "阿里大创服务器配置"},
+    {"head": "TensorFlow", "type": "属于", "tail": "阿里练习服务器配置"},
+    {"head": "Anaconda", "type": "属于", "tail": "阿里练习服务器配置"},
+    {"head": "base环境", "type": "属于", "tail": "阿里大创服务器配置"},
+    {"head": "pytorch环境", "type": "属于", "tail": "阿里大创服务器配置"},
+    {"head": "pip install", "type": "属于", "tail": "项目活动"},
+    {"head": "bio-embeddings[all]", "type": "属于", "tail": "项目活动"}
+  ]
+}
+```

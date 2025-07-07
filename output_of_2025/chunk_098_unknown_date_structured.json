@@ -1,0 +1,150 @@
+{
+    "timestamp": "2025-07-07T17:51:15.617788",
+    "filename": "chunk_098_unknown_date.md",
+    "entities": {
+        "chunk_id": "2024-03-02",
+        "entities": [
+            {
+                "name": "全基因组关联研究",
+                "type": "生物医学概念"
+            },
+            {
+                "name": "GWAS",
+                "type": "生物医学概念"
+            },
+            {
+                "name": "SNP",
+                "type": "生物分子"
+            },
+            {
+                "name": "遗传变异",
+                "type": "生物分子"
+            },
+            {
+                "name": "表型",
+                "type": "生物医学概念"
+            },
+            {
+                "name": "疾病",
+                "type": "生物医学概念"
+            },
+            {
+                "name": "统计基础",
+                "type": "深度学习概念"
+            },
+            {
+                "name": "遗传性",
+                "type": "生物医学概念"
+            },
+            {
+                "name": "遗传相关性",
+                "type": "生物医学概念"
+            },
+            {
+                "name": "临床风险预测",
+                "type": "生物医学概念"
+            },
+            {
+                "name": "药物开发",
+                "type": "项目活动"
+            },
+            {
+                "name": "风险因素",
+                "type": "生物医学概念"
+            },
+            {
+                "name": "健康结果",
+                "type": "生物医学概念"
+            },
+            {
+                "name": "因果关系",
+                "type": "深度学习概念"
+            },
+            {
+                "name": "方法引物",
+                "type": "其他"
+            }
+        ]
+    },
+    "relations": {
+        "chunk_id": "2024-03-02",
+        "relations": [
+            {
+                "head": "GWAS",
+                "type": "属于",
+                "tail": "全基因组关联研究"
+            },
+            {
+                "head": "GWAS",
+                "type": "使用",
+                "tail": "统计基础"
+            },
+            {
+                "head": "GWAS",
+                "type": "检测",
+                "tail": "遗传变异"
+            },
+            {
+                "head": "GWAS",
+                "type": "测试",
+                "tail": "SNP"
+            },
+            {
+                "head": "GWAS",
+                "type": "找出",
+                "tail": "表型"
+            },
+            {
+                "head": "GWAS",
+                "type": "找出",
+                "tail": "疾病"
+            },
+            {
+                "head": "GWAS",
+                "type": "应用",
+                "tail": "深入了解表型的潜在生物学"
+            },
+            {
+                "head": "GWAS",
+                "type": "应用",
+                "tail": "估计遗传性"
+            },
+            {
+                "head": "GWAS",
+                "type": "应用",
+                "tail": "计算遗传相关性"
+            },
+            {
+                "head": "GWAS",
+                "type": "应用",
+                "tail": "临床风险预测"
+            },
+            {
+                "head": "GWAS",
+                "type": "应用",
+                "tail": "药物开发"
+            },
+            {
+                "head": "GWAS",
+                "type": "应用",
+                "tail": "推断风险因素与健康结果之间的潜在因果关系"
+            },
+            {
+                "head": "遗传变异",
+                "type": "属于",
+                "tail": "SNP"
+            },
+            {
+                "head": "遗传相关性",
+                "type": "属于",
+                "tail": "统计基础"
+            },
+            {
+                "head": "因果关系",
+                "type": "关联",
+                "tail": "风险因素与健康结果"
+            }
+        ]
+    },
+    "status": "success"
+}

@@ -1,0 +1,13 @@
+
+
+{
+  "chunk_id": "2024-03-02",
+  "entities": [
+    {"name": "nn.embedding", "type": "生物信息工具"},
+    {"name": "填充数据0", "type": "其他"},
+    {"name": "Transformer", "type": "深度学习概念"},
+    {"name": "C:\\Users\\34940\\OneDrive\\桌面\\Transformer\\TALE\\example\\data\\train_seq_mf", "type": "其他"},
+    {"name": "读取", "type": "其他"},
+    {"name": "生化课", "type": "其他"}
+  ]
+}

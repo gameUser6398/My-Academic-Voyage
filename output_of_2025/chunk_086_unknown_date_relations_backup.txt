@@ -1,0 +1,43 @@
+
+
+```json
+{
+  "chunk_id": "2024-03-02",
+  "relations": [
+    {"head": "conda", "type": "使用", "tail": "创建环境"},
+    {"head": "conda", "type": "使用", "tail": "添加源"},
+    {"head": "conda", "type": "使用", "tail": "克隆已有环境"},
+    {"head": "conda", "type": "使用", "tail": "conda config"},
+    {"head": "conda", "type": "使用", "tail": "conda create"},
+    {"head": "conda", "type": "使用", "tail": "conda install"},
+    {"head": "conda", "type": "使用", "tail": "环境打包"},
+    {"head": "conda", "type": "使用", "tail": "conda pack"},
+    {"head": "conda install", "type": "属于", "tail": "conda"},
+    {"head": "conda config", "type": "属于", "tail": "conda"},
+    {"head": "conda create", "type": "属于", "tail": "conda"},
+    {"head": "conda pack", "type": "属于", "tail": "conda"},
+    {"head": "安装torch库", "type": "使用", "tail": "conda install"},
+    {"head": "安装torch库", "type": "使用", "tail": "pytorch"},
+    {"head": "安装torch库", "type": "使用", "tail": "torchvision"},
+    {"head": "安装torch库", "type": "使用", "tail": "torchaudio"},
+    {"head": "安装torch库", "type": "使用", "tail": "pytorch-cuda"},
+    {"head": "安装torch库", "type": "使用", "tail": "cuda"},
+    {"head": "pip", "type": "使用", "tail": "安装torch库"},
+    {"head": "conda", "type": "使用", "tail": "安装torch库"},
+    {"head": "Miniconda3", "type": "使用", "tail": "环境打包"},
+    {"head": "Miniconda3", "type": "属于", "tail": "conda"},
+    {"head": "conda", "type": "属于", "tail": "生物信息工具"},
+    {"head": "conda config", "type": "属于", "tail": "项目活动"},
+    {"head": "conda create", "type": "属于", "tail": "项目活动"},
+    {"head": "conda install", "type": "属于", "tail": "项目活动"},
+    {"head": "conda pack", "type": "属于", "tail": "项目活动"},
+    {"head": "创建环境", "type": "属于", "tail": "项目活动"},
+    {"head": "添加源", "type": "属于", "tail": "项目活动"},
+    {"head": "克隆已有环境", "type": "属于", "tail": "项目活动"},
+    {"head": "安装torch库", "type": "属于", "tail": "项目活动"},
+    {"head": "conda", "type": "使用", "tail": "添加源"},
+    {"head": "conda", "type": "使用", "tail": "重置所有源"},
+    {"head": "conda", "type": "使用", "tail": "克隆已有环境"}
+  ]
+}
+```

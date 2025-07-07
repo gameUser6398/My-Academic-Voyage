@@ -1,0 +1,140 @@
+{
+    "timestamp": "2025-07-07T16:52:37.698398",
+    "filename": "chunk_073_unknown_date.md",
+    "entities": {
+        "chunk_id": "2024-03-02",
+        "entities": [
+            {
+                "name": "bio_embeddings",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "PyPI",
+                "type": "其他"
+            },
+            {
+                "name": "深度学习",
+                "type": "深度学习概念"
+            },
+            {
+                "name": "蛋白质",
+                "type": "生物分子"
+            },
+            {
+                "name": "语言模型",
+                "type": "深度学习概念"
+            },
+            {
+                "name": "g++",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "make",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "Linux",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "gcc-c++",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "Yum",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "Python",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "torch",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "torch-geometric",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "torch_sparse",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "诱变",
+                "type": "生物技术"
+            }
+        ]
+    },
+    "relations": {
+        "chunk_id": "2024-03-02",
+        "relations": [
+            {
+                "head": "bio_embeddings",
+                "type": "使用",
+                "tail": "深度学习"
+            },
+            {
+                "head": "深度学习",
+                "type": "使用",
+                "tail": "语言模型"
+            },
+            {
+                "head": "语言模型",
+                "type": "用于",
+                "tail": "蛋白质嵌入预测"
+            },
+            {
+                "head": "bio_embeddings",
+                "type": "属于",
+                "tail": "Python"
+            },
+            {
+                "head": "make",
+                "type": "属于",
+                "tail": "Linux"
+            },
+            {
+                "head": "g++",
+                "type": "属于",
+                "tail": "Linux"
+            },
+            {
+                "head": "gcc-c++",
+                "type": "属于",
+                "tail": "Linux"
+            },
+            {
+                "head": "Yum",
+                "type": "属于",
+                "tail": "Linux"
+            },
+            {
+                "head": "bio_embeddings",
+                "type": "使用",
+                "tail": "torch"
+            },
+            {
+                "head": "torch",
+                "type": "使用",
+                "tail": "torch-geometric"
+            },
+            {
+                "head": "torch-geometric",
+                "type": "使用",
+                "tail": "torch_sparse"
+            },
+            {
+                "head": "诱变",
+                "type": "属于",
+                "tail": "bio_embeddings"
+            },
+            {
+                "head": "诱变",
+                "type": "用于",
+                "tail": "蛋白质"
+            }
+        ]
+    },
+    "status": "success"
+}

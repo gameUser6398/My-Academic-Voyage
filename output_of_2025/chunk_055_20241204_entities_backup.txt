@@ -1,0 +1,21 @@
+
+
+{
+  "chunk_id": "2024-03-02",
+  "entities": [
+    {"name": "ARGs", "type": "生物分子"},
+    {"name": "ARG", "type": "生物分子"},
+    {"name": "抗菌素耐药性", "type": "生物医学概念"},
+    {"name": "AMR", "type": "生物医学概念"},
+    {"name": "ARGfams", "type": "生物信息工具"},
+    {"name": "AMRFinder", "type": "生物信息工具"},
+    {"name": "ResFinder", "type": "生物信息工具"},
+    {"name": "HMM", "type": "生物信息工具"},
+    {"name": "VGs", "type": "生物分子"},
+    {"name": "MGEs", "type": "生物分子"},
+    {"name": "沙门氏菌", "type": "生物分子"},
+    {"name": "弯曲杆菌属", "type": "生物分子"},
+    {"name": "大肠杆菌", "type": "生物分子"},
+    {"name": "文献阅读", "type": "项目活动"}
+  ]
+}

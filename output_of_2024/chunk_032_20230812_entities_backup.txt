@@ -1,0 +1,15 @@
+
+
+{
+  "chunk_id": "2024-03-02",
+  "entities": [
+    {"name": "氨基酸", "type": "生物分子"},
+    {"name": "ProtBert", "type": "生物信息工具"},
+    {"name": "self-Attention", "type": "深度学习概念"},
+    {"name": "LSTM", "type": "深度学习概念"},
+    {"name": "BIOSUM", "type": "生物信息工具"},
+    {"name": "BLOSUM", "type": "生物信息工具"},
+    {"name": "特征提取", "type": "项目活动"},
+    {"name": "concatenate", "type": "深度学习概念"}
+  ]
+}

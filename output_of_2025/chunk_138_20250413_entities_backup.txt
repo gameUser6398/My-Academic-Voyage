@@ -1,0 +1,12 @@
+
+
+{
+  "chunk_id": "2024-09-24",
+  "entities": [
+    {"name": "CARD", "type": "生物信息工具"},
+    {"name": "Resfams", "type": "生物信息工具"},
+    {"name": "ESM embeddings", "type": "生物信息工具"},
+    {"name": "1D convolution", "type": "深度学习概念"},
+    {"name": "Django", "type": "生物信息工具"}
+  ]
+}

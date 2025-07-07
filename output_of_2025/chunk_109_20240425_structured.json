@@ -1,0 +1,50 @@
+{
+    "timestamp": "2025-07-07T18:25:07.983597",
+    "filename": "chunk_109_20240425.md",
+    "entities": {
+        "chunk_id": "2024-03-02",
+        "entities": [
+            {
+                "name": "Mycobacterium tuberculosis",
+                "type": "生物分子"
+            },
+            {
+                "name": "深度学习",
+                "type": "深度学习概念"
+            },
+            {
+                "name": "Global Catalogue of Microorganisms",
+                "type": "其他"
+            },
+            {
+                "name": "Global Catalogue",
+                "type": "其他"
+            },
+            {
+                "name": "wdcm.org",
+                "type": "其他"
+            }
+        ]
+    },
+    "relations": {
+        "chunk_id": "2024-03-02",
+        "relations": [
+            {
+                "head": "Mycobacterium tuberculosis",
+                "type": "属于",
+                "tail": "Global Catalogue of Microorganisms"
+            },
+            {
+                "head": "Global Catalogue of Microorganisms",
+                "type": "属于",
+                "tail": "Global Catalogue"
+            },
+            {
+                "head": "Global Catalogue",
+                "type": "属于",
+                "tail": "wdcm.org"
+            }
+        ]
+    },
+    "status": "success"
+}

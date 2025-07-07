@@ -1,0 +1,19 @@
+
+
+{
+  "chunk_id": "2024-03-02",
+  "entities": [
+    {"name": "基因表达数据", "type": "生物分子"},
+    {"name": "生存数据", "type": "生物信息工具"},
+    {"name": "癌症", "type": "生物医学概念"},
+    {"name": "蛋白质表征", "type": "生物分子"},
+    {"name": "抗生素耐药性", "type": "生物医学概念"},
+    {"name": "ctGAN", "type": "生物信息工具"},
+    {"name": "CGAN", "type": "深度学习概念"},
+    {"name": "WGAN", "type": "深度学习概念"},
+    {"name": "Attention", "type": "深度学习概念"},
+    {"name": "residual", "type": "深度学习概念"},
+    {"name": "pre_v4_Attention", "type": "生物信息工具"},
+    {"name": "weight_init", "type": "深度学习概念"}
+  ]
+}

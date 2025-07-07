@@ -1,0 +1,689 @@
+{
+    "timestamp": "2025-07-07T17:19:31.769000",
+    "filename": "chunk_108_20230918.md",
+    "entities": {
+        "chunk_id": "2024-04-07",
+        "entities": [
+            {
+                "name": "loss",
+                "type": "深度学习概念"
+            },
+            {
+                "name": "binary_cross_entropy",
+                "type": "深度学习概念"
+            },
+            {
+                "name": "sigmoid",
+                "type": "深度学习概念"
+            },
+            {
+                "name": "softmax",
+                "type": "深度学习概念"
+            },
+            {
+                "name": "f1-score",
+                "type": "深度学习概念"
+            },
+            {
+                "name": "Transformer",
+                "type": "深度学习概念"
+            },
+            {
+                "name": "Focal Loss",
+                "type": "深度学习概念"
+            },
+            {
+                "name": "Adam",
+                "type": "深度学习概念"
+            },
+            {
+                "name": "Xavier初始化",
+                "type": "深度学习概念"
+            },
+            {
+                "name": "He初始化",
+                "type": "深度学习概念"
+            },
+            {
+                "name": "WGAN",
+                "type": "深度学习概念"
+            },
+            {
+                "name": "CGAN",
+                "type": "深度学习概念"
+            },
+            {
+                "name": "GAN",
+                "type": "深度学习概念"
+            },
+            {
+                "name": "self-Attention",
+                "type": "深度学习概念"
+            },
+            {
+                "name": "卷积",
+                "type": "深度学习概念"
+            },
+            {
+                "name": "t-SNE",
+                "type": "深度学习概念"
+            },
+            {
+                "name": "UMAP",
+                "type": "深度学习概念"
+            },
+            {
+                "name": "余弦相似度",
+                "type": "深度学习概念"
+            },
+            {
+                "name": "Python",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "PyTorch",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "pickle",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "fasta",
+                "type": "生物技术"
+            },
+            {
+                "name": "GOterms",
+                "type": "生物分子"
+            },
+            {
+                "name": "蛋白",
+                "type": "生物分子"
+            },
+            {
+                "name": "T5",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "anc2vec",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "CAFA",
+                "type": "生物信息项目"
+            },
+            {
+                "name": "TALE",
+                "type": "生物信息项目"
+            },
+            {
+                "name": "样本采集",
+                "type": "项目活动"
+            },
+            {
+                "name": "模型优化",
+                "type": "项目活动"
+            },
+            {
+                "name": "调参",
+                "type": "深度学习概念"
+            },
+            {
+                "name": "crossentropy",
+                "type": "深度学习概念"
+            },
+            {
+                "name": "embedding",
+                "type": "深度学习概念"
+            },
+            {
+                "name": "dense_matrix",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "label_embedding",
+                "type": "深度学习概念"
+            },
+            {
+                "name": "latent_space",
+                "type": "深度学习概念"
+            },
+            {
+                "name": "Linear",
+                "type": "深度学习概念"
+            },
+            {
+                "name": "卷积核",
+                "type": "深度学习概念"
+            },
+            {
+                "name": "CNN",
+                "type": "深度学习概念"
+            },
+            {
+                "name": "优化器",
+                "type": "深度学习概念"
+            },
+            {
+                "name": "优化算法",
+                "type": "深度学习概念"
+            },
+            {
+                "name": "数据读取",
+                "type": "项目活动"
+            },
+            {
+                "name": "数据质量",
+                "type": "深度学习概念"
+            },
+            {
+                "name": "数据分布",
+                "type": "深度学习概念"
+            },
+            {
+                "name": "模型结构",
+                "type": "深度学习概念"
+            },
+            {
+                "name": "训练集",
+                "type": "生物信息项目"
+            },
+            {
+                "name": "验证数据",
+                "type": "生物信息项目"
+            },
+            {
+                "name": "正则化",
+                "type": "深度学习概念"
+            },
+            {
+                "name": "梯度下降",
+                "type": "深度学习概念"
+            },
+            {
+                "name": "维度扩充",
+                "type": "深度学习概念"
+            },
+            {
+                "name": "密集矩阵",
+                "type": "深度学习概念"
+            },
+            {
+                "name": "嵌入质量",
+                "type": "深度学习概念"
+            },
+            {
+                "name": "断点续存",
+                "type": "项目活动"
+            },
+            {
+                "name": "同源序列比较",
+                "type": "生物技术"
+            },
+            {
+                "name": "batch_size",
+                "type": "深度学习概念"
+            },
+            {
+                "name": "batch_effect",
+                "type": "深度学习概念"
+            },
+            {
+                "name": "epoch",
+                "type": "深度学习概念"
+            },
+            {
+                "name": "pooling",
+                "type": "深度学习概念"
+            },
+            {
+                "name": "n_critic",
+                "type": "深度学习概念"
+            },
+            {
+                "name": "转置卷积",
+                "type": "深度学习概念"
+            },
+            {
+                "name": "GO-embed",
+                "type": "生物信息工具"
+            }
+        ]
+    },
+    "relations": {
+        "chunk_id": "2024-04-07",
+        "relations": [
+            {
+                "head": "crossentropy",
+                "type": "使用",
+                "tail": "softmax"
+            },
+            {
+                "head": "binary_cross_entropy",
+                "type": "使用",
+                "tail": "sigmoid"
+            },
+            {
+                "head": "模型优化",
+                "type": "包含",
+                "tail": "调参"
+            },
+            {
+                "head": "模型优化",
+                "type": "包含",
+                "tail": "数据读取"
+            },
+            {
+                "head": "模型优化",
+                "type": "包含",
+                "tail": "断点续存"
+            },
+            {
+                "head": "模型优化",
+                "type": "包含",
+                "tail": "同源序列比较"
+            },
+            {
+                "head": "模型结构",
+                "type": "包含",
+                "tail": "Linear"
+            },
+            {
+                "head": "模型结构",
+                "type": "包含",
+                "tail": "卷积"
+            },
+            {
+                "head": "模型结构",
+                "type": "包含",
+                "tail": "转置卷积"
+            },
+            {
+                "head": "模型结构",
+                "type": "包含",
+                "tail": "self-Attention"
+            },
+            {
+                "head": "模型结构",
+                "type": "包含",
+                "tail": "dense_matrix"
+            },
+            {
+                "head": "模型结构",
+                "type": "包含",
+                "tail": "embedding"
+            },
+            {
+                "head": "模型结构",
+                "type": "包含",
+                "tail": "latent_space"
+            },
+            {
+                "head": "GAN",
+                "type": "属于",
+                "tail": "生物信息项目"
+            },
+            {
+                "head": "WGAN",
+                "type": "属于",
+                "tail": "生物信息项目"
+            },
+            {
+                "head": "CGAN",
+                "type": "属于",
+                "tail": "生物信息项目"
+            },
+            {
+                "head": "TALE",
+                "type": "属于",
+                "tail": "生物信息项目"
+            },
+            {
+                "head": "TALE",
+                "type": "使用",
+                "tail": "fasta"
+            },
+            {
+                "head": "TALE",
+                "type": "使用",
+                "tail": "GOterms"
+            },
+            {
+                "head": "TALE",
+                "type": "使用",
+                "tail": "pickle"
+            },
+            {
+                "head": "TALE",
+                "type": "使用",
+                "tail": "dense_matrix"
+            },
+            {
+                "head": "TALE",
+                "type": "使用",
+                "tail": "GO-embed"
+            },
+            {
+                "head": "TALE",
+                "type": "使用",
+                "tail": "T5"
+            },
+            {
+                "head": "TALE",
+                "type": "使用",
+                "tail": "anc2vec"
+            },
+            {
+                "head": "TALE",
+                "type": "使用",
+                "tail": "t-SNE"
+            },
+            {
+                "head": "TALE",
+                "type": "使用",
+                "tail": "UMAP"
+            },
+            {
+                "head": "TALE",
+                "type": "使用",
+                "tail": "余弦相似度"
+            },
+            {
+                "head": "Focal Loss",
+                "type": "使用",
+                "tail": "Adam"
+            },
+            {
+                "head": "Focal Loss",
+                "type": "属于",
+                "tail": "深度学习概念"
+            },
+            {
+                "head": "Focal Loss",
+                "type": "调控",
+                "tail": "损失函数"
+            },
+            {
+                "head": "loss",
+                "type": "使用",
+                "tail": "binary_cross_entropy"
+            },
+            {
+                "head": "loss",
+                "type": "使用",
+                "tail": "sigmoid"
+            },
+            {
+                "head": "loss",
+                "type": "使用",
+                "tail": "softmax"
+            },
+            {
+                "head": "loss",
+                "type": "使用",
+                "tail": "crossentropy"
+            },
+            {
+                "head": "loss",
+                "type": "使用",
+                "tail": "Focal Loss"
+            },
+            {
+                "head": "loss",
+                "type": "使用",
+                "tail": "WGAN"
+            },
+            {
+                "head": "loss",
+                "type": "使用",
+                "tail": "CGAN"
+            },
+            {
+                "head": "loss",
+                "type": "调控",
+                "tail": "数据质量"
+            },
+            {
+                "head": "loss",
+                "type": "调控",
+                "tail": "数据分布"
+            },
+            {
+                "head": "loss",
+                "type": "调控",
+                "tail": "模型结构"
+            },
+            {
+                "head": "loss",
+                "type": "调控",
+                "tail": "初始化"
+            },
+            {
+                "head": "loss",
+                "type": "调控",
+                "tail": "正则化"
+            },
+            {
+                "head": "loss",
+                "type": "调控",
+                "tail": "优化算法"
+            },
+            {
+                "head": "loss",
+                "type": "调控",
+                "tail": "batch_size"
+            },
+            {
+                "head": "loss",
+                "type": "调控",
+                "tail": "epoch"
+            },
+            {
+                "head": "Xavier初始化",
+                "type": "属于",
+                "tail": "初始化"
+            },
+            {
+                "head": "He初始化",
+                "type": "属于",
+                "tail": "初始化"
+            },
+            {
+                "head": "优化器",
+                "type": "属于",
+                "tail": "优化算法"
+            },
+            {
+                "head": "Adam",
+                "type": "属于",
+                "tail": "优化算法"
+            },
+            {
+                "head": "卷积核",
+                "type": "属于",
+                "tail": "CNN"
+            },
+            {
+                "head": "卷积核",
+                "type": "调控",
+                "tail": "loss"
+            },
+            {
+                "head": "卷积核",
+                "type": "调控",
+                "tail": "运算时间"
+            },
+            {
+                "head": "pooling",
+                "type": "使用",
+                "tail": "TALE"
+            },
+            {
+                "head": "模型优化",
+                "type": "使用",
+                "tail": "PyTorch"
+            },
+            {
+                "head": "模型优化",
+                "type": "使用",
+                "tail": "Python"
+            },
+            {
+                "head": "模型优化",
+                "type": "使用",
+                "tail": "CAFA训练集"
+            },
+            {
+                "head": "模型优化",
+                "type": "使用",
+                "tail": "优化器"
+            },
+            {
+                "head": "模型优化",
+                "type": "使用",
+                "tail": "维度扩充"
+            },
+            {
+                "head": "模型优化",
+                "type": "使用",
+                "tail": "密集矩阵"
+            },
+            {
+                "head": "模型优化",
+                "type": "使用",
+                "tail": "嵌入质量"
+            },
+            {
+                "head": "self-Attention",
+                "type": "属于",
+                "tail": "Transformer"
+            },
+            {
+                "head": "Transformer",
+                "type": "使用",
+                "tail": "self-Attention"
+            },
+            {
+                "head": "Transformer",
+                "type": "使用",
+                "tail": "embedding"
+            },
+            {
+                "head": "Transformer",
+                "type": "使用",
+                "tail": "latent_space"
+            },
+            {
+                "head": "Transformer",
+                "type": "使用",
+                "tail": "Linear"
+            },
+            {
+                "head": "Transformer",
+                "type": "使用",
+                "tail": "dense_matrix"
+            },
+            {
+                "head": "Transformer",
+                "type": "使用",
+                "tail": "softmax"
+            },
+            {
+                "head": "Transformer",
+                "type": "使用",
+                "tail": "sigmoid"
+            },
+            {
+                "head": "Transformer",
+                "type": "使用",
+                "tail": "f1-score"
+            },
+            {
+                "head": "Transformer",
+                "type": "使用",
+                "tail": "crossentropy"
+            },
+            {
+                "head": "Transformer",
+                "type": "使用",
+                "tail": "binary_cross_entropy"
+            },
+            {
+                "head": "Transformer",
+                "type": "使用",
+                "tail": "Focal Loss"
+            },
+            {
+                "head": "Transformer",
+                "type": "使用",
+                "tail": "Adam"
+            },
+            {
+                "head": "Transformer",
+                "type": "使用",
+                "tail": "Xavier初始化"
+            },
+            {
+                "head": "Transformer",
+                "type": "使用",
+                "tail": "He初始化"
+            },
+            {
+                "head": "Transformer",
+                "type": "使用",
+                "tail": "正则化"
+            },
+            {
+                "head": "Transformer",
+                "type": "使用",
+                "tail": "梯度下降"
+            },
+            {
+                "head": "Transformer",
+                "type": "使用",
+                "tail": "维度扩充"
+            },
+            {
+                "head": "Transformer",
+                "type": "使用",
+                "tail": "batch_size"
+            },
+            {
+                "head": "Transformer",
+                "type": "使用",
+                "tail": "n_critic"
+            },
+            {
+                "head": "Transformer",
+                "type": "使用",
+                "tail": "epoch"
+            },
+            {
+                "head": "Transformer",
+                "type": "使用",
+                "tail": "数据读取"
+            },
+            {
+                "head": "Transformer",
+                "type": "使用",
+                "tail": "数据质量"
+            },
+            {
+                "head": "Transformer",
+                "type": "使用",
+                "tail": "数据分布"
+            },
+            {
+                "head": "Transformer",
+                "type": "使用",
+                "tail": "断点续存"
+            },
+            {
+                "head": "Transformer",
+                "type": "使用",
+                "tail": "同源序列比较"
+            }
+        ]
+    },
+    "status": "success"
+}

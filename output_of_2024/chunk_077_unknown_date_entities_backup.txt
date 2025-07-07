@@ -1,0 +1,11 @@
+
+
+```json
+{
+  "chunk_id": "2024-03-02",
+  "entities": [
+    {"name": "One-Hot编码", "type": "深度学习概念"},
+    {"name": "get_dummies", "type": "生物信息工具"}
+  ]
+}
+```

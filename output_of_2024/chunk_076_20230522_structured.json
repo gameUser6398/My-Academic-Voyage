@@ -1,0 +1,60 @@
+{
+    "timestamp": "2025-07-07T17:09:50.598036",
+    "filename": "chunk_076_20230522.md",
+    "entities": {
+        "chunk_id": "2024-03-02",
+        "entities": [
+            {
+                "name": "t-SNE",
+                "type": "深度学习概念"
+            },
+            {
+                "name": "bio_embeddings",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "scikit-learn",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "TSNE",
+                "type": "深度学习概念"
+            },
+            {
+                "name": "One hot编码",
+                "type": "深度学习概念"
+            }
+        ]
+    },
+    "relations": {
+        "chunk_id": "2024-03-02",
+        "relations": [
+            {
+                "head": "bio_embeddings",
+                "type": "使用",
+                "tail": "t-SNE"
+            },
+            {
+                "head": "scikit-learn",
+                "type": "使用",
+                "tail": "TSNE"
+            },
+            {
+                "head": "t-SNE",
+                "type": "属于",
+                "tail": "投影方法"
+            },
+            {
+                "head": "TSNE",
+                "type": "属于",
+                "tail": "投影方法"
+            },
+            {
+                "head": "One hot编码",
+                "type": "属于",
+                "tail": "深度学习概念"
+            }
+        ]
+    },
+    "status": "success"
+}

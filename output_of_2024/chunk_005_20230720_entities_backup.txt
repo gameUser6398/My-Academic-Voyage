@@ -1,0 +1,25 @@
+
+
+```json
+{
+  "chunk_id": "2024-03-02",
+  "entities": [
+    {"name": "ProteiNet", "type": "生物信息工具"},
+    {"name": "PyTorch", "type": "生物信息工具"},
+    {"name": "EMS2", "type": "生物信息工具"},
+    {"name": "T5", "type": "生物信息工具"},
+    {"name": "ProtBERT", "type": "生物信息工具"},
+    {"name": "Kaggle", "type": "其他"},
+    {"name": "MLP", "type": "深度学习概念"},
+    {"name": "CAFA", "type": "项目活动"},
+    {"name": "蛋白功能", "type": "生物分子"},
+    {"name": "TensorFlow", "type": "生物信息工具"},
+    {"name": "Numpy", "type": "生物信息工具"},
+    {"name": "Python", "type": "生物信息工具"},
+    {"name": "罗斯特拉布", "type": "其他"},
+    {"name": "huggingface.transformers", "type": "生物信息工具"},
+    {"name": "transformers", "type": "生物信息工具"},
+    {"name": "CSDN博客", "type": "其他"}
+  ]
+}
+```

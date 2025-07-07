@@ -1,0 +1,186 @@
+{
+    "timestamp": "2025-07-07T17:10:44.605916",
+    "filename": "chunk_071_20230630.md",
+    "entities": {
+        "chunk_id": "2024-03-02",
+        "entities": [
+            {
+                "name": "Keras",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "pad_sequences",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "Embedding层",
+                "type": "深度学习概念"
+            },
+            {
+                "name": "词嵌入",
+                "type": "深度学习概念"
+            },
+            {
+                "name": "电影评论情感预测",
+                "type": "项目活动"
+            },
+            {
+                "name": "Dense分类器",
+                "type": "深度学习概念"
+            },
+            {
+                "name": "字典映射",
+                "type": "其他"
+            },
+            {
+                "name": "单词索引",
+                "type": "其他"
+            },
+            {
+                "name": "词向量",
+                "type": "深度学习概念"
+            },
+            {
+                "name": "maxlen",
+                "type": "其他"
+            },
+            {
+                "name": "整数张量",
+                "type": "其他"
+            },
+            {
+                "name": "训练评估",
+                "type": "项目活动"
+            },
+            {
+                "name": "分词",
+                "type": "其他"
+            },
+            {
+                "name": "word_index",
+                "type": "其他"
+            }
+        ]
+    },
+    "relations": {
+        "chunk_id": "2024-03-02",
+        "relations": [
+            {
+                "head": "电影评论情感预测",
+                "type": "使用",
+                "tail": "Keras"
+            },
+            {
+                "head": "电影评论情感预测",
+                "type": "使用",
+                "tail": "pad_sequences"
+            },
+            {
+                "head": "电影评论情感预测",
+                "type": "使用",
+                "tail": "Embedding层"
+            },
+            {
+                "head": "Embedding层",
+                "type": "属于",
+                "tail": "深度学习概念"
+            },
+            {
+                "head": "pad_sequences",
+                "type": "属于",
+                "tail": "生物信息工具"
+            },
+            {
+                "head": "Keras",
+                "type": "属于",
+                "tail": "生物信息工具"
+            },
+            {
+                "head": "Embedding层",
+                "type": "使用",
+                "tail": "词嵌入"
+            },
+            {
+                "head": "词嵌入",
+                "type": "属于",
+                "tail": "深度学习概念"
+            },
+            {
+                "head": "Embedding层",
+                "type": "生成",
+                "tail": "词向量"
+            },
+            {
+                "head": "分词",
+                "type": "属于",
+                "tail": "其他"
+            },
+            {
+                "head": "word_index",
+                "type": "属于",
+                "tail": "其他"
+            },
+            {
+                "head": "字典映射",
+                "type": "属于",
+                "tail": "其他"
+            },
+            {
+                "head": "单词索引",
+                "type": "属于",
+                "tail": "其他"
+            },
+            {
+                "head": "pad_sequences",
+                "type": "处理",
+                "tail": "整数张量"
+            },
+            {
+                "head": "整数张量",
+                "type": "属于",
+                "tail": "其他"
+            },
+            {
+                "head": "训练评估",
+                "type": "使用",
+                "tail": "Dense分类器"
+            },
+            {
+                "head": "Dense分类器",
+                "type": "属于",
+                "tail": "深度学习概念"
+            },
+            {
+                "head": "电影评论情感预测",
+                "type": "包含",
+                "tail": "训练评估"
+            },
+            {
+                "head": "电影评论情感预测",
+                "type": "包含",
+                "tail": "分词"
+            },
+            {
+                "head": "电影评论情感预测",
+                "type": "包含",
+                "tail": "word_index"
+            },
+            {
+                "head": "电影评论情感预测",
+                "type": "包含",
+                "tail": "字典映射"
+            },
+            {
+                "head": "电影评论情感预测",
+                "type": "包含",
+                "tail": "maxlen"
+            },
+            {
+                "head": "电影评论情感预测",
+                "type": "包含",
+                "tail": "整数张量"
+            }
+        ]
+    },
+    "status": "success"
+}

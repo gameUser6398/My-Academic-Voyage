@@ -1,0 +1,32 @@
+
+
+```json
+{
+  "chunk_id": "2024-03-02",
+  "relations": [
+    {"head": "Michaelis-Menten模型", "type": "使用", "tail": "酶促反应动力学"},
+    {"head": "Michaelis-Menten模型", "type": "包含", "tail": "酶"},
+    {"head": "Michaelis-Menten模型", "type": "包含", "tail": "底物"},
+    {"head": "Michaelis-Menten模型", "type": "包含", "tail": "产物"},
+    {"head": "Gompertz生长模型", "type": "使用", "tail": "细胞生长"},
+    {"head": "Logistic增长模型", "type": "使用", "tail": "细胞"},
+    {"head": "Logistic增长模型", "type": "使用", "tail": "生物种群"},
+    {"head": "PCR模型", "type": "使用", "tail": "PCR"},
+    {"head": "PCR模型", "type": "包含", "tail": "DNA"},
+    {"head": "基因表达调控网络模型", "type": "使用", "tail": "基因表达调控"},
+    {"head": "基因表达调控网络模型", "type": "属于", "tail": "图论"},
+    {"head": "基因表达调控网络模型", "type": "属于", "tail": "动态系统理论"},
+    {"head": "Lotka-Volterra模型", "type": "使用", "tail": "捕食者-猎物模型"},
+    {"head": "SIR模型", "type": "使用", "tail": "传染病学"},
+    {"head": "生物群落多样性", "type": "属于", "tail": "生物多样性"},
+    {"head": "物种灭绝", "type": "因果", "tail": "生物多样性削弱"},
+    {"head": "遗传平衡定律", "type": "使用", "tail": "基因型"},
+    {"head": "遗传平衡定律", "type": "使用", "tail": "基因频率"},
+    {"head": "分子动力学模型", "type": "使用", "tail": "分子动力学"},
+    {"head": "分子动力学模型", "type": "包含", "tail": "生物大分子"},
+    {"head": "系统发生树模型", "type": "使用", "tail": "DNA序列"},
+    {"head": "系统发生树模型", "type": "使用", "tail": "物种间关系"},
+    {"head": "文献阅读", "type": "属于", "tail": "2024年8月18日"}
+  ]
+}
+```

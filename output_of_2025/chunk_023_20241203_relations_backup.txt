@@ -1,0 +1,22 @@
+
+
+```json
+{
+  "chunk_id": "2024-12-03",
+  "relations": [
+    {"head": "效果比对", "type": "属于", "tail": "项目进展"},
+    {"head": "模型构造", "type": "属于", "tail": "项目进展"},
+    {"head": "动笔写", "type": "属于", "tail": "项目进展"},
+    {"head": "模型构造", "type": "使用", "tail": "HMM"},
+    {"head": "模型构造", "type": "使用", "tail": "ESM"},
+    {"head": "模型构造", "type": "使用", "tail": "DRSN"},
+    {"head": "ESM", "type": "使用", "tail": "layer selection"},
+    {"head": "模型构造", "type": "使用", "tail": "多尺度卷积"},
+    {"head": "模型构造", "type": "使用", "tail": "attention计算方式"},
+    {"head": "模型构造", "type": "使用", "tail": "酶设计"},
+    {"head": "效果比对", "type": "使用", "tail": "HMM"},
+    {"head": "效果比对", "type": "使用", "tail": "ESM"},
+    {"head": "效果比对", "type": "使用", "tail": "DRSN"}
+  ]
+}
+```

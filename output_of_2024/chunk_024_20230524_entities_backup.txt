@@ -1,0 +1,32 @@
+
+
+{
+  "chunk_id": "2024-03-02",
+  "entities": [
+    {"name": "Word2Vec", "type": "深度学习概念"},
+    {"name": "CBOW", "type": "深度学习概念"},
+    {"name": "skip-gram", "type": "深度学习概念"},
+    {"name": "GloVe", "type": "深度学习概念"},
+    {"name": "TF-IDF", "type": "生物信息工具"},
+    {"name": "CountVectorizer", "type": "生物信息工具"},
+    {"name": "TfidfVectorizer", "type": "生物信息工具"},
+    {"name": "softmax", "type": "深度学习概念"},
+    {"name": "negative sampling", "type": "深度学习概念"},
+    {"name": "激活函数", "type": "深度学习概念"},
+    {"name": "损失函数", "type": "深度学习概念"},
+    {"name": "梯度下降", "type": "深度学习概念"},
+    {"name": "马尔可夫假设", "type": "深度学习概念"},
+    {"name": "最大似然估计", "type": "深度学习概念"},
+    {"name": "词袋模型", "type": "深度学习概念"},
+    {"name": "one-hot", "type": "深度学习概念"},
+    {"name": "共现矩阵", "type": "深度学习概念"},
+    {"name": "氨基酸", "type": "生物分子"},
+    {"name": "蛋白质", "type": "生物分子"},
+    {"name": "FastText", "type": "生物信息工具"},
+    {"name": "自然语言处理", "type": "其他"},
+    {"name": "机器学习", "type": "其他"},
+    {"name": "深度学习", "type": "其他"},
+    {"name": "词嵌入", "type": "深度学习概念"},
+    {"name": "蛋白质结构比对", "type": "生物技术"}
+  ]
+}

@@ -1,0 +1,21 @@
+
+
+```json
+{
+  "chunk_id": "2024-07-17-18",
+  "entities": [
+    {"name": "CAFA 5", "type": "其他"},
+    {"name": "T5 Embeds", "type": "生物信息工具"},
+    {"name": "Ensemble", "type": "深度学习概念"},
+    {"name": "zero_predic", "type": "深度学习概念"},
+    {"name": "Kaggle", "type": "其他"},
+    {"name": "GO term", "type": "生物分子"},
+    {"name": "torch", "type": "生物信息工具"},
+    {"name": "tensorboard", "type": "生物信息工具"},
+    {"name": "CNN", "type": "深度学习概念"},
+    {"name": "ProteiNet", "type": "生物信息工具"},
+    {"name": "EMS2", "type": "生物信息工具"},
+    {"name": "ProtBERT", "type": "生物信息工具"}
+  ]
+}
+```

@@ -1,0 +1,27 @@
+
+
+```json
+{
+  "chunk_id": "2024-03-02",
+  "relations": [
+    {"head": "深度蛋白质组学", "type": "使用", "tail": "生物序列的连续分布式表示"},
+    {"head": "深度基因组学", "type": "使用", "tail": "生物序列的连续分布式表示"},
+    {"head": "one-hot", "type": "区别于", "tail": "Embedding"},
+    {"head": "one-hot", "type": "属于", "tail": "稀疏矩阵"},
+    {"head": "Embedding", "type": "属于", "tail": "数据降维"},
+    {"head": "词向量", "type": "使用", "tail": "Word2Vec"},
+    {"head": "词向量", "type": "使用", "tail": "BERT"},
+    {"head": "Word2Vec", "type": "属于", "tail": "深度学习概念"},
+    {"head": "BERT", "type": "属于", "tail": "Transformer"},
+    {"head": "Transformer", "type": "属于", "tail": "深度学习概念"},
+    {"head": "BiLSTM", "type": "属于", "tail": "Bi-directional Long Short-Term Memory"},
+    {"head": "BiLSTM", "type": "使用", "tail": "蛋白质功能预测"},
+    {"head": "Python", "type": "使用", "tail": "gensim"},
+    {"head": "gensim", "type": "使用", "tail": "词向量"},
+    {"head": "词向量", "type": "属于", "tail": "深度学习概念"},
+    {"head": "BERT", "type": "使用", "tail": "蛋白质功能预测"},
+    {"head": "Transformer", "type": "使用", "tail": "蛋白质功能预测"},
+    {"head": "Bi-directional Long Short-Term Memory", "type": "使用", "tail": "蛋白质功能预测"}
+  ]
+}
+```

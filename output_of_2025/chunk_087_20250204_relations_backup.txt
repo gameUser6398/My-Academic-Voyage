@@ -1,0 +1,26 @@
+
+
+```json
+{
+  "chunk_id": "2024-03-02",
+  "relations": [
+    {"head": "conda pack", "type": "使用", "tail": "my_env"},
+    {"head": "conda pack", "type": "输出", "tail": "out_name.tar.gz"},
+    {"head": "mkdir", "type": "使用", "tail": "my_env"},
+    {"head": "tar", "type": "使用", "tail": "my_env.tar.gz"},
+    {"head": "source", "type": "使用", "tail": "my_env/bin/activate"},
+    {"head": "source", "type": "使用", "tail": "my_env/bin/deactivate"},
+    {"head": "conda-unpack", "type": "使用", "tail": "my_env"},
+    {"head": "conda", "type": "安装", "tail": "pytorch"},
+    {"head": "conda", "type": "安装", "tail": "torchvision"},
+    {"head": "conda", "type": "安装", "tail": "torchaudio"},
+    {"head": "conda", "type": "安装", "tail": "ipykernel"},
+    {"head": "pip", "type": "安装", "tail": "jupyterlab"},
+    {"head": "conda", "type": "安装", "tail": "mamba"},
+    {"head": "conda", "type": "使用", "tail": "environment.yaml"},
+    {"head": "git clone", "type": "使用", "tail": "Github"},
+    {"head": "git", "type": "使用", "tail": "上传仓库"},
+    {"head": "基因组数据", "type": "处理", "tail": "CLI工具"}
+  ]
+}
+```

@@ -1,0 +1,30 @@
+
+
+```json
+{
+  "chunk_id": "2024-03-02",
+  "relations": [
+    {"head": "MEGARes", "type": "包含", "tail": "抗菌药物耐药基因序列"},
+    {"head": "MEGARes", "type": "使用", "tail": "k-mer"},
+    {"head": "CARD", "type": "包含", "tail": "精选参考序列"},
+    {"head": "CARD", "type": "包含", "tail": "SNP"},
+    {"head": "Resfams", "type": "包含", "tail": "蛋白质家族"},
+    {"head": "Resfams", "type": "使用", "tail": "HMM"},
+    {"head": "ARGminer", "type": "整合", "tail": "CARD"},
+    {"head": "ARGminer", "type": "整合", "tail": "MEGARes"},
+    {"head": "ARGminer", "type": "整合", "tail": "NDARO"},
+    {"head": "ARGminer", "type": "整合", "tail": "SARG"},
+    {"head": "ARGs-OAP", "type": "使用", "tail": "SARG"},
+    {"head": "WGS", "type": "检测", "tail": "SNP"},
+    {"head": "WGS", "type": "检测", "tail": "Indel"},
+    {"head": "WGS", "type": "检测", "tail": "Structure Variantions"},
+    {"head": "WGS", "type": "使用", "tail": "blast算法"},
+    {"head": "AMRFinderPlus", "type": "使用", "tail": "NDARO"},
+    {"head": "阿里云服务器", "type": "使用", "tail": "Xshell"},
+    {"head": "阿里云服务器", "type": "使用", "tail": "XFTP"},
+    {"head": "虚拟环境配置", "type": "使用", "tail": "Xshell"},
+    {"head": "虚拟环境配置", "type": "使用", "tail": "XFTP"},
+    {"head": "虚拟环境配置", "type": "使用", "tail": "RTX显卡"}
+  ]
+}
+```

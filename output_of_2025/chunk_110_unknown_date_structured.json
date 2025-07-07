@@ -1,0 +1,34 @@
+{
+    "timestamp": "2025-07-07T17:49:54.873521",
+    "filename": "chunk_110_unknown_date.md",
+    "entities": {
+        "chunk_id": "2024-03-02",
+        "entities": [
+            {
+                "name": "SOTA",
+                "type": "深度学习概念"
+            },
+            {
+                "name": "BERT",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "Logits",
+                "type": "深度学习概念"
+            },
+            {
+                "name": "softmax",
+                "type": "深度学习概念"
+            },
+            {
+                "name": "sigmoid",
+                "type": "深度学习概念"
+            }
+        ]
+    },
+    "relations": {
+        "raw_text": "\n\n{\n  \"chunk_id\": \"2024-03-02\",\n  \"relations\": [\n    {\"head\": \"SOTA\", \"type\": \"属于\", \"tail\": \"深度学习概念\"},\n    {\"head\": \"BERT\", \"type\": \"属于\", \"生物信息工具\"},\n    {\"head\": \"Logits\", \"type\": \"属于\", \"tail\": \"深度学习概念\"},\n    {\"head\": \"softmax\", \"type\": \"属于\", \"tail\": \"深度学习概念\"},\n    {\"head\": \"sigmoid\", \"type\": \"属于\", \"tail\": \"深度学习概念\"},\n    {\"head\": \"BERT\", \"type\": \"属于\", \"tail\": \"SOTA\"},\n    {\"head\": \"Logits\", \"type\": \"调控\", \"tail\": \"softmax\"},\n    {\"head\": \"Logits\", \"type\": \"调控\", \"tail\": \"sigmoid\"}\n  ]\n}",
+        "parsed": false
+    },
+    "status": "success"
+}

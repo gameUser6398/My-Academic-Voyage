@@ -1,0 +1,26 @@
+
+
+```json
+{
+  "chunk_id": "2024-03-02",
+  "relations": [
+    {"head": "深度学习", "type": "属于", "tail": "人工智能"},
+    {"head": "神经网络", "type": "属于", "tail": "深度学习"},
+    {"head": "GAN", "type": "属于", "tail": "深度学习"},
+    {"head": "RNN", "type": "属于", "tail": "深度学习"},
+    {"head": "CNN", "type": "属于", "tail": "深度学习"},
+    {"head": "计算机视觉", "type": "使用", "tail": "深度学习"},
+    {"head": "训练框架", "type": "使用", "tail": "深度学习"},
+    {"head": "训练框架", "type": "包含", "tail": "模型"},
+    {"head": "训练框架", "type": "包含", "tail": "损失函数"},
+    {"head": "训练框架", "type": "包含", "tail": "优化器"},
+    {"head": "损失函数", "type": "属于", "tail": "深度学习"},
+    {"head": "正则化", "type": "属于", "tail": "深度学习"},
+    {"head": "梯度下降", "type": "属于", "tail": "深度学习"},
+    {"head": "学习率", "type": "属于", "tail": "梯度下降"},
+    {"head": "概率", "type": "属于", "tail": "深度学习"},
+    {"head": "PyTorch", "type": "属于", "tail": "训练框架"},
+    {"head": "torch.optim.SGD", "type": "属于", "tail": "优化器"}
+  ]
+}
+```

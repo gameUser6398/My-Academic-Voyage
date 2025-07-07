@@ -1,0 +1,51 @@
+{
+    "timestamp": "2025-07-07T17:08:45.440535",
+    "filename": "chunk_068_unknown_date.md",
+    "entities": {
+        "chunk_id": "2024-03-02",
+        "entities": [
+            {
+                "name": "自注意力机制",
+                "type": "深度学习概念"
+            },
+            {
+                "name": "Transformer",
+                "type": "深度学习概念"
+            },
+            {
+                "name": "PyTorch",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "滑动窗口",
+                "type": "深度学习概念"
+            }
+        ]
+    },
+    "relations": {
+        "chunk_id": "2024-03-02",
+        "relations": [
+            {
+                "head": "Transformer",
+                "type": "包含",
+                "tail": "自注意力机制"
+            },
+            {
+                "head": "PyTorch",
+                "type": "使用",
+                "tail": "Transformer"
+            },
+            {
+                "head": "自注意力机制",
+                "type": "属于",
+                "tail": "深度学习概念"
+            },
+            {
+                "head": "滑动窗口",
+                "type": "属于",
+                "tail": "深度学习概念"
+            }
+        ]
+    },
+    "status": "success"
+}

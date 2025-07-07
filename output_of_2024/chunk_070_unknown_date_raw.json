@@ -1,0 +1,6 @@
+{
+    "timestamp": "2025-07-07T16:58:17.504675",
+    "filename": "chunk_070_unknown_date.md",
+    "raw_entities": "\n\n{\n  \"chunk_id\": \"2024-03-02\",\n  \"entities\": [\n    {\"name\": \"add\", \"type\": \"其他\"},\n    {\"name\": \"concat\", \"type\": \"其他\"},\n    {\"name\": \"FPN\", \"type\": \"其他\"}\n  ]\n}",
+    "raw_relations": "\n\n{\n  \"chunk_id\": \"2024-03-02\",\n  \"relations\": [\n    {\"head\": \"add\", \"type\": \"属于\", \"tail\": \"深度特征融合\"},\n    {\"head\": \"concat\", \"type\": \"属于\", \"tail\": \"深度特征融合\"},\n    {\"head\": \"add\", \"type\": \"替代\", \"tail\": \"concat\"},\n    {\"head\": \"FPN\", \"type\": \"使用\", \"tail\": \"add\"}\n  ]\n}"
+}

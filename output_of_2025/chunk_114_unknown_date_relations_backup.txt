@@ -1,0 +1,45 @@
+
+
+```json
+{
+  "chunk_id": "2024-03-02",
+  "relations": [
+    {"head": "网页制作", "type": "使用", "tail": "HTML"},
+    {"head": "网页制作", "type": "使用", "tail": "CSS"},
+    {"head": "网页制作", "type": "使用", "tail": "JavaScript"},
+    {"head": "HTML", "type": "包含", "tail": "div"},
+    {"head": "HTML", "type": "包含", "tail": "span"},
+    {"head": "HTML", "type": "包含", "tail": "p"},
+    {"head": "HTML", "type": "包含", "tail": "h1"},
+    {"head": "HTML", "type": "包含", "tail": "h6"},
+    {"head": "HTML", "type": "包含", "tail": "a"},
+    {"head": "HTML", "type": "包含", "tail": "img"},
+    {"head": "HTML", "type": "包含", "tail": "ul"},
+    {"head": "HTML", "type": "包含", "tail": "ol"},
+    {"head": "HTML", "type": "包含", "tail": "li"},
+    {"head": "HTML", "type": "包含", "tail": "header"},
+    {"head": "HTML", "type": "包含", "tail": "footer"},
+    {"head": "HTML", "type": "包含", "tail": "article"},
+    {"head": "HTML", "type": "包含", "tail": "section"},
+    {"head": "CSS", "type": "包含", "tail": "margin"},
+    {"head": "CSS", "type": "包含", "tail": "border"},
+    {"head": "CSS", "type": "包含", "tail": "padding"},
+    {"head": "CSS", "type": "包含", "tail": "content"},
+    {"head": "CSS", "type": "包含", "tail": "盒子模型"},
+    {"head": "CSS", "type": "包含", "tail": "Flexbox"},
+    {"head": "CSS", "type": "包含", "tail": "Grid"},
+    {"head": "CSS", "type": "包含", "tail": "float"},
+    {"head": "CSS", "type": "包含", "tail": "position"},
+    {"head": "CSS", "type": "包含", "tail": "媒体查询"},
+    {"head": "CSS", "type": "包含", "tail": "em"},
+    {"head": "CSS", "type": "包含", "tail": "rem"},
+    {"head": "JavaScript", "type": "操作", "tail": "DOM"},
+    {"head": "JavaScript", "type": "使用", "tail": "querySelector"},
+    {"head": "JavaScript", "type": "使用", "tail": "getElementById"},
+    {"head": "JavaScript", "type": "使用", "tail": "addEventListener"},
+    {"head": "项目驱动学习", "type": "使用", "tail": "HTML"},
+    {"head": "项目驱动学习", "type": "使用", "tail": "CSS"},
+    {"head": "项目驱动学习", "type": "使用", "tail": "JavaScript"}
+  ]
+}
+```

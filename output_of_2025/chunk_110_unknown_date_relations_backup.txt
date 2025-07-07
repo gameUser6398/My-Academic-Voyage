@@ -1,0 +1,15 @@
+
+
+{
+  "chunk_id": "2024-03-02",
+  "relations": [
+    {"head": "SOTA", "type": "属于", "tail": "深度学习概念"},
+    {"head": "BERT", "type": "属于", "生物信息工具"},
+    {"head": "Logits", "type": "属于", "tail": "深度学习概念"},
+    {"head": "softmax", "type": "属于", "tail": "深度学习概念"},
+    {"head": "sigmoid", "type": "属于", "tail": "深度学习概念"},
+    {"head": "BERT", "type": "属于", "tail": "SOTA"},
+    {"head": "Logits", "type": "调控", "tail": "softmax"},
+    {"head": "Logits", "type": "调控", "tail": "sigmoid"}
+  ]
+}

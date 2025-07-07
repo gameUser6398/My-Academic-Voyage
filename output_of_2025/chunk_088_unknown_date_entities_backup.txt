@@ -1,0 +1,24 @@
+
+
+```json
+{
+  "chunk_id": "2024-03-02",
+  "entities": [
+    {"name": "datasets", "type": "生物信息工具"},
+    {"name": "dataformat", "type": "生物信息工具"},
+    {"name": "conda", "type": "生物信息工具"},
+    {"name": "CLI工具", "type": "生物信息工具"},
+    {"name": "GCF_000001405.40", "type": "生物分子"},
+    {"name": "Mycobacterium tuberculosis", "type": "生物分子"},
+    {"name": "SRA", "type": "生物技术"},
+    {"name": "Entrez", "type": "生物信息工具"},
+    {"name": "Python", "type": "生物信息工具"},
+    {"name": "os.system", "type": "生物信息工具"},
+    {"name": "os.popen", "type": "生物信息工具"},
+    {"name": "commands", "type": "生物信息工具"},
+    {"name": "subprocess", "type": "生物信息工具"},
+    {"name": "样本采集", "type": "项目活动"},
+    {"name": "文献调研", "type": "项目活动"}
+  ]
+}
+```

@@ -1,0 +1,106 @@
+{
+    "timestamp": "2025-07-07T17:13:48.439860",
+    "filename": "chunk_083_20240129.md",
+    "entities": {
+        "chunk_id": "2024-03-02",
+        "entities": [
+            {
+                "name": "余弦相似度",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "Python",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "轮廓系数",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "silhouette_score",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "silhouette_samples",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "维度灾难",
+                "type": "其他"
+            },
+            {
+                "name": "欧氏距离",
+                "type": "其他"
+            },
+            {
+                "name": "高维空间",
+                "type": "其他"
+            },
+            {
+                "name": "蛋白簇",
+                "type": "生物分子"
+            }
+        ]
+    },
+    "relations": {
+        "chunk_id": "2024-03-02",
+        "relations": [
+            {
+                "head": "Python",
+                "type": "使用",
+                "tail": "余弦相似度"
+            },
+            {
+                "head": "Python",
+                "type": "使用",
+                "tail": "轮廓系数"
+            },
+            {
+                "head": "Python",
+                "type": "使用",
+                "tail": "silhouette_score"
+            },
+            {
+                "head": "Python",
+                "type": "使用",
+                "tail": "silhouette_samples"
+            },
+            {
+                "head": "维度灾难",
+                "type": "因果",
+                "tail": "高维空间"
+            },
+            {
+                "head": "维度灾难",
+                "type": "因果",
+                "tail": "欧氏距离失效"
+            },
+            {
+                "head": "维度灾难",
+                "type": "因果",
+                "tail": "余弦相似度失效"
+            },
+            {
+                "head": "余弦相似度",
+                "type": "属于",
+                "tail": "生物信息工具"
+            },
+            {
+                "head": "轮廓系数",
+                "type": "属于",
+                "tail": "聚类效果评估指标"
+            },
+            {
+                "head": "蛋白簇",
+                "type": "使用",
+                "tail": "余弦相似度"
+            },
+            {
+                "head": "蛋白簇",
+                "type": "使用",
+                "tail": "阈值"
+            }
+        ]
+    },
+    "status": "success"
+}

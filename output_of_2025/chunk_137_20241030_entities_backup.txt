@@ -1,0 +1,15 @@
+
+
+```json
+{
+  "chunk_id": "2024-03-02",
+  "entities": [
+    {"name": "WHONET software", "type": "生物信息工具"},
+    {"name": "抗生素", "type": "生物医学概念"},
+    {"name": "微生物", "type": "生物分子"},
+    {"name": "统计软件", "type": "其他"},
+    {"name": "爬虫", "type": "其他"},
+    {"name": "Netron", "type": "生物信息工具"}
+  ]
+}
+```

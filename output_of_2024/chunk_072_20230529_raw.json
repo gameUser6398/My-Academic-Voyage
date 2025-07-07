@@ -1,0 +1,6 @@
+{
+    "timestamp": "2025-07-07T17:06:05.982101",
+    "filename": "chunk_072_20230529.md",
+    "raw_entities": "\n\n{\n  \"chunk_id\": \"2024-03-02\",\n  \"entities\": [\n    {\"name\": \"Glove词嵌入\", \"type\": \"生物信息工具\"},\n    {\"name\": \"embedding_matrix\", \"type\": \"生物信息工具\"},\n    {\"name\": \"embedding层\", \"type\": \"生物信息工具\"},\n    {\"name\": \"预训练的词嵌入\", \"type\": \"生物信息工具\"},\n    {\"name\": \"蛋白质\", \"type\": \"生物分子\"},\n    {\"name\": \"词向量\", \"type\": \"生物信息工具\"},\n    {\"name\": \"二分类准确率\", \"type\": \"深度学习概念\"},\n    {\"name\": \"bio_embedding库\", \"type\": \"生物信息工具\"}\n  ]\n}",
+    "raw_relations": "\n\n```json\n{\n  \"chunk_id\": \"2024-03-02\",\n  \"relations\": [\n    {\"head\": \"6-11准备Glove词嵌入矩阵embedding_matrix\", \"type\": \"使用\", \"tail\": \"Glove词嵌入\"},\n    {\"head\": \"6-13将预训练的词嵌入加载到embedding层中\", \"type\": \"使用\", \"tail\": \"预训练的词嵌入\"},\n    {\"head\": \"6-13将预训练的词嵌入加载到embedding层中\", \"type\": \"属于\", \"tail\": \"embedding层\"},\n    {\"head\": \"Glove词嵌入\", \"type\": \"属于\", \"tail\": \"词向量\"},\n    {\"head\": \"预训练的词嵌入\", \"type\": \"属于\", \"tail\": \"词向量\"},\n    {\"head\": \"6-14训练评估\", \"type\": \"包含\", \"tail\": \"二分类准确率\"},\n    {\"head\": \"bio_embedding库\", \"type\": \"使用\", \"tail\": \"词向量\"}\n  ]\n}\n```"
+}

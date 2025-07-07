@@ -1,0 +1,114 @@
+{
+    "timestamp": "2025-07-07T17:17:26.765800",
+    "filename": "chunk_091_20230630.md",
+    "entities": {
+        "chunk_id": "2024-03-02",
+        "entities": [
+            {
+                "name": "Linux",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "one-hot",
+                "type": "深度学习概念"
+            },
+            {
+                "name": "散列技巧",
+                "type": "深度学习概念"
+            },
+            {
+                "name": "散列冲突",
+                "type": "深度学习概念"
+            },
+            {
+                "name": "散列表",
+                "type": "深度学习概念"
+            },
+            {
+                "name": "Embedding",
+                "type": "深度学习概念"
+            },
+            {
+                "name": "词向量",
+                "type": "深度学习概念"
+            },
+            {
+                "name": "几何空间",
+                "type": "深度学习概念"
+            },
+            {
+                "name": "Keras",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "pad_sequences",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "Python",
+                "type": "生物信息工具"
+            }
+        ]
+    },
+    "relations": {
+        "chunk_id": "2024-03-02",
+        "relations": [
+            {
+                "head": "端口22",
+                "type": "使用",
+                "tail": "远程登录"
+            },
+            {
+                "head": "远程登录",
+                "type": "使用",
+                "tail": "Linux"
+            },
+            {
+                "head": "散列技巧",
+                "type": "属于",
+                "tail": "one-hot变体"
+            },
+            {
+                "head": "散列冲突",
+                "type": "属于",
+                "tail": "散列技巧的缺点"
+            },
+            {
+                "head": "散列冲突",
+                "type": "因果",
+                "tail": "存储数据大于n"
+            },
+            {
+                "head": "散列技巧",
+                "type": "使用",
+                "tail": "散列表"
+            },
+            {
+                "head": "词向量",
+                "type": "属于",
+                "tail": "Embedding"
+            },
+            {
+                "head": "词向量",
+                "type": "表示",
+                "tail": "词语之间的语义关系"
+            },
+            {
+                "head": "Embedding",
+                "type": "映射到",
+                "tail": "几何空间"
+            },
+            {
+                "head": "pad_sequences",
+                "type": "属于",
+                "tail": "Keras.preprocessing.sequence"
+            },
+            {
+                "head": "pad_sequences",
+                "type": "使用",
+                "tail": "Python"
+            }
+        ]
+    },
+    "status": "success"
+}

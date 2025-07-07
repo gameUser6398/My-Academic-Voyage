@@ -1,0 +1,14 @@
+
+
+{
+  "chunk_id": "2024-05-06",
+  "entities": [
+    {"name": "特征融合", "type": "深度学习概念"},
+    {"name": "深度学习", "type": "深度学习概念"},
+    {"name": "推荐系统", "type": "其他"},
+    {"name": "Deep Residual Learning", "type": "深度学习概念"},
+    {"name": "CNN", "type": "深度学习概念"},
+    {"name": "回归预测", "type": "深度学习概念"},
+    {"name": "weight_decay", "type": "深度学习概念"}
+  ]
+}

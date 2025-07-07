@@ -1,0 +1,38 @@
+
+
+```json
+{
+  "chunk_id": "2024-03-02",
+  "entities": [
+    {"name": "beta-lactam antibiotic catabolic process", "type": "生物分子"},
+    {"name": "doxorubicin", "type": "生物分子"},
+    {"name": "daunorubicin", "type": "生物分子"},
+    {"name": "antibiotic efflux", "type": "生物医学概念"},
+    {"name": "antibiotic inactivation", "type": "生物医学概念"},
+    {"name": "putative_resistance_protein_transporter", "type": "生物分子"},
+    {"name": "putative_uvra-drug_resistance_pump", "type": "生物分子"},
+    {"name": "qaca", "type": "生物分子"},
+    {"name": "qaca_drug_resistance_transporter", "type": "生物分子"},
+    {"name": "qaca_family", "type": "生物分子"},
+    {"name": "qaca_family_drug_resistance_transporter", "type": "生物分子"},
+    {"name": "qaca_subfamily", "type": "生物分子"},
+    {"name": "qaca_subfamily_drug_resistance_transporter", "type": "生物分子"},
+    {"name": "multidrug_resistance_protein", "type": "生物分子"},
+    {"name": "resistance_gene", "type": "生物分子"},
+    {"name": "resistance_protein", "type": "生物分子"},
+    {"name": "resistance_related_regulator", "type": "生物分子"},
+    {"name": "resistant_dna_gyrase_subunit_b", "type": "生物分子"},
+    {"name": "resistant_type_ii_topoisomerase_subunit_b", "type": "生物分子"},
+    {"name": "rnd_superfamily_protein", "type": "生物分子"},
+    {"name": "sisomicin_resistance_protein", "type": "生物分子"},
+    {"name": "teicoplanin_resistance_protein_vanz", "type": "生物分子"},
+    {"name": "tetracenomycin_c_resistance_and_export_gene_repressor", "type": "生物分子"},
+    {"name": "tetracenomycin_c_resistance_and_export_protein", "type": "生物分子"},
+    {"name": "tetranactin_resistance_protein", "type": "生物分子"},
+    {"name": "uvra-like_drug_resistance_pump", "type": "生物分子"},
+    {"name": "Uniprot", "type": "生物信息工具"},
+    {"name": "heteroresistance", "type": "生物医学概念"},
+    {"name": "GO_bp", "type": "生物信息工具"}
+  ]
+}
+```

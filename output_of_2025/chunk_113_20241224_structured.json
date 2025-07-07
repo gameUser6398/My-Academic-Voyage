@@ -1,0 +1,145 @@
+{
+    "timestamp": "2025-07-07T18:14:58.367096",
+    "filename": "chunk_113_20241224.md",
+    "entities": {
+        "chunk_id": "2024-03-02",
+        "entities": [
+            {
+                "name": "RAG",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "腾讯云",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "MultiLabelBinarizer",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "One vs All",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "深度度量学习",
+                "type": "深度学习概念"
+            },
+            {
+                "name": "监督学习",
+                "type": "深度学习概念"
+            },
+            {
+                "name": "弱监督学习",
+                "type": "深度学习概念"
+            },
+            {
+                "name": "对比损失",
+                "type": "深度学习概念"
+            },
+            {
+                "name": "深度残差收缩网络",
+                "type": "深度学习概念"
+            },
+            {
+                "name": "软阈值化",
+                "type": "深度学习概念"
+            },
+            {
+                "name": "First-Order Strategy",
+                "type": "深度学习概念"
+            },
+            {
+                "name": "Second-Order Strategy",
+                "type": "深度学习概念"
+            },
+            {
+                "name": "High-Order Strategy",
+                "type": "深度学习概念"
+            },
+            {
+                "name": "对比学习",
+                "type": "深度学习概念"
+            },
+            {
+                "name": "数据库",
+                "type": "生物信息工具"
+            }
+        ]
+    },
+    "relations": {
+        "chunk_id": "2024-03-02",
+        "relations": [
+            {
+                "head": "RAG",
+                "type": "属于",
+                "tail": "基础知识"
+            },
+            {
+                "head": "腾讯云",
+                "type": "使用",
+                "tail": "RAG"
+            },
+            {
+                "head": "MultiLabelBinarizer",
+                "type": "属于",
+                "tail": "多分类模型"
+            },
+            {
+                "head": "One vs All",
+                "type": "属于",
+                "tail": "多分类模型"
+            },
+            {
+                "head": "深度度量学习",
+                "type": "属于",
+                "tail": "监督学习"
+            },
+            {
+                "head": "深度度量学习",
+                "type": "属于",
+                "tail": "弱监督学习"
+            },
+            {
+                "head": "对比损失",
+                "type": "属于",
+                "tail": "深度度量学习"
+            },
+            {
+                "head": "深度残差收缩网络",
+                "type": "使用",
+                "tail": "软阈值化"
+            },
+            {
+                "head": "First-Order Strategy",
+                "type": "属于",
+                "tail": "多标签学习算法"
+            },
+            {
+                "head": "First-Order Strategy",
+                "type": "使用",
+                "tail": "One vs All"
+            },
+            {
+                "head": "Second-Order Strategy",
+                "type": "属于",
+                "tail": "多标签学习算法"
+            },
+            {
+                "head": "High-Order Strategy",
+                "type": "属于",
+                "tail": "多标签学习算法"
+            },
+            {
+                "head": "对比学习",
+                "type": "应用",
+                "tail": "风控领域"
+            },
+            {
+                "head": "数据库",
+                "type": "属于",
+                "tail": "基础知识"
+            }
+        ]
+    },
+    "status": "success"
+}

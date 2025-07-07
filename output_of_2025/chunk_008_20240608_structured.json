@@ -1,0 +1,165 @@
+{
+    "timestamp": "2025-07-07T17:46:14.176965",
+    "filename": "chunk_008_20240608.md",
+    "entities": {
+        "chunk_id": "2024-06-11",
+        "entities": [
+            {
+                "name": "prodigal",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "snakemake",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "GPT",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "BLAST",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "DIAMOND",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "metaSpa",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "megahit",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "HMD-ARG",
+                "type": "生物分子"
+            },
+            {
+                "name": "RGDB",
+                "type": "生物分子"
+            },
+            {
+                "name": "PLM-ARG",
+                "type": "生物分子"
+            },
+            {
+                "name": "结核",
+                "type": "生物医学概念"
+            },
+            {
+                "name": "结核杆菌",
+                "type": "生物分子"
+            },
+            {
+                "name": "非结核杆菌",
+                "type": "生物分子"
+            },
+            {
+                "name": "抗生素",
+                "type": "生物医学概念"
+            },
+            {
+                "name": "数据集策划",
+                "type": "项目活动"
+            },
+            {
+                "name": "文献阅读",
+                "type": "项目活动"
+            },
+            {
+                "name": "网站搭建",
+                "type": "项目活动"
+            },
+            {
+                "name": "临床常用药物收集",
+                "type": "项目活动"
+            },
+            {
+                "name": "基因组收集",
+                "type": "项目活动"
+            },
+            {
+                "name": "信息收集",
+                "type": "项目活动"
+            }
+        ]
+    },
+    "relations": {
+        "chunk_id": "2024-06-11",
+        "relations": [
+            {
+                "head": "snakemake",
+                "type": "使用",
+                "tail": "GPT"
+            },
+            {
+                "head": "数据集策划",
+                "type": "包含",
+                "tail": "HMD-ARG"
+            },
+            {
+                "head": "数据集策划",
+                "type": "包含",
+                "tail": "RGDB"
+            },
+            {
+                "head": "数据集策划",
+                "type": "包含",
+                "tail": "PLM-ARG"
+            },
+            {
+                "head": "数据集策划",
+                "type": "使用",
+                "tail": "BLAST"
+            },
+            {
+                "head": "数据集策划",
+                "type": "使用",
+                "tail": "DIAMOND"
+            },
+            {
+                "head": "metaSpa",
+                "type": "替代",
+                "tail": "megahit"
+            },
+            {
+                "head": "网站搭建",
+                "type": "使用",
+                "tail": "Headfirst系列图书"
+            },
+            {
+                "head": "临床常用药物收集",
+                "type": "属于",
+                "tail": "结核"
+            },
+            {
+                "head": "结核杆菌基因组收集",
+                "type": "属于",
+                "tail": "结核"
+            },
+            {
+                "head": "非结核杆菌基因组收集",
+                "type": "属于",
+                "tail": "结核"
+            },
+            {
+                "head": "非结核杆菌信息收集",
+                "type": "属于",
+                "tail": "结核"
+            },
+            {
+                "head": "临床抗生素用药大全整理",
+                "type": "因果",
+                "tail": "抗生素使用"
+            },
+            {
+                "head": "群文献阅读",
+                "type": "属于",
+                "tail": "文献阅读"
+            }
+        ]
+    },
+    "status": "success"
+}

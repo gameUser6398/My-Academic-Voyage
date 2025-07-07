@@ -1,0 +1,39 @@
+
+
+```json
+{
+  "chunk_id": "2024-03-02",
+  "relations": [
+    {"head": "抗生素耐药性转移", "type": "属于", "tail": "HGT-ARG"},
+    {"head": "HGT-ARG", "type": "属于", "tail": "ARG"},
+    {"head": "HGT-ARG", "type": "属于", "tail": "HGT"},
+    {"head": "ARG-HGT 网络", "type": "使用", "tail": "RF"},
+    {"head": "ARG-HGT 网络", "type": "使用", "tail": "Lasso"},
+    {"head": "ARG-HGT 网络", "type": "使用", "tail": "GCN"},
+    {"head": "RF", "type": "使用", "tail": "超参数"},
+    {"head": "超参数", "type": "具体参数", "tail": "max_features"},
+    {"head": "超参数", "type": "具体参数", "tail": "min_samples_leaf"},
+    {"head": "超参数", "type": "具体参数", "tail": "min_samples_split"},
+    {"head": "超参数", "type": "具体参数", "tail": "n_estimators"},
+    {"head": "超参数", "type": "具体参数", "tail": "class_weight"},
+    {"head": "RF", "type": "使用", "tail": "GridSearchCV"},
+    {"head": "GridSearchCV", "type": "使用", "tail": "cv"},
+    {"head": "RF", "type": "使用", "tail": "feature_importances"},
+    {"head": "ARG", "type": "使用", "tail": "CD-HIT"},
+    {"head": "CD-HIT", "type": "使用", "tail": "max_features"},
+    {"head": "CD-HIT", "type": "使用", "tail": "min_samples_split"},
+    {"head": "ARG", "type": "使用", "tail": "NetworkX"},
+    {"head": "NetworkX", "type": "使用", "tail": "shortest_path_length"},
+    {"head": "ROC曲线", "type": "使用", "tail": "假阳性率"},
+    {"head": "ROC曲线", "type": "使用", "tail": "真阳性率"},
+    {"head": "ROC曲线", "type": "使用", "tail": "sklearn.metrics.roc_curve"},
+    {"head": "精确召回率曲线", "type": "使用", "tail": "sklearn.metrics.precision_recall_curve"},
+    {"head": "AUC指标", "type": "使用", "tail": "sklearn.metrics.auc"},
+    {"head": "ARG转移", "type": "涉及", "tail": "大肠杆菌"},
+    {"head": "ARG转移", "type": "涉及", "tail": "淋病奈瑟菌"},
+    {"head": "ARG转移", "type": "涉及", "tail": "鲍曼不动杆菌"},
+    {"head": "ARG", "type": "包含", "tail": "DNA"},
+    {"head": "ARG", "type": "包含", "tail": "16S rRNA"}
+  ]
+}
+```

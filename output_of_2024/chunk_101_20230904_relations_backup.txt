@@ -1,0 +1,52 @@
+
+
+{
+  "chunk_id": "2024-03-02",
+  "relations": [
+    {
+      "head": "seq_emb",
+      "type": "属于",
+      "tail": "Transformer"
+    },
+    {
+      "head": "final_emb",
+      "type": "属于",
+      "tail": "dense层"
+    },
+    {
+      "head": "seq_emb",
+      "type": "相似",
+      "tail": "final_emb"
+    },
+    {
+      "head": "per-residual",
+      "type": "属于",
+      "tail": "residual"
+    },
+    {
+      "head": "per-protein",
+      "type": "属于",
+      "tail": "protein"
+    },
+    {
+      "head": "Transformer",
+      "type": "使用",
+      "tail": "seq_emb"
+    },
+    {
+      "head": "eager execution",
+      "type": "不兼容",
+      "tail": "tf.placeholder()"
+    },
+    {
+      "head": "TensorFlow",
+      "type": "包含",
+      "tail": "tf.placeholder()"
+    },
+    {
+      "head": "checkpoint",
+      "type": "错误",
+      "tail": "Key Conv/biases not found"
+    }
+  ]
+}

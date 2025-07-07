@@ -1,0 +1,22 @@
+
+
+{
+  "chunk_id": "2024-03-02",
+  "entities": [
+    {"name": "root", "type": "生物信息工具"},
+    {"name": "su", "type": "生物信息工具"},
+    {"name": "sudo", "type": "生物信息工具"},
+    {"name": "/etc/sudoers", "type": "生物信息工具"},
+    {"name": "groupadd", "type": "生物信息工具"},
+    {"name": "groupdel", "type": "生物信息工具"},
+    {"name": "useradd", "type": "生物信息工具"},
+    {"name": "userdel", "type": "生物信息工具"},
+    {"name": "id", "type": "生物信息工具"},
+    {"name": "usermod", "type": "生物信息工具"},
+    {"name": "getent", "type": "生物信息工具"},
+    {"name": "HOME目录", "type": "其他"},
+    {"name": "用户组", "type": "其他"},
+    {"name": "用户", "type": "其他"},
+    {"name": "权限管控", "type": "其他"}
+  ]
+}

@@ -1,0 +1,22 @@
+
+
+```json
+{
+  "chunk_id": "2024-03-02",
+  "relations": [
+    {"head": "Hurricast", "type": "包含", "tail": "一维特征表示"},
+    {"head": "Hurricast", "type": "包含", "tail": "统计数据"},
+    {"head": "Hurricast", "type": "包含", "tail": "梯度提升树"},
+    {"head": "Hurricast", "type": "使用", "tail": "XGBoost模型"},
+    {"head": "Hurricast", "type": "使用", "tail": "CNN"},
+    {"head": "Hurricast", "type": "使用", "tail": "Transformer"},
+    {"head": "CNN", "type": "使用", "tail": "图分析结果"},
+    {"head": "CNN", "type": "输出", "tail": "一维向量"},
+    {"head": "Transformer", "type": "使用", "tail": "嵌入"},
+    {"head": "一维特征表示", "type": "属于", "tail": "嵌入"},
+    {"head": "XGBoost模型", "type": "属于", "tail": "梯度提升树"},
+    {"head": "统计数据", "type": "与", "tail": "一维向量"},
+    {"head": "一维向量", "type": "输入", "tail": "XGBoost模型"}
+  ]
+}
+```

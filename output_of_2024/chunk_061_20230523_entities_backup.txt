@@ -1,0 +1,25 @@
+
+
+```json
+{
+  "chunk_id": "2024-03-02",
+  "entities": [
+    {"name": "date命令", "type": "生物信息工具"},
+    {"name": "ntp命令", "type": "生物信息工具"},
+    {"name": "Linux", "type": "生物信息工具"},
+    {"name": "ping命令", "type": "生物信息工具"},
+    {"name": "wget命令", "type": "生物信息工具"},
+    {"name": "curl", "type": "生物信息工具"},
+    {"name": "环境变量", "type": "生物信息工具"},
+    {"name": "PATH变量", "type": "生物信息工具"},
+    {"name": "tar命令", "type": "生物信息工具"},
+    {"name": "zip", "type": "生物信息工具"},
+    {"name": "unzip", "type": "生物信息工具"},
+    {"name": "anaconda", "type": "生物信息工具"},
+    {"name": "pip", "type": "生物信息工具"},
+    {"name": "git", "type": "生物信息工具"},
+    {"name": "conda", "type": "生物信息工具"},
+    {"name": "深度学习神经网络", "type": "深度学习概念"}
+  ]
+}
+```

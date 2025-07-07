@@ -1,0 +1,73 @@
+{
+    "timestamp": "2025-07-07T18:11:31.190433",
+    "filename": "chunk_111_20240506.md",
+    "entities": {
+        "chunk_id": "2024-05-06",
+        "entities": [
+            {
+                "name": "特征融合",
+                "type": "深度学习概念"
+            },
+            {
+                "name": "深度学习",
+                "type": "深度学习概念"
+            },
+            {
+                "name": "推荐系统",
+                "type": "其他"
+            },
+            {
+                "name": "Deep Residual Learning",
+                "type": "深度学习概念"
+            },
+            {
+                "name": "CNN",
+                "type": "深度学习概念"
+            },
+            {
+                "name": "回归预测",
+                "type": "深度学习概念"
+            },
+            {
+                "name": "weight_decay",
+                "type": "深度学习概念"
+            }
+        ]
+    },
+    "relations": {
+        "chunk_id": "2024-05-06",
+        "relations": [
+            {
+                "head": "推荐系统",
+                "type": "包含",
+                "tail": "特征融合"
+            },
+            {
+                "head": "深度学习",
+                "type": "包含",
+                "tail": "特征融合"
+            },
+            {
+                "head": "深度学习",
+                "type": "包含",
+                "tail": "Deep Residual Learning"
+            },
+            {
+                "head": "深度学习",
+                "type": "包含",
+                "tail": "CNN"
+            },
+            {
+                "head": "深度学习",
+                "type": "包含",
+                "tail": "回归预测"
+            },
+            {
+                "head": "回归预测",
+                "type": "使用",
+                "tail": "weight_decay"
+            }
+        ]
+    },
+    "status": "success"
+}

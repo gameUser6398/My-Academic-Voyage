@@ -1,0 +1,180 @@
+{
+    "timestamp": "2025-07-07T17:57:54.222654",
+    "filename": "chunk_036_20240702.md",
+    "entities": {
+        "chunk_id": "2024-03-02",
+        "entities": [
+            {
+                "name": "DNABERT",
+                "type": "深度学习概念"
+            },
+            {
+                "name": "k-mer",
+                "type": "生物分子"
+            },
+            {
+                "name": "CLS 标记",
+                "type": "深度学习概念"
+            },
+            {
+                "name": "SEP 标记",
+                "type": "深度学习概念"
+            },
+            {
+                "name": "MASK 标记",
+                "type": "深度学习概念"
+            },
+            {
+                "name": "Transformer",
+                "type": "深度学习概念"
+            },
+            {
+                "name": "scBERT",
+                "type": "深度学习概念"
+            },
+            {
+                "name": "scRNA-seq",
+                "type": "生物技术"
+            },
+            {
+                "name": "细胞类型注释",
+                "type": "项目活动"
+            },
+            {
+                "name": "基因-基因相互作用",
+                "type": "生物分子"
+            },
+            {
+                "name": "PubMed",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "抗生素耐药基因",
+                "type": "生物分子"
+            },
+            {
+                "name": "抗微生物药物耐药性",
+                "type": "生物医学概念"
+            },
+            {
+                "name": "语言模型",
+                "type": "深度学习概念"
+            },
+            {
+                "name": "软投票集成模型",
+                "type": "深度学习概念"
+            },
+            {
+                "name": "WGS",
+                "type": "生物技术"
+            },
+            {
+                "name": "结核病",
+                "type": "生物医学概念"
+            },
+            {
+                "name": "传播特征",
+                "type": "生物医学概念"
+            },
+            {
+                "name": "中国",
+                "type": "其他"
+            },
+            {
+                "name": "全国横断面监测",
+                "type": "项目活动"
+            }
+        ]
+    },
+    "relations": {
+        "chunk_id": "2024-03-02",
+        "relations": [
+            {
+                "head": "DNABERT",
+                "type": "使用",
+                "tail": "k-mer"
+            },
+            {
+                "head": "DNABERT",
+                "type": "使用",
+                "tail": "CLS 标记"
+            },
+            {
+                "head": "DNABERT",
+                "type": "使用",
+                "tail": "SEP 标记"
+            },
+            {
+                "head": "DNABERT",
+                "type": "使用",
+                "tail": "MASK 标记"
+            },
+            {
+                "head": "DNABERT",
+                "type": "使用",
+                "tail": "Transformer"
+            },
+            {
+                "head": "scBERT",
+                "type": "属于",
+                "tail": "语言模型"
+            },
+            {
+                "head": "scBERT",
+                "type": "使用",
+                "tail": "scRNA-seq"
+            },
+            {
+                "head": "scBERT",
+                "type": "用于",
+                "tail": "细胞类型注释"
+            },
+            {
+                "head": "scBERT",
+                "type": "涉及",
+                "tail": "基因-基因相互作用"
+            },
+            {
+                "head": "scBERT",
+                "type": "使用",
+                "tail": "Transformer"
+            },
+            {
+                "head": "抗微生物药物耐药性",
+                "type": "因果",
+                "tail": "抗生素耐药基因"
+            },
+            {
+                "head": "语言模型",
+                "type": "使用",
+                "tail": "PubMed"
+            },
+            {
+                "head": "语言模型",
+                "type": "用于",
+                "tail": "抗微生物药物耐药性预测"
+            },
+            {
+                "head": "软投票集成模型",
+                "type": "使用",
+                "tail": "语言模型"
+            },
+            {
+                "head": "WGS",
+                "type": "用于",
+                "tail": "结核病传播特征分析"
+            },
+            {
+                "head": "全国横断面监测",
+                "type": "属于",
+                "tail": "中国"
+            },
+            {
+                "head": "全国横断面监测",
+                "type": "使用",
+                "tail": "WGS"
+            }
+        ]
+    },
+    "status": "success"
+}

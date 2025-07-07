@@ -1,0 +1,154 @@
+{
+    "timestamp": "2025-07-07T16:53:47.341026",
+    "filename": "chunk_069_20230803.md",
+    "entities": {
+        "chunk_id": "2024-03-02",
+        "entities": [
+            {
+                "name": "Transformer",
+                "type": "深度学习概念"
+            },
+            {
+                "name": "BERT",
+                "type": "深度学习概念"
+            },
+            {
+                "name": "GNN",
+                "type": "深度学习概念"
+            },
+            {
+                "name": "resnet",
+                "type": "深度学习概念"
+            },
+            {
+                "name": "residual",
+                "type": "深度学习概念"
+            },
+            {
+                "name": "layer normalization",
+                "type": "深度学习概念"
+            },
+            {
+                "name": "batch normalization",
+                "type": "深度学习概念"
+            },
+            {
+                "name": "Diffusion model",
+                "type": "深度学习概念"
+            },
+            {
+                "name": "Stable Diffusion",
+                "type": "深度学习概念"
+            },
+            {
+                "name": "GAN",
+                "type": "深度学习概念"
+            },
+            {
+                "name": "VAE",
+                "type": "深度学习概念"
+            },
+            {
+                "name": "generator",
+                "type": "深度学习概念"
+            },
+            {
+                "name": "discriminator",
+                "type": "深度学习概念"
+            },
+            {
+                "name": "gradient descent",
+                "type": "深度学习概念"
+            },
+            {
+                "name": "Maximum likelihood estimation",
+                "type": "深度学习概念"
+            },
+            {
+                "name": "Jensen-Shannon (JS) divergence",
+                "type": "深度学习概念"
+            },
+            {
+                "name": "Kullback-Leibler (KL) divergence",
+                "type": "深度学习概念"
+            },
+            {
+                "name": "Wasserstein GAN (WGAN)",
+                "type": "深度学习概念"
+            },
+            {
+                "name": "Least Square GAN (LSGAN)",
+                "type": "深度学习概念"
+            },
+            {
+                "name": "Earth Mover's Distance",
+                "type": "深度学习概念"
+            },
+            {
+                "name": "latent space",
+                "type": "深度学习概念"
+            },
+            {
+                "name": "loss function",
+                "type": "深度学习概念"
+            },
+            {
+                "name": "cross-entropy",
+                "type": "深度学习概念"
+            },
+            {
+                "name": "feature fusion",
+                "type": "深度学习概念"
+            },
+            {
+                "name": "pseudo label",
+                "type": "深度学习概念"
+            },
+            {
+                "name": "teacher model",
+                "type": "深度学习概念"
+            },
+            {
+                "name": "head",
+                "type": "深度学习概念"
+            },
+            {
+                "name": "embedding",
+                "type": "深度学习概念"
+            },
+            {
+                "name": "activation function",
+                "type": "深度学习概念"
+            },
+            {
+                "name": "position encoding",
+                "type": "深度学习概念"
+            },
+            {
+                "name": "attention mechanism",
+                "type": "深度学习概念"
+            },
+            {
+                "name": "beam search",
+                "type": "深度学习概念"
+            },
+            {
+                "name": "FID",
+                "type": "深度学习概念"
+            },
+            {
+                "name": "CLIP",
+                "type": "深度学习概念"
+            },
+            {
+                "name": "Auto-encoder",
+                "type": "深度学习概念"
+            }
+        ]
+    },
+    "relations": {
+        "raw_text": "\n\n```json\n{\n  \"chunk_id\": \"2024-03-02\",\n  \"relations\": [\n    {\"head\": \"Transformer\", \"type\": \"包含\", \"tail\": \"attention mechanism\"},\n    {\"head\": \"Transformer\", \"type\": \"包含\", \"tail\": \"position encoding\"},\n    {\"head\": \"Transformer\", \"type\": \"包含\", \"tail\": \"embedding\"},\n    {\"head\": \"Transformer\", \"type\": \"包含\", \"tail\": \"head\"},\n    {\"head\": \"BERT\", \"type\": \"属于\", \"tail\": \"Transformer\"},\n    {\"head\": \"resnet\", \"type\": \"属于\", \"深度学习概念\"},\n    {\"head\": \"resnet\", \"type\": \"包含\", \"tail\": \"residual\"},\n    {\"head\": \"residual\", \"type\": \"使用\", \"tail\": \"gradient descent\"},\n    {\"head\": \"layer normalization\", \"type\": \"属于\", \"tail\": \"深度学习概念\"},\n    {\"head\": \"batch normalization\", \"type\": \"属于\", \"tail\": \"深度学习概念\"},\n    {\"head\": \"GAN\", \"type\": \"包含\", \"tail\": \"generator\"},\n    {\"head\": \"GAN\", \"type\": \"包含\", \"tail\": \"discriminator\"},\n    {\"head\": \"GAN\", \"type\": \"使用\", \"tail\": \"Jensen-Shannon (JS) divergence\"},\n    {\"head\": \"GAN\", \"type\": \"使用\", \"tail\": \"Kullback-Leibler (KL) divergence\"},\n    {\"head\": \"Wasserstein GAN (WGAN)\", \"type\": \"属于\", \"tail\": \"GAN\"},\n    {\"head\": \"Wasserstein GAN (WGAN)\", \"type\": \"使用\", \"tail\": \"Earth Mover's Distance\"},\n    {\"head\": \"Least Square GAN (LSGAN)\", \"type\": \"属于\", \"tail\": \"GAN\"},\n    {\"head\": \"GAN\", \"type\": \"包含\", \"tail\": \"loss function\"},\n    {\"head\": \"GAN\", \"type\": \"使用\", \"tail\": \"cross-entropy\"},\n    {\"head\": \"GAN\", \"type\": \"使用\", \"tail\": \"pseudo label\"},\n    {\"head\": \"GAN\", \"type\": \"使用\", \"tail\": \"teacher model\"},\n    {\"head\": \"VAE\", \"type\": \"属于\", \"tail\": \"Auto-encoder\"},\n    {\"head\": \"Diffusion model\", \"type\": \"包含\", \"tail\": \"latent space\"},\n    {\"head\": \"Stable Diffusion\", \"type\": \"属于\", \"tail\": \"Diffusion model\"},\n    {\"head\": \"Stable Diffusion\", \"type\": \"包含\", \"tail\": \"encoder\"},\n    {\"head\": \"Stable Diffusion\", \"type\": \"包含\", \"tail\": \"generator\"},\n    {\"head\": \"Stable Diffusion\", \"type\": \"使用\", \"tail\": \"FID\"},\n    {\"head\": \"Stable Diffusion\", \"type\": \"使用\", \"tail\": \"CLIP\"},\n    {\"head\": \"Diffusion model\", \"type\": \"包含\", \"tail\": \"noise predicter\"},\n    {\"head\": \"Diffusion model\", \"type\": \"使用\", \"tail\": \"beam search\"},\n    {\"head\": \"Diffusion model\", \"type\": \"使用\", \"tail\": \"feature fusion\"},\n    {\"head\": \"Maximum likelihood estimation\", \"type\": \"使用\", \"tail\": \"VAE\"},\n    {\"head\": \"generator\", \"type\": \"使用\", \"tail\": \"gradient descent\"},\n    {\"head\": \"discriminator\", \"type\": \"使用\", \"tail\": \"gradient descent\"},\n    {\"head\": \"attention mechanism\", \"type\": \"使用\", \"tail\": \"embedding\"},\n    {\"head\": \"attention mechanism\", \"type\": \"包含\", \"tail\": \"head\"},\n    {\"head\": \"attention mechanism\", \"type\": \"使用\", \"tail\": \"position encoding\"}\n  ]\n}\n```",
+        "parsed": false
+    },
+    "status": "success"
+}

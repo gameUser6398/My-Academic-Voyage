@@ -1,0 +1,34 @@
+
+
+```json
+{
+  "chunk_id": "2024-03-02",
+  "entities": [
+    {"name": "Uniprot", "type": "生物信息工具"},
+    {"name": "GO", "type": "生物信息工具"},
+    {"name": "DCGAN", "type": "深度学习概念"},
+    {"name": "SMOTE", "type": "深度学习概念"},
+    {"name": "chroma扩散模型", "type": "深度学习概念"},
+    {"name": "蛋白质嵌入生成模型", "type": "深度学习概念"},
+    {"name": "预训练", "type": "深度学习概念"},
+    {"name": "蛋白质标征", "type": "生物分子"},
+    {"name": "基因本体论", "type": "生物信息工具"},
+    {"name": "卷积线性", "type": "深度学习概念"},
+    {"name": "self-Attention", "type": "深度学习概念"},
+    {"name": "loss", "type": "深度学习概念"},
+    {"name": "train-step", "type": "深度学习概念"},
+    {"name": "梯度爆炸", "type": "深度学习概念"},
+    {"name": "验证集", "type": "深度学习概念"},
+    {"name": "f1-score", "type": "深度学习概念"},
+    {"name": "accuracy", "type": "深度学习概念"},
+    {"name": "稀疏性", "type": "深度学习概念"},
+    {"name": "torch.cat", "type": "生物信息工具"},
+    {"name": "prot_embed", "type": "生物信息工具"},
+    {"name": "label_embed", "type": "生物信息工具"},
+    {"name": "torch.bmm", "type": "生物信息工具"},
+    {"name": "learn rate", "type": "深度学习概念"},
+    {"name": "激活函数", "type": "深度学习概念"},
+    {"name": "平均池化", "type": "深度学习概念"}
+  ]
+}
+```

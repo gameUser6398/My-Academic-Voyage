@@ -1,0 +1,507 @@
+{
+    "timestamp": "2025-07-07T18:05:18.975784",
+    "filename": "chunk_067_20250106.md",
+    "entities": {
+        "chunk_id": "2024-03-02",
+        "entities": [
+            {
+                "name": "Mtb",
+                "type": "生物分子"
+            },
+            {
+                "name": "katG",
+                "type": "生物分子"
+            },
+            {
+                "name": "inhA",
+                "type": "生物分子"
+            },
+            {
+                "name": "embB",
+                "type": "生物分子"
+            },
+            {
+                "name": "ubiA",
+                "type": "生物分子"
+            },
+            {
+                "name": "pncA",
+                "type": "生物分子"
+            },
+            {
+                "name": "gyrA",
+                "type": "生物分子"
+            },
+            {
+                "name": "gyrB",
+                "type": "生物分子"
+            },
+            {
+                "name": "ethA",
+                "type": "生物分子"
+            },
+            {
+                "name": "rv0678",
+                "type": "生物分子"
+            },
+            {
+                "name": "atpE",
+                "type": "生物分子"
+            },
+            {
+                "name": "MmpR",
+                "type": "生物分子"
+            },
+            {
+                "name": "PepQ",
+                "type": "生物分子"
+            },
+            {
+                "name": "ATP",
+                "type": "生物分子"
+            },
+            {
+                "name": "DNA",
+                "type": "生物分子"
+            },
+            {
+                "name": "ROS",
+                "type": "生物分子"
+            },
+            {
+                "name": "乙胺丁醇",
+                "type": "生物分子"
+            },
+            {
+                "name": "INH",
+                "type": "生物分子"
+            },
+            {
+                "name": "RIF",
+                "type": "生物分子"
+            },
+            {
+                "name": "氟喹诺酮",
+                "type": "生物分子"
+            },
+            {
+                "name": "乙硫异烟胺",
+                "type": "生物分子"
+            },
+            {
+                "name": "丙硫异烟酰胺",
+                "type": "生物分子"
+            },
+            {
+                "name": "对氨基水杨酸",
+                "type": "生物分子"
+            },
+            {
+                "name": "ThyA",
+                "type": "生物分子"
+            },
+            {
+                "name": "BDQ",
+                "type": "生物分子"
+            },
+            {
+                "name": "CFZ",
+                "type": "生物分子"
+            },
+            {
+                "name": "MmpL5",
+                "type": "生物分子"
+            },
+            {
+                "name": "ATP合酶",
+                "type": "生物分子"
+            },
+            {
+                "name": "TCA循环",
+                "type": "生物分子"
+            },
+            {
+                "name": "MIC",
+                "type": "生物分子"
+            },
+            {
+                "name": "DPA",
+                "type": "生物分子"
+            },
+            {
+                "name": "dUMP",
+                "type": "生物分子"
+            },
+            {
+                "name": "dTMP",
+                "type": "生物分子"
+            },
+            {
+                "name": "DNA促旋酶",
+                "type": "生物分子"
+            },
+            {
+                "name": "细胞壁",
+                "type": "生物分子"
+            },
+            {
+                "name": "激活",
+                "type": "生物技术"
+            },
+            {
+                "name": "杀菌",
+                "type": "生物技术"
+            },
+            {
+                "name": "膜电位",
+                "type": "生物技术"
+            },
+            {
+                "name": "钾的吸收",
+                "type": "生物技术"
+            },
+            {
+                "name": "基因突变",
+                "type": "生物技术"
+            },
+            {
+                "name": "基因表达",
+                "type": "生物技术"
+            },
+            {
+                "name": "分子诊断",
+                "type": "生物技术"
+            },
+            {
+                "name": "交叉耐药性",
+                "type": "生物医学概念"
+            },
+            {
+                "name": "耐药性",
+                "type": "生物医学概念"
+            },
+            {
+                "name": "结核",
+                "type": "生物医学概念"
+            },
+            {
+                "name": "前药",
+                "type": "生物技术"
+            },
+            {
+                "name": "文献阅读",
+                "type": "项目活动"
+            },
+            {
+                "name": "2025年1月6日",
+                "type": "其他"
+            }
+        ]
+    },
+    "relations": {
+        "chunk_id": "2025-01-06",
+        "relations": [
+            {
+                "head": "Mtb",
+                "type": "调控",
+                "tail": "细胞壁完整性"
+            },
+            {
+                "head": "Mtb",
+                "type": "调控",
+                "tail": "ATP合成"
+            },
+            {
+                "head": "katG",
+                "type": "属于",
+                "tail": "基因突变"
+            },
+            {
+                "head": "inhA",
+                "type": "属于",
+                "tail": "基因突变"
+            },
+            {
+                "head": "INH",
+                "type": "使用",
+                "tail": "乙胺丁醇"
+            },
+            {
+                "head": "INH",
+                "type": "使用",
+                "tail": "RIF"
+            },
+            {
+                "head": "embB",
+                "type": "属于",
+                "tail": "基因突变"
+            },
+            {
+                "head": "embB",
+                "type": "调控",
+                "tail": "MIC"
+            },
+            {
+                "head": "ubiA",
+                "type": "属于",
+                "tail": "基因突变"
+            },
+            {
+                "head": "ubiA",
+                "type": "调控",
+                "tail": "DPA水平"
+            },
+            {
+                "head": "INH",
+                "type": "属于",
+                "tail": "前药"
+            },
+            {
+                "head": "INH",
+                "type": "属于",
+                "tail": "杀菌"
+            },
+            {
+                "head": "INH",
+                "type": "作用于",
+                "tail": "细胞壁"
+            },
+            {
+                "head": "pncA",
+                "type": "属于",
+                "tail": "基因突变"
+            },
+            {
+                "head": "氟喹诺酮",
+                "type": "使用",
+                "tail": "DNA促旋酶"
+            },
+            {
+                "head": "氟喹诺酮",
+                "type": "作用于",
+                "tail": "DNA促旋酶"
+            },
+            {
+                "head": "gyrA",
+                "type": "属于",
+                "tail": "基因突变"
+            },
+            {
+                "head": "gyrB",
+                "type": "属于",
+                "tail": "基因突变"
+            },
+            {
+                "head": "gyrA",
+                "type": "编码",
+                "tail": "DNA解旋酶亚基A"
+            },
+            {
+                "head": "gyrB",
+                "type": "编码",
+                "tail": "DNA解旋酶亚基B"
+            },
+            {
+                "head": "药物外排泵的增加",
+                "type": "调控",
+                "tail": "氟喹诺酮耐药性"
+            },
+            {
+                "head": "乙硫异烟胺",
+                "type": "属于",
+                "tail": "异烟酸衍生物"
+            },
+            {
+                "head": "丙硫异烟酰胺",
+                "type": "属于",
+                "tail": "异烟酸衍生物"
+            },
+            {
+                "head": "ethA",
+                "type": "属于",
+                "tail": "基因突变"
+            },
+            {
+                "head": "inhA",
+                "type": "属于",
+                "tail": "基因突变"
+            },
+            {
+                "head": "对氨基水杨酸",
+                "type": "作用于",
+                "tail": "dUMP向dTMP的转化"
+            },
+            {
+                "head": "ThyA",
+                "type": "属于",
+                "tail": "基因突变"
+            },
+            {
+                "head": "氯法齐明",
+                "type": "作用于",
+                "tail": "ROS产生"
+            },
+            {
+                "head": "氯法齐明",
+                "type": "调控",
+                "tail": "钾的吸收"
+            },
+            {
+                "head": "rv0678",
+                "type": "属于",
+                "tail": "基因突变"
+            },
+            {
+                "head": "rv0678",
+                "type": "调控",
+                "tail": "CFZ耐药性"
+            },
+            {
+                "head": "BDQ",
+                "type": "作用于",
+                "tail": "ATP合酶"
+            },
+            {
+                "head": "atpE",
+                "type": "属于",
+                "tail": "基因突变"
+            },
+            {
+                "head": "atpE",
+                "type": "调控",
+                "tail": "BDQ与ATP合酶结合"
+            },
+            {
+                "head": "MmpR",
+                "type": "属于",
+                "tail": "基因突变"
+            },
+            {
+                "head": "PepQ",
+                "type": "属于",
+                "tail": "基因突变"
+            },
+            {
+                "head": "MmpR",
+                "type": "调控",
+                "tail": "BDQ耐药性"
+            },
+            {
+                "head": "PepQ",
+                "type": "调控",
+                "tail": "CFZ耐药性"
+            },
+            {
+                "head": "MmpR",
+                "type": "调控",
+                "tail": "交叉耐药性"
+            },
+            {
+                "head": "PepQ",
+                "type": "调控",
+                "tail": "交叉耐药性"
+            },
+            {
+                "head": "BDQ耐药性",
+                "type": "属于",
+                "tail": "耐药性"
+            },
+            {
+                "head": "CFZ耐药性",
+                "type": "属于",
+                "tail": "耐药性"
+            },
+            {
+                "head": "多重耐药",
+                "type": "属于",
+                "tail": "耐药性"
+            },
+            {
+                "head": "INH",
+                "type": "属于",
+                "tail": "结核治疗药物"
+            },
+            {
+                "head": "RIF",
+                "type": "属于",
+                "tail": "结核治疗药物"
+            },
+            {
+                "head": "乙胺丁醇",
+                "type": "属于",
+                "tail": "结核治疗药物"
+            },
+            {
+                "head": "氟喹诺酮",
+                "type": "属于",
+                "tail": "二线药物"
+            },
+            {
+                "head": "乙硫异烟胺",
+                "type": "属于",
+                "tail": "二线药物"
+            },
+            {
+                "head": "丙硫异烟酰胺",
+                "type": "属于",
+                "tail": "二线药物"
+            },
+            {
+                "head": "对氨基水杨酸",
+                "type": "属于",
+                "tail": "二线药物"
+            },
+            {
+                "head": "BDQ",
+                "type": "属于",
+                "tail": "二线药物"
+            },
+            {
+                "head": "CFZ",
+                "type": "属于",
+                "tail": "二线药物"
+            },
+            {
+                "head": "分子诊断",
+                "type": "作用于",
+                "tail": "耐药性检测"
+            },
+            {
+                "head": "基因突变",
+                "type": "调控",
+                "tail": "耐药性"
+            },
+            {
+                "head": "基因表达",
+                "type": "调控",
+                "tail": "耐药性"
+            },
+            {
+                "head": "膜电位",
+                "type": "调控",
+                "tail": "杀菌"
+            },
+            {
+                "head": "ATP合酶",
+                "type": "调控",
+                "tail": "ATP合成"
+            },
+            {
+                "head": "TCA循环",
+                "type": "调控",
+                "tail": "ATP消耗"
+            },
+            {
+                "head": "ATP",
+                "type": "调控",
+                "tail": "杀菌"
+            },
+            {
+                "head": "文献阅读",
+                "type": "包含",
+                "tail": "2025年1月6日"
+            }
+        ]
+    },
+    "status": "success"
+}

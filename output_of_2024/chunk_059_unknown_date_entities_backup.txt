@@ -1,0 +1,11 @@
+
+
+{
+  "chunk_id": "2024-03-02",
+  "entities": [
+    {"name": "Python", "type": "生物信息工具"},
+    {"name": "Linux", "type": "生物信息工具"},
+    {"name": "history", "type": "生物信息工具"},
+    {"name": "clear", "type": "生物信息工具"}
+  ]
+}

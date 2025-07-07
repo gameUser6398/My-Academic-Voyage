@@ -1,0 +1,51 @@
+
+
+```json
+{
+  "chunk_id": "2024-03-02",
+  "relations": [
+    {"head": "PLM-ARG", "type": "使用", "tail": "EMBOSS"},
+    {"head": "EMBOSS", "type": "包含", "tail": "Transeq"},
+    {"head": "Transeq", "type": "使用", "tail": "DNA序列"},
+    {"head": "Transeq", "type": "输出", "tail": "UniPort FASTA"},
+    {"head": "CD-HIT", "type": "使用", "tail": "序列比对"},
+    {"head": "CD-HIT", "type": "使用", "tail": "同源性"},
+    {"head": "ARG", "type": "属于", "tail": "抗生素耐药性"},
+    {"head": "PLM-ARG", "type": "输出", "tail": "抗性类别"},
+    {"head": "PLM-ARG", "type": "输出", "tail": "概率值"},
+    {"head": "ARG", "type": "属于", "tail": "抗生素类别"},
+    {"head": "抗生素类别", "type": "属于", "tail": "AWaRe分类系统"},
+    {"head": "PLM-ARGDB", "type": "包含", "tail": "CARD"},
+    {"head": "PLM-ARGDB", "type": "包含", "tail": "ResFinder"},
+    {"head": "PLM-ARGDB", "type": "包含", "tail": "MEGARes"},
+    {"head": "PLM-ARGDB", "type": "包含", "tail": "AMRFinderPlus"},
+    {"head": "PLM-ARGDB", "type": "包含", "tail": "ARGMiner"},
+    {"head": "PLM-ARGDB", "type": "包含", "tail": "HMD-ARG-DB"},
+    {"head": "PLM-ARGDB", "type": "属于", "tail": "数据集策划"},
+    {"head": "PLM-ARG", "type": "属于", "tail": "模型评估"},
+    {"head": "PLM-ARG", "type": "使用", "tail": "UniProt数据库"},
+    {"head": "UniProt数据库", "type": "包含", "tail": "ARG"},
+    {"head": "PLM-ARG", "type": "属于", "tail": "案例研究"},
+    {"head": "案例研究", "type": "包含", "tail": "抗性注释"},
+    {"head": "PLM-ARG", "type": "调控", "tail": "抗性注释"},
+    {"head": "DeepARG", "type": "使用", "tail": "概率"},
+    {"head": "Resfams", "type": "使用", "tail": "E-value"},
+    {"head": "RGI", "type": "属于", "tail": "序列比对"},
+    {"head": "RGI", "type": "被推荐", "tail": "CARD"},
+    {"head": "RGI", "type": "被推荐", "tail": "MEGARes"},
+    {"head": "抗生素使用", "type": "因果", "tail": "多药耐药"},
+    {"head": "PLM-ARG", "type": "使用", "tail": "多标签分类"},
+    {"head": "PLM-ARGDB", "type": "属于", "tail": "生物信息工具"},
+    {"head": "PLM-ARG", "type": "属于", "tail": "深度学习概念"},
+    {"head": "PLM-ARGDB", "type": "包含", "tail": "肽"},
+    {"head": "PLM-ARGDB", "type": "包含", "tail": "β-内酰胺"},
+    {"head": "PLM-ARGDB", "type": "包含", "tail": "四环素"},
+    {"head": "PLM-ARGDB", "type": "包含", "tail": "大环内酯类"},
+    {"head": "PLM-ARGDB", "type": "包含", "tail": "林可酰胺类"},
+    {"head": "PLM-ARGDB", "type": "包含", "tail": "链球菌敏"},
+    {"head": "UniProt", "type": "包含", "tail": "ARG"},
+    {"head": "UniProt", "type": "属于", "tail": "生物信息工具"},
+    {"head": "PLM-ARG", "type": "输出", "tail": "AUC指标"}
+  ]
+}
+```

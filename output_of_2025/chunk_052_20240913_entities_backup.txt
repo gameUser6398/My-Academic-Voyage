@@ -1,0 +1,17 @@
+
+
+{
+  "chunk_id": "2024-03-02",
+  "entities": [
+    {"name": "ARG", "type": "生物分子"},
+    {"name": "CNN", "type": "深度学习概念"},
+    {"name": "一维卷积层", "type": "深度学习概念"},
+    {"name": "密集层", "type": "深度学习概念"},
+    {"name": "注意力机制", "type": "深度学习概念"},
+    {"name": "ARGNet", "type": "生物信息工具"},
+    {"name": "DeepARG", "type": "生物信息工具"},
+    {"name": "HMD-ARG", "type": "生物信息工具"},
+    {"name": "GeneBac", "type": "生物信息工具"},
+    {"name": "抗生素耐药性", "type": "生物医学概念"}
+  ]
+}

@@ -1,0 +1,30 @@
+
+
+{
+  "chunk_id": "2024-04-21_9_04",
+  "entities": [
+    {"name": "WGS", "type": "生物技术"},
+    {"name": "meropenem", "type": "生物分子"},
+    {"name": "ciprofloxacin", "type": "生物分子"},
+    {"name": "RUN", "type": "生物信息工具"},
+    {"name": "测序仪", "type": "生物技术"},
+    {"name": "SRA", "type": "生物信息工具"},
+    {"name": "EBI", "type": "生物信息工具"},
+    {"name": "DDBJ", "type": "生物信息工具"},
+    {"name": "SRP", "type": "项目活动"},
+    {"name": "ERP", "type": "项目活动"},
+    {"name": "DRP", "type": "项目活动"},
+    {"name": "SRS", "type": "项目活动"},
+    {"name": "ERS", "type": "项目活动"},
+    {"name": "DRS", "type": "项目活动"},
+    {"name": "SRX", "type": "项目活动"},
+    {"name": "ERX", "type": "项目活动"},
+    {"name": "DRX", "type": "项目活动"},
+    {"name": "SRR", "type": "项目活动"},
+    {"name": "ERR", "type": "项目活动"},
+    {"name": "DRR", "type": "项目活动"},
+    {"name": "PRJNA", "type": "项目活动"},
+    {"name": "GSE", "type": "项目活动"},
+    {"name": "ACCESSION IDs", "type": "生物信息工具"}
+  ]
+}

@@ -1,0 +1,12 @@
+
+
+{
+  "chunk_id": "2024-03-02",
+  "entities": [
+    {"name": "t-SNE", "type": "深度学习概念"},
+    {"name": "bio_embeddings", "type": "生物信息工具"},
+    {"name": "scikit-learn", "type": "生物信息工具"},
+    {"name": "TSNE", "type": "深度学习概念"},
+    {"name": "One hot编码", "type": "深度学习概念"}
+  ]
+}

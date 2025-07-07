@@ -1,0 +1,24 @@
+
+
+{
+  "chunk_id": "2024-03-02",
+  "entities": [
+    {"name": "ARG", "type": "生物分子"},
+    {"name": "BLAST", "type": "生物信息工具"},
+    {"name": "DeepLIFT", "type": "生物信息工具"},
+    {"name": "Saliency map", "type": "深度学习概念"},
+    {"name": "Attention", "type": "深度学习概念"},
+    {"name": "抗生素耐药性", "type": "生物医学概念"},
+    {"name": "基因水平转移", "type": "生物分子"},
+    {"name": "多重耐药菌", "type": "生物医学概念"},
+    {"name": "RGI", "type": "生物信息工具"},
+    {"name": "CARD", "type": "生物信息工具"},
+    {"name": "Protein Homolog", "type": "生物信息工具"},
+    {"name": "Protein Variant", "type": "生物信息工具"},
+    {"name": "Perfect", "type": "生物信息工具"},
+    {"name": "Strict", "type": "生物信息工具"},
+    {"name": "Loose", "type": "生物信息工具"},
+    {"name": "AMR", "type": "生物医学概念"},
+    {"name": "ARD", "type": "生物信息工具"}
+  ]
+}

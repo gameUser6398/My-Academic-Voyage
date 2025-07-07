@@ -1,0 +1,25 @@
+
+
+```json
+{
+  "chunk_id": "2024-03-02",
+  "entities": [
+    {"name": "蛋白质", "type": "生物分子"},
+    {"name": "Transformer", "type": "深度学习概念"},
+    {"name": "蛋白质大语言模型", "type": "生物信息工具"},
+    {"name": "GO", "type": "生物分子"},
+    {"name": "Anc2vec", "type": "生物信息工具"},
+    {"name": "交叉熵", "type": "深度学习概念"},
+    {"name": "Focal loss", "type": "深度学习概念"},
+    {"name": "功能注释", "type": "生物医学概念"},
+    {"name": "蛋白发现", "type": "生物医学概念"},
+    {"name": "深度学习模型", "type": "生物信息工具"},
+    {"name": "CAFA", "type": "其他"},
+    {"name": "入门手册", "type": "项目活动"},
+    {"name": "召回率", "type": "深度学习概念"},
+    {"name": "MF", "type": "生物分子"},
+    {"name": "BP", "type": "生物分子"},
+    {"name": "CC", "type": "生物分子"}
+  ]
+}
+```

@@ -1,0 +1,12 @@
+
+
+```json
+{
+  "chunk_id": "2024-03-02",
+  "relations": [
+    {"head": "OneHotEncoder", "type": "属于", "tail": "Pandas"},
+    {"head": "OneHotEncoder", "type": "使用", "tail": "one-hot编码"},
+    {"head": "one-hot编码", "type": "使用", "tail": "Pandas"}
+  ]
+}
+```

@@ -1,0 +1,227 @@
+{
+    "timestamp": "2025-07-07T17:05:02.087795",
+    "filename": "chunk_079_unknown_date.md",
+    "entities": {
+        "chunk_id": "2024-03-02",
+        "entities": [
+            {
+                "name": "INSDC",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "NCBI",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "EMBL",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "UniProt",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "Pfam",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "毒力蛋白",
+                "type": "生物分子"
+            },
+            {
+                "name": "耐药基因",
+                "type": "生物分子"
+            },
+            {
+                "name": "合成基因簇",
+                "type": "生物分子"
+            },
+            {
+                "name": "toxin-antitoxin",
+                "type": "生物分子"
+            },
+            {
+                "name": "序列比对搜索",
+                "type": "生物技术"
+            },
+            {
+                "name": "blast索引库",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "基因组测序",
+                "type": "生物技术"
+            },
+            {
+                "name": "蛋白质序列",
+                "type": "生物分子"
+            },
+            {
+                "name": "UniParc",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "UniProtKB",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "Proteomes",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "UNIRef",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "Swiss-Prot",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "TrEMBL",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "PIR-PSD",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "ExPASy",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "EMBL-EBI",
+                "type": "项目活动"
+            },
+            {
+                "name": "SIB",
+                "type": "项目活动"
+            },
+            {
+                "name": "PIR",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "NBRF",
+                "type": "项目活动"
+            },
+            {
+                "name": "欧洲生物信息学研究所",
+                "type": "项目活动"
+            },
+            {
+                "name": "基因组学",
+                "type": "生物医学概念"
+            },
+            {
+                "name": "蛋白质组学",
+                "type": "生物医学概念"
+            }
+        ]
+    },
+    "relations": {
+        "chunk_id": "2024-03-02",
+        "relations": [
+            {
+                "head": "INSDC",
+                "type": "包含",
+                "tail": "NCBI"
+            },
+            {
+                "head": "INSDC",
+                "type": "包含",
+                "tail": "EMBL"
+            },
+            {
+                "head": "UniProt",
+                "type": "包含",
+                "tail": "毒力蛋白"
+            },
+            {
+                "head": "UniProt",
+                "type": "包含",
+                "tail": "耐药基因"
+            },
+            {
+                "head": "UniProt",
+                "type": "包含",
+                "tail": "合成基因簇"
+            },
+            {
+                "head": "UniProt",
+                "type": "包含",
+                "tail": "toxin-antitoxin"
+            },
+            {
+                "head": "UniProt",
+                "type": "包含",
+                "tail": "Pfam"
+            },
+            {
+                "head": "NCBI",
+                "type": "使用",
+                "tail": "blast索引库"
+            },
+            {
+                "head": "UniProt",
+                "type": "包含",
+                "tail": "Swiss-Prot"
+            },
+            {
+                "head": "UniProt",
+                "type": "包含",
+                "tail": "TrEMBL"
+            },
+            {
+                "head": "UniProt",
+                "type": "包含",
+                "tail": "PIR-PSD"
+            },
+            {
+                "head": "UniParc",
+                "type": "属于",
+                "tail": "UniProt"
+            },
+            {
+                "head": "UniProtKB",
+                "type": "属于",
+                "tail": "UniProt"
+            },
+            {
+                "head": "Proteomes",
+                "type": "属于",
+                "tail": "UniProt"
+            },
+            {
+                "head": "UNIRef",
+                "type": "属于",
+                "tail": "UniProt"
+            },
+            {
+                "head": "EMBL-EBI",
+                "type": "属于",
+                "tail": "欧洲生物信息学研究所"
+            },
+            {
+                "head": "ExPASy",
+                "type": "属于",
+                "tail": "SIB"
+            },
+            {
+                "head": "PIR",
+                "type": "属于",
+                "tail": "NBRF"
+            },
+            {
+                "head": "基因组测序",
+                "type": "属于",
+                "tail": "基因组学"
+            },
+            {
+                "head": "蛋白质序列",
+                "type": "属于",
+                "tail": "蛋白质组学"
+            }
+        ]
+    },
+    "status": "success"
+}

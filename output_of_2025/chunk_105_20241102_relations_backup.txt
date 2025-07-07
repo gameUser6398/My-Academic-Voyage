@@ -1,0 +1,52 @@
+
+
+```json
+{
+  "chunk_id": "2024-03-02",
+  "relations": [
+    {"head": "beta-lactam antibiotic catabolic process", "type": "属于", "tail": "antibiotic inactivation"},
+    {"head": "doxorubicin transport", "type": "属于", "tail": "antibiotic efflux"},
+    {"head": "daunorubicin transport", "type": "属于", "tail": "antibiotic efflux"},
+    {"head": "antibiotic catabolic process", "type": "属于", "tail": "antibiotic inactivation"},
+    {"head": "putative_resistance_protein_transporter", "type": "属于", "tail": "antibiotic efflux"},
+    {"head": "putative_uvra-drug_resistance_pump", "type": "属于", "tail": "antibiotic efflux"},
+    {"head": "qaca", "type": "属于", "tail": "antibiotic efflux"},
+    {"head": "qaca_drug_resistance_transporter", "type": "属于", "tail": "antibiotic efflux"},
+    {"head": "qaca_family", "type": "属于", "tail": "antibiotic efflux"},
+    {"head": "qaca_family_drug_resistance_transporter", "type": "属于", "tail": "antibiotic efflux"},
+    {"head": "qaca_subfamily", "type": "属于", "tail": "antibiotic efflux"},
+    {"head": "qaca_subfamily_drug_resistance_transporter", "type": "属于", "tail": "antibiotic efflux"},
+    {"head": "related_to_multidrug_resistance_protein", "type": "属于", "tail": "antibiotic efflux"},
+    {"head": "resistance_gene", "type": "调控", "tail": "antibiotic resistance"},
+    {"head": "resistance_protein", "type": "调控", "tail": "antibiotic resistance"},
+    {"head": "resistance_related_regulator", "type": "调控", "tail": "antibiotic resistance"},
+    {"head": "resistant_dna_gyrase_subunit_b", "type": "属于", "tail": "antibiotic resistance"},
+    {"head": "resistant_type_ii_topoisomerase_subunit_b", "type": "属于", "tail": "antibiotic resistance"},
+    {"head": "rnd_superfamily_protein", "type": "属于", "tail": "antibiotic efflux"},
+    {"head": "sisomicin_resistance_protein", "type": "属于", "tail": "antibiotic resistance"},
+    {"head": "teicoplanin_resistance_protein_vanz", "type": "属于", "tail": "antibiotic resistance"},
+    {"head": "tetracenomycin_c_resistance_and_export_gene_repressor", "type": "调控", "tail": "antibiotic resistance"},
+    {"head": "tetracenomycin_c_resistance_and_export_protein", "type": "属于", "tail": "antibiotic resistance"},
+    {"head": "tetranactin_resistance_protein", "type": "属于", "tail": "antibiotic resistance"},
+    {"head": "uvra-like_drug_resistance_pump", "type": "属于", "tail": "antibiotic efflux"},
+    {"head": "beta-lactam antibiotic catabolic process", "type": "属于", "tail": "antibiotic inactivation"},
+    {"head": "beta-lactamase activity", "type": "属于", "tail": "beta-lactam antibiotic inactivation"},
+    {"head": "antibiotic efflux pump", "type": "属于", "tail": "antibiotic efflux"},
+    {"head": "macrolide transmembrane transporter complex", "type": "属于", "tail": "antibiotic efflux"},
+    {"head": "efflux pump complex", "type": "属于", "tail": "antibiotic efflux"},
+    {"head": "beta-lactamase", "type": "属于", "tail": "beta-lactam antibiotic inactivation"},
+    {"head": "gentamicin", "type": "属于", "tail": "aminoglycoside antibiotic"},
+    {"head": "kanamycin", "type": "属于", "tail": "aminoglycoside antibiotic"},
+    {"head": "macrolide", "type": "属于", "tail": "protein synthesis inhibitor"},
+    {"head": "multidrug resistance", "type": "属于", "tail": "antibiotic resistance"},
+    {"head": "penicillin-binding", "type": "属于", "tail": "beta-lactam antibiotic resistance"},
+    {"head": "quinolone", "type": "属于", "tail": "fluoroquinolone antibiotic"},
+    {"head": "rifampicin", "type": "属于", "tail": "rifamycin antibiotic"},
+    {"head": "tetracycline resistance", "type": "属于", "tail": "tetracycline antibiotic resistance"},
+    {"head": "polymyxin resistance", "type": "属于", "tail": "peptide antibiotic resistance"},
+    {"head": "bacitracin resistance", "type": "属于", "tail": "peptide antibiotic resistance"},
+    {"head": "fatty acids resistance", "type": "属于", "tail": "antibacterial free fatty acids resistance"},
+    {"head": "bicyclomycin", "type": "属于", "tail": "unknown classification"}
+  ]
+}
+```

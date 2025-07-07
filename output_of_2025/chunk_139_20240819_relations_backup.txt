@@ -1,0 +1,42 @@
+
+
+```json
+{
+  "chunk_id": "2024-08-19",
+  "relations": [
+    {"head": "ARGNet", "type": "使用", "tail": "无监督"},
+    {"head": "ARGNet", "type": "使用", "tail": "Autoencoder"},
+    {"head": "ARGNet", "type": "属于", "tail": "生物信息工具"},
+    {"head": "ARGNet", "type": "优于", "tail": "DeepARG"},
+    {"head": "DeepARG", "type": "属于", "tail": "生物信息工具"},
+    {"head": "ARGNet", "type": "在...上表现", "tail": "Uniprot"},
+    {"head": "DHR", "type": "属于", "tail": "生物信息工具"},
+    {"head": "DHR", "type": "使用", "tail": "对比学习"},
+    {"head": "DHR", "type": "使用", "tail": "有监督"},
+    {"head": "使用", "type": "使用", "tail": "Conv"},
+    {"head": "使用", "type": "使用", "tail": "Dense层"},
+    {"head": "使用", "type": "使用", "tail": "self-Attention"},
+    {"head": "使用", "type": "使用", "tail": "row_softmax"},
+    {"head": "使用", "type": "使用", "tail": "Sequential_3"},
+    {"head": "使用", "type": "使用", "tail": "Focal loss"},
+    {"head": "Focal loss", "type": "调控", "tail": "F1-score"},
+    {"head": "Focal loss", "type": "包含", "tail": "gamma"},
+    {"head": "使用", "type": "使用", "tail": "GPU"},
+    {"head": "使用", "type": "使用", "tail": "TensorBoard"},
+    {"head": "使用", "type": "使用", "tail": "opt"},
+    {"head": "使用", "type": "使用", "tail": "torchsummary"},
+    {"head": "使用", "type": "使用", "tail": "Hydra 框架"},
+    {"head": "使用", "type": "使用", "tail": "do_retrieval.py"},
+    {"head": "一维卷积", "type": "属于", "tail": "深度学习概念"},
+    {"head": "Attention", "type": "属于", "tail": "深度学习概念"},
+    {"head": "self-Attention", "type": "属于", "tail": "深度学习概念"},
+    {"head": "base_channels", "type": "属于", "tail": "深度学习概念"},
+    {"head": "padding=same", "type": "属于", "tail": "深度学习概念"},
+    {"head": "无监督", "type": "属于", "tail": "深度学习概念"},
+    {"head": "有监督", "type": "属于", "tail": "深度学习概念"},
+    {"head": "过拟合", "type": "属于", "tail": "深度学习概念"},
+    {"head": "计算开销", "type": "属于", "tail": "其他"},
+    {"head": "特征", "type": "属于", "tail": "其他"}
+  ]
+}
+```

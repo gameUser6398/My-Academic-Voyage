@@ -1,0 +1,25 @@
+
+
+{
+  "chunk_id": "2024-03-02",
+  "entities": [
+    {"name": "酶", "type": "生物分子"},
+    {"name": "Michaelis-Menten方程", "type": "生物技术"},
+    {"name": "药物代谢动力学", "type": "生物技术"},
+    {"name": "ADME", "type": "生物技术"},
+    {"name": "Gompertz模型", "type": "生物技术"},
+    {"name": "Logistic模型", "type": "生物技术"},
+    {"name": "细胞信号传导", "type": "生物技术"},
+    {"name": "基因调控网络模型", "type": "生物技术"},
+    {"name": "DNA", "type": "生物分子"},
+    {"name": "遗传平衡定律", "type": "生物技术"},
+    {"name": "哈代-温伯格定律", "type": "生物技术"},
+    {"name": "种群动态模型", "type": "生物技术"},
+    {"name": "Logistic增长模型", "type": "生物技术"},
+    {"name": "Lotka-Volterra捕食者-猎物模型", "type": "生物技术"},
+    {"name": "生态系统模型", "type": "生物技术"},
+    {"name": "PCR指数扩增模型", "type": "生物技术"},
+    {"name": "SIR传染病模型", "type": "生物技术"},
+    {"name": "系统发生树模型", "type": "生物技术"}
+  ]
+}

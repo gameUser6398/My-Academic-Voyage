@@ -1,0 +1,46 @@
+
+
+```json
+{
+  "chunk_id": "2024-03-02",
+  "relations": [
+    {"head": "conda", "type": "使用", "tail": "bash"},
+    {"head": "root用户", "type": "使用", "tail": "bash环境"},
+    {"head": "lcl", "type": "使用", "tail": "goodjob环境"},
+    {"head": "xk", "type": "使用", "tail": "goodjob环境"},
+    {"head": "zlj", "type": "使用", "tail": "goodjob环境"},
+    {"head": "goodjob环境", "type": "属于", "tail": "Anaconda"},
+    {"head": "Anaconda", "type": "安装", "tail": "Linux"},
+    {"head": "conda", "type": "初始化", "tail": ".bashrc"},
+    {"head": "conda", "type": "激活", "tail": "pytorch"},
+    {"head": "pip", "type": "安装", "tail": "pandas"},
+    {"head": "pandas", "type": "属于", "tail": "goodjob环境"},
+    {"head": "pandas", "type": "冲突", "tail": "anc2vec"},
+    {"head": "conda", "type": "安装", "tail": "miniconda"},
+    {"head": "miniconda", "type": "初始化", "tail": ".bashrc"},
+    {"head": "JupyterLab", "type": "使用", "tail": "ipykernel"},
+    {"head": "conda", "type": "安装", "tail": "ipykernel"},
+    {"head": "pip", "type": "安装", "tail": "JupyterLab"},
+    {"head": "ls", "type": "使用", "tail": "Linux"},
+    {"head": "cd", "type": "使用", "tail": "Linux"},
+    {"head": "pwd", "type": "使用", "tail": "Linux"},
+    {"head": "mkdir", "type": "使用", "tail": "Linux"},
+    {"head": "touch", "type": "使用", "tail": "Linux"},
+    {"head": "cat", "type": "使用", "tail": "Linux"},
+    {"head": "more", "type": "使用", "tail": "Linux"},
+    {"head": "cp", "type": "使用", "tail": "Linux"},
+    {"head": "mv", "type": "使用", "tail": "Linux"},
+    {"head": "rm", "type": "使用", "tail": "Linux"},
+    {"head": "which", "type": "使用", "tail": "Linux"},
+    {"head": "find", "type": "使用", "tail": "Linux"},
+    {"head": "grep", "type": "使用", "tail": "Linux"},
+    {"head": "wc", "type": "使用", "tail": "Linux"},
+    {"head": "echo", "type": "使用", "tail": "Linux"},
+    {"head": "tail", "type": "使用", "tail": "Linux"},
+    {"head": "vi", "type": "使用", "tail": "Linux"},
+    {"head": "vim", "type": "使用", "tail": "Linux"},
+    {"head": "awk", "type": "使用", "tail": "Linux"},
+    {"head": "xargs", "type": "使用", "tail": "Linux"}
+  ]
+}
+```

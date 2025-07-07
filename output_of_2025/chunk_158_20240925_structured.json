@@ -1,0 +1,646 @@
+{
+    "timestamp": "2025-07-07T18:06:41.317153",
+    "filename": "chunk_158_20240925.md",
+    "entities": {
+        "chunk_id": "2024-09-25",
+        "entities": [
+            {
+                "name": "ARG",
+                "type": "生物分子"
+            },
+            {
+                "name": "结核分枝杆菌",
+                "type": "生物分子"
+            },
+            {
+                "name": "rpoB",
+                "type": "生物分子"
+            },
+            {
+                "name": "pncA",
+                "type": "生物分子"
+            },
+            {
+                "name": "katG",
+                "type": "生物分子"
+            },
+            {
+                "name": "fabG1",
+                "type": "生物分子"
+            },
+            {
+                "name": "inhA",
+                "type": "生物分子"
+            },
+            {
+                "name": "gyrA",
+                "type": "生物分子"
+            },
+            {
+                "name": "gyrB",
+                "type": "生物分子"
+            },
+            {
+                "name": "rrs",
+                "type": "生物分子"
+            },
+            {
+                "name": "多重耐药",
+                "type": "生物医学概念"
+            },
+            {
+                "name": "结核病",
+                "type": "生物医学概念"
+            },
+            {
+                "name": "测序",
+                "type": "生物技术"
+            },
+            {
+                "name": "宏基因组测序",
+                "type": "生物技术"
+            },
+            {
+                "name": "单细胞测序",
+                "type": "生物技术"
+            },
+            {
+                "name": "qPCR",
+                "type": "生物技术"
+            },
+            {
+                "name": "基因表达分析",
+                "type": "生物技术"
+            },
+            {
+                "name": "电泳迁移率变化测定",
+                "type": "生物技术"
+            },
+            {
+                "name": "微阵列杂交",
+                "type": "生物技术"
+            },
+            {
+                "name": "药敏试验",
+                "type": "生物技术"
+            },
+            {
+                "name": "实时荧光测定法",
+                "type": "生物技术"
+            },
+            {
+                "name": "MUBII-TB-DB",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "BLAST",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "GWAS分析",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "Python",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "Linux",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "Django",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "Fetch API",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "机器学习",
+                "type": "深度学习概念"
+            },
+            {
+                "name": "系统发育分析",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "cgSNP",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "cgMLST",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "IC2/CC92谱系",
+                "type": "生物分子"
+            },
+            {
+                "name": "MexAB OprM外排泵",
+                "type": "生物分子"
+            },
+            {
+                "name": "MexR",
+                "type": "生物分子"
+            },
+            {
+                "name": "NalD",
+                "type": "生物分子"
+            },
+            {
+                "name": "NalC",
+                "type": "生物分子"
+            },
+            {
+                "name": "mexAB-opM操纵子",
+                "type": "生物分子"
+            },
+            {
+                "name": "NDM-1",
+                "type": "生物分子"
+            },
+            {
+                "name": "bla",
+                "type": "生物分子"
+            },
+            {
+                "name": "EmbR",
+                "type": "生物分子"
+            },
+            {
+                "name": "W-HTH结构域",
+                "type": "生物分子"
+            },
+            {
+                "name": "embCAB",
+                "type": "生物分子"
+            },
+            {
+                "name": "PknH",
+                "type": "生物分子"
+            },
+            {
+                "name": "Rv1258c",
+                "type": "生物分子"
+            },
+            {
+                "name": "efpA",
+                "type": "生物分子"
+            },
+            {
+                "name": "mmpL7",
+                "type": "生物分子"
+            },
+            {
+                "name": "mmr",
+                "type": "生物分子"
+            },
+            {
+                "name": "XDR",
+                "type": "生物医学概念"
+            },
+            {
+                "name": "CRG",
+                "type": "生物分子"
+            },
+            {
+                "name": "RT-qPCR",
+                "type": "生物技术"
+            },
+            {
+                "name": "HGT",
+                "type": "生物分子"
+            },
+            {
+                "name": "密码子使用",
+                "type": "生物分子"
+            },
+            {
+                "name": "GC含量",
+                "type": "生物分子"
+            },
+            {
+                "name": "系统发育方法",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "抗生素耐药性",
+                "type": "生物医学概念"
+            },
+            {
+                "name": "药物靶点突变",
+                "type": "生物分子"
+            },
+            {
+                "name": "水平基因转移",
+                "type": "生物分子"
+            },
+            {
+                "name": "药物敏感性测试",
+                "type": "生物技术"
+            },
+            {
+                "name": "外排系统",
+                "type": "生物医学概念"
+            },
+            {
+                "name": "溴化乙锭",
+                "type": "生物分子"
+            },
+            {
+                "name": "IniA",
+                "type": "生物分子"
+            },
+            {
+                "name": "MAB_0591",
+                "type": "生物分子"
+            },
+            {
+                "name": "ADP-核糖基转移酶",
+                "type": "生物分子"
+            },
+            {
+                "name": "tmexCD1-toprJ1",
+                "type": "生物分子"
+            },
+            {
+                "name": "TOprJ1",
+                "type": "生物分子"
+            },
+            {
+                "name": "MexCD1",
+                "type": "生物分子"
+            },
+            {
+                "name": "PZA",
+                "type": "生物医学概念"
+            },
+            {
+                "name": "INH耐药基因突变",
+                "type": "生物医学概念"
+            }
+        ]
+    },
+    "relations": {
+        "chunk_id": "2024-09-25",
+        "relations": [
+            {
+                "head": "MUBII-TB-DB",
+                "type": "包含",
+                "tail": "rpoB"
+            },
+            {
+                "head": "MUBII-TB-DB",
+                "type": "包含",
+                "tail": "pncA"
+            },
+            {
+                "head": "MUBII-TB-DB",
+                "type": "包含",
+                "tail": "katG"
+            },
+            {
+                "head": "MUBII-TB-DB",
+                "type": "包含",
+                "tail": "fabG1"
+            },
+            {
+                "head": "MUBII-TB-DB",
+                "type": "包含",
+                "tail": "inhA"
+            },
+            {
+                "head": "MUBII-TB-DB",
+                "type": "包含",
+                "tail": "gyrA"
+            },
+            {
+                "head": "MUBII-TB-DB",
+                "type": "包含",
+                "tail": "gyrB"
+            },
+            {
+                "head": "MUBII-TB-DB",
+                "type": "包含",
+                "tail": "rrs"
+            },
+            {
+                "head": "多重耐药",
+                "type": "属于",
+                "tail": "生物医学概念"
+            },
+            {
+                "head": "测序",
+                "type": "使用",
+                "tail": "基因突变检测"
+            },
+            {
+                "head": "宏基因组测序",
+                "type": "使用",
+                "tail": "未培养微生物分离"
+            },
+            {
+                "head": "单细胞测序",
+                "type": "使用",
+                "tail": "未培养微生物分离"
+            },
+            {
+                "head": "qPCR",
+                "type": "使用",
+                "tail": "抗菌药物耐药性基因表达测量"
+            },
+            {
+                "head": "基因表达分析",
+                "type": "使用",
+                "tail": "耐药机制研究"
+            },
+            {
+                "head": "电泳迁移率变化测定",
+                "type": "使用",
+                "tail": "蛋白质-DNA结合分析"
+            },
+            {
+                "head": "微阵列杂交",
+                "type": "使用",
+                "tail": "耐药机制研究"
+            },
+            {
+                "head": "药敏试验",
+                "type": "使用",
+                "tail": "耐药性检测"
+            },
+            {
+                "head": "实时荧光测定法",
+                "type": "使用",
+                "tail": "外排系统活性评估"
+            },
+            {
+                "head": "机器学习",
+                "type": "使用",
+                "tail": "耐药机制验证"
+            },
+            {
+                "head": "系统发育分析",
+                "type": "使用",
+                "tail": "传播事件检测"
+            },
+            {
+                "head": "cgSNP",
+                "type": "使用",
+                "tail": "多位点序列分型"
+            },
+            {
+                "head": "cgMLST",
+                "type": "使用",
+                "tail": "多位点序列分型"
+            },
+            {
+                "head": "IC2/CC92谱系",
+                "type": "属于",
+                "tail": "结核分枝杆菌"
+            },
+            {
+                "head": "MexAB OprM外排泵",
+                "type": "属于",
+                "tail": "外排系统"
+            },
+            {
+                "head": "MexAB OprM外排泵",
+                "type": "调控",
+                "tail": "mexAB-opM操纵子"
+            },
+            {
+                "head": "MexR",
+                "type": "调控",
+                "tail": "mexAB-opM操纵子"
+            },
+            {
+                "head": "NalD",
+                "type": "调控",
+                "tail": "mexAB-opM操纵子"
+            },
+            {
+                "head": "NalC",
+                "type": "调控",
+                "tail": "mexAB-opM操纵子"
+            },
+            {
+                "head": "NDM-1",
+                "type": "属于",
+                "tail": "ARG"
+            },
+            {
+                "head": "HGT",
+                "type": "属于",
+                "tail": "基因进化机制"
+            },
+            {
+                "head": "密码子使用",
+                "type": "属于",
+                "tail": "水平基因转移检测方法"
+            },
+            {
+                "head": "GC含量",
+                "type": "属于",
+                "tail": "水平基因转移检测方法"
+            },
+            {
+                "head": "系统发育方法",
+                "type": "属于",
+                "tail": "水平基因转移检测方法"
+            },
+            {
+                "head": "抗生素使用",
+                "type": "因果",
+                "tail": "抗生素耐药性"
+            },
+            {
+                "head": "药物靶点突变",
+                "type": "因果",
+                "tail": "抗生素耐药性"
+            },
+            {
+                "head": "水平基因转移",
+                "type": "因果",
+                "tail": "抗生素耐药性"
+            },
+            {
+                "head": "外排系统",
+                "type": "因果",
+                "tail": "抗生素耐药性"
+            },
+            {
+                "head": "EmbR",
+                "type": "调控",
+                "tail": "embCAB基因"
+            },
+            {
+                "head": "PknH",
+                "type": "调控",
+                "tail": "EmbR"
+            },
+            {
+                "head": "XDR",
+                "type": "属于",
+                "tail": "多重耐药"
+            },
+            {
+                "head": "药物敏感性测试",
+                "type": "使用",
+                "tail": "候选耐药基因验证"
+            },
+            {
+                "head": "实时荧光测定法",
+                "type": "使用",
+                "tail": "外排系统活性评估"
+            },
+            {
+                "head": "溴化乙锭",
+                "type": "属于",
+                "tail": "外排底物"
+            },
+            {
+                "head": "IniA",
+                "type": "调控",
+                "tail": "细胞膜修复"
+            },
+            {
+                "head": "MAB_0591",
+                "type": "属于",
+                "tail": "ADP-核糖基转移酶"
+            },
+            {
+                "head": "ADP-核糖基转移酶",
+                "type": "调控",
+                "tail": "利福霉素耐药性"
+            },
+            {
+                "head": "Rv1258c",
+                "type": "调控",
+                "tail": "PZA耐药性"
+            },
+            {
+                "head": "efpA",
+                "type": "调控",
+                "tail": "外排系统"
+            },
+            {
+                "head": "mmpL7",
+                "type": "调控",
+                "tail": "外排系统"
+            },
+            {
+                "head": "mmr",
+                "type": "调控",
+                "tail": "外排系统"
+            },
+            {
+                "head": "RT-qPCR",
+                "type": "使用",
+                "tail": "耐药基因表达测量"
+            },
+            {
+                "head": "GWAS分析",
+                "type": "使用",
+                "tail": "耐药基因关联研究"
+            },
+            {
+                "head": "机器学习",
+                "type": "使用",
+                "tail": "耐药机制验证"
+            },
+            {
+                "head": "结核分枝杆菌",
+                "type": "属于",
+                "tail": "结核病病原体"
+            },
+            {
+                "head": "结核病",
+                "type": "属于",
+                "tail": "感染性疾病"
+            },
+            {
+                "head": "药物靶点突变",
+                "type": "属于",
+                "tail": "耐药机制"
+            },
+            {
+                "head": "水平基因转移",
+                "type": "属于",
+                "tail": "耐药机制"
+            },
+            {
+                "head": "外排系统",
+                "type": "属于",
+                "tail": "耐药机制"
+            },
+            {
+                "head": "转录调控",
+                "type": "属于",
+                "tail": "耐药机制"
+            },
+            {
+                "head": "结核杆菌",
+                "type": "属于",
+                "tail": "结核病病原体"
+            },
+            {
+                "head": "结核杆菌",
+                "type": "因果",
+                "tail": "结核病"
+            },
+            {
+                "head": "结核分枝杆菌",
+                "type": "因果",
+                "tail": "结核病"
+            },
+            {
+                "head": "结核分枝杆菌",
+                "type": "调控",
+                "tail": "embCAB基因"
+            },
+            {
+                "head": "结核分枝杆菌",
+                "type": "调控",
+                "tail": "外排系统"
+            },
+            {
+                "head": "结核分枝杆菌",
+                "type": "调控",
+                "tail": "药物靶点突变"
+            },
+            {
+                "head": "结核分枝杆菌",
+                "type": "调控",
+                "tail": "水平基因转移"
+            },
+            {
+                "head": "结核分枝杆菌",
+                "type": "调控",
+                "tail": "转录调控"
+            },
+            {
+                "head": "结核分枝杆菌",
+                "type": "调控",
+                "tail": "INH耐药基因突变"
+            },
+            {
+                "head": "INH耐药基因突变",
+                "type": "属于",
+                "tail": "生物医学概念"
+            },
+            {
+                "head": "PZA",
+                "type": "属于",
+                "tail": "抗结核药物"
+            },
+            {
+                "head": "Rv1258c",
+                "type": "调控",
+                "tail": "PZA耐药性"
+            }
+        ]
+    },
+    "status": "success"
+}

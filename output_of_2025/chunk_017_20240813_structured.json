@@ -1,0 +1,189 @@
+{
+    "timestamp": "2025-07-07T18:27:23.188245",
+    "filename": "chunk_017_20240813.md",
+    "entities": {
+        "chunk_id": "2024-08-13",
+        "entities": [
+            {
+                "name": "序列",
+                "type": "生物分子"
+            },
+            {
+                "name": "ProtBert",
+                "type": "深度学习概念"
+            },
+            {
+                "name": "参数",
+                "type": "深度学习概念"
+            },
+            {
+                "name": "Python",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "ARGNet",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "DHR",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "模型复杂度",
+                "type": "深度学习概念"
+            },
+            {
+                "name": "非ARG识别",
+                "type": "生物分子"
+            },
+            {
+                "name": "dense密集层",
+                "type": "深度学习概念"
+            },
+            {
+                "name": "shell语言",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "JavaScript",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "文件后缀",
+                "type": "其他"
+            },
+            {
+                "name": "mv",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "网页",
+                "type": "其他"
+            },
+            {
+                "name": "图片报告",
+                "type": "其他"
+            },
+            {
+                "name": "自适应屏幕大小",
+                "type": "其他"
+            }
+        ]
+    },
+    "relations": {
+        "chunk_id": "2024-08-13",
+        "relations": [
+            {
+                "head": "序列",
+                "type": "使用",
+                "tail": "ProtBert"
+            },
+            {
+                "head": "ProtBert",
+                "type": "属于",
+                "tail": "深度学习概念"
+            },
+            {
+                "head": "参数",
+                "type": "属于",
+                "tail": "深度学习概念"
+            },
+            {
+                "head": "Python",
+                "type": "使用",
+                "tail": "参数"
+            },
+            {
+                "head": "ARGNet",
+                "type": "属于",
+                "tail": "生物信息工具"
+            },
+            {
+                "head": "DHR",
+                "type": "属于",
+                "tail": "生物信息工具"
+            },
+            {
+                "head": "DHR",
+                "type": "使用",
+                "tail": "微调"
+            },
+            {
+                "head": "模型复杂度",
+                "type": "因果",
+                "tail": "效果提升"
+            },
+            {
+                "head": "模型复杂度",
+                "type": "属于",
+                "tail": "深度学习概念"
+            },
+            {
+                "head": "non-ARG识别",
+                "type": "属于",
+                "tail": "生物分子"
+            },
+            {
+                "head": "dense密集层",
+                "type": "属于",
+                "tail": "深度学习概念"
+            },
+            {
+                "head": "shell语言",
+                "type": "使用",
+                "tail": "DHR"
+            },
+            {
+                "head": "JavaScript",
+                "type": "不使用",
+                "tail": "DHR"
+            },
+            {
+                "head": "文件后缀",
+                "type": "属于",
+                "tail": "其他"
+            },
+            {
+                "head": "mv",
+                "type": "属于",
+                "tail": "生物信息工具"
+            },
+            {
+                "head": "网页",
+                "type": "属于",
+                "tail": "其他"
+            },
+            {
+                "head": "图片报告",
+                "type": "属于",
+                "tail": "其他"
+            },
+            {
+                "head": "自适应屏幕大小",
+                "type": "属于",
+                "tail": "其他"
+            },
+            {
+                "head": "网页",
+                "type": "包含",
+                "tail": "按钮"
+            },
+            {
+                "head": "网页",
+                "type": "包含",
+                "tail": "选择框"
+            },
+            {
+                "head": "网页",
+                "type": "包含",
+                "tail": "自适应屏幕大小"
+            },
+            {
+                "head": "图片报告",
+                "type": "包含",
+                "tail": "结果可视化"
+            }
+        ]
+    },
+    "status": "success"
+}

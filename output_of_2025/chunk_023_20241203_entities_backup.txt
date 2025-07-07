@@ -1,0 +1,18 @@
+
+
+{
+  "chunk_id": "2024-12-03",
+  "entities": [
+    {"name": "HMM", "type": "生物信息工具"},
+    {"name": "ESM", "type": "生物信息工具"},
+    {"name": "DRSN", "type": "生物信息工具"},
+    {"name": "attention计算方式", "type": "深度学习概念"},
+    {"name": "酶设计", "type": "生物分子"},
+    {"name": "多尺度卷积", "type": "深度学习概念"},
+    {"name": "layer selection", "type": "深度学习概念"},
+    {"name": "项目进展", "type": "项目活动"},
+    {"name": "效果比对", "type": "项目活动"},
+    {"name": "模型构造", "type": "项目活动"},
+    {"name": "动笔写", "type": "项目活动"}
+  ]
+}

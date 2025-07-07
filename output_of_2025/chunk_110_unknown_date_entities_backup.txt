@@ -1,0 +1,12 @@
+
+
+{
+  "chunk_id": "2024-03-02",
+  "entities": [
+    {"name": "SOTA", "type": "深度学习概念"},
+    {"name": "BERT", "type": "生物信息工具"},
+    {"name": "Logits", "type": "深度学习概念"},
+    {"name": "softmax", "type": "深度学习概念"},
+    {"name": "sigmoid", "type": "深度学习概念"}
+  ]
+}

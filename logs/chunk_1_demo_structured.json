@@ -1,0 +1,111 @@
+{
+    "timestamp": "2025-07-07T16:31:44.147049",
+    "filename": "chunk_1_demo.txt",
+    "entities": {
+        "chunk_id": "2024-03-02",
+        "entities": [
+            {
+                "name": "Linux",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "ls",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "-a",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "-l",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "-h",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "cd",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "pwd",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "mkdir",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "-p",
+                "type": "生物信息工具"
+            }
+        ]
+    },
+    "relations": {
+        "chunk_id": "2024-03-02",
+        "relations": [
+            {
+                "head": "Linux",
+                "type": "包含",
+                "tail": "ls"
+            },
+            {
+                "head": "Linux",
+                "type": "包含",
+                "tail": "cd"
+            },
+            {
+                "head": "Linux",
+                "type": "包含",
+                "tail": "pwd"
+            },
+            {
+                "head": "Linux",
+                "type": "包含",
+                "tail": "mkdir"
+            },
+            {
+                "head": "ls",
+                "type": "使用",
+                "tail": "-a"
+            },
+            {
+                "head": "ls",
+                "type": "使用",
+                "tail": "-l"
+            },
+            {
+                "head": "ls",
+                "type": "使用",
+                "tail": "-h"
+            },
+            {
+                "head": "mkdir",
+                "type": "使用",
+                "tail": "-p"
+            },
+            {
+                "head": "-l",
+                "type": "属于",
+                "tail": "ls"
+            },
+            {
+                "head": "-a",
+                "type": "属于",
+                "tail": "ls"
+            },
+            {
+                "head": "-h",
+                "type": "属于",
+                "tail": "ls"
+            },
+            {
+                "head": "-p",
+                "type": "属于",
+                "tail": "mkdir"
+            }
+        ]
+    },
+    "status": "success"
+}

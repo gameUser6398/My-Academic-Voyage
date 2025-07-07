@@ -1,0 +1,33 @@
+
+
+```json
+{
+  "chunk_id": "2024-03-02",
+  "relations": [
+    {"head": "Potts", "type": "使用", "tail": "MCMC"},
+    {"head": "Potts", "type": "属于", "tail": "GraphPotts"},
+    {"head": "SidechainDecoderGNN", "type": "使用", "tail": "decode"},
+    {"head": "SidechainDecoderGNN", "type": "使用", "tail": "sample"},
+    {"head": "SidechainDecoderGNN", "type": "属于", "tail": "SidechainDecoderGNN"},
+    {"head": "SidechainDecoderGNN", "type": "使用", "tail": "autoregressive"},
+    {"head": "SidechainDecoderGNN", "type": "使用", "tail": "ancestral sampling"},
+    {"head": "ProteinTraversalSpatial", "type": "使用", "tail": "sample"},
+    {"head": "ProteinGraph", "type": "属于", "tail": "ProteinTraversalSpatial"},
+    {"head": "SideChainBuilder", "type": "使用", "tail": "chi angles"},
+    {"head": "SideChainBuilder", "type": "使用", "tail": "Protein.sequence"},
+    {"head": "GraphNN", "type": "属于", "tail": "graph"},
+    {"head": "linear", "type": "属于", "tail": "sequence_embedding"},
+    {"head": "likelihood scores", "type": "属于", "tail": "scores"},
+    {"head": "GraphPotts", "type": "属于", "tail": "potts"},
+    {"head": "SidechainDecoderGNN", "type": "属于", "tail": "chi angles"},
+    {"head": "Protein.sequence", "type": "包含", "tail": "S_sample"},
+    {"head": "chi angles", "type": "包含", "tail": "chi_sample"},
+    {"head": "GraphPotts", "type": "使用", "tail": "sample"},
+    {"head": "update_with_XCS", "type": "使用", "tail": "X_sample"},
+    {"head": "update_with_XCS", "type": "使用", "tail": "S_sample"},
+    {"head": "graph_design", "type": "使用", "tail": "load_model"},
+    {"head": "graph_design", "type": "使用", "tail": "sample"},
+    {"head": "graph_design", "type": "使用", "tail": "likelihood scores"}
+  ]
+}
+```

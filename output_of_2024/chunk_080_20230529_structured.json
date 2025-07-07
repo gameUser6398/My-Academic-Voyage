@@ -1,0 +1,227 @@
+{
+    "timestamp": "2025-07-07T17:16:10.013832",
+    "filename": "chunk_080_20230529.md",
+    "entities": {
+        "chunk_id": "2024-05-16",
+        "entities": [
+            {
+                "name": "POU5F1_HUMAN",
+                "type": "生物分子"
+            },
+            {
+                "name": "POU domain",
+                "type": "生物分子"
+            },
+            {
+                "name": "Homo sapiens",
+                "type": "生物分子"
+            },
+            {
+                "name": "POU5F1",
+                "type": "生物分子"
+            },
+            {
+                "name": "UniProt ID",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "UniProt",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "TrEMBL",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "EMBL-Bank",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "GenBank",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "DDBJ",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "PDB",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "Ensembl",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "RefSeq",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "CCDS",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "UniParc",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "UniRef",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "InterPro",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "CDD",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "IUPHAR-DB",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "SWISS-2DPAGE",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "IPSA",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "utils",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "BRENDA",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "GO",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "KEGG",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "Reactome",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "STRING",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "CORUM",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "ConsensusPathDB",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "HPRD",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "STITCH",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "3DID",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "PiSite",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "PhosphoSitePlus",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "UNIMOD",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "dbPTM",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "PLMD",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "Delta Mass",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "PDB",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "SARST",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "CAFA",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "DAG",
+                "type": "深度学习概念"
+            },
+            {
+                "name": "obonet",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "t-SNE",
+                "type": "深度学习概念"
+            },
+            {
+                "name": "ProtT5",
+                "type": "深度学习概念"
+            },
+            {
+                "name": "pre-protein",
+                "type": "深度学习概念"
+            },
+            {
+                "name": "pre-residue",
+                "type": "深度学习概念"
+            },
+            {
+                "name": "Biopython",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "Bio.SeqIO",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "NGLview",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "Jupyter Notebook",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "jupyter_contrib_nbextensions",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "conda",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "GO",
+                "type": "生物信息工具"
+            }
+        ]
+    },
+    "relations": null,
+    "status": "partial_success"
+}

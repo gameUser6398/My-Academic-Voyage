@@ -1,0 +1,119 @@
+{
+    "timestamp": "2025-07-07T17:23:22.159137",
+    "filename": "chunk_081_20240129.md",
+    "entities": {
+        "chunk_id": "2024-03-02",
+        "entities": [
+            {
+                "name": "基因本体",
+                "type": "生物分子"
+            },
+            {
+                "name": "GO",
+                "type": "生物分子"
+            },
+            {
+                "name": "MSA",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "进化树",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "CLUSTAL W",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "Neighbor-Joining",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "UPGMA",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "DeepMSA",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "Neff",
+                "type": "深度学习概念"
+            },
+            {
+                "name": "宏基因组序列数据",
+                "type": "生物技术"
+            },
+            {
+                "name": "蛋白质结构",
+                "type": "生物分子"
+            }
+        ]
+    },
+    "relations": {
+        "chunk_id": "2024-03-02",
+        "relations": [
+            {
+                "head": "MSA",
+                "type": "使用",
+                "tail": "进化树"
+            },
+            {
+                "head": "CLUSTAL W",
+                "type": "使用",
+                "tail": "多序列比对"
+            },
+            {
+                "head": "Neighbor-Joining",
+                "type": "属于",
+                "tail": "进化树"
+            },
+            {
+                "head": "UPGMA",
+                "type": "属于",
+                "tail": "进化树"
+            },
+            {
+                "head": "DeepMSA",
+                "type": "使用",
+                "tail": "Neff"
+            },
+            {
+                "head": "DeepMSA",
+                "type": "使用",
+                "tail": "多序列比对"
+            },
+            {
+                "head": "Neff",
+                "type": "调控",
+                "tail": "接触预测结果准确性"
+            },
+            {
+                "head": "宏基因组序列数据",
+                "type": "使用",
+                "tail": "蛋白质结构"
+            },
+            {
+                "head": "基因本体",
+                "type": "属于",
+                "tail": "GO"
+            },
+            {
+                "head": "MSA",
+                "type": "使用",
+                "tail": "CLUSTAL W"
+            },
+            {
+                "head": "MSA",
+                "type": "使用",
+                "tail": "Neighbor-Joining"
+            },
+            {
+                "head": "MSA",
+                "type": "使用",
+                "tail": "UPGMA"
+            }
+        ]
+    },
+    "status": "success"
+}

@@ -1,0 +1,6 @@
+{
+    "timestamp": "2025-07-07T17:12:28.521628",
+    "filename": "chunk_054_20240226.md",
+    "raw_entities": "\n\n{\n  \"chunk_id\": \"2024-02-26\",\n  \"entities\": [\n    {\"name\": \"conda\", \"type\": \"生物信息工具\"},\n    {\"name\": \"Python\", \"type\": \"生物信息工具\"},\n    {\"name\": \"Google Colab\", \"type\": \"生物信息工具\"},\n    {\"name\": \"蛋白质设计\", \"type\": \"生物分子\"},\n    {\"name\": \"深度学习\", \"type\": \"深度学习概念\"},\n    {\"name\": \"Linux\", \"type\": \"生物信息工具\"},\n    {\"name\": \"欧几里得距离\", \"type\": \"深度学习概念\"},\n    {\"name\": \"结构\", \"type\": \"生物分子\"},\n    {\"name\": \"能量比较\", \"type\": \"项目活动\"},\n    {\"name\": \"质量控制\", \"type\": \"项目活动\"}\n  ]\n}",
+    "raw_relations": "\n\n```json\n{\n  \"chunk_id\": \"2024-02-26\",\n  \"relations\": [\n    {\"head\": \"conda\", \"type\": \"使用\", \"tail\": \"环境管理\"},\n    {\"head\": \"Python\", \"type\": \"使用\", \"tail\": \"环境创建\"},\n    {\"head\": \"Google Colab\", \"type\": \"使用\", \"tail\": \"环境管理\"},\n    {\"head\": \"深度学习\", \"type\": \"属于\", \"tail\": \"蛋白质设计\"},\n    {\"head\": \"欧几里得距离\", \"type\": \"属于\", \"tail\": \"嵌入结果\"},\n    {\"head\": \"结构\", \"type\": \"包含\", \"tail\": \"能量比较\"},\n    {\"head\": \"chroma\", \"type\": \"使用\", \"tail\": \"质量控制\"},\n    {\"head\": \"Linux\", \"type\": \"属于\", \"tail\": \"系统配置\"}\n  ]\n}\n```"
+}

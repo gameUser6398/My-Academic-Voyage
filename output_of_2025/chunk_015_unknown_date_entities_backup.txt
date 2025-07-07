@@ -1,0 +1,26 @@
+
+
+```json
+{
+  "chunk_id": "2024-03-02",
+  "entities": [
+    {"name": "β-内酰胺类", "type": "生物分子"},
+    {"name": "四环素类", "type": "生物分子"},
+    {"name": "multi-drug类", "type": "生物分子"},
+    {"name": "Uniprot", "type": "生物信息工具"},
+    {"name": "mibgc", "type": "生物信息工具"},
+    {"name": "ARG", "type": "生物分子"},
+    {"name": "青霉素", "type": "生物分子"},
+    {"name": "阿莫西林", "type": "生物分子"},
+    {"name": "card-rgi", "type": "生物信息工具"},
+    {"name": "Resfinder", "type": "生物信息工具"},
+    {"name": "脚本", "type": "生物信息工具"},
+    {"name": "网页", "type": "项目活动"},
+    {"name": "搜索框", "type": "其他"},
+    {"name": "gene search", "type": "其他"},
+    {"name": "序列数据", "type": "生物分子"},
+    {"name": "左侧菜单", "type": "其他"},
+    {"name": "后端衔接", "type": "项目活动"}
+  ]
+}
+```

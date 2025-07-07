@@ -1,0 +1,27 @@
+
+
+```json
+{
+  "chunk_id": "2023-07-06",
+  "relations": [
+    {"head": "文献阅读", "type": "使用", "tail": "CAFA数据集"},
+    {"head": "文献阅读", "type": "使用", "tail": "bio-embedding库"},
+    {"head": "文献阅读", "type": "使用", "tail": "神经网络"},
+    {"head": "技术学习", "type": "包含", "tail": "one-hot"},
+    {"head": "技术学习", "type": "包含", "tail": "CNN"},
+    {"head": "技术学习", "type": "包含", "tail": "词嵌入"},
+    {"head": "技术学习", "type": "包含", "tail": "RNN"},
+    {"head": "技术学习", "type": "包含", "tail": "LSTM"},
+    {"head": "技术学习", "type": "包含", "tail": "BERT"},
+    {"head": "技术学习", "type": "使用", "tail": "蛋白质数据提取"},
+    {"head": "技术学习", "type": "属于", "tail": "模型1.0"},
+    {"head": "技术学习", "type": "属于", "tail": "项目活动"},
+    {"head": "源代码阅读", "type": "属于", "tail": "项目活动"},
+    {"head": "环境配置", "type": "属于", "tail": "项目活动"},
+    {"head": "软件安装", "type": "属于", "tail": "项目活动"},
+    {"head": "讨论内容", "type": "使用", "tail": "OneNote"},
+    {"head": "服务器", "type": "属于", "tail": "生物信息工具"},
+    {"head": "突发性能型", "type": "属于", "tail": "性能模式"}
+  ]
+}
+```

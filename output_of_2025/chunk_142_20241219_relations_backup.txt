@@ -1,0 +1,31 @@
+
+
+```json
+{
+  "chunk_id": "2024-03-02",
+  "relations": [
+    {"head": "LORA", "type": "使用", "tail": "微调"},
+    {"head": "微调", "type": "使用", "tail": "ESM"},
+    {"head": "微调", "type": "使用", "tail": "Transformer"},
+    {"head": "学习率", "type": "设置", "tail": "5e-5"},
+    {"head": "微调", "type": "调整", "tail": "学习率"},
+    {"head": "微调", "type": "调整", "tail": "秩"},
+    {"head": "微调", "type": "调整", "tail": "缩放因子"},
+    {"head": "微调", "type": "调整", "tail": "target_modules"},
+    {"head": "target_modules", "type": "包含", "tail": "query"},
+    {"head": "target_modules", "type": "包含", "tail": "value"},
+    {"head": "target_modules", "type": "包含", "tail": "key"},
+    {"head": "ESM2", "type": "属于", "tail": "生物信息工具"},
+    {"head": "35M", "type": "描述", "tail": "ESM2"},
+    {"head": "微调", "type": "依赖", "tail": "Warmup策略"},
+    {"head": "微调", "type": "依赖", "tail": "Batch size"},
+    {"head": "Attention", "type": "使用", "tail": "结构域识别"},
+    {"head": "bertviz", "type": "使用", "tail": "Attention解析"},
+    {"head": "model_view", "type": "使用", "tail": "Attention解析"},
+    {"head": "Attention", "type": "包含", "tail": "多头attention"},
+    {"head": "熵", "type": "使用", "tail": "保守位置识别"},
+    {"head": "简单平均", "type": "属于", "tail": "其他"},
+    {"head": "最大值", "type": "属于", "tail": "其他"}
+  ]
+}
+```

@@ -1,0 +1,31 @@
+
+
+```json
+{
+  "chunk_id": "2024-04-22",
+  "entities": [
+    {"name": "ARG", "type": "生物分子"},
+    {"name": "宏基因组分析", "type": "生物技术"},
+    {"name": "AMR-meta", "type": "生物信息工具"},
+    {"name": "抗生素耐药性", "type": "生物医学概念"},
+    {"name": "k-mers", "type": "生物信息工具"},
+    {"name": "矩阵分解", "type": "深度学习概念"},
+    {"name": "假阳性率", "type": "生物医学概念"},
+    {"name": "AMR++", "type": "生物信息工具"},
+    {"name": "高通量测序数据", "type": "生物技术"},
+    {"name": "MEGARes", "type": "生物信息工具"},
+    {"name": "Meta-MARC", "type": "生物信息工具"},
+    {"name": "机器学习", "type": "深度学习概念"},
+    {"name": "分层隐马尔可夫模型", "type": "深度学习概念"},
+    {"name": "灵敏度", "type": "生物信息工具"},
+    {"name": "特异性", "type": "生物信息工具"},
+    {"name": "DeepARG", "type": "生物信息工具"},
+    {"name": "深度学习", "type": "深度学习概念"},
+    {"name": "DeepARG-SS", "type": "生物信息工具"},
+    {"name": "DeepARG-LS", "type": "生物信息工具"},
+    {"name": "误阴性率", "type": "生物医学概念"},
+    {"name": "GWAS", "type": "生物信息工具"},
+    {"name": "全基因组关联分析", "type": "生物信息工具"}
+  ]
+}
+```

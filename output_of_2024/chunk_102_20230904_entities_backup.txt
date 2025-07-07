@@ -1,0 +1,14 @@
+
+
+{
+  "chunk_id": "2023-09-04_22:02",
+  "entities": [
+    {"name": "Transformer", "type": "深度学习概念"},
+    {"name": "loss", "type": "深度学习概念"},
+    {"name": "pred_out", "type": "深度学习概念"},
+    {"name": "regular_loss", "type": "深度学习概念"},
+    {"name": "encoder_outputs", "type": "深度学习概念"},
+    {"name": "final_emb", "type": "深度学习概念"},
+    {"name": "train.py", "type": "生物信息工具"}
+  ]
+}

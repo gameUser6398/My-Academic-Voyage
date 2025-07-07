@@ -1,0 +1,15 @@
+
+
+{
+  "chunk_id": "2024-03-02",
+  "relations": [
+    {"head": "binary cross entropy", "type": "属于", "tail": "损失函数"},
+    {"head": "binary_crossentropy", "type": "属于", "tail": "PyTorch"},
+    {"head": "binary_cross_entropy_with_logits", "type": "属于", "tail": "PyTorch"},
+    {"head": "F-1 分数", "type": "属于", "tail": "torchmetrics"},
+    {"head": "softmax", "type": "使用", "tail": "多标签分类"},
+    {"head": "FocalLoss", "type": "调控", "tail": "样本不平衡"},
+    {"head": "AUC", "type": "属于", "tail": "深度学习概念"},
+    {"head": "MCC", "type": "属于", "tail": "深度学习概念"}
+  ]
+}

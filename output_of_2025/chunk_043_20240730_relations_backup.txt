@@ -1,0 +1,36 @@
+
+
+```json
+{
+  "chunk_id": "2024-03-02",
+  "relations": [
+    {"head": "抗性基因", "type": "属于", "tail": "ARG"},
+    {"head": "抗性基因", "type": "使用", "tail": "关键词筛选"},
+    {"head": "BLAST", "type": "使用", "tail": "抗性基因"},
+    {"head": "HMMSCAN", "type": "使用", "tail": "抗性基因"},
+    {"head": "MIBiG 2.0", "type": "包含", "tail": "抗性基因"},
+    {"head": "CARD", "type": "包含", "tail": "抗性基因"},
+    {"head": "NCBIAMR", "type": "包含", "tail": "抗性基因"},
+    {"head": "UniProt", "type": "包含", "tail": "抗性基因"},
+    {"head": "MIBiG 2.0", "type": "包含", "tail": "BGCs"},
+    {"head": "BGCs", "type": "编码", "tail": "天然产物"},
+    {"head": "抗性基因", "type": "涉及", "tail": "耐药机制"},
+    {"head": "CARD", "type": "注释", "tail": "抗生素化合物"},
+    {"head": "MIBiG", "type": "注释", "tail": "天然产物分子"},
+    {"head": "UniProt", "type": "注释", "tail": "酶产物"},
+    {"head": "NCBIAMR", "type": "注释", "tail": "抗生素分子"},
+    {"head": "DHR", "type": "属于", "tail": "深度学习概念"},
+    {"head": "DHR", "type": "使用", "tail": "对比学习"},
+    {"head": "DHR", "type": "使用", "tail": "FAISS"},
+    {"head": "DHR", "type": "使用", "tail": "ESM2"},
+    {"head": "DHR", "type": "使用", "tail": "logMeff"},
+    {"head": "MarRef", "type": "包含", "tail": "BGCs"},
+    {"head": "MarRef", "type": "分析", "tail": "1390 genomes"},
+    {"head": "MarRef BGCs", "type": "包含", "tail": "天然产物"},
+    {"head": "RGDB", "type": "用于", "tail": "抗性基因识别"},
+    {"head": "RGDB", "type": "包含", "tail": "抗性基因序列"},
+    {"head": "RGDB", "type": "包含", "tail": "HMM模型"},
+    {"head": "ARG预测模型", "type": "构建", "tail": "MarRef数据"}
+  ]
+}
+```

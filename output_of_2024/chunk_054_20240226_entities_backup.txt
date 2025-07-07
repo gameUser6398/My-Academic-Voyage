@@ -1,0 +1,17 @@
+
+
+{
+  "chunk_id": "2024-02-26",
+  "entities": [
+    {"name": "conda", "type": "生物信息工具"},
+    {"name": "Python", "type": "生物信息工具"},
+    {"name": "Google Colab", "type": "生物信息工具"},
+    {"name": "蛋白质设计", "type": "生物分子"},
+    {"name": "深度学习", "type": "深度学习概念"},
+    {"name": "Linux", "type": "生物信息工具"},
+    {"name": "欧几里得距离", "type": "深度学习概念"},
+    {"name": "结构", "type": "生物分子"},
+    {"name": "能量比较", "type": "项目活动"},
+    {"name": "质量控制", "type": "项目活动"}
+  ]
+}

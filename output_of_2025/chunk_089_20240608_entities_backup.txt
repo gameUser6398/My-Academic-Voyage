@@ -1,0 +1,39 @@
+
+
+```json
+{
+  "chunk_id": "2024-03-02",
+  "entities": [
+    {"name": "GCA_002947415.1", "type": "生物分子"},
+    {"name": "datasets", "type": "生物信息工具"},
+    {"name": "NCBI Prokaryotic Genome Annotation Pipeline (PGAP)", "type": "生物信息工具"},
+    {"name": "ARG", "type": "生物分子"},
+    {"name": "lncRNA", "type": "生物分子"},
+    {"name": "miRNA", "type": "生物分子"},
+    {"name": "rRNA", "type": "生物分子"},
+    {"name": "Acinetobacter baumannii", "type": "生物医学概念"},
+    {"name": "Centers for Disease Control and Prevention", "type": "其他"},
+    {"name": "PacBio RSII", "type": "生物技术"},
+    {"name": "canu", "type": "生物信息工具"},
+    {"name": "BLAST", "type": "生物信息工具"},
+    {"name": "makeblastdb", "type": "生物信息工具"},
+    {"name": "blastp", "type": "生物信息工具"},
+    {"name": "RGDB-Mechanism_database", "type": "生物信息工具"},
+    {"name": "cardresis", "type": "生物信息工具"},
+    {"name": "PLM-ARG_DB.fasta", "type": "生物信息工具"},
+    {"name": "evalue", "type": "深度学习概念"},
+    {"name": "FASTA", "type": "生物信息工具"},
+    {"name": "Tabular", "type": "深度学习概念"},
+    {"name": "XML", "type": "深度学习概念"},
+    {"name": "JSON", "type": "深度学习概念"},
+    {"name": "qacc", "type": "深度学习概念"},
+    {"name": "sacc", "type": "深度学习概念"},
+    {"name": "evalue", "type": "深度学习概念"},
+    {"name": "bitscore", "type": "深度学习概念"},
+    {"name": "score", "type": "深度学习概念"},
+    {"name": "Prodigal", "type": "生物信息工具"},
+    {"name": "mRNA", "type": "生物分子"},
+    {"name": "Python", "type": "生物信息工具"}
+  ]
+}
+```

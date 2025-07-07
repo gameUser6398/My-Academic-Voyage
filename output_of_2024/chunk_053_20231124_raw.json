@@ -1,0 +1,6 @@
+{
+    "timestamp": "2025-07-07T17:07:38.158573",
+    "filename": "chunk_053_20231124.md",
+    "raw_entities": "\n\n{\n  \"chunk_id\": \"2024-03-02\",\n  \"entities\": [\n    {\"name\": \"Transformer\", \"type\": \"深度学习概念\"},\n    {\"name\": \"PyTorch\", \"type\": \"生物信息工具\"},\n    {\"name\": \"Torchvision\", \"type\": \"生物信息工具\"},\n    {\"name\": \"Torchaudio\", \"type\": \"生物信息工具\"},\n    {\"name\": \"CUDA\", \"type\": \"生物信息工具\"},\n    {\"name\": \"Torchmetrics\", \"type\": \"生物信息工具\"},\n    {\"name\": \"Colab\", \"type\": \"生物信息工具\"}\n  ]\n}",
+    "raw_relations": "\n\n{\n  \"chunk_id\": \"2024-03-02\",\n  \"relations\": [\n    {\"head\": \"conda\", \"type\": \"使用\", \"tail\": \"PyTorch\"},\n    {\"head\": \"conda\", \"type\": \"使用\", \"tail\": \"Torchvision\"},\n    {\"head\": \"conda\", \"type\": \"使用\", \"tail\": \"Torchaudio\"},\n    {\"head\": \"conda\", \"type\": \"使用\", \"tail\": \"CUDA\"},\n    {\"head\": \"conda\", \"type\": \"使用\", \"tail\": \"Torchmetrics\"},\n    {\"head\": \"Transformer\", \"type\": \"使用\", \"tail\": \"PyTorch\"},\n    {\"head\": \"Colab\", \"type\": \"使用\", \"tail\": \"Transformer\"}\n  ]\n}"
+}

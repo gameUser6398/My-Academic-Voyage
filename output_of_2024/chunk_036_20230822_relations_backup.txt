@@ -1,0 +1,15 @@
+
+
+{
+  "chunk_id": "2023-08-22_14-20",
+  "relations": [
+    {"head": "LucaProt", "type": "使用", "tail": "深度学习"},
+    {"head": "LucaProt", "type": "使用", "tail": "氨基酸序列"},
+    {"head": "LucaProt", "type": "属于", "tail": "GitHub"},
+    {"head": "LucaProt", "type": "实现", "tail": "蛋白质功能预测"},
+    {"head": "进化尺度建模（ESM）", "type": "属于", "tail": "GitHub"},
+    {"head": "进化尺度建模（ESM）", "type": "实现", "tail": "蛋白质功能预测"},
+    {"head": "进化尺度建模（ESM）", "type": "使用", "tail": "深度学习"},
+    {"head": "进化尺度建模（ESM）", "type": "使用", "tail": "氨基酸序列"}
+  ]
+}

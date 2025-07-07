@@ -1,0 +1,14 @@
+
+
+```json
+{
+  "chunk_id": "2024-03-02",
+  "relations": [
+    {"head": "protein", "type": "使用", "tail": "Matplotlib"},
+    {"head": "identity_min", "type": "属于", "tail": "结构"},
+    {"head": "mean", "type": "属于", "tail": "结构"},
+    {"head": "sample", "type": "属于", "tail": "结构"},
+    {"head": "结果", "type": "包含", "tail": "结构"}
+  ]
+}
+```

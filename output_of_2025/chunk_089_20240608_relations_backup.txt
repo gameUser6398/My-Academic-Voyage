@@ -1,0 +1,114 @@
+
+
+```json
+{
+  "chunk_id": "2024-03-02",
+  "relations": [
+    {
+      "head": "GCA_002947415.1",
+      "type": "使用",
+      "tail": "NCBI Prokaryotic Genome Annotation Pipeline (PGAP)"
+    },
+    {
+      "head": "NCBI Prokaryotic Genome Annotation Pipeline (PGAP)",
+      "type": "包含",
+      "tail": "GeneMarkS+"
+    },
+    {
+      "head": "GCA_002947415.1",
+      "type": "属于",
+      "tail": "Acinetobacter baumannii"
+    },
+    {
+      "head": "GCA_002947415.1",
+      "type": "使用",
+      "tail": "PacBio RSII"
+    },
+    {
+      "head": "GCA_002947415.1",
+      "type": "提交者",
+      "tail": "Centers for Disease Control and Prevention"
+    },
+    {
+      "head": "NCBI Prokaryotic Genome Annotation Pipeline (PGAP)",
+      "type": "包含",
+      "tail": "protein_coding"
+    },
+    {
+      "head": "NCBI Prokaryotic Genome Annotation Pipeline (PGAP)",
+      "type": "包含",
+      "tail": "non_coding"
+    },
+    {
+      "head": "NCBI Prokaryotic Genome Annotation Pipeline (PGAP)",
+      "type": "包含",
+      "tail": "pseudogene"
+    },
+    {
+      "head": "makeblastdb",
+      "type": "使用",
+      "tail": "FASTA"
+    },
+    {
+      "head": "blastp",
+      "type": "使用",
+      "tail": "RGDB-Mechanism_database"
+    },
+    {
+      "head": "blastp",
+      "type": "使用",
+      "tail": "cardresis"
+    },
+    {
+      "head": "blastp",
+      "type": "使用",
+      "tail": "PLM-ARG_DB.fasta"
+    },
+    {
+      "head": "blastp",
+      "type": "输出",
+      "tail": "Tabular"
+    },
+    {
+      "head": "blastp",
+      "type": "输出",
+      "tail": "XML"
+    },
+    {
+      "head": "blastp",
+      "type": "输出",
+      "tail": "JSON"
+    },
+    {
+      "head": "blastp",
+      "type": "使用",
+      "tail": "evalue"
+    },
+    {
+      "head": "blastp",
+      "type": "使用",
+      "tail": "bitscore"
+    },
+    {
+      "head": "blastp",
+      "type": "使用",
+      "tail": "score"
+    },
+    {
+      "head": "Prodigal",
+      "type": "使用",
+      "tail": "mRNA"
+    },
+    {
+      "head": "Prodigal",
+      "type": "使用",
+      "tail": "FASTA"
+    },
+    {
+      "head": "Python",
+      "type": "使用",
+      "tail": "biopython::blast"
+    }
+  ]
+}
+```

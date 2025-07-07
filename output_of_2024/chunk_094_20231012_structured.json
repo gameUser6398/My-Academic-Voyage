@@ -1,0 +1,194 @@
+{
+    "timestamp": "2025-07-07T17:02:33.186234",
+    "filename": "chunk_094_20231012.md",
+    "entities": {
+        "chunk_id": "2024-03-02",
+        "entities": [
+            {
+                "name": "蛋白质",
+                "type": "生物分子"
+            },
+            {
+                "name": "Transformer",
+                "type": "深度学习概念"
+            },
+            {
+                "name": "蛋白质大语言模型",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "GO",
+                "type": "生物分子"
+            },
+            {
+                "name": "Anc2vec",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "交叉熵",
+                "type": "深度学习概念"
+            },
+            {
+                "name": "Focal loss",
+                "type": "深度学习概念"
+            },
+            {
+                "name": "功能注释",
+                "type": "生物医学概念"
+            },
+            {
+                "name": "蛋白发现",
+                "type": "生物医学概念"
+            },
+            {
+                "name": "深度学习模型",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "CAFA",
+                "type": "其他"
+            },
+            {
+                "name": "入门手册",
+                "type": "项目活动"
+            },
+            {
+                "name": "召回率",
+                "type": "深度学习概念"
+            },
+            {
+                "name": "MF",
+                "type": "生物分子"
+            },
+            {
+                "name": "BP",
+                "type": "生物分子"
+            },
+            {
+                "name": "CC",
+                "type": "生物分子"
+            }
+        ]
+    },
+    "relations": {
+        "chunk_id": "2024-03-02",
+        "relations": [
+            {
+                "head": "蛋白质大语言模型",
+                "type": "使用",
+                "tail": "Transformer"
+            },
+            {
+                "head": "蛋白质大语言模型",
+                "type": "使用",
+                "tail": "蛋白质嵌入"
+            },
+            {
+                "head": "蛋白质嵌入",
+                "type": "属于",
+                "tail": "深度学习模型"
+            },
+            {
+                "head": "Anc2vec",
+                "type": "使用",
+                "tail": "GO"
+            },
+            {
+                "head": "Anc2vec",
+                "type": "属于",
+                "tail": "生物信息工具"
+            },
+            {
+                "head": "交叉熵",
+                "type": "属于",
+                "tail": "损失函数"
+            },
+            {
+                "head": "Focal loss",
+                "type": "属于",
+                "tail": "损失函数"
+            },
+            {
+                "head": "功能注释",
+                "type": "使用",
+                "tail": "交叉熵"
+            },
+            {
+                "head": "功能注释",
+                "type": "使用",
+                "tail": "Focal loss"
+            },
+            {
+                "head": "Focal loss",
+                "type": "解决",
+                "tail": "样本不平衡问题"
+            },
+            {
+                "head": "深度学习模型",
+                "type": "用于",
+                "tail": "功能注释"
+            },
+            {
+                "head": "深度学习模型",
+                "type": "用于",
+                "tail": "蛋白发现"
+            },
+            {
+                "head": "项目",
+                "type": "产出",
+                "tail": "深度学习模型"
+            },
+            {
+                "head": "项目",
+                "type": "编写",
+                "tail": "入门手册"
+            },
+            {
+                "head": "GO",
+                "type": "包含",
+                "tail": "MF"
+            },
+            {
+                "head": "GO",
+                "type": "包含",
+                "tail": "BP"
+            },
+            {
+                "head": "GO",
+                "type": "包含",
+                "tail": "CC"
+            },
+            {
+                "head": "GO",
+                "type": "属于",
+                "tail": "生物分子"
+            },
+            {
+                "head": "tale",
+                "type": "使用",
+                "tail": "GO输入"
+            },
+            {
+                "head": "GO输入",
+                "type": "表示",
+                "tail": "父子关系"
+            },
+            {
+                "head": "CAFA",
+                "type": "属于",
+                "tail": "其他"
+            },
+            {
+                "head": "项目",
+                "type": "属于",
+                "tail": "项目活动"
+            },
+            {
+                "head": "召回率",
+                "type": "属于",
+                "tail": "深度学习概念"
+            }
+        ]
+    },
+    "status": "success"
+}

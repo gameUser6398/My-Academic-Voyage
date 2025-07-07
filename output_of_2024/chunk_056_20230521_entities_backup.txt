@@ -1,0 +1,41 @@
+
+
+```json
+{
+  "chunk_id": "2024-03-02",
+  "entities": [
+    {"name": "conda", "type": "生物信息工具"},
+    {"name": "bash", "type": "生物信息工具"},
+    {"name": "Linux", "type": "生物信息工具"},
+    {"name": "pip", "type": "生物信息工具"},
+    {"name": "pandas", "type": "生物信息工具"},
+    {"name": "Anaconda", "type": "生物信息工具"},
+    {"name": "miniconda", "type": "生物信息工具"},
+    {"name": "Python", "type": "生物信息工具"},
+    {"name": "pytorch", "type": "生物信息工具"},
+    {"name": "git", "type": "生物信息工具"},
+    {"name": "JupyterLab", "type": "生物信息工具"},
+    {"name": "ipykernel", "type": "生物信息工具"},
+    {"name": "ls", "type": "生物信息工具"},
+    {"name": "cd", "type": "生物信息工具"},
+    {"name": "pwd", "type": "生物信息工具"},
+    {"name": "mkdir", "type": "生物信息工具"},
+    {"name": "touch", "type": "生物信息工具"},
+    {"name": "cat", "type": "生物信息工具"},
+    {"name": "more", "type": "生物信息工具"},
+    {"name": "cp", "type": "生物信息工具"},
+    {"name": "mv", "type": "生物信息工具"},
+    {"name": "rm", "type": "生物信息工具"},
+    {"name": "which", "type": "生物信息工具"},
+    {"name": "find", "type": "生物信息工具"},
+    {"name": "grep", "type": "生物信息工具"},
+    {"name": "wc", "type": "生物信息工具"},
+    {"name": "echo", "type": "生物信息工具"},
+    {"name": "tail", "type": "生物信息工具"},
+    {"name": "vi", "type": "生物信息工具"},
+    {"name": "vim", "type": "生物信息工具"},
+    {"name": "awk", "type": "生物信息工具"},
+    {"name": "xargs", "type": "生物信息工具"}
+  ]
+}
+```

@@ -1,0 +1,207 @@
+{
+    "timestamp": "2025-07-07T17:18:19.658163",
+    "filename": "chunk_104_20240209.md",
+    "entities": {
+        "chunk_id": "2024-03-02",
+        "entities": [
+            {
+                "name": "Potts",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "MCMC",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "ProteinTraversalSpatial",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "ProteinGraph",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "GraphPotts",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "SidechainDecoderGNN",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "chi angles",
+                "type": "生物分子"
+            },
+            {
+                "name": "SideChainBuilder",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "Protein.sequence",
+                "type": "生物分子"
+            },
+            {
+                "name": "GraphNN",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "autoregressive",
+                "type": "深度学习概念"
+            },
+            {
+                "name": "ancestral sampling",
+                "type": "深度学习概念"
+            },
+            {
+                "name": "linear",
+                "type": "深度学习概念"
+            },
+            {
+                "name": "likelihood scores",
+                "type": "深度学习概念"
+            },
+            {
+                "name": "sampling",
+                "type": "生物技术"
+            },
+            {
+                "name": "decode",
+                "type": "项目活动"
+            },
+            {
+                "name": "sample",
+                "type": "项目活动"
+            },
+            {
+                "name": "update_with_XCS",
+                "type": "项目活动"
+            }
+        ]
+    },
+    "relations": {
+        "chunk_id": "2024-03-02",
+        "relations": [
+            {
+                "head": "Potts",
+                "type": "使用",
+                "tail": "MCMC"
+            },
+            {
+                "head": "Potts",
+                "type": "属于",
+                "tail": "GraphPotts"
+            },
+            {
+                "head": "SidechainDecoderGNN",
+                "type": "使用",
+                "tail": "decode"
+            },
+            {
+                "head": "SidechainDecoderGNN",
+                "type": "使用",
+                "tail": "sample"
+            },
+            {
+                "head": "SidechainDecoderGNN",
+                "type": "属于",
+                "tail": "SidechainDecoderGNN"
+            },
+            {
+                "head": "SidechainDecoderGNN",
+                "type": "使用",
+                "tail": "autoregressive"
+            },
+            {
+                "head": "SidechainDecoderGNN",
+                "type": "使用",
+                "tail": "ancestral sampling"
+            },
+            {
+                "head": "ProteinTraversalSpatial",
+                "type": "使用",
+                "tail": "sample"
+            },
+            {
+                "head": "ProteinGraph",
+                "type": "属于",
+                "tail": "ProteinTraversalSpatial"
+            },
+            {
+                "head": "SideChainBuilder",
+                "type": "使用",
+                "tail": "chi angles"
+            },
+            {
+                "head": "SideChainBuilder",
+                "type": "使用",
+                "tail": "Protein.sequence"
+            },
+            {
+                "head": "GraphNN",
+                "type": "属于",
+                "tail": "graph"
+            },
+            {
+                "head": "linear",
+                "type": "属于",
+                "tail": "sequence_embedding"
+            },
+            {
+                "head": "likelihood scores",
+                "type": "属于",
+                "tail": "scores"
+            },
+            {
+                "head": "GraphPotts",
+                "type": "属于",
+                "tail": "potts"
+            },
+            {
+                "head": "SidechainDecoderGNN",
+                "type": "属于",
+                "tail": "chi angles"
+            },
+            {
+                "head": "Protein.sequence",
+                "type": "包含",
+                "tail": "S_sample"
+            },
+            {
+                "head": "chi angles",
+                "type": "包含",
+                "tail": "chi_sample"
+            },
+            {
+                "head": "GraphPotts",
+                "type": "使用",
+                "tail": "sample"
+            },
+            {
+                "head": "update_with_XCS",
+                "type": "使用",
+                "tail": "X_sample"
+            },
+            {
+                "head": "update_with_XCS",
+                "type": "使用",
+                "tail": "S_sample"
+            },
+            {
+                "head": "graph_design",
+                "type": "使用",
+                "tail": "load_model"
+            },
+            {
+                "head": "graph_design",
+                "type": "使用",
+                "tail": "sample"
+            },
+            {
+                "head": "graph_design",
+                "type": "使用",
+                "tail": "likelihood scores"
+            }
+        ]
+    },
+    "status": "success"
+}

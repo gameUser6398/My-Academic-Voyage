@@ -1,0 +1,17 @@
+
+
+```json
+{
+  "chunk_id": "2024-03-02",
+  "relations": [
+    {"head": "VSCode", "type": "使用", "tail": "SSH"},
+    {"head": "VSCode", "type": "使用", "tail": "OpenSSH"},
+    {"head": "VSCode", "type": "属于", "tail": "远程连接"},
+    {"head": "VSCode", "type": "使用", "tail": "命令"},
+    {"head": "PyCharm", "type": "使用", "tail": "Python"},
+    {"head": "Linux", "type": "使用", "tail": "SSH"},
+    {"head": "SSH", "type": "属于", "tail": "远程连接"},
+    {"head": "OpenSSH", "type": "属于", "tail": "SSH"}
+  ]
+}
+```

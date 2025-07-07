@@ -1,0 +1,286 @@
+{
+    "timestamp": "2025-07-07T18:43:51.020940",
+    "filename": "chunk_122_20241025.md",
+    "entities": {
+        "chunk_id": "2024-03-02",
+        "entities": [
+            {
+                "name": "ARG",
+                "type": "生物分子"
+            },
+            {
+                "name": "宏基因组测序",
+                "type": "生物技术"
+            },
+            {
+                "name": "Whole Genome Sequencing",
+                "type": "生物技术"
+            },
+            {
+                "name": "Whole Metagenome Sequencing",
+                "type": "生物技术"
+            },
+            {
+                "name": "机器学习",
+                "type": "深度学习概念"
+            },
+            {
+                "name": "Hierarchical Hidden Markov models",
+                "type": "深度学习概念"
+            },
+            {
+                "name": "DeepARG",
+                "type": "生物信息工具"
+            },
+            {
+                "name": "深度学习模型",
+                "type": "深度学习概念"
+            },
+            {
+                "name": "AMR表型预测",
+                "type": "生物医学概念"
+            },
+            {
+                "name": "基因组组装",
+                "type": "生物技术"
+            },
+            {
+                "name": "宏基因组组装",
+                "type": "生物技术"
+            },
+            {
+                "name": "质量控制",
+                "type": "生物技术"
+            },
+            {
+                "name": "SNP",
+                "type": "生物分子"
+            },
+            {
+                "name": "多模态数据表征融合",
+                "type": "项目活动"
+            },
+            {
+                "name": "文献调研",
+                "type": "项目活动"
+            },
+            {
+                "name": "统计分析",
+                "type": "项目活动"
+            },
+            {
+                "name": "横向对比",
+                "type": "项目活动"
+            },
+            {
+                "name": "抗性基因",
+                "type": "生物分子"
+            },
+            {
+                "name": "抗生素耐药性",
+                "type": "生物医学概念"
+            },
+            {
+                "name": "AMR数据库",
+                "type": "项目活动"
+            },
+            {
+                "name": "平台搭建",
+                "type": "项目活动"
+            },
+            {
+                "name": "深度学习",
+                "type": "深度学习概念"
+            },
+            {
+                "name": "全链路实践",
+                "type": "项目活动"
+            },
+            {
+                "name": "可扩展的AMR预测",
+                "type": "项目活动"
+            }
+        ]
+    },
+    "relations": {
+        "chunk_id": "2024-03-02",
+        "relations": [
+            {
+                "head": "基因组/宏基因组组装与质量控制",
+                "type": "包含",
+                "tail": "基因组组装"
+            },
+            {
+                "head": "基因组/宏基因组组装与质量控制",
+                "type": "包含",
+                "tail": "宏基因组组装"
+            },
+            {
+                "head": "基因组/宏基因组组装与质量控制",
+                "type": "包含",
+                "tail": "质量控制"
+            },
+            {
+                "head": "基因与抗性基因ARG的识别",
+                "type": "包含",
+                "tail": "ARG"
+            },
+            {
+                "head": "基因与抗性基因ARG的识别",
+                "type": "包含",
+                "tail": "抗性基因"
+            },
+            {
+                "head": "基因与抗性基因ARG的识别",
+                "type": "使用",
+                "tail": "与现有数据库（文献库）的对比分析"
+            },
+            {
+                "head": "多模态数据表征融合",
+                "type": "包含",
+                "tail": "基因组数据"
+            },
+            {
+                "head": "多模态数据表征融合",
+                "type": "包含",
+                "tail": "元数据"
+            },
+            {
+                "head": "多模态数据表征融合",
+                "type": "包含",
+                "tail": "SNP"
+            },
+            {
+                "head": "深度学习模型搭建",
+                "type": "使用",
+                "tail": "深度学习"
+            },
+            {
+                "head": "深度学习模型搭建",
+                "type": "使用",
+                "tail": "深度学习模型"
+            },
+            {
+                "head": "深度学习模型搭建",
+                "type": "实现",
+                "tail": "AMR表型预测"
+            },
+            {
+                "head": "AMR数据库与平台搭建",
+                "type": "包含",
+                "tail": "AMR数据库"
+            },
+            {
+                "head": "AMR数据库与平台搭建",
+                "type": "包含",
+                "tail": "平台搭建"
+            },
+            {
+                "head": "全链路实践",
+                "type": "包含",
+                "tail": "测序数据"
+            },
+            {
+                "head": "全链路实践",
+                "type": "包含",
+                "tail": "AMR预测"
+            },
+            {
+                "head": "全链路实践",
+                "type": "包含",
+                "tail": "临床服务"
+            },
+            {
+                "head": "可扩展的AMR预测",
+                "type": "实现",
+                "tail": "AMR预测"
+            },
+            {
+                "head": "AMR表型预测",
+                "type": "因果",
+                "tail": "深度学习模型"
+            },
+            {
+                "head": "AMR表型预测",
+                "type": "使用",
+                "tail": "深度学习"
+            },
+            {
+                "head": "深度学习",
+                "type": "属于",
+                "tail": "深度学习概念"
+            },
+            {
+                "head": "深度学习模型",
+                "type": "属于",
+                "tail": "深度学习概念"
+            },
+            {
+                "head": "Hierarchical Hidden Markov models",
+                "type": "属于",
+                "tail": "深度学习概念"
+            },
+            {
+                "head": "机器学习",
+                "type": "属于",
+                "tail": "深度学习概念"
+            },
+            {
+                "head": "DeepARG",
+                "type": "属于",
+                "tail": "生物信息工具"
+            },
+            {
+                "head": "Whole Genome Sequencing",
+                "type": "属于",
+                "tail": "生物技术"
+            },
+            {
+                "head": "Whole Metagenome Sequencing",
+                "type": "属于",
+                "tail": "生物技术"
+            },
+            {
+                "head": "文献调研",
+                "type": "属于",
+                "tail": "项目活动"
+            },
+            {
+                "head": "横向对比",
+                "type": "属于",
+                "tail": "项目活动"
+            },
+            {
+                "head": "统计分析",
+                "type": "属于",
+                "tail": "项目活动"
+            },
+            {
+                "head": "多模态数据表征融合",
+                "type": "属于",
+                "tail": "项目活动"
+            },
+            {
+                "head": "AMR数据库",
+                "type": "属于",
+                "tail": "项目活动"
+            },
+            {
+                "head": "平台搭建",
+                "type": "属于",
+                "tail": "项目活动"
+            },
+            {
+                "head": "全链路实践",
+                "type": "属于",
+                "tail": "项目活动"
+            },
+            {
+                "head": "可扩展的AMR预测",
+                "type": "属于",
+                "tail": "项目活动"
+            }
+        ]
+    },
+    "status": "success"
+}
