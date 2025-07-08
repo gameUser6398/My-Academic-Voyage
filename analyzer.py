@@ -7,35 +7,55 @@ from collections import Counter, defaultdict
 import seaborn as sns
 import numpy as np
 
+import datetime
+
+import re
+from neo4j import GraphDatabase
+from matplotlib.dates import DateFormatter
+import matplotlib.dates as mdates
+
+
 import matplotlib.font_manager as fm
 font_path = "/usr/share/fonts/google-noto-cjk/NotoSerifCJK-Bold.ttc"
-plt.rcParams['font.family'] = fm.FontProperties(fname=font_path).get_name()
-plt.rcParams['axes.unicode_minus'] = False
+
+
+NEO4J_URI = "bolt://localhost:17687"
+NEO4J_USER = "neo4j"
+NEO4J_PASSWORD = "My_trajectory_0705"
 
 class EntityRelationAnalyzer:
     def __init__(self, json_file_path_or_data):
         """初始化分析器"""
-        if os.path.isfile(json_file_path_or_data):
-            with open(json_file_path_or_data, 'r', encoding='utf-8') as f:
-                self.data = json.load(f)
-        else:
-            self.data = json_file_path_or_data
+
+        try: 
+            if isinstance(json_file_path_or_data, str) and json_file_path_or_data.endswith('.json'):
+                if os.path.isfile(json_file_path_or_data):
+                    with open(json_file_path_or_data, 'r', encoding='utf-8') as f:
+                        self.data = json.load(f)
+            elif isinstance(json_file_path_or_data, dict):
+                self.data = json_file_path_or_data
+            else:
+                raise ValueError("输入参数必须是JSON文件路径或字典")
+        except Exception as e:
+            print(f"初始化EntityRelationAnalyzer错误: {e}")
+            raise e
+
         
         self.entities = self.data['entities']
         self.relations = self.data['relations']
         self.G = self._build_graph()
         
-        
         # 实体类型颜色配置
         self.entity_colors = {
-            "生物分子": "#FF6B6B",      # 红色
-            "生物医学概念": "#4ECDC4",   # 青色
-            "生物技术": "#45B7D1",      # 蓝色
-            "生物信息工具": "#96CEB4",   # 绿色
-            "项目活动": "#FFEAA7",      # 黄色
-            "其他": "#DDA0DD"           # 紫色
+            "生物分子": "#2E8B57",      # 深绿色
+            "生物医学概念": "#3CB371",   # 中等绿色
+            "生物技术": "#20B2AA",      # 浅绿色
+            "生物信息工具": "#FF6347",   # 番茄红
+            "深度学习概念": "#DC143C",   # 深红色
+            "项目活动": "#A9A9A9",      # 深灰色
+            "其他": "#D3D3D3"           # 浅灰色
         }
-    
+
     def _build_graph(self):
         """构建NetworkX图"""
         G = nx.DiGraph()
@@ -64,6 +84,10 @@ class EntityRelationAnalyzer:
             print(f"  {entity_type}: {count}")
         
         # 可视化
+
+        plt.rcParams['font.family'] = fm.FontProperties(fname=font_path).get_name()
+        plt.rcParams['axes.unicode_minus'] = False
+        
         plt.figure(figsize=(12, 8))
         types, counts = zip(*type_counts.most_common())
         
@@ -100,6 +124,9 @@ class EntityRelationAnalyzer:
             print(f"  {rel_type}: {count}")
         
         # 可视化关系类型分布
+        plt.rcParams['font.family'] = fm.FontProperties(fname=font_path).get_name()
+        plt.rcParams['axes.unicode_minus'] = False
+
         plt.figure(figsize=(10, 6))
         rel_types, counts = zip(*relation_counts.most_common())
         plt.pie(counts, labels=rel_types, autopct='%1.1f%%', startangle=90)
@@ -218,6 +245,263 @@ class EntityRelationAnalyzer:
     def compute_metrics(self):
         pass
 
+
+
+
+class TemporalAnalyzer:
+    def __init__(self, neo4j_uri, neo4j_auth):
+        self.driver = GraphDatabase.driver(neo4j_uri, auth=neo4j_auth)
+    
+    def parse_timestamp(self, timestamp_str):
+        """解析时间戳字符串，返回datetime对象"""
+        if not timestamp_str or timestamp_str == "":
+            return None
+        
+        # 支持多种时间戳格式
+        patterns = [
+            r'(\d{4})-(\d{2})-(\d{2})',  # 2024-03-02
+            r'(\d{4})(\d{2})(\d{2})',    # 20240302
+            r'(\d{4})-(\d{2})',          # 2024-03
+            r'(\d{4})(\d{2})',           # 202403
+        ]
+        
+        for pattern in patterns:
+            match = re.match(pattern, timestamp_str)
+            if match:
+                groups = match.groups()
+                if len(groups) == 3:
+                    year, month, day = groups
+                    return datetime.datetime(int(year), int(month), int(day))
+                elif len(groups) == 2:
+                    year, month = groups
+                    return datetime.datetime(int(year), int(month), 1)
+        
+        return None
+    
+    def get_temporal_entities(self):
+        """获取所有带时间戳的实体"""
+        query = """
+        MATCH (e:Entity)
+        WHERE e.timestamps IS NOT NULL AND size(e.timestamps) > 0
+        RETURN e.name as entity_name, e.type as entity_type, e.timestamps as timestamps, e.batches as batches
+        ORDER BY entity_name
+        """
+        
+        with self.driver.session() as session:
+            result = session.run(query)
+            return [dict(record) for record in result]
+    
+    def get_temporal_relations(self):
+        """获取所有带时间戳的关系"""
+        query = """
+        MATCH (h:Entity)-[r:RELATION]->(t:Entity)
+        WHERE r.timestamps IS NOT NULL AND size(r.timestamps) > 0
+        RETURN h.name as head_entity, t.name as tail_entity, r.type as relation_type, 
+               r.timestamps as timestamps, r.batches as batches
+        ORDER BY head_entity, tail_entity
+        """
+        
+        with self.driver.session() as session:
+            result = session.run(query)
+            return [dict(record) for record in result]
+    
+    def analyze_monthly_evolution(self):
+        """分析实体的月度演化"""
+        entities = self.get_temporal_entities()
+        relations = self.get_temporal_relations()
+        
+        # 按月份组织数据
+        monthly_data = defaultdict(lambda: {'entities': set(), 'relations': set()})
+        
+        # 处理实体
+        for entity in entities:
+            for timestamp_str in entity['timestamps']:
+                dt = self.parse_timestamp(timestamp_str)
+                if dt:
+                    month_key = dt.strftime('%Y-%m')
+                    monthly_data[month_key]['entities'].add(entity['entity_name'])
+        
+        # 处理关系
+        for relation in relations:
+            for timestamp_str in relation['timestamps']:
+                dt = self.parse_timestamp(timestamp_str)
+                if dt:
+                    month_key = dt.strftime('%Y-%m')
+                    relation_tuple = (relation['head_entity'], relation['relation_type'], relation['tail_entity'])
+                    monthly_data[month_key]['relations'].add(relation_tuple)
+        
+        return dict(monthly_data)
+    
+    def create_temporal_graph_snapshots(self):
+        """创建时间图快照"""
+        monthly_data = self.analyze_monthly_evolution()
+        
+        snapshots = {}
+        for month, data in monthly_data.items():
+            G = nx.DiGraph()
+            
+            # 添加实体节点
+            for entity in data['entities']:
+                G.add_node(entity)
+            
+            # 添加关系边
+            for head, rel_type, tail in data['relations']:
+                if head in G.nodes and tail in G.nodes:
+                    G.add_edge(head, tail, relation_type=rel_type)
+            
+            snapshots[month] = G
+        
+        return snapshots
+    
+    def visualize_temporal_evolution(self, save_path="temporal_evolution.png"):
+        """可视化时间演化"""
+        snapshots = self.create_temporal_graph_snapshots()
+        
+        # 创建子图
+        n_months = len(snapshots)
+        cols = min(3, n_months)
+        rows = (n_months + cols - 1) // cols
+        
+        plt.rcParams['font.family'] = fm.FontProperties(fname=font_path).get_name()
+        plt.rcParams['axes.unicode_minus'] = False
+        
+        fig, axes = plt.subplots(rows, cols, figsize=(5*cols, 4*rows))
+        if n_months == 1:
+            axes = [axes]
+        elif rows == 1:
+            axes = [axes]
+        else:
+            axes = axes.flatten()
+        
+        for i, (month, G) in enumerate(sorted(snapshots.items())):
+            ax = axes[i] if i < len(axes) else None
+            if ax is None:
+                continue
+                
+            pos = nx.spring_layout(G, k=1, iterations=50)
+            
+            # 绘制节点
+            nx.draw_networkx_nodes(G, pos, ax=ax, node_color='lightblue', 
+                                 node_size=500, alpha=0.7)
+            
+            # 绘制边
+            nx.draw_networkx_edges(G, pos, ax=ax, alpha=0.5, arrows=True, 
+                                 arrowsize=20, arrowstyle='->')
+            
+            # 绘制标签
+            nx.draw_networkx_labels(G, pos, ax=ax, font_size=8, font_family='Noto Serif CJK JP')
+            
+            ax.set_title(f'{month}\n({len(G.nodes)} entities, {len(G.edges)} relations)')
+            ax.axis('off')
+        
+        # 隐藏多余的子图
+        for i in range(len(snapshots), len(axes)):
+            axes[i].axis('off')
+        
+        plt.tight_layout()
+        plt.savefig(save_path, dpi=300, bbox_inches='tight')
+        plt.show()
+    
+    def get_entity_temporal_trajectory(self, entity_name):
+        """获取特定实体的时间轨迹"""
+        query = """
+        MATCH (e:Entity {name: $entity_name})
+        RETURN e.name as entity_name, e.type as entity_type, e.timestamps as timestamps, e.batches as batches
+        """
+        
+        with self.driver.session() as session:
+            result = session.run(query, entity_name=entity_name)
+            record = result.single()
+            if record:
+                return dict(record)
+            return None
+    
+    def analyze_entity_flow(self):
+        """分析实体流动模式"""
+        entities = self.get_temporal_entities()
+        
+        # 统计实体在不同时间点的出现
+        entity_timeline = defaultdict(list)
+        
+        for entity in entities:
+            entity_name = entity['entity_name']
+            timestamps = []
+            
+            for timestamp_str in entity['timestamps']:
+                dt = self.parse_timestamp(timestamp_str)
+                if dt:
+                    timestamps.append(dt)
+            
+            if timestamps:
+                timestamps.sort()
+                entity_timeline[entity_name] = timestamps
+        
+        # 分析流动模式
+        flow_patterns = {
+            'persistent': [],  # 持续出现的实体
+            'emerging': [],    # 新出现的实体
+            'disappearing': [] # 消失的实体
+        }
+        
+        all_months = set()
+        for timestamps in entity_timeline.values():
+            for dt in timestamps:
+                all_months.add(dt.strftime('%Y-%m'))
+        
+        sorted_months = sorted(all_months)
+        
+        for entity_name, timestamps in entity_timeline.items():
+            entity_months = set(dt.strftime('%Y-%m') for dt in timestamps)
+            
+            if len(entity_months) >= len(sorted_months) * 0.8:  # 出现在80%以上的月份
+                flow_patterns['persistent'].append(entity_name)
+            elif min(entity_months) in sorted_months[-3:]:  # 最近3个月才出现
+                flow_patterns['emerging'].append(entity_name)
+            elif max(entity_months) in sorted_months[:3]:  # 只在前3个月出现
+                flow_patterns['disappearing'].append(entity_name)
+        
+        return flow_patterns
+    
+    def generate_temporal_report(self):
+        """生成时间分析报告"""
+        monthly_data = self.analyze_monthly_evolution()
+        flow_patterns = self.analyze_entity_flow()
+        
+        report = {
+            'monthly_summary': {},
+            'flow_patterns': flow_patterns,
+            'trend_analysis': {}
+        }
+        
+        # 月度汇总
+        for month, data in monthly_data.items():
+            report['monthly_summary'][month] = {
+                'entity_count': len(data['entities']),
+                'relation_count': len(data['relations']),
+                'entities': list(data['entities'])
+            }
+        
+        # 趋势分析
+        months = sorted(monthly_data.keys())
+        entity_counts = [len(monthly_data[month]['entities']) for month in months]
+        relation_counts = [len(monthly_data[month]['relations']) for month in months]
+        
+        report['trend_analysis'] = {
+            'months': months,
+            'entity_growth': entity_counts,
+            'relation_growth': relation_counts,
+            'total_entities': sum(entity_counts),
+            'total_relations': sum(relation_counts)
+        }
+        
+        return report
+    
+    def close(self):
+        """关闭连接"""
+        if self.driver:
+            self.driver.close()
+
+
 def main():
     """主函数"""
     # 配置文件路径
@@ -235,7 +519,24 @@ def main():
     # 写入Neo4j（如果配置了连接）
     # analyzer.write_to_neo4j()
 
-    print("\n分析完成！")
+    # 可视化时间演化
+    temporal_analyzer = TemporalAnalyzer(NEO4J_URI, (NEO4J_USER, NEO4J_PASSWORD))
+    
+    # 生成时间分析报告
+    report = temporal_analyzer.generate_temporal_report()
+    print(f"时间分析完成，共分析 {len(report['monthly_summary'])} 个月份的数据")
+    
+    # 可视化时间演化
+    temporal_analyzer.visualize_temporal_evolution("temporal_evolution.png")
+    print("时间演化可视化已保存到 temporal_evolution.png")
+    
+    # 分析实体流动模式
+    flow_patterns = temporal_analyzer.analyze_entity_flow()
+    print(f"持续实体: {len(flow_patterns['persistent'])} 个")
+    print(f"新兴实体: {len(flow_patterns['emerging'])} 个")
+    print(f"消失实体: {len(flow_patterns['disappearing'])} 个")
+    
+    temporal_analyzer.close()
 
 
 if __name__ == "__main__":

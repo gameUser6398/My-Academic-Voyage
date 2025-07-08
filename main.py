@@ -2,6 +2,8 @@ import datetime
 import time
 import os
 import json
+
+from tqdm import tqdm
 from client import EntityRelationClient
 from analyzer import EntityRelationAnalyzer
 from neo4j import GraphDatabase
@@ -10,14 +12,15 @@ from neo4j import GraphDatabase
 API_KEY = 'sk-a23c5b2ae86a4a668e05729d435be035' # "sk-a23c5b2ae86a4a668e05729d435be035"
 BASE_URL = "https://chat.ecnu.edu.cn/open/api/v1"
 
-CHUNKS_DIR = "./chunk_of_2024"  # 切分后的数据目录
-LOG_DIR = "./output_of_2024"  # 日志及切分结果目录
+CHUNKS_DIR = "./chunk_of_2025"  # 切分后的数据目录
+LOG_DIR = "./output_of_2025"  # 日志及切分结果目录
 ENTITIES_RELATIONS_DIR = "results" # 整合后结果目录
 NEO4J_URI = "bolt://localhost:17687"
 NEO4J_USER = "neo4j"
 NEO4J_PASSWORD = "My_trajectory_0705"
 
 def read_chunks():
+    """一次读取所有切分文件"""
     chunks = []
     for filename in os.listdir(CHUNKS_DIR):
         if filename.endswith(".md"):     ################## 只处理markdown文件
@@ -27,6 +30,38 @@ def read_chunks():
                 chunks.append((filename, chunk))
     
     return filter_chunks_need_process(chunks)
+
+def load_batch_data(structured_file_path):
+    """从单个_structured.json文件加载批次数据"""
+    with open(structured_file_path, "r", encoding="utf-8") as f:
+        data = json.load(f)
+    
+    # 处理实体
+    entities_data = data.get("entities", [])
+    if isinstance(entities_data, dict) and entities_data.get("parsed", True):
+        entities_list = entities_data.get("entities", []) if "entities" in entities_data else []
+    elif isinstance(entities_data, list):
+        entities_list = entities_data
+    else:
+        entities_list = []
+
+    # 处理关系
+    relations_data = data.get("relations", [])
+    if isinstance(relations_data, dict) and relations_data.get("parsed", True):
+        relations_list = relations_data.get("relations", []) if "relations" in relations_data else []
+    elif isinstance(relations_data, list):
+        relations_list = relations_data
+    else:
+        relations_list = []
+    
+    # 获取chunk_id作为时间戳
+    chunk_id = data.get("entities", {}).get("chunk_id", data.get("relations", {}).get("chunk_id", "unknown"))
+    
+    return {
+        "entities": entities_list,
+        "relations": relations_list,
+        "chunk_id": chunk_id
+    }  
 
 def filter_chunks_need_process(chunks):
     need_process_chunks = []
@@ -123,27 +158,21 @@ class Neo4jManager:
 
     def merge_batch_data(self, batch_data, batch_id):
         """合并批次数据到现有图谱"""
-        print(f"\n=== 合并批次数据 {batch_id} ===")  # 对应structured.json中的filename
 
         # 存储批次属性，为时间戳预留
-        self.batch_properties[batch_id] = {
-            # 'timestamp': datetime.datetime.now().isoformat(),  # 这是当前合并时间
-            'batch_id': batch_data["chunk_id"],    # 对应chunk_id
-            'entity_count': len(batch_data['entities']),
-            'relation_count': len(batch_data['relations'])
-        }
+        chunk_timestamp = batch_data.get('chunk_id', datetime.datetime.now().strftime('%Y%m%d_%H%M%S'))
 
         with self.driver.session() as session:
             # 1. 合并实体节点
-            session.execute_write(self._merge_entities, batch_data['entities'], batch_id)
+            session.execute_write(self._merge_entities, batch_data['entities'], batch_id, chunk_timestamp)
             
             # 2. 合并关系
-            session.execute_write(self._merge_relations, batch_data['relations'], batch_id)
+            session.execute_write(self._merge_relations, batch_data['relations'], batch_id, chunk_timestamp)
             
             # 3. 更新批次信息
-            session.execute_write(self._update_batch_info, batch_id)
+            session.execute_write(self._update_batch_info, batch_id, chunk_timestamp)
 
-    def _merge_entities(self, tx, entities, batch_id):
+    def _merge_entities(self, tx, entities, batch_id, chunk_timestamp):
         """合并实体节点"""
         for entity in entities:
             tx.run("""
@@ -151,12 +180,14 @@ class Neo4jManager:
                 ON CREATE SET 
                     e.type = $type,
                     e.created_at = datetime(),
-                    e.batches = [$batch_id]
+                    e.batches = [$batch_id],
+                    e.timestamps = [$chunk_timestamp]
                 ON MATCH SET 
-                    e.batches = CASE WHEN NOT $batch_id IN e.batches THEN e.batches + $batch_id ELSE e.batches END
-            """, name=entity['name'], type=entity['type'], batch_id=batch_id)
-
-    def _merge_relations(self, tx, relations, batch_id):
+                    e.batches = CASE WHEN NOT $batch_id IN e.batches THEN e.batches + $batch_id ELSE e.batches END,
+                    e.timestamps = CASE WHEN NOT $chunk_timestamp IN e.timestamps THEN e.timestamps + $chunk_timestamp ELSE e.timestamps END
+            """, name=entity['name'], type=entity['type'], batch_id=batch_id, chunk_timestamp=chunk_timestamp)
+    
+    def _merge_relations(self, tx, relations, batch_id, chunk_timestamp):
         """合并关系"""
         for relation in relations:
             tx.run("""
@@ -164,12 +195,15 @@ class Neo4jManager:
                 MERGE (h)-[r:RELATION {type: $relation_type}]->(t)
                 ON CREATE SET 
                     r.created_at = datetime(),
-                    r.batches = [$batch_id]
+                    r.batches = [$batch_id],
+                    r.timestamps = [$chunk_timestamp]
                 ON MATCH SET 
-                    r.batches = CASE WHEN NOT $batch_id IN r.batches THEN r.batches + $batch_id ELSE r.batches END
+                    r.batches = CASE WHEN NOT $batch_id IN r.batches THEN r.batches + $batch_id ELSE r.batches END,
+                    r.timestamps = CASE WHEN NOT $chunk_timestamp IN r.timestamps THEN r.timestamps + $chunk_timestamp ELSE r.timestamps END
             """, head=relation['head'], tail=relation['tail'], 
-                  relation_type=relation['type'], batch_id=batch_id)
-    def _update_batch_info(self, tx, batch_id):
+                  relation_type=relation['type'], batch_id=batch_id, chunk_timestamp=chunk_timestamp)
+    
+    def _update_batch_info(self, tx, batch_id, chunk_timestamp):
         """更新批次信息(预留)"""
         # 这里可以添加更多批次级别的信息更新
         pass
@@ -187,16 +221,52 @@ class Neo4jManager:
     
     def _update_network_metrics(self, tx, network_stats):
         """更新网络分析指标"""
-        for node_name, metrics in network_stats.items():
-            tx.run("""
-                MATCH (n:Entity {name: $name})
-                SET n.degree_centrality = $degree_cent,
-                    n.betweenness_centrality = $betweenness_cent,
-                    n.closeness_centrality = $closeness_cent,
-                    n.in_degree_centrality = $in_degree_cent,
-                    n.out_degree_centrality = $out_degree_cent,
-                    n.updated_at = datetime()
-            """, name=node_name, **metrics)
+        if not network_stats:
+            return
+        
+        # 获取所有节点名称
+        all_nodes = set()
+        for metric_name, node_values in network_stats.items():
+            if isinstance(node_values, dict):
+                all_nodes.update(node_values.keys())
+        
+        print(f"发现 {len(all_nodes)} 个节点需要更新指标")
+
+           # 为每个节点更新指标
+        for node_name in all_nodes:
+            # 从各个指标字典中获取该节点的值
+            degree_centrality = network_stats.get('degree_centrality', {}).get(node_name, 0.0)
+            betweenness_centrality = network_stats.get('betweenness_centrality', {}).get(node_name, 0.0)
+            closeness_centrality = network_stats.get('closeness_centrality', {}).get(node_name, 0.0)
+            in_degree_centrality = network_stats.get('in_degree_centrality', {}).get(node_name, 0.0)
+            out_degree_centrality = network_stats.get('out_degree_centrality', {}).get(node_name, 0.0)
+            
+            # 确保所有值都是数字类型
+            degree_centrality = float(degree_centrality) if degree_centrality is not None else 0.0
+            betweenness_centrality = float(betweenness_centrality) if betweenness_centrality is not None else 0.0
+            closeness_centrality = float(closeness_centrality) if closeness_centrality is not None else 0.0
+            in_degree_centrality = float(in_degree_centrality) if in_degree_centrality is not None else 0.0
+            out_degree_centrality = float(out_degree_centrality) if out_degree_centrality is not None else 0.0
+            
+            try:
+                tx.run("""
+                    MATCH (n:Entity {name: $name})
+                    SET n.degree_centrality = $degree_centrality,
+                        n.betweenness_centrality = $betweenness_centrality,
+                        n.closeness_centrality = $closeness_centrality,
+                        n.in_degree_centrality = $in_degree_centrality,
+                        n.out_degree_centrality = $out_degree_centrality,
+                        n.updated_at = datetime()
+                """, 
+                name=node_name,
+                degree_centrality=degree_centrality,
+                betweenness_centrality=betweenness_centrality,
+                closeness_centrality=closeness_centrality,
+                in_degree_centrality=in_degree_centrality,
+                out_degree_centrality=out_degree_centrality)
+            except Exception as e:
+                print(f"更新节点 {node_name} 失败: {e}")
+   
     
     def _update_community_info(self, tx, communities):
         """更新社区检测结果"""
@@ -277,7 +347,8 @@ def main():
     client = EntityRelationClient(API_KEY, BASE_URL, model="ecnu-plus", log_dir=LOG_DIR)
     chunks = read_chunks()
 
-    # 处理每个chunk并保存
+    # ----------------------------------------
+    # 处理每个chunk，进行实体识别和关系提取
     successful_files = []
     failed_files = []
 
@@ -300,33 +371,73 @@ def main():
     if failed_files:
         print(f"失败文件: {failed_files}")
 
-    # ---------------------------------------------------
-    # 整合实体和关系
-    try:
-        integrated_data = integrate_entities_relations()
-        print(f"整合完成: {len(integrated_data['entities'])} 个实体, {len(integrated_data['relations'])} 个关系")
-    except Exception as e:
-        print(f"整合创建失败: {e}")
-        return 
     
     # ---------------------------------------------------
     # 更新 Neo4j 节点和关系
-    neo4j_manager = Neo4jManager(NEO4J_URI, (NEO4J_USER, NEO4J_PASSWORD))
-    analyzer = EntityRelationAnalyzer(integrated_data)
+    neo4j_manager = Neo4jManager()
     
-    batch_id = f"batch_{datetime.now().strftime('%Y%m%d_%H%M%S')}"
-    neo4j_manager.merge_batch_data(integrated_data, batch_id, datetime.now())
+    USE_BATCH_MERGE = input(f"是否使用批量合并{LOG_DIR}中的数据？(y/n): ").strip().lower() == 'y'
     
+    if USE_BATCH_MERGE:
+        print("\n=== 使用逐批次合并模式 ===")
+        # 逐批次合并到Neo4j
+        for filename in tqdm(os.listdir(LOG_DIR)):
+            if filename.endswith("_structured.json"):
+                file_path = os.path.join(LOG_DIR, filename)
+                try:
+                    batch_data = load_batch_data(file_path)
+                    if batch_data["entities"] or batch_data["relations"]:
+                        # 使用文件名作为batch_id
+                        batch_id = filename.replace("_structured.json", "")
+                        neo4j_manager.merge_batch_data(batch_data, batch_id)
+                    else:
+                        print(f"⚠ 跳过空批次: {filename}")
+                except Exception as e:
+                    print(f"✗ 批次合并失败: {filename}, 错误: {e}")
+        
+        # 为了分析指标，仍需要获取整体数据
+        integrated_data = integrate_entities_relations()
+    
+    else:
+        print("\n=== 使用整体合并模式 ===")
+        # 整体合并
+        try:
+            integrated_data = integrate_entities_relations()
+            print(f"整合完成: {len(integrated_data['entities'])} 个实体, {len(integrated_data['relations'])} 个关系")
+            
+            # 整体合并到Neo4j
+            batch_id = f"integrated_batch"
+            # 对于整体合并，我们不传递具体的时间戳
+            batch_data_for_merge = {
+                "entities": integrated_data["entities"],
+                "relations": integrated_data["relations"],
+                "chunk_id": ""  # 整体合并时没有单一chunk_id
+            }
+            neo4j_manager.merge_batch_data(batch_data_for_merge, batch_id)
+        
+        except Exception as e:
+            print(f"整合创建失败: {e}")
+            neo4j_manager.close()
+            return
+
     # ---------------------------------------------------
     # 更新分析指标
-    metrics = analyzer.generate_summary_report()
-    neo4j_manager.update_analysis_metrics(metrics)
+    try:
+        analyzer = EntityRelationAnalyzer(integrated_data)
+        metrics = analyzer.generate_summary_report()
+        neo4j_manager.update_analysis_metrics(metrics)
+    except Exception as e:
+        print(f"分析指标更新失败: {e}")
     
     # 轨迹分析（可选）
     # if enable_trajectory_analysis:
+
     #     trajectory_results = analyzer.temporal_analysis(get_historical_data())
 
     # 提示查询命令
     neo4j_manager.generate_neo4j_queries()
 
     neo4j_manager.close()
+
+if __name__ == "__main__":
+    main()
