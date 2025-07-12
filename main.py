@@ -8,7 +8,7 @@ from analyzer import EntityRelationAnalyzer
 from neo4j import GraphDatabase
 
 # 配置信息
-API_KEY = 'sk-a23c5b2ae86a4a668e05729d435be035' # "sk-a23c5b2ae86a4a668e05729d435be035"
+API_KEY = 'asdfasdfasdf' # "asdfasdfasfd"
 BASE_URL = "https://chat.ecnu.edu.cn/open/api/v1"
 
 CHUNKS_DIR = "./chunk_of_2025"  # 切分后的数据目录
