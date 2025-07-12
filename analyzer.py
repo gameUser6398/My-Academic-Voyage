@@ -26,7 +26,17 @@ NEO4J_PASSWORD = "My_trajectory_0705"
 class EntityRelationAnalyzer:
     def __init__(self, json_file_path_or_data):
         """初始化分析器"""
-
+        # 实体类型颜色配置
+        self.entity_colors = {
+            "生物分子": "#2E8B57",      # 深绿色
+            "生物医学概念": "#3CB371",   # 中等绿色
+            "生物技术": "#20B2AA",      # 浅绿色
+            "生物信息工具": "#FF6347",   # 番茄红
+            "深度学习概念": "#DC143C",   # 深红色
+            "项目活动": "#A9A9A9",      # 深灰色
+            "其他": "#D3D3D3"           # 浅灰色
+        }
+        
         try: 
             if isinstance(json_file_path_or_data, str) and json_file_path_or_data.endswith('.json'):
                 if os.path.isfile(json_file_path_or_data):
@@ -45,24 +55,23 @@ class EntityRelationAnalyzer:
         self.relations = self.data['relations']
         self.G = self._build_graph()
         
-        # 实体类型颜色配置
-        self.entity_colors = {
-            "生物分子": "#2E8B57",      # 深绿色
-            "生物医学概念": "#3CB371",   # 中等绿色
-            "生物技术": "#20B2AA",      # 浅绿色
-            "生物信息工具": "#FF6347",   # 番茄红
-            "深度学习概念": "#DC143C",   # 深红色
-            "项目活动": "#A9A9A9",      # 深灰色
-            "其他": "#D3D3D3"           # 浅灰色
-        }
 
+    def _get_type_color(self, entity_type):
+        """为不同实体类型分配颜色"""
+        return self.entity_colors.get(entity_type.upper(), '#95A5A6')  # 默认灰色
+    
     def _build_graph(self):
         """构建NetworkX图"""
         G = nx.DiGraph()
         
-        # 添加节点
+        # 添加节点时包含类型信息
         for entity in self.entities:
-            G.add_node(entity['name'], type=entity['type'])
+            G.add_node(
+                entity["name"], 
+                type=entity["type"],
+                color=self._get_type_color(entity["type"]),
+                labels=['Entity', entity["type"].replace(' ', '_')]  # 多标签信息
+            )
         
         # 添加边
         for relation in self.relations:
@@ -245,7 +254,26 @@ class EntityRelationAnalyzer:
     def compute_metrics(self):
         pass
 
+    def analyze_type_interactions(self):
+        """分析不同类型实体间的交互模式"""
+        type_interactions = {}
+        
+        for relation in self.relations:
+            head_type = self._get_entity_type(relation["head"])
+            tail_type = self._get_entity_type(relation["tail"])
+            relation_type = relation["type"]
+            
+            key = (head_type, tail_type, relation_type)
+            type_interactions[key] = type_interactions.get(key, 0) + 1
+        
+        return type_interactions
 
+    def _get_entity_type(self, entity_name):
+        """获取实体类型"""
+        for entity in self.entities:
+            if entity["name"] == entity_name:
+                return entity["type"]
+        return "Unknown"
 
 
 class TemporalAnalyzer:
@@ -504,40 +532,89 @@ class TemporalAnalyzer:
 
 def main():
     """主函数"""
-    # 配置文件路径
-    json_file_path = input("请输入JSON文件路径（例如：/path/to/integrated_entities_relations.json）: ").strip()
-    
+    while True:
+        print("\n请选择分析模式：")
+        print("1. JSON 文件分析")
+        print("2. Neo4j 数据库分析")
+        print("0. 退出")
+        choice = input("请输入选项编号: ").strip()
 
-    # 创建分析器（可以不提供Neo4j连接进行本地分析）
-    analyzer = EntityRelationAnalyzer(
-        json_file_path_or_data=json_file_path
-    )
-    
-    # 生成分析报告
-    results = analyzer.generate_summary_report()
-    
-    # 写入Neo4j（如果配置了连接）
-    # analyzer.write_to_neo4j()
+        if choice == "1":
+            json_file_path = input("请输入JSON文件路径（例如：/path/to/integrated_entities_relations.json）: ").strip()
+            try:
+                analyzer = EntityRelationAnalyzer(json_file_path_or_data=json_file_path)
+            except Exception as e:
+                print(f"加载JSON失败: {e}")
+                continue
 
-    # 可视化时间演化
-    temporal_analyzer = TemporalAnalyzer(NEO4J_URI, (NEO4J_USER, NEO4J_PASSWORD))
-    
-    # 生成时间分析报告
-    report = temporal_analyzer.generate_temporal_report()
-    print(f"时间分析完成，共分析 {len(report['monthly_summary'])} 个月份的数据")
-    
-    # 可视化时间演化
-    temporal_analyzer.visualize_temporal_evolution("temporal_evolution.png")
-    print("时间演化可视化已保存到 temporal_evolution.png")
-    
-    # 分析实体流动模式
-    flow_patterns = temporal_analyzer.analyze_entity_flow()
-    print(f"持续实体: {len(flow_patterns['persistent'])} 个")
-    print(f"新兴实体: {len(flow_patterns['emerging'])} 个")
-    print(f"消失实体: {len(flow_patterns['disappearing'])} 个")
-    
-    temporal_analyzer.close()
+            while True:
+                print("\nJSON分析可用操作：")
+                print("1. 生成综合分析报告")
+                print("2. 实体统计分析")
+                print("3. 关系统计分析")
+                print("4. 网络拓扑分析")
+                print("5. 社区检测分析")
+                print("6. 分析类型间交互")
+                print("0. 返回主菜单")
+                op = input("请选择操作: ").strip()
+                if op == "1":
+                    analyzer.generate_summary_report()
+                elif op == "2":
+                    analyzer.entity_statistics()
+                elif op == "3":
+                    analyzer.relation_statistics()
+                elif op == "4":
+                    analyzer.network_analysis()
+                elif op == "5":
+                    analyzer.community_detection()
+                elif op == "6":
+                    interactions = analyzer.analyze_type_interactions()
+                    print("类型间交互统计：")
+                    for k, v in interactions.items():
+                        print(f"{k}: {v}")
+                elif op == "0":
+                    break
+                else:
+                    print("无效选项，请重试。")
 
+        elif choice == "2":
+            temporal_analyzer = TemporalAnalyzer(NEO4J_URI, (NEO4J_USER, NEO4J_PASSWORD))
+            while True:
+                print("\nNeo4j分析可用操作：")
+                print("1. 生成时间分析报告")
+                print("2. 可视化时间演化")
+                print("3. 分析实体流动模式")
+                print("4. 查询实体时间轨迹")
+                print("0. 返回主菜单")
+                op = input("请选择操作: ").strip()
+                if op == "1":
+                    report = temporal_analyzer.generate_temporal_report()
+                    print(f"时间分析完成，共分析 {len(report['monthly_summary'])} 个月份的数据")
+                elif op == "2":
+                    temporal_analyzer.visualize_temporal_evolution("temporal_evolution.png")
+                    print("时间演化可视化已保存到 temporal_evolution.png")
+                elif op == "3":
+                    flow_patterns = temporal_analyzer.analyze_entity_flow()
+                    print(f"持续实体: {len(flow_patterns['persistent'])} 个")
+                    print(f"新兴实体: {len(flow_patterns['emerging'])} 个")
+                    print(f"消失实体: {len(flow_patterns['disappearing'])} 个")
+                elif op == "4":
+                    entity_name = input("请输入要查询的实体名称: ").strip()
+                    traj = temporal_analyzer.get_entity_temporal_trajectory(entity_name)
+                    if traj:
+                        print(traj)
+                    else:
+                        print("未找到该实体或无时间轨迹。")
+                elif op == "0":
+                    temporal_analyzer.close()
+                    break
+                else:
+                    print("无效选项，请重试。")
+        elif choice == "0":
+            print("退出程序。")
+            break
+        else:
+            print("无效选项，请重试。")
 
 if __name__ == "__main__":
     main()

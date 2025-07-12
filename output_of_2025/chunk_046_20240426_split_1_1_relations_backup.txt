@@ -1,0 +1,46 @@
+
+
+```json
+{
+  "chunk_id": "2024-03-02",
+  "relations": [
+    {"head": "UNI 基因", "type": "调控", "tail": "抗生素耐药性"},
+    {"head": "DeepARG", "type": "使用", "tail": "深度学习"},
+    {"head": "DeepARG", "type": "包含", "tail": "DeepARG-LS"},
+    {"head": "DeepARG", "type": "包含", "tail": "DeepARG-SS"},
+    {"head": "DeepARG-LS", "type": "使用", "tail": "全基因长度序列"},
+    {"head": "DeepARG-SS", "type": "使用", "tail": "短序列读长"},
+    {"head": "DeepARG", "type": "使用", "tail": "UNIPROT"},
+    {"head": "DeepARG", "type": "使用", "tail": "CARD"},
+    {"head": "DeepARG", "type": "使用", "tail": "ARDB"},
+    {"head": "DeepARG", "type": "使用", "tail": "比特分数"},
+    {"head": "DeepARG", "type": "使用", "tail": "dropout"},
+    {"head": "DeepARG", "type": "使用", "tail": "softMax"},
+    {"head": "DeepARG", "type": "使用", "tail": "Python"},
+    {"head": "DeepARG", "type": "使用", "tail": "Lasagne"},
+    {"head": "DeepARG", "type": "使用", "tail": "Theano"},
+    {"head": "DeepARG", "type": "使用", "tail": "GPU"},
+    {"head": "DeepARG-DB", "type": "包含", "tail": "CARD"},
+    {"head": "DeepARG-DB", "type": "包含", "tail": "ARDB"},
+    {"head": "DeepARG-DB", "type": "包含", "tail": "UNIPROT"},
+    {"head": "UNIPROT", "type": "使用", "tail": "DIAMOND"},
+    {"head": "UNIPROT", "type": "使用", "tail": "CARD"},
+    {"head": "UNIPROT", "type": "使用", "tail": "ARDB"},
+    {"head": "DeepARG", "type": "因果", "tail": "抗生素耐药性"},
+    {"head": "DeepARG", "type": "属于", "tail": "监督式机器学习模型"},
+    {"head": "监督式机器学习模型", "type": "包含", "tail": "表征单元"},
+    {"head": "监督式机器学习模型", "type": "包含", "tail": "训练单元"},
+    {"head": "监督式机器学习模型", "type": "包含", "tail": "预测单元"},
+    {"head": "表征单元", "type": "使用", "tail": "特征"},
+    {"head": "表征单元", "type": "使用", "tail": "DNA"},
+    {"head": "DeepARG-SS", "type": "使用", "tail": "Illumina"},
+    {"head": "DeepARG-SS", "type": "使用", "tail": "NGS"},
+    {"head": "DeepARG-LS", "type": "使用", "tail": "MetaHit"},
+    {"head": "DeepARG-LS", "type": "使用", "tail": "开放阅读框"},
+    {"head": "SNP", "type": "调控", "tail": "抗生素耐药性"},
+    {"head": "监督式机器学习模型", "type": "使用", "tail": "比特分数"},
+    {"head": "DIAMOND", "type": "属于", "tail": "生物信息工具"},
+    {"head": "深度学习", "type": "属于", "tail": "深度学习概念"}
+  ]
+}
+```

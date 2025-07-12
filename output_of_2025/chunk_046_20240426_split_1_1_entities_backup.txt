@@ -1,0 +1,42 @@
+
+
+```json
+{
+  "chunk_id": "2024-03-02",
+  "entities": [
+    {"name": "ARG", "type": "生物分子"},
+    {"name": "CARD", "type": "生物信息工具"},
+    {"name": "ARDB", "type": "生物信息工具"},
+    {"name": "UNI 基因", "type": "生物分子"},
+    {"name": "UNIPROT", "type": "生物信息工具"},
+    {"name": "SNP", "type": "生物分子"},
+    {"name": "DeepARG-DB", "type": "生物信息工具"},
+    {"name": "DeepARG", "type": "生物信息工具"},
+    {"name": "DeepARG-LS", "type": "生物信息工具"},
+    {"name": "DeepARG-SS", "type": "生物信息工具"},
+    {"name": "DNA", "type": "生物分子"},
+    {"name": "DIAMOND", "type": "生物信息工具"},
+    {"name": "比特分数", "type": "生物信息概念"},
+    {"name": "深度学习", "type": "深度学习概念"},
+    {"name": "监督式机器学习模型", "type": "深度学习概念"},
+    {"name": "表征单元", "type": "深度学习概念"},
+    {"name": "训练单元", "type": "深度学习概念"},
+    {"name": "预测单元", "type": "深度学习概念"},
+    {"name": "特征", "type": "深度学习概念"},
+    {"name": "全基因长度序列", "type": "生物技术"},
+    {"name": "短序列读长", "type": "生物技术"},
+    {"name": "开放阅读框", "type": "生物技术"},
+    {"name": "宏基因组序列", "type": "生物技术"},
+    {"name": "抗生素耐药性", "type": "生物医学概念"},
+    {"name": "dropout", "type": "深度学习概念"},
+    {"name": "softMax", "type": "深度学习概念"},
+    {"name": "Python", "type": "生物信息工具"},
+    {"name": "Lasagne", "type": "生物信息工具"},
+    {"name": "Theano", "type": "生物信息工具"},
+    {"name": "GPU", "type": "生物信息工具"},
+    {"name": "MetaHit", "type": "项目活动"},
+    {"name": "Illumina", "type": "生物技术"},
+    {"name": "NGS", "type": "生物技术"}
+  ]
+}
+```

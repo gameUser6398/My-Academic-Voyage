@@ -2,7 +2,6 @@ import datetime
 import time
 import os
 import json
-
 from tqdm import tqdm
 from client import EntityRelationClient
 from analyzer import EntityRelationAnalyzer
@@ -29,7 +28,7 @@ def read_chunks():
                 chunk = f.read()
                 chunks.append((filename, chunk))
     
-    return filter_chunks_need_process(chunks)
+    return [] # filter_chunks_need_process(chunks)
 
 def load_batch_data(structured_file_path):
     """从单个_structured.json文件加载批次数据"""
@@ -130,17 +129,17 @@ def integrate_entities_relations():
         json.dump(integrated_data, f, ensure_ascii=False, indent=4)
     return integrated_data
 
-def create_neo4j_graph(integrated_data):
+"""def create_neo4j_graph(integrated_data):
     driver = GraphDatabase.driver(NEO4J_URI, auth=(NEO4J_USER, NEO4J_PASSWORD))
 
     def create_entities(tx, entities):
         for entity in entities:
-            tx.run("MERGE (e:Entity {name: $name, type: $type})",
+            tx.run("MERGE (e {name: $name, type: $type})",
                    name=entity["name"], type=entity["type"])
 
     def create_relations(tx, relations):
         for relation in relations:
-            tx.run("MATCH (h:Entity {name: $head}), (t:Entity {name: $tail}) "
+            tx.run("MATCH (h {name: $head}), (t {name: $tail}) "
                    "MERGE (h)-[r:RELATION {type: $relation_type}]->(t)",
                    head=relation["head"], tail=relation["tail"], relation_type=relation["type"])
 
@@ -148,7 +147,7 @@ def create_neo4j_graph(integrated_data):
         session.execute_write(create_entities, integrated_data["entities"])
         session.execute_write(create_relations, integrated_data["relations"])
 
-    driver.close()
+    driver.close()"""
 
 
 class Neo4jManager:
@@ -173,10 +172,13 @@ class Neo4jManager:
             session.execute_write(self._update_batch_info, batch_id, chunk_timestamp)
 
     def _merge_entities(self, tx, entities, batch_id, chunk_timestamp):
-        """合并实体节点"""
+        """合并实体节点 - 支持多标签"""
         for entity in entities:
-            tx.run("""
-                MERGE (e:Entity {name: $name})
+            entity_type = entity.get('type', 'Unknown').replace(" ", "_").replace("-", "_")
+            # 确保标签名符合Neo4j规范
+            
+            tx.run(f"""
+                MERGE (e:{entity_type} {{name: $name}})
                 ON CREATE SET 
                     e.type = $type,
                     e.created_at = datetime(),
@@ -184,14 +186,15 @@ class Neo4jManager:
                     e.timestamps = [$chunk_timestamp]
                 ON MATCH SET 
                     e.batches = CASE WHEN NOT $batch_id IN e.batches THEN e.batches + $batch_id ELSE e.batches END,
-                    e.timestamps = CASE WHEN NOT $chunk_timestamp IN e.timestamps THEN e.timestamps + $chunk_timestamp ELSE e.timestamps END
-            """, name=entity['name'], type=entity['type'], batch_id=batch_id, chunk_timestamp=chunk_timestamp)
-    
+                    e.timestamps = CASE WHEN NOT $chunk_timestamp IN e.timestamps THEN e.timestamps +$chunk_timestamp ELSE e.timestamps END
+            """, name=entity['name'], type=entity['type'], 
+                batch_id=batch_id, chunk_timestamp=chunk_timestamp, )
+
     def _merge_relations(self, tx, relations, batch_id, chunk_timestamp):
         """合并关系"""
         for relation in relations:
             tx.run("""
-                MATCH (h:Entity {name: $head}), (t:Entity {name: $tail})
+                MATCH (h {name: $head}), (t {name: $tail})
                 MERGE (h)-[r:RELATION {type: $relation_type}]->(t)
                 ON CREATE SET 
                     r.created_at = datetime(),
@@ -203,6 +206,74 @@ class Neo4jManager:
             """, head=relation['head'], tail=relation['tail'], 
                   relation_type=relation['type'], batch_id=batch_id, chunk_timestamp=chunk_timestamp)
     
+    def setup_neo4j_styles(self):
+        """设置Neo4j浏览器中的节点样式"""
+        
+        style_commands = {
+            "生物分子": {
+                "color": "#2E8B57",  # 深绿色
+                "border_color": "#1F5F3F",
+                "text_color": "#FFFFFF",
+            },
+            "生物医学概念": {
+                "color": "#3CB371",  # 中等绿色  
+                "border_color": "#2F8B57",
+                "text_color": "#FFFFFF",
+            },
+            "生物技术": {
+                "color": "#20B2AA",  # 浅绿色
+                "border_color": "#1C9A93", 
+                "text_color": "#FFFFFF",
+            },
+            "生物信息工具": {
+                "color": "#FF6347",  # 番茄红
+                "border_color": "#E55039",
+                "text_color": "#FFFFFF", 
+            },
+            "深度学习概念": {
+                "color": "#DC143C",  # 深红色
+                "border_color": "#B22222",
+                "text_color": "#FFFFFF",
+            },
+            "项目活动": {
+                "color": "#A9A9A9",  # 深灰色
+                "border_color": "#808080", 
+                "text_color": "#FFFFFF",
+            },
+        }
+        
+        print("\n=== Neo4j Community浏览器样式配置 ===")
+        # 生成样式配置的JSON文件
+        self._generate_style_config_file(style_commands)
+        
+        return style_commands
+
+    def _generate_style_config_file(self, style_commands):
+        """生成Neo4j Desktop可导入的样式配置文件"""
+        
+        # Neo4j Desktop样式配置格式
+        desktop_style = {
+            "node": {},
+            "relationship": {}
+        }
+        
+        for label, style in style_commands.items():
+            desktop_style["node"][label] = {
+                "color": style["color"],
+                "border-color": style["border_color"], 
+                "text-color-internal": style["text_color"],
+            }
+        
+        # 保存样式配置
+        style_file_path = os.path.join(ENTITIES_RELATIONS_DIR, "neo4j_styles.json")
+        os.makedirs(os.path.dirname(style_file_path), exist_ok=True)
+        
+        with open(style_file_path, 'w', encoding='utf-8') as f:
+            json.dump(desktop_style, f, ensure_ascii=False, indent=2)
+        
+        print(f"\n样式配置已保存到: {style_file_path}")
+        print("您可以在Neo4j Desktop中导入此样式配置文件")
+
     def _update_batch_info(self, tx, batch_id, chunk_timestamp):
         """更新批次信息(预留)"""
         # 这里可以添加更多批次级别的信息更新
@@ -281,63 +352,7 @@ class Neo4jManager:
         """关闭Neo4j连接"""
         if self.driver:
             self.driver.close()
-   
-    def generate_neo4j_queries(self):
-        """生成常用的Neo4j查询语句"""
-        queries = {
-            "查看所有节点和边": "MATCH (n)-[r]->(m) RETURN n, r, m",
-            
-            "按实体类型分组统计": """
-                MATCH (n:Entity)
-                RETURN n.type as entity_type, count(n) as count, collect(n.color)[0] as color
-                ORDER BY count DESC
-            """,
-            
-            "度中心性TOP10": """
-                MATCH (n:Entity)
-                RETURN n.name, n.type, n.degree_centrality, n.degree
-                ORDER BY n.degree_centrality DESC
-                LIMIT 10
-            """,
-            
-            "社区内节点": """
-                MATCH (n:Entity)
-                WHERE n.community = 0
-                RETURN n.name, n.type, n.degree_centrality
-                ORDER BY n.degree_centrality DESC
-            """,
-            
-            "按颜色可视化": """
-                MATCH (n:Entity)
-                RETURN n.name, n.type, n.color, n.degree_centrality
-            """,
-            
-            "关系类型统计": """
-                MATCH ()-[r:RELATION]->()
-                RETURN r.type as relation_type, count(r) as count
-                ORDER BY count DESC
-            """,
-            
-            "高度中心性节点的邻居": """
-                MATCH (n:Entity)
-                WHERE n.degree_centrality > 0.1
-                MATCH (n)-[r]-(neighbor)
-                RETURN n.name as central_node, collect(neighbor.name) as neighbors
-            """
-        }
-        
-        print("\n=== Neo4j常用查询语句 ===")
-        for description, query in queries.items():
-            print(f"\n{description}:")
-            print(query)
-        
-        return queries
-    
-    
-    def close(self):
-        """关闭Neo4j连接"""
-        if self.driver:
-            self.driver.close()
+
         
 def main():
 
@@ -434,8 +449,7 @@ def main():
 
     #     trajectory_results = analyzer.temporal_analysis(get_historical_data())
 
-    # 提示查询命令
-    neo4j_manager.generate_neo4j_queries()
+
 
     neo4j_manager.close()
 

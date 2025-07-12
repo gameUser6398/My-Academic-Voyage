@@ -1205,11 +1205,11 @@
             "type": "生物医学概念"
         },
         {
-            "name": "头孢他啶",
+            "name": "支扩",
             "type": "生物医学概念"
         },
         {
-            "name": "头孢哌酮钠舒巴坦钠",
+            "name": "头孢他啶",
             "type": "生物医学概念"
         },
         {
@@ -1231,6 +1231,10 @@
         {
             "name": "阿奇霉素",
             "type": "生物医学概念"
+        },
+        {
+            "name": "厌氧菌",
+            "type": "生物分子"
         },
         {
             "name": "甲硝唑",
@@ -1309,6 +1313,14 @@
             "type": "生物医学概念"
         },
         {
+            "name": "G-杆菌",
+            "type": "生物分子"
+        },
+        {
+            "name": "G+细菌",
+            "type": "生物分子"
+        },
+        {
             "name": "左氧氟沙星",
             "type": "生物医学概念"
         },
@@ -1317,7 +1329,19 @@
             "type": "生物医学概念"
         },
         {
-            "name": "β-内酰胺酶抑制剂",
+            "name": "β内酰胺酶抑制剂",
+            "type": "生物医学概念"
+        },
+        {
+            "name": "美洛西林",
+            "type": "生物医学概念"
+        },
+        {
+            "name": "哌拉西林",
+            "type": "生物医学概念"
+        },
+        {
+            "name": "阿莫西林",
             "type": "生物医学概念"
         },
         {
@@ -1330,10 +1354,6 @@
         },
         {
             "name": "美洛西林/舒巴坦",
-            "type": "生物医学概念"
-        },
-        {
-            "name": "哌拉西林/三唑巴坦",
             "type": "生物医学概念"
         },
         {
@@ -1369,15 +1389,11 @@
             "type": "生物医学概念"
         },
         {
+            "name": "拜复乐",
+            "type": "生物医学概念"
+        },
+        {
             "name": "厄他培南",
-            "type": "生物医学概念"
-        },
-        {
-            "name": "美士灵",
-            "type": "生物医学概念"
-        },
-        {
-            "name": "氨曲南",
             "type": "生物医学概念"
         },
         {
@@ -1389,11 +1405,19 @@
             "type": "生物分子"
         },
         {
-            "name": "产ESBL大肠杆菌",
-            "type": "生物分子"
+            "name": "单环类",
+            "type": "生物医学概念"
         },
         {
-            "name": "肠球菌",
+            "name": "氨曲南",
+            "type": "生物医学概念"
+        },
+        {
+            "name": "ICU",
+            "type": "其他"
+        },
+        {
+            "name": "G-需氧菌",
             "type": "生物分子"
         },
         {
@@ -1401,7 +1425,7 @@
             "type": "生物分子"
         },
         {
-            "name": "拟杆菌",
+            "name": "链球菌",
             "type": "生物分子"
         },
         {
@@ -1421,112 +1445,36 @@
             "type": "生物分子"
         },
         {
-            "name": "链球菌",
+            "name": "拟杆菌",
             "type": "生物分子"
         },
         {
-            "name": "非发酵G-杆菌",
+            "name": "肠球菌",
             "type": "生物分子"
         },
         {
-            "name": "绿脓",
+            "name": "产ESBL大肠杆菌",
             "type": "生物分子"
         },
         {
-            "name": "不动杆菌",
+            "name": "金葡菌",
             "type": "生物分子"
         },
         {
-            "name": "嗜麦芽窄单胞菌",
+            "name": "表皮葡萄球菌",
             "type": "生物分子"
         },
         {
-            "name": "G+",
+            "name": "肺炎链球菌",
             "type": "生物分子"
         },
         {
-            "name": "G-",
+            "name": "化脓性链球菌",
             "type": "生物分子"
         },
         {
-            "name": "厌氧菌",
+            "name": "溶血性链球菌",
             "type": "生物分子"
-        },
-        {
-            "name": "支扩",
-            "type": "生物医学概念"
-        },
-        {
-            "name": "ICU",
-            "type": "项目活动"
-        },
-        {
-            "name": "时间依赖性",
-            "type": "生物医学概念"
-        },
-        {
-            "name": "PAE",
-            "type": "生物医学概念"
-        },
-        {
-            "name": "T＞MIC",
-            "type": "生物医学概念"
-        },
-        {
-            "name": "酶稳定性",
-            "type": "生物医学概念"
-        },
-        {
-            "name": "交叉过敏",
-            "type": "生物医学概念"
-        },
-        {
-            "name": "耐药率",
-            "type": "生物医学概念"
-        },
-        {
-            "name": "院内感染",
-            "type": "项目活动"
-        },
-        {
-            "name": "社区获得性肺部感染",
-            "type": "生物医学概念"
-        },
-        {
-            "name": "中枢神经系统感染",
-            "type": "生物医学概念"
-        },
-        {
-            "name": "脑膜炎",
-            "type": "生物医学概念"
-        },
-        {
-            "name": "败血症",
-            "type": "生物医学概念"
-        },
-        {
-            "name": "生殖器感染",
-            "type": "生物医学概念"
-        },
-        {
-            "name": "盆腹腔感染",
-            "type": "生物医学概念"
-        },
-        {
-            "name": "呼吸道感染",
-            "type": "生物医学概念"
-        },
-        {
-            "name": "皮肤软组织感染",
-            "type": "生物医学概念"
-        },
-        {
-            "name": "泌尿系统感染",
-            "type": "生物医学概念"
-        },
-        {
-            "name": "腹腔感染",
-            "type": "生物医学概念"
         },
         {
             "name": "移动遗传元件",
@@ -2173,31 +2121,23 @@
             "type": "生物分子"
         },
         {
-            "name": "Protein name",
+            "name": "GO_mf",
+            "type": "生物信息工具"
+        },
+        {
+            "name": "GO_cc",
+            "type": "生物信息工具"
+        },
+        {
+            "name": "QuickGO",
+            "type": "生物信息工具"
+        },
+        {
+            "name": "antibiotic catabolic process",
             "type": "生物分子"
         },
         {
-            "name": "Gene name",
-            "type": "生物分子"
-        },
-        {
-            "name": "Origanism",
-            "type": "生物分子"
-        },
-        {
-            "name": "GO_mf/bp/cc",
-            "type": "生物分子"
-        },
-        {
-            "name": "Pathway",
-            "type": "生物分子"
-        },
-        {
-            "name": "Keywords",
-            "type": "生物分子"
-        },
-        {
-            "name": "Reviewed（T/F）",
+            "name": "macrolide transmembrane transporter complex",
             "type": "生物分子"
         },
         {
@@ -2205,147 +2145,19 @@
             "type": "生物技术"
         },
         {
-            "name": "QuickGO",
-            "type": "生物信息工具"
-        },
-        {
-            "name": "GO:0046677",
-            "type": "生物信息工具"
-        },
-        {
-            "name": "GO:0017001",
-            "type": "生物信息工具"
-        },
-        {
-            "name": "GO:0030655",
-            "type": "生物信息工具"
-        },
-        {
-            "name": "GO:1990195",
-            "type": "生物信息工具"
-        },
-        {
-            "name": "Graph Neural Networks",
-            "type": "深度学习概念"
+            "name": "基于成对比较（PCM）",
+            "type": "生物技术"
         },
         {
             "name": "肠道微生物群",
-            "type": "生物医学概念"
+            "type": "生物分子"
         },
         {
-            "name": "抗假单胞菌β-内酰胺/β-内酰胺酶抑制剂",
-            "type": "生物医学概念"
+            "name": "抗生素耐药性决定因素（ARD）",
+            "type": "生物分子"
         },
         {
-            "name": "β-内酰胺/β-内酰胺酶抑制剂",
-            "type": "生物医学概念"
-        },
-        {
-            "name": "第五代头孢菌素",
-            "type": "生物医学概念"
-        },
-        {
-            "name": "第一代头孢菌素",
-            "type": "生物医学概念"
-        },
-        {
-            "name": "氟喹诺酮类",
-            "type": "生物医学概念"
-        },
-        {
-            "name": "第四代头孢菌素",
-            "type": "生物医学概念"
-        },
-        {
-            "name": "糖肽类",
-            "type": "生物医学概念"
-        },
-        {
-            "name": "甘氨酰环素类",
-            "type": "生物医学概念"
-        },
-        {
-            "name": "咪唑类",
-            "type": "生物医学概念"
-        },
-        {
-            "name": "林可酰胺类",
-            "type": "生物医学概念"
-        },
-        {
-            "name": "脂肽类",
-            "type": "生物医学概念"
-        },
-        {
-            "name": "硝基呋喃衍生物",
-            "type": "生物医学概念"
-        },
-        {
-            "name": "噁唑烷酮类",
-            "type": "生物医学概念"
-        },
-        {
-            "name": "青霉烯类",
-            "type": "生物医学概念"
-        },
-        {
-            "name": "酚类衍生物",
-            "type": "生物医学概念"
-        },
-        {
-            "name": "磷酸类",
-            "type": "生物医学概念"
-        },
-        {
-            "name": "杂肽霉素类",
-            "type": "生物医学概念"
-        },
-        {
-            "name": "多粘菌素类",
-            "type": "生物医学概念"
-        },
-        {
-            "name": "利福霉素类",
-            "type": "生物医学概念"
-        },
-        {
-            "name": "类固醇抗菌剂",
-            "type": "生物医学概念"
-        },
-        {
-            "name": "链阳菌素类",
-            "type": "生物医学概念"
-        },
-        {
-            "name": "磺胺-甲氧苄啶组合",
-            "type": "生物医学概念"
-        },
-        {
-            "name": "第二代头孢菌素",
-            "type": "生物医学概念"
-        },
-        {
-            "name": "术语标准化",
-            "type": "项目活动"
-        },
-        {
-            "name": "MicroBIGG-E",
-            "type": "生物信息工具"
-        },
-        {
-            "name": "NDARO",
-            "type": "生物信息工具"
-        },
-        {
-            "name": "BV-BRC",
-            "type": "生物信息工具"
-        },
-        {
-            "name": "PATRIC",
-            "type": "生物信息工具"
-        },
-        {
-            "name": "RAST",
+            "name": "Structure-Aware-Antibiotic-Resistance-Classification-Using-Graph-Neural-Networks",
             "type": "生物信息工具"
         },
         {
@@ -2353,32 +2165,84 @@
             "type": "生物信息工具"
         },
         {
-            "name": "Ampicillin/sulbactam",
-            "type": "生物医学概念"
+            "name": "蛋白质",
+            "type": "生物分子"
         },
         {
-            "name": "Sulbactam",
-            "type": "生物医学概念"
+            "name": "图神经网络",
+            "type": "深度学习概念"
         },
         {
-            "name": "Tazobactam",
-            "type": "生物医学概念"
+            "name": "Hugging Face",
+            "type": "生物信息工具"
         },
         {
-            "name": "Amoxicillin/clavulanic-acid",
-            "type": "生物医学概念"
-        },
-        {
-            "name": "Sultamicillin",
-            "type": "生物医学概念"
-        },
-        {
-            "name": "Piperacillin/tazobac",
-            "type": "生物医学概念"
+            "name": "COALA",
+            "type": "生物信息工具"
         },
         {
             "name": "Aminoglycosides",
+            "type": "生物分子"
+        },
+        {
+            "name": "Amoxicillin/clavulanic-acid",
+            "type": "生物分子"
+        },
+        {
+            "name": "Sulbactam",
+            "type": "生物分子"
+        },
+        {
+            "name": "Tazobactam",
+            "type": "生物分子"
+        },
+        {
+            "name": "β-内酰胺酶抑制剂",
+            "type": "生物分子"
+        },
+        {
+            "name": "氟喹诺酮类",
+            "type": "生物分子"
+        },
+        {
+            "name": "糖肽类",
+            "type": "生物分子"
+        },
+        {
+            "name": "β-内酰胺",
+            "type": "生物分子"
+        },
+        {
+            "name": "多粘菌素类",
+            "type": "生物分子"
+        },
+        {
+            "name": "抗菌素耐药性",
             "type": "生物医学概念"
+        },
+        {
+            "name": "微生物菌群失调",
+            "type": "生物医学概念"
+        },
+        {
+            "name": "疾病",
+            "type": "生物医学概念"
+        },
+        {
+            "name": "术语标准化",
+            "type": "项目活动"
+        },
+        {
+            "name": "实验报告",
+            "type": "项目活动"
+        },
+        {
+            "name": "数据下载",
+            "type": "项目活动"
+        },
+        {
+            "name": "实验策略",
+            "type": "项目活动"
         },
         {
             "name": "Mtb",
@@ -2537,6 +2401,14 @@
             "type": "生物医学概念"
         },
         {
+            "name": "PATRIC",
+            "type": "生物信息工具"
+        },
+        {
+            "name": "RAST",
+            "type": "生物信息工具"
+        },
+        {
             "name": "立项书撰写",
             "type": "项目活动"
         },
@@ -2657,6 +2529,10 @@
             "type": "生物信息工具"
         },
         {
+            "name": "林可酰胺类",
+            "type": "生物分子"
+        },
+        {
             "name": "链霉胺类",
             "type": "生物分子"
         },
@@ -2753,6 +2629,10 @@
             "type": "生物分子"
         },
         {
+            "name": "利福霉素类",
+            "type": "生物分子"
+        },
+        {
             "name": "carbapenem",
             "type": "生物分子"
         },
@@ -2778,10 +2658,6 @@
         },
         {
             "name": "blaKPC",
-            "type": "生物分子"
-        },
-        {
-            "name": "肺炎链球菌",
             "type": "生物分子"
         },
         {
@@ -2998,10 +2874,6 @@
         },
         {
             "name": "青霉素",
-            "type": "生物分子"
-        },
-        {
-            "name": "阿莫西林",
             "type": "生物分子"
         },
         {
@@ -3281,10 +3153,6 @@
             "type": "生物医学概念"
         },
         {
-            "name": "微生物菌群失调",
-            "type": "生物医学概念"
-        },
-        {
             "name": "人工智能",
             "type": "生物信息工具"
         },
@@ -3325,7 +3193,15 @@
             "type": "生物医学概念"
         },
         {
+            "name": "甘氨酰环素类",
+            "type": "生物医学概念"
+        },
+        {
             "name": "环脂肽类",
+            "type": "生物医学概念"
+        },
+        {
+            "name": "噁唑烷酮类",
             "type": "生物医学概念"
         },
         {
@@ -3366,10 +3242,6 @@
         },
         {
             "name": "耐药突变",
-            "type": "生物分子"
-        },
-        {
-            "name": "蛋白质",
             "type": "生物分子"
         },
         {
@@ -3961,6 +3833,10 @@
             "type": "生物分子"
         },
         {
+            "name": "希舒美",
+            "type": "生物分子"
+        },
+        {
             "name": "林可霉素",
             "type": "生物分子"
         },
@@ -3990,90 +3866,54 @@
         },
         {
             "name": "G+菌",
-            "type": "生物分子"
+            "type": "生物医学概念"
         },
         {
-            "name": "G-菌",
-            "type": "生物分子"
+            "name": "军团菌",
+            "type": "生物医学概念"
         },
         {
-            "name": "G-杆菌",
-            "type": "生物分子"
+            "name": "幽门弯曲菌",
+            "type": "生物医学概念"
         },
         {
             "name": "梭状芽胞杆菌",
-            "type": "生物分子"
+            "type": "生物医学概念"
         },
         {
             "name": "放线菌",
-            "type": "生物分子"
+            "type": "生物医学概念"
         },
         {
             "name": "绿脓杆菌",
-            "type": "生物分子"
-        },
-        {
-            "name": "脑膜炎奈瑟菌",
-            "type": "生物分子"
-        },
-        {
-            "name": "淋病球菌",
-            "type": "生物分子"
-        },
-        {
-            "name": "人型支原体",
-            "type": "生物分子"
-        },
-        {
-            "name": "沙眼衣原体",
-            "type": "生物分子"
-        },
-        {
-            "name": "MRSE",
-            "type": "生物分子"
+            "type": "生物医学概念"
         },
         {
             "name": "艰难梭菌",
-            "type": "生物分子"
+            "type": "生物医学概念"
+        },
+        {
+            "name": "MRSE",
+            "type": "生物医学概念"
         },
         {
             "name": "VISA",
-            "type": "生物分子"
+            "type": "生物医学概念"
         },
         {
             "name": "PRSP",
-            "type": "生物分子"
-        },
-        {
-            "name": "MRSA肺炎",
             "type": "生物医学概念"
         },
         {
-            "name": "CNS化脓性感染",
+            "name": "阿米巴",
             "type": "生物医学概念"
         },
         {
-            "name": "CAP",
+            "name": "滴虫",
             "type": "生物医学概念"
         },
         {
-            "name": "非淋菌性尿道炎",
-            "type": "生物医学概念"
-        },
-        {
-            "name": "血流感染",
-            "type": "生物医学概念"
-        },
-        {
-            "name": "导管相关血流感染",
-            "type": "生物医学概念"
-        },
-        {
-            "name": "肺炎",
-            "type": "生物医学概念"
-        },
-        {
-            "name": "红人综合症",
+            "name": "血脑屏障",
             "type": "生物医学概念"
         },
         {
@@ -4085,19 +3925,55 @@
             "type": "生物医学概念"
         },
         {
-            "name": "胃肠道反应",
+            "name": "周围神经炎",
             "type": "生物医学概念"
         },
         {
-            "name": "静脉炎",
+            "name": "腹腔感染",
             "type": "生物医学概念"
         },
         {
-            "name": "肝损",
+            "name": "皮肤软组织感染",
+            "type": "生物医学概念"
+        },
+        {
+            "name": "CNS化脓性感染",
+            "type": "生物医学概念"
+        },
+        {
+            "name": "血流感染",
+            "type": "生物医学概念"
+        },
+        {
+            "name": "导管相关血流感染",
+            "type": "生物医学概念"
+        },
+        {
+            "name": "CAP",
+            "type": "生物医学概念"
+        },
+        {
+            "name": "非淋菌性尿道炎",
+            "type": "生物医学概念"
+        },
+        {
+            "name": "抗炎作用",
+            "type": "生物医学概念"
+        },
+        {
+            "name": "组织浓度",
+            "type": "生物医学概念"
+        },
+        {
+            "name": "半衰期",
             "type": "生物医学概念"
         },
         {
             "name": "变态反应",
+            "type": "生物医学概念"
+        },
+        {
+            "name": "红人综合症",
             "type": "生物医学概念"
         },
         {
@@ -4109,52 +3985,56 @@
             "type": "生物医学概念"
         },
         {
-            "name": "周围神经炎",
+            "name": "PAE",
             "type": "生物医学概念"
-        },
-        {
-            "name": "非特异性抗炎作用",
-            "type": "生物医学概念"
-        },
-        {
-            "name": "组织分布",
-            "type": "其他"
-        },
-        {
-            "name": "口服制剂",
-            "type": "其他"
-        },
-        {
-            "name": "浓度依赖性",
-            "type": "其他"
         },
         {
             "name": "qd给药",
-            "type": "其他"
+            "type": "生物医学概念"
         },
         {
             "name": "脂溶性",
-            "type": "其他"
+            "type": "生物医学概念"
         },
         {
-            "name": "血脑屏障",
-            "type": "其他"
+            "name": "口服制剂",
+            "type": "生物医学概念"
         },
         {
-            "name": "组织浓度",
-            "type": "其他"
-        },
-        {
-            "name": "半衰期",
-            "type": "其他"
+            "name": "浓度依赖性",
+            "type": "生物医学概念"
         },
         {
             "name": "剂量依赖性",
-            "type": "其他"
+            "type": "生物医学概念"
         },
         {
-            "name": "一过性骨髓抑制",
-            "type": "其他"
+            "name": "胃肠道反应",
+            "type": "生物医学概念"
+        },
+        {
+            "name": "肝损",
+            "type": "生物医学概念"
+        },
+        {
+            "name": "皮疹",
+            "type": "生物医学概念"
+        },
+        {
+            "name": "静脉炎",
+            "type": "生物医学概念"
+        },
+        {
+            "name": "林可霉素类",
+            "type": "生物医学概念"
+        },
+        {
+            "name": "恶唑烷酮类",
+            "type": "生物医学概念"
+        },
+        {
+            "name": "环酯肽类",
+            "type": "生物医学概念"
         },
         {
             "name": "基因",
@@ -4313,6 +4193,10 @@
             "type": "生物信息工具"
         },
         {
+            "name": "NDARO",
+            "type": "生物信息工具"
+        },
+        {
             "name": "RGI",
             "type": "生物信息工具"
         },
@@ -4453,10 +4337,6 @@
             "type": "深度学习概念"
         },
         {
-            "name": "抗菌素耐药性",
-            "type": "生物医学概念"
-        },
-        {
             "name": "ARGfams",
             "type": "生物信息工具"
         },
@@ -4595,6 +4475,314 @@
         {
             "name": "缺失蛋白",
             "type": "生物分子"
+        },
+        {
+            "name": "2-octaprenyl-3-methyl-6-methoxy-1,4-benzoquinol hydroxylase",
+            "type": "生物分子"
+        },
+        {
+            "name": "adenine",
+            "type": "生物分子"
+        },
+        {
+            "name": "4 iron, 4 sulfur cluster",
+            "type": "生物分子"
+        },
+        {
+            "name": "4-amino-4-deoxy-L-arabinose",
+            "type": "生物分子"
+        },
+        {
+            "name": "ABC-type amino acid transporter",
+            "type": "生物分子"
+        },
+        {
+            "name": "ABC-type transporter",
+            "type": "生物分子"
+        },
+        {
+            "name": "ABC-type xenobiotic transporter",
+            "type": "生物分子"
+        },
+        {
+            "name": "acyltransferase",
+            "type": "生物分子"
+        },
+        {
+            "name": "adenylyltransferase",
+            "type": "生物分子"
+        },
+        {
+            "name": "amino-acid betaine transmembrane transporter",
+            "type": "生物分子"
+        },
+        {
+            "name": "aminoacyl-tRNA editing",
+            "type": "生物分子"
+        },
+        {
+            "name": "aminoacyltransferase",
+            "type": "生物分子"
+        },
+        {
+            "name": "aminoglycoside 2''-nucleotidyltransferase",
+            "type": "生物分子"
+        },
+        {
+            "name": "aminoglycoside 3''-adenylyltransferase",
+            "type": "生物分子"
+        },
+        {
+            "name": "aminoglycoside 3-N-acetyltransferase",
+            "type": "生物分子"
+        },
+        {
+            "name": "aminoglycoside 6'-N-acetyltransferase",
+            "type": "生物分子"
+        },
+        {
+            "name": "antimonite secondary active transmembrane transporter",
+            "type": "生物分子"
+        },
+        {
+            "name": "antiporter",
+            "type": "生物分子"
+        },
+        {
+            "name": "arsenite transmembrane transporter",
+            "type": "生物分子"
+        },
+        {
+            "name": "ATP adenylyltransferase",
+            "type": "生物分子"
+        },
+        {
+            "name": "ATP binding",
+            "type": "生物分子"
+        },
+        {
+            "name": "bacterial-type RNA polymerase core enzyme",
+            "type": "生物分子"
+        },
+        {
+            "name": "basic amino acid transmembrane transporter",
+            "type": "生物分子"
+        },
+        {
+            "name": "carbon-oxygen lyase",
+            "type": "生物分子"
+        },
+        {
+            "name": "carboxy-lyase",
+            "type": "生物分子"
+        },
+        {
+            "name": "xenobiotic detoxification",
+            "type": "生物医学概念"
+        },
+        {
+            "name": "xenobiotic export from cell",
+            "type": "生物医学概念"
+        },
+        {
+            "name": "xenobiotic transmembrane transport",
+            "type": "生物医学概念"
+        },
+        {
+            "name": "cell adhesion",
+            "type": "生物医学概念"
+        },
+        {
+            "name": "cell cycle",
+            "type": "生物医学概念"
+        },
+        {
+            "name": "cell wall organization",
+            "type": "生物医学概念"
+        },
+        {
+            "name": "cellular response to magnesium starvation",
+            "type": "生物医学概念"
+        },
+        {
+            "name": "cellular response to phosphate starvation",
+            "type": "生物医学概念"
+        },
+        {
+            "name": "copper ion export",
+            "type": "生物医学概念"
+        },
+        {
+            "name": "copper ion transport",
+            "type": "生物医学概念"
+        },
+        {
+            "name": "cysteine export",
+            "type": "生物分子"
+        },
+        {
+            "name": "cysteine transmembrane transport",
+            "type": "生物分子"
+        },
+        {
+            "name": "D-alanine biosynthetic process",
+            "type": "生物分子"
+        },
+        {
+            "name": "daunorubicin transport",
+            "type": "生物分子"
+        },
+        {
+            "name": "detection of virus",
+            "type": "生物医学概念"
+        },
+        {
+            "name": "diadenosine tetraphosphate biosynthetic process",
+            "type": "生物分子"
+        },
+        {
+            "name": "dihydrofolate metabolic process",
+            "type": "生物分子"
+        },
+        {
+            "name": "DNA damage response",
+            "type": "生物医学概念"
+        },
+        {
+            "name": "DNA-templated transcription",
+            "type": "生物医学概念"
+        },
+        {
+            "name": "folic acid biosynthetic process",
+            "type": "生物分子"
+        },
+        {
+            "name": "glycine betaine transport",
+            "type": "生物分子"
+        },
+        {
+            "name": "Gram-negative-bacterium-type cell outer membrane assembly",
+            "type": "生物医学概念"
+        },
+        {
+            "name": "intracellular iron ion homeostasis",
+            "type": "生物医学概念"
+        },
+        {
+            "name": "isoleucyl-tRNA aminoacylation",
+            "type": "生物分子"
+        },
+        {
+            "name": "lipid A biosynthetic process",
+            "type": "生物分子"
+        },
+        {
+            "name": "lipid metabolic process",
+            "type": "生物分子"
+        },
+        {
+            "name": "lipid transport",
+            "type": "生物分子"
+        },
+        {
+            "name": "lipopolysaccharide core region biosynthetic process",
+            "type": "生物分子"
+        },
+        {
+            "name": "maturation of SSU-rRNA",
+            "type": "生物分子"
+        },
+        {
+            "name": "methylation",
+            "type": "生物分子"
+        },
+        {
+            "name": "methylglyoxal catabolic process",
+            "type": "生物分子"
+        },
+        {
+            "name": "monoatomic ion transmembrane transport",
+            "type": "生物分子"
+        },
+        {
+            "name": "monoatomic ion transport",
+            "type": "生物分子"
+        },
+        {
+            "name": "mRNA catabolic process",
+            "type": "生物分子"
+        },
+        {
+            "name": "negative regulation of DNA-templated transcription",
+            "type": "生物医学概念"
+        },
+        {
+            "name": "peptide transport",
+            "type": "生物分子"
+        },
+        {
+            "name": "phosphorelay signal transduction system",
+            "type": "生物分子"
+        },
+        {
+            "name": "phosphorylation",
+            "type": "生物分子"
+        },
+        {
+            "name": "positive regulation of DNA-templated transcription",
+            "type": "生物医学概念"
+        },
+        {
+            "name": "positive regulation of phospholipid biosynthetic process",
+            "type": "生物医学概念"
+        },
+        {
+            "name": "potassium ion transport",
+            "type": "生物分子"
+        },
+        {
+            "name": "proton transmembrane transport",
+            "type": "生物分子"
+        },
+        {
+            "name": "pyoverdine biosynthetic process",
+            "type": "生物分子"
+        },
+        {
+            "name": "regulation of DNA-templated transcription",
+            "type": "生物医学概念"
+        },
+        {
+            "name": "response to antibiotic",
+            "type": "生物医学概念"
+        },
+        {
+            "name": "response to arsenic-containing substance",
+            "type": "生物医学概念"
+        },
+        {
+            "name": "response to cadmium ion",
+            "type": "生物医学概念"
+        },
+        {
+            "name": "response to toxic substance",
+            "type": "生物医学概念"
+        },
+        {
+            "name": "sodium ion transport",
+            "type": "生物分子"
+        },
+        {
+            "name": "transmembrane transport",
+            "type": "生物分子"
+        },
+        {
+            "name": "ubiquinone biosynthetic process",
+            "type": "生物分子"
+        },
+        {
+            "name": "xenobiotic transport",
+            "type": "生物医学概念"
         },
         {
             "name": "MALDI-TOF 质谱",
@@ -4783,6 +4971,374 @@
         {
             "name": "SEAR",
             "type": "生物信息工具"
+        },
+        {
+            "name": "kanamycin kinase activity",
+            "type": "生物分子"
+        },
+        {
+            "name": "penicillin binding",
+            "type": "生物分子"
+        },
+        {
+            "name": "alanine racemase activity",
+            "type": "生物分子"
+        },
+        {
+            "name": "aminoglycoside 3''-adenylyltransferase activity",
+            "type": "生物分子"
+        },
+        {
+            "name": "antiporter activity",
+            "type": "生物分子"
+        },
+        {
+            "name": "arsenite secondary active transmembrane transporter activity",
+            "type": "生物分子"
+        },
+        {
+            "name": "ATP hydrolysis activity",
+            "type": "生物分子"
+        },
+        {
+            "name": "ATPase-coupled lipid transmembrane transporter activity",
+            "type": "生物分子"
+        },
+        {
+            "name": "ATPase-coupled transmembrane transporter activity",
+            "type": "生物分子"
+        },
+        {
+            "name": "bacterial-type RNA polymerase holo enzyme binding",
+            "type": "生物分子"
+        },
+        {
+            "name": "basic amino acid transmembrane transporter activity",
+            "type": "生物分子"
+        },
+        {
+            "name": "choline transmembrane transporter activity",
+            "type": "生物分子"
+        },
+        {
+            "name": "copper ion transmembrane transporter activity",
+            "type": "生物分子"
+        },
+        {
+            "name": "D-alanine-D-alanine ligase activity",
+            "type": "生物分子"
+        },
+        {
+            "name": "diacylglycerol binding",
+            "type": "生物分子"
+        },
+        {
+            "name": "dihydrofolic acid binding",
+            "type": "生物分子"
+        },
+        {
+            "name": "dipeptide transmembrane transporter activity",
+            "type": "生物分子"
+        },
+        {
+            "name": "disordered domain specific binding",
+            "type": "生物分子"
+        },
+        {
+            "name": "DNA binding",
+            "type": "生物分子"
+        },
+        {
+            "name": "DNA-binding transcription factor activity",
+            "type": "生物分子"
+        },
+        {
+            "name": "DNA-directed 5'-3' RNA polymerase activity",
+            "type": "生物分子"
+        },
+        {
+            "name": "double-stranded DNA binding",
+            "type": "生物分子"
+        },
+        {
+            "name": "efflux transmembrane transporter activity",
+            "type": "生物分子"
+        },
+        {
+            "name": "FAD binding",
+            "type": "生物分子"
+        },
+        {
+            "name": "folic acid binding",
+            "type": "生物分子"
+        },
+        {
+            "name": "GTP binding",
+            "type": "生物分子"
+        },
+        {
+            "name": "GTPase activity",
+            "type": "生物分子"
+        },
+        {
+            "name": "guanosine tetraphosphate binding",
+            "type": "生物分子"
+        },
+        {
+            "name": "hexosyltransferase activity",
+            "type": "生物分子"
+        },
+        {
+            "name": "identical protein binding",
+            "type": "生物分子"
+        },
+        {
+            "name": "inorganic phosphate transmembrane transporter activity",
+            "type": "生物分子"
+        },
+        {
+            "name": "isoleucine-tRNA ligase activity",
+            "type": "生物分子"
+        },
+        {
+            "name": "lysine-tRNA ligase activity",
+            "type": "生物分子"
+        },
+        {
+            "name": "magnesium ion binding",
+            "type": "生物分子"
+        },
+        {
+            "name": "mannosyltransferase activity",
+            "type": "生物分子"
+        },
+        {
+            "name": "mercury ion transmembrane transporter activity",
+            "type": "生物分子"
+        },
+        {
+            "name": "metal ion binding",
+            "type": "生物分子"
+        },
+        {
+            "name": "metallopeptidase activity",
+            "type": "生物分子"
+        },
+        {
+            "name": "methotrexate binding",
+            "type": "生物分子"
+        },
+        {
+            "name": "monoatomic cation transmembrane transporter activity",
+            "type": "生物分子"
+        },
+        {
+            "name": "monoatomic ion channel activity",
+            "type": "生物分子"
+        },
+        {
+            "name": "monoatomic ion transmembrane transporter activity",
+            "type": "生物分子"
+        },
+        {
+            "name": "monooxygenase activity",
+            "type": "生物分子"
+        },
+        {
+            "name": "mRNA binding",
+            "type": "生物分子"
+        },
+        {
+            "name": "NAD binding",
+            "type": "生物分子"
+        },
+        {
+            "name": "NADP binding",
+            "type": "生物分子"
+        },
+        {
+            "name": "NADP+ binding",
+            "type": "生物分子"
+        },
+        {
+            "name": "NADPH binding",
+            "type": "生物分子"
+        },
+        {
+            "name": "nucleotidyltransferase activity",
+            "type": "生物分子"
+        },
+        {
+            "name": "peptide-alanine-alpha-N-acetyltransferase activity",
+            "type": "生物分子"
+        },
+        {
+            "name": "peptidoglycan glycosyltransferase activity",
+            "type": "生物分子"
+        },
+        {
+            "name": "peptidoglycan L,D-transpeptidase activity",
+            "type": "生物分子"
+        },
+        {
+            "name": "phosphatidylglycerol alanyltransferase activity",
+            "type": "生物分子"
+        },
+        {
+            "name": "phosphatidylglycerol lysyltransferase activity",
+            "type": "生物分子"
+        },
+        {
+            "name": "phosphinothricin N-acetyltransferase activity",
+            "type": "生物分子"
+        },
+        {
+            "name": "phosphoprotein phosphatase activity",
+            "type": "生物分子"
+        },
+        {
+            "name": "phosphorelay response regulator activity",
+            "type": "生物分子"
+        },
+        {
+            "name": "phosphorelay sensor kinase activity",
+            "type": "生物分子"
+        },
+        {
+            "name": "phosphotransferase activity, alcohol group as acceptor",
+            "type": "生物分子"
+        },
+        {
+            "name": "porin activity",
+            "type": "生物分子"
+        },
+        {
+            "name": "protein homodimerization activity",
+            "type": "生物分子"
+        },
+        {
+            "name": "purine nucleoside transmembrane transporter activity",
+            "type": "生物分子"
+        },
+        {
+            "name": "putrescine transmembrane transporter activity",
+            "type": "生物分子"
+        },
+        {
+            "name": "pyridoxal phosphate binding",
+            "type": "生物分子"
+        },
+        {
+            "name": "ribonucleoside binding",
+            "type": "生物分子"
+        },
+        {
+            "name": "ribosomal small subunit binding",
+            "type": "生物分子"
+        },
+        {
+            "name": "RNA binding",
+            "type": "生物分子"
+        },
+        {
+            "name": "rRNA (adenine(2503)-C2-)-methyltransferase activity",
+            "type": "生物分子"
+        },
+        {
+            "name": "rRNA (adenine) methyltransferase activity",
+            "type": "生物分子"
+        },
+        {
+            "name": "rRNA (adenine-N6,N6-)-dimethyltransferase activity",
+            "type": "生物分子"
+        },
+        {
+            "name": "rRNA (uridine-2'-O-)-methyltransferase activity",
+            "type": "生物分子"
+        },
+        {
+            "name": "rRNA binding",
+            "type": "生物分子"
+        },
+        {
+            "name": "sequence-specific DNA binding",
+            "type": "生物分子"
+        },
+        {
+            "name": "serine-type D-Ala-D-Ala carboxypeptidase activity",
+            "type": "生物分子"
+        },
+        {
+            "name": "silver ion transmembrane transporter activity",
+            "type": "生物分子"
+        },
+        {
+            "name": "sodium:proton antiporter activity",
+            "type": "生物分子"
+        },
+        {
+            "name": "spermidine transmembrane transporter activity",
+            "type": "生物分子"
+        },
+        {
+            "name": "transcription cis-regulatory region binding",
+            "type": "生物分子"
+        },
+        {
+            "name": "transferase activity, transferring alkyl or aryl (other than methyl) groups",
+            "type": "生物分子"
+        },
+        {
+            "name": "translation elongation factor activity",
+            "type": "生物分子"
+        },
+        {
+            "name": "transmembrane transporter activity",
+            "type": "生物分子"
+        },
+        {
+            "name": "tRNA (adenine(37)-C2)-methyltransferase activity",
+            "type": "生物分子"
+        },
+        {
+            "name": "tRNA binding",
+            "type": "生物分子"
+        },
+        {
+            "name": "UDP-4-amino-4-deoxy-L-arabinose formyltransferase activity",
+            "type": "生物分子"
+        },
+        {
+            "name": "UDP-glucuronic acid dehydrogenase activity",
+            "type": "生物分子"
+        },
+        {
+            "name": "UDP-glycosyltransferase activity",
+            "type": "生物分子"
+        },
+        {
+            "name": "undecaprenyl-diphosphatase activity",
+            "type": "生物分子"
+        },
+        {
+            "name": "undecaprenyl-phosphate 4-deoxy-4-formamido-L-arabinose transferase activity",
+            "type": "生物分子"
+        },
+        {
+            "name": "virus receptor activity",
+            "type": "生物分子"
+        },
+        {
+            "name": "xenobiotic transmembrane transporter activity",
+            "type": "生物分子"
+        },
+        {
+            "name": "zinc ion binding",
+            "type": "生物分子"
+        },
+        {
+            "name": "16S rRNA (adenine(1518)-N(6)/adenine(1519)-N(6))-dimethyltransferase activity",
+            "type": "生物分子"
         },
         {
             "name": "宏基因组分析",
@@ -5191,10 +5747,6 @@
         {
             "name": "生物信息工具",
             "type": "其他"
-        },
-        {
-            "name": "疾病",
-            "type": "生物医学概念"
         },
         {
             "name": "发热",
@@ -6341,10 +6893,6 @@
             "type": "生物分子"
         },
         {
-            "name": "β-内酰胺",
-            "type": "生物分子"
-        },
-        {
             "name": "β-内酰胺酶数据库",
             "type": "生物信息工具"
         },
@@ -7005,23 +7553,19 @@
             "type": "生物信息工具"
         },
         {
-            "name": "O07550",
+            "name": "HUGO命名法",
+            "type": "其他"
+        },
+        {
+            "name": "多柔比星",
+            "type": "生物分子"
+        },
+        {
+            "name": "米托蒽醌",
             "type": "生物分子"
         },
         {
             "name": "Yhel",
-            "type": "生物分子"
-        },
-        {
-            "name": "多柔比星",
-            "type": "生物医学概念"
-        },
-        {
-            "name": "米托蒽醌",
-            "type": "生物医学概念"
-        },
-        {
-            "name": "多药ARG",
             "type": "生物分子"
         },
         {
@@ -7033,80 +7577,24 @@
             "type": "生物分子"
         },
         {
-            "name": "HUGO命名法",
-            "type": "其他"
-        },
-        {
-            "name": "监督式机器学习模型",
-            "type": "深度学习概念"
-        },
-        {
-            "name": "表征单元",
-            "type": "深度学习概念"
-        },
-        {
-            "name": "训练单元",
-            "type": "深度学习概念"
-        },
-        {
-            "name": "预测单元",
-            "type": "深度学习概念"
-        },
-        {
-            "name": "特征矩阵",
-            "type": "其他"
-        },
-        {
-            "name": "比特分数",
-            "type": "生物信息工具"
-        },
-        {
-            "name": "深度神经网络",
-            "type": "深度学习概念"
-        },
-        {
-            "name": "dropout",
-            "type": "深度学习概念"
-        },
-        {
-            "name": "softMax",
-            "type": "深度学习概念"
-        },
-        {
-            "name": "Python Lasagne",
-            "type": "生物信息工具"
-        },
-        {
-            "name": "Theano",
-            "type": "生物信息工具"
-        },
-        {
-            "name": "MetaHit联盟",
-            "type": "其他"
-        },
-        {
-            "name": "e值",
-            "type": "生物信息工具"
-        },
-        {
-            "name": "序列同一性",
-            "type": "生物信息工具"
-        },
-        {
             "name": "假阴性率",
             "type": "其他"
         },
         {
-            "name": "短读长",
-            "type": "生物分子"
+            "name": "e值",
+            "type": "其他"
         },
         {
-            "name": "全基因长度序列",
-            "type": "生物分子"
+            "name": "位得分",
+            "type": "其他"
         },
         {
-            "name": "序列描述",
-            "type": "生物信息工具"
+            "name": "序列同一性",
+            "type": "其他"
+        },
+        {
+            "name": "文本挖掘",
+            "type": "其他"
         },
         {
             "name": "人工检查",
@@ -8465,10 +8953,6 @@
             "type": "生物信息工具"
         },
         {
-            "name": "Hugging Face",
-            "type": "生物信息工具"
-        },
-        {
             "name": "Hydra",
             "type": "生物信息工具"
         },
@@ -8769,6 +9253,62 @@
             "type": "其他"
         },
         {
+            "name": "UNI 基因",
+            "type": "生物分子"
+        },
+        {
+            "name": "比特分数",
+            "type": "生物信息概念"
+        },
+        {
+            "name": "监督式机器学习模型",
+            "type": "深度学习概念"
+        },
+        {
+            "name": "表征单元",
+            "type": "深度学习概念"
+        },
+        {
+            "name": "训练单元",
+            "type": "深度学习概念"
+        },
+        {
+            "name": "预测单元",
+            "type": "深度学习概念"
+        },
+        {
+            "name": "全基因长度序列",
+            "type": "生物技术"
+        },
+        {
+            "name": "短序列读长",
+            "type": "生物技术"
+        },
+        {
+            "name": "宏基因组序列",
+            "type": "生物技术"
+        },
+        {
+            "name": "dropout",
+            "type": "深度学习概念"
+        },
+        {
+            "name": "softMax",
+            "type": "深度学习概念"
+        },
+        {
+            "name": "Lasagne",
+            "type": "生物信息工具"
+        },
+        {
+            "name": "Theano",
+            "type": "生物信息工具"
+        },
+        {
+            "name": "MetaHit",
+            "type": "项目活动"
+        },
+        {
             "name": "抗性类别",
             "type": "生物医学概念"
         },
@@ -8973,14 +9513,6 @@
             "type": "生物分子"
         },
         {
-            "name": "macrolide transmembrane transporter complex",
-            "type": "生物分子"
-        },
-        {
-            "name": "antibiotic catabolic process",
-            "type": "生物医学概念"
-        },
-        {
             "name": "pd.merge",
             "type": "生物信息工具"
         },
@@ -9105,6 +9637,10 @@
             "type": "生物技术"
         },
         {
+            "name": "深度神经网络",
+            "type": "深度学习概念"
+        },
+        {
             "name": "耐药表型",
             "type": "生物医学概念"
         },
@@ -9225,6 +9761,10 @@
             "type": "生物技术"
         },
         {
+            "name": "短读长",
+            "type": "生物技术"
+        },
+        {
             "name": "gcPathogen",
             "type": "生物信息工具"
         },
@@ -9329,7 +9869,7 @@
             "type": "生物分子"
         },
         {
-            "name": "表皮葡萄球菌",
+            "name": "脑膜炎奈瑟菌",
             "type": "生物分子"
         },
         {
@@ -9737,10 +10277,6 @@
             "type": "生物分子"
         },
         {
-            "name": "拜复乐",
-            "type": "生物分子"
-        },
-        {
             "name": "流感嗜血杆菌",
             "type": "生物分子"
         },
@@ -9762,6 +10298,10 @@
         },
         {
             "name": "咽痛",
+            "type": "生物医学概念"
+        },
+        {
+            "name": "肺炎",
             "type": "生物医学概念"
         },
         {
@@ -17694,6 +18234,331 @@
             "tail": "耐药机制"
         },
         {
+            "head": "23S rRNA",
+            "type": "调控",
+            "tail": "23S rRNA (adenine(2085)-N(6))-dimethyltransferase activity"
+        },
+        {
+            "head": "23S rRNA",
+            "type": "调控",
+            "tail": "23S rRNA (adenosine(1067)-2'-O)-methyltransferase activity"
+        },
+        {
+            "head": "2-octaprenyl-3-methyl-6-methoxy-1,4-benzoquinol hydroxylase",
+            "type": "参与",
+            "tail": "ubiquinone biosynthetic process"
+        },
+        {
+            "head": "4 amino, 4 deoxy-L-arabinose",
+            "type": "参与",
+            "tail": "4-amino-4-deoxy-alpha-L-arabinopyranosyl undecaprenyl phosphate biosynthetic process"
+        },
+        {
+            "head": "ABC-type amino acid transporter",
+            "type": "参与",
+            "tail": "amino acid transmembrane transport"
+        },
+        {
+            "head": "ABC-type transporter",
+            "type": "参与",
+            "tail": "transmembrane transport"
+        },
+        {
+            "head": "ABC-type xenobiotic transporter",
+            "type": "参与",
+            "tail": "xenobiotic transmembrane transport"
+        },
+        {
+            "head": "ABC-type xenobiotic transporter",
+            "type": "参与",
+            "tail": "xenobiotic detoxification"
+        },
+        {
+            "head": "Acylytransferase",
+            "type": "参与",
+            "tail": "lipid A biosynthetic process"
+        },
+        {
+            "head": "Acylytransferase",
+            "type": "参与",
+            "tail": "lipid metabolic process"
+        },
+        {
+            "head": "Acylytransferase",
+            "type": "参与",
+            "tail": "lipopolysaccharide core region biosynthetic process"
+        },
+        {
+            "head": "Adenylyltransferase",
+            "type": "参与",
+            "tail": "mRNA catabolic process"
+        },
+        {
+            "head": "Adenylyltransferase",
+            "type": "参与",
+            "tail": "ATP adenylyltransferase activity"
+        },
+        {
+            "head": "Alanine racemase",
+            "type": "参与",
+            "tail": "D-alanine biosynthetic process"
+        },
+        {
+            "head": "Amino-acid betaine transmembrane transporter",
+            "type": "参与",
+            "tail": "glycine betaine transport"
+        },
+        {
+            "head": "Aminoacyl-tRNA editing",
+            "type": "参与",
+            "tail": "mRNA catabolic process"
+        },
+        {
+            "head": "Aminoacyltransferase",
+            "type": "参与",
+            "tail": "isoleucyl-tRNA aminoacylation"
+        },
+        {
+            "head": "Aminoglycoside 2''-nucleotidyltransferase",
+            "type": "参与",
+            "tail": "response to antibiotic"
+        },
+        {
+            "head": "Aminoglycoside 3''-adenylyltransferase",
+            "type": "参与",
+            "tail": "response to antibiotic"
+        },
+        {
+            "head": "Aminoglycoside 3-N-acetyltransferase",
+            "type": "参与",
+            "tail": "response to antibiotic"
+        },
+        {
+            "head": "Aminoglycoside 6'-N-acetyltransferase",
+            "type": "参与",
+            "tail": "response to antibiotic"
+        },
+        {
+            "head": "Antimonite secondary active transmembrane transporter",
+            "type": "参与",
+            "tail": "antimonite transport"
+        },
+        {
+            "head": "Antiporter",
+            "type": "参与",
+            "tail": "transmembrane transport"
+        },
+        {
+            "head": "Arsenite transmembrane transporter",
+            "type": "参与",
+            "tail": "response to arsenic-containing substance"
+        },
+        {
+            "head": "ATP adenylyltransferase",
+            "type": "参与",
+            "tail": "ATP binding"
+        },
+        {
+            "head": "Basic amino acid transmembrane transporter",
+            "type": "参与",
+            "tail": "amino acid transmembrane transport"
+        },
+        {
+            "head": "Beta-lactamase",
+            "type": "参与",
+            "tail": "beta-lactam antibiotic catabolic process"
+        },
+        {
+            "head": "Carbon-oxygen lyase",
+            "type": "参与",
+            "tail": "lipid A biosynthetic process"
+        },
+        {
+            "head": "Carboxy-lyase",
+            "type": "参与",
+            "tail": "lipid A biosynthetic process"
+        },
+        {
+            "head": "Xenobiotic detoxification",
+            "type": "包含",
+            "tail": "xenobiotic export from cell"
+        },
+        {
+            "head": "Xenobiotic detoxification",
+            "type": "包含",
+            "tail": "xenobiotic transmembrane transport"
+        },
+        {
+            "head": "Xenobiotic export from cell",
+            "type": "属于",
+            "tail": "xenobiotic detoxification"
+        },
+        {
+            "head": "Xenobiotic transmembrane transport",
+            "type": "属于",
+            "tail": "xenobiotic detoxification"
+        },
+        {
+            "head": "Xenobiotic transmembrane transport",
+            "type": "参与",
+            "tail": "xenobiotic transport"
+        },
+        {
+            "head": "Gram-negative-bacterium-type cell outer membrane assembly",
+            "type": "参与",
+            "tail": "cell wall organization"
+        },
+        {
+            "head": "Cell wall organization",
+            "type": "属于",
+            "tail": "Gram-negative-bacterium-type cell outer membrane assembly"
+        },
+        {
+            "head": "Cellular response to magnesium starvation",
+            "type": "属于",
+            "tail": "response to toxic substance"
+        },
+        {
+            "head": "Cellular response to phosphate starvation",
+            "type": "属于",
+            "tail": "response to toxic substance"
+        },
+        {
+            "head": "Copper ion export",
+            "type": "属于",
+            "tail": "response to toxic substance"
+        },
+        {
+            "head": "Copper ion transport",
+            "type": "属于",
+            "tail": "response to toxic substance"
+        },
+        {
+            "head": "Cysteine export",
+            "type": "参与",
+            "tail": "cysteine transmembrane transport"
+        },
+        {
+            "head": "D-alanine biosynthetic process",
+            "type": "参与",
+            "tail": "lipid A biosynthetic process"
+        },
+        {
+            "head": "Daunorubicin transport",
+            "type": "参与",
+            "tail": "xenobiotic transport"
+        },
+        {
+            "head": "Detection of virus",
+            "type": "属于",
+            "tail": "DNA damage response"
+        },
+        {
+            "head": "Diadenosine tetraphosphate biosynthetic process",
+            "type": "参与",
+            "tail": "intracellular iron ion homeostasis"
+        },
+        {
+            "head": "Dihydrofolate metabolic process",
+            "type": "参与",
+            "tail": "folic acid biosynthetic process"
+        },
+        {
+            "head": "DNA damage response",
+            "type": "调控",
+            "tail": "DNA-templated transcription"
+        },
+        {
+            "head": "DNA-templated transcription",
+            "type": "调控",
+            "tail": "negative regulation of DNA-templated transcription"
+        },
+        {
+            "head": "DNA-templated transcription",
+            "type": "调控",
+            "tail": "positive regulation of DNA-templated transcription"
+        },
+        {
+            "head": "Folic acid biosynthetic process",
+            "type": "参与",
+            "tail": "dihydrofolate metabolic process"
+        },
+        {
+            "head": "Phosphorelay signal transduction system",
+            "type": "参与",
+            "tail": "regulation of DNA-templated transcription"
+        },
+        {
+            "head": "Phosphorylation",
+            "type": "参与",
+            "tail": "positive regulation of phospholipid biosynthetic process"
+        },
+        {
+            "head": "Potassium ion transport",
+            "type": "参与",
+            "tail": "monoatomic ion transport"
+        },
+        {
+            "head": "Proton transmembrane transport",
+            "type": "参与",
+            "tail": "transmembrane transport"
+        },
+        {
+            "head": "Pyoverdine biosynthetic process",
+            "type": "属于",
+            "tail": "antibiotic biosynthetic process"
+        },
+        {
+            "head": "Response to antibiotic",
+            "type": "属于",
+            "tail": "response to toxic substance"
+        },
+        {
+            "head": "Response to arsenic-containing substance",
+            "type": "属于",
+            "tail": "response to toxic substance"
+        },
+        {
+            "head": "Response to cadmium ion",
+            "type": "属于",
+            "tail": "response to toxic substance"
+        },
+        {
+            "head": "Sodium ion transport",
+            "type": "参与",
+            "tail": "monoatomic ion transport"
+        },
+        {
+            "head": "Transmembrane transport",
+            "type": "包含",
+            "tail": "proton transmembrane transport"
+        },
+        {
+            "head": "Transmembrane transport",
+            "type": "包含",
+            "tail": "cysteine transmembrane transport"
+        },
+        {
+            "head": "Transmembrane transport",
+            "type": "包含",
+            "tail": "xenobiotic transmembrane transport"
+        },
+        {
+            "head": "Xenobiotic transport",
+            "type": "包含",
+            "tail": "xenobiotic transmembrane transport"
+        },
+        {
+            "head": "Xenobiotic transport",
+            "type": "包含",
+            "tail": "daunorubicin transport"
+        },
+        {
+            "head": "Xenobiotic transport",
+            "type": "包含",
+            "tail": "antimonite transport"
+        },
+        {
             "head": "文献调研",
             "type": "使用",
             "tail": "MALDI-TOF 质谱"
@@ -23399,6 +24264,311 @@
             "tail": "数据清理日志"
         },
         {
+            "head": "ResFinder",
+            "type": "使用",
+            "tail": "最佳命中方法"
+        },
+        {
+            "head": "SEAR",
+            "type": "使用",
+            "tail": "最佳命中方法"
+        },
+        {
+            "head": "Mykrobe预测因子",
+            "type": "使用",
+            "tail": "最佳命中方法"
+        },
+        {
+            "head": "PATRIC",
+            "type": "使用",
+            "tail": "最佳命中方法"
+        },
+        {
+            "head": "ResFinder",
+            "type": "使用",
+            "tail": "序列同一性"
+        },
+        {
+            "head": "ARGs-OAP",
+            "type": "使用",
+            "tail": "序列同一性"
+        },
+        {
+            "head": "DeepARG-SS",
+            "type": "使用",
+            "tail": "深度学习"
+        },
+        {
+            "head": "DeepARG-LS",
+            "type": "使用",
+            "tail": "深度学习"
+        },
+        {
+            "head": "DeepARG-DB",
+            "type": "使用",
+            "tail": "人工检查"
+        },
+        {
+            "head": "DeepARG-DB",
+            "type": "使用",
+            "tail": "深度学习模型"
+        },
+        {
+            "head": "UNIPROT",
+            "type": "包含",
+            "tail": "抗生素耐药性关键字"
+        },
+        {
+            "head": "UNIPROT",
+            "type": "包含",
+            "tail": "元数据描述"
+        },
+        {
+            "head": "CD-HIT",
+            "type": "使用",
+            "tail": "聚类"
+        },
+        {
+            "head": "CD-HIT",
+            "type": "作用于",
+            "tail": "ARGs"
+        },
+        {
+            "head": "UNIPROT",
+            "type": "合并",
+            "tail": "CARD"
+        },
+        {
+            "head": "UNIPROT",
+            "type": "合并",
+            "tail": "ARDB"
+        },
+        {
+            "head": "UNIPROT",
+            "type": "包含",
+            "tail": "抗生素耐药性"
+        },
+        {
+            "head": "UNIPROT基因",
+            "type": "属于",
+            "tail": "UNIPROT"
+        },
+        {
+            "head": "文本挖掘",
+            "type": "使用",
+            "tail": "Levenshtein距离"
+        },
+        {
+            "head": "文本挖掘",
+            "type": "作用于",
+            "tail": "UNIPROT基因描述"
+        },
+        {
+            "head": "UNIPROT基因",
+            "type": "属于",
+            "tail": "抗生素耐药性类别"
+        },
+        {
+            "head": "β-内酰胺酶",
+            "type": "包含",
+            "tail": "碳青霉烯"
+        },
+        {
+            "head": "β-内酰胺酶",
+            "type": "包含",
+            "tail": "羧苄青霉素"
+        },
+        {
+            "head": "β-内酰胺酶",
+            "type": "包含",
+            "tail": "头孢西丁"
+        },
+        {
+            "head": "β-内酰胺酶",
+            "type": "包含",
+            "tail": "头孢他啶"
+        },
+        {
+            "head": "β-内酰胺酶",
+            "type": "包含",
+            "tail": "头孢曲松"
+        },
+        {
+            "head": "β-内酰胺酶",
+            "type": "包含",
+            "tail": "头孢菌素"
+        },
+        {
+            "head": "DIAMOND",
+            "type": "使用",
+            "tail": "序列同一性"
+        },
+        {
+            "head": "DIAMOND",
+            "type": "使用",
+            "tail": "e值"
+        },
+        {
+            "head": "DIAMOND",
+            "type": "使用",
+            "tail": "位得分"
+        },
+        {
+            "head": "UNIPROT",
+            "type": "包含",
+            "tail": "HUGO命名法"
+        },
+        {
+            "head": "UNIPROT",
+            "type": "包含",
+            "tail": "人工检查证据"
+        },
+        {
+            "head": "UNIPROT基因",
+            "type": "属于",
+            "tail": "β-内酰胺酶"
+        },
+        {
+            "head": "UNIPROT基因",
+            "type": "属于",
+            "tail": "tetA"
+        },
+        {
+            "head": "UNIPROT基因",
+            "type": "属于",
+            "tail": "sul1"
+        },
+        {
+            "head": "UNIPROT基因",
+            "type": "属于",
+            "tail": "macB"
+        },
+        {
+            "head": "UNIPROT基因",
+            "type": "属于",
+            "tail": "oxa"
+        },
+        {
+            "head": "UNIPROT基因",
+            "type": "属于",
+            "tail": "mir"
+        },
+        {
+            "head": "UNIPROT基因",
+            "type": "属于",
+            "tail": "dha"
+        },
+        {
+            "head": "Yhel",
+            "type": "赋予耐药性",
+            "tail": "多柔比星"
+        },
+        {
+            "head": "Yhel",
+            "type": "赋予耐药性",
+            "tail": "米托蒽醌"
+        },
+        {
+            "head": "VraR",
+            "type": "赋予耐药性",
+            "tail": "万古霉素"
+        },
+        {
+            "head": "宏基因组",
+            "type": "使用",
+            "tail": "DeepARG-SS"
+        },
+        {
+            "head": "宏基因组",
+            "type": "使用",
+            "tail": "DeepARG-LS"
+        },
+        {
+            "head": "深度学习",
+            "type": "属于",
+            "tail": "机器学习"
+        },
+        {
+            "head": "深度学习",
+            "type": "用于",
+            "tail": "预测ARG"
+        },
+        {
+            "head": "深度学习",
+            "type": "优于",
+            "tail": "传统方法"
+        },
+        {
+            "head": "深度学习",
+            "type": "应用领域",
+            "tail": "基因组问题"
+        },
+        {
+            "head": "DeepARG-SS",
+            "type": "预测",
+            "tail": "短读长序列"
+        },
+        {
+            "head": "DeepARG-LS",
+            "type": "预测",
+            "tail": "全基因长度序列"
+        },
+        {
+            "head": "DeepARG-DB",
+            "type": "构建",
+            "tail": "人工检查"
+        },
+        {
+            "head": "DeepARG-DB",
+            "type": "构建",
+            "tail": "深度学习预测"
+        },
+        {
+            "head": "假阳性率",
+            "type": "属于",
+            "tail": "其他"
+        },
+        {
+            "head": "假阴性率",
+            "type": "属于",
+            "tail": "其他"
+        },
+        {
+            "head": "e值",
+            "type": "属于",
+            "tail": "其他"
+        },
+        {
+            "head": "位得分",
+            "type": "属于",
+            "tail": "其他"
+        },
+        {
+            "head": "序列同一性",
+            "type": "属于",
+            "tail": "其他"
+        },
+        {
+            "head": "基因组",
+            "type": "属于",
+            "tail": "生物技术"
+        },
+        {
+            "head": "文本挖掘",
+            "type": "属于",
+            "tail": "其他"
+        },
+        {
+            "head": "聚类",
+            "type": "属于",
+            "tail": "生物信息工具"
+        },
+        {
+            "head": "人工检查",
+            "type": "属于",
+            "tail": "项目活动"
+        },
+        {
             "head": "MAC",
             "type": "使用",
             "tail": "通量平衡分析"
@@ -27524,6 +28694,151 @@
             "tail": "2025年1月6日"
         },
         {
+            "head": "UNI 基因",
+            "type": "调控",
+            "tail": "抗生素耐药性"
+        },
+        {
+            "head": "DeepARG-LS",
+            "type": "使用",
+            "tail": "全基因长度序列"
+        },
+        {
+            "head": "DeepARG-SS",
+            "type": "使用",
+            "tail": "短序列读长"
+        },
+        {
+            "head": "DeepARG",
+            "type": "使用",
+            "tail": "UNIPROT"
+        },
+        {
+            "head": "DeepARG",
+            "type": "使用",
+            "tail": "CARD"
+        },
+        {
+            "head": "DeepARG",
+            "type": "使用",
+            "tail": "ARDB"
+        },
+        {
+            "head": "DeepARG",
+            "type": "使用",
+            "tail": "比特分数"
+        },
+        {
+            "head": "DeepARG",
+            "type": "使用",
+            "tail": "dropout"
+        },
+        {
+            "head": "DeepARG",
+            "type": "使用",
+            "tail": "softMax"
+        },
+        {
+            "head": "DeepARG",
+            "type": "使用",
+            "tail": "Python"
+        },
+        {
+            "head": "DeepARG",
+            "type": "使用",
+            "tail": "Lasagne"
+        },
+        {
+            "head": "DeepARG",
+            "type": "使用",
+            "tail": "Theano"
+        },
+        {
+            "head": "DeepARG",
+            "type": "使用",
+            "tail": "GPU"
+        },
+        {
+            "head": "UNIPROT",
+            "type": "使用",
+            "tail": "DIAMOND"
+        },
+        {
+            "head": "UNIPROT",
+            "type": "使用",
+            "tail": "CARD"
+        },
+        {
+            "head": "UNIPROT",
+            "type": "使用",
+            "tail": "ARDB"
+        },
+        {
+            "head": "DeepARG",
+            "type": "因果",
+            "tail": "抗生素耐药性"
+        },
+        {
+            "head": "DeepARG",
+            "type": "属于",
+            "tail": "监督式机器学习模型"
+        },
+        {
+            "head": "监督式机器学习模型",
+            "type": "包含",
+            "tail": "表征单元"
+        },
+        {
+            "head": "监督式机器学习模型",
+            "type": "包含",
+            "tail": "训练单元"
+        },
+        {
+            "head": "监督式机器学习模型",
+            "type": "包含",
+            "tail": "预测单元"
+        },
+        {
+            "head": "表征单元",
+            "type": "使用",
+            "tail": "特征"
+        },
+        {
+            "head": "表征单元",
+            "type": "使用",
+            "tail": "DNA"
+        },
+        {
+            "head": "DeepARG-SS",
+            "type": "使用",
+            "tail": "Illumina"
+        },
+        {
+            "head": "DeepARG-SS",
+            "type": "使用",
+            "tail": "NGS"
+        },
+        {
+            "head": "DeepARG-LS",
+            "type": "使用",
+            "tail": "MetaHit"
+        },
+        {
+            "head": "DeepARG-LS",
+            "type": "使用",
+            "tail": "开放阅读框"
+        },
+        {
+            "head": "SNP",
+            "type": "调控",
+            "tail": "抗生素耐药性"
+        },
+        {
+            "head": "监督式机器学习模型",
+            "type": "使用",
+            "tail": "比特分数"
+        },
+        {
             "head": "PLM-ARG",
             "type": "使用",
             "tail": "EMBOSS"
@@ -28722,21 +30037,6 @@
             "head": "DeepARG-SS",
             "type": "使用",
             "tail": "短读长序列"
-        },
-        {
-            "head": "DeepARG-LS",
-            "type": "使用",
-            "tail": "全基因长度序列"
-        },
-        {
-            "head": "DeepARG-SS",
-            "type": "使用",
-            "tail": "深度学习"
-        },
-        {
-            "head": "DeepARG-LS",
-            "type": "使用",
-            "tail": "深度学习"
         },
         {
             "head": "DeepARG-SS",
